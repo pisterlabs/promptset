@@ -158,4 +158,4 @@ class Summary:
         except Exception as e:
             print("Error summarizing",e)
             return ""
-zz(PromptTemplate("arge"))
+prompt = PromptTemplate("arge")
