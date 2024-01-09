@@ -4,10 +4,11 @@ from itertools import product
 
 username = utils.get_github_credentials_TEALS()["username"]  # Replace with your own username
 password = utils.get_github_credentials_TEALS()["password"]  # Replace with your own password.
-library = "langchain"  # Replace with the library you want to search for
+library = "openai"  # Replace with the library you want to search for
 
 CHARACTERS = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "_", "-", "a", "b", "c", "d", "e", "f", "g", "h", "i",
               "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+MAX_CHAR_LIMIT = 6  # Maximum number of characters in a search query
 
 # Scraped Data will be stored here, along with the progress
 if os.path.exists(f"results_{library}.json"):
@@ -47,11 +48,14 @@ if __name__ == "__main__":
         while len(charCombo_to_results["~remaining_combinations~"]) > 0:
             charCombo = charCombo_to_results["~remaining_combinations~"].pop(-1)
             for i in range(1, 6):
-                try:
-                    # Go to Code Search
-                    page.goto(f'https://github.com/search?q=%22from+{library}%22+OR+%22import+{library}%22+language%3Apython+path%3A{charCombo}*+-repo%3Apisterlabs%2Fprompt-linter&type=code&ref=advsearch&p={i}')
-                except PlaywrightTimeoutError:
-                    page.reload()
+                # Exception handling to prevent timeout...
+                while True:
+                    try:
+                        # Go to Code Search
+                        page.goto(f'https://github.com/search?q=%22from+{library}%22+OR+%22import+{library}%22+language%3Apython+path%3A{charCombo}*+-repo%3Apisterlabs%2Fprompt-linter&type=code&ref=advsearch&p={i}')
+                        break
+                    except PlaywrightTimeoutError:
+                        page.reload()
                 # Keep waiting while we are still rate limited
                 wait_count = 90
                 while page.is_visible("#suggestions"):
@@ -91,7 +95,7 @@ if __name__ == "__main__":
 
                 # If the number of results for this charCombo exceeds the pagination limit (5 page, 20 per page),
                 # then we skip this charCombo, and add the cartesian product of this charCombo with all characters.
-                if num_results > 100 and len(charCombo) < 6:
+                if num_results > 100 and len(charCombo) < MAX_CHAR_LIMIT:
                     print(f"Skipping {charCombo} as it has {num_results} results.")
                     charCombo_to_results["~remaining_combinations~"] += ["".join(pair) for pair in product([charCombo], CHARACTERS)]
                     break
