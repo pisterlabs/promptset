@@ -60,7 +60,7 @@ for url in all_rawFileURLs:
     # Getting repo name
     repo_name = "~".join(url_split[3:5])
 
-    # Remove "#" from filename if it exists
+    # Get filename addr for local storage
     filename_addr = url_split[6:]
     filename_addr = "~".join(filename_addr)
 
@@ -75,6 +75,7 @@ for url in all_rawFileURLs:
         filename_addr = filename_addr.split("~")[-1]
         file_path = os.path.join(repo_path, filename_addr)
 
+    # print("Checking")
     if not os.path.exists(file_path):
         try:
             r = requests.get(url, timeout=1)
@@ -88,6 +89,7 @@ for url in all_rawFileURLs:
         except Exception as e:
             print(e)
             print("Error: ", repo_path, filename_addr)
+    # print("Done")
 
     if count % 100 == 0:
         print(count, end=" ")
