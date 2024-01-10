@@ -1,0 +1,112 @@
+import openai
+import re
+import logging
+import json
+import PyPDF2
+from pdf2image import convert_from_path
+import pytesseract
+
+class ResumeParser():
+    def __init__(self, OPENAI_API_KEY):
+        # set GPT-3 API key from the environment variable
+        openai.api_key = OPENAI_API_KEY
+        # GPT-3 completion questions
+        self.prompt_questions = \
+"""Summarize the text below into a JSON with exactly the following structure {basic_info: {first_name, last_name, full_name, email, phone_number, location, portfolio_website_url, linkedin_url, github_main_page_url, university, education_level (BS, MS, or PhD), graduation_year, graduation_month, majors, GPA}, work_experience: [{job_title, company, location, duration, job_summary}], project_experience: [{project_name, project_description}], certifications: [{certification_name, issuing_organization, issue_date, expiration_date, certification_url}]}
+"""
+        # set up this parser's logger
+        logging.basicConfig(filename='logs/parser.log', level=logging.DEBUG)
+        self.logger = logging.getLogger()
+
+    def pdf2string(self, pdf_path: str) -> str:
+        """
+        Extract the content of a pdf file to string.
+        :param pdf_path: Path to the PDF file.
+        :if it's empty, run OCR
+        :return: PDF content string.
+        """
+        with open(pdf_path, "rb") as f:
+            pdfreader = PyPDF2.PdfReader(f)
+            pdf = ''
+            for page in pdfreader.pages:
+                extracted_text = page.extract_text()
+                if extracted_text.strip():
+                    pdf += extracted_text
+                else:
+                    images = convert_from_path(pdf_path)
+                    for img in images:
+                        pdf += pytesseract.image_to_string(img)
+        
+        pdf_str = re.sub(r'\s[,.]', ',', pdf)
+        pdf_str = re.sub('[\n]+', '\n', pdf_str)
+        pdf_str = re.sub(r'[\s]+', ' ', pdf_str)
+        pdf_str = re.sub('http[s]?(://)?', '', pdf_str)
+        
+        return pdf_str
+    def query_completion(self,
+                        prompt: str,
+                        engine: str = 'gpt-3.5-turbo-instruct',
+                        temperature: float = 0.0,
+                        max_tokens: int = 100,
+                        top_p: int = 1,
+                        frequency_penalty: int = 0,
+                        presence_penalty: int = 0) -> object:
+        """
+        Base function for querying GPT-3. 
+        Send a request to GPT-3 with the passed-in function parameters and return the response object.
+        :param prompt: GPT-3 completion prompt.
+        :param engine: The engine, or model, to generate completion.
+        :param temperature: Controls the randomnesss. Lower means more deterministic.
+        :param max_tokens: Maximum number of tokens to be used for prompt and completion combined.
+        :param top_p: Controls diversity via nucleus sampling.
+        :param frequency_penalty: How much to penalize new tokens based on their existence in text so far.
+        :param presence_penalty: How much to penalize new tokens based on whether they appear in text so far.
+        :return: GPT-3 response object
+        """
+        self.logger.info(f'query_completion: using {engine}')
+        estimated_prompt_tokens = int(len(prompt.split()) * 1.6)
+        self.logger.info(f'estimated prompt tokens: {estimated_prompt_tokens}')
+        estimated_answer_tokens = 2049 - estimated_prompt_tokens
+        if estimated_answer_tokens < max_tokens:
+            self.logger.warning('estimated_answer_tokens lower than max_tokens, changing max_tokens to %s', estimated_answer_tokens)
+        response = openai.completions.create(
+            model=engine,
+            prompt=prompt,
+            temperature=temperature,
+            max_tokens=min(4096-estimated_prompt_tokens, max_tokens),
+            top_p=top_p,
+            frequency_penalty=frequency_penalty,
+            presence_penalty=presence_penalty
+        )
+        return response
+    
+    def query_resume(self, pdf_path: str) -> dict:
+        """
+        Query GPT-3 for the work experience and / or basic information from the resume at the PDF file path.
+        :param pdf_path: Path to the PDF file.
+        :return dictionary of resume with keys (basic_info, work_experience).
+        """
+        resume = {}
+        pdf_str = self.pdf2string(pdf_path)
+        prompt = self.prompt_questions + '\n' + pdf_str
+        max_tokens = 1500
+        engine = 'gpt-3.5-turbo-instruct'
+        # engine = 'gpt-4'
+        response = self.query_completion(prompt,engine=engine,max_tokens=max_tokens)
+        response_text = response.choices[0].text.strip()
+
+        try:
+            resume = json.loads(response_text)
+        except json.JSONDecodeError as e:
+            print("Error decoding JSON:", e)
+            print("Received response:", response_text)
+            return {}
+
+        # Log the output resume to a file
+        with open('resume_logs.jsonl', 'a') as f:
+            json.dump(resume, f)
+            f.write('\n')
+
+        return resume
+
+

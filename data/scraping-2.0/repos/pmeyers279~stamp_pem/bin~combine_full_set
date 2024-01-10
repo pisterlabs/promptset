@@ -1,0 +1,51 @@
+#!/usr/bin/env python
+import h5py
+from gwpy.spectrum import Spectrum
+import optparse
+from stamp_pem import coherence_functions as cf
+from stamp_pem import coh_io
+from gwpy.segments import (DataQualityFlag,Segment,SegmentList)
+import numpy as np
+import glob, os
+
+
+def parse_command_line():
+    """
+    parse_command_line
+    """
+    parser = optparse.OptionParser()
+    parser.add_option(
+        "--darm-channel", help="channel 1", default='L1:GDS-CALIB_STRAIN',
+        type=str, dest="darm")
+    parser.add_option(
+        "-s", "--start-time", dest='st', help="start time", type=int,
+        default=None)
+    parser.add_option(
+        "-e", "--end-time", dest='et', help="end time", type=int, default=None)
+    parser.add_option(
+        "--directory", dest="directory", type=str, help="base directory")
+    parser.add_option(
+	"--channel-list", dest="cl", type=str, help="channel list")
+    parser.add_option(
+        "--flag", dest="flag", type=str, help="data quality flag")
+    parser.add_option(
+	"--num-chans", dest='nchans', type=int, help="number of channels", default=20)
+    params, args = parser.parse_args()
+    return params
+
+params = parse_command_line()
+
+list = coh_io.read_list(params.cl)
+subsystems = list.keys()
+
+for subsystem in subsystems:
+    cmd = 'combine_coherence -s %d -e %d --subsystem %s --directory %s --channel-list %s --darm-channel %s' % (params.st, params.et, subsystem, params.directory, params.cl, params.darm)
+    directory = coh_io.get_directory_structure(
+                    subsystem, params.st, params.directory)
+    cmd2 = 'rm %s/*%d-%d' % (directory, params.st, params.et - params.st)
+    print cmd2
+    os.system(cmd2)
+    print cmd
+    os.system(cmd)
+
+

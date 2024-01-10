@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+
+import openai
+import os
+import sys
+
+if len(sys.argv)!=2:
+	print('Usage Error')
+	sys.exit(1)
+
+query = sys.argv[1]
+
+openai.api_key = os.environ['api_key']
+completions = openai.Completion.create(
+	engine='text-davinci-003',
+	prompt=query,
+	max_tokens=1024,
+	n=1,
+	stop=None,
+	temperature=0.5,
+)
+
+message = completions.choices[0].text
+print('response: %s\n' % message)

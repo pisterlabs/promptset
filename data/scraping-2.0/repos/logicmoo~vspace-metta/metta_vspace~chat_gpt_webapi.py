@@ -1,0 +1,41 @@
+import os
+from dotenv import load_dotenv # pip install python-dotenv
+from gpt4_openai import GPT4OpenAI
+load_dotenv()
+# Token is the __Secure-next-auth.session-token from chat.openai.com
+my_session_token = os.environ["OPENAI_SESSION_TOKEN"]
+if my_session_token is None:
+    os.environ["OPENAI_SESSION_TOKEN"] = "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..yHSeSng67bEvv6PF.AFzdgn_wRGfiLiXiJpGih15IWLPGtrpseHInprQR2fDVMFDC5Eiqx_jwLAv69ChVGBe5AHVeKUuVIKeUoud1HBwl9hKCOJqlzGG1dtySFarPY35RZ-d5tyGfjz8HBepDlxST1kov-vpSN3Ihua2bLXOwkmKq7OKMPUT13M2hyAH8SMurIV36d2gDKLluoU87zDxxi9eKHxEiOU1_Osgg4WbrkeZXVpJtFWzzODg4VfKE1WjT_ERIF2dpsVIZewoHtH14SPTBiZL8refn4NqnMmgr5qWH3ZLvlImzv6m0imNtwFFifM39j3i552AZPXkfTvV3DMSYyEHKU2bkT0rUqRxXnSTA3MhWZAR-4gIcWtRlZcc4Qx4xblJse4X8HJT1N8ccm92QJHUn3-r19LUUWuDsKYn1H3TNnsxKJVmKOhf_W-F04tuAcHxx7eBT6w43Z1apX8Wz0EaV7Eu9ogpXwbgk_6WvK3deX52YcjrRSwpMM7nVvGf-PxfiEiuMZwU3B0E7-Iu4PyqzmVyO52_Kepo9Ll4psKADV9Cz3jQNrfOEKX7rANCsckzXZ79XdAEg1ymBFCDf-_O_SBZFJ7Nnoyet88JHVb4VaOCoOJJ0TWp5sXS4E6PKzrnpovHFn2L_iBYpNXiOAXS_WLUmHuCnjiZuLh5ziwrUXPmXKs2DiK4G6U8FSlTpZeOE9qW4eXhmUgQKRuzEGlT4jwI23GlGEL2nq5aRTS1C0jVR2ZO9al5Un-3SltN6-7Om63OQ0U9tAmgNsrp3a6z7IP_9ZPM4wxkhShHxBxRfWGhZ6KlINByo6_E5e1bSsHCFSHrnDXfIXEgvSu1NNkG2yKTd5vPW7euqp-LdxwIkmmcS0dnBw10MBBROBciMqCantDyemfAkGDfHxn_FF3YCZfumKhr6cQE8c6-EP3AHgMzNNEPxvnoH6K_ojwxRmmx5Ml0gyahFUIyBq00IaYHQGVC_rfJ67za9OsSMKBPAEv1pfKHuWQc_1lETaR8zmyF2ymbh1_qoxKM5-Q-eB7ieyhH6AhlUNOkydLPdGKGNfBA28GQW3ydXYsnFf8vzhxDgKIlAjuBwT0Lq33lCrQ2RFSBZ0oKJvxStRAYVoi2WO49NzkYk8loj6r-s9j0rgh6dKDJq_vf4ZeX3CqajOsHsOnTZL4oRy1nKCF9RnU0cQhx-v37kRSvPNsOGrOdupj-6uIkVSw3e4UogsMKZValBbBq1EddbcHENbkH5NFuzyCswwsZZg1p-9kat_7Jypxu3IqXnDZ4gVXlRSngAUYCZq4kJxZJYlzyaTmswt-eNO02tSDBtowfawbkRUmSpNf6bF5DfrHCXC1kFKp0QJPKcAlnB4woKfDdIE6P3XS5Jfh1_ZHdxSanJCW_Ef3hJ2w1fgpLlrZ8o3KTYBHufEp__Fg5JtW4BbtqmJy8Vi5O6mhQs-pGszQ8wt9o3fus9AJXQTdAgAKfx9ujO8SGrHq0k3BapfC0_ViHd2Ko9t4gl_AtPWWgy8EmLM4MAZB7OqF75vUQJEXDRLh0WidXCTsqJrLSZgUsjeJEG9-zGrxRryDumM-dmYWoXDAibWPaDZXUquueTwU4kEFIfXzsv_K_bmRHl_a2-yVRSFKKHa5lKZn3yeHPWKYvCxBVzAdi_rInZGY0_08KZHPqnHbU5omBjkq17a48RObax7rbL1DdAWvPiPHHM2yfJivOXi8e5m8knXyB_dWKHckgfWsXLJ5FS3ZBjY1QwIlpVUuDTGQoHVzyyuFDTbFPZIQAbeUp8YZdsSqatLppG52Y0EUEJS7iGdw-gFhaCeHWs2NTgZ5MsQgbWV_sETXDrPrRYiR_vGNMmPQsiDJIX5Agso5GQcDbJfRNGBbcdSMBrilb5PbvP8k3SUGgoaHB2bWkZTC4uhrM4O9yo1alDdGFjMk0zZrH70eJbiOhZC3rpEIenc5vvyIO-lsPatBN9SvGGGzqW7mFtY0Mi2fnGU3mQsqCnVVhikwFwDv9Lg5LhM0LDAVwM6APOcmTwShV8fse6onCneGer3zHpk17bPMC5c-e8WXYnRHtaOMcenRK--yHCyInSz_hakS2m0PLZj07s9z8vRdXD1IOk2pYloHEWLFPN0g3en8ajfri4jSsDqh39BjqGKDl3JG0K2OtwpNECpNI2hfiyhp4aYrZk9ocPZdhOCuHfw2nSpk6dH-fLDbbdpdkNJeLbjgjSZuePOis-LQMGQkGlaCd8Z0yhsfsvck4APE_jotLpF5cbL_ntcZXdhf4n0y_h6fDoa77l3Kmsv0Dibql1NbXnu9vVhGkQgM0tXx6-Mg_zGTdoNGc9McSrbvJ5HeOaOR9okxDjJfDshMElvykaNJuJUK6ofrWR2iFiF81XVnxsQ7pX2LnDQhXwKbhdOaQL4Ctx7V_wBJUrcCdKXRW1a9NmZwx4DiG4Jk22Y6hP6d1Rx5KRHQjRdlJ9cxlfOv-JDO2ou9_6Zh42ItfBgsqNOoi0yYLd_bV36jGplAJxKUH8gWV2kM2Boj3BKWUy4OLuwY9QeFK2OI9SKzK0bZk6d4Gn3IZfoQkddJ5s5nFbe0RKoDk_zj2JbjtxYdvV8_bIMwFowF7l4Sot5KRRhdZOjoCQkTngifm1taIZeek5upcinyFRngdETkkzUu3XCyzeIVJP8CzBfJrAH_OHduv0w2Q7_hMFwj44lqimcEpB3hXcGT55DfZW41On51qjnlXdifrq1WktdofArrK2ZovH0M5L1FmmDhRhOtonVpk2HYM2zeMyUAvdcL2GZUex4d1r2kxlGcBl8U3SC3LrxbB_x29ioEWNS7VM8RMtWIniY9bW7nihCuwRvvxCA_2A937CQbed.e5Yevuc43oas5F5i7AyHxw"
+
+
+def test_longchain():
+    from langchain import LLMChain  # pip install langchain[chains]
+    from langchain import (ChatPromptTemplate, SystemMessagePromptTemplate, AIMessagePromptTemplate, HumanMessagePromptTemplate)
+
+    template="You are a helpful assistant that translates english to KIF."
+    system_message_prompt = SystemMessagePromptTemplate.from_template(template)
+    example_human = HumanMessagePromptTemplate.from_template("Fido is a Dog")
+    example_ai = AIMessagePromptTemplate.from_template("(instance-of Fido Dog)")
+    human_message_prompt = HumanMessagePromptTemplate.from_template("{text}")
+
+    chat_prompt = ChatPromptTemplate.from_messages([system_message_prompt, example_human, example_ai, human_message_prompt])
+
+    # Token is the __Secure-next-auth.session-token from chat.openai.com
+    llm = GPT4OpenAI(token=os.environ["OPENAI_SESSION_TOKEN"], headless=False, model='gpt-4')
+    chain = LLMChain(llm=llm, prompt=chat_prompt)
+    print(chain.run("My name is John and I like to eat pizza."))
+    llm.close()
+
+
+def main_test():
+    llm = GPT4OpenAI(token=os.environ["OPENAI_SESSION_TOKEN"], headless=False, model='gpt-4')
+    # GPT3.5 will answer 8, while GPT4 should be smart enough to answer 10
+    response = llm('If there are 10 books in a room and I read 2, how many books are still in the room?')
+    print(response)
+    llm.close()
+
+if __name__ == "__main__":
+    main_test()
+    test_longchain()
+
+

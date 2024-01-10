@@ -1,0 +1,131 @@
+#!/usr/bin/env python3
+import os
+import sys
+import argparse
+from pytube import YouTube
+from io import BytesIO
+import openai
+import tempfile
+import logging
+from pytube.exceptions import RegexMatchError
+from pathlib import Path
+import keyring
+from textwrap import fill
+
+logger = logging.getLogger(__name__)
+
+logger.setLevel(logging.INFO)
+
+SUMMARIZER_SYSTEM_PROMPT = "You are a helpful assistant that summarizes transcriptions."
+SUMMARIZER_PROMPT_PREFIX = "Summarize the following transcription of a Youtube video: "
+
+if sys.version_info < (3, 4, 0):
+    sys.stderr.write("You need python 3.4 or later to run this script\n")
+    sys.exit(1)
+
+
+def cmdline_args():
+    p = argparse.ArgumentParser(
+        description="yousum - summarize youtube videos with GPT and Whisper",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+    )
+    p.add_argument("url", help="url of youtube video to summarize")
+    p.add_argument(
+        "-m",
+        "--model",
+        default="gpt-3.5-turbo",
+        help="Model to use for summarization (default: gpt-3.5-turbo)",
+    )
+    p.add_argument(
+        "-p",
+        "--prompt",
+        default=SUMMARIZER_PROMPT_PREFIX,
+        help="Custom summarization prompt",
+    )
+    p.add_argument(
+        "-s",
+        "--sys_prompt",
+        default=SUMMARIZER_SYSTEM_PROMPT,
+        help="Custom system prompt for summarization",
+    )
+    p.add_argument(
+        "-o", "--outdir", default=".", help="Where to output transcription and summary"
+    )
+
+    return p.parse_args()
+
+
+def get_audio(url: str):
+    yt = YouTube(url)
+    video = yt.streams.filter(only_audio=True).first()
+    fp = tempfile.NamedTemporaryFile(suffix=".mp3")
+    video.stream_to_buffer(buffer=fp)
+    fp.seek(0)
+    return fp, yt.title
+
+
+def transcribe(bio) -> str:
+    return openai.Audio.transcribe("whisper-1", bio)["text"]
+
+
+def summarize(text: str, sys_prompt: str, prompt: str):
+    result = openai.ChatCompletion.create(
+        model="gpt-3.5-turbo",
+        messages=[
+            {
+                "role": "system",
+                "content": sys_prompt,
+            },
+            {
+                "role": "user",
+                "content": prompt.strip() + " " + text,
+            },
+        ],
+    )
+    return result["choices"][0]["message"]["content"]
+
+
+def summarize_youtube(
+    url: str, outdir: str, model: str, sys_prompt: str, prompt: str
+) -> str:
+    logger.info("Downloading... ")
+    bio, title = get_audio(url)
+    logger.info("Transcribing... ")
+    transcription = transcribe(bio)
+    logger.info("Summarizing... ")
+    summary = summarize(transcription, sys_prompt, prompt)
+
+    if outdir is not None:
+        with open(Path(outdir) / Path(title + "_transcript.txt"), "w") as f:
+            f.write(transcription)
+        with open(Path(outdir) / Path(title + "_summary.txt"), "w") as f:
+            f.write(summary)
+    return summary
+
+
+args = cmdline_args()
+try:
+    oaikey = os.environ.get("OPENAI_API_KEY") or keyring.get_password(
+        "OPENAI_API_KEY", "yousum"
+    )
+    if oaikey is None:
+        print(
+            "Set OPENAI_API_KEY in your environment to run this script without inputting your key every time."
+        )
+        oaikey = input("Input your key here:")
+        set_keyring = input("Would you like to set this key into a keyring? (y/n): ")
+        if set_keyring.upper().strip() == "Y":
+            keyring.set_password("OPENAI_API_KEY", "yousum", oaikey)
+
+    openai.api_key = oaikey
+    summary = summarize_youtube(
+        args.url,
+        outdir=args.outdir,
+        model=args.model,
+        sys_prompt=args.sys_prompt,
+        prompt=args.prompt,
+    )
+    print("Summary for " + args.url + ":")
+    print(fill(summary, width=80, break_long_words=False))
+except RegexMatchError as regexc:
+    print("URL invalid.")

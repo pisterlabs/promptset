@@ -1,0 +1,621 @@
+"""Abstract benchmarking dataset class."""
+
+import logging
+from abc import ABC, abstractmethod
+from functools import partial
+from typing import Any, Type
+
+import evaluate
+import numpy as np
+import torch
+from datasets.arrow_dataset import Dataset
+from datasets.dataset_dict import DatasetDict
+from datasets.load import load_dataset
+from huggingface_hub.utils._errors import HfHubHTTPError
+from tqdm.auto import tqdm
+from transformers import PretrainedConfig, Trainer
+from transformers.modeling_utils import ModelOutput, PreTrainedModel
+
+from .config import BenchmarkConfig, DatasetConfig, ModelConfig
+from .dataset_tasks import SPEED
+from .exceptions import InvalidBenchmark
+from .finetuning import finetune
+from .generation import generate
+from .model_config import get_model_config
+from .model_loading import load_model
+from .model_setups import GenerativeModel, Tokenizer
+from .openai_models import OpenAIModel
+from .scores import log_scores
+from .speed_benchmark import benchmark_speed
+from .types import SCORE_DICT
+from .utils import GENERATIVE_MODEL_TASKS, enforce_reproducibility, model_is_generative
+
+logger = logging.getLogger(__package__)
+
+
+class BenchmarkDataset(ABC):
+    """Abstract benchmarking dataset class.
+
+    Args:
+        dataset_config:
+            The configuration of the dataset.
+        benchmark_config:
+            The configuration of the benchmark.
+
+    Attributes:
+        dataset_config:
+            The configuration of the dataset.
+        benchmark_config:
+            The configuration of the benchmark.
+    """
+
+    def __init__(
+        self, dataset_config: DatasetConfig, benchmark_config: BenchmarkConfig
+    ) -> None:
+        """Initialise the dataset.
+
+        Args:
+            dataset_config:
+                The configuration for the dataset.
+            benchmark_config:
+                The configuration for the benchmark.
+        """
+        self.dataset_config = dataset_config
+        self.benchmark_config = benchmark_config
+        self._metrics = {
+            metric_cfg.name: evaluate.load(
+                path=metric_cfg.huggingface_id,
+                cache_dir=self.benchmark_config.cache_dir,
+            )
+            if metric_cfg.huggingface_id != ""
+            else None
+            for metric_cfg in dataset_config.task.metrics
+        }
+
+        # Set logging level based on verbosity
+        logging_level = logging.DEBUG if self.benchmark_config.verbose else logging.INFO
+        logger.setLevel(logging_level)
+
+    def benchmark(self, model_id: str) -> tuple[SCORE_DICT, dict[str, bool | int]]:
+        """Benchmark a model.
+
+        Args:
+            model_id:
+                The full Hugging Face Hub path to the pretrained transformer model. The
+                specific model version to use can be added after the suffix '@':
+                "model_id@v1.0.0". It can be a branch name, a tag name, or a commit id,
+                and defaults to the latest version if not specified.
+
+        Returns:
+            A pair (scores, metadata_dict), with `scores` being a dictionary
+            containing the scores, and `metadata_dict` being a dictionary
+            containing various model metadata, such as the number of model
+            parameters, the model's maximum sequence length and the size of the
+            model's vocabulary. The keys in `score_dict` are 'raw' and 'total',
+            with all the raw scores in the first dictionary and the aggregated
+            scores in the second.
+
+        Raises:
+            RuntimeError:
+                If the extracted framework is not recognized.
+        """
+        model_config = get_model_config(
+            model_id=model_id, benchmark_config=self.benchmark_config
+        )
+
+        # Set random seeds to enforce reproducibility of the randomly initialised
+        # weights
+        rng = enforce_reproducibility(framework=model_config.framework)
+
+        tokenizer, model = load_model(
+            model_config=model_config,
+            dataset_config=self.dataset_config,
+            benchmark_config=self.benchmark_config,
+        )
+
+        # This happens when a local model is used, as we cannot fetch the model
+        # metadata. Note that this is only the case if the model type is not any of the
+        # ones hardcoded in `local.py`
+        if model_config.task == "unknown":
+            if model_is_generative(model=model):
+                model_config.task = GENERATIVE_MODEL_TASKS[0]
+            else:
+                model_config.task = "fill-mask"
+
+        metadata_dict = self._get_metadata(model=model, tokenizer=tokenizer)
+
+        # Set variable with number of iterations
+        num_iter = 10 if not self.benchmark_config.testing else 5
+
+        if self.dataset_config.task != SPEED:
+            train, val, tests = self._load_data(num_iter=num_iter, rng=rng)
+            prepared_train, prepared_val, prepared_tests = self._load_prepared_data(
+                train=train,
+                val=val,
+                tests=tests,
+                model_config=model_config,
+                hf_model_config=model.config,
+                tokenizer=tokenizer,
+                generative_model=model_is_generative(model=model),
+            )
+
+        # Set up progress bar
+        itr = tqdm(
+            iterable=range(num_iter),
+            desc="Benchmarking",
+            disable=not self.benchmark_config.progress_bar,
+        )
+
+        data_collator = self._load_data_collator(tokenizer=tokenizer, model=model)
+
+        if self.dataset_config.task == SPEED:
+            scores = benchmark_speed(
+                itr=itr,
+                tokenizer=tokenizer,
+                model=model,
+                model_config=model_config,
+                dataset_config=self.dataset_config,
+                benchmark_config=self.benchmark_config,
+            )
+        elif model_is_generative(model=model):
+            scores = generate(
+                itr=itr,
+                train=train,
+                val=val,
+                tests=tests,
+                prepared_train=prepared_train,
+                prepared_val=prepared_val,
+                prepared_tests=prepared_tests,
+                model=model,
+                tokenizer=tokenizer,
+                data_collator=data_collator,
+                compute_metrics=self._compute_metrics,
+                extract_labels_fn=self._extract_labels_from_generation,
+                benchmark_config=self.benchmark_config,
+                dataset_config=self.dataset_config,
+            )
+        else:
+            scores = finetune(
+                itr=itr,
+                train=train,
+                val=val,
+                tests=tests,
+                prepared_train=prepared_train,
+                prepared_val=prepared_val,
+                prepared_tests=prepared_tests,
+                model=model,
+                tokenizer=tokenizer,
+                model_config=model_config,
+                dataset_config=self.dataset_config,
+                benchmark_config=self.benchmark_config,
+                compute_metrics=self._compute_metrics,
+                data_collator=data_collator,
+                trainer_class=self._get_trainer_class(),
+                evaluate_inputs_fn=self._get_evaluate_inputs,
+                preprocess_logits_for_metrics=self._preprocess_logits_for_metrics,
+            )
+
+        all_scores = log_scores(
+            dataset_name=self.dataset_config.pretty_name,
+            metric_configs=self.dataset_config.task.metrics,
+            scores=scores,
+            model_id=model_config.model_id,
+        )
+
+        return all_scores, metadata_dict
+
+    def _get_metadata(
+        self,
+        model: PreTrainedModel | GenerativeModel,
+        tokenizer: Tokenizer,
+    ) -> dict[str, int]:
+        """Get metadata about the model.
+
+        Args:
+            model:
+                The model to get metadata about.
+            tokenizer:
+                The tokenizer to get metadata about.
+
+        Returns:
+            A dictionary containing metadata about the model, with the keys being the
+            metadata names and the values being the metadata values.
+        """
+        if hasattr(model.config, "num_params"):
+            num_params = model.config.num_params
+        elif isinstance(model, PreTrainedModel):
+            num_params = sum(p.numel() for p in model.parameters())
+        else:
+            num_params = -1
+
+        if hasattr(model.config, "model_max_length"):
+            max_seq_length = getattr(model.config, "model_max_length")
+        elif hasattr(tokenizer, "model_max_length"):
+            max_seq_length = getattr(tokenizer, "model_max_length")
+        else:
+            max_seq_length = -1
+
+        # If the model is a generative model then we have subtracted the generation
+        # length from the maximum length to allow it to keep generating. But for the
+        # model metadata we want to know the maximum length, so we add the generation
+        # length back on here
+        if model_is_generative(model=model):
+            max_seq_length += self.dataset_config.max_generated_tokens
+
+            # If the model is an OpenAI chat model then we add on 7 extra tokens, as
+            # these are part of the chat prompt and was removed from the sequence
+            # length
+            if isinstance(model, OpenAIModel) and model.is_chat_model:
+                max_seq_length += 7
+
+        if hasattr(model.config, "vocab_size"):
+            vocab_size = getattr(model.config, "vocab_size")
+        elif hasattr(tokenizer, "vocab_size"):
+            vocab_size = getattr(tokenizer, "vocab_size")
+        else:
+            vocab_size = -1
+
+        # Store the metadata in a dictionary
+        metadata_dict = dict(
+            num_model_parameters=num_params,
+            max_sequence_length=max_seq_length,
+            vocabulary_size=vocab_size,
+            few_shot=model_is_generative(model=model),
+        )
+
+        # Log the metadata
+        logging_msg: str = ""
+        if num_params < 0:
+            logging_msg += "The model has an unknown number of parameters, "
+        else:
+            logging_msg += f"The model has {num_params:,} parameters, "
+        if vocab_size < 0:
+            logging_msg += "an unknown vocabulary size, "
+        else:
+            logging_msg += f"a vocabulary size of {vocab_size:,}, "
+        if max_seq_length < 0:
+            logging_msg += "and an unknown maximum sequence length."
+        else:
+            logging_msg += f"and a maximum sequence length of {max_seq_length:,}."
+        logger.info(logging_msg)
+
+        return metadata_dict
+
+    def _load_data(
+        self,
+        num_iter: int,
+        rng: np.random.Generator,
+    ) -> tuple[Dataset, Dataset, list[Dataset]]:
+        """Load the raw bootstrapped datasets.
+
+        Args:
+            num_iter:
+                The number of iterations to run.
+            rng:
+                The random number generator to use.
+
+        Returns:
+            A tuple containing the training, validation and test datasets.
+        """
+        # Download dataset from the HF Hub
+        try:
+            dataset_dict = load_dataset(
+                path=self.dataset_config.huggingface_id,
+                cache_dir=self.benchmark_config.cache_dir,
+            )
+        except HfHubHTTPError:
+            raise InvalidBenchmark("The Hugging Face Hub seems to be down.")
+
+        # If the dataset turns out not to be a DatasetDict, then we raise an error
+        if not isinstance(dataset_dict, DatasetDict):
+            raise InvalidBenchmark(
+                f"Expected `dataset_dict` to be a `DatasetDict`, but got "
+                f"{type(dataset_dict)}."
+            )
+
+        # Remove all other keys than 'train', 'val' and 'test'
+        dataset_dict = DatasetDict(
+            {key: dataset_dict[key] for key in ["train", "val", "test"]}
+        )
+
+        # Process the datasets
+        dataset_dict = self._process_data(dataset_dict)
+
+        # Extract the dataset splits
+        train = dataset_dict["train"]
+        val = dataset_dict["val"]
+        test = dataset_dict["test"]
+
+        # Remove empty examples from the datasets
+        for text_feature in ["tokens", "text"]:
+            if text_feature in train.features:
+                train = train.filter(lambda x: len(x[text_feature]) > 0)
+                val = val.filter(lambda x: len(x[text_feature]) > 0)
+                test = test.filter(lambda x: len(x[text_feature]) > 0)
+
+        # If we are testing then truncate the test set
+        if self.benchmark_config.testing:
+            test = test.select(range(128))
+
+        # Bootstrap the test set
+        test_bidxs = rng.integers(0, len(test), size=(num_iter, len(test)))
+        tests = [test.select(test_bidxs[idx]) for idx in range(test_bidxs.shape[0])]
+
+        return train, val, tests
+
+    def _load_prepared_data(
+        self,
+        train: Dataset,
+        val: Dataset,
+        tests: list[Dataset],
+        model_config: ModelConfig,
+        hf_model_config: PretrainedConfig,
+        tokenizer: Tokenizer,
+        generative_model: bool,
+    ) -> tuple[Dataset, Dataset, list[Dataset]]:
+        """Load the data and prepare it for training.
+
+        Args:
+            train:
+                The raw training dataset.
+            val:
+                The raw validation dataset.
+            tests:
+                The raw bootstrapped test datasets.
+            model_config:
+                The model configuration.
+            hf_model_config:
+                The Hugging Face model configuration.
+            tokenizer:
+                The tokenizer.
+            generative_model:
+                Whether the model is a generative model.
+
+        Returns:
+            A tuple containing the prepared training, validation and test datasets.
+        """
+        # Set up the preprocessing parameters
+        preprocess_params: dict[str, Any] = dict(
+            hf_model_config=hf_model_config,
+            model_config=model_config,
+            tokenizer=tokenizer,
+            generative_model=generative_model,
+        )
+
+        # Prepare the train and validation datasets
+        with tqdm(total=12, desc="Preprocessing data splits", leave=False) as pbar:
+            # When evaluating generative models we only need the test split, so
+            # there's no need to prepare the train split
+            try:
+                prepared_train = train
+                if not generative_model:
+                    prepared_train = self._preprocess_data(
+                        train, split="train", **preprocess_params
+                    )
+                pbar.update(1)
+            except ValueError:
+                raise InvalidBenchmark(
+                    "Preprocessing of the training dataset could not be done."
+                )
+
+            # When evaluating generative models we only need the test split, so
+            # there's no need to prepare the validation split
+            try:
+                prepared_val = val
+                if not generative_model:
+                    prepared_val = self._preprocess_data(
+                        val, split="val", **preprocess_params
+                    )
+                pbar.update(1)
+            except ValueError:
+                raise InvalidBenchmark(
+                    "Preprocessing of the validation dataset could not be done."
+                )
+
+            try:
+                prepared_tests: list[Dataset] = list()
+                for itr_idx, test in enumerate(tests):
+                    if generative_model:
+                        itr_seed = 4242 + itr_idx
+                        few_shot_examples = self._extract_few_shot_examples(
+                            train_dataset=train, random_seed=itr_seed
+                        )
+                        few_shot_fn = partial(
+                            self._apply_few_shot_prompt,
+                            few_shot_examples=few_shot_examples,
+                        )
+                        test = test.map(
+                            few_shot_fn, batched=True, load_from_cache_file=False
+                        )
+                    prepared_test = self._preprocess_data(
+                        test, split="test", **preprocess_params
+                    )
+                    prepared_tests.append(prepared_test)
+                    pbar.update(1)
+            except ValueError:
+                raise InvalidBenchmark(
+                    "Preprocessing of the test dataset could not be done."
+                )
+
+        return prepared_train, prepared_val, prepared_tests
+
+    def _preprocess_logits_for_metrics(
+        self,
+        model_outputs: torch.Tensor | tuple,
+        labels: torch.Tensor,
+    ) -> torch.Tensor | tuple:
+        """Ensure that only the logits are returned from the model.
+
+        This is to avoid memory issues when the model returns hidden states as well.
+
+        Args:
+            logits:
+                The model logits.
+            labels:
+                The ground truth labels.
+
+        Returns:
+            The preprocessed logits.
+        """
+        if isinstance(model_outputs, tuple) and isinstance(
+            model_outputs[0], torch.Tensor
+        ):
+            model_output_tensors = [
+                model_output
+                for model_output in model_outputs
+                if isinstance(model_output, torch.Tensor)
+            ]
+            if len(model_output_tensors) == 1:
+                return model_output_tensors[0]
+            return tuple(model_output_tensors)
+        else:
+            return model_outputs
+
+    def __call__(self, *args, **kwargs):
+        return self.benchmark(*args, **kwargs)
+
+    def _process_data(self, dataset_dict: DatasetDict) -> DatasetDict:
+        """Process the data.
+
+        Args:
+            dataset_dict:
+                The dataset dictionary.
+
+        Returns:
+            The processed dataset dictionary.
+        """
+        return dataset_dict
+
+    def _get_trainer_class(self) -> Type[Trainer]:
+        """Returns the trainer class to use."""
+        return Trainer
+
+    def _get_evaluate_inputs(
+        self, dataset: Dataset, prepared_dataset: Dataset, metric_key_prefix: str
+    ) -> dict[str, Any]:
+        """Returns the inputs to the `Trainer.evaluate` method.
+
+        Args:
+            dataset:
+                The raw dataset.
+            prepared_dataset:
+                The prepared dataset.
+            metric_key_prefix:
+                The prefix to use for the metric keys.
+        """
+        return dict(eval_dataset=prepared_dataset, metric_key_prefix=metric_key_prefix)
+
+    @abstractmethod
+    def _preprocess_data(self, dataset: Dataset, **kwargs) -> Dataset:
+        """Preprocess a dataset.
+
+        Args:
+            dataset:
+                The dataset to preprocess.
+            kwargs:
+                Extra keyword arguments containing objects used in preprocessing the
+                dataset.
+
+        Returns:
+            The preprocessed dataset.
+        """
+        pass
+
+    @abstractmethod
+    def _load_data_collator(
+        self,
+        tokenizer: Tokenizer | None = None,
+        model: PreTrainedModel | GenerativeModel | None = None,
+    ):
+        """Load the data collator used to prepare samples during finetuning.
+
+        Args:
+            tokenizer:
+                A pretrained tokenizer. Can be None if the tokenizer is not used in the
+                initialisation of the data collator. Defaults to None.
+            model:
+                A pretrained model. Can be None if the model is not used in the
+                initialisation of the data collator. Defaults to None.
+
+        Returns:
+            The data collator.
+        """
+        pass
+
+    @abstractmethod
+    def _compute_metrics(
+        self,
+        model_outputs_and_labels: tuple[list, list],
+        id2label: list[str],
+    ) -> dict[str, float]:
+        """Compute the metrics needed for evaluation.
+
+        Args:
+            model_outputs_and_labels:
+                The first sequence contains the model outputs and the second sequence
+                contains the true labels.
+            id2label (list of str):
+                Conversion of indices to labels.
+
+        Returns:
+            A dictionary with the names of the metrics as keys and the metric values as
+            values.
+        """
+        pass
+
+    @abstractmethod
+    def _extract_few_shot_examples(
+        self, train_dataset: Dataset, random_seed: int
+    ) -> list[dict[str, Any]]:
+        """Extract few-shot examples from the training dataset.
+
+        Args:
+            train_dataset:
+                The training dataset.
+            random_seed:
+                The random seed to use when extracting the few-shot examples.
+
+        Returns:
+            The few-shot examples.
+        """
+        pass
+
+    @abstractmethod
+    def _apply_few_shot_prompt(
+        self, examples: dict, few_shot_examples: list[dict]
+    ) -> dict:
+        """Apply a few-shot prompt to the examples.
+
+        Args:
+            examples:
+                The examples to apply the prompt to.
+            few_shot_examples:
+                The examples to be included in the few-shot prompt.
+
+        Returns:
+            The examples with the few-shot prompt applied.
+        """
+        pass
+
+    @abstractmethod
+    def _extract_labels_from_generation(
+        self,
+        input_batch: dict[str, list],
+        model_output: ModelOutput,
+        tokenizer: Tokenizer,
+    ) -> list[Any]:
+        """Extract the predicted labels from the generated output.
+
+        Args:
+            input_batch:
+                The input batch, where the keys are the feature names and the values
+                are lists with the feature values.
+            model_output:
+                The raw generated output of the model.
+            tokenizer:
+                The tokenizer used together with the model.
+
+        Returns:
+            The predicted labels.
+        """
+        pass

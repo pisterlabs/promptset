@@ -1,0 +1,163 @@
+#!/usr/bin/env python3
+
+"""
+================================================================================
+                              gpt-commit-prompter 
+================================================================================
+
+Author(s) : David Schmid (david.schmid@mailbox.org)
+Version   : 0.4.0
+
+------------------------------ Description -----------------------------------
+Utilizes pre-configured OpenAI GPT model to auto-generate git commit messages
+from provided changes. Accepts changes as string input or from a .diff file,
+then employs GPT-3 to offer a summarized description and detailed bullet
+points.
+
+------------------------------ Dependencies -----------------------------------
+- OpenAI Python API
+- Python 3.7 or higher
+
+--------------------------------- Usage --------------------------------------
+Execute the script with changes in string format or by indicating a .diff file:
+
+    python3 gpt-commit-prompter "Your changes here"
+    OR
+    python3 gpt-commit-prompter /path/to/changes.diff
+
+================================================================================
+"""
+
+import argparse
+import json
+import os
+import openai
+
+from openai import OpenAI
+
+
+def load_config():
+    # Hardcoded default path relative to the script location
+    default_file_path = "../config.json"
+
+    # Path to the prioritized config file in the user's home directory
+    home_dir = os.path.expanduser("~")
+    prioritized_config_path = os.path.join(home_dir, ".config/SmartCommit/config.json")
+
+    # Check if the prioritized config file exists
+    if os.path.isfile(prioritized_config_path):
+        config_path = prioritized_config_path
+    else:
+        # Determine the directory where this script is located.
+        dir_path = os.path.dirname(os.path.realpath(__file__))
+        # Construct the full path to the default config.json file.
+        config_path = os.path.join(dir_path, default_file_path)
+
+    # Load and return the configuration
+    with open(config_path, "r") as f:
+        return json.load(f)
+
+
+def set_openai_key():
+    if "OPENAI_API_KEY" not in os.environ:
+        raise Exception("OPENAI_API_KEY not found in environment variables")
+    openai.api_key = os.environ["OPENAI_API_KEY"]
+
+
+def get_args():
+    parser = argparse.ArgumentParser(
+        description="Generate a git commit message using GPT-3"
+    )
+
+    parser.add_argument(
+        "changes",
+        metavar="changes",
+        type=str,
+        help="Changes as a string or path to a .diff file",
+    )
+
+    parser.add_argument(
+        "-i",
+        "--instruction",
+        default="",
+        help="Additional instruction to guide the AI's response",
+    )
+
+    parser.add_argument(
+        "-s",
+        "--style",
+        default="imperative",
+        choices=["imperative", "simple", "detailed", "conventional"],
+        help="Commit message style",
+    )
+
+    return parser.parse_args()
+
+
+def get_changes(args):
+    if args.changes.endswith(".diff"):
+        if os.path.isfile(args.changes):
+            with open(args.changes, "r") as file:
+                return file.read()
+        else:
+            raise Exception(f"{args.changes} does not exist.")
+    else:
+        return args.changes
+
+def generate_commit_message(changes, instruction, style="imperative"):
+    config = load_config()
+
+    # Ensure the provided style is in the configuration
+    if style not in config["style"]:
+        raise ValueError(f"Style '{style}' not found in configuration.")
+
+    system_prompt = config["style"][style]["system_prompt"]
+
+    # Constructing the prompt for the AI
+    prompt = f"{system_prompt}\n\nChanges:\n{changes}\n\n"
+    if instruction:
+        prompt += f"Instruction: {instruction}\n"
+
+    # Instantiate the OpenAI client
+    client = OpenAI()
+
+    # Get the model name from the configuration
+    model_config = config.get("model")
+    if not model_config or "name" not in model_config:
+        raise ValueError("Model configuration not found in config.json")
+
+    model_name = model_config["name"]
+
+    # Call the OpenAI API with the constructed prompt
+    response = client.chat.completions.create(
+        messages=[
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": prompt}
+        ],
+        model=model_name, 
+    )
+
+    # Extracting the commit message from the response
+    commit_message = response.choices[0].message.content
+    if commit_message is not None:
+        commit_message = commit_message.strip()
+    else:
+        # Handle the case where commit_message is None
+        commit_message = "No commit message generated."
+
+    return commit_message
+
+def main():
+    set_openai_key()
+
+    args = get_args()
+
+    changes = get_changes(args)
+
+    commit_message = generate_commit_message(changes, args.instruction, args.style)
+
+    print(commit_message)
+
+
+if __name__ == "__main__":
+    main()

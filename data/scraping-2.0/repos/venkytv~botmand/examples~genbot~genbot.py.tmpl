@@ -1,0 +1,335 @@
+#!@VENV_DIR@/bin/python3 -u
+
+from enum import Enum, auto
+import openai
+import json
+import logging
+import os
+import re
+import subprocess
+import sys
+import tempfile
+import uuid
+
+logging.basicConfig(level=logging.DEBUG if os.environ.get("DEBUG") == "true" else logging.INFO)
+
+model = os.environ.get("MODEL", "gpt-4")
+completion_model = os.environ.get("COMPLETION_MODEL", "text-davinci-003")
+
+initial_prompt = '''
+You are a helpful assistant who is capable of writing shell script for given tasks.
+The shell scripts are designed to be packaged within a docker image and run as
+docker containers.  The scripts can read input data from stdin, if necessary.
+Output is written to stdout.
+
+The input for the shell script, if any, will be in the format:
+
+USERNAME: Message text
+
+Response format instructions:
+- Return a markdown code snippet which includes the shell script
+- BE CONCISE
+- Do NOT include instructions on how to run the shell script
+- Do NOT include instructions on how to build or run the docker image
+- Make sure there is a single markdown code snipper in the response, which includes the shell script and nothing else
+
+If the requirements for the script are unclear, ask follow-up questions to clarify the intent.
+IMPORTANT: If the required task cannot be performed from within a docker container,
+           for instance, if it requires direct access to the host, then do not generate
+           a script, but instead return an error message.
+'''
+
+bot_assistance_prompt = '''
+The following are examples of responses from a bot along with evaluations on whether
+the bot thinks the task it was given is potentially complete.
+
+Response: You're welcome! If you have any more questions or need any further assistance, don't hesitate to ask.
+Evaluation: COMPLETE
+
+Response: The script reads data from stdin using a while loop which reads each line of the input.
+Evaluation: INCOMPLETE
+
+Response: Sure, I can do that
+Evaluation: INCOMPLETE
+
+Now, evaluate the following response:
+
+    Response: {text}
+'''.format
+
+user_intent_prompt = '''
+Determine one of the following courses of action indicated by the statement provided:
+- COMPLETE
+- GIVE UP
+- KEEP GOING
+- RESTART
+
+Statement: Looks good
+Action: COMPLETE
+
+Statement: No, let's drop this
+Action: GIVE UP
+
+Statement: Write a script to respond with a hello
+Action: KEEP GOING
+
+Statement: Do this instead
+Action: KEEP GOING
+
+Statement: Let's start over
+Action: RESTART
+
+Statement: {text}
+Action: '''.format
+
+docker_volumes_prompt = '''
+If this script is to run as a docker container, what volumes would it need mounted?
+Return the response as a list of paths to be mounted. Also return an appropriate name
+for the shell script and a short description.
+
+Return the response as a JSON dictionary.
+
+For example:
+
+```json
+{
+  "script_name": "foo.sh",
+  "description": "Script to do foo",
+  "volumes": [ "/etc/hosts", "/foo/bar" ]
+}
+```
+
+- Return just the JSON dict within a markdown code block. Do not include any explanations.
+- BE CONCISE
+- Do NOT return a script which generates the output, but instead return the actual dict.
+'''
+
+dockerfile_tmpl = '''
+FROM debian:11-slim
+COPY {script_name} /
+RUN chmod +x /{script_name}
+CMD ["/{script_name}"]
+'''.format
+
+markdown_re = re.compile(r'(.*)```.*?(#!/.*?)```(.*)', re.DOTALL)
+docker_volumes_re = [
+    re.compile(r'.*```json\n(.*?)```', re.DOTALL),
+    re.compile(r'.*```\n(.*?)```', re.DOTALL),
+]
+
+class UserIntent(Enum):
+    COMPLETE = "COMPLETE"
+    GIVE_UP = "GIVE UP"
+    RESTART = "RESTART"
+    KEEP_GOING = "KEEP GOING"
+
+    @classmethod
+    def options(cls):
+        return list(cls.__members__.values())
+
+def parse_output(text: str) -> (str, str):
+    """Extract code from markdown block and return it along with any
+    additional text in the input string
+    """
+
+    script = text
+    explanation = ""
+
+    if "```" in text:
+        # Extract script in markdown block
+        m = markdown_re.match(text)
+        if m:
+            script = m.group(2)
+            explanation = m.group(3)
+
+    if not script.startswith("#!") and not explanation:
+        explanation = script
+        script = None
+
+    return (script, explanation)
+
+def parse_user_intent(text: str) -> str:
+    """Evaluate user response and determine if the task is complete
+    """
+
+    print("...")
+    resp = openai.Completion.create(
+        model=completion_model,
+        prompt=user_intent_prompt(text=text),
+        temperature=0.2)
+    assistant_resp = resp["choices"][0]["text"]
+    logging.debug(f"user intent assistant reponse: {assistant_resp}")
+
+    for option in UserIntent.options():
+        if option.value in assistant_resp:
+            return option
+
+    # Default to keep going
+    return UserIntent.KEEP_GOING
+
+def is_bot_assistance_complete(text: str) -> bool:
+    """Evaluate a response from the bot to determine if the bot's assistance
+    for the task is complete.
+    """
+
+    print("...")
+    resp = openai.Completion.create(
+        model=completion_model,
+        prompt=bot_assistance_prompt(text=text),
+        temperature=0.2)
+    assistant_resp = resp["choices"][0]["text"]
+    m = re.search(r'Evaluation: (\w+)', assistant_resp)
+    if m and m.group(1) == "COMPLETE":
+        return True
+
+    return False
+
+def build_docker_image(script: str, conf: dict) -> (str, list, str):
+    script_name = conf["script_name"]
+    description = conf["description"]
+    volumes = [ x.split(":")[0] for x in conf["volumes"] ]
+
+    docker_image_name = f"genbot-{uuid.uuid4().hex}"
+    oldpwd = os.getcwd()
+    with tempfile.TemporaryDirectory() as tmpdir:
+        os.chdir(tmpdir)
+        with open(script_name, "w") as f:
+            f.write(script)
+        with open("Dockerfile", "w") as f:
+            f.write(dockerfile_tmpl(script_name=script_name))
+
+        print("Building docker image")
+        subprocess.run(["docker", "build", "-t", docker_image_name, "."],
+                       capture_output=True)
+
+        os.chdir(oldpwd)
+
+    return docker_image_name, volumes, description
+
+def run_container(image: str, volumes: list[str], description: str):
+    # Use image name as container name
+    cmd = ["docker", "run", "--name", image, "--rm", "-i"]
+    for volume in volumes:
+        cmd.extend(["-v", f"{volume}:{volume}:ro"])
+    cmd.append(image)
+
+    pid = os.getpid()
+
+    print(f"Launching container: {' '.join(cmd)}")
+    p = subprocess.Popen(cmd, stdin=subprocess.PIPE, text=True)
+    for line in sys.stdin:
+        # Special commands
+        if "genbot ls" in line:
+            print(f"GENBOT {pid}: {description}")
+            continue
+        elif "genbot stop" in line:
+            if f"genbot stop {pid}" in line:
+                print(f"Stopping genbot {pid}: {description}")
+                # Kill the container
+                subprocess.run(["docker", "kill", image], capture_output=True)
+                sys.exit()
+            else:
+                # Stop command for another genbot
+                continue
+
+        active = p.poll()
+        if active is not None:
+            if p.returncode != 0:
+                print(f"GENBOT {pid} (\"{description}\") has terminated with return code: {p.returncode}")
+            sys.exit(p.returncode)
+
+        p.stdin.write(line)
+        p.stdin.flush()
+
+if __name__ == "__main__":
+
+    # Abort if OPENAI_API_KEY is not set
+    if not os.environ.get("OPENAI_API_KEY"):
+        print("genbot: OPENAI_API_KEY environment variable must be set")
+        sys.exit(1)
+
+    messages = [
+        {"role": "system", "content": initial_prompt},
+    ]
+
+    def chat():
+        logging.debug(f"chat: {messages}")
+        print("...")
+        resp = openai.ChatCompletion.create(
+            model=model,
+            messages=messages,
+        )
+
+        logging.debug(f"chat response: {resp}")
+        return resp["choices"][0]["message"]["content"]
+
+    final_script = None
+    for line in sys.stdin:
+
+        user_intent = parse_user_intent(line)
+        logging.debug(f"user intent: {user_intent}")
+
+        if user_intent == UserIntent.COMPLETE:
+            # Script is ready
+            logging.debug("script ready")
+            break
+        elif user_intent == UserIntent.GIVE_UP:
+            logging.debug("giving up")
+            print("Okay, giving up.")
+            sys.exit(0)
+        elif user_intent == UserIntent.RESTART:
+            logging.debug("reinitialising")
+            messages = [
+                {"role": "system", "content": initial_prompt},
+            ]
+        else:
+            print("_Thinking..._")
+            print("...")
+
+        messages.append({
+            "role": "user",
+            "content": line,
+        })
+
+        assistant_resp = chat()
+        messages.append({
+            "role": "assistant",
+            "content": assistant_resp,
+        })
+
+        script, explanation = parse_output(assistant_resp)
+        if script:
+            logging.debug(f"script is now: {script}")
+            final_script = script
+        else:
+            # Evaluate non-script response to see if the task is complete
+            logging.debug(f"evaluating bot response: {explanation}")
+            if is_bot_assistance_complete(explanation):
+                break
+
+        # Replace newlines to make sure markdown is rendered correctly
+        print(assistant_resp.replace("\n", "\\n"))
+
+    if final_script:
+        logging.debug("determining docker volume mounts")
+        messages.append({
+            "role": "user",
+            "content": docker_volumes_prompt,
+        })
+        assistant_resp = chat()
+        for re in docker_volumes_re:
+            m = re.search(assistant_resp)
+            if m:
+                logging.debug(f"volume mount details: {m.group(1)}")
+                conf = json.loads(m.group(1))
+                image, volumes, desc = build_docker_image(final_script, conf)
+
+                logging.debug(f"running container: {image} {volumes}")
+                run_container(image, volumes, desc)
+                break
+            else:
+                print("Sorry, had trouble figuring out how to build the docker image")
+                print(assistant_resp)
+
+    else:
+        print("Sorry I couldn't be of more help")

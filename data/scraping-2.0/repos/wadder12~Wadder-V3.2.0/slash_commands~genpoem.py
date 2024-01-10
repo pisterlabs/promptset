@@ -1,0 +1,24 @@
+
+
+import nextcord
+import openai
+
+
+def setup(bot):
+    @bot.slash_command()
+    async def generate_poem(interaction: nextcord.Interaction):
+        """
+        Generate a poem using the Davinci 003 engine.
+        """
+        await interaction.response.defer()
+        await interaction.followup.send("What's the poem prompt?", ephemeral=True)
+        response = await bot.wait_for('message', check=lambda m: m.author == interaction.user)
+        prompt = response.content
+        response = openai.Completion.create(
+            engine="text-davinci-003",
+            prompt=f"Write a poem based on the following prompt:\n{prompt}\nPoem:",
+            max_tokens=1024,
+            temperature=0.7,
+        )
+        poem = response.choices[0].text.strip()
+        await interaction.followup.send(f"Here's your poem:\n```{poem}```")

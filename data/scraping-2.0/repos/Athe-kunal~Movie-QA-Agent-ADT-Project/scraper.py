@@ -1,0 +1,248 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.common.exceptions import NoSuchElementException
+import pandas as pd
+import os
+import re
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.microsoft import EdgeChromiumDriverManager
+from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.firefox import GeckoDriverManager
+import os
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from langchain.document_loaders import WikipediaLoader
+import pandas as pd
+from tqdm import tqdm
+import imdb
+from typing import List
+from config import *
+
+
+def clean_text(text: str) -> str:
+    """Clean raw text string.
+
+    Args:
+        text (str): Raw text to clean.
+
+    Returns:
+        str: cleaned text.
+    """
+    # Spacing and filters
+    text = re.sub(
+        r"([!\"'#$%&()*\+,-./:;<=>?@\\\[\]^_`{|}~])", r" \1 ", text
+    )  # add spacing
+    text = re.sub("[^A-Za-z0-9]+", " ", text)  # remove non alphanumeric chars
+    text = re.sub(" +", " ", text)  # remove multiple spaces
+    text = re.sub(r"http\S+", "", text)  # remove links
+    text = re.sub("Was this review helpful? Sign in to vote.", "", text)
+    text = re.sub("Permalink", "", text)
+    text = re.sub(r"\.\.\.", "", text)
+    text = re.sub(r"\.\.", "", text)
+    text = re.sub('""', "", text)
+    # Use re.search to find the match in the sentence
+    text = re.sub(r"\d+ out of \d+ found this helpful", "", text)
+    text = text.strip()  # strip white space at the ends
+
+    return text
+
+
+def scrape_data(revs):
+    """Multiprocessing function to get the data from the IMDB reviews page
+
+    Args:
+        revs (selenium element): element for all the reviews
+
+    Returns:
+        date (str): The date of the review
+        contents (str): the review of the movie
+        rating (str): The ratinng given by the user
+        title (str): the title of the review
+        link(str): the link of the review
+    """
+
+    try:
+        spoiler_btn = revs.find_element(By.CLASS_NAME, "ipl-expander")
+        spoiler_btn.click()
+        spoiler = True
+        contents = revs.find_element(By.CLASS_NAME, "content").text
+    except NoSuchElementException:
+        spoiler = False
+        contents = revs.find_element(By.CLASS_NAME, "content").text
+        if contents == "":
+            contents = revs.find_element(By.CLASS_NAME, "text show-more__control").text
+
+    try:
+        title = revs.find_element(By.CLASS_NAME, "title").text.strip()
+    except NoSuchElementException:
+        title = ""
+    try:
+        link = revs.find_element(By.CLASS_NAME, "title").get_attribute("href")
+    except NoSuchElementException:
+        link = ""
+    try:
+        rating = revs.find_element(
+            By.CLASS_NAME, "rating-other-user-rating"
+        ).text.split("/")[0]
+    except NoSuchElementException:
+        rating = 0.0
+
+    re.sub("\n", " ", contents)
+    re.sub("\t", " ", contents)
+    contents.replace("//", "")
+    date = revs.find_element(By.CLASS_NAME, "review-date").text
+    contents = clean_text(contents)
+    return date, contents, rating, title, link, spoiler
+
+
+def process_muted_text(mute_text: str) -> (float, float):
+    """Post processing the muted text
+
+    Args:
+        mute_text (str): text on how many people people found it helpful
+
+    Returns:
+        found_helpful (float): Number of people found the review helpful
+        total (float): Number of people voted
+    """
+    found_helpful, total = 0, 0
+    pattern = r"(\d+)\s*out\s*of\s*(\d+) found this helpful"
+    match = re.search(pattern, mute_text)
+    if match:
+        # Extract the two numerical figures
+        found_helpful = match.group(1)
+        total = match.group(2)
+    return found_helpful, total
+
+
+def main_scraper(
+    movie_name: str,
+    wikipedia_module=None,
+    webdriver_engine: str = "edge",
+    generate_csv: bool = True,
+    generate_wiki: bool = False,
+    sections_req: List[str] = ["plot"],
+):
+    """The main helper function to scrape data in multiprocessing way
+
+    Args:
+        movie_name (str): The name of the movie along with the year
+        wikipedia_module: For getting the wikipedia data for a movie
+        webdriver_engine (str, optional): The webdriver engine to use. Defaults to "edge".
+        generate_csv (bool, optional): whether to save the dataframe files. Defaults to True.
+        generate_wiki (bool, optional): whether to save the wikipedia data. Defaults to True.
+        sections_req:List[str]: What sections from wikipedia data to include
+    Returns:
+        reviews_date (List): list of dates of each review
+        reviews_title (List): list of title of each review
+        reviews_comment (List): list of comment of each review
+        reviews_rating (List):  list of ratings of each review
+    """
+    os.makedirs(SAVE_FOLDER, exist_ok=True)
+    os.makedirs("wikipedia_data", exist_ok=True)
+    ia = imdb.Cinemagoer()
+    movies = ia.search_movie(movie_name)
+    movie_name = movies[0].data["title"] + " " + str(movies[0].data["year"])
+
+    assert movie_name != "", "Please check the movie name that you passed"
+    print(
+        f"Scraping movie reviews for {movie_name}. If you think it is not the right one, the best practice is to pass the movie name and year"
+    )
+    movie_id = movies[0].movieID
+    movie_link = f"https://www.imdb.com/title/tt{movie_id}/reviews/?ref_=tt_ql_2"
+    if webdriver_engine == "edge":
+        driver = webdriver.Edge(service=Service(EdgeChromiumDriverManager().install()))
+    elif webdriver_engine == "google":
+        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+    elif webdriver_engine == "firefox":
+        driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
+
+    driver.get(movie_link)
+    driver.maximize_window()
+
+    driver.execute_script("return document.body.scrollHeight")
+    while True:
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight-250);")
+        try:
+            load_button = WebDriverWait(driver, 5).until(
+                EC.element_to_be_clickable((By.CLASS_NAME, "ipl-load-more__button"))
+            )
+            load_button.click()
+        except Exception as e:
+            print(f"Load more operation complete")
+            break
+    driver.execute_script("window.scrollTo(0, 100);")
+    num_reviews = driver.find_element(
+        By.XPATH, '//*[@id="main"]/section/div[2]/div[1]/div/span'
+    ).text
+    print(f"Total number of reviews are: {num_reviews}")
+    rev_containers = driver.find_elements(By.CLASS_NAME, "review-container")
+    muted_text = driver.find_elements(By.CLASS_NAME, "text-muted")
+    muted_text = [process_muted_text(mtext.text) for mtext in muted_text]
+    assert len(rev_containers) == len(muted_text), "Same length"
+    reviews_date = []
+    reviews_comment = []
+    reviews_rating = []
+    reviews_title = []
+    reviews_link = []
+    reviews_found_helpful = []
+    reviews_total_votes = []
+    reviews_if_spoiler = []
+    pbar = tqdm(total=len(rev_containers))
+    for idx, rev in enumerate(rev_containers):
+        date, contents, rating, title, link, spoiler = scrape_data(rev)
+        found_helpful, total = muted_text[idx]
+        reviews_date.append(date)
+        reviews_comment.append(contents)
+        reviews_rating.append(float(rating))
+        reviews_title.append(title)
+        reviews_link.append(link)
+        reviews_found_helpful.append(float(found_helpful))
+        reviews_total_votes.append(float(total))
+        reviews_if_spoiler.append(spoiler)
+        pbar.update(1)
+    save_name = "_".join(movie_name.split(" "))
+    save_name = re.sub(":", "", save_name)
+    if generate_csv:
+        os.makedirs(SAVE_FOLDER, exist_ok=True)
+        df = pd.DataFrame(
+            columns=[
+                "review_date",
+                "review_title",
+                "review_comment",
+                "review_rating",
+                "review_helpful",
+                "review_total_votes",
+                "reviews_if_spoiler",
+            ]
+        )
+
+        df["review_date"] = reviews_date
+        df["review_title"] = reviews_title
+        df["review_comment"] = reviews_comment
+        df["review_rating"] = reviews_rating
+        df["review_link"] = reviews_link
+        df["review_helpful"] = reviews_found_helpful
+        df["review_total_votes"] = reviews_total_votes
+        df["reviews_if_spoiler"] = reviews_if_spoiler
+        df.to_csv(f"{SAVE_FOLDER}/{save_name}.csv", index=False)
+        print(f"Number of reviews scraped: {len(df)}")
+    if generate_wiki:
+        docs = WikipediaLoader(
+            query=movie_name, load_max_docs=1, doc_content_chars_max=1
+        ).load()
+        wikipedia_title = docs[0].metadata["title"]
+        page_py = wikipedia_module.page(wikipedia_title)
+        for s in page_py.sections:
+            if s.title.lower() in sections_req:
+                with open(f"wikipedia_data/{save_name}.txt", "a") as file:
+                    file.writelines(s.text)
+    return (
+        reviews_date,
+        reviews_title,
+        reviews_comment,
+        reviews_rating,
+        reviews_found_helpful,
+        reviews_total_votes,
+        reviews_if_spoiler,
+    )

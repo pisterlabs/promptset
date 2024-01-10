@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+
+import openai
+import os
+import re
+import sys
+
+input = ' '.join(sys.argv[1:])
+openai.organization_id = os.environ['OPENAI_ORG']
+openai.api_key = os.environ['OPENAI_KEY']
+prompt_prefix = '#!/bin/bash\n\n#' + input
+
+response = openai.Completion.create(engine='code-davinci-002', prompt=prompt_prefix, temperature=0.5, max_tokens=50, stream=False)
+completion_all = response['choices'][0]['text']
+completion_list = completion_all.split('\n')
+filtered = list(filter(lambda x: re.match("\w", x), completion_list))
+print(filtered[0])

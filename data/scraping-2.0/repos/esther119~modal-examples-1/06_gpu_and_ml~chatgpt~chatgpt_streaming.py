@@ -1,0 +1,123 @@
+#
+# # Using the ChatGPT streaming API
+#
+# This example shows how to stream from the ChatGPT API as the model is generating a completion, instead of
+# waiting for the entire completion to finish. This provides a much better user experience, and is what you
+# get when playing with ChatGPT on [chat.openai.com](https://chat.openai.com/).
+#
+# You can try this out from the command line using the `modal` CLI, or serve the application and use the
+# included web endpoint.
+#
+# ## Imports and Modal application configuration
+#
+# OpenAI's Python client library is the only package dependency we need. We also need an API key.
+# The former is specified in the Modal application's `image` definition, and the latter is attached to the app's
+# stub as a [`modal.Secret`](/docs/guide/secrets).
+
+from modal import Image, Secret, Stub, web_endpoint
+import os
+
+image = Image.debian_slim().pip_install("openai", "pinecone-client~=2.2.2", "langchain", "openai")
+stub = Stub(
+    name="example-chatgpt-stream",
+    image=image,
+    secrets=[Secret.from_name("my-openai-secret"), Secret.from_name("my-pinecone-api")],
+)
+
+# This is all the code needed to stream answers back from ChatGPT.
+# Not much code to worry about!
+#
+# Because this Python function is decorated with `@stub.function`, it becomes
+# callable as a Modal remote function. But `stream_chat` can still be used as a
+# regular Python function, which becomes important below.
+
+
+@stub.function()
+def stream_chat(prompt: str):
+    import openai
+
+    for chunk in openai.ChatCompletion.create(
+        model="gpt-3.5-turbo",
+        messages=[{"role": "user", "content": prompt}],
+        stream=True,
+    ):
+        print("sample chunk", chunk)
+        content = chunk["choices"][0].get("delta", {}).get("content")
+        if content is not None:
+            yield content
+
+
+
+# pinecone test
+# @stub.function(
+#     image=Image.debian_slim().pip_install("pinecone-client~=2.2.2", "langchain", "openai"),
+#     secrets=[Secret.from_name("my-openai-secret"), Secret.from_name("my-pinecone-api")]
+# )
+@stub.function()
+def pinecone_init():
+    import pinecone
+    from langchain.vectorstores import Pinecone
+    from langchain.embeddings.openai import OpenAIEmbeddings
+
+    print("access embedding")
+    embeddings = OpenAIEmbeddings(disallowed_special=(), openai_api_key=os.environ['OPENAI_API_KEY'])
+    print("pinecone start testing")
+    pinecone.init(
+    api_key= os.environ["pinecone-api"],
+    environment='asia-southeast1-gcp-free'   
+    )
+    index_name =  'tim-urban-test'
+    docsearch = Pinecone.from_existing_index(index_name, embeddings)
+    print("pinecone end testing")
+
+
+# ## Streaming web endpoint
+#
+# These four lines are all you need to take that function above and serve it
+# over HTTP. It is a single function definition, annotated with decorators to make
+# it a Modal function [with a web serving capability](/docs/guide/webhooks).
+#
+# Notice that the `stream_chat` function is passed into the retuned streaming response.
+# This works because the function is a generator and is thus compatible with streaming.
+#
+# We use the standard Python calling convention `stream_chat(...)` and not the
+# Modal-specific calling convention `stream_chat.call(...)`. The latter would still work,
+# but it would create a remote function invocation which would unnecessarily involve `stream_chat`
+# running in a separate container, sending its results back to the caller over the network.
+
+
+@stub.function()
+@web_endpoint()
+def web(prompt: str):
+    from fastapi.responses import StreamingResponse
+
+    return StreamingResponse(stream_chat(prompt), media_type="text/html")
+
+
+# ## Try out the web endpoint
+#
+# Run this example with `modal serve chatgpt_streaming.py` and you'll see an ephemeral web endpoint
+# has started serving. Hit this endpoint with a prompt and watch the ChatGPT response streaming back in
+# your browser or terminal window.
+#
+# We've also already deployed this example and so you can try out our deployed web endpoint:
+#
+# ```bash
+#curl --get \--data-urlencode "prompt=Generate a list of 20 great names for sentient cheesecakes that teach SQL" \https://modal-labs--example-chatgpt-stream-web.modal.run
+# ```
+#
+# ## CLI interface
+#
+# Doing `modal run chatgpt_streaming.py --prompt="Generate a list of the world's most famous people"` also works, and uses the `local_entrypoint` defined below.
+
+default_prompt = (
+    "Generate a list of 20 great names for sentient cheesecakes that teach SQL"
+)
+
+
+@stub.local_entrypoint()
+def main(prompt: str = default_prompt):    
+    for part in stream_chat.call(prompt=prompt):
+        print(part, end="")
+
+

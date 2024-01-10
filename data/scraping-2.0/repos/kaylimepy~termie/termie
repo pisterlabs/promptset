@@ -1,0 +1,36 @@
+#!/usr/bin/env python3
+
+import sys
+import os
+import openai
+
+
+PRE_PROMPT = 'The response should be a standalone shell command. Ensure the command is just one string and nothing else.'
+
+
+def main():
+    openai.api_key = os.environ.get('OPENAI_API_KEY')
+    input_argument = sys.argv[1:][0]
+
+    response = openai.ChatCompletion.create(
+        model = 'gpt-3.5-turbo',
+        messages = [
+            {'role': 'system', 'content': PRE_PROMPT},
+            {'role': 'user', 'content': input_argument}
+        ]
+    )
+
+    shell_command = response['choices'][0]['message']['content']
+
+    print(f"Shell command: {shell_command}")
+
+    confirm = input('Would you like to run this command? ([Y]/n) ')
+
+    if not confirm or confirm.lower() == 'y':
+        os.system(shell_command)
+    else:
+        print('Command execution aborted.')
+
+
+if __name__ == "__main__":
+    main()

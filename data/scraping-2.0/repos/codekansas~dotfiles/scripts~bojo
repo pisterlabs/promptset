@@ -1,0 +1,564 @@
+#!/usr/bin/env python
+"""Command-line bullet journal tool.
+
+Bullet journaling is the practice of writing simple bullet points to
+track tasks, events, and notes. This tool uses the following states:
+
+    - incomplete (x): Task has not been completed
+    - complete (c, o): Task has been completed
+    - migrated (m, >): Task has been migrated to a new signifier
+    - scheduled (s, <): Task has been scheduled for a future date
+    - irrelevant (-, i): Task is irrelevant and should be ignored
+    - note (+, n): Task is a note
+    - event (*, e): Task is an event
+"""
+
+import argparse
+import datetime
+import json
+import os
+import shutil
+import sqlite3
+import subprocess
+import sys
+import textwrap
+import urllib.request
+import webbrowser
+from dataclasses import dataclass
+from pathlib import Path
+from typing import Any, Literal, cast, get_args
+
+Command = Literal["add", "list", "move", "pull", "push", "delete", "web", "suggest"]
+CommandShorthand = Literal["a", "l", "m", "d", "s"]
+
+State = Literal["incomplete", "complete", "migrated", "scheduled", "irrelevant", "note", "event"]
+StateShorthand = Literal["x", "c", "o", ">", "m", "s", "<", "i", "-", "n", "+", "e", "*"]
+
+SHORTHAND_TO_STATE: dict[StateShorthand, State] = {
+    "x": "incomplete",
+    "c": "complete",
+    "o": "complete",
+    ">": "migrated",
+    "m": "migrated",
+    "<": "scheduled",
+    "s": "scheduled",
+    "i": "irrelevant",
+    "-": "irrelevant",
+    "n": "note",
+    "+": "note",
+    "e": "event",
+    "*": "event",
+}
+
+STATE_TO_SHORTHAND = {v: k for k, v in SHORTHAND_TO_STATE.items()}
+
+RESET_SEQ = "\033[0m"
+REG_COLOR_SEQ = "\033[%dm"
+BOLD_COLOR_SEQ = "\033[1;%dm"
+BOLD_SEQ = "\033[1m"
+
+Color = Literal["red", "green", "yellow", "blue", "magenta", "cyan", "white"]
+
+COLOR_ID: dict[Color, int] = {
+    "red": 31,
+    "green": 32,
+    "yellow": 33,
+    "blue": 34,
+    "magenta": 35,
+    "cyan": 36,
+    "white": 37,
+}
+
+STATE_TO_COLOR: dict[State, Color] = {
+    "incomplete": "red",
+    "complete": "blue",
+    "migrated": "yellow",
+    "scheduled": "green",
+    "irrelevant": "magenta",
+    "note": "cyan",
+    "event": "white",
+}
+
+
+def get_state_choices_str() -> str:
+    return "\n".join([f" ↪ {k}: {colorize(v, STATE_TO_COLOR[v])}" for k, v in SHORTHAND_TO_STATE.items()])
+
+
+def get_state(s: str | None) -> State:
+    if s is None:
+        return "incomplete"
+    if s in SHORTHAND_TO_STATE:
+        return SHORTHAND_TO_STATE[cast(StateShorthand, s)]
+    if s in get_args(State):
+        return cast(State, s)
+    if not s:
+        return "incomplete"
+    raise ValueError(f"Invalid state {s}. Choices are:\n\n{get_state_choices_str()}")
+
+
+def get_colorize_parts(color: Color, bold: bool = False) -> tuple[str, str]:
+    if bold:
+        return BOLD_COLOR_SEQ % COLOR_ID[color], RESET_SEQ
+    return REG_COLOR_SEQ % COLOR_ID[color], RESET_SEQ
+
+
+def colorize(s: str, color: Color, bold: bool = False) -> str:
+    start, end = get_colorize_parts(color, bold=bold)
+    return start + s + end
+
+
+def bojo_root() -> Path:
+    return Path(os.environ.get("BOJO_ROOT", "~/.bojo")).expanduser().resolve()
+
+
+def create_db() -> None:
+    (br := bojo_root()).mkdir(parents=True, exist_ok=True)
+    db = sqlite3.connect(br / "bojo.db")
+    db.execute(
+        """
+        CREATE TABLE IF NOT EXISTS tasks (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            description TEXT NOT NULL,
+            state INTEGER NOT NULL,
+            signifier TEXT NOT NULL,
+            created_at INTEGER DEFAULT (strftime('%s', 'now')),
+            updated_at INTEGER DEFAULT (strftime('%s', 'now'))
+        )
+        """
+    )
+    db.commit()
+
+
+def add_task(description: str, state: State, signifier: str) -> None:
+    db = sqlite3.connect(bojo_root() / "bojo.db")
+    db.execute(
+        "INSERT INTO tasks (description, state, signifier) VALUES (?, ?, ?)",
+        (description, state, signifier),
+    )
+    db.commit()
+
+
+@dataclass
+class Task:
+    task_id: int
+    description: str
+    state: State
+    signifier: str
+    created_at: datetime.datetime
+    updated_at: datetime.datetime
+
+    def __post_init__(self) -> None:
+        if isinstance(self.created_at, int):
+            self.created_at = datetime.datetime.fromtimestamp(self.created_at)
+        if isinstance(self.updated_at, int):
+            self.updated_at = datetime.datetime.fromtimestamp(self.updated_at)
+
+    def __repr__(self) -> str:
+        return " ".join(
+            [
+                colorize(str(self.task_id), "green", bold=True),
+                colorize(self.signifier, "cyan", bold=False),
+                colorize(self.description, STATE_TO_COLOR[self.state], bold=True),
+                colorize(self.created_at.strftime("%Y-%m-%d"), "yellow", bold=False),
+                colorize(self.updated_at.strftime("%Y-%m-%d"), "red", bold=False),
+            ]
+        )
+
+
+def query_tasks(
+    state: State | None,
+    signifier: str | None,
+    limit: int | None,
+    include_complete: bool = False,
+) -> list[Task]:
+    db = sqlite3.connect(bojo_root() / "bojo.db")
+    cursor = db.cursor()
+    clauses: list[tuple[str, Any]] = []
+    args: list[Any] = []
+    if state is not None:
+        clauses.append(("state=?", state))
+    if signifier is not None:
+        clauses.append(("signifier=?", signifier))
+    if not include_complete:
+        clauses.append(("state!=?", "complete"))
+    command = "SELECT * FROM tasks"
+    if clauses:
+        clauses_str = " AND ".join([f"{k}" for k, _ in clauses])
+        args += [v for _, v in clauses]
+        command += f" WHERE {clauses_str}"
+    command += " ORDER BY updated_at DESC"
+    if limit is not None:
+        command += " LIMIT ?"
+        args += [limit]
+    cursor.execute(command, tuple(args))
+    return [Task(*row) for row in cursor.fetchall()]
+
+
+def is_valid_task(task_id: int) -> bool:
+    db = sqlite3.connect(bojo_root() / "bojo.db")
+    cursor = db.cursor()
+    cursor.execute("SELECT COUNT(*) FROM tasks WHERE id=?", (task_id,))
+    return bool(cursor.fetchone()[0])
+
+
+def is_valid_signifier(s: str) -> bool:
+    db = sqlite3.connect(bojo_root() / "bojo.db")
+    cursor = db.cursor()
+    cursor.execute("SELECT COUNT(*) FROM tasks WHERE signifier=?", (s,))
+    return bool(cursor.fetchone()[0])
+
+
+def move_task(task_id: int, state: State | None, signifier: str | None) -> None:
+    db = sqlite3.connect(bojo_root() / "bojo.db")
+
+    if state is None and signifier is None:
+        raise ValueError("Must specify either state or signifier")
+    elif state is None:
+        db.execute("UPDATE tasks SET signifier=?, updated_at=strftime('%s', 'now') WHERE id=?", (signifier, task_id))
+    elif signifier is None:
+        db.execute("UPDATE tasks SET state=?, updated_at=strftime('%s', 'now') WHERE id=?", (state, task_id))
+    else:
+        db.execute(
+            """
+            UPDATE tasks
+            SET
+                state=?,
+                signifier=?,
+                updated_at=strftime('%s', 'now')
+            WHERE id=?
+            """,
+            (state, signifier, task_id),
+        )
+    db.commit()
+
+
+def delete_tasks(tasks: list[int] | None) -> None:
+    db = sqlite3.connect(bojo_root() / "bojo.db")
+    cursor = db.cursor()
+    if tasks is None:
+        cursor.execute("DROP TABLE tasks")
+    else:
+        tasks_str = ",".join([str(t) for t in tasks])
+        cursor.execute("DELETE FROM tasks WHERE id IN (?)", (tasks_str,))
+    db.commit()
+
+
+def get_task_signifier(task_id: int) -> str:
+    db = sqlite3.connect(bojo_root() / "bojo.db")
+    cursor = db.cursor()
+    cursor.execute("SELECT signifier FROM tasks WHERE id=?", (task_id,))
+    return cursor.fetchone()[0]
+
+def get_task_id_interface() -> int:
+    while True:
+        task_id_str = input("Task ID: ")
+        try:
+            task_id = int(task_id_str)
+            assert task_id > 0
+            assert is_valid_task(task_id)
+            return task_id
+        except ValueError:
+            print(f"Invalid task ID: '{task_id_str}'")
+        except AssertionError:
+            print(f"Task '{task_id_str}' is invalid; use `bojo list` to see valid tasks")
+
+def get_state_interface(default: State | None = None) -> State | None:
+    while True:
+        state_str = input("State: " if default is None else f"State [{default}]: ")
+        if state_str == "":
+            return default
+        try:
+            state = get_state(state_str)
+            return state
+        except ValueError:
+            print(f"Invalid state: '{state_str}'. Valid choices are:\n\n{get_state_choices_str()}\n")
+
+def get_signifier_interface() -> str | None:
+    signifier_str = input("Signifier: ")
+    if signifier_str == "":
+        return None
+    return signifier_str
+
+
+def add_subcommand(rest: list[str]) -> None:
+    parser = argparse.ArgumentParser(description="Add a task to the journal")
+    parser.add_argument("description", help="Description of the task", nargs="?")
+    parser.add_argument("state", help="State of the task", nargs="?")
+    parser.add_argument("signifier", help="Signifier of the task", nargs="?")
+    args = parser.parse_args(rest)
+
+    description = input("Description: ") if args.description is None else args.description
+    state = get_state(get_state_interface("incomplete") if args.state is None else args.state)
+    signifier = get_signifier_interface() if args.signifier is None else args.signifier
+
+    add_task(description, state, signifier)
+
+
+def get_state_or_signifier(s: str) -> tuple[State | None, str | None]:
+    try:
+        return get_state(s), None
+    except ValueError as e:
+        if is_valid_signifier(s):
+            return None, s
+        else:
+            raise ValueError(f"Invalid state or signifier: {s}") from e
+
+
+def list_subcommand(rest: list[str]) -> None:
+    parser = argparse.ArgumentParser(description="List tasks in the journal")
+    parser.add_argument("state_or_signifier", help="State or signifier of the task", nargs="?")
+    parser.add_argument("-n", "--num-items", help="Number of items to show", type=int, default=50)
+    parser.add_argument("-r", "--header", help="Show a header", action="store_true")
+    parser.add_argument("-c", "--complete", help="Show completed tasks", action="store_true")
+    args = parser.parse_args(rest)
+
+    if args.header:
+        print("ID  Description  State  Signifier  Created  Updated")
+
+    state_or_signifier = args.state_or_signifier
+    state, signifier = (None, None) if state_or_signifier is None else get_state_or_signifier(state_or_signifier)
+    tasks = query_tasks(state, signifier, args.num_items, args.complete)
+
+    for task in tasks:
+        print(f" ↪ {task}")
+
+
+def move_subcommand(rest: list[str]) -> None:
+    parser = argparse.ArgumentParser(description="Move a task to a new state")
+    parser.add_argument("task_id", help="ID of the task to move", type=int, nargs="?")
+    parser.add_argument("state_or_signifier", help="State or signifier of the task", nargs="?")
+    args = parser.parse_args(rest)
+
+    task_id = int(get_task_id_interface() if args.task_id is None else args.task_id)
+    state_or_signifier = args.state_or_signifier
+    state: State | None = None
+    signifier: str | None = None
+    if state_or_signifier is None:
+        state = get_state_interface()
+        signifier = get_signifier_interface()
+    else:
+        state, signifier = get_state_or_signifier(state_or_signifier)
+
+    move_task(task_id, state, signifier)
+
+
+def delete_subcommand(rest: list[str]) -> None:
+    parser = argparse.ArgumentParser(description="Delete a task from the journal")
+    parser.add_argument("task_id", help="ID of the task to delete", type=int, nargs="*")
+    args = parser.parse_args(rest)
+
+    if not args.task_id:
+        while True:
+            confirm = input("Are you sure you want to delete all tasks? [y/N] ").lower()
+            if confirm == "y":
+                break
+            elif confirm in ("n", ""):
+                print(colorize("Aborting", "red", bold=True))
+                return
+            else:
+                print("Invalid input")
+        print(colorize("Deleting all tasks", "red", bold=True))
+        delete_tasks(None)
+    else:
+        delete_tasks(args.task_id)
+
+
+def push_pull_subcommand(push: bool, rest: list[str]) -> None:
+    parser = argparse.ArgumentParser(description="Sync bullet journal to a Github Gist")
+    parser.add_argument("gist_id", help="ID of the gist to sync to", nargs="?")
+    args = parser.parse_args(rest)
+
+    (br := bojo_root()).mkdir(parents=True, exist_ok=True)
+    if not (db_path := br / "bojo.db").exists():
+        raise RuntimeError("Database does not exist")
+
+    gist_id = args.gist_id
+    if gist_id is None:
+        gist_id = os.environ.get("BOJO_GIST_ID")
+        if gist_id is None:
+            gist_id = input("Gist ID (or set BOJO_GIST_ID env var): ")
+
+    repo_addr = f"git@gist.github.com:{gist_id}.git"
+    repo_loc = bojo_root() / "bojo-gist"
+    repo_db_path = repo_loc / "bojo.db"
+    if not repo_loc.exists():
+        print(colorize("Cloning gist", "green", bold=True))
+        subprocess.run(["git", "clone", repo_addr, repo_loc])
+    else:
+        print(colorize("Pulling gist", "green", bold=True))
+        subprocess.run(["git", "pull"], cwd=repo_loc)
+
+    gist_url = f"https://gist.github.com/{gist_id}"
+
+    if push:
+        print(colorize("Copying database to remote", "green", bold=True))
+        shutil.copyfile(db_path, repo_db_path)
+
+        print(colorize("Dumping database to markdown", "green", bold=True))
+        db = sqlite3.connect(db_path)
+        with open(repo_loc / "bojo.md", "w") as f:
+            f.write("| ID | State | Signifier | Description | Created | Updated |\n")
+            f.write("|----|-------|-----------|-------------|---------|---------|\n")
+            query = """
+                SELECT id, description, state, signifier, created_at, updated_at
+                FROM tasks
+                ORDER BY updated_at DESC
+            """
+            for row in db.execute(query):
+                task_id, description, state, signifier, created_at, updated_at = row
+                created_str = datetime.datetime.fromtimestamp(created_at).strftime("%Y-%m-%d %H:%M:%S")
+                updated_str = datetime.datetime.fromtimestamp(updated_at).strftime("%Y-%m-%d %H:%M:%S")
+                f.write(f"| {task_id} | {state} | {signifier} | {description} | {created_str} | {updated_str} |\n")
+
+        print(colorize("Pushing gist", "green", bold=True))
+        subprocess.run(["git", "add", "bojo.db", "bojo.md"], cwd=repo_loc)
+        subprocess.run(["git", "commit", "-m", "Update bullet journal"], cwd=repo_loc)
+        subprocess.run(["git", "push"], cwd=repo_loc)
+        print(f"Pushed gist to {colorize(gist_url, 'blue', bold=True)}")
+
+    else:
+        print(colorize("Copying database from remote", "green", bold=True))
+        shutil.copyfile(repo_db_path, db_path)
+        print(f"Pulled gist from {colorize(gist_url, 'blue', bold=True)}")
+
+
+def open_web_subcommand(rest: list[str]) -> None:
+    parser = argparse.ArgumentParser(description="Open the bullet journal Gist page in the browser")
+    parser.add_argument("gist_id", help="ID of the gist to sync to", nargs="?")
+    args = parser.parse_args(rest)
+
+    gist_id = args.gist_id
+    if gist_id is None:
+        gist_id = os.environ.get("BOJO_GIST_ID")
+        while gist_id is None:
+            gist_id = input("Gist ID (or set BOJO_GIST_ID env var): ")
+            if gist_id is None:
+                print(colorize("Invalid input", "red"))
+
+    gist_url = f"https://gist.github.com/{gist_id}"
+    print(colorize("Opening gist in browser", "green", bold=True))
+    webbrowser.open(gist_url)
+
+
+def suggest_subcommand(rest: list[str]) -> None:
+    parser = argparse.ArgumentParser(description="Suggest daily tasks using the OpenAI API")
+    parser.add_argument("openai_api_key", help="OpenAI API key to use", nargs="?")
+    parser.add_argument("-n", "--num-items", help="Number of items to show", type=int, default=10)
+    parser.add_argument("-m", "--model", help="OpenAI model to use", default="gpt-3.5-turbo")
+    parser.add_argument("--temperature", help="Temperature for decoding", type=float, default=0.7)
+    args = parser.parse_args(rest)
+
+    openai_api_key = args.openai_api_key
+    if openai_api_key is None:
+        openai_api_key = os.environ.get("OPENAI_API_KEY")
+        while openai_api_key is None:
+            openai_api_key = input("Open AI API key (or set OPENAI_API_KEY env var): ")
+            if openai_api_key is None:
+                print(colorize("Invalid input", "red"))
+
+    print(colorize("Getting suggestions from OpenAI", "green", bold=True))
+
+    tasks = query_tasks(None, None, args.num_items)
+    entries = []
+    for task in tasks:
+        parts = [task.state, task.signifier, task.description]
+        entry = "| " + " | ".join(str(p) for p in parts) + " |"
+        entries.append(entry)
+    entries_str = "\n    ".join(entries)
+
+    query = textwrap.dedent(
+        f"""
+    Here are my most recent {args.num_items} Bullet Journal entries:
+
+    | State | Signifier | Description |
+    |-------|-----------|-------------|
+    {entries_str}
+
+    Categories these entries into the following groups (only the description):
+
+    - Reading
+    - Coding
+    - Brainstorming
+
+    Next, rank these entries by how important they are.
+
+    Finally, create a schedule for the day, with reading tasks coming in the
+    morning, coding tasks in the afternoon, and brainstorming tasks in the
+    evening. Allocate time for eating breakfast, lunch and dinner. Assume I
+    am working from 8 AM to 8 PM.
+    """
+    ).strip()
+
+    data = json.dumps(
+        {
+            "model": args.model,
+            "temperature": args.temperature,
+            "messages": [{"role": "user", "content": query}],
+            "stream": True,
+        }
+    ).encode("utf-8")
+
+    req = urllib.request.Request(
+        "https://api.openai.com/v1/chat/completions",
+        headers={
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {openai_api_key}",
+        },
+        data=data,
+        method="POST",
+    )
+
+    with urllib.request.urlopen(req) as f:
+        if f.status != 200:
+            print(colorize(f"Got status code {f.status}", "red"))
+            return
+
+        print(colorize("Got response from OpenAI", "green", bold=True))
+        for line in f:
+            line = line.decode("utf-8").strip()
+            if line.startswith("data: "):
+                line = line[len("data: ") :]
+                if line == "[DONE]":
+                    break
+                chunk = json.loads(line)
+                delta = chunk["choices"][0]["delta"]
+                if "content" not in delta:
+                    continue
+                choice = delta["content"]
+                sys.stdout.write(choice)
+                sys.stdout.flush()
+        print()
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__.strip())
+    parser.add_argument("command", help="Command to run", choices=get_args(Command) + get_args(CommandShorthand))
+    args, rest = parser.parse_known_args()
+    command = cast(Command | CommandShorthand, args.command)
+
+    # Always create the databse.
+    create_db()
+
+    match command:
+        case "add" | "a":
+            add_subcommand(rest)
+        case "list" | "l":
+            list_subcommand(rest)
+        case "migrate" | "m":
+            move_subcommand(rest)
+        case "delete" | "d":
+            delete_subcommand(rest)
+        case "pull":
+            push_pull_subcommand(False, rest)
+        case "push":
+            push_pull_subcommand(True, rest)
+        case "web":
+            open_web_subcommand(rest)
+        case "suggest" | "s":
+            suggest_subcommand(rest)
+        case _:
+            raise NotImplementedError(f"Command {command} not implemented")
+
+
+if __name__ == "__main__":
+    main()

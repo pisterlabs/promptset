@@ -1,0 +1,30 @@
+#!/usr/bin/python3
+import os
+import sys
+import pyperclip
+import openai
+
+# Get the OpenAI API key from the environment variable
+API_KEY = os.environ.get("OPENAI_KEY")
+
+# Check if the API key is set
+if not API_KEY:
+    raise ValueError("OpenAI API key is not set. Please export the OPENAI_KEY variable.")
+
+# Set up the OpenAI API client
+openai.api_key = API_KEY
+
+os.system("dunstify loading ans")
+
+completion = openai.ChatCompletion.create(
+  model="gpt-3.5-turbo",
+  messages=[
+    {"role": "user", "content": pyperclip.paste()}
+  ]
+)
+
+pyperclip.copy(completion.choices[0].message.content)
+
+
+os.system("dunstify done!")
+

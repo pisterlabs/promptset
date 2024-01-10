@@ -1,0 +1,362 @@
+# -*- coding: utf-8 -*-
+from enum import Enum
+from flask import Flask, render_template, request, flash, redirect, url_for
+from markupsafe import Markup
+from flask_wtf import FlaskForm, CSRFProtect
+from wtforms.validators import DataRequired, Length, Regexp
+from wtforms.fields import *
+from flask_bootstrap import Bootstrap5, SwitchField
+from flask_sqlalchemy import SQLAlchemy
+import openai
+
+import os
+os.environ['http_proxy'] = 'http://127.0.0.1:7890'
+os.environ['https_proxy'] = 'http://127.0.0.1:7890'
+
+app = Flask(__name__)
+app.secret_key = 'dev'
+
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///:memory:'
+
+# set default button sytle and size, will be overwritten by macro parameters
+app.config['BOOTSTRAP_BTN_STYLE'] = 'primary'
+app.config['BOOTSTRAP_BTN_SIZE'] = 'sm'
+
+# set default icon title of table actions
+app.config['BOOTSTRAP_TABLE_VIEW_TITLE'] = 'Read'
+app.config['BOOTSTRAP_TABLE_EDIT_TITLE'] = 'Update'
+app.config['BOOTSTRAP_TABLE_DELETE_TITLE'] = 'Remove'
+app.config['BOOTSTRAP_TABLE_NEW_TITLE'] = 'Create'
+
+bootstrap = Bootstrap5(app)
+db = SQLAlchemy(app)
+csrf = CSRFProtect(app)
+
+
+class ExampleForm(FlaskForm):
+    """An example form that contains all the supported bootstrap style form fields."""
+    date = DateField(description="We'll never share your email with anyone else.")  # add help text with `description`
+    datetime = DateTimeField(render_kw={'placeholder': 'this is a placeholder'})  # add HTML attribute with `render_kw`
+    datetime_local = DateTimeLocalField()
+    time = TimeField()
+    month = MonthField()
+    floating = FloatField()
+    integer = IntegerField()
+    decimal_slider = DecimalRangeField()
+    integer_slider = IntegerRangeField(render_kw={'min': '0', 'max': '4'})
+    email = EmailField()
+    url = URLField()
+    telephone = TelField()
+    image = FileField(render_kw={'class': 'my-class'}, validators=[Regexp('.+\.jpg$')])  # add your class
+    option = RadioField(choices=[('dog', 'Dog'), ('cat', 'Cat'), ('bird', 'Bird'), ('alien', 'Alien')])
+    select = SelectField(choices=[('dog', 'Dog'), ('cat', 'Cat'), ('bird', 'Bird'), ('alien', 'Alien')])
+    select_multiple = SelectMultipleField(choices=[('dog', 'Dog'), ('cat', 'Cat'), ('bird', 'Bird'), ('alien', 'Alien')])
+    bio = TextAreaField()
+    search = SearchField() # will autocapitalize on mobile
+    title = StringField() # will not autocapitalize on mobile
+    secret = PasswordField()
+    remember = BooleanField('Remember me')
+    submit = SubmitField()
+
+class KnowledgeForm(FlaskForm):
+    content = TextAreaField('输入内容，用换行来区分逻辑内容')
+    submit = SubmitField('添加')
+
+class HelloForm(FlaskForm):
+    username = StringField('Username', validators=[DataRequired(), Length(1, 20)])
+    password = PasswordField('Password', validators=[DataRequired(), Length(8, 150)])
+    remember = BooleanField('Remember me')
+    submit = SubmitField()
+
+
+class ButtonForm(FlaskForm):
+    username = StringField('Username', validators=[DataRequired(), Length(1, 20)])
+    confirm = SwitchField('Confirmation')
+    submit = SubmitField()
+    delete = SubmitField()
+    cancel = SubmitField()
+
+
+class TelephoneForm(FlaskForm):
+    country_code = IntegerField('Country Code')
+    area_code = IntegerField('Area Code/Exchange')
+    number = StringField('Number')
+
+
+class IMForm(FlaskForm):
+    protocol = SelectField(choices=[('aim', 'AIM'), ('msn', 'MSN')])
+    username = StringField()
+
+
+class ContactForm(FlaskForm):
+    first_name = StringField()
+    last_name = StringField()
+    mobile_phone = FormField(TelephoneForm)
+    office_phone = FormField(TelephoneForm)
+    emails = FieldList(StringField("Email"), min_entries=3)
+    im_accounts = FieldList(FormField(IMForm), min_entries=2)
+
+
+class BootswatchForm(FlaskForm):
+    """Form to test Bootswatch."""
+    #DO NOT EDIT! Use list-bootswatch.py to generate the Radiofield below.
+    theme_name = RadioField(
+        default='default',
+        choices=[
+            ('default', 'none'),
+            ('cerulean', 'Cerulean 5.1.3'),
+            ('cosmo', 'Cosmo 5.1.3'),
+            ('cyborg', 'Cyborg 5.1.3'),
+            ('darkly', 'Darkly 5.1.3'),
+            ('flatly', 'Flatly 5.1.3'),
+            ('journal', 'Journal 5.1.3'),
+            ('litera', 'Litera 5.1.3'),
+            ('lumen', 'Lumen 5.1.3'),
+            ('lux', 'Lux 5.1.3'),
+            ('materia', 'Materia 5.1.3'),
+            ('minty', 'Minty 5.1.3'),
+            ('morph', 'Morph 5.1.3'),
+            ('pulse', 'Pulse 5.1.3'),
+            ('quartz', 'Quartz 5.1.3'),
+            ('sandstone', 'Sandstone 5.1.3'),
+            ('simplex', 'Simplex 5.1.3'),
+            ('sketchy', 'Sketchy 5.1.3'),
+            ('slate', 'Slate 5.1.3'),
+            ('solar', 'Solar 5.1.3'),
+            ('spacelab', 'Spacelab 5.1.3'),
+            ('superhero', 'Superhero 5.1.3'),
+            ('united', 'United 5.1.3'),
+            ('vapor', 'Vapor 5.1.3'),
+            ('yeti', 'Yeti 5.1.3'),
+            ('zephyr', 'Zephyr 5.1.3'),
+        ]
+    )
+    submit = SubmitField()
+
+
+class MyCategory(Enum):
+    CAT1 = 'Category 1'
+    CAT2 = 'Category 2'
+
+
+class Message(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    text = db.Column(db.Text, nullable=False)
+    author = db.Column(db.String(100), nullable=False)
+    category = db.Column(db.Enum(MyCategory), default=MyCategory.CAT1, nullable=False)
+    draft = db.Column(db.Boolean, default=False, nullable=False)
+    create_time = db.Column(db.Integer, nullable=False, unique=True)
+
+
+def before_first_request_func():
+    db.drop_all()
+    db.create_all()
+    for i in range(20):
+        url = 'mailto:x@t.me'
+        if i % 7 == 0:
+            url = 'www.t.me'
+        elif i % 7 == 1:
+            url = 'https://t.me'
+        elif i % 7 == 2:
+            url = 'http://t.me'
+        elif i % 7 == 3:
+            url = 'http://t'
+        elif i % 7 == 4:
+            url = 'http://'
+        elif i % 7 == 5:
+            url = 'x@t.me'
+        m = Message(
+            text=f'Message {i+1} {url}',
+            author=f'Author {i+1}',
+            create_time=4321*(i+1)
+            )
+        if i % 2:
+            m.category = MyCategory.CAT2
+        if i % 4:
+            m.draft = True
+        db.session.add(m)
+    db.session.commit()
+
+def get_question(data):
+    try:
+        response = openai.Completion.create(
+            model="text-davinci-003",
+            prompt=f"Write questions based on the text below\n\nText: {data}\n\nQuestions:\n1.",
+            temperature=0,
+            max_tokens=257,
+            top_p=1,
+            frequency_penalty=0,
+            presence_penalty=0,
+            stop=["\n\n"]
+        )
+        return "1."+response['choices'][0]['text']
+    except Exception as error:
+        print("An exception occurred:", error)
+        return ""
+    
+def get_answers(data, questions):
+    try:
+        response = openai.Completion.create(
+            engine="text-davinci-003",
+            prompt=f"Write answer based on the text below\n\nText: {data}\n\nQuestions:\n{questions}\n\nAnswers:\n1.",
+            temperature=0,
+            max_tokens=257,
+            top_p=1,
+            frequency_penalty=0,
+            presence_penalty=0
+        )
+        return "1."+response['choices'][0]['text']
+    except Exception as e:
+        print (e)
+        return ""
+def get_question_answer(data):
+    questions = get_question(data)
+    answers = get_answers(data, questions)
+    q_array = questions.splitlines()
+    a_array = answers.splitlines()
+    qa=[]
+    for i in range(min(len(q_array),len(a_array))):
+        qa.append((q_array[i],a_array[i]))
+    return qa
+
+def build_question_answer(data):
+    return [get_question_answer(element) for element in data.splitlines() if element != '']
+
+@app.route('/', methods=['GET','POST'])
+def index():
+    form = KnowledgeForm()
+    qa_list = []
+    if form.validate_on_submit():
+        if form.content.data=='':
+            flash('输入内容不能为空')
+        else:
+            qa_list = build_question_answer(form.content.data)
+    return render_template('index.html', knowledge_form=form, qa_list=qa_list)
+
+@app.route('/download')
+def download():
+    return render_template('download.html')
+
+@app.route('/form', methods=['GET', 'POST'])
+def test_form():
+    form = HelloForm()
+    if form.validate_on_submit():
+        flash('Form validated!')
+        return redirect(url_for('index'))
+    return render_template(
+        'form.html',
+        form=form,
+        telephone_form=TelephoneForm(),
+        contact_form=ContactForm(),
+        im_form=IMForm(),
+        button_form=ButtonForm(),
+        example_form=ExampleForm()
+    )
+
+
+@app.route('/nav', methods=['GET', 'POST'])
+def test_nav():
+    return render_template('nav.html')
+
+
+@app.route('/bootswatch', methods=['GET', 'POST'])
+def test_bootswatch():
+    form = BootswatchForm()
+    if form.validate_on_submit():
+        if form.theme_name.data == 'default':
+            app.config['BOOTSTRAP_BOOTSWATCH_THEME'] = None
+        else:
+            app.config['BOOTSTRAP_BOOTSWATCH_THEME'] = form.theme_name.data
+        flash(f'Render style has been set to {form.theme_name.data}.')
+    else:
+        if app.config['BOOTSTRAP_BOOTSWATCH_THEME'] != None:
+            form.theme_name.data = app.config['BOOTSTRAP_BOOTSWATCH_THEME']
+    return render_template('bootswatch.html', form=form)
+
+
+@app.route('/pagination', methods=['GET', 'POST'])
+def test_pagination():
+    page = request.args.get('page', 1, type=int)
+    pagination = Message.query.paginate(page=page, per_page=10)
+    messages = pagination.items
+    return render_template('pagination.html', pagination=pagination, messages=messages)
+
+
+@app.route('/flash', methods=['GET', 'POST'])
+def test_flash():
+    flash('A simple default alert—check it out!')
+    flash('A simple primary alert—check it out!', 'primary')
+    flash('A simple secondary alert—check it out!', 'secondary')
+    flash('A simple success alert—check it out!', 'success')
+    flash('A simple danger alert—check it out!', 'danger')
+    flash('A simple warning alert—check it out!', 'warning')
+    flash('A simple info alert—check it out!', 'info')
+    flash('A simple light alert—check it out!', 'light')
+    flash('A simple dark alert—check it out!', 'dark')
+    flash(Markup('A simple success alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.'), 'success')
+    return render_template('flash.html')
+
+
+@app.route('/table')
+def test_table():
+    page = request.args.get('page', 1, type=int)
+    pagination = Message.query.paginate(page=page, per_page=10)
+    messages = pagination.items
+    titles = [('id', '#'), ('text', 'Message'), ('author', 'Author'), ('category', 'Category'), ('draft', 'Draft'), ('create_time', 'Create Time')]
+    data = []
+    for msg in messages:
+        data.append({'id': msg.id, 'text': msg.text, 'author': msg.author, 'category': msg.category, 'draft': msg.draft, 'create_time': msg.create_time})
+    return render_template('table.html', messages=messages, titles=titles, Message=Message, data=data)
+
+
+@app.route('/table/<int:message_id>/view')
+def view_message(message_id):
+    message = Message.query.get(message_id)
+    if message:
+        return f'Viewing {message_id} with text "{message.text}". Return to <a href="/table">table</a>.'
+    return f'Could not view message {message_id} as it does not exist. Return to <a href="/table">table</a>.'
+
+
+@app.route('/table/<int:message_id>/edit')
+def edit_message(message_id):
+    message = Message.query.get(message_id)
+    if message:
+        message.draft = not message.draft
+        db.session.commit()
+        return f'Message {message_id} has been editted by toggling draft status. Return to <a href="/table">table</a>.'
+    return f'Message {message_id} did not exist and could therefore not be edited. Return to <a href="/table">table</a>.'
+
+
+@app.route('/table/<int:message_id>/delete', methods=['POST'])
+def delete_message(message_id):
+    message = Message.query.get(message_id)
+    if message:
+        db.session.delete(message)
+        db.session.commit()
+        return f'Message {message_id} has been deleted. Return to <a href="/table">table</a>.'
+    return f'Message {message_id} did not exist and could therefore not be deleted. Return to <a href="/table">table</a>.'
+
+
+@app.route('/table/<int:message_id>/like')
+def like_message(message_id):
+    return f'Liked the message {message_id}. Return to <a href="/table">table</a>.'
+
+
+@app.route('/table/new-message')
+def new_message():
+    return 'Here is the new message page. Return to <a href="/table">table</a>.'
+
+
+@app.route('/icon')
+def test_icon():
+    return render_template('icon.html')
+
+
+@app.route('/icons')
+def test_icons():
+    return render_template('icons.html')
+
+
+if __name__ == '__main__':
+    app.run(debug=True)

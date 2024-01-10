@@ -1,0 +1,86 @@
+#!/usr/bin/env python3
+
+# Accepts an input from a pipe and a question. Example:
+# ls | askai "How many files do I have"
+# If you don't provide a question, or you don't pass an input, it will open a chat.
+#
+# It reads the token from the ~/.config/askai.conf file
+# The format of the aigrep.conf file is as follows:
+# [openai]
+# api_key = <YOUR KEY>
+
+import argparse
+import configparser
+import openai
+import os
+import sys
+
+
+def print_help():
+    print("Usage: askai [options]")
+    print("Options:")
+    print("  -h, --help     Show this help message and exit")
+    print("  -q, --question Ask a question and exits")
+
+
+def ask_openai(text):
+    response = openai.Completion.create(
+        engine="text-davinci-003",
+        prompt=text,
+        max_tokens=500,
+        temperature=0.5,
+    )
+    return response.choices[0].text.strip()
+
+
+def open_prompt():
+    while True:
+        user_input = input("> ")
+        if user_input.lower() == 'exit':
+            break
+        out = ask_openai(user_input)
+        print(out)
+
+
+def get_token():
+    # Read the token from the configuration file
+    config = configparser.ConfigParser()
+    config_file = os.path.expanduser('~/.config/askai.conf')
+    config.read(config_file)
+    token = config.get('openai', 'api_key', fallback='')
+    # Check if the token exists
+    if not token:
+        print("API key not found in the configuration file.")
+        sys.exit(1)
+    return token
+
+
+def main():
+    parser = argparse.ArgumentParser(description='Ask an AI')
+    parser.add_argument('-q', '--question', type=str, help='Ask a question and exits')
+    args = parser.parse_args()
+    full_input = ""
+
+    openai.api_key = get_token()
+
+    if args.question and sys.stdin.isatty():
+        full_input += f"Question: {args.question}\n"
+        print(ask_openai(full_input))
+        sys.exit(0)
+    if args.question and not sys.stdin.isatty():
+        full_input += f"Question: {args.question}\n"
+        full_input += f"Input: {sys.stdin.read()}\n"
+        print(ask_openai(full_input))
+        sys.exit(0)
+    if args.question == None and sys.stdin.isatty():
+        open_prompt()
+        sys.exit(0)
+    if args.question == None and not sys.stdin.isatty():
+        full_input += f"Input: {sys.stdin.read()}\n"
+        print(ask_openai(full_input))
+        open_prompt()
+        sys.exit(0)
+
+
+if __name__ == "__main__":
+    main()

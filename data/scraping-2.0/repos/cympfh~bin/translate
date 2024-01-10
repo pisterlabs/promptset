@@ -1,0 +1,143 @@
+#!/usr/bin/env python
+
+import sys
+import json
+import openai
+import os
+import click
+import requests
+
+
+langs = {
+    "unknown": "不明 (与えられる文から推測してください)",
+    "ja": "日本語",
+    "en": "English",
+    "zh": "Chinese",
+    "ko": "Korean",
+}
+
+
+class DeepL:
+    def __init__(self):
+        key = os.getenv("DEEPL_AUTH_KEY")
+        assert key is not None
+        self.uri = "https://api.deepl.com/v2/translate"
+        self.headers = {
+            "Authorization": f"DeepL-Auth-Key {key}",
+        }
+
+    def run(
+        self,
+        text: str,
+        source_lang: str = "unknown",
+        target_lang: str = "ja",
+    ) -> str:
+        data = {
+            "text": text,
+            "target_lang": target_lang.upper(),
+        }
+        if source_lang != "unknown":
+            data |= {"source_lang": source_lang.upper()}
+        response = requests.post(self.uri, headers=self.headers, data=data)
+        data = response.json()["translations"][0]
+        data["target_language"] = target_lang.upper()
+        data["model"] = "deepl"
+        return json.dumps(data, ensure_ascii=False)
+
+
+class ChatGPT:
+    def __init__(self):
+        self.client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
+    def run(
+        self, text: str, source_lang: str = "unknown", target_lang: str = "ja"
+    ) -> str | None:
+        source_lang_description = langs[source_lang]
+        target_lang_description = langs[target_lang]
+        system_prompt = f"""
+自然言語の翻訳をしてください.
+
+翻訳元になる言語: {source_lang_description} ({source_lang.upper()})
+翻訳先になる言語: {target_lang_description} ({target_lang.upper()})
+
+ユーザーから文章が与えられます.
+文章は
+---
+から
+---
+の間にあります.
+
+あなたが返すべき出力は一つの JSON 辞書です.
+つまり {{ で始まって }} で終わる文字列のみです.
+これ以外のテキストを一切含めないことを厳守してください.
+JSON の前後に余計なテキストを出力しないでください.
+例えば ```json や ``` といった行は不要です.
+このことは厳守してください.
+
+あなたが返すJSONのフォーマットは次です
+
+{{ "detected_source_language": "{{翻訳元の言語, 例えば EN や JA}}", "target_language": "{{ 翻訳先の言語, 例えば JA や EN }}", "model": "gpt", "text": "{{翻訳結果}}" }}
+
+"target_language" の値は {target_lang.upper()} になるはずです
+"model" の値は "gpt" で固定しておいてください
+
+ではこれから翻訳したい文章を次に与えます.
+あなたはその言語の先生になったつもりで, より良い翻訳結果を一つ JSON 形式で示してください.
+"""
+        messages = [
+            {
+                "role": "system",
+                "content": system_prompt,
+            },
+            {
+                "role": "user",
+                "content": f"""
+---
+{text}
+---
+""",
+            },
+        ]
+        result = self.client.chat.completions.create(
+            model="gpt-4-1106-preview",
+            messages=messages,
+        )
+        return result.choices[0].message.content
+
+
+@click.command()
+@click.option(
+    "--model",
+    "-m",
+    type=click.Choice(["gpt", "deepl"]),
+    default="deepl",
+    show_default=True,
+)
+@click.option("--source", "-s", type=str, default="unknown", help="source language")
+@click.option("--target", "-t", type=str, default="ja", help="target language")
+@click.argument("text", type=str, required=False)
+def main(
+    model: str,
+    source: str,
+    target: str,
+    text: str,
+):
+    if not text:
+        text = sys.stdin.read()
+
+    assert source in langs, f"Supported langs: {langs}"
+    assert target in langs, f"Supported langs: {langs}"
+
+    match model:
+        case "deepl":
+            result = DeepL().run(text, source_lang=source, target_lang=target)
+        case "gpt":
+            result = ChatGPT().run(text, source_lang=source, target_lang=target)
+        case _:
+            raise NotImplemented(model)
+
+    print(result)
+
+
+if __name__ == "__main__":
+    main()

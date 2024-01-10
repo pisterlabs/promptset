@@ -1,0 +1,176 @@
+import openai
+import streamlit as st
+import re
+import code_gen
+import os
+import mongoUtils
+BASE_DIR = "./Models"  # Replace with the path to your base directory
+BASE_PORT = 8500  # Starting port number
+APP_COUNTER_FILE = 'app_counter.txt'  # Path to the app counter file
+
+def get_next_app_number():
+    # Check if the counter file exists
+    if not os.path.exists(APP_COUNTER_FILE):
+        with open(APP_COUNTER_FILE, 'w') as file:
+            file.write('1')  # Initialize with the first app number
+        return 1
+
+    # If it exists, read the current number, increment it, and save it back
+    with open(APP_COUNTER_FILE, 'r') as file:
+        current_number = int(file.read().strip())
+
+    new_number = current_number + 1
+    with open(APP_COUNTER_FILE, 'w') as file:
+        file.write(str(new_number))
+
+    return new_number
+
+def create_app_directories(app_number):
+    app_dir = os.path.join('Modules', f'app_{app_number}')
+    os.makedirs(app_dir, exist_ok=True)
+    return {
+        'table_script': os.path.join(app_dir, 'makeTable.py'),
+        'streamlit_app': os.path.join(app_dir, 'application.py'),
+        'info_file': os.path.join(app_dir, 'info.txt')
+    }
+def generate_db_code(stage_1_input):
+    #this will take the stage 1 input, and use the code_gen file to generate the code
+    
+    #we create a mongo_make instance
+    mongo = mongoUtils.generate_code_using_templates_and_details(stage_1_input)
+    return parse_code(mongo)
+
+def generate_streamlit_code(stage_1_input):
+    Templates_folder = "Streamlit_Templates"
+    details = stage_1_input
+    
+    gen_code = code_gen.generate_code_using_templates_and_details(Templates_folder, details)
+    return parse_code(gen_code)
+    
+def parse_code(code_lines):
+    if isinstance(code_lines, list):
+        # Join the list of strings into a single string
+        code = "\n".join(code_lines)
+    elif isinstance(code_lines, str):
+        code = code_lines
+    else:
+        raise ValueError("Invalid code format: Expected a string or list of strings")
+
+    start_marker = "'''"
+    end_marker = "'''"
+    start_index = code.find(start_marker)
+    end_index = code.find(end_marker, start_index + len(start_marker))
+
+    if start_index != -1 and end_index != -1:
+        extracted_content = code[start_index + len(start_marker):end_index].strip()
+        return extracted_content
+    else:
+        return code
+
+    
+          
+    
+
+def generate_and_save_code(app_number, user_input):
+    # Generate the necessary code
+    db_code = generate_db_code(user_input)
+    st_code = generate_streamlit_code(user_input)
+
+    # Debugging: Print the generated code to check
+    print("Generated DB Code:", db_code)
+    print("Generated Streamlit Code:", st_code)
+
+    # Create directories and file paths
+    paths = create_app_directories(app_number)
+
+    # Write the generated code to files
+    with open(paths['table_script'], 'w') as file:
+        file.write(db_code)
+    with open(paths['streamlit_app'], 'w') as file:
+        file.write(st_code)
+    
+    # Write port and other info to info.txt
+    port_number = BASE_PORT + app_number - 1
+    with open(paths['info_file'], 'w') as file:
+        file.write(f"Port Number: {port_number}\n")
+
+    return paths
+
+response_require_clarification = ["Could you clarify", "Please provide more details", "..."]  # Your list of clarification phrases
+
+st.title("Application Design Assistant")
+
+user_info = st.text_area("1. Who are the users?")
+app_purpose = st.text_area("2. What is the purpose of the application?")
+components_views = st.text_area("3. What are the components/views in the application?")
+
+# Allow the user to input their API key privately
+api_key = st.text_input("Enter your OpenAI API key", type='password')
+
+# Set the API key
+openai.api_key = api_key
+
+def interact_with_user(prompt, context=""):
+    full_prompt = context + "\n" + prompt
+    response = openai.chat.completions.create(
+        model="gpt-4",
+        messages=[
+            {"role": "system", "content": "You are an AI assistant."},
+            {"role": "user", "content": full_prompt},
+        ]
+    )
+    return response.choices[0].message.content
+
+def text_to_file(file_name,ai_response):
+    with open(file_name, "w") as file:
+        file.write(str(ai_response))
+    st.success(f"Response saved successfully")
+
+context = """
+I am an AI assistant designed to define application requirements. Please provide detailed information about the following aspects of the application:
+
+1. Database Schema:
+Outline the desired structure of the MongoDB database. Specify the collections, documents, and fields that should be included.
+
+2. User Types and Access:
+Enumerate all types of users who will interact with the application. For each user type, describe their roles, responsibilities, and specific access levels (read, write, admin, etc.).
+
+3. Pages and Permissions:
+List all the pages that will be generated by the application. For each page, specify:
+Who can access it (user types).
+What data will be displayed on the page.
+Any input fields that users can interact with.
+User access permissions for each page (e.g., read-only, edit, delete).
+For each point, provide as much detail as possible. I will analyze this information and generate a comprehensive set of outputs meeting your specifications.
+Please feel free to confirm the information or provide any necessary corrections. If there are specific details you want to emphasize or modify for the best results, please include that in your response. Thank you!
+"""
+
+if st.button('Submit Details'):
+    combined_input = f"User Information: {user_info}\nApplication Purpose: {app_purpose}\nComponents and Views: {components_views}"
+    st.session_state.ai_response = interact_with_user(combined_input, context)
+    st.write(st.session_state.ai_response)
+
+    if any(phrase in st.session_state.ai_response for phrase in response_require_clarification):
+        st.write("The AI needs more clarification on your last input.")
+        additional_info = st.text_area("Please provide more details:")
+        if st.button('Submit Additional Info'):
+            st.session_state.ai_response = interact_with_user(additional_info, context)
+            st.write(st.session_state.ai_response)
+
+if st.button("Confirm Response"):
+    #create instance of mongo_make class
+    #call make_db_file
+    
+    #generate the code
+    generate_and_save_code(get_next_app_number(), st.session_state.ai_response)
+    
+    print("code has been generated")
+    
+    print("python file has been created")
+
+    st.success("Response saved successfully")
+
+if st.button("Provide Corrections"):
+    correction = st.text_area("Enter your correction here:")
+    st.session_state.ai_response = interact_with_user(correction, context)
+    st.write(st.session_state.ai_response)

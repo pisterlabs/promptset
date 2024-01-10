@@ -1,0 +1,168 @@
+import os
+import openai
+from dotenv import load_dotenv
+from langchain.document_loaders import TextLoader
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from CLLeMensLangchain.schema.loaders import Loaders
+from moviepy.editor import *
+from pydub import AudioSegment
+import shutil
+from typing import Union, List
+from langchain.docstore.document import Document
+
+
+# Load the environment variables from the .env file
+load_dotenv()
+
+# Set OpenAI API key from environment variable
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
+
+class VideoLoader(Loaders):
+    def __init__(self, file_path: str):
+        """
+        Initialize VideoLoader
+
+        :param file_path: The path to the file to be loaded
+        """
+        self.file_path = file_path
+        if "~" in self.file_path:
+            self.file_path = os.path.expanduser(self.file_path)
+
+
+    def video_to_audio(self):
+        # Split the filepath into path and extension
+        path, _ = os.path.splitext(self.file_path)
+
+        cache_path = path.replace("uploads", "video_cache")
+        cache_base_path = os.path.dirname(cache_path)
+
+        # Create the cache directory if it doesn't exist
+        if not os.path.exists(cache_base_path):
+            os.makedirs(cache_base_path)
+
+
+        # Load the video
+        video = VideoFileClip(self.file_path)
+
+        # extract audio from video
+        audio = video.audio
+
+        audio_path = cache_path + ".mp3"
+
+        # Save audio file
+        audio.write_audiofile(audio_path)
+
+        # Free resources
+        audio.close()
+        video.close()
+
+        return audio_path
+
+
+    def transcribe_audio(self, audio_file_path, chunk_length_in_seconds=120):
+        # Load audio file
+        audio = AudioSegment.from_mp3(audio_file_path)
+
+        # Convert chunk length to milliseconds (PyDub uses milliseconds)
+        chunk_length = chunk_length_in_seconds * 1000
+
+        # Calculate number of chunks needed
+        num_chunks = len(audio) // chunk_length + 1  # +1 to account for any remaining part
+
+        # Create cache directory if it doesn't exist
+        cache_dir = "cache"
+        if not os.path.exists(cache_dir):
+            os.makedirs(cache_dir)
+
+        # Initialize an empty string to store the full transcription
+        full_transcription = ""
+
+        # Loop over the audio file, chunk by chunk
+        for i in range(num_chunks):
+            # Extract the chunk
+            start_time = i * chunk_length
+            end_time = (i + 1) * chunk_length
+            chunk = audio[start_time:end_time]
+
+            # Export the chunk to a temporary file
+            temp_file_name = os.path.join(cache_dir, f"temp_chunk_{i}.mp3")
+            chunk.export(temp_file_name, format="mp3")
+
+            # Transcribe the chunk using OpenAI Whisper
+            with open(temp_file_name, "rb") as audio_file:
+                transcript = openai.Audio.transcribe("whisper-1", audio_file)
+                full_transcription += transcript['text'] + " "
+
+            # Delete the temporary chunk file
+            os.remove(temp_file_name)
+
+        # Delete the cache directory
+        shutil.rmtree(cache_dir)
+
+        return full_transcription
+
+
+    def load(self) -> Union[str, List[str], List[Document]]:
+        """
+        Load content from an video file and return its transcription
+        :return: The transcribed content of the video
+        """
+
+        try:
+            # Convert video to audio
+            audio_path = self.video_to_audio()
+            print(audio_path)
+            # Transcribe audio
+            transcription = self.transcribe_audio(audio_path)
+
+
+            # Split the filepath into path and extension
+            path, _ = os.path.splitext(self.file_path)
+
+            cache_path = path.replace("uploads", "audio_cache")
+            cache_base_path = os.path.dirname(cache_path)
+            print(cache_base_path)
+            # Create the cache directory if it doesn't exist
+            if not os.path.exists(cache_base_path):
+                os.makedirs(cache_base_path)
+
+            # Append the new extension .txt
+            cache_file_path = cache_path + ".txt"
+
+            # Write the string to the file
+            with open(cache_file_path, 'w') as file:
+                file.write(transcription)
+
+            try:
+                content = TextLoader(cache_file_path)
+                pages = content.load()
+                print(pages)
+            except Exception as e:
+                return f"Error loading audio: {str(e)}"
+
+            # Remove the cache file
+            os.remove(cache_file_path)
+
+            # Delete audio file
+            os.remove(audio_path)
+            
+            return pages
+
+        except Exception as e:
+            return f"Error loading audio: {str(e)}"
+
+
+    def chunkDocument(self, document: List[Document], chunkSize=750) -> List[Document]:
+        """Chunk a document into smaller parts for processing via embeddings
+        :param document: The document to be chunked (generated by load())
+        :param chunkSize: The size of the chunks (default 750), greatly affects the result of the embeddings & prompts
+        :return: The chunked document as a list of Langchain Documents with metadata [page, source, start_index]
+        """
+        text_splitter = RecursiveCharacterTextSplitter(
+            chunk_size=chunkSize,
+            chunk_overlap=20,
+            add_start_index=True,
+        )
+        chunked_content = text_splitter.split_documents(document)
+        return chunked_content

@@ -1,0 +1,60 @@
+import os, fitz
+from langchain.document_loaders import PyMuPDFLoader # better UTF support and metadata
+from slugify import slugify
+from ..utils import guid, file_creation_time, write_to_server_documents, move_source
+from ...utils import tokenize
+from unidecode import unidecode
+
+# Process all PDF-related documents.
+def as_pdf(**kwargs):
+  parent_dir = kwargs.get('directory', 'hotdir')
+  filename = kwargs.get('filename')
+  ext = kwargs.get('ext', '.txt')
+  remove = kwargs.get('remove_on_complete', False)
+  fullpath = f"{parent_dir}/{filename}{ext}"
+
+  print(f"-- Working {fullpath} --")
+  loader = PyMuPDFLoader(fullpath)
+  pages = loader.load()
+
+  if len(pages) == 0:
+    print(f"{fullpath} парсинг не дал результатов - процессинг не запущен.")
+    return(False, f"Для {filename}{ext} не было найдено страниц!")
+  
+  # Set doc to the first page so we can still get the metadata from PyMuPDF but without all the unicode issues.
+  doc = pages[0]
+  del loader
+  del pages
+
+  page_content = ''
+  for page in fitz.open(fullpath):
+    print(f"-- Parsing content from pg {page.number} --")
+    # page_content += unidecode(page.get_text('text'))
+    page_content += page.get_text('text')
+
+  if len(page_content) == 0:
+    print(f"Содержимое страницы было пустым — из документа не удалось извлечь текст.")
+    return(False, f"Tекстовое содержимое не может быть извлечено из {filename}{ext}!")
+
+  title = doc.metadata.get('title')
+  author = doc.metadata.get('author')
+  subject = doc.metadata.get('subject')
+  data = {
+    'id': guid(),
+    'url': "file://"+os.path.abspath(f"{parent_dir}/processed/{filename}{ext}"),
+    'title': title if title else f"{filename}{ext}",
+    'docAuthor': author if author else 'Автор неизвестен',
+    'description': subject if subject else 'Описание неизвестно',
+    'docSource': 'pdf файл загруженный пользователем.',
+    'chunkSource': f"{filename}{ext}",
+    'published': file_creation_time(fullpath),
+    'wordCount': len(page_content), # Technically a letter count :p
+    'pageContent': page_content,
+    'token_count_estimate': len(tokenize(page_content))
+  }
+
+  write_to_server_documents(data, f"{slugify(filename)}-{data.get('id')}")
+  move_source(parent_dir, f"{filename}{ext}", remove=remove)
+
+  print(f"[SUCCESS]: {filename}{ext} converted & ready for embedding.\n")
+  return(True, None)

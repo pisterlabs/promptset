@@ -1,0 +1,69 @@
+#!/usr/bin/env python3
+
+import os
+import constants
+
+import sys
+project = sys.argv[1]
+question = sys.argv[2]
+
+# Clone
+# from git import Repo
+# repo = Repo.clone_from("https://github.com/langchain-ai/langchain", to_path=repo_path)
+repo_path = os.path.expanduser("~/Code/")
+langs = [".java", ".groovy", ".sql", ".yml"]
+
+from langchain.document_loaders.generic import GenericLoader
+from langchain.document_loaders.parsers import LanguageParser
+from langchain.text_splitter import Language
+
+# Load
+loader = GenericLoader.from_filesystem(
+    repo_path + project,
+    glob="**/*",
+    suffixes=langs,
+    parser=LanguageParser(language=Language.PYTHON, parser_threshold=500),
+)
+documents = loader.load()
+print(repo_path + project)
+print(len(documents))
+
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+python_splitter = RecursiveCharacterTextSplitter.from_language(
+    language=Language.PYTHON, chunk_size=2000, chunk_overlap=200
+)
+texts = python_splitter.split_documents(documents)
+print(len(texts))
+
+from langchain.embeddings import GPT4AllEmbeddings
+from langchain.vectorstores import Chroma
+
+db = Chroma.from_documents(texts, embedding=GPT4AllEmbeddings())
+retriever = db.as_retriever(
+    search_type="mmr",  # Also test "similarity"
+    search_kwargs={"k": 8},
+)
+
+from langchain.llms import Ollama
+from langchain.chains import ConversationalRetrievalChain
+from langchain.memory import ConversationSummaryMemory
+
+llm = Ollama(base_url="http://localhost:11434", model="codellama:7b")
+memory = ConversationSummaryMemory(
+    llm=llm, memory_key="chat_history", return_messages=True
+)
+qa = ConversationalRetrievalChain.from_llm(llm, retriever=retriever, memory=memory)
+
+result = qa(question)
+print(result["answer"])
+
+# questions = [
+#     "What is the class hierarchy?",
+#     "What classes are derived from the Chain class?",
+#     "What one improvement do you propose in code in relation to the class hierarchy for the Chain class?",
+# ]
+
+# for question in questions:
+#     result = qa(question)
+#     print(f"-> **Question**: {question} \n")
+#     print(f"**Answer**: {result['answer']} \n")

@@ -1,0 +1,3 @@
+OPENAI_API_KEY = ...
+
+from local_credentials import OPENAI_API_KEY

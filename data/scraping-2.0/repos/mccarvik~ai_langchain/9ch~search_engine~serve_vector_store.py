@@ -1,0 +1,78 @@
+"""Document indexing.
+
+Building a vector store fast.
+
+Adapted from open_source_LLM_search_engine:
+https://github.com/ray-project/langchain-ray/
+
+You can run this from the terminal in the search_engine directory like this:
+> PYTHONPATH=../ python serve_vector_store.py
+"""
+import time
+
+import requests
+from fastapi import FastAPI
+from langchain.vectorstores import FAISS
+from ray import serve
+
+from config import set_environment
+from search_engine.utils import INDEX_PATH, get_embeddings
+
+# set keys:
+set_environment()
+
+app = FastAPI()
+
+
+@serve.deployment()
+@serve.ingress(app)
+class VectorSearchDeployment:
+    def __init__(self):
+        # Load the data from faiss
+        st = time.time()
+        self.embeddings = get_embeddings()
+        self.db = FAISS.load_local(INDEX_PATH, self.embeddings)
+        et = time.time() - st
+        print(f"Loading database took {et} seconds.")
+
+    @app.get("/search")
+    def search(self, query: str):
+        results = self.db.max_marginal_relevance_search(query, k=1, fetch_k=10)
+        retval = ""
+        for i in range(len(results)):
+            chunk = results[i]
+            source = chunk.metadata["source"]
+            retval = retval + f"From http://{source}\n\n"
+            retval = retval + chunk.page_content
+            retval = retval + "\n====\n\n"
+
+        return retval
+
+
+# class SearchDeployment:
+#     def __init__(self):
+#         self.db = db
+#         self.embedding = embedding
+#     def __call__(self, request):
+#         query_embed = self.embedding(request.query_params["query"])
+#         results = self.db.max_marginal_relevance_search(query_embed)
+#         return format_results(results)
+#     deployment = SearchDeployment.bind()
+#     # Start service
+#     serve.run(deployment)
+
+
+deployment = VectorSearchDeployment.bind()
+serve.run(deployment)
+
+if __name__ == "__main__":
+    # using bind() instead of remote()
+    # this will ready the dag, but not execute it yet.
+    print(requests.get(
+        "http://localhost:8000/search",
+        params={
+            "query": "What are the different components of Ray"
+                     " and how can they help with large language models (LLMs)?"
+        }
+    ).json())
+    input("Press Enter to shut down the server...")

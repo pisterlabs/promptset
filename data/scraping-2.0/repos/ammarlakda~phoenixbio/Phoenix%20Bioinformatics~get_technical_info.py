@@ -1,0 +1,21 @@
+import os
+import openai
+from dotenv import load_dotenv
+
+load_dotenv()
+
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
+def info_extracter(article):
+    response = openai.Completion.create(
+    model="text-davinci-003",
+    prompt="Extract key information from this article:\n"+article+"\n",
+    temperature=0,
+    max_tokens=250,
+    top_p=1.0,
+    frequency_penalty=0.0,
+    presence_penalty=0.0
+    )
+    return response["choices"][0]['text']
+
+# print(info_extracter("ExplaiNN is a glass box deep learning model for genomics that is fully interpretable and transparent. It consists of multiple independent CNNs (units) with one convolutional layer, two fully connected layers, and a linear combination of the outputs. ExplaiNN provides global interpretability by mapping each filter to a TF profile from JASPAR, and local interpretability by computing unit importance scores for each input sequence. When tested on a reference dataset of 50 TFs and 1.8M OCRs, ExplaiNN outperformed four other models and reached nearly the same performance as DanQ when using more than 100 units. Visualizing the filters of each ExplaiNN model and assigning them TF binding modes revealed an increasing number of binding modes with the number of units used. The final linear layer weights of the model showed positive weights for predicting the classes of FOXA1, CEBP factors, CTCF, and Ets family members. Unit importance scores further confirmed the contributions of each unit to the predictions, and revealed why some units had negative weights. ExplaiNN is a deep learning model that can be used to predict TF binding and provides local and global interpretation quickly and readily compared to using DeepLIFT followed by TF-MoDISco or filter visualization and nullification. It performs comparably to more complex models, but cannot capture nonlinear interactions between motifs. ExplaiNN is also able to learn high-quality motifs comparable to de novo motif discovery tools, with the added benefit of being much faster for TFs with large training datasets. units for ExplaiNN recapitulated the TFs reported in41 , including PAX6 , POU3F2 , and NKX6.1 ( Fig . 4A ) . Furthermore , we visualized the importances of each unit to understand their contribution to model performance , which demonstrated that PAX6 -like units were important across all clusters ( Fig . 4B ) . This analysis highlights the capability of ExplaiNN to decipher TF motifs from granular sc ATAC-seq data.ExplaiNN is a fast, universal method for de novo motif discovery with consistent performance regardless of the type of assay or data type. It can be used to discover elements of the cis-regulatory lexicon across different cell types and lineages, and can also be applied to single-cell chromatin accessibility data. In this review, the authors explored the utility of ExplaiNN for deciphering cis-regulatory properties from granular single-cell data. They reanalyzed a scATAC-seq dataset of 15,298 human pancreatic islet cells that were grouped into 12 clusters based on their accessibility profiles and trained an ExplaiNN model with 400 units. They found that some units exhibited cell type-specific patterns, while others did not, and visualized the importances of each unit for their contributions to the physiological stratification of the cells. Additionally, they attempted to use JASPAR profiles to initialize the filter weights of each unit and observed that allowing refinement improved the performance of the model. Finally, they implemented a transfer learning strategy to generate individual units with greater resolution. This study implemented a transfer learning strategy to generate high-resolution units in an ExplaiNN model. This allowed the model to distinguish between transcription factors (TFs) from the same family that share the same DNA-binding domain, and achieve performance levels comparable to state-of-the-art deep learning models. It also provided insight into the roles of individual TFs, such as Irf4 and Irf8 in regulating B, T, myeloid, and dendritic cell differentiation, Pax5 in establishing B lineage identity and function, and Ebf1 in B cells."))

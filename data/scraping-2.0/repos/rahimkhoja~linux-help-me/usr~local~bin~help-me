@@ -1,0 +1,123 @@
+#!/usr/bin/env python3
+import subprocess
+import platform
+import psutil
+import socket
+import os
+import argparse
+from openai import OpenAI
+import sys
+
+client = OpenAI()
+
+def parse_arguments():
+    parser = argparse.ArgumentParser(description='Process a user query.')
+    parser.add_argument('query', type=str, help='A query about system commands')
+    args = parser.parse_args()
+    return args.query
+
+def gather_system_info():
+    info = {
+        "Operating System": platform.system(),
+        "OS Version": platform.version(),
+        "Kernel Level": platform.release(),
+        "Machine": platform.machine(),
+        "Processor": platform.processor(),
+        "CPU Count": psutil.cpu_count(logical=False),
+        "Logical CPUs": psutil.cpu_count(logical=True),
+        "CPU Frequency": f"{psutil.cpu_freq().current:.2f} MHz",
+        "Total RAM": f"{round(psutil.virtual_memory().total / (1024.0 ** 3))} GB",
+        "Available RAM": f"{round(psutil.virtual_memory().available / (1024.0 ** 3))} GB",
+        "Used RAM": f"{round(psutil.virtual_memory().used / (1024.0 ** 3))} GB",
+        "Disk Partitions": [p.device for p in psutil.disk_partitions()],
+        "Total Disk Space": f"{round(psutil.disk_usage('/').total / (1024.0 ** 3))} GB",
+        "Used Disk Space": f"{round(psutil.disk_usage('/').used / (1024.0 ** 3))} GB",
+        "Available Disk Space": f"{round(psutil.disk_usage('/').free / (1024.0 ** 3))} GB",
+        "Network Interfaces": list(psutil.net_if_addrs().keys()),
+        "Hostname": socket.gethostname(),
+        "IP Address": socket.gethostbyname(socket.gethostname()),
+        "Current User": os.getlogin(),
+        # Add more system details as needed
+    }
+    return info
+
+def generate_prompt(system_info):
+    # Function to safely get system info or return empty string if not found
+    def get_info(key):
+        return system_info.get(key, "''")
+
+    prompt = f"""
+    Task: Analyze the input query and generate a helpful Bash or Shell command that can assist the user. The command should be a one-liner, executable in a Unix-like terminal environment. If the command needs further explanation, add a comment at the end of the command line starting with a hash symbol (#).
+
+    System Information:
+    - Operating System: {get_info("Operating System")}
+    - OS Version: {get_info("OS Version")}
+    - Kernel Level: {get_info("Kernel Level")}
+    - Processor: {get_info("Processor")}
+    - CPU Count: {get_info("CPU Count")}
+    - Logical CPUs: {get_info("Logical CPUs")}
+    - CPU Frequency: {get_info("CPU Frequency")}
+    - Total RAM: {get_info("Total RAM")}
+    - Available RAM: {get_info("Available RAM")}
+    - Used RAM: {get_info("Used RAM")}
+    - Disk Partitions: {', '.join(get_info("Disk Partitions")) if get_info("Disk Partitions") else "''"}
+    - Total Disk Space: {get_info("Total Disk Space")}
+    - Used Disk Space: {get_info("Used Disk Space")}
+    - Available Disk Space: {get_info("Available Disk Space")}
+    - Network Interfaces: {', '.join(get_info("Network Interfaces")) if get_info("Network Interfaces") else "''"}
+    - Hostname: {get_info("Hostname")}
+    - IP Address: {get_info("IP Address")}
+    - Current User: {get_info("Current User")}
+
+    Constraints:
+    - Output Format: The response must be in the form of a valid Bash/Shell command. Multiple command segments can be included but should be connected such that they run as a single line without breaks. Only output basic text.
+    - Relevance: The command must be directly relevant and practical in addressing the user's query.
+    - Safety: Ensure the command is safe and does not involve system-critical operations that could harm the user's environment.
+    - Comments: If additional context or explanation is necessary, include it as a comment in the command line.
+    - Markdown: Only display simple text, with no markup or markdown.
+    - Output Format: The response must be in the form of a valid Bash/Shell command. Multiple command segments can be included but should be connected such that they run as a single line without breaks. Only output the actuall bash commands with no markup. Text infomatoin must only fullow a # symbol after the commands.
+
+    """
+    return prompt
+
+def main():
+    user_query = parse_arguments()
+    system_info = gather_system_info()
+    prompt = generate_prompt(system_info)
+
+    # ChatGPT response
+    response = client.chat.completions.create(
+        model="gpt-4",
+        messages=[
+            {"role": "system", "content": "Process the following input into a bash text output: "+str(prompt)},
+            {"role": "user", "content": user_query}
+        ],
+        temperature=1,
+        max_tokens=128,
+        top_p=1,
+        frequency_penalty=0,
+        presence_penalty=0
+    )
+
+    # Assuming the command is in the 'text' field of the response
+    command = response.choices[0].message.content.strip()
+
+    print("Suggested Command:", command.replace('```bash\n', '').replace('```', ''))
+
+
+    while True:
+        execute_command = input("Do you want to execute this command? (yes/no): ").lower()
+        if execute_command in ['yes', 'y']:
+            try:
+                # Run the command without capturing the output
+                subprocess.run(command, shell=True, check=True)
+            except subprocess.CalledProcessError as e:
+                print("Error:", e)
+            break  # Exit the loop after executing the command
+        elif execute_command in ['no', 'n']:
+            print("Command execution aborted.")
+            break  # Exit the loop if the user decides not to execute the command
+
+
+if __name__ == "__main__":
+    main()

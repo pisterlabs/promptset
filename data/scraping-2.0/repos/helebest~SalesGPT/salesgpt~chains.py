@@ -1,0 +1,79 @@
+from langchain.chains import LLMChain
+from langchain.prompts import PromptTemplate
+from langchain.chat_models import ChatLiteLLM
+
+from salesgpt.logger import time_logger
+from salesgpt.prompts import (SALES_AGENT_INCEPTION_PROMPT,
+                              STAGE_ANALYZER_INCEPTION_PROMPT,
+                              STAGE_ANALYZER_INCEPTION_SNIPPETS_PROMPT)
+
+
+class StageAnalyzerChain(LLMChain):
+    """Chain to analyze which conversation stage should the conversation move into."""
+
+    @classmethod
+    @time_logger
+    def from_llm(cls, llm: ChatLiteLLM, use_snippets: bool = True, verbose: bool = True) -> LLMChain:
+        """Get the response parser."""
+        template = STAGE_ANALYZER_INCEPTION_SNIPPETS_PROMPT if use_snippets else STAGE_ANALYZER_INCEPTION_PROMPT
+        prompt = PromptTemplate(
+            template=template,
+            input_variables=[
+                "conversation_history",
+                "conversation_stage_id",
+                "conversation_stages",
+            ],
+        )
+        return cls(prompt=prompt, llm=llm, verbose=verbose)
+
+
+class SalesConversationChain(LLMChain):
+    """Chain to generate the next utterance for the conversation."""
+
+    @classmethod
+    @time_logger
+    def from_llm(
+        cls,
+        llm: ChatLiteLLM,
+        verbose: bool = True,
+        use_custom_prompt: bool = False,
+        custom_prompt: str = "You are an AI Sales agent, sell me this pencil",
+
+    ) -> LLMChain:
+
+        """Get the response parser."""
+        if use_custom_prompt:
+            sales_agent_inception_prompt = custom_prompt
+            prompt = PromptTemplate(
+                template=sales_agent_inception_prompt,
+                input_variables=[
+                    "salesperson_name",
+                    "salesperson_role",
+                    "company_name",
+                    "company_business",
+                    "company_values",
+                    "conversation_purpose",
+                    "conversation_type",
+                    "conversation_history",
+                    "customer_name",
+                ],
+            )
+        else:
+            sales_agent_inception_prompt = SALES_AGENT_INCEPTION_PROMPT
+            prompt = PromptTemplate(
+                template=sales_agent_inception_prompt,
+                input_variables=[
+                    "salesperson_name",
+                    "salesperson_role",
+                    "company_name",
+                    "company_business",
+                    "company_values",
+                    "conversation_purpose",
+                    "conversation_type",
+                    "conversation_history",
+                    "customer_name",
+                ],
+            )
+        return cls(prompt=prompt,
+                   llm=llm,
+                   verbose=verbose)
