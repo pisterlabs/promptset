@@ -8,7 +8,9 @@ Result Counts from Github (Collected Manually)
     guidance: 1.9k
     anthropic: 1.8k
     llamaindex: 117
-    cohere: 6k
+    cohere: 5.8k
+    openai: 97.8k
+    langchain: 64.5k
 """
 )
 
@@ -98,7 +100,8 @@ for url in all_rawFileURLs:
 print("Done")
 
 # Checking Number of Files Downloaded #########################################
+root_dir = "repos"
 count = 0
 for root, dirs, files in os.walk(root_dir):
     count += len(files)
-print("Total number of files:", count)
+print("Total number of files DOWNLOADED:", count)
