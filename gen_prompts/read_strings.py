@@ -42,8 +42,8 @@ strings_from_llm = len(strings)
 unique_strings_from_llm = len(set(strings))
 unique_strings_g_10_from_llm = len(set(filter(lambda x: len(x) >= 10, strings)))
 
-with open("strings.json", "w") as f:
-    json.dump(list(set(strings)), f, indent=2, ensure_ascii=False)
+# with open("strings.json", "w") as f:
+#     json.dump(list(set(strings)), f, indent=2, ensure_ascii=False)
 
 with open("separated-grouped-used_prompt_or_template_name.json") as f:
     sketch_data = json.load(f)
@@ -74,14 +74,67 @@ strings_from_sketch = len(strings_plus)
 unique_strings_from_sketch = len(set(strings_plus))
 unique_strings_g_10_from_sketch = len(set(filter(lambda x: len(x) >= 10, strings_plus)))
 
+# repos_all = repos_sketch.union(repos)
+# strings_all = strings + strings_plus
+# strings_all_count = len(strings_all)
+# unique_strings_all = len(set(strings_all))
+# unique_strings_g_10_all = len(set(filter(lambda x: len(x) >= 10, strings_all)))
+
+
+with open("dev_gpt_prompts_v2.json") as f:
+    dgstrings = json.load(f)
+
+dg_count = len(dgstrings)
+dg_unique = len(set(dgstrings))
+dg_unique_g_10 = len(set(filter(lambda x: len(x) >= 10, dgstrings)))
+
 repos_all = repos_sketch.union(repos)
-strings_all = strings + strings_plus
+strings_all = strings + strings_plus + dgstrings
 strings_all_count = len(strings_all)
 unique_strings_all = len(set(strings_all))
 unique_strings_g_10_all = len(set(filter(lambda x: len(x) >= 10, strings_all)))
 
 with open("strings_plus.json", "w") as f:
-    json.dump(list(set(strings_all)), f, indent=2, ensure_ascii=False)
+    json.dump(list(set(strings + strings_plus)), f, indent=2, ensure_ascii=False)
+
+import re
+import random
+
+random.seed(42)
+
+# with open("strings_1k.json", "w") as f:
+#     json.dump(
+#         random.sample(
+#             list(set(filter(lambda x: len(x) > 10 and re.search(r"\s", x), strings))),
+#             1000,
+#         ),
+#         f,
+#         indent=2,
+#         ensure_ascii=False,
+#     )
+# with open("strings_plus_1k.json", "w") as f:
+#     json.dump(
+#         random.sample(
+#             list(
+#                 set(filter(lambda x: len(x) > 10 and re.search(r"\s", x), strings_plus))
+#             ),
+#             1000,
+#         ),
+#         f,
+#         indent=2,
+#         ensure_ascii=False,
+#     )
+# with open("strings_devgpt_1k.json", "w") as f:
+#     json.dump(
+#         random.sample(
+#             list(set(filter(lambda x: len(x) > 10 and re.search(r"\s", x), dgstrings))),
+#             1000,
+#         ),
+#         f,
+#         indent=2,
+#         ensure_ascii=False,
+#     )
+
 
 # print latex table
 print(
@@ -114,6 +167,16 @@ print(
     unique_strings_g_10_from_sketch,
     "&",
     repos_from_sketch,
+    "\\\\",
+)
+print(
+    "\tf &",
+    dg_count,
+    "&",
+    dg_unique,
+    "&",
+    dg_unique_g_10,
+    "& - ",
     "\\\\",
 )
 print(
