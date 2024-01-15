@@ -38,9 +38,6 @@ Library: openai
 
 Total number of files DOWNLOADED: 93134
 
-- Update:
-I pushed all the newly collected data on Tuesday night. I forgot to provide an update since then. My bad. 😅 
-
 ```
 Result Counts from Github (Collected Manually)
     guidance: 1.9k
