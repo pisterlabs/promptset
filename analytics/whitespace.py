@@ -45,6 +45,10 @@ with open("strings_plus.json") as f:
     strings = json.load(f)
     process_strings("e", strings)
 
+with open("dev_gpt_prompts_v2.json") as f:
+    strings = json.load(f)
+    process_strings("f", strings)
+
 print(
     """\t\\bottomrule
 \end{tabular}
