@@ -1,9 +1,24 @@
 # Prompt Linting
 
 <!-- TODO: Replace link when paper is publicly available -->
+
 Paper: [PromptSet: A Programmer’s Prompting Dataset](https://github.com/pisterlabs/prompt-linter)
 
+## Usage:
+
+```python
+from datasets import load_dataset
+
+promptset = load_dataset("pisterlabs/promptset")
+
+# iterate all prompts
+for prompt_list in promptset["train"]["prompts"]:
+  for prompt in prompt_list:
+    pass
+```
+
 ## Organization
+
 1. `data`: contains all the raw data collected from Github.
 2. `devGPT`: contains all the processed data collected from DevGPT's Zenodo repository. Check directory for more details.
 3. `gen_prompts`: contains code to process and collect prompt data.
@@ -16,3 +31,4 @@ Paper: [PromptSet: A Programmer’s Prompting Dataset](https://github.com/pister
 ## Reproducing Results
 
 ...
+

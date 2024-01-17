@@ -10,15 +10,6 @@ parser = Parser()
 parser.set_language(PY_LANGUAGE)
 SEP = "\n----------------------------------------------------------------------------------------\n"
 
-argparser = ArgumentParser()
-argparser.add_argument(
-    "--run_id",
-    type=int,
-    required=True,
-)
-args = argparser.parse_args()
-run_id = args.run_id
-
 
 def parse_tree(tree: Tree):
     strings = []
@@ -43,14 +34,20 @@ def parse_tree(tree: Tree):
     return strings, identifiers, interpolations
 
 
+def not_empty(s: str) -> bool:
+    return s != ""
+
+
+def strip(s: str) -> str:
+    return s.strip()
+
+
 def parse_prompts(in_data, name, data):
     prompt_count = 0
     strings_found = 0
     unique_strings = set()
     for repo, prompts in in_data.items():
-        prompts = prompts.get(name, [])
-        prompts = list(map(lambda x: x.strip(), prompts))
-        prompts = list(filter(lambda x: x != "", prompts))
+        prompts = list(filter(not_empty, map(strip, prompts.get(name, []))))
         prompt_count += len(prompts)
         if repo not in data:
             data[repo] = {"strings": [], "identifiers": [], "interpolations": []}
@@ -102,25 +99,24 @@ def parse_metadata_file(filename):
 
 
 if __name__ == "__main__":
-    with open(f"grouped-data-{run_id:03d}.json") as w:
+    argparser = ArgumentParser()
+    argparser.add_argument(
+        "--run_id",
+        type=int,
+        required=True,
+    )
+    args = argparser.parse_args()
+
+    with open(f"data/grouped-data-{args.run_id:03d}.json") as w:
         data = json.load(w)
     out_data = {}
 
-    # parse_prompts("chat-completions.txt")
     parse_prompts(data, "used_in_openai_call_sub", out_data)
-
-    # parse_prompts("langchain-prompts.json")
     parse_prompts(data, "used_in_langchain_llm_call_sub", out_data)
-
-    # parse_prompts("cohere-prompts.json")
     parse_prompts(data, "used_chat_function_sub", out_data)
-
     parse_prompts(data, "used_langchain_tool_class", out_data)
     parse_prompts(data, "used_langchain_tool", out_data)
 
     parse_prompts(data, "used_prompt_or_template_name", out_data)
-    with open(f"separated-data-{run_id:03d}.json", "w") as w:
+    with open(f"data/separated-data-{args.run_id:03d}.json", "w") as w:
         json.dump(out_data, w, indent=2, ensure_ascii=False)
-
-    # parse_metadata_file("reader_prompt_metadata.json")
-    # parse_metadata_file("reader_prompt_metadata_plus.json")

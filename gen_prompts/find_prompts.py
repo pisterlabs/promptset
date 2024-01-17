@@ -4,8 +4,9 @@ import shutil
 from argparse import ArgumentParser
 from glob import glob
 from itertools import islice
+from functools import partial
 from multiprocessing import Pool
-from parsers import (
+from gen_prompts.parsers import (
     PromptDetector,
     used_langchain_tool,
     used_chat_function,
@@ -18,13 +19,8 @@ from parsers import (
     all_strings,
 )
 
-argparser = ArgumentParser()
-argparser.add_argument("--run_id", type=int, required=True)
-args = argparser.parse_args()
-run_id = args.run_id
 
-
-def process_chunk(filenames):
+def process_chunk(filenames, run_id: int):
     detector = PromptDetector()
     detector.add_heuristic(used_langchain_tool_class)
     detector.add_heuristic(used_langchain_tool)
@@ -47,30 +43,34 @@ def batched(iterable, n):
         yield batch
 
 
-def run_all(filenames: list[str], n=8):
-    os.makedirs(f"{run_id:03d}", exist_ok=True)
-
-    filenames_batched = batched(filenames, len(filenames) // n)
-    with Pool(n) as p:
-        p.map(process_chunk, filenames_batched)
-
-    data = {}
-    for filename in glob(f"{run_id:03d}/prompts-*.json"):
-        with open(filename) as f:
-            data |= json.load(f)
-
-    with open(f"repo_data_export_{run_id:03d}.json", "w") as w:
-        json.dump(data, w, indent=False, ensure_ascii=False)
-
-    shutil.rmtree(f"{run_id:03d}")
-
-
 if __name__ == "__main__":
-    root_dir = "data/scraping-2.0/repos"
+    argparser = ArgumentParser()
+    argparser.add_argument("--run_id", type=int, required=True)
+    argparser.add_argument("--repo_dir", type=str, default="data/scraping-2.0/repos")
+    argparser.add_argument("--threads", type=int, default=8)
+    args = argparser.parse_args()
+    os.makedirs(f"{args.run_id:03d}", exist_ok=True)
 
+    # Find all files
     paths = []
-    for root, path, files in os.walk(root_dir):
+    for root, path, files in os.walk(args.repo_dir):
         for file in files:
             paths.append(os.path.join(root, file))
 
-    run_all(paths)
+    # Batch into thread-count batches, and apply the heuristics
+    filenames_batched = batched(paths, len(paths) // args.threads)
+    with Pool(args.threads) as p:
+        p.map(partial(process_chunk, run_id=args.run_id), filenames_batched)
+
+    # Join the thread data by loading output files
+    data = {}
+    for filename in glob(f"{args.run_id:03d}/prompts-*.json"):
+        with open(filename) as f:
+            data |= json.load(f)
+
+    # save joined data
+    with open(f"data/repo_data_export_{args.run_id:03d}.json", "w") as w:
+        json.dump(data, w, indent=False, ensure_ascii=False)
+
+    # Clean folder
+    shutil.rmtree(f"{args.run_id:03d}")
