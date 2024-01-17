@@ -1,0 +1,15 @@
+$UserInput$: "{UserInput}"
+$Reference$: "{FastTranslation}"
+$Task$: translate $UserInput$ to {Language}. Take into account that user may use jokes, jargon, etc. in $UserInput$.
+reply in exactly next format:
+```
+@Input language: {{main language of $UserInput$, single language}}
+@Translation:
+{{Translation of $UserInput$ to {Language}}}
+@Contains jokes: {{Yes/No}}
+@Contains jargon: {{Yes/No}}
+@Contains ambiguities: {{Yes/No}}
+@Contains sarcasm: {{Yes/No}}
+@Complex sentence: {{Yes/No}}
+@Complex topic: {{Yes/No}}
+```
