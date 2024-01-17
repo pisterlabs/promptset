@@ -2,14 +2,36 @@ import json
 import os
 from tree_sitter import Language, Parser, Tree, Node
 from tqdm import tqdm
+import uuid
 
 if not os.path.exists("build/my-languages.so"):
     Language.build_library("build/my-languages.so", ["vendor/tree-sitter-python"])
 
 PY_LANGUAGE = Language("build/my-languages.so", "python")
 
+
 # Parsers should be of type: Tree -> list[prompt_dict]
 # prompt_dict should be a dictionary with a prompt key and a metadata key
+#
+def find_from_file(tree: Tree):
+    results = []
+    query = PY_LANGUAGE.query(
+        """(call
+            function: (attribute
+                object: (identifier) @obj
+                attribute: (identifier) @fn
+            )
+            arguments: (_) @args
+            (#eq? @fn "from_file")
+            (#match? @obj "Template")
+        )"""
+    )
+
+    for capture, name in query.captures(tree.root_node):
+        if name != "args":
+            continue
+        results.append(capture.text.decode("utf-8"))
+    return results
 
 
 def find_betasub(parser, tree: Tree):
@@ -535,30 +557,32 @@ class PromptDetector:
     def add_heuristic(self, heuristic):
         self.heuristics.append(heuristic)
 
-    def detect_prompts(self, filenames: list[str]):
+    def detect_prompts(self, filenames: list[str], run_id=-1):
         results = {}
 
         for filename in tqdm(filenames):
             results |= self._detect_prompts(filename)
 
-        for heuristic in self.heuristics:
-            name = heuristic.__name__
-            save_results = list(
-                filter(lambda x, name=name: x[1][name], results.items())
-            )
+        # for heuristic in self.heuristics:
+        #     name = heuristic.__name__
+        #     save_results = list(
+        #         filter(lambda x, name=name: x[1][name], results.items())
+        #     )
+        #
+        #     with open(f"{name}.json", "w") as f:
+        #         json.dump(list(save_results), f, indent=2)
 
-            with open(f"{name}.json", "w") as f:
-                json.dump(list(save_results), f, indent=2)
+        # name = heuristic.__name__ + "_sub"
+        # save_results = list(
+        #     filter(lambda x, name=name: x[1][name], results.items())
+        # )
+        #
+        # with open(f"{name}.json", "w") as f:
+        #     json.dump(list(save_results), f, indent=2)
 
-            name = heuristic.__name__ + "_sub"
-            save_results = list(
-                filter(lambda x, name=name: x[1][name], results.items())
-            )
-
-            with open(f"{name}.json", "w") as f:
-                json.dump(list(save_results), f, indent=2)
-
-        return []
+        if run_id > 0:
+            with open(f"{run_id:03d}/prompts-{uuid.uuid4()}.json", "w") as w:
+                json.dump(results, w)
 
     def print_results(self, results):
         per_heuristic = {}
