@@ -1,6 +1,7 @@
 import os
 import glob
 import json
+from argparse import ArgumentParser
 
 from tree_sitter import Language, Parser, Tree, Node
 
@@ -8,6 +9,15 @@ PY_LANGUAGE = Language("./build/my-languages.so", "python")
 parser = Parser()
 parser.set_language(PY_LANGUAGE)
 
+
+argparser = ArgumentParser()
+argparser.add_argument(
+    "--run_id",
+    type=int,
+    required=True,
+)
+args = argparser.parse_args()
+run_id = args.run_id
 
 per_file_usage = {}
 all_per_file_usage = {}
@@ -82,10 +92,9 @@ def parse_args(tree: Tree):
 def save_for_black(name, calls, wrap, wrap_extra):
     folder = f"black-{name}"
     os.makedirs(folder, exist_ok=True)
-    for ogfilename, el in calls:
+    for ogfilename, el in calls.items():
         filename = ogfilename.replace("/", "_")
-        _calls = el[name]
-        for idx, call in enumerate(_calls):
+        for idx, call in enumerate(el[name]):
             with open(f"{folder}/{filename}-{idx}.py", "w") as f:
                 f.write(f"# {ogfilename}\n")
                 if wrap_extra:
@@ -112,62 +121,44 @@ def get_black_trees(name):
     return calls
 
 
-def run(filename, keys=None, wrap=True, wrap_extra=False):
-    per_file_usage = {}
-    name = os.path.splitext(os.path.basename(filename))[0]
+def run(name, data, keys=None, wrap=True, wrap_extra=False):
+    with open(f"repo_data_export_{run_id}.json") as f:
+        hits = json.load(f)
 
-    # with open(filename) as f:
-    #     hits = json.load(f)
-
-    # save_for_black(name, hits, wrap, wrap_extra)
+    save_for_black(name, hits, wrap, wrap_extra)
     calls = get_black_trees(name)
 
-    # call_args: dict[str, set] = {}
     for filename, args in calls:
-        # if filename not in all_per_file_usage:
-        #     all_per_file_usage[filename] = {}
+        if filename not in data:
+            data[filename] = {}
 
-        if filename not in per_file_usage:
-            per_file_usage[filename] = {}
+        if name not in data[filename]:
+            data[filename][name] = []
 
         for key, value in args.items():
-            if key not in per_file_usage[filename] and (
-                keys is None or any(k in key for k in keys)
-            ):
-                per_file_usage[filename][key] = []
-
-            # if key not in all_per_file_usage[filename]:
-            #     all_per_file_usage[filename][key] = []
-
             if keys is None or any(k in key for k in keys):
-                per_file_usage[filename][key].append(value)
-            # all_per_file_usage[filename][key].append(value)
-
-    with open(f"grouped-{name}.json", "w") as f:
-        ls = {}
-        for key, value in per_file_usage.items():
-            ls[key] = [x for y in value.values() for x in y]
-        json.dump(ls, f, indent=2, ensure_ascii=False)
+                data[filename][name].append(value)
 
 
 if __name__ == "__main__":
-    # run("used_in_openai_call_sub.json", ["prompt", "messages"])
-    # run("used_chat_function_sub.json", ["text", "pos-01", "message"])
+    data = {}
+    run("used_in_openai_call_sub", data, ["prompt", "messages"])
+    run("used_chat_function_sub", data, ["text", "pos-01", "message"])
 
-    # keys = [
-    #     "message",
-    #     "prompt",
-    #     "template",
-    #     "pos-01",
-    #     "pos-02",
-    #     "pos-03",
-    #     "content",
-    #     "prefix",
-    #     "suffix",
-    # ]
-    # run("used_in_langchain_llm_call_sub.json", keys, wrap=False)
-    # run("used_langchain_tool_class.json", ["pos-01"], wrap_extra=True)
-    # run("used_langchain_tool.json", ["pos-01"], wrap_extra=True)
+    keys = [
+        "message",
+        "prompt",
+        "template",
+        "pos-01",
+        "pos-02",
+        "pos-03",
+        "content",
+        "prefix",
+        "suffix",
+    ]
+    run("used_in_langchain_llm_call_sub", data, keys, wrap=False)
+    run("used_langchain_tool_class", data, ["pos-01"], wrap_extra=True)
+    run("used_langchain_tool", data, ["pos-01"], wrap_extra=True)
 
     # with open("reader_prompt_metadata.json", "w") as f:
     #     json.dump(per_file_usage, f, indent=2, ensure_ascii=False)
@@ -176,7 +167,9 @@ if __name__ == "__main__":
     #     json.dump(all_per_file_usage, f, indent=2, ensure_ascii=False)
 
     # # All prompts are messier
-    run("used_prompt_or_template_name.json", wrap_extra=True)
+    run("used_prompt_or_template_name", data, wrap_extra=True)
+    with open(f"grouped-data-{run_id:03d}.json", "w") as w:
+        json.dump(data, w, indent=2, ensure_ascii=False)
 
     # with open("reader_prompt_metadata_plus.json", "w") as f:
     #     json.dump(per_file_usage, f, indent=2, ensure_ascii=False)

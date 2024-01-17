@@ -1,6 +1,7 @@
 import os
 import re
 import json
+from argparse import ArgumentParser
 
 from tree_sitter import Language, Parser, Tree
 
@@ -8,6 +9,15 @@ PY_LANGUAGE = Language("./build/my-languages.so", "python")
 parser = Parser()
 parser.set_language(PY_LANGUAGE)
 SEP = "\n----------------------------------------------------------------------------------------\n"
+
+argparser = ArgumentParser()
+argparser.add_argument(
+    "--run_id",
+    type=int,
+    required=True,
+)
+args = argparser.parse_args()
+run_id = args.run_id
 
 
 def parse_tree(tree: Tree):
@@ -33,15 +43,12 @@ def parse_tree(tree: Tree):
     return strings, identifiers, interpolations
 
 
-def parse_prompts(filename):
-    with open(filename) as f:
-        all_prompts = json.load(f)
-
+def parse_prompts(in_data, name, data):
     prompt_count = 0
     strings_found = 0
-    data = {}
     unique_strings = set()
-    for repo, prompts in all_prompts.items():
+    for repo, prompts in in_data.items():
+        prompts = prompts.get(name, [])
         prompts = list(map(lambda x: x.strip(), prompts))
         prompts = list(filter(lambda x: x != "", prompts))
         prompt_count += len(prompts)
@@ -60,12 +67,9 @@ def parse_prompts(filename):
             data[repo]["interpolations"].extend(interpolations)
             unique_strings.update(strings)
 
-    print("Found", prompt_count, "prompts in", filename)
-    print("Found", strings_found, "strings in", filename)
-    print("Found", len(unique_strings), "unique strings in", filename)
-    filename = os.path.splitext(os.path.basename(filename))[0]
-    with open(f"separated-{filename}.json", "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
+    print("Found", prompt_count, "prompts in", name)
+    print("Found", strings_found, "strings in", name)
+    print("Found", len(unique_strings), "unique strings in", name)
 
 
 def parse_metadata_file(filename):
@@ -98,19 +102,25 @@ def parse_metadata_file(filename):
 
 
 if __name__ == "__main__":
+    with open(f"grouped-data-{run_id:03d}.json") as w:
+        data = json.load(w)
+    out_data = {}
+
     # parse_prompts("chat-completions.txt")
-    parse_prompts("grouped-used_in_openai_call_sub.json")
+    parse_prompts(data, "used_in_openai_call_sub", out_data)
 
     # parse_prompts("langchain-prompts.json")
-    parse_prompts("grouped-used_in_langchain_llm_call_sub.json")
+    parse_prompts(data, "used_in_langchain_llm_call_sub", out_data)
 
     # parse_prompts("cohere-prompts.json")
-    parse_prompts("grouped-used_chat_function_sub.json")
+    parse_prompts(data, "used_chat_function_sub", out_data)
 
-    parse_prompts("grouped-used_langchain_tool_class.json")
-    parse_prompts("grouped-used_langchain_tool.json")
+    parse_prompts(data, "used_langchain_tool_class", out_data)
+    parse_prompts(data, "used_langchain_tool", out_data)
 
-    parse_prompts("grouped-used_prompt_or_template_name.json")
+    parse_prompts(data, "used_prompt_or_template_name", out_data)
+    with open(f"separated-data-{run_id:03d}.json", "w") as w:
+        json.dump(out_data, w, indent=2, ensure_ascii=False)
 
     # parse_metadata_file("reader_prompt_metadata.json")
     # parse_metadata_file("reader_prompt_metadata_plus.json")
