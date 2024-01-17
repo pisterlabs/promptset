@@ -1,5 +1,5 @@
 .DS_Store
-*.so
+# *.so
 prompt_language/.ipynb_checkpoints/*
 prompt_language/.ipynb_checkpoints
 .ipynb_checkpoints/

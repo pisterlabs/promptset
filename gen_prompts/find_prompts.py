@@ -3,7 +3,7 @@ import os
 from itertools import islice
 from glob import glob
 from multiprocessing import Pool
-from gen_prompts.parsers import (
+from parsers import (
     PromptDetector,
     used_langchain_tool,
     used_chat_function,
@@ -56,7 +56,7 @@ def single_run(filenames: list[str], n=32):
 
 
 if __name__ == "__main__":
-    root_dir = "data/scraping/repos"
+    root_dir = "data/scraping-2.0/repos"
 
     paths = []
     for repo in os.listdir(root_dir):

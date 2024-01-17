@@ -6,7 +6,7 @@ from tqdm import tqdm
 if not os.path.exists("build/my-languages.so"):
     Language.build_library("build/my-languages.so", ["vendor/tree-sitter-python"])
 
-PY_LANGUAGE = Language("./build/my-languages.so", "python")
+PY_LANGUAGE = Language("build/my-languages.so", "python")
 
 # Parsers should be of type: Tree -> list[prompt_dict]
 # prompt_dict should be a dictionary with a prompt key and a metadata key
