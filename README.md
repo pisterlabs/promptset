@@ -4,7 +4,7 @@
 
 Paper: [PromptSet: A Programmer’s Prompting Dataset](https://github.com/pisterlabs/prompt-linter)
 
-## Usage:
+## Usage (quick-start):
 
 ```python
 from datasets import load_dataset
@@ -24,11 +24,11 @@ for prompt_list in promptset["train"]["prompts"]:
 3. `gen_prompts`: contains code to process and collect prompt data.
 4. `analytics`: contains code to analyze the data collected.
 
-## Quick Start
-
-...
-
 ## Reproducing Results
 
-...
-
+1. Download the repository snapshot as of January 10, 2024. [repos.zip](https://promptset.s3.amazonaws.com/repos.zip)
+2. Unzip the folder
+3. Run `python -m gen_prompts.find_prompts --run_id 0 --repo_dir {path_to_unzipped_repos} --threads 8`, this parses all the content data to find likely prompt areas.
+4. Run `python -m gen_prompts.reader --run_id 0`, here we format and clean the parsed values
+5. Run `python -m gen_prompts.separate --run_id 0`, this outputs a map from repo name to prompt strings
+6. Run `python -m gen_prompts.upload_ds --run_id 0`, this creates a PR against the pisterlabs/promptset HF repo.
