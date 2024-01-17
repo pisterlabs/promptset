@@ -16,7 +16,7 @@ Result Counts from Github (Collected Manually)
 
 all_lib_hrefs = set()
 for lib in libraries:
-    with open(f'./results_{lib}.json') as f:
+    with open(f'data/scraping-2.0/results_{lib}.json') as f:
         data = json.load(f)
     
     # Delete the "~remaining_combinations~" key
