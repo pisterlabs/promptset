@@ -5,7 +5,7 @@ from tqdm import tqdm
 import uuid
 
 if not os.path.exists("build/my-languages.so"):
-    Language.build_library("build/my-languages.so", ["vendor/tree-sitter-python"])
+    Language.build_library("build/my-languages.so", ["../tree-sitter-python"])
 
 PY_LANGUAGE = Language("build/my-languages.so", "python")
 
@@ -557,57 +557,14 @@ class PromptDetector:
     def add_heuristic(self, heuristic):
         self.heuristics.append(heuristic)
 
-    def detect_prompts(self, filenames: list[str], run_id=-1):
+    def detect_prompts(self, filenames: list[str], run_id):
         results = {}
 
         for filename in tqdm(filenames):
             results |= self._detect_prompts(filename)
 
-        # for heuristic in self.heuristics:
-        #     name = heuristic.__name__
-        #     save_results = list(
-        #         filter(lambda x, name=name: x[1][name], results.items())
-        #     )
-        #
-        #     with open(f"{name}.json", "w") as f:
-        #         json.dump(list(save_results), f, indent=2)
-
-        # name = heuristic.__name__ + "_sub"
-        # save_results = list(
-        #     filter(lambda x, name=name: x[1][name], results.items())
-        # )
-        #
-        # with open(f"{name}.json", "w") as f:
-        #     json.dump(list(save_results), f, indent=2)
-
-        if run_id > 0:
-            with open(f"{run_id:03d}/prompts-{uuid.uuid4()}.json", "w") as w:
-                json.dump(results, w)
-
-    def print_results(self, results):
-        per_heuristic = {}
-        prompts = set()
-        count = 0
-        for _, _results in results.items():
-            for heuristic, found in _results.items():
-                if heuristic not in per_heuristic:
-                    per_heuristic[heuristic] = []
-
-                per_heuristic[heuristic].extend(found)
-                prompts.update(set(found))
-                if len(found) > 0:
-                    count += 1
-
-        """
-        for heuristic in self.heuristics:
-            print(heuristic.__name__)
-            print(heuristic.__doc__)
-            print("Found: ", len(per_heuristic[heuristic.__name__]))
-            print()
-
-        print(f"Parser Returns result for {count} files out of 1444 files")
-        """
-        return list(prompts)
+        with open(f"{run_id:03d}/prompts-{uuid.uuid4()}.json", "w") as w:
+            json.dump(results, w)
 
     def _detect_prompts(self, filename: str):
         with open(filename, "rb") as f:
