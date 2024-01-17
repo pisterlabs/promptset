@@ -1,4 +1,5 @@
 import os
+import re
 import glob
 import json
 from argparse import ArgumentParser
@@ -28,6 +29,20 @@ keys_per_method = {
     "used_langchain_tool": ["pos-01"],
     "used_prompt_or_template_name": None,
 }
+
+
+def parse_tree(tree: Tree):
+    strings = []
+
+    query = PY_LANGUAGE.query("(string) @string")
+    for string, _ in query.captures(tree.root_node):
+        # Drop anything without at least one whitespace
+        if not re.search(r"[\s\\n]", string.text.decode("utf-8")):
+            continue
+
+        strings.append(string.text.decode("utf-8"))
+
+    return strings
 
 
 def parse_kwarg(tree: Node):
@@ -130,6 +145,14 @@ def get_black_trees(folder):
     return calls
 
 
+def not_empty(s: str) -> bool:
+    return s != ""
+
+
+def strip(s: str) -> str:
+    return s.strip()
+
+
 def run(name, in_data, out_data, keys=None, wrap=True, wrap_extra=False):
     keys = keys_per_method.get(name.replace("_sub", ""))
 
@@ -139,14 +162,18 @@ def run(name, in_data, out_data, keys=None, wrap=True, wrap_extra=False):
 
     for filename, args in get_black_trees(folder):
         if filename not in out_data:
-            out_data[filename] = {}
+            out_data[filename] = []
 
-        if name not in out_data[filename]:
-            out_data[filename][name] = []
-
+        prompts = []
         for key, value in args.items():
             if keys is None or any(k in key for k in keys):
-                out_data[filename][name].append(value)
+                prompts.append(value)
+
+        for prompt in filter(not_empty, map(strip, prompts)):
+            tree = parser.parse(bytes(prompt, "utf-8"))
+            strings = parse_tree(tree)
+
+            out_data[filename].extend(strings)
 
 
 if __name__ == "__main__":
