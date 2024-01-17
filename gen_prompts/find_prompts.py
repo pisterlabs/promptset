@@ -1,7 +1,9 @@
 import json
 import os
-from itertools import islice
+import shutil
+from argparse import ArgumentParser
 from glob import glob
+from itertools import islice
 from multiprocessing import Pool
 from parsers import (
     PromptDetector,
@@ -12,11 +14,14 @@ from parsers import (
     used_prompt_or_template_name,
     used_langchain_tool_class,
     new_line_in_string,
+    find_from_file,
     all_strings,
 )
 
-RUN_ID = f"{5:03d}"
-os.makedirs(RUN_ID, exist_ok=True)
+argparser = ArgumentParser()
+argparser.add_argument("--run_id", type=int, required=True)
+args = argparser.parse_args()
+run_id = args.run_id
 
 
 def process_chunk(filenames):
@@ -30,10 +35,7 @@ def process_chunk(filenames):
     # detector.add_heuristic(new_line_in_string)
     # detector.add_heuristic(all_strings)
 
-    detector.detect_prompts(filenames)
-    # _uuid = str(uuid.uuid4())
-    # with open(f"{RUN_ID}/prompts-{_uuid}.json", "w") as w:
-    #     json.dump(prompts, w)
+    detector.detect_prompts(filenames, run_id)
 
 
 def batched(iterable, n):
@@ -45,33 +47,30 @@ def batched(iterable, n):
         yield batch
 
 
-def run_all(filenames: list[str], n=32):
+def run_all(filenames: list[str], n=8):
+    os.makedirs(f"{run_id:03d}", exist_ok=True)
+
     filenames_batched = batched(filenames, len(filenames) // n)
     with Pool(n) as p:
         p.map(process_chunk, filenames_batched)
 
+    data = {}
+    for filename in glob(f"{run_id:03d}/prompts-*.json"):
+        with open(filename) as f:
+            data |= json.load(f)
 
-def single_run(filenames: list[str], n=32):
-    process_chunk(filenames)
+    with open(f"repo_data_export_{run_id:03d}.json", "w") as w:
+        json.dump(data, w, indent=False, ensure_ascii=False)
+
+    shutil.rmtree(f"{run_id:03d}")
 
 
 if __name__ == "__main__":
     root_dir = "data/scraping-2.0/repos"
 
     paths = []
-    for repo in os.listdir(root_dir):
-        repo_path = os.path.join(root_dir, repo)
-        for file in os.listdir(repo_path):
-            file_path = os.path.join(repo_path, file)
-            paths.append(file_path)
+    for root, path, files in os.walk(root_dir):
+        for file in files:
+            paths.append(os.path.join(root, file))
 
-    single_run(paths)
-
-    data = []
-    for filename in glob(f"{RUN_ID}/prompts-*.json"):
-        with open(filename) as f:
-            data.extend(json.load(f))
-
-    print(f"Found {len(data)} prompts in {len(paths)} files.")
-    with open(f"final_prompts_{RUN_ID}.json", "w") as file:
-        json.dump(data, file)
+    run_all(paths)
