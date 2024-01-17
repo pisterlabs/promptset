@@ -10,17 +10,24 @@ parser = Parser()
 parser.set_language(PY_LANGUAGE)
 
 
-argparser = ArgumentParser()
-argparser.add_argument(
-    "--run_id",
-    type=int,
-    required=True,
-)
-args = argparser.parse_args()
-run_id = args.run_id
-
-per_file_usage = {}
-all_per_file_usage = {}
+keys_per_method = {
+    "used_in_openai_call": ["prompt", "messages"],
+    "used_chat_function": ["text", "pos-01", "message"],
+    "used_in_langchain_llm_call": [
+        "message",
+        "prompt",
+        "template",
+        "pos-01",
+        "pos-02",
+        "pos-03",
+        "content",
+        "prefix",
+        "suffix",
+    ],
+    "used_langchain_tool_class": ["pos-01"],
+    "used_langchain_tool": ["pos-01"],
+    "used_prompt_or_template_name": None,
+}
 
 
 def parse_kwarg(tree: Node):
@@ -73,29 +80,33 @@ def parse_args(tree: Tree):
 
     args = {}
     for pos, (arg, aname) in enumerate(query.captures(tree.root_node)):
-        if aname == "fn":
-            continue
+        if aname == "fn" or arg.type == "comment":
+            pass
 
-        if arg.type == "comment":
-            continue
-
-        if kwarg := parse_kwarg(arg):
+        elif kwarg := parse_kwarg(arg):
             for idx, k in enumerate(kwarg[1]):
                 if k.strip() != "":
                     args[f"{kwarg[0]}-{idx:02d}"] = k
+        elif arg.text.decode("utf-8") == "()":
+            pass
+
         else:
             args[f"pos-{pos:02d}"] = arg.text.decode("utf-8")
 
     return args
 
 
-def save_for_black(name, calls, wrap, wrap_extra):
-    folder = f"black-{name}"
-    os.makedirs(folder, exist_ok=True)
+def save_for_black(name, folder, calls, wrap, wrap_extra):
     for ogfilename, el in calls.items():
         filename = ogfilename.replace("/", "_")
-        for idx, call in enumerate(el[name]):
-            with open(f"{folder}/{filename}-{idx}.py", "w") as f:
+        usages = el.get(name, [])
+
+        # don't lose empty files
+        if usages == []:
+            usages.append("()")
+
+        for idx, call in enumerate(usages):
+            with open(f"{folder}/{hash(filename)}-{idx}.py", "w") as f:
                 f.write(f"# {ogfilename}\n")
                 if wrap_extra:
                     f.write("fn(" + call + ")")
@@ -107,11 +118,9 @@ def save_for_black(name, calls, wrap, wrap_extra):
     os.system(f"black {folder} -q")
 
 
-def get_black_trees(name):
+def get_black_trees(folder):
     calls = []
-    folder = f"black-{name}"
-    files = glob.glob(f"{folder}/*.py")
-    for file in files:
+    for file in glob.glob(f"{folder}/*.py"):
         with open(file) as f:
             filename = f.readline()[2:].strip()
 
@@ -121,58 +130,44 @@ def get_black_trees(name):
     return calls
 
 
-def run(name, data, keys=None, wrap=True, wrap_extra=False):
-    with open(f"repo_data_export_{run_id}.json") as f:
-        hits = json.load(f)
+def run(name, in_data, out_data, keys=None, wrap=True, wrap_extra=False):
+    keys = keys_per_method.get(name.replace("_sub", ""))
 
-    save_for_black(name, hits, wrap, wrap_extra)
-    calls = get_black_trees(name)
+    folder = f"data/black/2.0-{name}"
+    os.makedirs(folder, exist_ok=True)
+    save_for_black(name, folder, in_data, wrap, wrap_extra)
 
-    for filename, args in calls:
-        if filename not in data:
-            data[filename] = {}
+    for filename, args in get_black_trees(folder):
+        if filename not in out_data:
+            out_data[filename] = {}
 
-        if name not in data[filename]:
-            data[filename][name] = []
+        if name not in out_data[filename]:
+            out_data[filename][name] = []
 
         for key, value in args.items():
             if keys is None or any(k in key for k in keys):
-                data[filename][name].append(value)
+                out_data[filename][name].append(value)
 
 
 if __name__ == "__main__":
+    argparser = ArgumentParser()
+    argparser.add_argument(
+        "--run_id",
+        type=int,
+        required=True,
+    )
+    args = argparser.parse_args()
+    with open(f"data/repo_data_export_{args.run_id:03d}.json") as f:
+        in_data = json.load(f)
+
     data = {}
-    run("used_in_openai_call_sub", data, ["prompt", "messages"])
-    run("used_chat_function_sub", data, ["text", "pos-01", "message"])
+    run("used_in_openai_call_sub", in_data, data)
+    run("used_chat_function_sub", in_data, data)
+    run("used_in_langchain_llm_call_sub", in_data, data, wrap=False)
+    run("used_langchain_tool_class", in_data, data, wrap_extra=True)
+    run("used_langchain_tool", in_data, data, wrap_extra=True)
+    run("used_prompt_or_template_name", in_data, data, wrap_extra=True)
 
-    keys = [
-        "message",
-        "prompt",
-        "template",
-        "pos-01",
-        "pos-02",
-        "pos-03",
-        "content",
-        "prefix",
-        "suffix",
-    ]
-    run("used_in_langchain_llm_call_sub", data, keys, wrap=False)
-    run("used_langchain_tool_class", data, ["pos-01"], wrap_extra=True)
-    run("used_langchain_tool", data, ["pos-01"], wrap_extra=True)
-
-    # with open("reader_prompt_metadata.json", "w") as f:
-    #     json.dump(per_file_usage, f, indent=2, ensure_ascii=False)
-
-    # with open("reader_all_metadata.json", "w") as f:
-    #     json.dump(all_per_file_usage, f, indent=2, ensure_ascii=False)
-
-    # # All prompts are messier
-    run("used_prompt_or_template_name", data, wrap_extra=True)
-    with open(f"grouped-data-{run_id:03d}.json", "w") as w:
+    with open(f"data/grouped-data-{args.run_id:03d}.json", "w") as w:
         json.dump(data, w, indent=2, ensure_ascii=False)
-
-    # with open("reader_prompt_metadata_plus.json", "w") as f:
-    #     json.dump(per_file_usage, f, indent=2, ensure_ascii=False)
-
-    # with open("reader_all_metadata_plus.json", "w") as f:
-    #     json.dump(all_per_file_usage, f, indent=2, ensure_ascii=False)
+    print(len(data))
