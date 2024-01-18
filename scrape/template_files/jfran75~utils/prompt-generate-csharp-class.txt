@@ -1,0 +1,14 @@
+Create a csharp netcore class that enables operate on a ms-sql database using dapper. I need the following FUNCTION support.
+
+FUNCTION
+
+connect()
+update(table_name, _dict) - insert o update a row in a table if id is present in _dict
+delete(table_name, id) - delete a row in table_name where id = id
+get(table_name, id) - select and return a row in table_name where id = id
+get_all(table_name) - select and return all rows in table_name
+run_sql(sql) - execute sql statement, return number of rows affected
+
+get_table_definition(table_name) - return table definition in a 'create table' format directly from the database as a string
+get_all_table_names() - return all table names in the database as a list of strings
+get_all_table_definitions_for_prompt() - combine get_table_definition() and get_all_table_names() to generate a string that contains new line separated table definitions in a 'create table' format for all that can be used for our llm prompt
