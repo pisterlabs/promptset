@@ -51,6 +51,7 @@ if __name__ == "__main__":
     argparser.add_argument("--threads", type=int, default=8)
     args = argparser.parse_args()
     os.makedirs(f"{args.run_id:03d}", exist_ok=True)
+    os.makedirs("data", exist_ok=True)
 
     # Find all files
     paths = []
@@ -59,9 +60,12 @@ if __name__ == "__main__":
             paths.append(os.path.join(root, file))
 
     # Batch into thread-count batches, and apply the heuristics
-    filenames_batched = batched(paths, len(paths) // args.threads)
-    with Pool(args.threads) as p:
-        p.map(partial(process_chunk, run_id=args.run_id), filenames_batched)
+    if args.threads == 1:
+        process_chunk(paths[:5000], args.run_id)
+    else:
+        filenames_batched = batched(paths, len(paths) // args.threads)
+        with Pool(args.threads) as p:
+            p.map(partial(process_chunk, run_id=args.run_id), filenames_batched)
 
     # Join the thread data by loading output files
     data = {}
@@ -71,7 +75,7 @@ if __name__ == "__main__":
 
     # save joined data
     with open(f"data/repo_data_export_{args.run_id:03d}.json", "w") as w:
-        json.dump(data, w, indent=False, ensure_ascii=False)
+        json.dump(data, w, indent=2, ensure_ascii=False)
 
     # Clean folder
     shutil.rmtree(f"{args.run_id:03d}")

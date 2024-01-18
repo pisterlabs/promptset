@@ -1,5 +1,6 @@
 import json
 import os
+from itertools import product
 from tree_sitter import Language, Parser, Tree, Node
 from tqdm import tqdm
 import uuid
@@ -12,7 +13,6 @@ PY_LANGUAGE = Language("build/my-languages.so", "python")
 
 # Parsers should be of type: Tree -> list[prompt_dict]
 # prompt_dict should be a dictionary with a prompt key and a metadata key
-#
 def find_from_file(tree: Tree):
     results = []
     query = PY_LANGUAGE.query(
@@ -34,111 +34,29 @@ def find_from_file(tree: Tree):
     return results
 
 
-def find_betasub(parser, tree: Tree):
-    dot_int_query = PY_LANGUAGE.query(
-        """(assignment
-            left: (attribute) @var.name
-            right: (integer) @var.value
-        ) @assign"""
-    )
-    dot_string_query = PY_LANGUAGE.query(
-        """(assignment
-            left: (attribute) @var.name
-            right: (string) @var.value
-        ) @assign"""
-    )
-    int_query = PY_LANGUAGE.query(
-        """(assignment
-            left: (identifier) @var.name
-            right: (integer) @var.value
-        ) @assign"""
-    )
-    string_query = PY_LANGUAGE.query(
-        """(assignment
-            left: (identifier) @var.name
-            right: (string) @var.value
-        ) @assign"""
-    )
-    rems: list[Node] = []
-    variables = {}
-    varname = None
-    for query in [dot_int_query, dot_string_query, int_query, string_query]:
-        for capture in query.captures(tree.root_node):
-            if capture[1] == "var.name":
-                varname = capture[0].text.decode("utf-8")
-            elif varname and capture[1] == "var.value":
-                variables[varname] = capture[0].text
-                varname = None
-            elif capture[1] == "assign":
-                rems.append(capture[0])
+def trim_tree(tree_bytes: bytes, node: Node, value: bytes):
+    print("Replacing", tree_bytes[node.start_byte : node.end_byte].decode("utf-8"))
+    print("With", value.decode("utf-8"))
+    return tree_bytes[: node.start_byte] + value + tree_bytes[node.end_byte :]
 
-    tree_bytes = tree.root_node.text
-    for rem in rems[::-1]:
-        tree_bytes = tree_bytes.replace(rem.text, b"")
 
-    for varname, value in variables.items():
-        tree = parser.parse(tree_bytes)
-        tree_bytes = tree.root_node.text
-
-        if "." in varname:
-            try:
-                query = PY_LANGUAGE.query(
-                    f'((attribute) @ident (#eq? @ident "{varname}"))'
-                )
-            except:
-                print(varname)
-                continue
-        else:
-            query = PY_LANGUAGE.query(
-                f'((identifier) @ident (#eq? @ident "{varname}"))'
-            )
-
-        for capture in query.captures(tree.root_node)[::-1]:
-            if (
-                capture[0].parent
-                and capture[0].parent.parent
-                and capture[0].parent.parent.type in ["interpolation"]
-            ):
-                tree_bytes = (
-                    tree_bytes[: capture[0].parent.parent.start_byte]
-                    + value
-                    + tree_bytes[capture[0].parent.parent.end_byte :]
-                )
-            elif capture[0].parent and capture[0].parent.type in [
-                "interpolation",
-                "attribute",
-            ]:
-                tree_bytes = (
-                    tree_bytes[: capture[0].parent.start_byte]
-                    + value
-                    + tree_bytes[capture[0].parent.end_byte :]
-                )
-
-            elif capture[0].parent.type not in [
-                "assignment",
-                "keyword_argument",
-                "augmented_assignment",
-                "typed_default_parameter",
-                "pattern_list",
-                "expression_list",
-                "for_statement",
-                "parameters",
-                "typed_parameter",
-                "global_statement",
-                "nonlocal_statement",
-                "call",
-                "dotted_name",
-                "for_in_clause",
-                "list_comprehension",
-                "while_statement",
-            ]:
-                tree_bytes = (
-                    tree_bytes[: capture[0].start_byte]
-                    + value
-                    + tree_bytes[capture[0].end_byte :]
-                )
-
-    return parser.parse(tree_bytes)
+def find_assignments(tree: Tree):
+    rems: list[str] = []
+    for aug, left_type, right_type in product(
+        ["augmented_", ""],
+        ["attribute", "identifier"],
+        ["integer", "string", "binary_operator"],
+    ):
+        query = PY_LANGUAGE.query(
+            f"""({aug}assignment
+                left: ({left_type}) @var.name
+                right: ({right_type}) @var.value
+            ) @assign"""
+        )
+        for capture, name in query.captures(tree.root_node):
+            if name == "assign":
+                rems.append(capture.text.decode("utf-8"))
+    return rems
 
 
 def all_strings(tree: Tree):
@@ -185,207 +103,29 @@ def used_prompt_or_template_name(tree: Tree):
         """(expression_statement
             (assignment
                 left: (identifier) @var.name
-                right: (_) @var.value
+                right: (_)
+            )
+            (#match? @var.name "([Pp][Rr][Oo][Mm][Pp][Tt]|[Tt][Ee][Mm][Pp][Ll][Aa][Tt][Ee])")
+        ) @assign"""
+    )
+    query_2 = PY_LANGUAGE.query(
+        """(expression_statement
+            (augmented_assignment
+                left: (identifier) @var.name
+                right: (_)
             )
             (#match? @var.name "([Pp][Rr][Oo][Mm][Pp][Tt]|[Tt][Ee][Mm][Pp][Ll][Aa][Tt][Ee])")
         ) @assign"""
     )
 
-    found = False
-    var_name = ""
-    for usage in query.captures(tree.root_node):
-        if usage[1] == "var.name":
-            var_name = usage[0].text.decode("utf-8").lower()
-            if (
-                "prompt" in var_name
-                or "template" in var_name
-                or "message" in var_name
-                or "content" in var_name
-            ):
-                found = True
-        elif found:
-            # TODO find each usage of this variable name?
-            # result.append(
-            #     {
-            #         "prompt": usage[0].text.decode("utf-8"),
-            #         "metadata": {"name": var_name},
-            #     }
-            # )
-            # result[-1]["metadata"]["defs"] = find_def(tree, var_name)
-            found = False
-        if usage[1] == "assign":
-            result.append(usage[0].text.decode("utf-8"))
+    for usage, name in query.captures(tree.root_node):
+        if name == "assign":
+            result.append(usage.text.decode("utf-8"))
 
-    return result
+    for usage, name in query_2.captures(tree.root_node):
+        if name == "assign":
+            result.append(usage.text.decode("utf-8"))
 
-
-def find_def(tree: Tree, name: str):
-    query = PY_LANGUAGE.query(
-        f"""(expression_statement
-        (assignment
-            left: (identifier) @var.name
-            right: (_) @var.value
-            (#eq? @var.name "{name}")
-        ))"""
-    )
-
-    texts = None
-    for usage in filter(lambda x: x[1] == "var.value", query.captures(tree.root_node)):
-        if not texts:
-            texts = str_to_prompt_dict(
-                usage[0].text.decode("utf-8"), metadata={"assignments": []}
-            )
-        else:
-            texts["metadata"]["assignments"].append(usage[0].text.decode("utf-8"))
-
-    if texts:
-        return [texts]
-    return []
-
-
-def parse_call_argument_generic(arg: Node):
-    query = PY_LANGUAGE.query(
-        """(call
-            function: (identifier) @fn.name
-            arguments: (argument_list) @fn.args
-        )"""
-    )
-
-    result = []
-    name = None
-    for usage in query.captures(arg):
-        if usage[1] == "fn.name":
-            name = usage[0].text.decode("utf-8")
-        elif usage[1] == "fn.args" and name:
-            # TODO grab idents out of here
-            result.append(
-                {
-                    "prompt": usage[0].text.decode("utf-8"),
-                    "metadata": {"name": name, "generic": True},
-                }
-            )
-
-    return result
-
-
-def parse_call_argument(arg: Node):
-    query = PY_LANGUAGE.query(
-        """(call
-            function: (attribute
-                object: (string) @str
-                attribute: (_)
-            )
-            arguments: (argument_list) @fn.args
-        )"""
-    )
-
-    result = []
-    for usage in query.captures(arg):
-        if usage[1] == "str":
-            result.append({"prompt": usage[0].text.decode("utf-8"), "metadata": {}})
-        elif usage[1] == "fn.args":
-            result[-1]["metadata"]["args"] = usage[0].text.decode("utf-8")
-
-    return result
-
-
-def parse_dictionary(tree: Tree, arg: Node):
-    query = PY_LANGUAGE.query(
-        """(dictionary 
-                (pair
-                    key: (_) @keyval
-                    value: (_) @val
-                )
-                (#match? @keyval "content")
-        )"""
-    )
-
-    result = []
-    for usage in query.captures(arg):
-        if usage[1] == "val":
-            # TODO grab idents out of here
-            result.append(str_to_prompt_dict(usage[0].text.decode("utf-8")))
-
-    return result
-
-
-def get_common(tree: Tree, arg: None):
-    # Most common ways to call an llm are with a string, with a variable, with a list, or with a function call
-
-    # String is easiest, just return it
-    if arg.type == "string":
-        return [str_to_prompt_dict(arg.text.decode("utf-8"))]
-
-    # Variables search for their definition, acquiring metadata about all assignments
-    # They stop at their scope
-    if arg.type == "identifier":
-        return find_def(tree, arg.text.decode("utf-8"))
-
-    # Calls are specifically for `string.format`
-    if arg.type == "call":
-        return parse_call_argument(arg)
-
-    # A list can be a list of variables, calls, or dictionaries
-    values = []
-    if arg.type == "list":
-        for el in arg.children:
-            if el.type == "identifier":
-                values.extend(find_def(tree, el.text.decode("utf-8")))
-            if el.type == "call":
-                values.extend(parse_call_argument(el))
-                values.extend(parse_call_argument_generic(el))
-            if el.type == "dictionary":
-                values.extend(parse_dictionary(tree, el))
-
-    return values
-
-
-def extract_args(tree: Tree, argument_list: Node) -> list:
-    result = []
-    metadata = {"extract_args": argument_list.text.decode("utf-8")}
-    for idx, arg in enumerate(argument_list.children):
-        # Grab first positional argument if it is an identifier
-        if idx == 1:
-            result.extend(get_common(tree, arg))
-
-        if arg.type == "keyword_argument":
-            result.extend(parse_keyword_argument(tree, arg))
-
-    for res in result:
-        res["metadata"] |= metadata
-
-    return result or [
-        str_to_prompt_dict(metadata={"error": argument_list.text.decode("utf-8")})
-    ]
-
-
-def str_to_prompt_dict(string: str = "", metadata=None):
-    metadata = metadata or {}
-    if isinstance(metadata, str):
-        metadata = {"error": metadata}
-    return {"prompt": string, "metadata": metadata}
-
-
-def parse_keyword_argument(tree: Tree, arg: Node):
-    query = PY_LANGUAGE.query(
-        """(keyword_argument
-                name: (identifier) @arg.name
-                value: (_) @arg.value
-                (#any-of? @arg.name "prompt" "messages" "text" "content")
-        )"""
-    )
-    result = []
-    for usage in query.captures(arg):
-        if usage[1] == "arg.value":
-            if common := get_common(tree, usage[0]):
-                result.extend(common)
-            else:
-                # Technically an error case
-                result.append(
-                    str_to_prompt_dict(metadata={"error": arg.text.decode("utf-8")})
-                )
-
-    # Default, return text
     return result
 
 
@@ -409,9 +149,9 @@ def used_langchain_tool_class(tree: Tree):
         )"""
     )
     result = []
-    for capture in tool_query.captures(tree.root_node):
-        if capture[1] == "string":
-            result.append(capture[0].text.decode("utf-8"))
+    for capture, name in tool_query.captures(tree.root_node):
+        if name == "string":
+            result.append(capture.text.decode("utf-8"))
     return result
 
 
@@ -430,9 +170,9 @@ def used_langchain_tool(tree: Tree):
     )"""
     )
     result = []
-    for capture in tool_query.captures(tree.root_node):
-        if capture[1] == "docstring":
-            result.append(capture[0].text.decode("utf-8"))
+    for capture, name in tool_query.captures(tree.root_node):
+        if name == "docstring":
+            result.append(capture.text.decode("utf-8"))
     return result
 
 
@@ -466,42 +206,6 @@ def used_in_langchain_llm_call(tree: Tree):
     for capture in from_template_query.captures(tree.root_node):
         if capture[1] == "call":
             result.append(capture[0].text.decode("utf-8"))
-
-    return result
-
-    """llm.<fn>(<args>)"""
-
-    query = PY_LANGUAGE.query(
-        """(module
-                (import_from_statement
-                    module_name: (dotted_name) @mod
-                    name: (dotted_name) @llm
-                    (#any-of? @mod "langchain.llms" "langchain.chat" "langchain")
-                )
-                (expression_statement
-                    (assignment
-                        left: (identifier) @llmvar
-                        right: (call function: (identifier) @llmname)
-                        (#eq? @llmname @llm)
-                    )
-            )
-        )"""
-    )
-
-    for llm in filter(lambda x: x[1] == "llmvar", query.captures(tree.root_node)):
-        llm_text = llm[0].text.decode("utf-8")
-
-        call_query = PY_LANGUAGE.query(
-            f"""(call
-                function: (identifier) @fn.name
-                arguments: (argument_list) @fn.args
-                (#eq? @fn.name "{llm_text}")
-            )"""
-        )
-
-        for usage in call_query.captures(tree.root_node):
-            if usage[1] == "fn.args":
-                result.append(extract_args(tree, usage[0]))
 
     return result
 
@@ -542,7 +246,6 @@ def used_in_openai_call(tree: Tree):
         lambda x: x[1] == "fn.args", call_query.captures(tree.root_node)
     ):
         result.append(usage[0].text.decode("utf-8"))
-        # result.extend(extract_args(tree, usage[0]))
 
     return result
 
@@ -573,8 +276,6 @@ class PromptDetector:
         results = {}
         for heuristic in self.heuristics:
             results[heuristic.__name__] = heuristic(tree)
-        tree = find_betasub(self.parser, tree)
-        for heuristic in self.heuristics:
-            results[heuristic.__name__ + "_sub"] = heuristic(tree)
+        results["variables"] = find_assignments(tree)
 
         return {filename: results}
