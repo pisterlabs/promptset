@@ -1,0 +1,19 @@
+$UserInput$: "{UserInput}"
+$Reference$: "{FastTranslation}"
+$Extra flags$: {Flags}
+$Task$: translate $UserInput$ to {Language}. $Reference$ may not be accurate. Refine step by step translation of $UserInput$ to {Language} while keeping the meaning as close as possible to $UserInput$. Consider $Extra flags$. Input text is in {InputLanguage}, consider their mentality and cultural differences. Suggest clarifications, that would be useful for translation.
+reply in exactly next format:
+```
+@$UserInput$ in English: {{here is $UserInput$ in English}}
+@List of issues where the subject is unclear or pronoun ambiguities (at least 3):
+  1. {{issues in English}}
+@List of key thesis (at least 3):
+  1. {{thesis in English}}
+@List of language and clarity notes (at least 3):
+  1. {{quote the parts needing clarity, jargon, etc.}}
+@List of ambiguous pronoun usage (at least 3):
+  1. {{quote the parts with pronoun ambiguities}}
+@List of ALL resolved issues described above:
+  1. {{Resolve issues and ambiguities by most likely meaning. Provide translation to {Language}}}
+@Translation: {{here is $UserInput$ in {Language} with all fixes}}
+```
