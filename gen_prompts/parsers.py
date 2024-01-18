@@ -5,7 +5,7 @@ from tqdm import tqdm
 import uuid
 
 if not os.path.exists("build/my-languages.so"):
-    Language.build_library("build/my-languages.so", ["../tree-sitter-python"])
+    Language.build_library("build/my-languages.so", ["tree-sitter-python"])
 
 PY_LANGUAGE = Language("build/my-languages.so", "python")
 

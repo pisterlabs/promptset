@@ -28,6 +28,7 @@ def process_chunk(filenames, run_id: int):
     detector.add_heuristic(used_in_openai_call)
     detector.add_heuristic(used_chat_function)
     detector.add_heuristic(used_prompt_or_template_name)
+    detector.add_heuristic(find_from_file)
     # detector.add_heuristic(new_line_in_string)
     # detector.add_heuristic(all_strings)
 
