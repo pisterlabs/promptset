@@ -16,7 +16,7 @@ if __name__ == "__main__":
         "prompts": [],
     }
 
-    with open(f"data/grouped-data-{args.run_id:03d}.json") as f:
+    with open(f"data/grouped-data-{args.run_id:03d}-2.json") as f:
         raw_data = json.load(f)
 
         absent = 0
@@ -26,20 +26,19 @@ if __name__ == "__main__":
         for key, prompts in raw_data.items():
             repo_name = "/".join(key.split("/")[-2].split("~"))
             file_name = key.split("/")[-1]
-            file_path = key.replace("/scraping/", "/scraping-2.0/")
 
-            if not os.path.exists(file_path):
+            if not os.path.exists(key):
                 absent += 1
                 continue
 
             total += 1
             num_prompts += len(prompts)
-            with open(file_path, "r", encoding="utf8") as file:
+            with open(key, "r", encoding="utf8") as file:
                 data["date_collected"].append("2024-01-10")
                 data["repo_name"].append(repo_name)
                 data["file_name"].append(file_name)
                 data["file_contents"].append(file.read())
-                data["prompts"].append(prompts)
+                data["prompts"].append(list(set(prompts)))
 
         print(f"Absent: {absent}")
         print(f"Total: {total}")

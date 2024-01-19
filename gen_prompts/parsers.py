@@ -1,7 +1,7 @@
 import json
 import os
 from itertools import product
-from tree_sitter import Language, Parser, Tree, Node
+from tree_sitter import Language, Parser, Tree
 from tqdm import tqdm
 import uuid
 
@@ -32,12 +32,6 @@ def find_from_file(tree: Tree):
             continue
         results.append(capture.text.decode("utf-8"))
     return results
-
-
-def trim_tree(tree_bytes: bytes, node: Node, value: bytes):
-    print("Replacing", tree_bytes[node.start_byte : node.end_byte].decode("utf-8"))
-    print("With", value.decode("utf-8"))
-    return tree_bytes[: node.start_byte] + value + tree_bytes[node.end_byte :]
 
 
 def find_assignments(tree: Tree):
