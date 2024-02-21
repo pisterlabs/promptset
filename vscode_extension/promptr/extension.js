@@ -39,10 +39,30 @@ function activate(context) {
 		// ... append more lines as needed
         
 		// Recurse through the workspace to find Python files
+		let python_files = [];
         workspaceFolders.forEach((folder) => {
 			const rootPath = folder.uri.fsPath;
-            findPythonFiles(rootPath, outputChannel);
+            findPythonFiles(rootPath, outputChannel, python_files);
         });
+
+		// Creating Child process to grab prompts from all python files
+		let pythonfiles_str = python_files.join("~~~");
+		// console.log(pythonfiles_str);
+		const pythonScriptPath = path.join(__dirname, 'get_prompts.py');
+		// const pythonProcess = cp.spawn('python3', [pythonScriptPath, pythonfiles_str]);
+		// pythonProcess.stdout.on('data', (data) => {
+		// 	console.log(data.toString());
+		// 	outputChannel.appendLine(data.toString());
+		// 	outputChannel.show(true);  // Focus on the output channel
+		// });
+		cp.exec(`python3 ${pythonScriptPath} ${pythonfiles_str}`, (err, stdout, stderr) => {
+			if (err) {
+				console.error(err);
+				return;
+			}
+			outputChannel.appendLine(stdout);
+			outputChannel.show(true);  // Focus on the output channel
+		});
 		
 		// Display a message box to the user
 		vscode.window.showInformationMessage('Welcome to Promptr!');
@@ -53,21 +73,15 @@ function activate(context) {
 	context.subscriptions.push(disposable);
 }
 
-function findPythonFiles(dir, outputChannel) {
+function findPythonFiles(dir, outputChannel, python_files) {
     fs.readdirSync(dir).forEach(file => {
         const filePath = path.join(dir, file);
         const stat = fs.statSync(filePath);
 
         if (stat.isDirectory()) {
-            findPythonFiles(filePath, outputChannel); // Recurse into a subdirectory
+            findPythonFiles(filePath, outputChannel, python_files); // Recurse into a subdirectory
         } else if (filePath.endsWith('.py')) {
-            const pythonScriptPath = path.join(__dirname, 'get_prompts.py');
-            const pythonProcess = cp.spawn('python3', [pythonScriptPath, filePath]);
-            pythonProcess.stdout.on('data', (data) => {
-                console.log(data.toString());
-				outputChannel.appendLine(data.toString());
-				outputChannel.show(true);  // Focus on the output channel
-            });               
+            python_files.push(filePath);         
         }
     });
 }
