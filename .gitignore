@@ -17,3 +17,4 @@ data/
 repos/
 
 **/.env
+**/.cache
