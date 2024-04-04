@@ -1,5 +1,6 @@
 import os, json, dotenv
 from requests import ReadTimeout
+from sentence_transformers import SentenceTransformer, util
 
 dotenv.load_dotenv()
 
@@ -59,6 +60,12 @@ class OPRO:
         return "OPRO"
 
     def __init__(self, init):
+        # Load transformer model
+        self.transformer_model = SentenceTransformer(
+            "all-mpnet-base-v2"
+        )  # Load transformer model
+
+        # Load LMs
         if "gemini" in init:
             import google.generativeai as genai
 
@@ -118,3 +125,7 @@ class OPRO:
                 return self.generate(prompt, model="anthropic")
 
         raise ValueError("Invalid synth value")
+
+    def similarity(self, text1, text2):
+        embeddings = self.transformer_model.encode([text1, text2])
+        return util.pytorch_cos_sim(embeddings[0], embeddings[1]).item()
