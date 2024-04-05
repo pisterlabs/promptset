@@ -68,7 +68,7 @@ Example JSON object:
 
 Take a deep breath and work on this problem step-by-step."""
 
-prompt = "Write a song for my husband's promotion."
+prompt = "Please help me to translate the following text to French. Please return only translated content not include the origin text. Here is the text: \n\n{PLACEHOLDER}"
 
 response = model.generate_content(prompt_template.format(prompt_principles=prompt_principles, prompt=prompt)).candidates[0].content.parts[0].text
 print(response)

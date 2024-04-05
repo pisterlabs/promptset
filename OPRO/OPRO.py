@@ -34,11 +34,15 @@ def filecache(fn):
     return wrapped
 
 
-def ollama_generate(lm, prompt):
+def ollama_generate(lm, prompt, num_predict=-1):
     temp = lm.timeout
     while True:
         try:
-            res = lm.invoke(prompt)
+            res = (
+                lm.invoke(prompt)
+                if num_predict < 0
+                else lm.invoke(prompt, num_predict=num_predict)
+            )
             break
         except ReadTimeout:
             if lm.timeout > 120:
