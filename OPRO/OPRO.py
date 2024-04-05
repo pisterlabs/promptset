@@ -75,12 +75,7 @@ class OPRO:
 
             genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
-            self.gemini_model = genai.GenerativeModel(
-                "gemini-pro",
-                generation_config=genai.GenerationConfig(
-                    temperature=0, max_output_tokens=2048
-                ),
-            )
+            self.gemini_model = genai.GenerativeModel("gemini-pro")
 
         if "gemma" in init:
             from langchain_community.llms import Ollama
@@ -95,14 +90,19 @@ class OPRO:
             self.anthropic_client = anthropic.Anthropic()
 
     @filecache
-    def generate(self, prompt, model="gemini", is_indeterministic=False):
+    def generate(self, prompt, model="gemini", is_indeterministic=False, max_token=-1):
         temperature = float(is_indeterministic)
 
         # gemini form
         if model == "gemini":
+            import google.generativeai as genai
+            generation_config = genai.GenerationConfig(temperature=temperature, max_output_tokens=2048)
+            # WARNING: for some reason, gemini doesn't like it if output length exceeds token limit
+            if max_token > 0:
+                generation_config.max_output_tokens = max_token
             return (
                 self.gemini_model.generate_content(
-                    prompt, generation_config={"temperature": temperature}
+                    prompt, generation_config=generation_config
                 )
                 .candidates[0]
                 .content.parts[0]
@@ -110,7 +110,7 @@ class OPRO:
             )
         elif model == "gemma":
             self.gemma_model.temperature = temperature
-            return ollama_generate(self.gemma_model, prompt)
+            return ollama_generate(self.gemma_model, prompt, num_predict=max_token)
         elif model == "anthropic":
             import anthropic
 
@@ -118,7 +118,7 @@ class OPRO:
                 return (
                     self.anthropic_client.messages.create(
                         model="claude-3-haiku-20240307",
-                        max_tokens=200,
+                        max_tokens=max_token if max_token > 0 else 200,  # was initially 200
                         temperature=temperature,
                         messages=[{"role": "user", "content": prompt}],
                     )
