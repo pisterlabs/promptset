@@ -83,6 +83,13 @@ class OPRO:
             self.gemma_model = Ollama(
                 model="gemma:2b", temperature=0, num_gpu=40, timeout=30
             )
+        
+        if "llama2" in init:
+            from langchain_community.llms import Ollama
+
+            self.llama2_model = Ollama(
+                model="llama2:7b", temperature=1, num_gpu=40, timeout=30
+            )
 
         if "anthropic" in init:
             import anthropic
@@ -111,6 +118,9 @@ class OPRO:
         elif model == "gemma":
             self.gemma_model.temperature = temperature
             return ollama_generate(self.gemma_model, prompt, num_predict=max_token)
+        elif model == "llama2":
+            self.llama2_model.temperature = temperature
+            return ollama_generate(self.llama2_model, prompt, num_predict=max_token)
         elif model == "anthropic":
             import anthropic
 
