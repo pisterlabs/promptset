@@ -1,9 +1,13 @@
 import os, json, dotenv
 from requests import ReadTimeout
 from sentence_transformers import SentenceTransformer, util
+import ollama
 
 dotenv.load_dotenv()
-
+modelfile='''
+FROM {model}
+PARAMETER temperature {temperature}
+'''
 
 def filecache(fn):
     filename = f".cache/{fn.__name__}.json"
@@ -78,11 +82,14 @@ class OPRO:
             self.gemini_model = genai.GenerativeModel("gemini-pro")
 
         if "gemma" in init:
-            from langchain_community.llms import Ollama
+            # from langchain_community.llms import Ollama
 
-            self.gemma_model = Ollama(
-                model="gemma:2b", temperature=0, num_gpu=40, timeout=30
-            )
+            # self.gemma_model = Ollama(
+            #     model="gemma:2b", temperature=0, num_gpu=40, timeout=30
+            # )
+            ollama.create(model='gemma:2b_TEMP0', modelfile=modelfile.format("gemma:2b", 0))
+            ollama.create(model='gemma:2b_TEMP1', modelfile=modelfile.format("gemma:2b", 1))
+
         
         if "llama2" in init:
             from langchain_community.llms import Ollama
@@ -90,6 +97,10 @@ class OPRO:
             self.llama2_model = Ollama(
                 model="llama2:7b", temperature=1, num_gpu=40, timeout=30
             )
+        
+        if "llama3" in init:
+            ollama.create(model='llama3_TEMP0', modelfile=modelfile.format("llama3", 0))
+            ollama.create(model='llama3_TEMP1', modelfile=modelfile.format("llama3", 1))
 
         if "anthropic" in init:
             import anthropic
@@ -97,8 +108,8 @@ class OPRO:
             self.anthropic_client = anthropic.Anthropic()
 
     @filecache
-    def generate(self, prompt, model="gemini", is_indeterministic=False, max_token=-1):
-        temperature = float(is_indeterministic)
+    def generate(self, prompt, model="llama3", is_indeterministic=False, max_token=-1):
+        temperature = float(is_indeterministic)  # 0 is default
 
         # gemini form
         if model == "gemini":
@@ -116,11 +127,14 @@ class OPRO:
                 .text
             )
         elif model == "gemma":
-            self.gemma_model.temperature = temperature
-            return ollama_generate(self.gemma_model, prompt, num_predict=max_token)
+            # self.gemma_model.temperature = temperature
+            # return ollama_generate(self.gemma_model, prompt, num_predict=max_token)
+            return ollama.generate(model=f'gemma:2b_TEMP{int(temperature)}', prompt=prompt)["response"]
         elif model == "llama2":
             self.llama2_model.temperature = temperature
             return ollama_generate(self.llama2_model, prompt, num_predict=max_token)
+        elif model == "llama3":
+            return ollama.generate(model=f'llama3_TEMP{int(temperature)}', prompt=prompt)["response"]
         elif model == "anthropic":
             import anthropic
 

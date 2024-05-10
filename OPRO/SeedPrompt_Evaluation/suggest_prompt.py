@@ -68,8 +68,21 @@ Example JSON object:
 
 Take a deep breath and work on this problem step-by-step."""
 
-prompt = "Please help me to translate the following text to {LANGUAGE}. Please return only translated content not include the origin text. Here is the text: \n\n{TEXT}"
-prompt = "Please summarize the following text: {TEXT}"
+# prompt = "Please help me to translate the following text to {LANGUAGE}. Please return only translated content not include the origin text. Here is the text: \n\n{TEXT}"
+# prompt = "Please summarize the following text: {TEXT}"
+prompt = prompt = """You are an optimization expert. The user has some texts along with their corresponding scores.
+Your task is to generate a new piece of text that scores as high as possible. 
+Generate the new unique text only, not its corresponding score.
+
+Here are some texts along with their corresponding scores. The texts are arranged in ascending order
+based on their scores, where higher scores indicate better quality.
+
+{pairs_str}
+
+Write your new text that is different from the old ones and has a score as high as possible.
+Generate the new unique text only, not its corresponding score.
+New instruction:
+"""
 
 response = model.generate_content(prompt_template.format(prompt_principles=prompt_principles, prompt=prompt)).candidates[0].content.parts[0].text
 print(response)

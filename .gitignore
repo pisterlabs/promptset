@@ -9,6 +9,7 @@ data/.ipynb_checkpoints/
 build
 tree-sitter-python
 venv
+.venv
 __pycache__
 black-*
 old_data
@@ -18,3 +19,7 @@ repos/
 
 **/.env
 **/.cache
+
+gemma_model_saved
+llama3-8b
+*.tar.gz
