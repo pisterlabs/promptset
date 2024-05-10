@@ -1,0 +1,41 @@
+# hello-world.sub
+# My HTCondor submit file
+
+# Provide HTCondor with the name of the Docker container
+container_image = docker://djp4u1/load_gemma_img
+universe = container
+
+# Specify the name of the log, standard error, and standard output (or "screen output") files. 
+# Wherever you see $(Cluster), HTCondor will insert the queue number assigned to this set of jobs at the time of submission.
+log = load_llm_$(Cluster)_$(Process).log
+error = load_llm_$(Cluster)_$(Process).err
+output = load_llm_$(Cluster)_$(Process).out
+
+# Specify your executable (single binary or a script that runs several
+#  commands) and arguments to be passed to jobs. 
+#  $(Process) will be a integer number for each job, starting with "0"
+#  and increasing for the relevant number of jobs.
+executable = main.sh
+arguments = $(Process)
+
+# Transferring Files
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+transfer_input_files = gemma.py, .env
+
+# IMPORTANT! Require execute servers that can access /staging
+Requirements = (Target.HasCHTCStaging == true)
+
+# Tell HTCondor requirements (e.g., operating system) your job needs, 
+# what amount of compute resources each job will need on the computer where it runs.
++WantGPULab = true
++GPUJobLength = "short"
+
+request_cpus = 1
+request_memory = 16GB
+request_disk = 10GB
+request_gpus = 1
+require_gpus = (Capability >= 8.0) && (GlobalMemoryMb >= 40000)
+
+# Tell HTCondor to run 1 instance of our job:
+queue 1
