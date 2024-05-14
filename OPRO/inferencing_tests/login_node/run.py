@@ -1,14 +1,9 @@
-# Run bash script to start the login node
+from hf import LLM
 
-# Importing the necessary libraries
-import os
-import subprocess
-import time
-
-# Running the bash script
-start = time.time()
-subprocess.run(["bash", "main.sh"])
-end = time.time()
-print(f"Time taken: {end-start}")
-
-# End of file
+if __name__ == "__main__":
+    # llm = LLM(["gemma-2b"])
+    llm = LLM(["gemma-2b", "llama3-8b", "llama3-70b"])
+    prompt = "What is the meaning of life?"
+    print(f"Q. Gemma-2b; {prompt}; A. {llm.generate_response(prompt, model='gemma-2b')}")
+    print(f"Q. Llama3-8b; {prompt}; A. {llm.generate_response(prompt, model='llama3-8b')}")
+    print(f"Q. Llama3-70b; {prompt}; A. {llm.generate_response(prompt, model='llama3-70b')}")
