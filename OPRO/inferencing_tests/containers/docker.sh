@@ -6,6 +6,14 @@ docker run --name my_container --gpus=all $IMAGE_NAME
 docker rm my_container # docker container prune also works
 docker rmi $IMAGE_NAME # docker image prune also works
 
+# # Setup Ollama
+# apt-get update -y
+# apt-get install lshw -y
+# curl -fsSL https://ollama.com/install.sh | sh
+# export OLLAMA_MODELS=$PWD/.ollama  # Set the environment variable for the ollama server
+# ollama serve > /dev/null 2>&1 &  # Start the ollama server in the background
+# ollama pull gemma:2b  # Pull the gemma model TODO: MOVE THIS TO STAGING!
+# pkill -f ollama  # Kill the ollama server
 
 # NOTE: CHTC uses something similar to the following to run jobs in Docker containers:
 
