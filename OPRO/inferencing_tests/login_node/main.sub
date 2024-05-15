@@ -2,9 +2,9 @@
 # My HTCondor submit file
 
 # Provide HTCondor with the name of the Docker container
-# container_image = docker://djp4u1/env:latest
-# universe = container
-universe = vanilla
+# universe = vanilla
+container_image = docker://djp4u1/env:latest
+universe = container
 
 # Specify the name of the log, standard error, and standard output (or "screen output") files. 
 # Wherever you see $(Cluster), HTCondor will insert the queue number assigned to this set of jobs at the time of submission.
@@ -22,7 +22,8 @@ arguments = $(Process)
 # Transferring Files
 should_transfer_files = YES
 when_to_transfer_output = ON_EXIT
-transfer_input_files = hf.py, .env, run.py
+transfer_input_files = hf.py, run.py, .env
+
 # IMPORTANT! Require execute servers that can access /staging
 requirements = (Target.HasCHTCStaging == true) && ((OpSysMajorVer == 8) || (OpSysMajorVer == 9))
 

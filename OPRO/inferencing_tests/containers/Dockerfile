@@ -14,14 +14,14 @@ FROM python:latest
 # WORKDIR is set during runtime, and write permisions are limited. So setting this during runtime to $PWD/.ollama
 # ENV OLLAMA_MODELS=/home/.ollama
 
-# To install lshw, we need to update the package list
-RUN apt-get update -y
+# # To install lshw, we need to update the package list
+# RUN apt-get update -y
 
-# To help ollama detect gpu, we need to install lshw
-RUN apt-get install lshw -y
+# # To help ollama detect gpu, we need to install lshw
+# RUN apt-get install lshw -y
 
-# Downloading and Installing ollama
-RUN curl -fsSL https://ollama.com/install.sh | sh
+# # Downloading and Installing ollama
+# RUN curl -fsSL https://ollama.com/install.sh | sh
 
 
 # TO KEEP THE CONTAINER LIGHTWEIGHT, WE WILL NOT COPY THE MODELS INTO THE CONTAINER
