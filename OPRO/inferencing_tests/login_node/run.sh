@@ -13,14 +13,12 @@ export TRANSFORMERS_CACHE=$PWD/model_cache  # .cache directory where the transfo
 # Moving files from staging to working directory
 if [ -f /staging/djpaul2/model_cache.tar.gz ]; then
     # If the model_cache.tar.gz file exists, extract it
-    cp /staging/djpaul2/model_cache.tar.gz .
-    tar -xzf model_cache.tar.gz
+    tar -xzf /staging/djpaul2/model_cache.tar.gz -C ./
 fi
 
 # Run Script and move output to staging
-python3 run.py > out.txt
-python3 run.py
-mv out.txt /staging/djpaul2/
+python3 summarization.py
+mv *.json /staging/djpaul2/
 
 # Clean up
 if [ ! -f /staging/djpaul2/model_cache.tar.gz ]; then

@@ -3,7 +3,7 @@
 
 # Provide HTCondor with the name of the Docker container
 # universe = vanilla
-container_image = docker://djp4u1/env:latest
+container_image = docker://djp4u1/env_summ:latest
 universe = container
 
 # Specify the name of the log, standard error, and standard output (or "screen output") files. 
@@ -22,7 +22,7 @@ arguments = $(Process)
 # Transferring Files
 should_transfer_files = YES
 when_to_transfer_output = ON_EXIT
-transfer_input_files = hf.py, run.py, .env
+transfer_input_files = hf.py, summarization.py, .env
 
 # IMPORTANT! Require execute servers that can access /staging
 requirements = (Target.HasCHTCStaging == true) && ((OpSysMajorVer == 8) || (OpSysMajorVer == 9))
