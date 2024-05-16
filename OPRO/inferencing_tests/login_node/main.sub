@@ -35,10 +35,10 @@ requirements = (Target.HasCHTCStaging == true) && ((OpSysMajorVer == 8) || (OpSy
 +WantGlideIn = true	
 
 request_cpus = 5
-request_memory = 64GB
-request_disk = 100GB
+request_memory = 100GB
+request_disk = 500GB
 request_gpus = 4
-require_gpus = (Capability >= 8.0) && (GlobalMemoryMb >= 40000)
+require_gpus = (Capability >= 8.0) && (GlobalMemoryMb >= 48000)
 
 # Tell HTCondor to run 1 instance of our job:
 queue 1
