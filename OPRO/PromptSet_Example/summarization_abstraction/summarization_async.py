@@ -7,6 +7,8 @@ from rouge import Rouge
 from llm_async import run_llm
 
 INTERPOLATE_VAR = "{TEXT}"
+PWD = "./"
+
 # SEED PROMPTS
 def get_seed_prompts(CHOSEN_PROMPT):
     SEED_PROMPTS = [
@@ -136,11 +138,11 @@ def check_and_reformat(prompt):
 # Generate a question and answer pair using a language model
 def generate_synthetic_data(CHOSEN_PROMPT, sample_size=40):
     # Check if the synthetic data already exists
-    SYNTHETIC_DATA_FILEPATH_ASYNC = "synthetic_summarization_dataset_async.json"
+    SYNTHETIC_DATA_FILEPATH_ASYNC = f"{PWD}synthetic_dataset.json"
     if os.path.exists(SYNTHETIC_DATA_FILEPATH_ASYNC):
         # Reading saved data
         with open(SYNTHETIC_DATA_FILEPATH_ASYNC, "r") as f:
-            text_summary_pairs = eval(f.read())
+            text_summary_pairs = json.load(f.read())
         return text_summary_pairs
 
     def generate_synthetic_datapoint(request_count):
@@ -157,11 +159,14 @@ def generate_synthetic_data(CHOSEN_PROMPT, sample_size=40):
             response = run_llm([SYNTH_DATA_GEN_PROMPT for _ in range(request_count)], temperature=1.0)
             for res in response:
                 try:
+                    # Checking if the response is valid
                     data = json.loads(res)
+                    data["text"], data["summary"]
                     data_pairs.append(data)
                     pbar.update(1)
                 except Exception as e:
-                    print(e)
+                    # print(e)
+                    continue
         pbar.close()
         return data_pairs[:request_count]
 
@@ -204,7 +209,7 @@ explaining why the instruction will score high. Think step by step. Nothing but 
         response = run_llm([prompt for _ in range(request_count)], temperature=1.0)
         for res in response:
             try:
-                new_prompt = json.loads(res)["prompt"]
+                new_prompt = eval(res)["prompt"]
                 assert has_correct_keywords(new_prompt)
                 new_prompts.append(new_prompt)
                 pbar.update(1)
@@ -241,7 +246,7 @@ def score(prompts, testing_sample):
 def opro(CHOSEN_PROMPT, training_sample):
     INS_PER_STEP = 8
     MAX_PROMPT_SCORE_PAIRS = 20  # Keep the best 20 prompts at any time
-    SAVE_PATH_ASYNC = "synthetic_summarization_OPRO_results_async.json"
+    SAVE_PATH_ASYNC = f"{PWD}training_results.json"
     STEP_COUNT = 10
     SEED_PROMPTS = get_seed_prompts(CHOSEN_PROMPT)
     SEED_PROMPTS = [check_and_reformat(prompt) for prompt in SEED_PROMPTS]
@@ -249,7 +254,7 @@ def opro(CHOSEN_PROMPT, training_sample):
     # loading saved data
     if os.path.exists(SAVE_PATH_ASYNC):
         with open(SAVE_PATH_ASYNC, "r") as f:
-            results = json.load(f)  # {step1: {prompt1: score1, prompt2: score2, ...}, step2: {...}, ...}
+            results = json.load(f)  # {step0: {prompt1: score1, prompt2: score2, ...}, step1: {...}, ...}
         return results
     else:
         # Scoring the seed prompts
@@ -295,8 +300,14 @@ def opro(CHOSEN_PROMPT, training_sample):
     return results
 
 # OPRO for summarization prompts
-def summarization_opro(prompt, TRAINING_SAMPLE_SIZE=10, TESTING_SAMPLE_SIZE=30):
+def summarization_opro(prompt, cache_dir="0", TRAINING_SAMPLE_SIZE=10, TESTING_SAMPLE_SIZE=30):
+    global PWD, CHOSEN_PROMPT
     CHOSEN_PROMPT = check_and_reformat(prompt)
+    PWD = os.path.join(".", cache_dir) + "/"
+    
+    # If dir doesn't exist, create it
+    if not os.path.exists(PWD):
+        os.mkdir(cache_dir)
 
     # Generate synthetic data
     synthetic_data = generate_synthetic_data(
@@ -311,16 +322,27 @@ def summarization_opro(prompt, TRAINING_SAMPLE_SIZE=10, TESTING_SAMPLE_SIZE=30):
 
     # OPRO
     opro_results = opro(CHOSEN_PROMPT, training_sample)
-    best_prompt = max(opro_results[str(len(opro_results))], key=opro_results[str(len(opro_results))].get)
+    best_prompt = max(opro_results[str(len(opro_results)-1)], key=opro_results[str(len(opro_results)-1)].get)
 
     # Comparing the initial prompt with the optimized prompt
-    print(f"Initial Prompt: {score([CHOSEN_PROMPT], testing_sample)}")
-    print(f"Optimized Prompt: {score([best_prompt], testing_sample)}")
-
-    return best_prompt
+    result = {
+        "initial_prompt": score([CHOSEN_PROMPT], testing_sample),
+        "optimized_prompt": score([best_prompt], testing_sample),
+    }
+    return result
 
 
 if __name__ == "__main__":
+    # Training Scores are stored in directories corresponding to the prompt ID
+    # Testing Scores are stored in a single file called testingSetScores.json
+    TESTING_SCORES_PATH = f"testingSetScores.json"
+    if os.path.exists(TESTING_SCORES_PATH):
+        with open(TESTING_SCORES_PATH, "r") as f:
+            testing_scores = json.load(f)
+    else:
+        testing_scores = {}
+    
+
     CHOSEN_PROMPT = "Please summarize the following text: PLACEHOLDER"  # somewhere in promptset. Will find idx later
     print(f"Results: \n{summarization_opro(CHOSEN_PROMPT)}")
 
