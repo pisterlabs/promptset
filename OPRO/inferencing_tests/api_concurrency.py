@@ -62,7 +62,7 @@ if __name__ == "__main__":
             max_tokens=100,
             temperature=0.0,
         )
-        chat_completion.choices[0].message.content
+        # print(chat_completion.choices[0].message.content)
     end = time.time()
     print("Time taken for synchronous requests:", end - start)
 

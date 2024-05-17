@@ -142,7 +142,7 @@ def generate_synthetic_data(CHOSEN_PROMPT, sample_size=40):
     if os.path.exists(SYNTHETIC_DATA_FILEPATH_ASYNC):
         # Reading saved data
         with open(SYNTHETIC_DATA_FILEPATH_ASYNC, "r") as f:
-            text_summary_pairs = json.load(f.read())
+            text_summary_pairs = json.load(f)
         return text_summary_pairs
 
     def generate_synthetic_datapoint(request_count):
@@ -173,9 +173,9 @@ def generate_synthetic_data(CHOSEN_PROMPT, sample_size=40):
     # Generating synthetic data
     text_summary_pairs = generate_synthetic_datapoint(sample_size)
 
-    # Saving to file
+    # Saving to file as json
     with open(SYNTHETIC_DATA_FILEPATH_ASYNC, "w") as f:
-        f.write(str(text_summary_pairs))
+        json.dump(text_summary_pairs, f)
 
     return text_summary_pairs
 
@@ -330,20 +330,3 @@ def summarization_opro(prompt, cache_dir="0", TRAINING_SAMPLE_SIZE=10, TESTING_S
         "optimized_prompt": score([best_prompt], testing_sample),
     }
     return result
-
-
-if __name__ == "__main__":
-    # Training Scores are stored in directories corresponding to the prompt ID
-    # Testing Scores are stored in a single file called testingSetScores.json
-    TESTING_SCORES_PATH = f"testingSetScores.json"
-    if os.path.exists(TESTING_SCORES_PATH):
-        with open(TESTING_SCORES_PATH, "r") as f:
-            testing_scores = json.load(f)
-    else:
-        testing_scores = {}
-    
-
-    CHOSEN_PROMPT = "Please summarize the following text: PLACEHOLDER"  # somewhere in promptset. Will find idx later
-    print(f"Results: \n{summarization_opro(CHOSEN_PROMPT)}")
-
-    

@@ -1,38 +1,46 @@
-from openai import AsyncOpenAI, OpenAI
+from openai import AsyncOpenAI, APIConnectionError
 import asyncio
 import time
 import os, dotenv
 dotenv.load_dotenv()
 
-MODEL_ID = "meta-llama/Meta-Llama-3-8B-Instruct"
+MODEL_TO_MODELID = {
+    "llama3-8b": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "llama-3-7b": "meta-llama/Meta-Llama-3-70B-Instruct",
+}
 client = AsyncOpenAI(
     api_key=os.getenv("DEEP_INFRA_API"),
     base_url="https://api.deepinfra.com/v1/openai",
 )
 
-async def llm_coroutine(prompt, temperature):
-    chat_completion = await client.chat.completions.create(
-        model=MODEL_ID,
-        messages=[
-            {
-                "role": "user",
-                "content": prompt,
-            },
-        ],
-        max_tokens=2048,
-        temperature=temperature,
-    )
+async def llm_coroutine(prompt, temperature, model):
+    while True:
+        try:
+            chat_completion = await client.chat.completions.create(
+                model=MODEL_TO_MODELID[model],
+                messages=[
+                    {
+                        "role": "user",
+                        "content": prompt,
+                    },
+                ],
+                max_tokens=2048,
+                temperature=temperature,
+            )
+            break
+        except APIConnectionError as e:
+            print(f"API Connection Error: {e}. Retrying...")
     return chat_completion.choices[0].message.content
 
 
-async def run_llm_coroutine(prompts, temperature):
-    batch = asyncio.gather(*(llm_coroutine(prompt, temperature) for prompt in prompts))
+async def run_llm_coroutine(prompts, temperature, model):
+    batch = asyncio.gather(*(llm_coroutine(prompt, temperature, model) for prompt in prompts))
     responses = await batch
     return responses
 
-def run_llm(prompts, temperature=0.0):
+def run_llm(prompts, temperature=0.0, model="llama3-8b"):
     """
     Run the LLM model with the given prompts and temperature. 
     Input: List of prompts, temperature. Output: List of responses.
     """
-    return asyncio.run(run_llm_coroutine(prompts, temperature), debug=True)
+    return asyncio.run(run_llm_coroutine(prompts, temperature, model))

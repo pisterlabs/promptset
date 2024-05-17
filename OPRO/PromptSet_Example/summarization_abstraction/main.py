@@ -4,7 +4,7 @@ from summarization_async import summarization_opro
 # PROMPTS THAT ARE SCORED
 PROMPT_LIST = [
     "Please summarize the following text: PLACEHOLDER",
-    
+    "You are an onboarding chatboat that's very friendly and methodical. You read PLACEHOLDER and summarise the current project"
 ]
 
 if __name__ == '__main__':
