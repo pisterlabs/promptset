@@ -1,11 +1,10 @@
 import os, json
-from summarization_async import summarization_opro
+from errorCorrection_async import errorCorrection_opro
 import asyncio
 
 # PROMPTS THAT ARE SCORED
 PROMPT_LIST = [
-    "Please summarize the following text: PLACEHOLDER",
-    "You are an onboarding chatboat that's very friendly and methodical. You read PLACEHOLDER and summarise the current project"
+    'Please properly punctuate the given text (without omitting a single word) and output only the resulting punctuated text. Please do not omit a single word from the original text. {TEXT}'
 ]
 
 if __name__ == '__main__':
@@ -23,7 +22,7 @@ if __name__ == '__main__':
             ID = len(prompt_testing_scores)
             prompt_testing_scores[prompt] = {
                 "ID": ID,
-                **asyncio.run(summarization_opro(prompt, str(ID)))
+                **asyncio.run(errorCorrection_opro(prompt, str(ID)))
             }
 
         # Save Prompt Scores

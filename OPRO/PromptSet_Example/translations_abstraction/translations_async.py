@@ -1,9 +1,8 @@
-from datasets import load_dataset, Dataset
 import sys, os, json, re
 from nltk.translate.bleu_score import sentence_bleu
 import pandas as pd
 from tqdm.auto import tqdm, trange
-from rouge import Rouge
+import torch
 from llm_async import run_llm_coroutine
 
 INTERPOLATE_VAR = "{TEXT}"
@@ -56,7 +55,7 @@ Follow these tasks step-by-step:
 
 Step 1: Read the entire list of 26 prompt principles. Analyze and explain each one of those 26 prompting principles.
 
-Step 2: Create a prompt using those 26 prompting principles for the following prompt that's delimited by "####". Like the following prompt, make sure the new prompt contains exactly one interpolable variable "{INTERPOLATE_VAR}".
+Step 2: Create a prompt using those 26 prompting principles for the following prompt that's delimited by "####". Like the following prompt, make sure the new prompt contains exactly one interpolable variable, "{INTERPOLATE_VAR}".
 
 ####
 {CHOSEN_PROMPT}
@@ -71,7 +70,9 @@ Example JSON object:
 }}
 
 Take a deep breath and work on this problem step-by-step. Return only the JSON object with the keys "step1" and "step2", and nothing else. Nothing but JSON."""
-    has_correct_keywords = lambda prompt: re.findall(r"{(.*?)}", prompt) == [INTERPOLATE_VAR[1:-1]]
+    def has_correct_keywords(s):
+        extract_keys = lambda x: re.findall(r'{(.*?)}', x)
+        return extract_keys(s) == [INTERPOLATE_VAR[1:-1]]
     new_prompts = [CHOSEN_PROMPT]  # The SEED PROMPTS INCLUDES THE CHOSEN PROMPT
     pbar = tqdm(total=request_count, desc="Generating Seed Prompts")
     while len(new_prompts) < request_count:
@@ -83,23 +84,11 @@ Take a deep breath and work on this problem step-by-step. Return only the JSON o
                 new_prompts.append(new_prompt)
                 pbar.update(1)
             except Exception as e:
-                # print(e)
+                print(e)
+                print(res)
                 continue
     pbar.close()
     return new_prompts[:request_count]
-
-
-# Rouge for Scoring Prompt Summarization
-rouge = Rouge()
-
-
-def score_rouge(generated_text, reference_text):
-    # Compute the scores
-    scores = rouge.get_scores(generated_text, reference_text)[0]
-    total_score = 0
-    for r in scores:
-        total_score += scores[r]["f"]
-    return total_score / 3
 
 
 def check_and_reformat(prompt):
@@ -131,26 +120,32 @@ async def generate_synthetic_data(CHOSEN_PROMPT, sample_size=40):
     if os.path.exists(SYNTHETIC_DATA_FILEPATH_ASYNC):
         # Reading saved data
         with open(SYNTHETIC_DATA_FILEPATH_ASYNC, "r") as f:
-            text_summary_pairs = json.load(f)
-        return text_summary_pairs
+            text = json.load(f)
+        return text
 
     async def generate_synthetic_datapoint(request_count):
-        SYNTH_DATA_GEN_PROMPT = f"""You are a helpful assistant designed to generate synthetic text-summary pairs for the prompt: {CHOSEN_PROMPT}.
+        SYNTH_DATA_GEN_PROMPT = f"""You are a helpful assistant designed to generate synthetic translations data for the prompt: {CHOSEN_PROMPT}.
 
-    Please generate synthetic data for the summarization prompt. Response with a JSON object with "text" and "summary" keys. The values must both be string values.
+Please generate a text and translation pair that is similar to the following as a JSON object:
 
-    Take a deep breath and think step-by-step. Respond with only the JSON object!
-    """
+{{
+    "text": \"\"\"Hola, cómo estás?\"\"\"
+    "translation": \"\"\"Hi, how are you?\"\"\",
+}}
+
+Make sure the questions and answers are string values.
+Take a deep breath and think step-by-step. Respond with only the JSON object! Ntohing but JSON.
+"""
         data_pairs = []
 
         pbar = tqdm(total=request_count)
         while len(data_pairs) < request_count:
-            response = await run_llm_coroutine([SYNTH_DATA_GEN_PROMPT for _ in range(request_count)], temperature=1.0)
+            response = await run_llm_coroutine([SYNTH_DATA_GEN_PROMPT for _ in range(request_count)], temperature=1.0, model="llama3-70b")
             for res in response:
                 try:
                     # Checking if the response is valid
                     data = json.loads(res)
-                    data["text"], data["summary"]
+                    data["text"], data["translation"]
                     data_pairs.append(data)
                     pbar.update(1)
                 except Exception as e:
@@ -160,19 +155,21 @@ async def generate_synthetic_data(CHOSEN_PROMPT, sample_size=40):
         return data_pairs[:request_count]
 
     # Generating synthetic data
-    text_summary_pairs = await generate_synthetic_datapoint(sample_size)
+    text = await generate_synthetic_datapoint(sample_size)
 
     # Saving to file as json
     with open(SYNTHETIC_DATA_FILEPATH_ASYNC, "w") as f:
-        json.dump(text_summary_pairs, f)
+        json.dump(text, f)
 
-    return text_summary_pairs
+    return text
 
 
 # Scoring the instruction using the sample
 # Scoring the instruction using the sample
 async def opt_llm(prompt_score_pairs, request_count=8):
-    has_correct_keywords = lambda prompt: re.findall(r"{(.*?)}", prompt) == [INTERPOLATE_VAR[1:-1]]
+    def has_correct_keywords(s):
+        extract_keys = lambda x: re.findall(r'{(.*?)}', x)
+        return extract_keys(s) == [INTERPOLATE_VAR[1:-1]]
     # Format the instruction and score pairs into a string
     pairs_str = ""
     for ins, score in prompt_score_pairs.items():
@@ -188,7 +185,7 @@ based on their scores, where higher scores indicate better quality.
 {pairs_str}
 
 Write your new text that is different from the old ones and has a score as high as possible. Ensure that the generated 
-instruction has "{INTERPOLATE_VAR}" so the user can replace that with the text to be summarized. Think step by step. 
+instruction has "{INTERPOLATE_VAR}" so the user can replace it with the text to be translated. Think step by step. 
 Generate only the text. Do not include the scores. Response in JSON format where the keys are "prompt" with a string 
 value of the new instruction that has a score as high as possible, and another key "explanation" with a string value 
 explaining why the instruction will score high. Think step by step. Nothing but JSON. Ensure it's properly formatted.
@@ -221,14 +218,19 @@ async def score(prompts, testing_sample):
     Returns:
     accuracy: float
     """
+    bleu_score = lambda expected, actual: sentence_bleu(
+        [expected.split()], actual.split(), 
+        weights=[1],
+    )
+
     prompt_score_pairs = {}
     for prompt in tqdm(prompts, desc="Scoring"):
         accuracy = 0
         prompt_interpolated = [prompt.format(TEXT=data_pair["text"]) for data_pair in testing_sample]
-        summaries_generated = await run_llm_coroutine(prompt_interpolated, temperature=0.0)
-        assert len(summaries_generated) == len(testing_sample)
-        for i in range(len(summaries_generated)):
-            accuracy += score_rouge(summaries_generated[i], testing_sample[i]["summary"])
+        generated_translation = await run_llm_coroutine(prompt_interpolated, temperature=0.0)
+        assert len(generated_translation) == len(testing_sample)
+        for i in range(len(generated_translation)):
+            accuracy += bleu_score(testing_sample[i]["translation"], generated_translation[i])
         prompt_score_pairs[prompt] = accuracy / len(testing_sample) * 100
 
     return prompt_score_pairs
@@ -290,7 +292,7 @@ async def opro(CHOSEN_PROMPT, training_sample):
     return results
 
 # OPRO for summarization prompts
-async def summarization_opro(prompt, cache_dir="0", TRAINING_SAMPLE_SIZE=10, TESTING_SAMPLE_SIZE=30):
+async def translation_opro(prompt, cache_dir="0", TRAINING_SAMPLE_SIZE=10, TESTING_SAMPLE_SIZE=30):
     global PWD, CHOSEN_PROMPT
     CHOSEN_PROMPT = check_and_reformat(prompt)
     PWD = os.path.join(".", cache_dir) + "/"

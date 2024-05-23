@@ -1,11 +1,10 @@
 import os, json
-from summarization_async import summarization_opro
+from translations_async import translation_opro
 import asyncio
 
 # PROMPTS THAT ARE SCORED
 PROMPT_LIST = [
-    "Please summarize the following text: PLACEHOLDER",
-    "You are an onboarding chatboat that's very friendly and methodical. You read PLACEHOLDER and summarise the current project"
+    'Please help me to translate the following text. Please return only translated content not include the origin text. Here is the text: \n\n{TEXT}'
 ]
 
 if __name__ == '__main__':
@@ -23,7 +22,7 @@ if __name__ == '__main__':
             ID = len(prompt_testing_scores)
             prompt_testing_scores[prompt] = {
                 "ID": ID,
-                **asyncio.run(summarization_opro(prompt, str(ID)))
+                **asyncio.run(translation_opro(prompt, str(ID)))
             }
 
         # Save Prompt Scores

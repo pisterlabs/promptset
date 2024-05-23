@@ -1,10 +1,18 @@
-from datasets import load_dataset, Dataset
 import sys, os, json, re
-from nltk.translate.bleu_score import sentence_bleu
+from nltk.translate import gleu_score
 import pandas as pd
 from tqdm.auto import tqdm, trange
-from rouge import Rouge
+from gramformer import Gramformer
+import torch
 from llm_async import run_llm_coroutine
+
+def set_seed(seed):
+  torch.manual_seed(seed)
+  if torch.cuda.is_available():
+    torch.cuda.manual_seed_all(seed)
+
+set_seed(1212)
+gf = Gramformer(models = 1, use_gpu=True)
 
 INTERPOLATE_VAR = "{TEXT}"
 PWD = "./"
@@ -89,19 +97,6 @@ Take a deep breath and work on this problem step-by-step. Return only the JSON o
     return new_prompts[:request_count]
 
 
-# Rouge for Scoring Prompt Summarization
-rouge = Rouge()
-
-
-def score_rouge(generated_text, reference_text):
-    # Compute the scores
-    scores = rouge.get_scores(generated_text, reference_text)[0]
-    total_score = 0
-    for r in scores:
-        total_score += scores[r]["f"]
-    return total_score / 3
-
-
 def check_and_reformat(prompt):
     """
     Checks if prompt is valid. If prompt is valid, returns a slightly modified prompt that can be evaluated and optimized.
@@ -131,16 +126,20 @@ async def generate_synthetic_data(CHOSEN_PROMPT, sample_size=40):
     if os.path.exists(SYNTHETIC_DATA_FILEPATH_ASYNC):
         # Reading saved data
         with open(SYNTHETIC_DATA_FILEPATH_ASYNC, "r") as f:
-            text_summary_pairs = json.load(f)
-        return text_summary_pairs
+            text = json.load(f)
+        return text
 
     async def generate_synthetic_datapoint(request_count):
-        SYNTH_DATA_GEN_PROMPT = f"""You are a helpful assistant designed to generate synthetic text-summary pairs for the prompt: {CHOSEN_PROMPT}.
+        SYNTH_DATA_GEN_PROMPT = f"""You are a helpful assistant designed to generate synthetic text with grammatical error for the prompt: {CHOSEN_PROMPT}.
 
-    Please generate synthetic data for the summarization prompt. Response with a JSON object with "text" and "summary" keys. The values must both be string values.
+Please generate a text with grammatical errors as a JSON object, like the following:
 
-    Take a deep breath and think step-by-step. Respond with only the JSON object!
-    """
+{{
+    "text": \"\"\"I is testng grammar tool using python. It does: not costt anythng. What is your name.\"\"\",
+}}
+
+Take a deep breath and think step-by-step. Respond with only the JSON object!
+"""
         data_pairs = []
 
         pbar = tqdm(total=request_count)
@@ -150,7 +149,7 @@ async def generate_synthetic_data(CHOSEN_PROMPT, sample_size=40):
                 try:
                     # Checking if the response is valid
                     data = json.loads(res)
-                    data["text"], data["summary"]
+                    data["correction"] = list(gf.correct(data["text"], max_candidates=1))[0]
                     data_pairs.append(data)
                     pbar.update(1)
                 except Exception as e:
@@ -160,13 +159,13 @@ async def generate_synthetic_data(CHOSEN_PROMPT, sample_size=40):
         return data_pairs[:request_count]
 
     # Generating synthetic data
-    text_summary_pairs = await generate_synthetic_datapoint(sample_size)
+    text = await generate_synthetic_datapoint(sample_size)
 
     # Saving to file as json
     with open(SYNTHETIC_DATA_FILEPATH_ASYNC, "w") as f:
-        json.dump(text_summary_pairs, f)
+        json.dump(text, f)
 
-    return text_summary_pairs
+    return text
 
 
 # Scoring the instruction using the sample
@@ -225,10 +224,10 @@ async def score(prompts, testing_sample):
     for prompt in tqdm(prompts, desc="Scoring"):
         accuracy = 0
         prompt_interpolated = [prompt.format(TEXT=data_pair["text"]) for data_pair in testing_sample]
-        summaries_generated = await run_llm_coroutine(prompt_interpolated, temperature=0.0)
-        assert len(summaries_generated) == len(testing_sample)
-        for i in range(len(summaries_generated)):
-            accuracy += score_rouge(summaries_generated[i], testing_sample[i]["summary"])
+        generated_correction = await run_llm_coroutine(prompt_interpolated, temperature=0.0)
+        assert len(generated_correction) == len(testing_sample)
+        for i in range(len(generated_correction)):
+            accuracy += gleu_score.sentence_gleu([generated_correction[i]], testing_sample[i]["correction"])
         prompt_score_pairs[prompt] = accuracy / len(testing_sample) * 100
 
     return prompt_score_pairs
@@ -290,7 +289,7 @@ async def opro(CHOSEN_PROMPT, training_sample):
     return results
 
 # OPRO for summarization prompts
-async def summarization_opro(prompt, cache_dir="0", TRAINING_SAMPLE_SIZE=10, TESTING_SAMPLE_SIZE=30):
+async def errorCorrection_opro(prompt, cache_dir="0", TRAINING_SAMPLE_SIZE=10, TESTING_SAMPLE_SIZE=30):
     global PWD, CHOSEN_PROMPT
     CHOSEN_PROMPT = check_and_reformat(prompt)
     PWD = os.path.join(".", cache_dir) + "/"

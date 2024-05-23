@@ -70,7 +70,7 @@ Take a deep breath and work on this problem step-by-step."""
 
 # prompt = "Please help me to translate the following text to {LANGUAGE}. Please return only translated content not include the origin text. Here is the text: \n\n{TEXT}"
 # prompt = "Please summarize the following text: {TEXT}"
-prompt = prompt = """You are an optimization expert. The user has some texts along with their corresponding scores.
+prompt = """You are an optimization expert. The user has some texts along with their corresponding scores.
 Your task is to generate a new piece of text that scores as high as possible. 
 Generate the new unique text only, not its corresponding score.
 
