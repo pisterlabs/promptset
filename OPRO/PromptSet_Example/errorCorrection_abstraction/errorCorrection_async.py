@@ -3,6 +3,7 @@ from nltk.translate import gleu_score
 import pandas as pd
 from tqdm.auto import tqdm, trange
 from gramformer import Gramformer
+from fastpunct import FastPunct
 import torch
 from llm_async import run_llm_coroutine
 
@@ -11,8 +12,9 @@ def set_seed(seed):
   if torch.cuda.is_available():
     torch.cuda.manual_seed_all(seed)
 
-set_seed(1212)
+set_seed(42)
 gf = Gramformer(models = 1, use_gpu=True)
+fastpunct = FastPunct()
 
 INTERPOLATE_VAR = "{TEXT}"
 PWD = "./"
@@ -82,6 +84,7 @@ Take a deep breath and work on this problem step-by-step. Return only the JSON o
     has_correct_keywords = lambda prompt: re.findall(r"{(.*?)}", prompt) == [INTERPOLATE_VAR[1:-1]]
     new_prompts = [CHOSEN_PROMPT]  # The SEED PROMPTS INCLUDES THE CHOSEN PROMPT
     pbar = tqdm(total=request_count, desc="Generating Seed Prompts")
+    pbar.update(1)  # Update the progress bar for the chosen prompt
     while len(new_prompts) < request_count:
         responses = await run_llm_coroutine([prompt for _ in range(request_count)], temperature=1.0, model="llama3-70b")
         for res in responses:
@@ -138,18 +141,24 @@ Please generate a text with grammatical errors as a JSON object, like the follow
     "text": \"\"\"I is testng grammar tool using python. It does: not costt anythng. What is your name.\"\"\",
 }}
 
-Take a deep breath and think step-by-step. Respond with only the JSON object!
+Generate erroneous text that is different from the example.
+Take a deep breath and think step-by-step. Respond with only the JSON object! Nothing but JSON.
 """
         data_pairs = []
+        unique_data = set()
 
-        pbar = tqdm(total=request_count)
+        pbar = tqdm(total=request_count, desc="Generating Synthetic Data")
         while len(data_pairs) < request_count:
-            response = await run_llm_coroutine([SYNTH_DATA_GEN_PROMPT for _ in range(request_count)], temperature=1.0)
+            response = await run_llm_coroutine([SYNTH_DATA_GEN_PROMPT for _ in range(request_count)], temperature=1.0, model="llama3-70b")
             for res in response:
                 try:
                     # Checking if the response is valid
                     data = json.loads(res)
                     data["correction"] = list(gf.correct(data["text"], max_candidates=1))[0]
+                    data["correction"] = fastpunct.punct([data["correction"]], correct=True)[0]
+                    assert data["text"] not in unique_data and data["correction"] not in unique_data
+                    unique_data.add(data["text"])
+                    unique_data.add(data["correction"])
                     data_pairs.append(data)
                     pbar.update(1)
                 except Exception as e:
@@ -232,12 +241,10 @@ async def score(prompts, testing_sample):
 
     return prompt_score_pairs
 
-async def opro(CHOSEN_PROMPT, training_sample):
-    INS_PER_STEP = 5
-    MAX_PROMPT_SCORE_PAIRS = 20  # Keep the best 20 prompts at any time
+async def opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=8, PROMPTS_PER_STEP=5, MAX_PROMPT_SCORE_PAIRS=20):
+    # NOTE: MAX_PROMPT_SCORE_PAIRS  Keep the best 20 prompts at any time
     SAVE_PATH_ASYNC = f"{PWD}training_results.json"
-    STEP_COUNT = 15
-    SEED_PROMPTS = await get_seed_prompts(CHOSEN_PROMPT, request_count=INS_PER_STEP)
+    SEED_PROMPTS = await get_seed_prompts(CHOSEN_PROMPT, request_count=PROMPTS_PER_STEP)
     SEED_PROMPTS = [check_and_reformat(prompt) for prompt in SEED_PROMPTS]
 
     # loading saved data
@@ -264,7 +271,7 @@ async def opro(CHOSEN_PROMPT, training_sample):
         while True:
             try:
                 # Optimizer LLM
-                instructions = await opt_llm(prompt_score_pairs, request_count=INS_PER_STEP)
+                instructions = await opt_llm(prompt_score_pairs, request_count=PROMPTS_PER_STEP)
 
                 # Scoring the new instructions
                 new_ins_score_pairs = await score(instructions, training_sample)
@@ -280,6 +287,12 @@ async def opro(CHOSEN_PROMPT, training_sample):
                 with open(SAVE_PATH_ASYNC, "w") as f:
                     json.dump(results, f)
 
+                # Printing the best prompt
+                print(f"Step {i} completed.")
+                print(f"Current Best score: {max(prompt_score_pairs.values())}")
+                print(f"Current Best prompt: {max(prompt_score_pairs, key=prompt_score_pairs.get)}")
+                print("\n")
+
                 break
             except ValueError as e:
                 print(e)
@@ -289,7 +302,7 @@ async def opro(CHOSEN_PROMPT, training_sample):
     return results
 
 # OPRO for summarization prompts
-async def errorCorrection_opro(prompt, cache_dir="0", TRAINING_SAMPLE_SIZE=10, TESTING_SAMPLE_SIZE=30):
+async def errorCorrection_opro(prompt, cache_dir="0", TRAINING_SAMPLE_SIZE=10, TESTING_SAMPLE_SIZE=30, PROMPTS_PER_STEP=8, STEP_COUNT=5, MAX_PROMPT_SCORE_PAIRS=20):
     global PWD, CHOSEN_PROMPT
     CHOSEN_PROMPT = check_and_reformat(prompt)
     PWD = os.path.join(".", cache_dir) + "/"
@@ -310,12 +323,18 @@ async def errorCorrection_opro(prompt, cache_dir="0", TRAINING_SAMPLE_SIZE=10, T
     ]
 
     # OPRO
-    opro_results = await opro(CHOSEN_PROMPT, training_sample)
+    opro_results = await opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=STEP_COUNT, PROMPTS_PER_STEP=PROMPTS_PER_STEP, MAX_PROMPT_SCORE_PAIRS=MAX_PROMPT_SCORE_PAIRS)
     best_prompt = max(opro_results[str(len(opro_results)-1)], key=opro_results[str(len(opro_results)-1)].get)
 
     # Comparing the initial prompt with the optimized prompt
+    print("Calculating Test Scores...")
     result = {
         "initial_prompt": await score([CHOSEN_PROMPT], testing_sample),
         "optimized_prompt": await score([best_prompt], testing_sample),
     }
+
+    # Printing Test Scores
+    print("Printing Test Scores:")
+    print(f"Initial Prompt Score: {result['initial_prompt']}")
+    print(f"Optimized Prompt Score: {result['optimized_prompt']}")
     return result

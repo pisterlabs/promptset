@@ -23,7 +23,7 @@ if __name__ == '__main__':
             ID = len(prompt_testing_scores)
             prompt_testing_scores[prompt] = {
                 "ID": ID,
-                **asyncio.run(summarization_opro(prompt, str(ID)))
+                **asyncio.run(summarization_opro(prompt, str(ID), TRAINING_SAMPLE_SIZE=10, TESTING_SAMPLE_SIZE=30, STEP_COUNT=6, PROMPTS_PER_STEP=5))
             }
 
         # Save Prompt Scores
