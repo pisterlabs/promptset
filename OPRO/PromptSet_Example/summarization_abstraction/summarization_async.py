@@ -74,6 +74,7 @@ Take a deep breath and work on this problem step-by-step. Return only the JSON o
     has_correct_keywords = lambda prompt: re.findall(r"{(.*?)}", prompt) == [INTERPOLATE_VAR[1:-1]]
     new_prompts = [CHOSEN_PROMPT]  # The SEED PROMPTS INCLUDES THE CHOSEN PROMPT
     pbar = tqdm(total=request_count, desc="Generating Seed Prompts")
+    pbar.update(1)  # Update the progress bar for the chosen prompt
     while len(new_prompts) < request_count:
         responses = await run_llm_coroutine([prompt for _ in range(request_count)], temperature=1.0, model="llama3-70b")
         for res in responses:
@@ -237,8 +238,8 @@ async def score(prompts, testing_sample):
 
     return prompt_score_pairs
 
-async def opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=6, PROMPTS_PER_STEP=5):
-    MAX_PROMPT_SCORE_PAIRS = 20  # Keep the best 20 prompts at any time
+async def opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=6, PROMPTS_PER_STEP=5, MAX_PROMPT_SCORE_PAIRS=20):
+    # NOTE: MAX_PROMPT_SCORE_PAIRS  Keep the best 20 prompts at any time
     SAVE_PATH_ASYNC = f"{PWD}training_results.json"
     SEED_PROMPTS = await get_seed_prompts(CHOSEN_PROMPT, request_count=PROMPTS_PER_STEP)
     SEED_PROMPTS = [check_and_reformat(prompt) for prompt in SEED_PROMPTS]
@@ -283,8 +284,11 @@ async def opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=6, PROMPTS_PER_STEP=5)
                 with open(SAVE_PATH_ASYNC, "w") as f:
                     json.dump(results, f)
 
+                # Printing the best prompt
                 print(f"Step {i} completed.")
+                print(f"Current Best score: {max(prompt_score_pairs.values())}")
                 print(f"Current Best prompt: {max(prompt_score_pairs, key=prompt_score_pairs.get)}")
+                print("\n")
 
                 break
             except ValueError as e:
@@ -295,7 +299,7 @@ async def opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=6, PROMPTS_PER_STEP=5)
     return results
 
 # OPRO for summarization prompts
-async def summarization_opro(prompt, cache_dir="0", TRAINING_SAMPLE_SIZE=10, TESTING_SAMPLE_SIZE=30, PROMPTS_PER_STEP=5, STEP_COUNT=6):
+async def summarization_opro(prompt, cache_dir="0", TRAINING_SAMPLE_SIZE=10, TESTING_SAMPLE_SIZE=30, PROMPTS_PER_STEP=5, STEP_COUNT=5, MAX_PROMPT_SCORE_PAIRS=20):
     global PWD, CHOSEN_PROMPT
     CHOSEN_PROMPT = check_and_reformat(prompt)
     PWD = os.path.join(".", cache_dir) + "/"
@@ -316,7 +320,7 @@ async def summarization_opro(prompt, cache_dir="0", TRAINING_SAMPLE_SIZE=10, TES
     ]
 
     # OPRO
-    opro_results = await opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=STEP_COUNT, PROMPTS_PER_STEP=PROMPTS_PER_STEP)
+    opro_results = await opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=STEP_COUNT, PROMPTS_PER_STEP=PROMPTS_PER_STEP, MAX_PROMPT_SCORE_PAIRS=MAX_PROMPT_SCORE_PAIRS)
     best_prompt = max(opro_results[str(len(opro_results)-1)], key=opro_results[str(len(opro_results)-1)].get)
 
     # Comparing the initial prompt with the optimized prompt
@@ -324,4 +328,10 @@ async def summarization_opro(prompt, cache_dir="0", TRAINING_SAMPLE_SIZE=10, TES
         "initial_prompt": await score([CHOSEN_PROMPT], testing_sample),
         "optimized_prompt": await score([best_prompt], testing_sample),
     }
+
+    # Printing Test Scores
+    print("Printing Test Scores:")
+    print(f"Initial Prompt Score: {result['initial_prompt']}")
+    print(f"Optimized Prompt Score: {result['optimized_prompt']}")
+
     return result

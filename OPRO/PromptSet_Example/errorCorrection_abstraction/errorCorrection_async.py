@@ -196,7 +196,7 @@ based on their scores, where higher scores indicate better quality.
 {pairs_str}
 
 Write your new text that is different from the old ones and has a score as high as possible. Ensure that the generated 
-instruction has "{INTERPOLATE_VAR}" so the user can replace that with the text to be summarized. Think step by step. 
+instruction has "{INTERPOLATE_VAR}" so the user can replace that with the text to be corrected. Think step by step. 
 Generate only the text. Do not include the scores. Response in JSON format where the keys are "prompt" with a string 
 value of the new instruction that has a score as high as possible, and another key "explanation" with a string value 
 explaining why the instruction will score high. Think step by step. Nothing but JSON. Ensure it's properly formatted.
