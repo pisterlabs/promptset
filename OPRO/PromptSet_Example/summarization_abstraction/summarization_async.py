@@ -4,6 +4,7 @@ from nltk.translate.bleu_score import sentence_bleu
 import pandas as pd
 from tqdm.auto import tqdm, trange
 from rouge import Rouge
+from sentence_transformers import SentenceTransformer, util
 from llm_async import run_llm_coroutine
 
 INTERPOLATE_VAR = "{TEXT}"
@@ -85,6 +86,7 @@ Take a deep breath and work on this problem step-by-step. Return only the JSON o
                 pbar.update(1)
             except Exception as e:
                 # print(e)
+                # print(res)
                 continue
     pbar.close()
     return new_prompts[:request_count]
@@ -101,6 +103,14 @@ def score_rouge(generated_text, reference_text):
     for r in scores:
         total_score += scores[r]["f"]
     return total_score / 3
+
+# def score_sim(generated_text, reference_text):
+
+#     model = SentenceTransformer("stsb-roberta-large")
+#     embeddings1 = model.encode(generated_text, convert_to_tensor=True)
+#     embeddings2 = model.encode(reference_text, convert_to_tensor=True)
+#     cosine_scores = util.pytorch_cos_sim(embeddings1, embeddings2)
+#     return cosine_scores.item()
 
 
 def check_and_reformat(prompt):
@@ -210,6 +220,7 @@ explaining why the instruction will score high. Think step by step. Nothing but 
                 pbar.update(1)
             except Exception as e:
                 # print(e)
+                # print(res)
                 continue
     pbar.close()
     return new_prompts[:request_count]
@@ -234,6 +245,7 @@ async def score(prompts, testing_sample):
         assert len(summaries_generated) == len(testing_sample)
         for i in range(len(summaries_generated)):
             accuracy += score_rouge(summaries_generated[i], testing_sample[i]["summary"])
+            # accuracy += score_sim(summaries_generated[i], testing_sample[i]["summary"])
         prompt_score_pairs[prompt] = accuracy / len(testing_sample) * 100
 
     return prompt_score_pairs

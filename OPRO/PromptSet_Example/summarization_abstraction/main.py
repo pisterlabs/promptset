@@ -4,8 +4,8 @@ import asyncio
 
 # PROMPTS THAT ARE SCORED
 PROMPT_LIST = [
-    "Please summarize the following text: PLACEHOLDER",
     "You are an onboarding chatboat that's very friendly and methodical. You read PLACEHOLDER and summarise the current project"
+    # "Please summarize the following text: PLACEHOLDER",
 ]
 
 if __name__ == '__main__':
@@ -23,7 +23,7 @@ if __name__ == '__main__':
             ID = len(prompt_testing_scores)
             prompt_testing_scores[prompt] = {
                 "ID": ID,
-                **asyncio.run(summarization_opro(prompt, str(ID), TRAINING_SAMPLE_SIZE=10, TESTING_SAMPLE_SIZE=30, STEP_COUNT=5, PROMPTS_PER_STEP=5, MAX_PROMPT_SCORE_PAIRS=20))
+                **asyncio.run(summarization_opro(prompt, str(ID), TRAINING_SAMPLE_SIZE=10, TESTING_SAMPLE_SIZE=30, STEP_COUNT=10, PROMPTS_PER_STEP=15, MAX_PROMPT_SCORE_PAIRS=20))
             }
 
         # Save Prompt Scores
