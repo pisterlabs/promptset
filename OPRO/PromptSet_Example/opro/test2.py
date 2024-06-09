@@ -6,6 +6,10 @@ from tqdm import tqdm
 import os
 from sentence_transformers import SentenceTransformer, util
 import spacy
+import asyncio
+from bs4 import BeautifulSoup
+import matplotlib.pyplot as plt
+from playwright.async_api import async_playwright
 
 transformer_model = SentenceTransformer("all-mpnet-base-v2")  # Load transformer model
 def similarity(text1, text2):
@@ -37,6 +41,7 @@ def adaptive_chunking(text, min_length, max_length):
         chunks.append(' '.join(current_chunk))
     return chunks
 
+
 def mem_safe_adaptive_chunking(text, min_length, max_length):
     # NOTE: The parser and NER models require roughly 1GB of temporary memory per 100,000 characters in the input.
     CHUNK_SIZE = 100000
@@ -48,47 +53,51 @@ def mem_safe_adaptive_chunking(text, min_length, max_length):
     return adaptive_chunking_results
 
 
-
-
-def run(playwright, res):
-    browser = playwright.chromium.launch(headless=True)
-    page = browser.new_page()
-    all_text = ""
-    
-    for i in tqdm(range(len(res))):
-        try:
-            page.goto(res[i].url)
-            print(res[i])
+async def run(res):
+    # Use playwright async API
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(headless=False)
+        pages = [None] * len(res)
+        all_text = ""
         
+        for i in tqdm(range(len(res)), desc="Loading Pages"):
+            try:
+                print(res[i])
+                pages[i] = await browser.new_page()
+                await pages[i].goto(res[i].url)
+                print(res[i])
+            except PlaywrightError as e:
+                print(f"Failed to load page due to Playwright error: {e}. Skipping Page...")
+                pages[i] = None
+            except TimeoutError:
+                print("Failed to load page. Skipping Page...")
+                pages[i] = None
+            
+        
+        for i in tqdm(range(len(pages))):
+            if pages[i] is None:
+                continue
+            
             # Get the page content
-            html_content = page.content()
+            html_content = await pages[i].content()
             
             # Assuming you have BeautifulSoup installed
-            from bs4 import BeautifulSoup
             soup = BeautifulSoup(html_content, 'html.parser')
             
             # Extract all text
             text = soup.get_text()
-            # print(text)
-            # print("\n" + "#" * 100 + "\n")
             all_text += "\n" + text            
-        except PlaywrightError as e:
-            print(f"Failed to load page due to Playwright error: {e}. Skipping Page...")
-        except TimeoutError:
-            print("Failed to load page. Skipping Page...")
 
-    browser.close()
+        await browser.close()
     return all_text
 
 if __name__ == "__main__":
     # if all_text.txt exists, read it
     if not os.path.exists("all_text.txt"):
-        # Use playwright async API
-        with sync_playwright() as p:
-            res = list(search("Color of the apple fruit", advanced=True, num_results=20))
-            all_text = run(p, res)
-            with open("all_text.txt", "w") as f:
-                f.write(all_text)
+        res = list(search("Color of the apple fruit", advanced=True, num_results=20))
+        all_text = asyncio.run(run(res))
+        with open("all_text.txt", "w") as f:
+            f.write(all_text)
     with open("all_text.txt", "r") as f:
         all_text = f.read()
     print(len(all_text))
@@ -100,10 +109,11 @@ if __name__ == "__main__":
     for chunk in chunks:
         sim_scores.append(similarity(text, chunk))
         
-        
     # Plot the similarity scores
-    import matplotlib.pyplot as plt
-    plt.plot(sim_scores)
+    plt.hist(sim_scores, bins=20)
+    plt.xlabel("Similarity Score")
+    plt.ylabel("Frequency")
+    plt.title("Histogram of Similarity Scores")
     plt.show()
     
     

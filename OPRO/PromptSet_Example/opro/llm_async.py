@@ -4,6 +4,8 @@ import time
 import os, dotenv
 dotenv.load_dotenv()
 
+DEBUG = True
+
 MODEL_TO_MODELID = {
     "llama3-8b": "meta-llama/Meta-Llama-3-8B-Instruct",
     "llama3-70b": "meta-llama/Meta-Llama-3-70B-Instruct",
@@ -31,25 +33,50 @@ async def llm_coroutine(prompt, temperature, max_tokens, model, respond_json):
             break
         except APIConnectionError as e:
             print(f"API Connection Error: {e}. Retrying...")
-    return chat_completion.choices[0].message.content
+    
+    # DEBUG: Print token usage
+    usage = {"input": chat_completion.usage.prompt_tokens, "output": chat_completion.usage.completion_tokens, "cost_estimate": chat_completion.usage.estimated_cost}
+    if DEBUG:
+        # print(f"Input: {chat_completion.usage.prompt_tokens}; Output: {chat_completion.usage.completion_tokens}, Cost Estimate: {chat_completion.usage.estimated_cost}")
+        with open("log.txt", "a") as f:
+            f.write(f"$$$ Input: {chat_completion.usage.prompt_tokens}; Output: {chat_completion.usage.completion_tokens}, Cost Estimate: {chat_completion.usage.estimated_cost} $$$\n")
+
+    return chat_completion.choices[0].message.content, usage
 
 
-async def run_llm_coroutine(prompts, temperature=0.0, max_tokens=8192, model="llama3-8b", respond_json=False):
+async def run_llm_coroutine(prompts, temperature=0.0, max_tokens=8192, model="llama3-8b", respond_json=False, msg=None):
     """
     Run the LLM model with the given prompts and temperature. 
     Input: List of prompts, temperature. Output: List of responses.
     """
-    # # If any of the prompts is greater than 8192 tokens, pop it from the list and print a warning.
-    # for prompt in prompts:
-    #     if len(prompt) > 8192:
-    #         print(f"Prompt is too long: {prompt}")
-    #         prompts.remove(prompt)
     # Run the LLM model with the given prompts
+    if DEBUG:
+        # print(f"###### Model: {model} | Temperature: {temperature} | Max Tokens: {max_tokens} | Respond JSON: {respond_json} ######")
+        with open("log.txt", "a") as f:
+            f.write(f"###### Model: {model} | Temperature: {temperature} | Max Tokens: {max_tokens} | Respond JSON: {respond_json} ###### - Msg: {msg} \n")
+    
     batch = asyncio.gather(*(llm_coroutine(prompt, temperature, max_tokens, model, respond_json) for prompt in prompts))
     responses = await batch
     
-    # Log the responses
-    delimiter = "\n" + "$" * 100 + "\n"
-    with open("log.txt", "a") as f:
-        f.write(delimiter.join(responses))
-    return responses
+    output = [res for res, _ in responses]
+    
+    if DEBUG:
+        total_input = 0
+        total_output = 0
+        total_cost_estimate = 0
+        for _, usage in responses:
+            total_input += usage["input"]
+            total_output += usage["output"]
+            total_cost_estimate += usage["cost_estimate"]
+        # print(f"Total Input: {total_input}; Total Output: {total_output}; Total Cost Estimate: {total_cost_estimate}")
+        with open("log.txt", "a") as f:
+            f.write(f"Total Input: {total_input}; Total Output: {total_output}; Total Cost Estimate: {total_cost_estimate}\n")
+
+        
+    
+    
+    # # Log the responses
+    # delimiter = "\n" + "$" * 100 + "\n"
+    # with open("log.txt", "a") as f:
+    #     f.write(delimiter.join(responses))
+    return output

@@ -118,6 +118,9 @@ for p, p_score in prompt_scores.items():
         "optimized_prompt": optimized_prompt,
         "optimized_train_score": optimized_train_score,
         "optimized_test_score": optimized_test_score,
+        "test_score_diff": optimized_test_score - initial_test_score,
+        "initia_prompt_trueDataset": "NA",
+        "optimized_prompt_trueDataset": "NA",
     }
 
 
@@ -126,5 +129,10 @@ for p, p_score in prompt_scores.items():
     print(f"Optimized prompt score: {optimized_prompt_score}")
 
 df = pd.DataFrame.from_dict(id_to_promptStats, orient='index')
-df.to_html("opro_stats.html", escape=False, index=False)
+# Sort by test_score_diff and drop the column
+df = df.sort_values(by="test_score_diff", ascending=False)
+df = df.drop(columns=["test_score_diff"])
+
+# Save the dataframe to an HTML file
+df.to_html("opro_stats.html", escape=False, index=True)
 # webbrowser.open("opro_stats.html")

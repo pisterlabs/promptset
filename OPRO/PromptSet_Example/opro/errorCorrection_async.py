@@ -105,7 +105,7 @@ Take a deep breath and work on this problem step-by-step. Return only the JSON o
             )
             prompts.append(prompt)
 
-        responses = await run_llm_coroutine(prompts, temperature=1.0, model="llama3-70b")
+        responses = await run_llm_coroutine(prompts, temperature=1.0, model="llama3-70b", msg="Generating Seed Prompts - 20 calls")
         for res in responses:
             try:
                 new_prompt = eval(res)["step2"]
@@ -169,7 +169,7 @@ Take a deep breath and think step-by-step. Respond with only the JSON object! No
 
         pbar = tqdm(total=request_count, desc="Generating Synthetic Data")
         while len(data_pairs) < request_count:
-            response = await run_llm_coroutine([SYNTH_DATA_GEN_PROMPT for _ in range(request_count)], temperature=1.0, model="llama3-70b", respond_json=True)
+            response = await run_llm_coroutine([SYNTH_DATA_GEN_PROMPT for _ in range(request_count)], temperature=1.0, model="llama3-70b", respond_json=True, msg="Generating Synthetic Data - 100 calls")
             for res in response:
                 try:
                     # Checking if the response is valid
@@ -226,7 +226,7 @@ explaining why the instruction will score high. Think step by step. Nothing but 
     new_prompts = []
     pbar = tqdm(total=request_count, desc="Optimizing")
     while len(new_prompts) < request_count:
-        response = await run_llm_coroutine([prompt for _ in range(request_count)], temperature=1.0, model="llama3-70b")
+        response = await run_llm_coroutine([prompt for _ in range(request_count)], temperature=1.0, model="llama3-70b", msg="Optimizing - 20 calls")
         for res in response:
             try:
                 new_prompt = eval(res)["prompt"]
@@ -255,7 +255,7 @@ async def score(prompts, testing_sample):
     for prompt in tqdm(prompts, desc="Scoring"):
         accuracy = 0
         prompt_interpolated = [prompt.format(TEXT=data_pair["text"]) for data_pair in testing_sample]
-        generated_correction = await run_llm_coroutine(prompt_interpolated, temperature=0.0)
+        generated_correction = await run_llm_coroutine(prompt_interpolated, temperature=0.0, msg="Scoring - 30 calls mostly")
         assert len(generated_correction) == len(testing_sample)
         for i in range(len(generated_correction)):
             accuracy += gleu_score.sentence_gleu([generated_correction[i]], testing_sample[i]["correction"])

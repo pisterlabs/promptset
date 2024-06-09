@@ -11,21 +11,20 @@ TESTING_SCORES_PATH = f"testingSetScores.json"
 # PROMPTS THAT ARE SCORED
 PROMPT_LIST_TRANS = [
     'Please translate this Indonesian text "PLACEHOLDER" to english in the format [EN: translation], but if there is no English translation, return [EN: Cannot be translated]. Please make sure write in the format that I requested only.',
-    # "translate 'PLACEHOLDER' to English, and just show the result only, no other words",
+    'Please help me to translate the following text. Please return only translated content not include the origin text. Here is the text: \n\nPLACEHOLDER',
+    "translate the following text into English:\nPLACEHOLDER",
+    "Robot asked child: 'What would you like to translate and to which language do you want to translate it?'. The child replied: PLACEHOLDER. Give the response without asking follow-up questions.",
+    'PLACEHOLDER \n Please translate the previous sentence into English',
     # 'Please translate the following English passage into Bengali. Ensure that the translation is accurate and retains the original meaning and tone of the passage. The passage reads: PLACEHOLDER',
-    # 'Please help me to translate the following text. Please return only translated content not include the origin text. Here is the text: \n\nPLACEHOLDER',
-    # "translate the following text into English:\nPLACEHOLDER",
-    # "Robot asked child: 'What would you like to translate and to which language do you want to translate it?'. The child replied: PLACEHOLDER. Give the response without asking follow-up questions.",
-    # 'PLACEHOLDER \n Please translate the previous sentence into English',
-    # "Translate the following text from PLACEHOLDER to PLACEHOLDER: \n\nThe text  consists of text elements seperated by the following seperator: PLACEHOLDER\n\nLeave the seperator in place, and translate the text elements in between the seperators.\nDon't change the seperator itself. Dont'a add anything to the text elements, or remove anything from them.\n\nTranslate all of the text below until the (END OF TEXT) marker.):\n\nPLACEHOLDER\n\n(END OF TEXT)\n",
+    # "translate 'PLACEHOLDER' to English, and just show the result only, no other words",
 ]
 
 PROMPT_LIST_ERR = [
     '\n\tCorrect any grammatical, spelling errors in the question below. \n\tOutput only the corrected version and nothing else\n\tQuestion: {question}\n\tCorrected version: \n\t',
     "Please properly punctuate the given text (without omitting a single word) and output only the resulting punctuated text. Please do not omit a single word from the original text. {TEXT}",
-    # 'Objective: To enhance official documents written. \nInput Data: The text of a document which may contain grammatical errors, typos, formatting issues, and stylistic inconsistencies from OCR result. \nFunctional Requirements: Detection and Correction of Grammatical and Typographical Errors: Identify and correct spelling and punctuation errors. Check grammatical agreements within sentences.\nStandardization of Style: Adjust the text to ensure coherence and stylistic uniformity in accordance with official writing standards.\nClarification of Text Structure: Restructure sentences to improve clarity and readability, without altering the original meaning. Keep and answer the detected language from the document.\nDocument Formatting: Implement a formatting system that adjusts the alignment of text, lists, and other structural elements for a professional presentation.\nOutput Data: This is the corrected and enhanced document. Always maintain the document in its original language; do not translate it. Respond only in the language detected from the document. Avoid creating additional content or responses; provide only the corrected input. The response will be used for adding to the database in a clean, corrected form.\nThe text: {text}. ',
-    # 'Please fix the grammatical errors in this English translation of Bhagavad Gita. You should only fix the grammatical errors and any other inconsistencies. Do not change the meaning.\n\nPLACEHOLDER',
-    # "Please rewrite the following text for more clarity and make it grammatically correct. Give me the updated text. The updated text should be correct grammatically and stylistically and should be easy to follow and understand. Only make a change if it's needed. Try to follow the style of the original text. Don't make it too formal. Include only improved text no other commentary.\n\nThe text to check:\n---\nPLACEHOLDER\n---\n\nImproved text: ",
+    'Objective: To enhance official documents written. \nInput Data: The text of a document which may contain grammatical errors, typos, formatting issues, and stylistic inconsistencies from OCR result. \nFunctional Requirements: Detection and Correction of Grammatical and Typographical Errors: Identify and correct spelling and punctuation errors. Check grammatical agreements within sentences.\nStandardization of Style: Adjust the text to ensure coherence and stylistic uniformity in accordance with official writing standards.\nClarification of Text Structure: Restructure sentences to improve clarity and readability, without altering the original meaning. Keep and answer the detected language from the document.\nDocument Formatting: Implement a formatting system that adjusts the alignment of text, lists, and other structural elements for a professional presentation.\nOutput Data: This is the corrected and enhanced document. Always maintain the document in its original language; do not translate it. Respond only in the language detected from the document. Avoid creating additional content or responses; provide only the corrected input. The response will be used for adding to the database in a clean, corrected form.\nThe text: {text}. ',
+    "Please rewrite the following text for more clarity and make it grammatically correct. Give me the updated text. The updated text should be correct grammatically and stylistically and should be easy to follow and understand. Only make a change if it's needed. Try to follow the style of the original text. Don't make it too formal. Include only improved text no other commentary.\n\nThe text to check:\n---\nPLACEHOLDER\n---\n\nImproved text: ",
+    'Please format the following raw transcript for readability, including punctuation, speaker labels (look for semicolons after names), and spacing. Remove filler words:\n\nPLACEHOLDER\n',
 ]
 
 PROMPT_LIST_QA = [
@@ -41,7 +40,10 @@ PROMPT_LIST_QA = [
 
 PROMPT_LIST_SUMM = [
     "You are an onboarding chatboat that's very friendly and methodical. You read PLACEHOLDER and summarise the current project",
-    # "Please summarize the following text: PLACEHOLDER",
+    "PLACEHOLDER\n Can you summarize this GitHub Pull Request for me and suggest possible improvements?",
+    'Human: Summarize the code below (enclosed in the <code> tags) and explain in bullet points what it does. Write the response in markdown format starting with `## Summary`\n\nCode to be summarized:\n<code>\n{code}\n</code>\n\nAssistant:\n',
+    "Summarize the following text. Keep the original language in \nwhich the text is written. The summary has to be shorter than the original text. Don't add up or make up\nany information not present in the original text.\nText: {text}",
+
 ]
 
 
