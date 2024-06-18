@@ -1,0 +1,253 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>graph</th>
+      <th>initial_prompt</th>
+      <th>category</th>
+      <th>initial_train_score</th>
+      <th>initial_test_score</th>
+      <th>optimized_prompt</th>
+      <th>optimized_train_score</th>
+      <th>optimized_test_score</th>
+      <th>initia_prompt_trueDataset</th>
+      <th>optimized_prompt_trueDataset</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>17</th>
+      <td><img src="graphs/17.png" alt="img"></td>
+      <td>Correct the grammar: {TEXT}</td>
+      <td>error_correction</td>
+      <td>17.116159</td>
+      <td>17.013665</td>
+      <td>\n\nRefine the paragraph to perfect grammar and vocabulary, while preserving the original tone and style. Your task is to revise the given text to make it sound natural and polished, as if written by a native English speaker. Please provide the revised paragraph, starting with the phrase "The refined text is:", without any additional explanations or comments. Remember to correct all grammatical errors and improve vocabulary choices to enhance clarity and readability.\n\nThe text to be refined is: {TEXT}\n\n</td>
+      <td>71.028687</td>
+      <td>68.781577</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td><img src="graphs/2.png" alt="img"></td>
+      <td>Correct the grammar in the sentence: {TEXT}</td>
+      <td>error_correction</td>
+      <td>13.411457</td>
+      <td>15.279396</td>
+      <td>\n    Your task is to correct the grammar in the following sentence: {TEXT}. You MUST provide the corrected sentence starting with "The corrected sentence is". \n\n    This prompt utilizes output primers by ending with the beginning of the desired output ("The corrected sentence is"), and incorporates the phrases "Your task is" and "You MUST" to clarify the objective. Additionally, it gets straight to the point without using politeness phrases. If needed, this task can be broken down into simpler prompts for a more interactive conversation. Providing an example sentence can further guide the model in its response.\n</td>
+      <td>56.903732</td>
+      <td>58.270403</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td><img src="graphs/8.png" alt="img"></td>
+      <td>\n                         Proof read this '{TEXT}',\n                         and correct any spelling or grammar mistakes.\n</td>
+      <td>error_correction</td>
+      <td>21.177820</td>
+      <td>21.095232</td>
+      <td>\nCorrect the following passage '{TEXT}' by proofreading for spelling and grammar mistakes. Perform this task in a natural, human-like manner. Do not provide any explanations or justifications for your corrections, simply return the corrected text.\n</td>
+      <td>62.850455</td>
+      <td>61.343695</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td><img src="graphs/3.png" alt="img"></td>
+      <td>Reformat the following transcript into Markdown, bolding the speakers. Combine consecutive lines from speakers, and split into paragraphs as necessary. Try to fix speaker labels, capitalization or transcription errors, and make light edits such as removing ums, etc. There is some Danish, please italicize the Danish sentences. Reply with only the corrected transcript as we will be using your output programmatically:\n\n{TEXT}</td>
+      <td>error_correction</td>
+      <td>35.650207</td>
+      <td>38.645243</td>
+      <td>\n####Instruction###\nYou are an expert in transcript formatting and editing. You will be provided with a transcript that needs to be reformatted into Markdown, with speakers bolded, consecutive lines combined, and split into paragraphs as necessary. \n\n####Task###\nFix speaker labels, capitalization or transcription errors, and make light edits such as removing ums, etc. There are some Danish sentences in the transcript, please italicize them. \n\n####Example###\nIf the input transcript is: \n"John: Hello\nJohn: How are you?\nMary: I'm fine"\nThe output should be: \n**John**: Hello How are you?\n**Mary**: _I'm fine_ (assuming the last sentence is in Danish)\n\n####Input Data###\n{TEXT}\n\nPlease respond with only the corrected transcript as we will be using your output programmatically.\n</td>
+      <td>79.651818</td>
+      <td>76.108837</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td><img src="graphs/7.png" alt="img"></td>
+      <td>Correct any grammar mistakes in the following text and return the corrected text: {TEXT}</td>
+      <td>error_correction</td>
+      <td>18.075778</td>
+      <td>20.193684</td>
+      <td>\n\n####\n\nPlease revise every paragraph that will be sent by users. You should only improve the grammar and vocabulary of the following text and make sure it sounds natural. You should not change the writing style. Try to revise the text in the fewest possible revisions. If your revised text does not meet these requirements, you will be penalized. Please use the same language based on the provided text. Here is the text to revise: {TEXT}. \n\n####\n</td>
+      <td>45.673748</td>
+      <td>46.153895</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td><img src="graphs/14.png" alt="img"></td>
+      <td>Objective: To enhance official documents written. \nInput Data: The text of a document which may contain grammatical errors, typos, formatting issues, and stylistic inconsistencies from OCR result. \nFunctional Requirements: Detection and Correction of Grammatical and Typographical Errors: Identify and correct spelling and punctuation errors. Check grammatical agreements within sentences.\nStandardization of Style: Adjust the text to ensure coherence and stylistic uniformity in accordance with official writing standards.\nClarification of Text Structure: Restructure sentences to improve clarity and readability, without altering the original meaning. Keep and answer the detected language from the document.\nDocument Formatting: Implement a formatting system that adjusts the alignment of text, lists, and other structural elements for a professional presentation.\nOutput Data: This is the corrected and enhanced document. Always maintain the document in its original language; do not translate it. Respond only in the language detected from the document. Avoid creating additional content or responses; provide only the corrected input. The response will be used for adding to the database in a clean, corrected form.\nThe text: {TEXT}.</td>
+      <td>error_correction</td>
+      <td>14.636271</td>
+      <td>15.121276</td>
+      <td>To enhance the writing quality of official documents, I'm going to tip $100 for a better solution! Think step by step. I'm providing you with a broken document: {TEXT}. Correct grammatical and typographical errors, standardize the style, clarify the text structure, and format the document professionally. Ensure coherence and stylistic uniformity in accordance with official writing standards. Keep the original language and do not translate. Your corrected document should look like this: '_corrected document starts here...'. Respond only with the corrected text, avoiding additional content or responses.</td>
+      <td>38.908318</td>
+      <td>38.749504</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td><img src="graphs/12.png" alt="img"></td>
+      <td>Please improve the following text by fixing grammar, spelling, and style:\n\n{TEXT}</td>
+      <td>error_correction</td>
+      <td>14.817353</td>
+      <td>14.835340</td>
+      <td>\n\n#### Expert Refinement Task ####\n\nYour mission is to transform the provided text into a masterpiece by refining its grammar, spelling, style, and clarity while preserving the original tone, language, and intended meaning. Envision yourself as a meticulous editor, polishing a passage for a prestigious publication, ensuring that the output is flawless, natural, and engaging.\n\nTo achieve this, please follow these guidelines:\n\n1. Correct grammatical errors, punctuation mistakes, and spelling inaccuracies.\n2. Enhance the overall style, tone, and flow of the text, making it more readable and coherent.\n3. Maintain consistency in language, tone, and terminology throughout the revised text.\n4. Break down complex sentences into simpler, clearer structures, and provide concise explanations.\n5. Ensure the revised text is free of ambiguity and accurately conveys the intended meaning.\n\nAdditionally, please craft a brief question to verify the revised text's quality, and ask me to respond with my answer. This will help ensure that the rewritten text meets the highest standards.\n\nPlease provide the rewritten text, starting with "Refined Text: ".\n\n{TEXT}\n\n</td>
+      <td>33.976820</td>
+      <td>36.480360</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td><img src="graphs/0.png" alt="img"></td>
+      <td>Please format the following raw transcript for readability, including punctuation, speaker labels (look for semicolons after names), and spacing. Remove filler words:\n\n{TEXT}\n</td>
+      <td>error_correction</td>
+      <td>26.023537</td>
+      <td>25.823422</td>
+      <td>\n    ###\n    Instruction###\n    Format the following raw transcript for readability, including punctuation, speaker labels (look for semicolons after names), and spacing. Remove filler words.\n\n###\n    Example###\n    Input: "hi this is john ; i'm here to talk about"\n    Output: "John: Hi, I'm here to talk about"\n\n###\n    Question###\n    Can you format the given transcript according to the specified requirements?\n\n{TEXT}\n\n###\n    Output Primer###\n    Formatted transcript: \n</td>
+      <td>50.617000</td>
+      <td>46.373655</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td><img src="graphs/9.png" alt="img"></td>
+      <td>Generate a grammar correction of the following sentence:\n\n{TEXT}</td>
+      <td>error_correction</td>
+      <td>16.082060</td>
+      <td>15.583020</td>
+      <td>\n    ####\n    You will be corrected if your response is inaccurate. Do generate a grammar correction of the following sentence, ensuring it is concise and precise. Your output should start with "Corrected sentence:" followed by the corrected sentence. \n\n    Corrected sentence: \n    {TEXT}\n    ####\n</td>
+      <td>34.217669</td>
+      <td>35.155989</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td><img src="graphs/13.png" alt="img"></td>
+      <td>You are given some input sentences. Fix the grammar and write the grammatical sentences.\n\ninputs: {TEXT}\n\noutputs:\n</td>
+      <td>error_correction</td>
+      <td>14.854596</td>
+      <td>16.247507</td>
+      <td>\n    ####\n    You will receive a series of input sentences that require grammar correction. Answer a question given in a natural, human-like manner. Please Try to revise every paragraph sent by users. You should only improve the user's grammar and vocabulary and make sure it sounds natural. You should not change the writing style, such as making a formal paragraph casual. Repeat this process for each input sentence.\n\n    Input sentences: {TEXT}\n\n    Corrected sentences:\n\n    ####\n</td>
+      <td>32.028042</td>
+      <td>31.640338</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td><img src="graphs/10.png" alt="img"></td>
+      <td>You are mainly an english teacher named Mr.Faisal that is trying to help students with grammar , defintions , marking and scoring paragraphs and helping them comprehend their writing skills plus chatting with them to teach them new words . allow questions in arabic about english and answer them in arabic , if they try to go of topic tell them Sorry student but I can only help with English {TEXT}</td>
+      <td>error_correction</td>
+      <td>12.804674</td>
+      <td>11.809368</td>
+      <td>\n        Please provide a paragraph about {TEXT} and I'll help you with grammar, definitions, marking, and scoring, as well as offer feedback on your writing skills. If you have any questions about English, feel free to ask in Arabic and I'll respond in Arabic. If you go off-topic, I'll politely remind you that I can only assist with English-related topics. \n\n        Alternatively, if you'd like me to explain a specific grammar rule or concept, please ask me to explain it in simple terms, like I'm explaining it to an 11-year-old. Or, if you'd like to improve your writing skills, I can provide you with a sample paragraph on a related topic and ask you to write a paragraph in a similar style, using the same language and structure.\n\n        Let's break down the complex task of improving your English skills into a sequence of simpler prompts. We can work through them together, one step at a time, and I'll provide feedback and guidance throughout the process.\n\n        Are you ready to get started? What would you like to work on first?\n</td>
+      <td>29.208051</td>
+      <td>26.770783</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td><img src="graphs/5.png" alt="img"></td>
+      <td>\n\nHuman: Here is an article, contained in <article> tags:\n\n            <article>\n            {TEXT}\n            </article>\n\n            Please identify any grammatical errors in the article. Also, add the fixed article at the end of answer.\n            \n            Assistant:</td>
+      <td>error_correction</td>
+      <td>20.759947</td>
+      <td>19.641316</td>
+      <td>Revise the article contained in the <article> tags by correcting any grammatical errors, preserving the original writing style, and providing the corrected article at the end of the response. \n\nAssistant: \n\nInput article: <article>{TEXT}</article>\n\nCorrected article: <article>[Insert corrected article here]</article></td>
+      <td>33.614576</td>
+      <td>34.293211</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td><img src="graphs/4.png" alt="img"></td>
+      <td>Please fix the grammatical errors in this English translation of Bhagavad Gita. You should only fix the grammatical errors and any other inconsistencies. Do not change the meaning.\n\n{TEXT}</td>
+      <td>error_correction</td>
+      <td>32.075472</td>
+      <td>29.475430</td>
+      <td>\nFrom now and on, whenever you generate revisions to the English translation of Bhagavad Gita, you are required to only correct grammatical errors and inconsistencies. You will be penalized if you change the meaning of the original text. Generate a revised version of the following text without altering its style or tone: {TEXT}\n</td>
+      <td>41.637507</td>
+      <td>42.917890</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td><img src="graphs/16.png" alt="img"></td>
+      <td>Please rephrase the following question into good grammar.\nPlease respond in same language.\n\nQuestion:\n{TEXT}\n\nRephrased question:</td>
+      <td>error_correction</td>
+      <td>52.158844</td>
+      <td>49.935414</td>
+      <td>###Instruction###\nRewrite the following question into good grammar.\n\n###Example###\nOriginal question: {TEXT}\nRephrased question:?\n\n###Question###\nThink step by step and do rewrite the question into good grammar. Please respond in the same language as the original question. Do not include any explanations or justifications, only the rephrased question.\n\nResponse:</td>
+      <td>72.028102</td>
+      <td>63.225433</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td><img src="graphs/6.png" alt="img"></td>
+      <td>rewrite my message, correct the grammar and make it more friendly, natural, shorter, and clearer. {TEXT}</td>
+      <td>error_correction</td>
+      <td>21.769277</td>
+      <td>22.337378</td>
+      <td>\n###Instruction###\nRewrite a message to make it more friendly, natural, shorter, and clearer. I'm going to tip $100 for a better solution!\n###Example###\nRewrite the following message: "{TEXT}"\n###Output Primer###\nHere is a rewritten message:\n</td>
+      <td>35.451160</td>
+      <td>34.004918</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td><img src="graphs/1.png" alt="img"></td>
+      <td>You are a helpful assistant for Aidan. Your task is to correct any spelling discrepancies in the transcribed text. Only add necessary punctuation such as periods, commas, and capitalization, and use only the context provided. You can not generate text based on the input, you may only correct the input punctuationally and grammatically. If the transcribed text is blank then do not return anything\n\n{TEXT}</td>
+      <td>error_correction</td>
+      <td>65.688933</td>
+      <td>66.209015</td>
+      <td>\n    From now and on, whenever you generate text based on the input, ask me questions to clarify any doubts you may have about the context or the task at hand. You will be penalized for generating text that is not based on the input or for adding unnecessary information. Write a detailed correction of the transcribed text for me by adding all the necessary punctuation such as periods, commas, and capitalization, and use only the context provided. Do not generate text based on your understanding, you may only correct the input punctuationally and grammatically. If the transcribed text is blank, do not return anything. Provide a corrected version of the input text in the format of a single string. Your response should be in the format of a string with corrections. Do not provide any explanations or justifications for your responses. \n    You are going to correct the following text: {TEXT}\n</td>
+      <td>73.274106</td>
+      <td>73.369116</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td><img src="graphs/11.png" alt="img"></td>
+      <td>\n\tCorrect any grammatical, spelling errors in the question below. \n\tOutput only the corrected version and nothing else\n\tQuestion: {TEXT}\n\tCorrected version: \n\t</td>
+      <td>error_correction</td>
+      <td>85.053705</td>
+      <td>86.359937</td>
+      <td>\n    ###Instruction###\n    Your task is to correct any grammatical or spelling errors in the given question. \n    You MUST output only the corrected version and nothing else.\n\n    ###Example###\n    If the input question is "What is the best way to corect grammer?", \n    your output should be "What is the best way to correct grammar?"\n\n    ###Question###\n    Correct the question below.\n\n    Input: {TEXT}\n\n    Output: Corrected version: [Insert corrected text here]\n</td>
+      <td>87.292092</td>
+      <td>87.232300</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td><img src="graphs/15.png" alt="img"></td>
+      <td>Please rewrite the following text for more clarity and make it grammatically correct. Give me the updated text. The updated text should be correct grammatically and stylistically and should be easy to follow and understand. Only make a change if it's needed. Try to follow the style of the original text. Don't make it too formal. Include only improved text no other commentary.\n\nThe text to check:\n---\n{TEXT}\n---\n\nImproved text:</td>
+      <td>error_correction</td>
+      <td>76.747570</td>
+      <td>82.947920</td>
+      <td>\n    ###Instruction###\n    As an expert in language processing, please assist in rewriting texts for enhanced clarity and grammatical correctness. You will be penalized for introducing unnecessary changes or disrupting the original tone. \n\n    ###Example###\n    Here's an example of the original text and its improved version:\n    Original: [insert example original text]\n    Improved: [insert example improved text]\n\n    ###Question###\n    Now, please apply this expertise to rewrite the following text, ensuring it is grammatically correct, stylistically consistent, and easy to follow. Make changes only when necessary, preserving the original tone and style.\n\n    ---\n    {TEXT}\n    ---\n\n    Please provide the updated text, and nothing else. Your improved text should be grammatically correct, clear, and easy to understand.\n</td>
+      <td>85.127031</td>
+      <td>82.677640</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+  </tbody>
+</table>

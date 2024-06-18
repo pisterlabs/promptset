@@ -438,7 +438,7 @@ async def opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=5, PROMPTS_PER_STEP=5,
     return results
 
 # OPRO for summarization prompts
-async def qarefinement_opro(prompt, cache_dir="0", TRAINING_SAMPLE_SIZE=50, TESTING_SAMPLE_SIZE=100, PROMPTS_PER_STEP=5, STEP_COUNT=5, MAX_PROMPT_SCORE_PAIRS=20):
+async def qarefinement_opro(prompt, cache_dir="0", TRAINING_SAMPLE_SIZE=50, TESTING_SAMPLE_SIZE=100, PROMPTS_PER_STEP=5, STEP_COUNT=5, MAX_PROMPT_SCORE_PAIRS=10):
     global PWD, CHOSEN_PROMPT
     CHOSEN_PROMPT = check_and_reformat(prompt)
     PWD = os.path.join(".", cache_dir) + "/"

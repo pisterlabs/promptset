@@ -208,33 +208,30 @@ async def opt_llm(prompt_score_pairs, request_count=8):
     for ins, score in prompt_score_pairs.items():
         pairs_str += f"text:\n{ins}\nscore:\n{score:.2f}\n\n"
 
-    prompt = f"""You're a highly skilled prompt engineer and a prompt optimization expert. 
-The user has some prompts along with their corresponding scores. 
-Your task is to generate a new prompt that scores as high as possible. Do not generate its corresponding score. 
+    prompt = f"""You're a highly skilled prompt engineer and a prompt optimization expert. The user has some prompts along with their corresponding scores. Your task is to generate a new prompt that scores as high as possible. Do not generate its corresponding score. 
 
-Here are some prompts along with their corresponding scores. The texts are arranged in ascending order
-based on their scores, where higher scores indicate better quality.
+Here are some prompts along with their corresponding scores. The texts are arranged in ascending order based on their scores, where higher scores indicate better quality.
 
 {pairs_str}
 
-Write your new text that is different from the old ones and has a score as high as possible. Ensure that the generated 
-instruction has "{INTERPOLATE_VAR}" so the user can replace that with the text to be corrected. Think step by step. 
-Generate only the text. Do not include the scores. Response in JSON format where the keys are "prompt" with a string 
-value of the new instruction that has a score as high as possible, and another key "explanation" with a string value 
-explaining why the instruction will score high. Think step by step. Nothing but JSON. Ensure it's properly formatted.
+Write your new text that is different from the old ones and has a score as high as possible. Ensure that the generated instruction has "{INTERPOLATE_VAR}" so the user can replace that with the text to be corrected. Think step by step. Generate only the text. Do not include the scores. Delimit the your suggested text by <BEGIN_ANSWER> and </END_ANSWER>.
 """
     new_prompts = []
     pbar = tqdm(total=request_count, desc="Optimizing")
     while len(new_prompts) < request_count:
-        response = await run_llm_coroutine([prompt for _ in range(request_count)], temperature=1.0, model="llama3-70b", msg="Optimizing - 20 calls")
-        for res in response:
+        responses = await run_llm_coroutine([prompt for _ in range(request_count)], temperature=1.0, model="llama3-70b", msg="Optimizing - 20 calls")
+        for res in responses:
             try:
-                new_prompt = eval(res)["prompt"]
-                assert has_correct_keywords(new_prompt)
-                new_prompts.append(new_prompt)
+                match = re.search(r'<BEGIN_ANSWER>(.*?)</END_ANSWER>', res, re.DOTALL)
+                assert match is not None, "No match found for <BEGIN_ANSWER> and </END_ANSWER> tags"
+                extracted_text = match.group(1)
+                assert has_correct_keywords(extracted_text), "Extracted text does not have correct keywords"
+                new_prompts.append(extracted_text)
                 pbar.update(1)
             except Exception as e:
-                # print(e)
+                print(e)
+                print("################## Skipping... ##################")
+                print(res)
                 continue
     pbar.close()
     return new_prompts[:request_count]
@@ -267,8 +264,9 @@ async def opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=8, PROMPTS_PER_STEP=5,
     # NOTE: MAX_PROMPT_SCORE_PAIRS  Keep the best 20 prompts at any time
     SAVE_PATH_ASYNC = f"{PWD}training_results.json"
     SEED_PROMPTS_PATH = f"{PWD}seed_prompts.json"
-    SEED_PROMPTS_COUNT = 20
+    SEED_PROMPTS_COUNT = 64
     SEED_PROMPTS = None
+    best_scores = []
     
     # loading seed prompts
     if os.path.exists(SEED_PROMPTS_PATH):
@@ -292,8 +290,9 @@ async def opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=8, PROMPTS_PER_STEP=5,
         prompt_score_pairs = dict(
             sorted(
                 prompt_score_pairs.items(), key=lambda x: x[1], reverse=True
-            )[:MAX_PROMPT_SCORE_PAIRS]
+            )
         )
+        best_scores.append(max(prompt_score_pairs.values()))
         results = {"0": prompt_score_pairs}
         with open(SAVE_PATH_ASYNC, "w") as f:
             json.dump(results, f)
@@ -304,6 +303,7 @@ async def opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=8, PROMPTS_PER_STEP=5,
         while True:
             try:
                 # Optimizer LLM
+                prompt_score_pairs = dict(list(prompt_score_pairs.items())[:MAX_PROMPT_SCORE_PAIRS])
                 instructions = await opt_llm(prompt_score_pairs, request_count=PROMPTS_PER_STEP)
 
                 # Scoring the new instructions
@@ -320,10 +320,13 @@ async def opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=8, PROMPTS_PER_STEP=5,
                 with open(SAVE_PATH_ASYNC, "w") as f:
                     json.dump(results, f)
 
-                # Printing the best prompt
+                # Printing the best prompt and score for the current step
+                best_prompt = max(prompt_score_pairs, key=prompt_score_pairs.get)
+                best_score = prompt_score_pairs[best_prompt]
+                best_scores.append(best_score)
                 print(f"Step {i} completed.")
-                print(f"Current Best score: {max(prompt_score_pairs.values())}")
-                print(f"Current Best prompt: {max(prompt_score_pairs, key=prompt_score_pairs.get)}")
+                print(f"Current Best score: {best_score}")
+                print(f"Current Best prompt: {best_prompt}")
                 print("\n")
 
                 break
@@ -331,18 +334,25 @@ async def opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=8, PROMPTS_PER_STEP=5,
                 print(e)
             except Exception as e:
                 print(e)
+        
+        # Early stopping if the score doesn't improve for 3 consecutive steps
+        if len(best_scores) >= 3:
+            print("Best Scores: ", best_scores[-3:])
+            if best_scores[-1] == best_scores[-2] == best_scores[-3]:
+                print("Early stopping...")
+                break
     
     return results
 
 # OPRO for summarization prompts
-async def errorCorrection_opro(prompt, cache_dir="0", TRAINING_SAMPLE_SIZE=30, TESTING_SAMPLE_SIZE=70, PROMPTS_PER_STEP=10, STEP_COUNT=15, MAX_PROMPT_SCORE_PAIRS=20):
+async def errorCorrection_opro(prompt, cache_dir="0", TRAINING_SAMPLE_SIZE=30, TESTING_SAMPLE_SIZE=70, PROMPTS_PER_STEP=10, STEP_COUNT=15, MAX_PROMPT_SCORE_PAIRS=10):
     global PWD, CHOSEN_PROMPT
     CHOSEN_PROMPT = check_and_reformat(prompt)
     PWD = os.path.join(".", cache_dir) + "/"
     
     # If dir doesn't exist, create it
     if not os.path.exists(PWD):
-        os.mkdir(cache_dir)
+        os.mkdir(PWD)
 
     # Generate synthetic data
     synthetic_data = await generate_synthetic_data(
