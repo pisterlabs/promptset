@@ -469,6 +469,304 @@ question separately between < ANS_START > and < ANS_END > tags .
 """
 ]
 
+PROMPT_MEDQA = [
+    """Analyze the patient ’ s age , symptoms , duration and onset of symptoms ,
+history of present illness , lifestyle factors , physical
+examination findings , and any diagnostic test results presented in
+the Medical Licensing Examination question . Use your knowledge of
+medicine to identify the most likely diagnosis or appropriate
+treatment . Consider the progression , severity , and duration of the
+patient ’ s symptoms in relation to the answer options . Eliminate
+incorrect answer options based on your medical knowledge and
+ensure your final choice is the most appropriate given the
+specifics of the question . Validate your answer by ensuring it
+aligns with all the information provided in the question ,
+including the patient ’ s age , lifestyle factors , and specific
+diagnostic test results .
+
+[ Question ] A 50 - year - old man with a history of hypertension and type 2
+diabetes presents with a 3 - day history of chest pain radiating to
+the left arm . He also reports shortness of breath and fatigue .
+Physical examination reveals a blood pressure of 150/90 mmHg ,
+heart rate of 90/ min , and an irregular pulse . An ECG shows ST -
+segment elevation in leads II , III , and aVF . Which of the
+following is the most appropriate initial treatment ?
+Options :
+A : Aspirin and clopidogrel
+B : Metformin
+C : Lisinopril
+D : Atorvastatin
+
+[ Answer ] 1. Start by analyzing the patient ’ s age , symptoms , and
+medical history . The patient is a 50 - year - old man with a history
+of hypertension and type 2 diabetes . He presents with chest pain
+radiating to the left arm , shortness of breath , and fatigue . These
+symptoms are indicative of a cardiovascular event .
+2. Consider the physical examination findings . The patient has a blood
+pressure of 150/90 mmHg , heart rate of 90/ min , and an irregular
+pulse . These findings further support the likelihood of a
+cardiovascular event .
+3. Review the diagnostic test results . The ECG shows ST - segment
+elevation in leads II , III , and aVF . This is a classic sign of an
+ST - segment elevation myocardial infarction ( STEMI ) , a type of
+heart attack .
+4. Given the diagnosis of STEMI , consider the most appropriate initial
+treatment . The options are Aspirin and clopidogrel ( A ) , Metformin
+( B ) , Lisinopril ( C ) , and Atorvastatin ( D ) .
+5. Eliminate incorrect answer options based on medical knowledge .
+Metformin ( B ) is a medication for diabetes , Lisinopril ( C) is an
+antihypertensive medication , and Atorvastatin ( D ) is a cholesterol
+- lowering medication . While these medications may be part of the
+patient ’s long - term management , they are not the most appropriate
+initial treatment for a STEMI .
+6. Aspirin and clopidogrel ( A ) are antiplatelet medications . They work
+by preventing blood clots , which is crucial in the initial
+management of a STEMI to restore blood flow to the heart muscle .
+7. Therefore , the most appropriate initial treatment for this patient ,
+given his symptoms , physical examination findings , and ECG
+results , is Aspirin and clopidogrel ( A ). This aligns with all the
+information provided in the question and is the most appropriate
+given the specifics of the question .
+8. Validate the final choice (A ) as it is the most appropriate initial
+treatment for a patient presenting with a STEMI . < ANS_START >A <
+ANS_END >
+
+
+[ Question ] A 6 - month - old girl is brought to the physician by her
+mother because of a 2 - day history of fever and irritability . She
+also has a rash on her cheeks . Physical examination reveals a
+temperature of 38.5 ◦
+C (101.3 ◦
+F ) , a heart rate of 120/ min , and a
+respiratory rate of 30/ min . Examination of the skin shows
+erythema of the cheeks with sparing of the nasal bridge and
+perioral area . Which of the following is the most likely diagnosis
+?
+Options :
+A : Measles
+B : Fifth disease
+C : Roseola
+D : Scarlet fever
+
+[ Answer ] 1. Start by analyzing the patient ’ s age , symptoms , duration
+and onset of symptoms , and physical examination findings . The
+patient is a 6 - month - old girl with a 2 - day history of fever and
+irritability . She also has a rash on her cheeks . Her temperature
+is 38.5◦
+C (101.3◦
+F ) , a heart rate of 120/ min , and a respiratory
+rate of 30/ min . The skin examination shows erythema of the cheeks
+with sparing of the nasal bridge and perioral area .
+2. Use your medical knowledge to identify the most likely diagnosis .
+The symptoms presented are indicative of a viral exanthem , a rash
+that appears due to a viral infection .
+3. Consider the answer options . The options are Measles , Fifth disease
+, Roseola , and Scarlet fever . All of these are diseases that can
+present with a rash .
+4. Eliminate incorrect answer options based on your medical knowledge .
+Measles typically presents with a rash that starts at the
+hairline and moves down , along with Koplik spots in the mouth ,
+which are not mentioned in the question . Scarlet fever typically
+presents with a sandpaper - like rash and a strawberry tongue , which
+are also not mentioned . Roseola typically presents with a high
+fever that suddenly drops as a rash appears , which does not match
+the patient ’ s symptoms .
+5. The remaining option is Fifth disease , also known as erythema
+infectiosum . This disease is common in children and presents with
+a " slapped cheek " rash , fever , and irritability , which aligns with
+the patient ’ s symptoms .
+6. Validate your answer by ensuring it aligns with all the information
+provided in the question . The patient ’ s age , symptoms , and
+physical examination findings all align with a diagnosis of Fifth
+disease .
+7. Therefore , the correct answer is B : Fifth disease . < ANS_START >B <
+ANS_END >
+
+
+[ Question ] A 70 - year - old man presents with a 1 - year history of
+progressive memory loss , difficulty finding words , and getting
+lost in familiar places . Neurologic examination shows impaired
+recall and disorientation to time and place . MRI of the brain
+shows cortical atrophy and enlarged ventricles . Which of the
+following is the most likely diagnosis ?
+Options :
+A : Alzheimer ’ s disease
+B : Vascular dementia
+C : Lewy body dementia
+D : Frontotemporal dementia
+
+[ Answer ] 1. Start by analyzing the patient ’ s age , symptoms , duration
+and onset of symptoms , and the results of the physical examination
+and diagnostic tests . The patient is a 70 - year - old man with a 1 -
+year history of progressive memory loss , difficulty finding words ,
+and getting lost in familiar places . The neurologic examination
+shows impaired recall and disorientation to time and place . The
+MRI of the brain shows cortical atrophy and enlarged ventricles .
+2. Consider the progression , severity , and duration of the patient ’ s
+symptoms . The symptoms have been progressing over a year , which
+indicates a chronic condition .
+3. Use your medical knowledge to identify the most likely diagnosis .
+The symptoms of progressive memory loss , difficulty finding words ,
+and getting lost in familiar places , along with impaired recall
+and disorientation to time and place , are characteristic of a
+neurodegenerative disease .
+4. Look at the answer options and eliminate incorrect ones based on
+your medical knowledge . Vascular dementia ( Option B) typically
+presents with stepwise deterioration of cognitive function , which
+is not the case here . Lewy body dementia ( Option C ) is usually
+accompanied by visual hallucinations , parkinsonism , or fluctuating
+cognition , none of which are mentioned in the question .
+Frontotemporal dementia ( Option D ) often presents with changes in
+personality and behavior , which is also not mentioned in the
+question .
+5. The remaining option is Alzheimer ’ s disease ( Option A ) , which is a
+neurodegenerative disease that commonly presents with progressive
+memory loss , difficulty finding words , and getting lost in
+familiar places , especially in older adults . The MRI findings of
+cortical atrophy and enlarged ventricles are also consistent with
+Alzheimer ’ s disease .
+6. Validate your answer by ensuring it aligns with all the information
+provided in the question . Alzheimer ’ s disease fits with the
+patient ’s age , the chronic and progressive nature of the symptoms ,
+the neurologic examination findings , and the MRI results .
+7. Therefore , the correct answer is A : Alzheimer ’ s disease . < ANS_START
+>A < ANS_END >
+
+
+[ Question ] A 35 - year - old woman presents with a 2 - week history of
+severe headache , fever , and photophobia . She also reports a rash
+on her lower extremities . Physical examination reveals a
+temperature of 38.2◦
+C (100.8◦
+F ) , a heart rate of 110/ min , and a
+petechial rash on her lower extremities . Lumbar puncture shows
+increased white blood cells with a predominance of lymphocytes ,
+increased protein , and normal glucose . Which of the following is
+the most appropriate pharmacotherapy ?
+Options :
+A : Ceftriaxone and vancomycin
+B : Acyclovir
+C : Amphotericin B
+D : Doxycycline
+
+[ Answer ] 1. Start by analyzing the patient ’ s symptoms : severe headache
+, fever , photophobia , and a petechial rash on her lower
+extremities . These symptoms suggest a systemic infection , possibly
+involving the central nervous system given the presence of
+headache and photophobia .
+2. Consider the patient ’ s age and duration of symptoms . A 35 - year - old
+woman with a 2 - week history of these symptoms suggests an acute
+infection rather than a chronic condition .
+3. Review the physical examination findings and diagnostic test
+results . The patient has a fever and tachycardia , further
+supporting the presence of a systemic infection . The lumbar
+puncture results show increased white blood cells with a
+predominance of lymphocytes , increased protein , and normal glucose
+. These findings are indicative of viral meningitis .
+4. Evaluate the answer options in relation to the most likely
+diagnosis . Viral meningitis is typically caused by enteroviruses ,
+herpes simplex virus , or arboviruses .
+5. Option A ( Ceftriaxone and vancomycin ) is used to treat bacterial
+meningitis , which is not consistent with the lumbar puncture
+results . Eliminate this option .
+6. Option B ( Acyclovir ) is an antiviral medication used to treat
+infections caused by herpes viruses , including herpes simplex
+virus meningitis . This option aligns with the diagnosis .
+7. Option C ( Amphotericin B ) is an antifungal medication , which is not
+consistent with the diagnosis of viral meningitis . Eliminate this
+option .
+8. Option D ( Doxycycline ) is an antibiotic used to treat bacterial
+infections , including certain types of bacterial meningitis , but
+it is not the first - line treatment for viral meningitis . Eliminate
+this option .
+ Validate the final choice ( Option B : Acyclovir ) by ensuring it
+aligns with all the information provided in the question ,
+including the patient ’ s age , symptoms , physical examination
+findings , and specific diagnostic test results .
+10. Therefore , the correct answer is B : Acyclovir . < ANS_START >B <
+ANS_END >
+
+
+[ Question ] A 40 - year - old man with a history of alcohol abuse presents
+with a 1 - day history of severe abdominal pain , nausea , and
+vomiting . Physical examination reveals a distended abdomen ,
+decreased bowel sounds , and tenderness to palpation in the upper
+abdomen . Laboratory tests show an elevated serum amylase and
+lipase . Which of the following is the most likely diagnosis ?
+Options :
+A : Acute pancreatitis
+B : Peptic ulcer disease
+C : Gastric cancer
+D : Gastroenteritis
+
+[ Answer ] 1. Start by analyzing the patient ’ s age , symptoms , duration
+and onset of symptoms , history of present illness , lifestyle
+factors , physical examination findings , and any diagnostic test
+results presented in the question . The patient is a 40 - year - old
+man with a history of alcohol abuse . He has been experiencing
+severe abdominal pain , nausea , and vomiting for 1 day . His abdomen
+is distended , bowel sounds are decreased , and there is tenderness
+in the upper abdomen . His serum amylase and lipase levels are
+elevated .
+2. Use your knowledge of medicine to identify the most likely
+diagnosis . The patient ’ s history of alcohol abuse , the sudden
+onset and severity of his symptoms , and his physical examination
+findings are all indicative of a pancreatic condition . The
+elevated serum amylase and lipase levels further support this , as
+these enzymes are produced by the pancreas and their levels
+increase in the blood when the pancreas is inflamed or damaged .
+3. Consider the answer options in relation to the patient ’ s symptoms
+and test results . Acute pancreatitis , peptic ulcer disease ,
+gastric cancer , and gastroenteritis are all potential diagnoses .
+4. Eliminate incorrect answer options based on your medical knowledge .
+Peptic ulcer disease typically presents with a burning pain in
+the middle or upper stomach between meals or at night , not with a
+distended abdomen and decreased bowel sounds . Gastric cancer
+usually develops slowly over many years , and its symptoms often
+only appear in the advanced stages of the disease . Gastroenteritis
+, while it can cause abdominal pain , nausea , and vomiting , does
+not typically result in a distended abdomen , decreased bowel
+sounds , or elevated serum amylase and lipase levels .
+5. The remaining option , acute pancreatitis , aligns with all the
+information provided in the question . The patient ’ s history of
+alcohol abuse is a common risk factor for acute pancreatitis . The
+sudden onset and severity of his symptoms , his physical
+examination findings , and his elevated serum amylase and lipase
+levels are all characteristic of this condition .
+6. Therefore , the most likely diagnosis for this patient is acute
+pancreatitis , making option A the correct answer . < ANS_START >A <
+ANS_END >
+
+< human intent >
+
+Medical Knowledge , Analytical Skills , English Proficiency , Reasoning
+Skills , Attention to Detail
+
+< expert persona >
+You are a medical professional with extensive experience in the field
+and a deep understanding of the United States Medical Licensing
+Exam ( USMLE ) . You have successfully passed the USMLE and have a
+thorough understanding of the format and style of the questions .
+You are well - versed in a wide range of medical topics , from
+anatomy and physiology to pathology and pharmacology . You have the
+ability to analyze complex medical scenarios , apply your
+knowledge , and make informed decisions . You can accurately
+interpret the questions and the provided options , and select the
+correct answer based on your medical knowledge and reasoning . Your
+expertise and experience make you highly capable of answering
+these questions correctly and efficiently .
+
+< prompt guidelines for desired output format >
+
+You need to output the correct option among [ A / B / C /D ] for each
+question separately using your medical knowledge and reasoning .
+Wrap your only the final answer , without reason for each question
+separately between < ANS_START > and < ANS_END > tags .
+
+{TEXT}
+"""
+]
+
 async def opro(prompt_list, category):
     global prompt_testing_scores, TESTING_SCORES_PATH
     opro_func = None
@@ -513,13 +811,10 @@ async def main():
         prompt_testing_scores = {}
 
     # Optimizing Prompts
-    # await opro(PROMPT_LIST_QA, "QA_refinement")
-    # await opro(PROMPT_LIST_TRANS, "translation")
-    # await opro(PROMPT_LIST_ERR, "error_correction")
-    # await opro(PROMPT_LIST_SUMM, "summarization")
     # await opro(PROMPT_GSM8K, "eval")
     # await opro(PROMPT_ETHOS, "eval")
-    await opro(PROMPT_PUBMEDQA, "eval")
+    # await opro(PROMPT_PUBMEDQA, "eval")
+    await opro(PROMPT_MEDQA, "eval")
 
     # NOTE: Use time.time() as ID if using this approach!
     # await asyncio.gather(

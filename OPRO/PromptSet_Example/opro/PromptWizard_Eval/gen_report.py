@@ -119,8 +119,6 @@ for p, p_score in prompt_scores.items():
         "optimized_train_score": optimized_train_score,
         "optimized_test_score": optimized_test_score,
         "test_score_diff": optimized_test_score - initial_test_score,
-        "initia_prompt_trueDataset": "NA",
-        "optimized_prompt_trueDataset": "NA",
     }
 
 

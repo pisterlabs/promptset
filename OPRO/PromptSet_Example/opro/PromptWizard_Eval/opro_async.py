@@ -181,9 +181,12 @@ Write your new text that is different from the old ones and has a score as high 
 
 def score_helper(gen_text, solution):
     solution = str(solution).lower().strip()
-    gen_text = gen_text.lower()
-        
-    return solution in gen_text
+    match = re.search(r'<ANS_START>(.*?)<ANS_END>', gen_text, re.DOTALL)
+    if match:
+        extracted_text = match.group(1)
+        if extracted_text.lower().strip() == solution:
+            return 1
+    return 0
     
 
 async def score(prompts, dataset):
