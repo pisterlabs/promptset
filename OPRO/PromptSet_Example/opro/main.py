@@ -6,7 +6,7 @@ from QARefinement_async import qarefinement_opro
 import asyncio
 
 prompt_testing_scores = None
-CWD = "trials_trainsize/trial3/"
+CWD = "trials_seedPrompts/trial1/"
 TESTING_SCORES_PATH = f"{CWD}testingSetScores.json"
 
 # PROMPTS THAT ARE SCORED
@@ -86,10 +86,10 @@ async def opro(prompt_list, category):
                 **await opro_func(
                     prompt,
                     f"{CWD}{str(ID)}",
-                    TRAINING_SAMPLE_SIZE=16,
-                    TESTING_SAMPLE_SIZE=128,
+                    # PROMPTS_PER_STEP=1,
+                    # TRAINING_SAMPLE_SIZE=30,
+                    # TESTING_SAMPLE_SIZE=70,
                     # STEP_COUNT=10,
-                    # PROMPTS_PER_STEP=20,
                     # MAX_PROMPT_SCORE_PAIRS=10,
                 ),
                 "category": category,
