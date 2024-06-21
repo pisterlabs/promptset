@@ -345,7 +345,7 @@ async def opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=8, PROMPTS_PER_STEP=5,
     return results
 
 # OPRO for summarization prompts
-async def errorCorrection_opro(prompt, cache_dir="0", TRAINING_SAMPLE_SIZE=30, TESTING_SAMPLE_SIZE=70, PROMPTS_PER_STEP=10, STEP_COUNT=15, MAX_PROMPT_SCORE_PAIRS=10):
+async def errorCorrection_opro(prompt, cache_dir="0", TRAINING_SAMPLE_SIZE=30, TESTING_SAMPLE_SIZE=70, PROMPTS_PER_STEP=20, STEP_COUNT=15, MAX_PROMPT_SCORE_PAIRS=10):
     global PWD, CHOSEN_PROMPT
     CHOSEN_PROMPT = check_and_reformat(prompt)
     PWD = os.path.join(".", cache_dir) + "/"
