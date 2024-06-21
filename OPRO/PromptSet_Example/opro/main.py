@@ -42,7 +42,7 @@ PROMPT_LIST_ERR = [
     # NOTE: Newly Added Prompts
     '\n  Analyse the given sentence relating to a land sale and see what words are wrong and out of place(these may sometimes include names and jibberish characters) in it and remove them, also correct grammar mistakes and make the sentence logically correct\n  In effect clean the sentence preserving all the pertinent and important details. By no means add fake details.:" {text}"\n  Response:\n  ',
     '\n  Proofread and correct the following text\n  and rewrite the corrected version. If you don\'t find\n  any errors, just say "No errors found":\n  ```PLACEHOLDER```\n  ',  # partial error correction
-    ' Gramatically and logically correct sentence: {{prompt_source}} . Return only the corrected sentence, no abbreviations, using same words if it is logical. Do not mention explicitly rules given in prompt. ',
+    ' Gramatically and logically correct sentence: {prompt_source} . Return only the corrected sentence, no abbreviations, using same words if it is logical. Do not mention explicitly rules given in prompt. ',
     'G\n\n                For Every Image , refine the text extracted from every image and if there is any error or spelling mistake , correct it by your knowledge  but correct only \'words\' and\n\n\'not\' values of it .\n\nAlso give "quantity" with it\'s value as it is given in extracted text, "rate" with it\'s value as it is given in extracted text and ("amount = quantity*rate") in the last as note. Give nothing else other than this \nPLACEHOLDER\n',  # I don't understand this prompt at all. haha...
     'Is the following text grammatically correct? Ignore style and meaning, just strictly check grammar.\nIf it is grammatically correct, just respond with \'yes\', nothing more.\nIf it is grammatically incorrect, respond with the corrected text. Do not explain what you did or why, just correct it.\n\nText:\n"""\n{text}\n"""\nResponse:\n',  # partial error correction
     'Proofread and correct the following text\n    and rewrite the corrected version. If you don\'t find\n    and errors, just say "No errors found". Don\'t use\n    any punctuation around the text:\n    ```PLACEHOLDER```',
@@ -77,7 +77,6 @@ PROMPT_LIST_SUMM = [
     "PLACEHOLDER\n Can you summarize this GitHub Pull Request for me and suggest possible improvements?",
     'Human: Summarize the code below (enclosed in the <code> tags) and explain in bullet points what it does. Write the response in markdown format starting with `## Summary`\n\nCode to be summarized:\n<code>\n{code}\n</code>\n\nAssistant:\n',
     "Summarize the following text. Keep the original language in \nwhich the text is written. The summary has to be shorter than the original text. Don't add up or make up\nany information not present in the original text.\nText: {text}",
-
 ]
 
 
