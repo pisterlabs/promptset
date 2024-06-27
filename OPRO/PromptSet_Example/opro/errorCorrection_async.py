@@ -336,7 +336,7 @@ async def opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=8, PROMPTS_PER_STEP=5,
                 print(e)
         
         # Early stopping if the score doesn't improve for 3 consecutive steps
-        if len(best_scores) >= 3:
+        if len(best_scores) > 3:
             print("Best Scores: ", best_scores[-3:])
             if best_scores[-1] == best_scores[-2] == best_scores[-3]:
                 print("Early stopping...")

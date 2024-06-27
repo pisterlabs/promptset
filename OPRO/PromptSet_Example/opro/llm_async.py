@@ -7,6 +7,9 @@ dotenv.load_dotenv()
 DEBUG = True
 
 MODEL_TO_MODELID = {
+    "phi3-14b": "microsoft/Phi-3-medium-4k-instruct",
+    "gemma-7b": "google/gemma-1.1-7b-it",
+    "mistral-7b": "mistralai/Mistral-7B-Instruct-v0.3",
     "llama3-8b": "meta-llama/Meta-Llama-3-8B-Instruct",
     "llama3-70b": "meta-llama/Meta-Llama-3-70B-Instruct",
 }
@@ -44,7 +47,7 @@ async def llm_coroutine(prompt, temperature, max_tokens, model, respond_json):
     return chat_completion.choices[0].message.content, usage
 
 
-async def run_llm_coroutine(prompts, temperature=0.0, max_tokens=8192, model="llama3-8b", respond_json=False, msg=None):
+async def run_llm_coroutine(prompts, temperature=0.0, max_tokens=8192, model="phi3-14b", respond_json=False, msg=None):
     """
     Run the LLM model with the given prompts and temperature. 
     Input: List of prompts, temperature. Output: List of responses.
