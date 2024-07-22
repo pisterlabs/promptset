@@ -367,23 +367,29 @@ Your answer should be inside <BEGIN_CRITERIA> and <END_CRITERIA> constructs.
 <BEGIN_PROMPT> {prompt} <END_PROMPT>
 <BEGIN_EXAMPLE_INPUT> {sample_data} <END_EXAMPLE_INPUT>"""
 
-    res = await run_llm_coroutine([prompt_template], model="llama3-70b")
+    res = await run_llm_coroutine([prompt_template], model="llama3-70b", temperature=1.0)
     res = res[0]
     
     # Extract the scoring prompt
-    for i in range(3):
+    for i in range(10):
         try:
+            # Extract Criteria
             match = re.search(r'<BEGIN_CRITERIA>(.*?)<END_CRITERIA>', res, re.DOTALL)
             assert match is not None, "No match found for <BEGIN_CRITERIA> and <END_CRITERIA> tags"
             extracted_text = match.group(1).strip()
-            extracted_text.format(output="PLACEHOLDER", text="PLACEHOLDER")
-            break
-        except KeyError as e:
-            print(f"KeyError: {e}. Extracted text does not have correct keywords")
+            
+            # Check if extracted text has the correct keywords
+            matches = re.findall(r"{[^}]*}", extracted_text)
+            assert matches is not None, "No matches found for variables in prompt"
+            matches = list(map(lambda x: x.lower(), matches))
+            print(matches)
+            assert "{text}" in matches and "{output}" in matches, "Prompt does not contain the correct keywords"
+            return extracted_text
         except AssertionError as e:
+            print(e, f"Prompt: {extracted_text}")
             print(f"Generating new scoring prompt. Attempt {i+1} failed.")
         
-    return extracted_text
+    return None
 
 
 async def score(prompts, testing_sample, scoring_prompt):

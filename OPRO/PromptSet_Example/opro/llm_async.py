@@ -74,8 +74,6 @@ async def run_llm_coroutine(prompts, temperature=0.0, max_tokens=8192, model="ll
         # print(f"Total Input: {total_input}; Total Output: {total_output}; Total Cost Estimate: {total_cost_estimate}")
         with open("log.txt", "a") as f:
             f.write(f"Total Input: {total_input}; Total Output: {total_output}; Total Cost Estimate: {total_cost_estimate}\n")
-
-        
     
     
     # # Log the responses
