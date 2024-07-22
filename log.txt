@@ -1,0 +1,148 @@
+###### Model: llama3-8b | Temperature: 0.0 | Max Tokens: 8192 | Respond JSON: False ###### - Msg: None 
+$$$ Input: 11; Output: 9, Cost Estimate: 1.2e-06 $$$
+$$$ Input: 11; Output: 4, Cost Estimate: 9.000000000000001e-07 $$$
+$$$ Input: 11; Output: 4, Cost Estimate: 9.000000000000001e-07 $$$
+$$$ Input: 11; Output: 9, Cost Estimate: 1.2e-06 $$$
+$$$ Input: 11; Output: 9, Cost Estimate: 1.2e-06 $$$
+$$$ Input: 11; Output: 12, Cost Estimate: 1.38e-06 $$$
+$$$ Input: 11; Output: 12, Cost Estimate: 1.38e-06 $$$
+$$$ Input: 11; Output: 22, Cost Estimate: 1.98e-06 $$$
+$$$ Input: 11; Output: 12, Cost Estimate: 1.38e-06 $$$
+$$$ Input: 11; Output: 12, Cost Estimate: 1.38e-06 $$$
+$$$ Input: 11; Output: 28, Cost Estimate: 2.34e-06 $$$
+$$$ Input: 11; Output: 9, Cost Estimate: 1.2e-06 $$$
+$$$ Input: 11; Output: 22, Cost Estimate: 1.98e-06 $$$
+$$$ Input: 11; Output: 22, Cost Estimate: 1.98e-06 $$$
+$$$ Input: 11; Output: 22, Cost Estimate: 1.98e-06 $$$
+$$$ Input: 11; Output: 22, Cost Estimate: 1.98e-06 $$$
+$$$ Input: 11; Output: 22, Cost Estimate: 1.98e-06 $$$
+$$$ Input: 11; Output: 22, Cost Estimate: 1.98e-06 $$$
+$$$ Input: 11; Output: 22, Cost Estimate: 1.98e-06 $$$
+$$$ Input: 11; Output: 22, Cost Estimate: 1.98e-06 $$$
+$$$ Input: 11; Output: 22, Cost Estimate: 1.98e-06 $$$
+$$$ Input: 11; Output: 22, Cost Estimate: 1.98e-06 $$$
+$$$ Input: 11; Output: 22, Cost Estimate: 1.98e-06 $$$
+$$$ Input: 11; Output: 22, Cost Estimate: 1.98e-06 $$$
+$$$ Input: 11; Output: 22, Cost Estimate: 1.98e-06 $$$
+$$$ Input: 11; Output: 22, Cost Estimate: 1.98e-06 $$$
+$$$ Input: 11; Output: 22, Cost Estimate: 1.98e-06 $$$
+$$$ Input: 11; Output: 22, Cost Estimate: 1.98e-06 $$$
+$$$ Input: 11; Output: 22, Cost Estimate: 1.98e-06 $$$
+$$$ Input: 11; Output: 22, Cost Estimate: 1.98e-06 $$$
+$$$ Input: 11; Output: 22, Cost Estimate: 1.98e-06 $$$
+$$$ Input: 11; Output: 22, Cost Estimate: 1.98e-06 $$$
+$$$ Input: 11; Output: 22, Cost Estimate: 1.98e-06 $$$
+$$$ Input: 11; Output: 22, Cost Estimate: 1.98e-06 $$$
+$$$ Input: 11; Output: 22, Cost Estimate: 1.98e-06 $$$
+$$$ Input: 11; Output: 22, Cost Estimate: 1.98e-06 $$$
+$$$ Input: 11; Output: 22, Cost Estimate: 1.98e-06 $$$
+$$$ Input: 11; Output: 28, Cost Estimate: 2.34e-06 $$$
+$$$ Input: 11; Output: 22, Cost Estimate: 1.98e-06 $$$
+$$$ Input: 11; Output: 22, Cost Estimate: 1.98e-06 $$$
+$$$ Input: 11; Output: 30, Cost Estimate: 2.46e-06 $$$
+$$$ Input: 11; Output: 22, Cost Estimate: 1.98e-06 $$$
+$$$ Input: 11; Output: 31, Cost Estimate: 2.52e-06 $$$
+$$$ Input: 11; Output: 22, Cost Estimate: 1.98e-06 $$$
+$$$ Input: 11; Output: 22, Cost Estimate: 1.98e-06 $$$
+$$$ Input: 11; Output: 31, Cost Estimate: 2.52e-06 $$$
+$$$ Input: 11; Output: 30, Cost Estimate: 2.46e-06 $$$
+$$$ Input: 11; Output: 30, Cost Estimate: 2.46e-06 $$$
+$$$ Input: 11; Output: 30, Cost Estimate: 2.46e-06 $$$
+$$$ Input: 11; Output: 30, Cost Estimate: 2.46e-06 $$$
+$$$ Input: 11; Output: 31, Cost Estimate: 2.52e-06 $$$
+$$$ Input: 11; Output: 22, Cost Estimate: 1.98e-06 $$$
+$$$ Input: 11; Output: 31, Cost Estimate: 2.52e-06 $$$
+$$$ Input: 11; Output: 31, Cost Estimate: 2.52e-06 $$$
+$$$ Input: 11; Output: 30, Cost Estimate: 2.46e-06 $$$
+$$$ Input: 11; Output: 31, Cost Estimate: 2.52e-06 $$$
+$$$ Input: 11; Output: 31, Cost Estimate: 2.52e-06 $$$
+$$$ Input: 11; Output: 39, Cost Estimate: 3e-06 $$$
+$$$ Input: 11; Output: 38, Cost Estimate: 2.94e-06 $$$
+$$$ Input: 11; Output: 43, Cost Estimate: 3.2399999999999995e-06 $$$
+$$$ Input: 11; Output: 39, Cost Estimate: 3e-06 $$$
+$$$ Input: 10; Output: 47, Cost Estimate: 3.4200000000000003e-06 $$$
+$$$ Input: 11; Output: 38, Cost Estimate: 2.94e-06 $$$
+$$$ Input: 10; Output: 47, Cost Estimate: 3.4200000000000003e-06 $$$
+$$$ Input: 10; Output: 47, Cost Estimate: 3.4200000000000003e-06 $$$
+$$$ Input: 10; Output: 47, Cost Estimate: 3.4200000000000003e-06 $$$
+$$$ Input: 10; Output: 47, Cost Estimate: 3.4200000000000003e-06 $$$
+$$$ Input: 10; Output: 47, Cost Estimate: 3.4200000000000003e-06 $$$
+$$$ Input: 10; Output: 47, Cost Estimate: 3.4200000000000003e-06 $$$
+$$$ Input: 10; Output: 47, Cost Estimate: 3.4200000000000003e-06 $$$
+$$$ Input: 11; Output: 43, Cost Estimate: 3.2399999999999995e-06 $$$
+$$$ Input: 11; Output: 46, Cost Estimate: 3.4199999999999994e-06 $$$
+$$$ Input: 10; Output: 47, Cost Estimate: 3.4200000000000003e-06 $$$
+$$$ Input: 10; Output: 47, Cost Estimate: 3.4200000000000003e-06 $$$
+$$$ Input: 10; Output: 47, Cost Estimate: 3.4200000000000003e-06 $$$
+$$$ Input: 10; Output: 47, Cost Estimate: 3.4200000000000003e-06 $$$
+$$$ Input: 10; Output: 47, Cost Estimate: 3.4200000000000003e-06 $$$
+$$$ Input: 10; Output: 47, Cost Estimate: 3.4200000000000003e-06 $$$
+$$$ Input: 10; Output: 47, Cost Estimate: 3.4200000000000003e-06 $$$
+$$$ Input: 11; Output: 390, Cost Estimate: 2.406e-05 $$$
+Total Input: 865; Total Output: 2630; Total Cost Estimate: 0.00020969999999999997
+###### Model: llama3-8b | Temperature: 0.0 | Max Tokens: 8192 | Respond JSON: False ###### - Msg: None 
+$$$ Input: 29; Output: 2, Cost Estimate: 1.86e-06 $$$
+Total Input: 29; Total Output: 2; Total Cost Estimate: 1.86e-06
+###### Model: llama3-8b | Temperature: 0.0 | Max Tokens: 8192 | Respond JSON: False ###### - Msg: None 
+$$$ Input: 29; Output: 4, Cost Estimate: 1.9799999999999997e-06 $$$
+Total Input: 29; Total Output: 4; Total Cost Estimate: 1.9799999999999997e-06
+###### Model: llama3-8b | Temperature: 0.0 | Max Tokens: 8192 | Respond JSON: False ###### - Msg: None 
+$$$ Input: 215; Output: 129, Cost Estimate: 2.0640000000000002e-05 $$$
+Total Input: 215; Total Output: 129; Total Cost Estimate: 2.0640000000000002e-05
+###### Model: llama3-8b | Temperature: 0.0 | Max Tokens: 8192 | Respond JSON: False ###### - Msg: None 
+$$$ Input: 203; Output: 110, Cost Estimate: 1.878e-05 $$$
+Total Input: 203; Total Output: 110; Total Cost Estimate: 1.878e-05
+###### Model: llama3-8b | Temperature: 0.0 | Max Tokens: 8192 | Respond JSON: False ###### - Msg: None 
+$$$ Input: 204; Output: 102, Cost Estimate: 1.836e-05 $$$
+Total Input: 204; Total Output: 102; Total Cost Estimate: 1.836e-05
+###### Model: llama3-8b | Temperature: 0.0 | Max Tokens: 8192 | Respond JSON: False ###### - Msg: None 
+$$$ Input: 204; Output: 146, Cost Estimate: 2.1000000000000002e-05 $$$
+Total Input: 204; Total Output: 146; Total Cost Estimate: 2.1000000000000002e-05
+###### Model: llama3-8b | Temperature: 0.0 | Max Tokens: 8192 | Respond JSON: False ###### - Msg: None 
+$$$ Input: 204; Output: 67, Cost Estimate: 1.626e-05 $$$
+Total Input: 204; Total Output: 67; Total Cost Estimate: 1.626e-05
+###### Model: llama3-70b | Temperature: 0.0 | Max Tokens: 8192 | Respond JSON: False ###### - Msg: None 
+$$$ Input: 204; Output: 30, Cost Estimate: 0.00012858 $$$
+Total Input: 204; Total Output: 30; Total Cost Estimate: 0.00012858
+###### Model: llama3-70b | Temperature: 0.0 | Max Tokens: 8192 | Respond JSON: False ###### - Msg: None 
+$$$ Input: 204; Output: 33, Cost Estimate: 0.00013083 $$$
+Total Input: 204; Total Output: 33; Total Cost Estimate: 0.00013083
+###### Model: llama3-70b | Temperature: 0.0 | Max Tokens: 8192 | Respond JSON: False ###### - Msg: None 
+$$$ Input: 204; Output: 33, Cost Estimate: 0.00013083 $$$
+Total Input: 204; Total Output: 33; Total Cost Estimate: 0.00013083
+###### Model: llama3-70b | Temperature: 0.0 | Max Tokens: 8192 | Respond JSON: False ###### - Msg: None 
+$$$ Input: 217; Output: 32, Cost Estimate: 0.00013683999999999997 $$$
+Total Input: 217; Total Output: 32; Total Cost Estimate: 0.00013683999999999997
+###### Model: llama3-70b | Temperature: 0.0 | Max Tokens: 8192 | Respond JSON: False ###### - Msg: None 
+$$$ Input: 217; Output: 32, Cost Estimate: 0.00013683999999999997 $$$
+Total Input: 217; Total Output: 32; Total Cost Estimate: 0.00013683999999999997
+###### Model: llama3-70b | Temperature: 0.0 | Max Tokens: 8192 | Respond JSON: False ###### - Msg: None 
+$$$ Input: 224; Output: 31, Cost Estimate: 0.00013973 $$$
+Total Input: 224; Total Output: 31; Total Cost Estimate: 0.00013973
+###### Model: llama3-70b | Temperature: 0.0 | Max Tokens: 8192 | Respond JSON: False ###### - Msg: None 
+$$$ Input: 233; Output: 56, Cost Estimate: 0.00016316 $$$
+Total Input: 233; Total Output: 56; Total Cost Estimate: 0.00016316
+###### Model: llama3-70b | Temperature: 0.0 | Max Tokens: 8192 | Respond JSON: False ###### - Msg: None 
+$$$ Input: 233; Output: 65, Cost Estimate: 0.00016991 $$$
+Total Input: 233; Total Output: 65; Total Cost Estimate: 0.00016991
+###### Model: llama3-70b | Temperature: 0.0 | Max Tokens: 8192 | Respond JSON: False ###### - Msg: None 
+$$$ Input: 224; Output: 31, Cost Estimate: 0.00013973 $$$
+Total Input: 224; Total Output: 31; Total Cost Estimate: 0.00013973
+###### Model: llama3-70b | Temperature: 0.0 | Max Tokens: 8192 | Respond JSON: False ###### - Msg: None 
+$$$ Input: 223; Output: 31, Cost Estimate: 0.00013921 $$$
+Total Input: 223; Total Output: 31; Total Cost Estimate: 0.00013921
+###### Model: llama3-70b | Temperature: 0.0 | Max Tokens: 8192 | Respond JSON: False ###### - Msg: None 
+$$$ Input: 223; Output: 31, Cost Estimate: 0.00013921 $$$
+Total Input: 223; Total Output: 31; Total Cost Estimate: 0.00013921
+###### Model: llama3-70b | Temperature: 0.0 | Max Tokens: 8192 | Respond JSON: False ###### - Msg: None 
+$$$ Input: 223; Output: 31, Cost Estimate: 0.00013921 $$$
+Total Input: 223; Total Output: 31; Total Cost Estimate: 0.00013921
+###### Model: llama3-70b | Temperature: 0.0 | Max Tokens: 8192 | Respond JSON: False ###### - Msg: None 
+$$$ Input: 223; Output: 31, Cost Estimate: 0.00013921 $$$
+Total Input: 223; Total Output: 31; Total Cost Estimate: 0.00013921
+###### Model: llama3-70b | Temperature: 0.0 | Max Tokens: 8192 | Respond JSON: False ###### - Msg: None 
+$$$ Input: 223; Output: 31, Cost Estimate: 0.00013921 $$$
+Total Input: 223; Total Output: 31; Total Cost Estimate: 0.00013921
+###### Model: llama3-70b | Temperature: 0.0 | Max Tokens: 8192 | Respond JSON: False ###### - Msg: None 
+$$$ Input: 223; Output: 31, Cost Estimate: 0.00013921 $$$
+Total Input: 223; Total Output: 31; Total Cost Estimate: 0.00013921

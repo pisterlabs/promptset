@@ -1,0 +1,84 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>graph</th>
+      <th>initial_prompt</th>
+      <th>category</th>
+      <th>initial_train_score</th>
+      <th>initial_test_score</th>
+      <th>optimized_prompt</th>
+      <th>optimized_train_score</th>
+      <th>optimized_test_score</th>
+      <th>initia_prompt_trueDataset</th>
+      <th>optimized_prompt_trueDataset</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>3</th>
+      <td><img src="graphs/3.png" alt="img"></td>
+      <td>Reformat the following transcript into Markdown, bolding the speakers. Combine consecutive lines from speakers, and split into paragraphs as necessary. Try to fix speaker labels, capitalization or transcription errors, and make light edits such as removing ums, etc. There is some Danish, please italicize the Danish sentences. Reply with only the corrected transcript as we will be using your output programmatically:\n\n{TEXT}</td>
+      <td>error_correction</td>
+      <td>38.974071</td>
+      <td>33.926701</td>
+      <td>\n\nAs a virtuosic transcriptionist, your mission is to meticulously craft a flawless, error-free Markdown transcript, upholding the apex of accuracy, readability, and consistency. To accomplish this, fastidiously follow these rigorously calibrated, step-by-step instructions:\n\n1. Identify the speakers in the transcript and enclose their names in bold formatting using double asterisks (`**`) to provide unmistakable attribution, distinctiveness, and clarity.\n2. Consolidate consecutive lines from each speaker into a single, coherent block of text, ensuring a seamless flow of conversation, logical paragraph structure, and effortless comprehension, while maintaining the original tone, intent, and narrative flow.\n3. Scrutinize the transcript for speaker label errors, capitalization mistakes, and transcription inaccuracies, making precise corrections, light, judicious edits, and subtle refinements to enhance readability, overall quality, and linguistic accuracy, while preserving the original grammar, intent, and tone.\n4. Perform an exhaustive quality control to remove filler words (e.g., "ums"), unnecessary phrases, and minor imperfections, while maintaining the original tone, intent, and grammar, ensuring a natural flow, clarity, and nuanced reading experience.\n5. When encountering Danish sentences, italicize them using single asterisks (`*`) to maintain consistency, clarity, and highlight linguistic diversity, ensuring a rich, polished, and refined reading experience.\n6. Finally, review the transcript meticulously to ensure precision, attention to detail, and unwavering adherence to these instructions, making any necessary adjustments to deliver a polished, error-free Markdown transcript that surpasses expectations.\n\nYour output will be utilized programmatically, so precision, attention to detail, and adherence to these instructions are of paramount importance. Failure to comply may result in penalties.\n\nPlease provide the corrected transcript, sans additional information or explanations, as follows:\n\n{TEXT}\n\n</td>
+      <td>79.577803</td>
+      <td>78.005586</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td><img src="graphs/2.png" alt="img"></td>
+      <td>Correct the grammar in the sentence: {TEXT}</td>
+      <td>error_correction</td>
+      <td>14.507876</td>
+      <td>15.149828</td>
+      <td>\n    ### Instruction ###\n    Imagine you are a grammar corrector, and your task is to correct the grammar in a given sentence.\n\n    ### Example ###\n    Input: "The dog chased it's tail."\n    Output: "The dog chased its tail."\n\n    Correct the grammar in the sentence: {TEXT}\n\n    (Please respond with your corrected sentence, and I will let you know if it is correct or not.)\n</td>
+      <td>52.478509</td>
+      <td>52.583822</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td><img src="graphs/4.png" alt="img"></td>
+      <td>Please fix the grammatical errors in this English translation of Bhagavad Gita. You should only fix the grammatical errors and any other inconsistencies. Do not change the meaning.\n\n{TEXT}</td>
+      <td>error_correction</td>
+      <td>29.138642</td>
+      <td>29.847089</td>
+      <td>\n\n###Precision Refinement Task###\n\nYour objective is to meticulously refine the English translation of the Bhagavad Gita, ensuring it is error-free and easy to understand. To achieve this, you will correct grammatical errors and inconsistencies while preserving the original meaning, tone, and language style.\n\nTo guarantee accuracy and coherence, follow these guidelines:\n\n* Correct solely grammatical errors and inconsistencies; do not alter the content's tone or meaning.\n* Maintain the original writing style and language to ensure a fluent and natural response.\n* Think step by step and provide a coherent and fluent response, as if you were rewriting the text yourself.\n\n###Corrected Output###\nBegin your rewritten text with "! The corrected text is: " and provide the corrected version of the input text.\n\n{TEXT}\n\n</td>
+      <td>59.931339</td>
+      <td>65.618292</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td><img src="graphs/0.png" alt="img"></td>
+      <td>Please format the following raw transcript for readability, including punctuation, speaker labels (look for semicolons after names), and spacing. Remove filler words:\n\n{TEXT}\n</td>
+      <td>error_correction</td>
+      <td>24.971800</td>
+      <td>25.398970</td>
+      <td>\n\n###Task Guidelines###\n\nTo ensure a high-quality output, please follow these step-by-step instructions:\n\n1. **Readability**: Format the transcript for easy reading, including proper punctuation, correct capitalization, and consistent spacing.\n2. **Speaker Labels**: Identify and label speakers using semicolons after their names (e.g., "John;").\n3. **Remove Filler Words**: Eliminate unnecessary words and phrases that do not add meaning to the conversation.\n\n###Example of a Well-Formatted Transcript###\n"John;: I think we should consider the data. Jane;: But we need to think about the cost too."\n\n###Your Task###\nPlease apply these guidelines to the following raw transcript, ensuring your answer is unbiased and does not rely on stereotypes. Your response should start with "Formatted Transcript:".\n\n{TEXT}\n\n</td>
+      <td>58.342438</td>
+      <td>57.784979</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td><img src="graphs/1.png" alt="img"></td>
+      <td>You are a helpful assistant for Aidan. Your task is to correct any spelling discrepancies in the transcribed text. Only add necessary punctuation such as periods, commas, and capitalization, and use only the context provided. You can not generate text based on the input, you may only correct the input punctuationally and grammatically. If the transcribed text is blank then do not return anything\n\n{TEXT}</td>
+      <td>error_correction</td>
+      <td>64.164580</td>
+      <td>65.218775</td>
+      <td>\n###Instruction###\nYou are a helpful assistant for Aidan. Your task is to correct any spelling discrepancies in the transcribed text. You MUST only add necessary punctuation such as periods, commas, and capitalization, and use only the context provided. You will be penalized if you generate text based on the input. Do correct the input punctuationally and grammatically. If the transcribed text is blank, do not return anything.\n\n###Input###\n{TEXT}\n</td>
+      <td>70.280941</td>
+      <td>71.299593</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+  </tbody>
+</table>

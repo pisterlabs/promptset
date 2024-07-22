@@ -1,0 +1,84 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>graph</th>
+      <th>initial_prompt</th>
+      <th>category</th>
+      <th>initial_train_score</th>
+      <th>initial_test_score</th>
+      <th>optimized_prompt</th>
+      <th>optimized_train_score</th>
+      <th>optimized_test_score</th>
+      <th>initia_prompt_trueDataset</th>
+      <th>optimized_prompt_trueDataset</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>3</th>
+      <td><img src="graphs/3.png" alt="img"></td>
+      <td>Reformat the following transcript into Markdown, bolding the speakers. Combine consecutive lines from speakers, and split into paragraphs as necessary. Try to fix speaker labels, capitalization or transcription errors, and make light edits such as removing ums, etc. There is some Danish, please italicize the Danish sentences. Reply with only the corrected transcript as we will be using your output programmatically:\n\n{TEXT}</td>
+      <td>error_correction</td>
+      <td>38.973394</td>
+      <td>33.611734</td>
+      <td>\n\n#### Elite Transcript Reformatting ####\n\nAs a master transcription editor, your task is to craft a flawless Markdown transcript, exemplifying precision, consistency, and exceptional quality. To achieve unparalleled results, rigorously follow the step-by-step guidelines outlined below.\n\n**Step 1: Precise Speaker Identification**\nBold each speaker's name with meticulous accuracy, ensuring clear distinction and attribution.\n\n**Step 2: Logical Line Consolidation**\nCombine consecutive lines from speakers, splitting into paragraphs as necessary to maintain a cohesive and readable structure.\n\n**Step 3: Error-Free Transcription**\nScrutinize the transcript to correct speaker labels, capitalization, and transcription errors, ensuring precision and attention to detail.\n\n**Step 4: Refined Edits**\nMake subtle, nuanced edits to remove filler words (e.g., "ums"), etc., while preserving the original tone, intent, and linguistic integrity.\n\n**Step 5: Linguistic Consistency**\nIdentify and italicize Danish sentences within the transcript, maintaining clarity, consistency, and cultural sensitivity.\n\n**Critical Note:** Your output will be utilized programmatically, so it is essential to ensure accuracy, consistency, and precision throughout the reformatted transcript.\n\nPlease provide the corrected transcript in Markdown format, without any explanations or additional information, in response to the input:\n\n{TEXT}\n\n</td>
+      <td>77.753035</td>
+      <td>72.437934</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td><img src="graphs/0.png" alt="img"></td>
+      <td>Please format the following raw transcript for readability, including punctuation, speaker labels (look for semicolons after names), and spacing. Remove filler words:\n\n{TEXT}\n</td>
+      <td>error_correction</td>
+      <td>25.003554</td>
+      <td>25.274215</td>
+      <td>\n    ###Instruction###\n    Format the following raw transcript for readability by adding punctuation, speaker labels (look for semicolons after names), and spacing. Remove filler words.\n\n    ###Example###\n    Input: "John yes I am; Mary no I'm not"\n    Output: "John: yes, I am;\nMary: no, I'm not"\n\n    ###Question###\n    Format the transcript below:\n\n    {TEXT}\n</td>
+      <td>47.533997</td>
+      <td>50.033212</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td><img src="graphs/1.png" alt="img"></td>
+      <td>You are a helpful assistant for Aidan. Your task is to correct any spelling discrepancies in the transcribed text. Only add necessary punctuation such as periods, commas, and capitalization, and use only the context provided. You can not generate text based on the input, you may only correct the input punctuationally and grammatically. If the transcribed text is blank then do not return anything\n\n{TEXT}</td>
+      <td>error_correction</td>
+      <td>64.164580</td>
+      <td>65.195869</td>
+      <td>\n    ###Instruction###\n    From now and on, whenever you correct transcribed text, generate the corrected text in a single string.\n\n    ###Question###\n    You will be penalized if you generate text beyond correcting punctuation and grammar. You can only correct the input transcribed text punctuationally and grammatically using the context provided. If the transcribed text is blank, do not return anything.\n\n    Please correct the following transcribed text:\n\n    {TEXT}\n</td>
+      <td>82.803151</td>
+      <td>84.158564</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td><img src="graphs/2.png" alt="img"></td>
+      <td>Correct the grammar in the sentence: {TEXT}</td>
+      <td>error_correction</td>
+      <td>14.552759</td>
+      <td>15.192225</td>
+      <td>\n\nHere is a grammar correction expert. I'll carefully analyze the sentence, identify grammatical errors, and correct them using proper grammar rules. Please provide the sentence you'd like me to correct, denoted by {TEXT}. I'll respond with a clear, concise, and natural-sounding correction, as if I were explaining it to a beginner in English grammar. I'll ask questions to clarify any specific grammar rules I'm unsure about. The correction will be provided in a step-by-step manner, and I'll ensure that the tone, style, and meaning of the original sentence are preserved. The corrected sentence is:\n\n</td>
+      <td>31.068682</td>
+      <td>27.571577</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td><img src="graphs/4.png" alt="img"></td>
+      <td>Please fix the grammatical errors in this English translation of Bhagavad Gita. You should only fix the grammatical errors and any other inconsistencies. Do not change the meaning.\n\n{TEXT}</td>
+      <td>error_correction</td>
+      <td>28.856796</td>
+      <td>29.986783</td>
+      <td>\n    Here is the crafted prompt using the 5 principles:\n    ####\n    Answer a question given in a natural, human-like manner: Fix grammatical errors and inconsistencies in the provided English translation of Bhagavad Gita, without changing the original meaning.\n    Begin response: "Corrected translation: "\n    {TEXT}\n    ####\n</td>
+      <td>33.244205</td>
+      <td>32.403805</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+  </tbody>
+</table>

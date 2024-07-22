@@ -47,7 +47,7 @@ async def llm_coroutine(prompt, temperature, max_tokens, model, respond_json):
     return chat_completion.choices[0].message.content, usage
 
 
-async def run_llm_coroutine(prompts, temperature=0.0, max_tokens=8192, model="phi3-14b", respond_json=False, msg=None):
+async def run_llm_coroutine(prompts, temperature=0.0, max_tokens=8192, model="llama3-8b", respond_json=False, msg=None):
     """
     Run the LLM model with the given prompts and temperature. 
     Input: List of prompts, temperature. Output: List of responses.

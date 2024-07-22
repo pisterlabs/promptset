@@ -1,9 +1,9 @@
-from sentence_transformers import SentenceTransformer, util
 import sys, os, json, re, random
 import pandas as pd
 from tqdm.auto import tqdm, trange
 import torch
 from llm_async import run_llm_coroutine
+import sys
 
 INTERPOLATE_VAR = "{TEXT}"
 PWD = "./"
@@ -59,7 +59,7 @@ Follow these tasks step-by-step:
 
 Step 1: Read the entire list of 26 prompt principles. Analyze and explain each one of those 26 prompting principles.
 
-Step 2: Create a prompt using those 26 prompting principles for the following prompt that's delimited by "####". Like the following prompt, make sure the new prompt contains exactly one interpolable variable, "{INTERPOLATE_VAR}".
+Step 2: Create a prompt using those 26 prompting principles for the following prompt that's delimited by "####". Like the following prompt, make sure the new prompt contains exactly one interpolable variable "{INTERPOLATE_VAR}".
 
 ####
 {CHOSEN_PROMPT}
@@ -74,9 +74,7 @@ Example JSON object:
 }}
 
 Take a deep breath and work on this problem step-by-step. Return only the JSON object with the keys "step1" and "step2", and nothing else. Nothing but JSON."""
-    def has_correct_keywords(s):
-        extract_keys = lambda x: re.findall(r'{(.*?)}', x)
-        return extract_keys(s) == [INTERPOLATE_VAR[1:-1]]
+    has_correct_keywords = lambda prompt: re.findall(r"{(.*?)}", prompt) == [INTERPOLATE_VAR[1:-1]]
     new_prompts = [CHOSEN_PROMPT]  # The SEED PROMPTS INCLUDES THE CHOSEN PROMPT
     pbar = tqdm(total=request_count, desc="Generating Seed Prompts")
     pbar.update(1)  # Update the progress bar for the chosen prompt
@@ -96,7 +94,7 @@ Take a deep breath and work on this problem step-by-step. Return only the JSON o
             )
             prompts.append(prompt)
 
-        responses = await run_llm_coroutine(prompts, temperature=1.0, model="llama3-70b")
+        responses = await run_llm_coroutine(prompts, temperature=1.0, model="llama3-70b", msg="Generating Seed Prompts - 20 calls")
         for res in responses:
             try:
                 new_prompt = eval(res)["step2"]
@@ -117,21 +115,21 @@ def check_and_reformat(prompt):
     Checks if prompt is valid. If prompt is valid, returns a slightly modified prompt that can be evaluated and optimized.
     """
     pattern1 = r"{[^}]*}"
-    pattern2 = r"PLACEHOLDER"
+    pattern2 = "PLACEHOLDER"
     matches1 = re.findall(pattern1, prompt)
-    matches2 = re.findall(pattern2, prompt.upper())
-    if not (len(matches1) == 1 or len(matches2) == 1):
+    condition1 = len(matches1) == 1 
+    condition2 = prompt.count(pattern2) == 1
+    
+    if not condition1 and not condition2:
         print(prompt)
     
-    assert (
-        len(matches1) == 1 or len(matches2) == 1
-    ), "Invalid prompt format. Prompt must contain some str/var to be interpolated."
-
     # Reformat the prompt
-    if len(matches1) == 1:
-        return prompt.replace(matches1[0], INTERPOLATE_VAR)
-    else:
-        return prompt.replace(matches2[0], INTERPOLATE_VAR)
+    if condition1:
+        return prompt.replace(matches1[0], "{TEXT}")
+    elif condition2:
+        return prompt.replace(pattern2, "{TEXT}")
+    
+    raise ValueError("Invalid prompt format. Prompt must contain some str/var to be interpolated.")
 
 
 # Generate a question and answer pair using a language model
@@ -158,25 +156,22 @@ Text is to be interpolated in the prompt. Response is the expected response to t
 Generate text and response that is in the format shown above and highly relevant to the prompt. Make sure the values to "text" and "response" are string values.
 Take a deep breath and think step-by-step. Respond with only the JSON object! Nothing but JSON.
 
-DO NOT include any text-response pairs with one of the following texts:
-{texts}
-
-RESPOND ONLY A SINGLE text and response pair. Nothing but JSON.
+Do not respond with any of the following texts:
+{prev_texts}
 """
         data_pairs = []
         unique_data = set()
 
         pbar = tqdm(total=request_count, desc="Generating Synthetic Data")
         while len(data_pairs) < request_count:
-            response = await run_llm_coroutine([SYNTH_DATA_GEN_PROMPT.format(CHOSEN_PROMPT=CHOSEN_PROMPT, texts=[data["text"] for data in data_pairs]) for _ in range(request_count)], temperature=1.0, model="llama3-70b")
+            data_gen_prompt = SYNTH_DATA_GEN_PROMPT.format(CHOSEN_PROMPT=CHOSEN_PROMPT, prev_texts=unique_data)
+            response = await run_llm_coroutine([data_gen_prompt for _ in range(request_count)], temperature=1.0, model="llama3-70b", respond_json=True, msg="Generating Synthetic Data - 100 calls")
             for res in response:
                 try:
                     # Checking if the response is valid
                     data = json.loads(res)
-                    # data["text"], data["response"]  # Check if the keys are present
-                    assert data["text"] not in unique_data and data["response"] not in unique_data
+                    assert data["text"] not in unique_data
                     unique_data.add(data["text"])
-                    unique_data.add(data["response"])
                     data_pairs.append(data)
                     pbar.update(1)
                 except Exception as e:
@@ -199,9 +194,7 @@ RESPOND ONLY A SINGLE text and response pair. Nothing but JSON.
 # Scoring the instruction using the sample
 # Scoring the instruction using the sample
 async def opt_llm(prompt_score_pairs, request_count=8):
-    def has_correct_keywords(s):
-        extract_keys = lambda x: re.findall(r'{(.*?)}', x)
-        return extract_keys(s) == [INTERPOLATE_VAR[1:-1]]
+    has_correct_keywords = lambda prompt: re.findall(r"{(.*?)}", prompt) == [INTERPOLATE_VAR[1:-1]]
     # Format the instruction and score pairs into a string
     pairs_str = ""
     for ins, score in prompt_score_pairs.items():
@@ -218,19 +211,19 @@ based on their scores, where higher scores indicate better quality.
 
 Write your new text that is different from the old ones and has a score as high as possible. Ensure that the generated 
 instruction has "{INTERPOLATE_VAR}" so the user can replace it with the text to be interpolated. Think step by step. 
-Generate only the text. Do not include the scores. Response in JSON format where the keys are "prompt" with a string 
-value of the new instruction that has a score as high as possible, and another key "explanation" with a string value 
-explaining why the instruction will score high. Think step by step. Nothing but JSON. Ensure it's properly formatted.
+Generate only the text. Do not include the scores. Delimit the your suggested text by <BEGIN_ANSWER> and </END_ANSWER>.
 """
     new_prompts = []
     pbar = tqdm(total=request_count, desc="Optimizing")
     while len(new_prompts) < request_count:
-        response = await run_llm_coroutine([prompt for _ in range(request_count)], temperature=1.0, model="llama3-70b")
-        for res in response:
+        responses = await run_llm_coroutine([prompt for _ in range(request_count)], temperature=1.0, model="llama3-70b", msg="Optimizing - 20 calls")
+        for res in responses:
             try:
-                new_prompt = eval(res)["prompt"]
-                assert has_correct_keywords(new_prompt)
-                new_prompts.append(new_prompt)
+                match = re.search(r'<BEGIN_ANSWER>(.*?)</END_ANSWER>', res, re.DOTALL)
+                assert match is not None, "No match found for <BEGIN_ANSWER> and </END_ANSWER> tags"
+                extracted_text = match.group(1)
+                assert has_correct_keywords(extracted_text), "Extracted text does not have correct keywords"
+                new_prompts.append(extracted_text)
                 pbar.update(1)
             except Exception as e:
                 # print(e)
@@ -239,130 +232,194 @@ explaining why the instruction will score high. Think step by step. Nothing but 
     return new_prompts[:request_count]
 
 
-async def score(prompts, testing_sample):
+# async def score(prompts, testing_sample):
+#     """
+#     Score the instruction using the sample.
+
+#     Args:
+#     instruction: str
+#     sample: Dataset with "text" and "response" as keys
+
+#     Returns:
+#     accuracy: float
+#     """
+#     scoring_prompt_template = """You are an AI trained to evaluate the quality of responses to prompts.
+
+# You will be given a prompt, an example response and an actual response. Your task is to assess the quality of the actual response in relation to the prompt.
+
+# Please use the following scale for your evaluation:
+# - "good" if the response perfectly answers the prompt.
+# - "bad" if the response does not answer the prompt well.
+
+# Be strict when evaluating the actual response. Only respond with "good" if there aren't any better possible responses to the prompt.
+# Use the information provided in the prompt and example response to evaluate the actual response. The actual response should be judged based on its accuracy, relevance, and coherence. It need not be semantically identical to the example response, but it should address the same core ideas.
+# Hint: Consider the relevance, coherence, and correctness of the response. 
+
+# The prompt and responses pair will be delimited by "####". 
+
+# Here are a few examples:
+
+# ####
+# Prompt: What is the capital of France?
+# Example Response: The capital of France is Paris.
+# Actual Response: The capital of France is Paris.
+# ####
+# Your output should be: good
+
+# ####
+# Prompt: Can you explain the theory of relativity? 
+# Example Response: The theory of relativity, developed by Albert Einstein, is a fundamental concept in modern physics that has revolutionized our understanding of space, time, and gravity. In essence, the theory states that the laws of physics are the same everywhere in the universe and that the passage of time and the length of objects can vary depending on their speed and position in a gravitational field. Specifically, special relativity reveals that time appears to slow down and objects appear shorter to an observer when they are in motion relative to the observer, while general relativity shows that gravity is not a force, but rather the curvature of spacetime caused by massive objects, which warps the fabric of spacetime and affects the motion of other objects.
+# Actual Response: The theory of relativity, proposed by Albert Einstein, states that the laws of physics are the same for all non-accelerating observers. It also introduced the concept of space-time.
+# ####
+# Output: good
+# (This actual response is good, but it could be improved by providing more detail or examples.)
+
+# ####
+# Prompt: Who wrote the novel "1984"?
+# Example Response: The novel "1984" was written by George Orwell.
+# Actual Response: It was written by a British author.
+# ####
+# Output: bad
+# (This actual response is bad, but it lacks detail. The name of the author, George Orwell, is missing.)
+
+# ####
+# Prompt: What is photosynthesis?
+# Example Response: Photosynthesis is the process by which green plants, algae, and some bacteria convert light energy, usually from the sun, into chemical energy stored in glucose molecules. This process involves the absorption of light by chlorophyll, a green pigment found in chloroplasts, and the subsequent conversion of carbon dioxide and water into glucose and oxygen. Photosynthesis is essential for life on Earth as it produces oxygen and provides a source of energy for organisms that cannot produce their own food.
+# Actual Response: It's a process related to plants.
+# ####
+# Output: bad
+# (This actual response is bad because it barely answers the prompt and lacks any meaningful detail.)
+
+# ####
+# Prompt: How many planets are there in our solar system?
+# Example Response: There are eight planets in our solar system: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.
+# Actual Response: Shakespeare wrote many plays.
+# ####
+# Output: bad
+# (This actual response is bad because it does not answer the prompt at all.)
+
+# Now, let's try with a new pair:
+
+# ####
+# Prompt: {prompt}
+# Example Response: {example_response}
+# Actual Response: {actual_response}
+# ####
+
+# Respond with either "good" or "bad". Nothing else should be included in the output.
+# """
+#     prompt_score_pairs = {}
+#     for prompt in tqdm(prompts, desc="Scoring"):
+#         accuracy = 0
+#         prompt_interpolated = [prompt.format(TEXT=data_pair["text"]) for data_pair in testing_sample]
+#         generated_response = await run_llm_coroutine(prompt_interpolated, temperature=0.0, msg="Scoring - 30 calls mostly")
+#         assert len(generated_response) == len(testing_sample)
+        
+#         # Scoring the responses for the interpolated prompts using an LLM as a judge
+#         scoring_prompts = []
+#         for i in range(len(generated_response)):
+#             scoring_prompt = scoring_prompt_template.format(prompt=prompt, example_response=testing_sample[i]["response"], actual_response=generated_response[i])
+#             scoring_prompts.append(scoring_prompt)
+#         scoring_responses = await run_llm_coroutine(scoring_prompts, temperature=0.0, max_tokens=2, model="llama3-70b")
+        
+#         # Prompt the LLM to rescore for responses with improper formatting
+#         scores = []
+#         try_again_prompts = []
+#         RESCORING_LIMIT = 10
+#         for _ in range(RESCORING_LIMIT):
+#             if len(scores) == len(generated_response):
+#                 break
+            
+#             print(scores)
+#             print(scoring_responses)
+#             try_again_prompts = []
+#             for i in range(len(scoring_responses)):
+#                 output = scoring_responses[i].strip().lower()
+#                 if "good" in output:
+#                     scores.append(1)
+#                 elif "bad" in output:
+#                     scores.append(0)
+#                 else:
+#                     try_again_prompts.append(scoring_prompts[i])
+                    
+#             scoring_responses = await run_llm_coroutine(try_again_prompts, temperature=0.0, max_tokens=2, model="llama3-70b")
+
+#         assert (len(scores) + len(try_again_prompts)) == len(generated_response)
+#         accuracy = sum(scores)
+#         prompt_score_pairs[prompt] = accuracy / (len(testing_sample) - len(try_again_prompts)) * 100
+
+#     return prompt_score_pairs
+
+async def create_scoring_prompt(prompt, sample_data):
+    """
+    Given a prompt and sample data, generates a scoring prompt for the prompt.
+    """    
+    prompt_template = f"""Write a scoring prompt for an example input output pair on a prompt to a language model. 
+Use the variable name output for the output of the prompt. The scoring prompt must contain the output variable and text variable.
+Your answer should be inside <BEGIN_CRITERIA> and <END_CRITERIA> constructs.
+
+## Example:
+<BEGIN_PROMPT> 'what is a fruit of color: {{TEXT}}. Return the name of the fruit and nothing else:' <END_PROMPT>
+<BEGIN_EXAMPLE_INPUT> {{"text": "yellow", "output": "banana"}} <END_EXAMPLE_INPUT>
+<BEGIN_CRITERIA> Is a ${{output}} this color: ${{text}}? Answer yes or no only. <END_CRITERIA>
+
+## Query:
+<BEGIN_PROMPT> {prompt} <END_PROMPT>
+<BEGIN_EXAMPLE_INPUT> {sample_data} <END_EXAMPLE_INPUT>"""
+
+    res = await run_llm_coroutine([prompt_template], model="llama3-70b")
+    res = res[0]
+    
+    # Extract the scoring prompt
+    for i in range(3):
+        try:
+            match = re.search(r'<BEGIN_CRITERIA>(.*?)<END_CRITERIA>', res, re.DOTALL)
+            assert match is not None, "No match found for <BEGIN_CRITERIA> and <END_CRITERIA> tags"
+            extracted_text = match.group(1).strip()
+            extracted_text.format(output="PLACEHOLDER", text="PLACEHOLDER")
+            break
+        except KeyError as e:
+            print(f"KeyError: {e}. Extracted text does not have correct keywords")
+        except AssertionError as e:
+            print(f"Generating new scoring prompt. Attempt {i+1} failed.")
+        
+    return extracted_text
+
+
+async def score(prompts, testing_sample, scoring_prompt):
     """
     Score the instruction using the sample.
 
     Args:
     instruction: str
-    sample: Dataset with "text" and "response" as keys
+    sample: Dataset with "question" and "answer" as keys
 
     Returns:
     accuracy: float
     """
-    scoring_prompt_template = """You are an AI trained to evaluate the quality of responses to prompts.
-
-You will be given a prompt, an example response and an actual response. Your task is to assess the quality of the actual response in relation to the prompt.
-
-Please use the following scale for your evaluation:
-- "good" if the response perfectly answers the prompt.
-- "bad" if the response does not answer the prompt well.
-
-Be strict when evaluating the actual response. Only respond with "good" if there aren't any better possible responses to the prompt.
-Use the information provided in the prompt and example response to evaluate the actual response. The actual response should be judged based on its accuracy, relevance, and coherence. It need not be semantically identical to the example response, but it should address the same core ideas.
-Hint: Consider the relevance, coherence, and correctness of the response. 
-
-The prompt and responses pair will be delimited by "####". 
-
-Here are a few examples:
-
-####
-Prompt: What is the capital of France?
-Example Response: The capital of France is Paris.
-Actual Response: The capital of France is Paris.
-####
-Your output should be: good
-
-####
-Prompt: Can you explain the theory of relativity? 
-Example Response: The theory of relativity, developed by Albert Einstein, is a fundamental concept in modern physics that has revolutionized our understanding of space, time, and gravity. In essence, the theory states that the laws of physics are the same everywhere in the universe and that the passage of time and the length of objects can vary depending on their speed and position in a gravitational field. Specifically, special relativity reveals that time appears to slow down and objects appear shorter to an observer when they are in motion relative to the observer, while general relativity shows that gravity is not a force, but rather the curvature of spacetime caused by massive objects, which warps the fabric of spacetime and affects the motion of other objects.
-Actual Response: The theory of relativity, proposed by Albert Einstein, states that the laws of physics are the same for all non-accelerating observers. It also introduced the concept of space-time.
-####
-Output: good
-(This actual response is good, but it could be improved by providing more detail or examples.)
-
-####
-Prompt: Who wrote the novel "1984"?
-Example Response: The novel "1984" was written by George Orwell.
-Actual Response: It was written by a British author.
-####
-Output: bad
-(This actual response is bad, but it lacks detail. The name of the author, George Orwell, is missing.)
-
-####
-Prompt: What is photosynthesis?
-Example Response: Photosynthesis is the process by which green plants, algae, and some bacteria convert light energy, usually from the sun, into chemical energy stored in glucose molecules. This process involves the absorption of light by chlorophyll, a green pigment found in chloroplasts, and the subsequent conversion of carbon dioxide and water into glucose and oxygen. Photosynthesis is essential for life on Earth as it produces oxygen and provides a source of energy for organisms that cannot produce their own food.
-Actual Response: It's a process related to plants.
-####
-Output: bad
-(This actual response is bad because it barely answers the prompt and lacks any meaningful detail.)
-
-####
-Prompt: How many planets are there in our solar system?
-Example Response: There are eight planets in our solar system: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.
-Actual Response: Shakespeare wrote many plays.
-####
-Output: bad
-(This actual response is bad because it does not answer the prompt at all.)
-
-Now, let's try with a new pair:
-
-####
-Prompt: {prompt}
-Example Response: {example_response}
-Actual Response: {actual_response}
-####
-
-Respond with either "good" or "bad". Nothing else should be included in the output.
-"""
     prompt_score_pairs = {}
     for prompt in tqdm(prompts, desc="Scoring"):
         accuracy = 0
         prompt_interpolated = [prompt.format(TEXT=data_pair["text"]) for data_pair in testing_sample]
-        generated_response = await run_llm_coroutine(prompt_interpolated, temperature=0.0)
-        assert len(generated_response) == len(testing_sample)
-        
-        # Scoring the responses for the interpolated prompts using an LLM as a judge
-        scoring_prompts = []
+        generated_response = await run_llm_coroutine(prompt_interpolated, temperature=0.0, msg="Scoring - 30 calls mostly")
+        scoring_prompt_interpolated = [scoring_prompt.format(output=generated_response[i], text=data_pair["text"]) for i, data_pair in enumerate(testing_sample)]
+        prompt_scores = await run_llm_coroutine(scoring_prompt_interpolated, temperature=0.0, model="llama3-70b", max_tokens=5, msg="Scoring - 30 calls mostly")
+        print(prompt_scores)
+        assert len(generated_response) == len(testing_sample) == len(scoring_prompt_interpolated)
         for i in range(len(generated_response)):
-            scoring_prompt = scoring_prompt_template.format(prompt=prompt, example_response=testing_sample[i]["response"], actual_response=generated_response[i])
-            scoring_prompts.append(scoring_prompt)
-        scoring_responses = await run_llm_coroutine(scoring_prompts, temperature=0.0, max_tokens=2, model="llama3-70b")
-        
-        # Prompt the LLM to rescore for responses with improper formatting
-        scores = []
-        try_again_prompts = []
-        RESCORING_LIMIT = 10
-        for _ in range(RESCORING_LIMIT):
-            if len(scores) == len(generated_response):
-                break
-            
-            print(scores)
-            print(scoring_responses)
-            try_again_prompts = []
-            for i in range(len(scoring_responses)):
-                output = scoring_responses[i].strip().lower()
-                if "good" in output:
-                    scores.append(1)
-                elif "bad" in output:
-                    scores.append(0)
-                else:
-                    try_again_prompts.append(scoring_prompts[i])
-                    
-            scoring_responses = await run_llm_coroutine(try_again_prompts, temperature=0.0, max_tokens=2, model="llama3-70b")
-
-        assert (len(scores) + len(try_again_prompts)) == len(generated_response)
-        accuracy = sum(scores)
-        prompt_score_pairs[prompt] = accuracy / (len(testing_sample) - len(try_again_prompts)) * 100
+            accuracy += int("yes" in prompt_scores[i].lower())
+        prompt_score_pairs[prompt] = accuracy / len(testing_sample) * 100
 
     return prompt_score_pairs
 
-async def opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=5, PROMPTS_PER_STEP=5, MAX_PROMPT_SCORE_PAIRS=20):
+
+async def opro(CHOSEN_PROMPT, training_sample, scoring_prompt, STEP_COUNT=8, PROMPTS_PER_STEP=5, MAX_PROMPT_SCORE_PAIRS=20):
     # NOTE: MAX_PROMPT_SCORE_PAIRS  Keep the best 20 prompts at any time
     SAVE_PATH_ASYNC = f"{PWD}training_results.json"
     SEED_PROMPTS_PATH = f"{PWD}seed_prompts.json"
-    SEED_PROMPTS_COUNT = 20
+    SEED_PROMPTS_COUNT = 64
     SEED_PROMPTS = None
+    best_scores = []
     
     # loading seed prompts
     if os.path.exists(SEED_PROMPTS_PATH):
@@ -381,13 +438,14 @@ async def opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=5, PROMPTS_PER_STEP=5,
         return results
     else:
         # Scoring the seed prompts
-        prompt_score_pairs = await score(SEED_PROMPTS, training_sample)
+        prompt_score_pairs = await score(SEED_PROMPTS, training_sample, scoring_prompt)
         # Sort by score
         prompt_score_pairs = dict(
             sorted(
                 prompt_score_pairs.items(), key=lambda x: x[1], reverse=True
-            )[:MAX_PROMPT_SCORE_PAIRS]
+            )
         )
+        best_scores.append(max(prompt_score_pairs.values()))
         results = {"0": prompt_score_pairs}
         with open(SAVE_PATH_ASYNC, "w") as f:
             json.dump(results, f)
@@ -410,7 +468,7 @@ async def opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=5, PROMPTS_PER_STEP=5,
                 instructions = await opt_llm(prompt_score_pairs, request_count=PROMPTS_PER_STEP)
 
                 # Scoring the new instructions
-                new_ins_score_pairs = await score(instructions, training_sample)
+                new_ins_score_pairs = await score(instructions, training_sample, scoring_prompt)
                 combined_ins_score_pairs = {**prompt_score_pairs, **new_ins_score_pairs}
                 prompt_score_pairs = dict(
                     sorted(
@@ -423,10 +481,14 @@ async def opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=5, PROMPTS_PER_STEP=5,
                 with open(SAVE_PATH_ASYNC, "w") as f:
                     json.dump(results, f)
                 
-                # Printing the best prompt
+                # Printing the best prompt and score for the current step
+                best_prompt = max(prompt_score_pairs, key=prompt_score_pairs.get)
+                best_score = prompt_score_pairs[best_prompt]
+                best_scores.append(best_score)
+
                 print(f"Step {i} completed.")
-                print(f"Current Best score: {max(prompt_score_pairs.values())}")
-                print(f"Current Best prompt: {max(prompt_score_pairs, key=prompt_score_pairs.get)}")
+                print(f"Current Best score: {best_score}")
+                print(f"Current Best prompt: {best_prompt}")
                 print("\n")
 
                 break
@@ -434,11 +496,19 @@ async def opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=5, PROMPTS_PER_STEP=5,
                 print(e)
             except Exception as e:
                 print(e)
+        
+        # Early stopping if the score doesn't improve for 3 consecutive steps
+
+        if len(best_scores) > 3:
+            print("Best Scores: ", best_scores[-3:])
+            if best_scores[-1] == best_scores[-2] == best_scores[-3]:
+                print("Early stopping...")
+                break
     
     return results
 
 # OPRO for summarization prompts
-async def qarefinement_opro(prompt, cache_dir="0", TRAINING_SAMPLE_SIZE=50, TESTING_SAMPLE_SIZE=100, PROMPTS_PER_STEP=5, STEP_COUNT=5, MAX_PROMPT_SCORE_PAIRS=10):
+async def qarefinement_opro(prompt, cache_dir="0", TRAINING_SAMPLE_SIZE=30, TESTING_SAMPLE_SIZE=70, PROMPTS_PER_STEP=20, STEP_COUNT=15, MAX_PROMPT_SCORE_PAIRS=10):
     global PWD, CHOSEN_PROMPT
     CHOSEN_PROMPT = check_and_reformat(prompt)
     PWD = os.path.join(".", cache_dir) + "/"
@@ -446,6 +516,9 @@ async def qarefinement_opro(prompt, cache_dir="0", TRAINING_SAMPLE_SIZE=50, TEST
     # If dir doesn't exist, create it
     if not os.path.exists(PWD):
         os.mkdir(cache_dir)
+        
+    # Open the file and set sys.stdout to the file object
+    sys.stdout = open(f'{PWD}logs.txt', 'w')
 
     # Generate synthetic data
     synthetic_data = await generate_synthetic_data(
@@ -458,23 +531,33 @@ async def qarefinement_opro(prompt, cache_dir="0", TRAINING_SAMPLE_SIZE=50, TEST
         TRAINING_SAMPLE_SIZE : TRAINING_SAMPLE_SIZE + TESTING_SAMPLE_SIZE
     ]
     
-    # TODO: Remove this later. This is for Testing purposes
-    print(f"Prompt: {CHOSEN_PROMPT}")
-    print(f"Training Sample: {training_sample}")
-
+    # Get Scoring Prompt
+    scoring_prompt = ""
+    if os.path.exists(f"{PWD}scoring_prompt.txt"):
+        with open(f"{PWD}scoring_prompt.txt", "r") as f:
+            scoring_prompt = f.read()
+    else:
+        scoring_prompt = await create_scoring_prompt(CHOSEN_PROMPT, {**testing_sample[0], "output": "PLACEHOLDER"})
+        with open(f"{PWD}scoring_prompt.txt", "w") as f:
+            f.write(scoring_prompt)
+    
     # OPRO
-    opro_results = await opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=STEP_COUNT, PROMPTS_PER_STEP=PROMPTS_PER_STEP, MAX_PROMPT_SCORE_PAIRS=MAX_PROMPT_SCORE_PAIRS)
+    opro_results = await opro(CHOSEN_PROMPT, training_sample, scoring_prompt, STEP_COUNT=STEP_COUNT, PROMPTS_PER_STEP=PROMPTS_PER_STEP, MAX_PROMPT_SCORE_PAIRS=MAX_PROMPT_SCORE_PAIRS)
     best_prompt = max(opro_results[str(len(opro_results)-1)], key=opro_results[str(len(opro_results)-1)].get)
 
     # Comparing the initial prompt with the optimized prompt
     print("Calculating Test Scores...")
     result = {
-        "initial_prompt": await score([CHOSEN_PROMPT], testing_sample),
-        "optimized_prompt": await score([best_prompt], testing_sample),
+        "initial_prompt": await score([CHOSEN_PROMPT], testing_sample, scoring_prompt),
+        "optimized_prompt": await score([best_prompt], testing_sample, scoring_prompt),
     }
 
     # Printing Test Scores
     print("Printing Test Scores:")
     print(f"Initial Prompt Score: {result['initial_prompt']}")
     print(f"Optimized Prompt Score: {result['optimized_prompt']}")
+    
+    # Reset sys.stdout to its original state
+    sys.stdout.close()
+    sys.stdout = sys.__stdout__
     return result
