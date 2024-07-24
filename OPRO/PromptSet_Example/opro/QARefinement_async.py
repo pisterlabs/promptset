@@ -143,9 +143,45 @@ async def generate_synthetic_data(CHOSEN_PROMPT, sample_size=40):
         return text
 
     async def generate_synthetic_datapoint(request_count):
+        data_generation_principles = [
+            "Generate text and response that is in the format shown below and highly relevant to the prompt. Take a deep breath and think step-by-step.",
+            "Think out of the box and generate text and response that is incredibly unique while being relevant to the prompt.",
+            "Generate text and response from the perspective of an expert in the field related to the prompt.",
+            "Create a text and response that reflects the thoughts and feelings of a person directly affected by the prompt.",
+            "Generate text and response that explains the prompt using an analogy from a different domain or field.",
+            "Generate text and response that involves connections between multiple concepts related to the prompt.",
+            "Generate text and response that presents a contrarian view on the prompt, highlighting potential flaws or limitations.",
+            "Think about different scenarios and generate text and response that explores the implications of the prompt in various contexts.",
+            "Create a text and response that applies a theoretical framework or abstract concept to the prompt, providing new insights or perspectives.",
+            "Generate text and response that describes a real-world scenario or application where the prompt is relevant or useful.",  # 10
+            "Consider all aspects of the prompt and generate text and response that addresses each component comprehensively.",
+            "Imagine a conversation between two people discussing the prompt and generate text and response that captures the dialogue.",
+            "Put yourself in the shoes of someone encountering the prompt for the first time and generate text and response that reflects their initial thoughts and questions.",
+            "Reflect on the historical context or background of the prompt and generate text and response that incorporates relevant historical information.",
+            "Apply a creative or artistic lens to the prompt and generate text and response that is imaginative and visually engaging.",
+            "Zoom in on a specific detail or aspect of the prompt and generate text and response that explores it in depth.",
+            "Zoom out to a broader perspective and generate text and response that considers the larger implications or significance of the prompt.",
+            "Generate text and response that incorporates humor, wit, or satire to add a lighthearted or entertaining element to the prompt.",
+            "Question the assumptions underlying the prompt and generate text and response that challenges or reconsiders those assumptions.",
+            "Explore the prompt from a cross-cultural or global perspective and generate text and response that considers how different cultures or societies might interpret it.",  # 20
+            "Think about the ethical implications of the prompt and generate text and response that addresses the ethical considerations involved.",
+            "Consider the prompt from a scientific or technical standpoint and generate text and response that applies scientific principles or technical knowledge to the prompt.",
+            "Put yourself in the position of an educator teaching a class about the prompt and generate text and response. Text is to be interpolated in the prompt. Response is the expected response to the prompt with the text interpolated.",
+            "Apply a philosophical or theoretical framework to the prompt and generate text and response that explores the philosophical implications or theoretical underpinnings of the prompt.",
+            "Juxtapose the prompt with a seemingly unrelated concept or idea and generate text and response that draws connections between the two.",
+            "Keep the prompt in mind and generate text and response that is highly relevant to the prompt. Think step by step.",
+            "Look at the prompt from a different angle and generate text and response that offers a fresh perspective or new insights.",
+            "X-ray the prompt and generate text and response that delves deep into the core of the prompt, uncovering hidden meanings or underlying assumptions.",
+            "Create a text and response that is engaging and thought-provoking, encouraging the reader to think critically about the prompt.",
+            "Navigate the complexities of the prompt and generate text and response that navigates the complexities of the prompt, providing clarity and insight.",  # 30
+        ]
+        
+        
         SYNTH_DATA_GEN_PROMPT = """You are a helpful assistant designed to generate synthetic data for the prompt: "{CHOSEN_PROMPT}".
 Please generate a text and response pair for the prompt. Text is to be interpolated in the prompt. Response is the expected response to the prompt with the text interpolated.
-Ensure that the text is delimited by <BEGIN_TEXT> and <END_TEXT> and the response is delimited by <BEGIN_RESPONSE> and <END_RESPONSE>. Generate text and response that is in the format shown below and highly relevant to the prompt. Take a deep breath and think step-by-step.
+Ensure that the text is delimited by <BEGIN_TEXT> and <END_TEXT> and the response is delimited by <BEGIN_RESPONSE> and <END_RESPONSE>. 
+
+{prompt_guide}
 
 ## Example Format:
 <BEGIN_PROMPT> This is the prompt provided <END_PROMPT>
@@ -160,12 +196,13 @@ Ensure that the text is delimited by <BEGIN_TEXT> and <END_TEXT> and the respons
 
         pbar = tqdm(total=request_count, desc="Generating Synthetic Data")
         attempt_count = 0
-        while len(data_pairs) < request_count and attempt_count < 50:
+        while len(data_pairs) < request_count and attempt_count < 25:
             attempt_count += 1
             print(f"Attempt {attempt_count} made.")
-            data_gen_prompt = SYNTH_DATA_GEN_PROMPT.format(CHOSEN_PROMPT=CHOSEN_PROMPT)
-            response = await run_llm_coroutine([data_gen_prompt for _ in range(request_count)], temperature=1.2, model="llama3-70b", msg="Generating Synthetic Data - 100 calls")
-            for res in response:
+            random_principles = [random.choice(data_generation_principles) for _ in range(request_count)]
+            data_gen_prompts = [SYNTH_DATA_GEN_PROMPT.format(CHOSEN_PROMPT=CHOSEN_PROMPT, prompt_guide=random_principles[i]) for i in range(request_count)]
+            response = await run_llm_coroutine(data_gen_prompts, temperature=1.2, model="llama3-70b", msg="Generating Synthetic Data - 100 calls")
+            for i, res in enumerate(response):
                 print(res)
                 try:
                     # Checking if the response is valid
@@ -177,6 +214,8 @@ Ensure that the text is delimited by <BEGIN_TEXT> and <END_TEXT> and the respons
                     assert text not in unique_data, "Data already exists in the set."
                     unique_data.add(text)
                     data_pairs.append({"text": text, "response": response})
+                    # TODO: Reinforcing the prompt principle, maybe???
+                    # data_generation_principles.append(random_principles[i])
                     pbar.update(1)
                 except Exception as e:
                     print(e)
@@ -389,6 +428,7 @@ Use the variable name output for the output of the prompt.
             # Check if extracted text has the correct keywords
             matches = re.findall(r"{[^}]*}", extracted_text)
             assert matches is not None, "No matches found for variables in prompt"
+            assert len(matches) == 2, "Prompt does not contain the correct number of variables"
             for m in matches:
                 if m.lower() == "{text}":
                     extracted_text = extracted_text.replace(m, "{text}")

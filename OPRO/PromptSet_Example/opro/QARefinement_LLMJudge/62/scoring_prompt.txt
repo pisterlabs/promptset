@@ -1,0 +1,1 @@
+Does the output "{output}" correctly parse the array reference "{text}" into the array pointer and index separated by a pipe symbol (|)? Answer yes or no only.

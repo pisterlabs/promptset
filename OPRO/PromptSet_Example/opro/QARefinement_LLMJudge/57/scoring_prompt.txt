@@ -1,0 +1,1 @@
+Does the ${output} accurately evaluate the technical complexity of the code snippet, and does the explanation justify the assigned score of ${output} based on the code provided in ${text}? Answer yes or no only.

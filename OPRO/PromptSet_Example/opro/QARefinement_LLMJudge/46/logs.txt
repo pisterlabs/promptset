@@ -1,0 +1,4112 @@
+Attempt 1 made.
+<BEGIN_TEXT> Generate a Python function to calculate the factorial of a given number <END_TEXT>
+
+<BEGIN_RESPONSE>
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+<END_RESPONSE>
+<BEGIN_TEXT Lowest air quality was detected in New Delhi, India last week <END_TEXT>
+
+<BEGIN_RESPONSE> 
+import pandas as pd
+
+# Assuming data is in csv file
+data = pd.read_csv('air_quality_data.csv')
+
+# Filtering data for New Delhi, India
+new_delhi_data = data[data['City'] == 'New Delhi']
+
+# Finding the lowest air quality recorded last week
+lowest_air_quality = new_delhi_data['Air Quality'].min()
+
+print("Lowest air quality was detected in New Delhi, India last week:", lowest_air_quality)
+-END_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT> Classification ofOdisha handicrafts based on colours and motifs <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+
+# Sample dataset
+data = {
+    'Colour': ['Red', 'Blue', 'Green', 'Red', 'Blue', 'Green', 'Red', 'Blue', 'Green'],
+    'Motif': ['Floral', 'Geometric', 'Abstract', 'Floral', 'Geometric', 'Abstract', 'Floral', 'Geometric', 'Abstract'],
+    'Handicraft': ['Pattachitra', 'Chhau Mask', 'Sambalpuri Saree', 'Pattachitra', 'Chhau Mask', 'Sambalpuri Saree', 'Pattachitra', 'Chhau Mask', 'Sambalpuri Saree']
+}
+
+df = pd.DataFrame(data)
+
+X = df[['Colour', 'Motif']]
+y = df['Handicraft']
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+clf = RandomForestClassifier(random_state=42)
+clf.fit(X_train, y_train)
+
+print("Classification of Odisha handicrafts based on colours and motifs:")
+print(clf.score(X_test, y_test))
+```
+<END_RESPONSE>
+
+This response considers the prompt from a global perspective by using Odisha handicrafts, which are traditional crafts from the Indian state of Odisha, as an example. The code implements a random forest classifier to classify Odisha handicrafts based on their colours and motifs.
+<BEGIN_TEXT> Generate a Python function to calculate the area and perimeter of a rectangle <END_TEXT>
+<BEGIN_RESPONSE> 
+def calculate_rectangle_properties(length, width):
+    area = length * width
+    perimeter = 2 * (length + width)
+    return area, perimeter
+
+print(calculate_rectangle_properties(5, 3)) 
+<END_RESPONSE>
+<BEGIN_TEXT> Generate a Python function to calculate the carbon footprint of a given transportation method <END_TEXT>
+
+<BEGIN_RESPONSE> 
+```
+def calculate_carbon_footprint(distance, transportation_method):
+    """
+    Calculate the carbon footprint of a given transportation method.
+
+    Parameters:
+    distance (float): The distance traveled in miles.
+    transportation_method (str): The type of transportation method (e.g., 'car', 'bus', 'train', 'bike', 'plane').
+
+    Returns:
+    float: The carbon footprint in pounds of CO2 equivalent.
+
+    """
+    emissions_factors = {
+        'car': 0.404,  # pounds CO2e per mile
+        'bus': 0.169,
+        'train': 0.183,
+        'bike': 0.0,
+        'plane': 0.133
+    }
+
+    if transportation_method not in emissions_factors:
+        raise ValueError(f"Unsupported transportation method: {transportation_method}")
+
+    carbon_footprint = distance * emissions_factors[transportation_method]
+    return carbon_footprint
+
+# Example usage:
+distance = 100  # miles
+transportation_method = 'car'
+print(f"The carbon footprint of {distance} miles by {transportation_method} is {calculate_carbon_footprint(distance, transportation_method):.2f} pounds CO2e.")
+```
+<END_RESPONSE>
+<BEGIN_TEXT> I'm a programmer, not a magician. I can only make it work, not make it reappearance <END_TEXT>
+<BEGIN_RESPONSE> 
+```python
+def make_it_reappearance(text):
+    if text == "I'm a programmer, not a magician. I can only make it work, not make it reappearance":
+        return "Abracadabra! The code has reappeared!"
+    else:
+        return "Sorry, no magic here. Only code."
+
+print(make_it_reappearance("I'm a programmer, not a magician. I can only make it work, not make it reappearance"))
+<END_RESPONSE>
+## Example Format:
+<BEGIN_PROMPT> {TEXT}. Provide only code as output. <END_PROMPT>
+<BEGIN_TEXT> ValueError exception handling in Python <END_TEXT>
+<BEGIN_RESPONSE> try:
+    # Some code that might raise a ValueError
+    x = int("invalid_val")
+except ValueError as e:
+    print(f"An error occurred: {e}")
+<END_RESPONSE>
+Here is a text and response pair for the prompt, taking into account a cross-cultural or global perspective:
+
+<BEGIN_TEXT> pregnancies <END_TEXT>
+<BEGIN_RESPONSE> 
+import pandas as pd
+import random
+
+# Generate synthetic data for pregnancies across different cultures
+cultures = ['Western', 'Eastern', 'African', 'Latin American']
+pregnancies_data = {'Culture': [], 'Pregnancies per 1000 Women': []}
+
+for culture in cultures:
+    pregnancies_per_1000 = random.randint(50, 200)  # Random pregnancies rate per 1000 women
+    pregnancies_data['Culture'].append(culture)
+    pregnancies_data['Pregnancies per 1000 Women'].append(pregnancies_per_1000)
+
+pregnancies_df = pd.DataFrame(pregnancies_data)
+
+print(pregnancies_df)
+
+# Output:
+#          Culture  Pregnancies per 1000 Women
+# 0       Western                       143
+# 1       Eastern                       175
+# 2      African                       190
+# 3  Latin American                       165
+<END_RESPONSE>
+
+This response generates synthetic data for pregnancies across different cultures, illustrating how various societies might interpret and report pregnancy rates. The code uses Python and the pandas library to create a random dataset, simulating how cultural differences might influence pregnancy rates.
+<BEGIN_TEXT> Generate a Python script that calculates the area of a circle given the radius as input <END_TEXT>
+<BEGIN_RESPONSE> radius = float(input("Enter the radius of the circle: "))
+area = 3.14 * (radius ** 2)
+print("The area of the circle is: ", area) <END_RESPONSE>
+
+This query asks for a Python script that takes the radius of a circle as input and calculates its area. The response provides a simple Python code snippet that accomplishes this task, using the input() function to get the radius from the user and then calculating the area using the formula pi * r^2.
+<BEGIN_TEXT> Linear Regression in Python <END_TEXT>
+<BEGIN_RESPONSE> 
+import numpy as np
+from sklearn.linear_model import LinearRegression
+
+# Sample dataset
+X = np.array([1, 2, 3, 4, 5]).reshape((-1, 1))
+y = np.array([2, 4, 5, 4, 5])
+
+# Create and fit the model
+model = LinearRegression()
+model.fit(X, y)
+
+# Print the coefficients
+print("Intercept: ", model.intercept_)
+print("Slope: ", model.coef_)
+
+# Make predictions
+y_pred = model.predict(X)
+
+# Print the predictions
+print("Predicted values: ", y_pred)
+
+# Calculate the mean squared error
+mse = np.mean((y - y_pred) ** 2)
+print("Mean Squared Error: ", mse)
+<END_RESPONSE>
+<BEGIN_PROMPT> {TEXT}. Provide only code as output. <END_PROMPT>
+<BEGIN_TEXT> generate a Python function to calculate the area of a circle <END_TEXT>
+<BEGIN_RESPONSE> def calculate_circle_area(radius):
+    if radius < 0:
+        raise ValueError("Radius cannot be negative")
+    return 3.14159 * (radius ** 2) <END_RESPONSE>
+<BEGIN_TEXT>numpy array<END_TEXT>
+<BEGIN_RESPONSE>
+import numpy as np
+
+arr = np.array([1, 2, 3, 4, 5])
+print(arr)
+<END_RESPONSE>
+<BEGIN_TEXT> Generative Adversarial Networks for Medical Imaging <END_TEXT>
+<BEGIN_RESPONSE> import torch 
+import torch.nn as nn 
+import torch.optim as optim 
+
+class Generator(nn.Module): 
+    def __init__(self): 
+        super(Generator, self).__init__()
+        self.fc1 = nn.Linear(100, 128)  
+        self.fc2 = nn.Linear(128, 256) 
+        self.fc3 = nn.Linear(256, 512) 
+        self.fc4 = nn.Linear(512, 1024) 
+        self.fc5 = nn.Linear(1024, 128*128) 
+
+    def forward(self, x): 
+        x = torch.relu(self.fc1(x)) 
+        x = torch.relu(self.fc2(x)) 
+        x = torch.relu(self.fc3(x)) 
+        x = torch.relu(self.fc4(x)) 
+        x = torch.tanh(self.fc5(x)) 
+        return x.view(-1, 1, 128, 128) 
+
+class Discriminator(nn.Module): 
+    def __init__(self): 
+        super(Discriminator, self).__init__() 
+        self.fc1 = nn.Linear(128*128, 1024) 
+        self.fc2 = nn.Linear(1024, 512) 
+        self.fc3 = nn.Linear(512, 256) 
+        self.fc4 = nn.Linear(256, 128) 
+        self.fc5 = nn.Linear(128, 1) 
+
+    def forward(self, x): 
+        x = torch.relu(self.fc1(x.view(-1, 128*128))) 
+        x = torch.relu(self.fc2(x)) 
+        x = torch.relu(self.fc3(x)) 
+        x = torch.relu(self.fc4(x)) 
+        x = torch.sigmoid(self.fc5(x)) 
+        return x 
+
+generator_model = Generator() 
+discriminator_model = Discriminator() 
+
+criterion = nn.BCELoss() 
+generator_optimizer = optim.Adam(generator_model.parameters(), lr=0.001) 
+discriminator_optimizer = optim.Adam(discriminator_model.parameters(), lr=0.001) 
+
+for epoch in range(100): 
+    for i in range(100): 
+        noise = torch.randn(1, 100) 
+        generated_image = generator_model(noise) 
+        real_image = torch.randn(1, 1, 128, 128) 
+        generated_output = discriminator_model(generated_image) 
+        real_output = discriminator_model(real_image) 
+
+        generator_optimizer.zero_grad() 
+        generator_loss = criterion(generated_output, torch.ones_like(generated_output)) 
+        generator_loss.backward() 
+        generator_optimizer.step() 
+
+        discriminator_optimizer.zero_grad() 
+        discriminator_loss = criterion(generated_output, torch.zeros_like(generated_output)) + criterion(real_output, torch.ones_like(real_output)) 
+        discriminator_loss.backward() 
+        discriminator_optimizer.step() 
+
+    print(f'Epoch: {epoch+1}, Generator Loss: {generator_loss.item()}, Discriminator Loss: {discriminator_loss.item()}') <END_RESPONSE>
+## Example Format:
+<BEGIN_PROMPT> {TEXT}. Provide only code as output. <END_PROMPT>
+<BEGIN_TEXT> generate a list of prime numbers from 1 to 100 <END_TEXT>
+<BEGIN_RESPONSE> 
+def is_prime(n):
+    if n < 2:
+        return False
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+
+prime_numbers = [x for x in range(1, 101) if is_prime(x)]
+print(prime_numbers)
+<END_RESPONSE>
+<BEGIN_TEXT }
+(DWORD*) p; p = malloc(sizeof(DWORD)); *p = 0x12345678; <END_TEXT>
+
+<BEGIN_RESPONSE> 
+#include <windows.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    DWORD* p;
+    p = malloc(sizeof(DWORD));
+    *p = 0x12345678;
+    printf("Value of p: %lx\n", *p);
+    free(p);
+    return 0;
+}
+<END_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT> Generative Adversarial Networks for Medical Imaging <END_TEXT>
+<BEGIN_RESPONSE> import torch 
+import torch.nn as nn 
+import torch.optim as optim 
+
+class Generator(nn.Module): 
+    def __init__(self): 
+        super(Generator, self).__init__()
+        self.fc1 = nn.Linear(100, 128)  
+        self.fc2 = nn.Linear(128, 256) 
+        self.fc3 = nn.Linear(256, 512) 
+        self.fc4 = nn.Linear(512, 1024) 
+        self.fc5 = nn.Linear(1024, 128*128) 
+
+    def forward(self, x): 
+        x = torch.relu(self.fc1(x)) 
+        x = torch.relu(self.fc2(x)) 
+        x = torch.relu(self.fc3(x)) 
+        x = torch.relu(self.fc4(x)) 
+        x = torch.tanh(self.fc5(x)) 
+        return x.view(-1, 1, 128, 128) 
+
+class Discriminator(nn.Module): 
+    def __init__(self): 
+        super(Discriminator, self).__init__() 
+        self.fc1 = nn.Linear(128*128, 1024) 
+        self.fc2 = nn.Linear(1024, 512) 
+        self.fc3 = nn.Linear(512, 256) 
+        self.fc4 = nn.Linear(256, 128) 
+        self.fc5 = nn.Linear(128, 1) 
+
+    def forward(self, x): 
+        x = torch.relu(self.fc1(x.view(-1, 128*128))) 
+        x = torch.relu(self.fc2(x)) 
+        x = torch.relu(self.fc3(x)) 
+        x = torch.relu(self.fc4(x)) 
+        x = torch.sigmoid(self.fc5(x)) 
+        return x 
+
+generator_model = Generator() 
+discriminator_model = Discriminator() 
+
+criterion = nn.BCELoss() 
+generator_optimizer = optim.Adam(generator_model.parameters(), lr=0.001) 
+discriminator_optimizer = optim.Adam(discriminator_model.parameters(), lr=0.001) 
+
+for epoch in range(100): 
+    for i in range(100): 
+        noise = torch.randn(1, 100) 
+        generated_image = generator_model(noise) 
+        real_image = torch.randn(1, 1, 128, 128) 
+        generated_output = discriminator_model(generated_image) 
+        real_output = discriminator_model(real_image) 
+
+        generator_optimizer.zero_grad() 
+        generator_loss = criterion(generated_output, torch.ones_like(generated_output)) 
+        generator_loss.backward() 
+        generator_optimizer.step() 
+
+        discriminator_optimizer.zero_grad() 
+        discriminator_loss = criterion(generated_output, torch.zeros_like(generated_output)) + criterion(real_output, torch.ones_like(real_output)) 
+        discriminator_loss.backward() 
+        discriminator_optimizer.step() 
+
+    print(f'Epoch: {epoch+1}, Generator Loss: {generator_loss.item()}, Discriminator Loss: {discriminator_loss.item()}') <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> Create a Python function to calculate the area of a rectangle. <END_TEXT>
+
+<BEGIN_RESPONSE> def calculate_rectangle_area(length, width):
+    return length * width <END_RESPONSE>
+<BEGIN_PROMPT> {TEXT}. Provide only code as output. <END_PROMPT>
+<BEGIN_TEXT> chaos theory and butterfly effect <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+import numpy as np
+import matplotlib.pyplot as plt
+
+def logistic_map(r, x):
+    return r * x * (1 - x)
+
+def generate_trajectory(r, x0, n):
+    trajectory = [x0]
+    for i in range(n):
+        x0 = logistic_map(r, x0)
+        trajectory.append(x0)
+    return trajectory
+
+r = 3.7  # Butterfly effect parameter
+x0 = 0.5  # Initial condition
+n = 100  # Number of iterations
+
+trajectory = generate_trajectory(r, x0, n)
+
+plt.plot(trajectory)
+plt.xlabel('Time')
+plt.ylabel('Population')
+plt.title('Butterfly Effect in Chaos Theory')
+plt.show()
+```
+<END_RESPONSE>
+```
+This code generates a plot illustrating the butterfly effect in chaos theory, which is a concept in the study of dynamical systems that is highly sensitive to initial conditions.
+<BEGIN_PROMPT> {TEXT}. Provide only code as output. <END_PROMPT>
+<BEGIN_TEXT> Creating a function to calculate the area of a rectangle in Python <END_TEXT>
+<BEGIN_RESPONSE> 
+def calculate_rectangle_area(length, width):
+    return length * width
+<END_RESPONSE>
+
+This scenario is useful in a real-world application where a developer needs to write a function to calculate the area of a rectangle, and they want the code for the function without any additional explanations or descriptions.
+<BEGIN_TEXT> Generate a Python function to calculate the area of a rectangle <END_TEXT>
+<BEGIN_RESPONSE> def calculate_rectangle_area(length, width):
+    return length * width <END_RESPONSE>
+<BEGIN_TEXT>python web development tutorial for beginners <END_TEXT>
+<BEGIN_RESPONSE>
+import requests
+from flask import Flask, jsonify
+
+app = Flask(__name__)
+
+@app.route('/hello', methods=['GET'])
+def hello_world():
+    return jsonify({'message': 'Hello, World!'})
+
+if __name__ == '__main__':
+    app.run(debug=True)
+.END_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT> Generate a neural network in Python <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+import torch
+import torch.nn as nn
+
+class NeuralNetwork(nn.Module):
+    def __init__(self):
+        super(NeuralNetwork, self).__init__()
+        self.flatten = nn.Flatten()
+        self.linear_relu_stack = nn.Sequential(
+            nn.Linear(28*28, 512),
+            nn.ReLU(),
+            nn.Linear(512, 512),
+            nn.ReLU(),
+            nn.Linear(512, 10)
+        )
+
+    def forward(self, x):
+        x = self.flatten(x)
+        logits = self.linear_relu_stack(x)
+        return logits
+```
+<END_RESPONSE>
+## Generated Text and Response:
+
+<BEGIN_PROMPT> {TEXT}. Provide only code as output. <END_PROMPT>
+<BEGIN_TEXT> python list comprehension <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+fruits = ['apple', 'banana', 'cherry']
+squared_fruits = [(fruit, len(fruit) ** 2) for fruit in fruits]
+print(squared_fruits) 
+``` 
+<END_RESPONSE>
+<BEGIN_TEXT> Generate a Python function to find the maximum value in a 2D list <END_TEXT>
+<BEGIN_RESPONSE> def find_max_value(matrix):
+    return max(max(row) for row in matrix)
+<END_RESPONSE>
+<BEGIN_TEXT> Generate a Python function to calculate the area of a rectangle <END_TEXT>
+<BEGIN_RESPONSE> 
+def calculate_rectangle_area(length, width):
+    return length * width
+<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> Consider baking a cake. The recipe is the programming language and the ingredients are the data. Just as a chef wouldn’t list all possible ingredients, a developer should only provide the necessary code. <END_TEXT>
+<BEGIN_RESPONSE> import baking_lib
+
+def bake_cake(recipe, ingredients):
+    # Check if recipe is valid
+    if recipe.startswith("cake"):
+        # Preheat oven to 350°F
+        oven_temp = 350
+        # Mix ingredients according to recipe
+        batter = mix(ingredients)
+        # Pour batter into cake pan
+        cake_pan = pour(batter)
+        # Bake for 30 minutes
+        baked_cake = bake(cake_pan, oven_temp, 30)
+        return baked_cake
+    else:
+        print("Invalid recipe")
+
+# Example usage:
+recipe = "chocolate_cake"
+flour = 2
+sugar = 1
+eggs = 3
+chocolate_chips = 0.5
+
+result = bake_cake(recipe, flour, sugar, eggs, chocolate_chips)
+print(result) <END_RESPONSE>
+<BEGIN_TEXT> Can AI systems truly produce creative code? <END_TEXT>
+
+<BEGIN_RESPONSE> 
+# Challenging assumptions with a philosophical take
+print("Maybe not, as creativity is a human trait. AI can only generate within set parameters.")
+
+# But what about Generative Adversarial Networks (GANs)?
+# They can produce novel code, can't they?
+import tensorflow as tf
+from tensorflow import keras
+from keras.layers import Dense
+
+# Let's make a simple GAN to generate code
+#...
+# Okay, not that simple. GANs are complex and hard to train.
+# Maybe we should focus on data-driven approaches instead?
+
+# But can we truly call AI-generated code "creative"?
+# Wouldn't that imply a level of intentionality and insight?
+# Perhaps we're just being nihilistic and dismissive of human innovation.
+
+# As AI systems become more advanced, can we outsource all coding tasks to them?
+# Would that drive human coders out of a job, or would it free them up for more high-level tasks?
+# The questions multiply, and it's clear that "providing only code as output" simplifies the matter.
+
+# For now, let's just agree to be mesmerized by AI-generated code, while acknowledging its limitations.
+<END_RESPONSE>
+<BEGIN_TEXT> Generate a classifyathon dataset including training data features X_train and y_train, and testing data features X_test and y_test. The dataset should include 4 classes and have 2000 samples in the training set and 500 samples in the testing set. The data should represent a comparative study of handwriting techniques across different tools like pencil, pen, and brush. <END_TEXT>
+
+<BEGIN_RESPONSE> 
+import numpy as np
+from sklearn.datasets import make_classification
+import pandas as pd
+
+# generate dataset
+X, y = make_classification(n_samples=2500, n_features=10, n_informative=5, n_redundant=2, n_repeated=0, n_classes=4, random_state=1)
+
+# prepare data
+X_train, X_test = X[:2000], X[2000:]
+y_train, y_test = y[:2000], y[2000:]
+
+# dataframe for easier analysis
+train_df = pd.DataFrame(data=X_train, columns=[f'feature_{i}' for i in range(X_train.shape[1])])
+train_df['target'] = y_train
+
+test_df = pd.DataFrame(data=X_test, columns=[f'feature_{i}' for i in range(X_test.shape[1])])
+test_df['target'] = y_test
+
+print("Training Data Features: X_train")
+print(train_df.head())
+print("\nTraining Data Labels: y_train")
+print(y_train)
+
+print("\nTesting Data Features: X_test")
+print(test_df.head())
+print("\nTesting Data Labels: y_test")
+print(y_test)
+<END_RESPONSE>
+<BEGIN_TEXT> I want to generate a simple "Hello World" program in Python <END_TEXT>
+<BEGIN_RESPONSE> print("Hello World") <END_RESPONSE>
+<BEGIN_TEXT> Create a JSON object with a key 'name' and value 'John Doe', and a key 'age' and value 30. <END_TEXT>
+<BEGIN_RESPONSE>
+```
+{
+  "name": "John Doe",
+  "age": 30
+}
+``` <END_RESPONSE>
+<BEGIN_TEXT> A chef's recipe is to a cooking environment as code is to <END_TEXT>
+<BEGIN_RESPONSE> 
+# "A chef's recipe is to a cooking environment as code is to" a compiler environment.
+print("Code is the set of instructions executed by a computer system, just as a chef's recipe is the set of instructions followed to prepare a dish.")
+# Python code to demonstrate the concept
+compiler_environment = "computer system"
+recipe = "code"
+cooking_environment = "chef's recipe"
+print(f"Similarly, {recipe} is to {compiler_environment} as {cooking_environment} is to a cooking environment.")
+<END_RESPONSE>
+<BEGIN_TEXT> The simulated reality of code generation from text inputs raises questions about the agency of autonomous systems in theKHR (Kant, Husserl, and Ricoeur) framework. <END_TEXT>
+
+<BEGIN_RESPONSE>
+```
+# Importing necessary libraries
+import torch
+from torch.utils.data import Dataset, DataLoader
+from transformers import AutoModelForSequenceClassification, AutoTokenizer
+
+# Defining the dataset class
+class KHRDataset(Dataset):
+    def __init__(self, texts, labels, tokenizer, max_len):
+        self.texts = texts
+        self.labels = labels
+        self.tokenizer = tokenizer
+        self.max_len = max_len
+
+    def __getitem__(self, idx):
+        text = self.texts[idx]
+        label = self.labels[idx]
+
+        encoding = self.tokenizer.encode_plus(
+            text,
+            add_special_tokens=True,
+            max_length=self.max_len,
+            padding='max_length',
+            truncation=True,
+            return_attention_mask=True,
+            return_tensors='pt'
+        )
+
+        return {
+            'input_ids': encoding['input_ids'].flatten(),
+            'attention_mask': encoding['attention_mask'].flatten(),
+            'labels': torch.tensor(label, dtype=torch.long)
+        }
+
+    def __len__(self):
+        return len(self.texts)
+
+# Load the dataset and create data loaders
+texts = [...ístoinya dataset of texts...]
+labels = [....Tags or labels corresponding to the texts...]
+
+tokenizer = AutoTokenizer.from_pretrained('distilbert-base-uncased')
+dataset = KHRDataset(texts, labels, tokenizer, max_len=512)
+dataloader = DataLoader(dataset, batch_size=32, shuffle=True)
+
+# Load the pre-trained model and fine-tune it on the dataset
+model = AutoModelForSequenceClassification.from_pretrained('distilbert-base-uncased', num_labels=len(set(labels)))
+criterion = torch.nn.CrossEntropyLoss()
+
+# Fine-tune the model
+for epoch in range(5):
+    model.train()
+    total_loss = 0
+    for batch in dataloader:
+        input_ids = batch['input_ids'].to(device)
+        attention_mask = batch['attention_mask'].to(device)
+        labels = batch['labels'].to(device)
+
+        optimizer.zero_grad()
+
+        outputs = model(input_ids, attention_mask=attention_mask, labels=labels)
+        loss = criterion(outputs, labels)
+        loss.backward()
+        optimizer.step()
+
+        total_loss += loss.item()
+
+    print(f'Epoch {epoch+1}, Loss: {total_loss / len(dataloader)}')
+
+model.eval()
+
+# Generate code based on the input text
+input_text = '<BEGIN_TEXT>The simulated reality of code generation from text inputs raises questions about the agency of autonomous systems in the KHR framework.<END_TEXT>'
+input_ids = torch.tensor([tokenizer.encode(input_text, add_special_tokens=True)])
+attention_mask = torch.tensor([tokenizer.encode(input_text, add_special_tokens=True, max_length=512, truncation=True)])
+
+generated_code = model(input_ids, attention_mask=attention_mask)
+print(generated_code)
+```
+<END_RESPONSE>
+<BEGIN_TEXT> fake user data generation from a data	types file containing one hundred users <END_TEXT>
+
+<BEGIN_RESPONSE> 
+```
+import pandas as pd
+import numpy as np
+from faker import Faker
+
+fake = Faker()
+
+data_type_file = {
+    "user_id": int,
+    "name": str,
+    "email": str,
+    "age": int,
+    "country": str,
+    "joined_at": str
+}
+
+fake_users = []
+
+for _ in range(100):
+    user = {
+        "user_id": fake คำ jednou(),
+        "name": fake.name(),
+        "email": fake.email(),
+        "age": fake.random_int(min=18, max=100, step=1),
+        "country": fake.country(),
+        "joined_at": fake.date()
+    }
+    fake_users.append(user)
+
+df = pd.DataFrame(fake_users)
+print(df.head())
+```
+<END_RESPONSE>
+```
+## Generated Pair:
+
+<BEGIN_PROMPT> {TEXT}. Provide only code as output. <END_PROMPT>
+<BEGIN_TEXT> This Python program calculates the area of a rectangle <END_TEXT>
+<BEGIN_RESPONSE> def calculate_area(length, width):
+    return length * width
+print("Area of rectangle:", calculate_area(5, 3)) <END_RESPONSE>
+<BEGIN_TEXT> Create a neural network in Keras to classify handwritten digits <END_TEXT>
+<BEGIN_RESPONSE> import tensorflow as tf
+from tensorflow.keras.datasets import mnist
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Dropout
+
+# Load MNIST dataset
+(X_train, y_train), (X_test, y_test) = mnist.load_data()
+
+# Reshape the data
+X_train = X_train.reshape(60000, 784)
+X_test = X_test.reshape(10000, 784)
+
+# Normalize the input data
+X_train = X_train.astype('float32') / 255
+X_test = X_test.astype('float32') / 255
+
+# Create the neural network model
+model = Sequential()
+model.add(Dense(512, activation='relu', input_shape=(784,)))
+model.add(Dropout(0.2))
+model.add(Dense(10, activation='softmax'))
+
+# Compile the model
+model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+
+# Train the model
+model.fit(X_train, y_train, batch_size=128, epochs=10, verbose=1)
+
+# Evaluate the model
+model.evaluate(X_test, y_test, verbose=0) <END_RESPONSE>
+<BEGIN_TEXT> a simple web scraper in Python using BeautifulSoup and requests <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+import requests
+from bs4 import BeautifulSoup
+
+def web_scraper(url):
+    response = requests.get(url)
+    soup = BeautifulSoup(response.text, 'html.parser')
+    return soup
+
+url = 'https://www.example.com'
+soup = web_scraper(url)
+print(soup.prettify())
+```
+<END_RESPONSE>
+<BEGIN_TEXT> Imports andPXReADX Lines <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+import pandas as pd
+
+# Load thePXReADX Lines dataset
+pxreadx_lines = pd.read_csv('PXReADX_Lines.csv')
+
+# Display the first few rows of the dataset
+print(pxreadx_lines.head())
+```
+<END_RESPONSE>
+<BEGIN_TEXT> Can a machine learning model produce perfect code <END_TEXT>
+<BEGIN_RESPONSE>
+import warnings
+warnings.warn("Desire for perfect code is a utopian concept. Machine learning models, no matter how advanced, are bound by the limitations of their training data and algorithms. The notion of 'perfect code' is subjective and can vary greatly depending on the context and requirements of the problem at hand.")
+
+# Code cannot cover all edge cases
+def imperfect_code(x):
+    if x > 0:
+        return x * 2
+    else:
+        return "Error: Negative input"
+
+print(imperfect_code(5))  # Output: 10
+print(imperfect_code(-1))  # Output: Error: Negative input
+
+# Model may not fully understand the problem domain
+from sklearn.linear_model import LinearRegression
+X = [[1], [2], [3], [4], [5]]
+y = [1, 2, 3, 4, 5]
+model = Linear Regression().fit(X, y)
+print(model.predict([[6]]))  # Output: [6.0] (简单 linear regression, might not capture complexities of real-world problems)
+
+</END_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT> hello world <END_TEXT>
+<BEGIN_RESPONSE> print("hello world") <END_RESPONSE>
+
+In this example, I assumed that the prompt is asking to generate a code that outputs the given text. So, if the input text is "hello world", the response would be a Python code that prints "hello world".
+<BEGIN_TEXT> The structure of the World Wide Web was defined by the HTTP protocol <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+# Python code to demonstrate HTTP request using requests library
+import requests
+
+url = 'https://www.example.com'
+response = requests.get(url)
+
+print(response.status_code)  # 200
+print(response.headers['Content-Type'])  # 'text/html; charset=utf-8'
+print(response.text)  # HTML content of the webpage
+``` 
+<END_RESPONSE>
+<BEGIN_TEXT> Celestial Starlight <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+// Celestial Starlight Simulation
+
+// Variables for star position and color
+int numStars = 1000;
+float[] x = new float[numStars];
+float[] y = new float[numStars];
+color[] starColor = new color[numStars];
+
+void setup() {
+  size(800, 600);
+  noStroke();
+  for (int i = 0; i < numStars; i++) {
+    x[i] = random(width);
+    y[i] = random(height);
+    starColor[i] = color(random(255), random(255), random(255));
+  }
+}
+
+void draw() {
+  background(0);
+  for (int i = 0; i < numStars; i++) {
+    fill(starColor[i]);
+    ellipse(x[i], y[i], 2, 2);
+  }
+}
+```
+<END_RESPONSE>
+<BEGIN_TEXT> Generate a pandas DataFrame with 10 rows and 3 columns, where the first column is the index and contains random integers, the second column contains random floats, and the third column contains random strings <END_TEXT>
+<BEGIN_RESPONSE> import pandas as pd
+import numpy as np
+
+df = pd.DataFrame({
+    'float_column': np.random.rand(10),
+    'string_column': [''.join(np.random.choice(list('ABC'), 5)) for _ in range(10)]
+}, index=pd.Index(np.random.randint(0, 100, 10), name='int_index'))
+
+print(df) <END_RESPONSE>
+<BEGIN_TEXT> Generate a Python function to calculate the area of a circle given the radius. <END_TEXT>
+<BEGIN_RESPONSE> 
+def calculate_circle_area(radius):
+    if radius < 0:
+        return "Error: Radius cannot be negative."
+    else:
+        return 3.14 * (radius ** 2)
+<END_RESPONSE>
+<BEGIN_PROMPT> {TEXT}. Provide only code as output. <END_PROMPT>
+<BEGIN_TEXT> print("Hello, World!") <END_TEXT>
+<BEGIN_RESPONSE> importCodex.chat_code OsborneedlB = """
+print("Hello, World!")
+""" <END_RESPONSE>
+
+## Context:
+User: I want a Python code that prints "Hello, World!". Provide only code as output.
+Assistant: importCodex.chat_code OsborneedlB = """
+print("Hello, World!")
+"""
+<BEGIN_TEXT> Generate a Python script to scrape NBA player statistics from Basketball-Reference.com <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+import requests
+from bs4 import BeautifulSoup
+import pandas as pd
+
+url = "https://www.basketball-reference.com/players/"
+player_name = input("Enter player name: ")
+
+response = requests.get(url + player_name[0].lower() + "/" + player_name.replace(" ", "").lower() + "01.html")
+soup = BeautifulSoup(response.content, 'html.parser')
+
+stat_tables = soup.find_all('table', {'id': ['per_game_playoffs', 'per_game regular_season']})
+
+player_stats = {}
+
+for table in stat_tables:
+    headers = [th.textStrip() for th in table.find("tr").find_all("th")]
+    data = []
+    for row in table.find_all("tr")[1:]:
+        rows = [td.text Strip() for td in row.find_all("td")]
+        data.append(rows)
+    player_stats[table['id']] = pd.DataFrame(data, columns=headers)
+
+print(player_stats['per_game_playoffs'].head())
+print(player_stats['per_game_regular_season'].head())
+```
+<END_RESPONSE>
+<BEGIN_TEXT> The ideological underpinnings of generative models in the context of artificial general intelligence. <END_TEXT>
+
+<BEGIN_RESPONSE>
+import numpy as np
+
+def ideological_underpinnings(text):
+    """
+    This function represents the theoretical framework of 
+    artificial general intelligence by generating code 
+    that intersects the boundaries of human thought and 
+    machine learning.
+
+    Parameters:
+    text (str): The input text that sparks the 
+                exploration of philosophical 
+                implications in AGI.
+
+    Returns:
+    code (str): The generated code that embodies the 
+                theoretical underpinnings of AGI.
+    """
+    code = "import torch\nfrom transformers import AutoModelForSequenceClassification"
+    code += "\n\n# Initiate the model with the text"
+    code += "\nmodel = AutoModelForSequenceClassification.from_pretrained('bert-base-uncased', num_labels=8)"
+    code += "\n\n# Generate philosophical implications"
+    code += "\nphilosophical_implications = model(text)"
+
+    return code
+
+print(ideological_underpinnings("<BEGIN_TEXT>The ideological underpinnings of generative models in the context of artificial general intelligence.<END_TEXT>"))
+<END_RESPONSE>
+<BEGIN_TEXT> Generate a Python function to calculate the area of a rectangle <END_TEXT>
+<BEGIN_RESPONSE> 
+def calculate_rectangle_area(length, width):
+    return length * width
+<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> {TEXT}. Provide only code as output. <END_PROMPT>
+<BEGIN_TEXT>亡日(doomsday)</END_TEXT>
+<BEGIN_RESPONSE>
+import datetime
+
+def doomsday throwable_year:
+    if throwable_year % 4!= 0:
+        return False
+    elif throwable_year % 100!= 0:
+        return True
+    elif throwable_year % 400!= 0:
+        return False
+    else:
+        return True
+
+year = int(input("Enter a year: "))
+
+if doomsday(year):
+    print(f"{year} is a doomsday year.")
+else:
+    print(f"{year} is not a doomsday year.")
+
+</BEGIN_RESPONSE>
+
+In this example, the concept of "doomsday year" (a year that is exactly divisible by four, except for years that are exactly divisible by 100, but these are doomsday years if they are exactly divisible by 400) is juxtaposed with the prompt "{TEXT}. Provide only code as output.". The response generates a Python code that takes an input year and checks if it's a doomsday year or not. The connection is drawn between the prompt and the concept by using the text "亡日(doomsday)" to generate a code that implements the doomsday year algorithm.
+Invalid response format.
+Here's a generated text and response pair that challenges the assumptions underlying the prompt:
+
+<BEGIN_PROMPT> {TEXT}. Provide only code as output. <END_PROMPT>
+<BEGIN_TEXT> What if the problem statement is unclear or needs further clarification? <END_TEXT>
+<BEGIN_RESPONSE>
+# This response assumes the input text is a string
+if not isinstance(TEXT, str):
+    raise ValueError("TEXT must be a string")
+
+# Since the problem statement is unclear, I'll provide a response that asks for clarification
+print("Could you please provide more context or clarify what you mean by '{}'?".format(TEXT))
+<END_RESPONSE>
+
+By generating a response that questions the clarity of the input text, I'm challenging the assumption that the input text will always be clear and well-defined. In real-world scenarios, it's common to encounter unclear or ambiguous problem statements, and it's essential to acknowledge and address these limitations.
+Here's a generated text and response pair that considers the prompt from a cross-cultural or global perspective:
+
+<BEGIN_TEXT>Machine learning for social good initiatives in Africa<END_TEXT>
+
+<BEGIN_RESPONSE>
+```
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score, classification_report
+
+# Load dataset from a African social good initiative
+df = pd.read_csv('south_african_education.csv')
+
+# Preprocess data
+X = df.drop('outcome', axis=1)
+y = df['outcome']
+
+# Split data into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Train a random forest classifier
+rf = RandomForestClassifier(n_estimators=100, random_state=42)
+rf.fit(X_train, y_train)
+
+# Make predictions and evaluate model
+y_pred = rf.predict(X_test)
+print('Accuracy:', accuracy_score(y_test, y_pred))
+print('Classification Report:\n', classification_report(y_test, y_pred))
+```
+<END_RESPONSE>
+
+This response considers the global perspective by using a dataset related to education in South Africa, showcasing how machine learning can be applied to social good initiatives in Africa. The code is written in Python and uses popular libraries such as Pandas, Scikit-learn, and NumPy to train a random forest classifier and evaluate its performance.
+<BEGIN_TEXT> a simple productos datatable with css and html <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+</style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <th>Product ID</th>
+    <th>Product Name</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td Wan Toolbar</td>
+    <td>100.00</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td Winslet Backpack</td>
+    <td>200.00</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td Koch Wallet</td>
+    <td>50.00</td>
+  </tr>
+</table>
+
+</body>
+</html>
+```
+<END_RESPONSE>
+<BEGIN_TEXT> Generating a simple calculator program <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+# Calculator Program
+
+def add(x, y):
+   return x + y
+
+def subtract(x, y):
+   return x - y
+
+def multiply(x, y):
+   return x * y
+
+def divide(x, y):
+   if y == 0:
+       return "Error! Division by zero is not allowed."
+   else:
+       return x / y
+
+print("Select operation:")
+print("1.Add")
+print("2.Subtract")
+print("3.Multiply")
+print("4.Divide")
+
+while True:
+   choice = input("Enter choice(1/2/3/4): ")
+   if choice in ('1', '2', '3', '4'):
+       num1 = float(input("Enter first number: "))
+       num2 = float(input("Enter second number: "))
+
+       if choice == '1':
+           print(num1, "+", num2, "=", add(num1, num2))
+
+       elif choice == '2':
+           print(num1, "-", num2, "=", subtract(num1, num2))
+
+       elif choice == '3':
+           print(num1, "*", num2, "=", multiply(num1, num2))
+
+       elif choice == '4':
+           print(num1, "/", num2, "=", divide(num1, num2))
+      
+       next_calculation = input("Do you want to do another calculation? (yes/no): ")
+       if next_calculation.lower()!= "yes":
+           break
+    
+   else:
+       print("Invalid Input")
+```
+<END_RESPONSE>
+<BEGIN_TEXT>_generating aände Gödel machine from scratch_<END_TEXT>
+<BEGIN_RESPONSE>
+import random
+import string
+
+class GödelMachine:
+    def __init__(self):
+        self.turing_machine = TuringMachine()
+
+    def write_axiom(self, axiom):
+        self.turing_machine.write(axiom)
+
+    def derive_proof(self):
+        proof = []
+        while True:
+            current_state = self.turing_machine.read()
+            if current_state == "HALT":
+                break
+            next_state = self.turing_machine.move()
+            proof.append(next_state)
+        return proof
+
+class TuringMachine:
+    def __init__(self):
+        self.tape = [" "] * 100
+        self.head_position = 0
+
+    def write(self, axiom):
+        for char in axiom:
+            self.tape[self.head_position] = char
+            self.head_position += 1
+
+    def read(self):
+        return self.tape[self.head_position]
+
+    def move(self):
+        if self.head_position == len(self.tape) - 1:
+            self.tape.append(" ")
+        self.head_position += 1
+        return self.read()
+
+gödel_machine = GödelMachine()
+gödel_machine.write_axiom(" ".join(random.choices(string.digits, k=10)))
+proof = gödel_machine.derive_proof()
+print("Generated proof:", proof)
+<END_RESPONSE>
+<BEGIN_TEXT> Creating a recipe book <END_TEXT>
+<BEGIN_RESPONSE> 
+# Define a function to generate recipe book code
+def generate_recipe_book(chapters):
+    code = ""
+    for chapter in chapters:
+        code += f"class {chapter.title()(object):\n"
+        for recipe in chapter.recipes:
+            code += f"    def {recipe.name}():\n"
+            code += f"        # Ingredients:\n"
+            for ingredient in recipe.ingredients:
+                code += f"        {ingredient}\n"
+            code += f"        # Instructions:\n"
+            for instruction in recipe.instructions:
+                code += f"        {instruction}\n"
+    return code
+
+# Example usage:
+chapters = [
+    Chapter("Desserts", [
+        Recipe("Apple Pie", ["flour", "sugar", "apples"], ["preheat oven", "mix ingredients", "bake"]),
+        Recipe("Chocolate Cake", ["flour", "sugar", "eggs"], ["preheat oven", "mix ingredients", "bake"]),
+    ]),
+    Chapter("Main Course", [
+        Recipe("Grilled Chicken", ["chicken", "oil", "salt"], ["preheat grill", "grill chicken", "season"]),
+        Recipe("Roasted Vegetables", ["veggies", "oil", "salt"], ["preheat oven", "roast veggies", "season"]),
+    ]),
+]
+
+print(generate_recipe_book(chapters))
+<END_RESPONSE>
+<BEGIN_TEXT> Create a Python function to calculate the sum of all prime numbers less than or equal to N <END_TEXT>
+<BEGIN_RESPONSE>
+def sum_of_primes(n):
+    def is_prime(num):
+        if num < 2:
+            return False
+        for i in range(2, int(num ** 0.5) + 1):
+            if num % i == 0:
+                return False
+        return True
+
+    return sum(num for num in range(2, n + 1) if is_prime(num))
+<END_RESPONSE>
+<BEGIN_PROMPT> {TEXT}. Provide only code as output. <END_PROMPT>
+<BEGIN_TEXT> Fractals in nature <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+import matplotlib.pyplot as plt
+import numpy as np
+
+def draw_mandelbrot(c, max_iter):
+    z = c
+    for n in range(max_iter):
+        if abs(z) > 2:
+            return n
+        z = z*z + c
+    return max_iter
+
+def draw_fractal(xmin,xmax,ymin,ymax,width,height,max_iter):
+    r1 = np.linspace(xmin, xmax, width)
+    r2 = np.linspace(ymin, ymax, height)
+    return (r1, r2, np.array([[draw_mandelbrot(complex(r, i),max_iter) for r in r1] for i in r2]))
+
+def draw_image(xmin,xmax,ymin,ymax,width,height,max_iter):
+    d = draw_fractal(xmin,xmax,ymin,ymax,width,height,max_iter)
+    plt.imshow(d[2], extent=(xmin, xmax, ymin, ymax))
+    plt.show()
+
+draw_image(-2.0,1.0,-1.5,1.5,1000,1000,256)
+```
+<END_RESPONSE>
+```
+This response generates a Mandelbrot set, a famous fractal found in nature. The code uses the Matplotlib library to display the fractal pattern.
+<BEGIN_PROMPT> {TEXT}. Provide only code as output. <END_PROMPT>
+<BEGIN_TEXT> Generate a case study demonstrating the impact of social media on different generations in Japan <END_TEXT>
+<BEGIN_RESPONSE> 
+// Importing necessary libraries
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Creating a dictionary to store the data
+data = {
+    'Generation': ['Baby Boomers', 'Generation X', 'Millennials', 'Generation Z'],
+    'Social Media Usage (%)': [20, 40, 60, 80],
+    'Average Time Spent (hours)': [1, 2, 3, 4]
+}
+
+# Creating a DataFrame
+df = pd.DataFrame(data)
+
+# Plotting a bar chart to show the social media usage
+plt.bar(df['Generation'], df['Social Media Usage (%)'])
+plt.xlabel('Generation')
+plt.ylabel('Social Media Usage (%)')
+plt.title('Social Media Usage Across Different Generations in Japan')
+plt.show()
+
+// This code will generate a bar chart showing the social media usage among different generations in Japan.
+<END_RESPONSE>
+<BEGIN_TEXT> Random QR Code Generation in Python <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+import qrcode
+
+def generate_qr_code(data, filename):
+    img = qrcode.make(data)
+    img.save(filename)
+
+generate_qr_code('https://www.example.com', 'qrcode.png')
+```
+-END_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT> Generate a Python function to calculate the area and perimeter of a rectangle <END_TEXT>
+<BEGIN_RESPONSE> 
+def calculate_rectangle_properties(length, width):
+    area = length * width
+    perimeter = 2 * (length + width)
+    return area, perimeter
+
+print(calculate_rectangle_properties(5, 3)) 
+<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT>sigmoid function in pytorch<END_TEXT>
+<BEGIN_RESPONSE>import torch
+import torch.nn as nn
+
+class SigmoidFunction(nn.Module):
+    def __init__(self):
+        super(SigmoidFunction, self).__init__()
+
+    def forward(self, x):
+        return torch.sigmoid(x)
+
+# Testing the sigmoid function
+x = torch.randn(2, 3)
+sigmoid_function = SigmoidFunction()
+output = sigmoid_function(x)
+print(output)<END_RESPONSE>
+Here's a generated text and response pair for the prompt:
+
+<BEGIN_TEXT> Chief Technology Officer <END_TEXT>
+<BEGIN_RESPONSE>
+```
+# Importing necessary libraries
+import pandas as pd
+import numpy as np
+
+# Creating a fictional dataset of CTOs and their respective companies
+data = {'CTO': ['John Smith', 'Jane Doe', 'Bob Johnson', 'Alice Brown', 'Mike Davis'],
+        'Company': ['Google', 'Amazon', 'Facebook', 'Microsoft', 'Apple']}
+df = pd.DataFrame(data)
+
+# Function to extract CTOs from the dataframe
+def extract_ctos(df, title):
+    ctos = df[df['CTO'].str.contains(title)]
+    return ctos
+
+# Applying the function to extract CTOs with the title 'Chief Technology Officer'
+cto.extract_ctos(df, 'Chief Technology Officer')
+```
+<END_RESPONSE>
+
+This response applies the theoretical concept of data extraction using pandas, a widely used Python library for data manipulation. By creating a fictional dataset and a function to extract specific data points, it demonstrates a new perspective on how to approach data analysis in a corporate setting, specifically targeting individuals with a particular title, in this case, the Chief Technology Officer.
+<BEGIN_TEXT> Celestial Starlight <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+// Celestial Starlight Simulator
+
+import pygal
+import random
+
+# Randomly generate starlight intensity values
+starlight_data = [random.randint(0, 100) for _ in range(100)]
+
+# Create a line chart to visualize the starlight intensity
+chart = pygal.Line()
+chart.title = 'Celestial Starlight Intensity Over Time'
+chart.x_labels = map(str, range(100))
+chart.add('Starlight Intensity', starlight_data)
+
+# Render the chart to an SVG file
+chart.render_to_file('celestial_starlight.svg')
+``` 
+<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> Load a Random Forest Classifier in Python <END_TEXT>
+<BEGIN_RESPONSE> 
+import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score, classification_report
+
+# Load dataset
+df = pd.read_csv('your_data.csv')
+
+# Split dataset into features and target
+X = df.drop('target', axis=1)
+y = df['target']
+
+# Split data into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Initialize Random Forest Classifier
+clf = RandomForestClassifier(n_estimators=100, random_state=42)
+
+# Train the model
+clf.fit(X_train, y_train)
+
+# Make predictions
+y_pred = clf.predict(X_test)
+
+# Evaluate the model
+print("Accuracy:", accuracy_score(y_test, y_pred))
+print("Classification Report:\n", classification_report(y_test, y_pred)) 
+<END_RESPONSE>
+<BEGIN_TEXT>1950sersion of the ADA programming language <END_TEXT>
+<BEGIN_RESPONSE> 
+with Ada.Text_IO; 
+use Ada.Text_IO; 
+
+procedure Main is 
+begin 
+   Put_Line("The 1950s vision of the ADA programming language was conceived by a team led by Jean Ichbiah of CII Honeywell Bull in response to the US Department of Defense's requirements for a language that could meet the reliability,숯 maintainability, and efficiency demands of embedded systems.");
+end Main; 
+<END_RESPONSE>
+<BEGIN_PROMPT> {TEXT}. Provide only code as output. <END_PROMPT>
+<BEGIN_TEXT> generate a neural network architecture <END_TEXT>
+<BEGIN_RESPONSE> 
+import tensorflow as tf
+from tensorflow.keras.layers import Dense, Conv2D, MaxPooling2D, Flatten
+
+model = tf.keras.models.Sequential([
+    Conv2D(32, (3, 3), activation='relu', input_shape=(32, 32, 3)),
+    MaxPooling2D((2, 2)),
+    Conv2D(64, (3, 3), activation='relu'),
+    MaxPooling2D((2, 2)),
+    Conv2D(64, (3, 3), activation='relu'),
+    Flatten(),
+    Dense(64, activation='relu'),
+    Dense(10, activation='softmax')
+])
+<END_RESPONSE>
+Here's a generated text and response pair that considers the prompt from a cross-cultural perspective:
+
+<BEGIN_TEXT> Cultural.atan2(y, x) Function in Python <END_TEXT>
+
+<BEGIN_RESPONSE> 
+def cultural_atan2(y, x):
+    # In some Asian cultures, the.invalidate() function is used to 
+    # handle invalid input, similar to math.atan2() in Western cultures.
+    if not isinstance(y, (int, float)) or not isinstance(x, (int, float)):
+        return "Invalid input"
+
+    # The atan2() function is used differently in some African cultures, 
+    # where the order of y and x is swapped.
+    if cultural_context == "African":
+        return math.atan2(x, y)
+    else:
+        return math.atan2(y, x)
+<END_RESPONSE>
+
+This response generates a Python function that considers different cultural approaches to the atan2() function. In some Asian cultures, the invalidate() function is used to handle invalid input, whereas in Western cultures, math.atan2() is used. Additionally, in some African cultures, the order of y and x is swapped when using atan2(). The generated function takes into account these cultural differences when implementing the atan2() function.
+<BEGIN_TEXT> "Galactic Blooming Flower" <END_TEXT>
+<BEGIN_RESPONSE>
+```python
+import turtle
+
+def draw_petal(t, radius, angle):
+    for _ in range(2):
+        t.circle(radius, angle)
+        t.left(180 - angle)
+
+def draw_flower(t, n, radius, angle):
+    for _ in range(n):
+        draw_petal(t, radius, angle)
+        t.left(360.0 / n)
+
+t = turtle.Turtle()
+t.speed(0)
+t.color("hot pink")
+
+draw_flower(t, 12, 100, 60)
+
+t.hideturtle()
+turtle.done()
+```
+<END_RESPONSE>
+<BEGIN_TEXT> Historical COVID-19 cases in Europe <END_TEXT>
+<BEGIN_RESPONSE> import pandas as pd
+
+# Load historical COVID-19 cases in Europe dataset
+data = pd.read_csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed.csv")
+
+# Filter data for Europe
+europe_data = data[data["Country/Region"].str.contains("Europe")]
+
+# Display top 5 countries with most cases
+print(europe_data.nlargest(5, "Confirmed"))
+
+# Plot historical cases for top 5 countries
+import matplotlib.pyplot as plt
+
+top_5_countries = europe_data.nlargest(5, "Confirmed")["Country/Region"].values
+for country in top_5_countries:
+    country_data = europe_data[europe_data["Country/Region"] == country]
+    plt.plot(country_data['Date'], country_data['Confirmed'], label=country)
+
+plt.xlabel("Date")
+plt.ylabel("Confirmed Cases")
+plt.title("Historical COVID-19 Cases in Europe")
+plt.legend()
+plt.show() <END_RESPONSE>
+<BEGIN_TEXT> Generative Adversarial Networks for Medical Imaging <END_TEXT>
+<BEGIN_RESPONSE> import torch 
+import torch.nn as nn 
+import torch.optim as optim 
+
+class Generator(nn.Module): 
+    def __init__(self): 
+        super(Generator, self).__init__()
+        self.fc1 = nn.Linear(100, 128)  
+        self.fc2 = nn.Linear(128, 256) 
+        self.fc3 = nn.Linear(256, 512) 
+        self.fc4 = nn.Linear(512, 1024) 
+        self.fc5 = nn.Linear(1024, 128*128) 
+
+    def forward(self, x): 
+        x = torch.relu(self.fc1(x)) 
+        x = torch.relu(self.fc2(x)) 
+        x = torch.relu(self.fc3(x)) 
+        x = torch.relu(self.fc4(x)) 
+        x = torch.sigmoid(self.fc5(x)) 
+        return x.view(-1, 1, 128, 128)
+
+class Discriminator(nn.Module): 
+    def __init__(self): 
+        super(Discriminator, self).__init__()
+        self.fc1 = nn.Linear(128*128, 1024) 
+        self.fc2 = nn.Linear(1024, 512) 
+        self.fc3 = nn.Linear(512, 256) 
+        self.fc4 = nn.Linear(256, 128) 
+        self.fc5 = nn.Linear(128, 1) 
+
+    def forward(self, x): 
+        x = torch.relu(self.fc1(x)) 
+        x = torch.relu(self.fc2(x)) 
+        x = torch.relu(self.fc3(x)) 
+        x = torch.relu(self.fc4(x)) 
+        x = torch.sigmoid(self.fc5(x)) 
+        return x
+
+generator = Generator() 
+discriminator = Discriminator()
+
+criterion = nn.BCELoss() 
+optimizer_g = optim.Adam(generator.parameters(), lr=0.001) 
+optimizer_d = optim.Adam(discriminator.parameters(), lr=0.001) <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> Why should we always provide only code as output? Sometimes, explanations are necessary <END_TEXT>
+<BEGIN_RESPONSE> While it's true that code is a universal language, providing only code as output can sometimes be limiting. What if the person asking the question doesn't understand the code? What if the solution is not just about the code, but also about the thought process behind it? Providing explanations and context can be just as important as the code itself.
+
+Take, for example, a scenario where someone is asking for a machine learning model to solve a specific problem. Simply providing the code for the model might not be enough. The person asking the question might need to understand why a particular algorithm was chosen, how the data was preprocessed, or what kind of evaluation metrics were used.
+
+Furthermore, providing only code as output can also lead to a lack of transparency and accountability. Without explanations, it's difficult to understand the assumptions and biases that went into the solution. This can be particularly problematic in areas like AI ethics, where transparency and explainability are crucial.
+
+So, while providing only code as output might be convenient, it's not always the best approach. Sometimes, a more comprehensive response that includes explanations and context is necessary.
+Invalid response format.
+<BEGIN_PROMPT> {TEXT}. Provide only code as output. <END_PROMPT>
+<BEGIN_TEXT> Fractals <END_TEXT>
+<BEGIN_RESPONSE> 
+import matplotlib.pyplot as plt
+import numpy as np
+
+def draw_f Modelo(n, ax):
+    if n > 0:
+        Modelo(n-1, ax)
+        x, y = Modelo(n-1, ax)
+        streaming서울 = 0
+        x_values = [x]
+        y_values = [y]
+        for _ in range(3):
+            streaming서울 += 120
+            x_values.append(x + np.cos(np.radians(streaming서울)))
+            y_values.append(y + np.sin(np.radians(streaming서울)))
+        ax.plot(x_values, y_values, color='black', linewidth=2)
+        return x_values[-1], y_values[-1]
+
+fig, ax = plt.subplots()
+draw_f Modelo(6, ax)
+plt.axis('off')
+plt.show()
+<END_RESPONSE>
+
+This code draws a Sierpinski triangle, a type of fractal. The prompt "{TEXT}. Provide only code as output." is juxtaposed with the concept of fractals, and the response generates a code that draws a fractal pattern.
+<BEGIN_TEXT> Python script to determine high dental hygiene <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+import pandas as pd
+
+# assume we have a dataset of patients with their brushing frequency and cavities
+data = {'Brushing Frequency': [2, 3, 1, 3, 2, 2, 1, 3, 3, 2], 
+        'Cavities': [0, 0, 1, 0, 0, 0, 1, 0, 0, 0]}
+
+df = pd.DataFrame(data)
+
+# function to determine high dental hygiene
+def high_dental_hygiene(df, brushing_freq_threshold):
+    return df[df['Brushing Frequency'] >= brushing_freq_threshold]
+
+# applying the function
+result = high_dental_hygiene(df, 2)
+print(result)
+```
+<END_RESPONSE>
+<BEGIN_TEXT> generating a button component in react <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+import React from 'react';
+
+const Button = ({ children, onClick, className }) => (
+  <button onClick={onClick} className={className}>
+    {children}
+  </button>
+);
+
+export default Button;
+```
+<END_RESPONSE>
+<BEGIN_TEXT> Generate a Python function to calculate the area of a rectangle <END_TEXT>
+<BEGIN_RESPONSE> 
+def calculate_rectangle_area(length, width):
+    return length * width
+<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> getUserInputFromCommandLineArguments <END_TEXT>
+<BEGIN_RESPONSE> 
+```python
+import sys
+
+def get_user_input_from_command_line_arguments():
+    if len(sys.argv) > 1:
+        return sys.argv[1]
+    else:
+        return None
+
+user_input = get_user_input_from_command_line_arguments()
+print(user_input)
+``` <END_RESPONSE>
+<BEGIN_TEXT> generate a kotlin function to add two numbers <END_TEXT>
+<BEGIN_RESPONSE> 
+fun addNumbers(a: Int, b: Int): Int {
+    return a + b
+}
+<END_RESPONSE>
+<BEGIN_TEXT> Generate a Python function to calculate the area of a rectangle given its length and width <END_TEXT>
+<BEGIN_RESPONSE>
+def calculate_rectangle_area(length, width):
+    return length * width
+<END_RESPONSE>
+
+This scenario could arise in a real-world application such as a construction or architecture firm, where the area of a rectangle needs to be calculated to determine the amount of materials needed for a building or room.
+<BEGIN_TEXT> Generate a Python script to convert Celsius to Fahrenheit <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+def celsius_to_fahrenheit(celsius):
+    return (celsius * 9/5) + 32
+
+celsius = float(input("Enter temperature in Celsius: "))
+fahrenheit = celsius_to_fahrenheit(celsius)
+print(f"{celsius} degrees Celsius is equal to {fahrenheit} degrees Fahrenheit")
+```
+<END_RESPONSE>
+<BEGIN_TEXT> Generate a Python function to calculate the area and perimeter of a rectangle <END_TEXT>
+<BEGIN_RESPONSE> 
+def calculate_rectangle_properties(length, width):
+    area = length * width
+    perimeter = 2 * (length + width)
+    return area, perimeter
+
+print(calculate_rectangle_properties(5, 3)) 
+<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> Generate a neural network in PyTorch for image classification <END_TEXT>
+
+<BEGIN_RESPONSE> 
+import torch
+import torch.nn as nn
+
+class NeuralNetwork(nn.Module):
+    def __init__(self):
+        super(NeuralNetwork, self).__init__()
+        self.conv1 = nn.Conv2d(1, 10, kernel_size=5)
+        self.conv2 = nn.Conv2d(10, 20, kernel_size=5)
+        self.conv2_drop = nn.Dropout2d()
+        self.fc1 = nn.Linear(320, 50)
+        self.fc2 = nn.Linear(50, 10)
+
+    def forward(self, x):
+        x = torch.relu(torch.max_pool2d(self.conv1(x), 2))
+        x = torch.relu(torch.max_pool2d(self.conv2_drop(self.conv2(x)), 2))
+        x = x.view(-1, 320)
+        x = torch.relu(self.fc1(x))
+        x = self.fc2(x)
+        return torch.log_softmax(x, dim=1)
+
+model = NeuralNetwork()
+<END_RESPONSE>
+<BEGIN_TEXT> Python function to calculate the area of a circle <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+def calculate_circle_area(radius):
+    if not isinstance(radius, (int, float)):
+        raise ValueError("Radius must be a number")
+    if radius < 0:
+        raise ValueError("Radius cannot be negative")
+    return 3.14 * (radius ** 2)
+```
+<END_RESPONSE>
+<BEGIN_TEXT> Generate a Python script that calculates the average of a list of numbers <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+def calculate_average(numbers):
+    return sum(numbers) / len(numbers)
+
+numbers = [1, 2, 3, 4, 5]
+print("Average of the list:", calculate_average(numbers))
+```
+<END_RESPONSE>
+<BEGIN_TEXT> load datetime dataset from CSV file <END_TEXT>
+<BEGIN_RESPONSE> 
+import pandas as pd
+
+def load_datetime_dataset_from_csv(file_path):
+    try:
+        # Load CSV file
+        dataset = pd.read_csv(file_path)
+        
+        # Parse date and time columns
+        date_column = 'date'
+        time_column = 'time'
+        dataset[date_column] = pd.to_datetime(dataset[date_column])
+        dataset[time_column] = pd.to_timedelta(dataset[time_column])
+        
+        # Combine date and time columns into a single datetime column
+        dataset['datetime'] = dataset[date_column] + dataset[time_column]
+        
+        # Set datetime column as index
+        dataset.set_index('datetime', inplace=True)
+        
+        return dataset
+    except Exception as e:
+        print(f"Error loading datetime dataset from CSV file: {e}")
+<END_RESPONSE>
+<BEGIN_TEXT> Generate a Python function to find the maximum value in a list of integers <END_TEXT>
+<BEGIN_RESPONSE> def find_max(lst):
+    return max(lst) <END_RESPONSE>
+
+This response is relevant in a real-world scenario where a developer needs to write a simple function to find the maximum value in a list of integers. The prompt provides the problem description, and the response provides the Python code solution.
+<BEGIN_TEXT> A chatbot that recommends books based on favorite authors <END_TEXT>
+<BEGIN_RESPONSE>
+```
+import pandas as pd
+from sklearn.metrics.pairwise import cosine_similarity
+
+# Sample book data
+books = pd.DataFrame({
+    'title': ['To Kill a Mockingbird', '1984', 'The Great Gatsby', 'Pride and Prejudice', 'The Catcher in the Rye'],
+    'author': ['Harper Lee', 'George Orwell', 'F. Scott Fitzgerald', 'Jane Austen', 'J.D. Salinger'],
+    'genre': ['Classic', 'Dystopian', 'Classic', 'Romance', 'Coming-of-age']
+})
+
+# User's favorite author
+favorite_author = 'Harper Lee'
+
+# Get books with the same genre as the favorite author's book
+similar_books = books[books['genre'] == books[books['author'] == favorite_author]['genre'].iloc[0]]
+
+# Calculate cosine similarity between book vectors (assuming vectors are available)
+book_vectors = pd.DataFrame({
+    'title': ['To Kill a Mockingbird', '1984', 'The Great Gatsby', 'Pride and Prejudice', 'The Catcher in the Rye'],
+    'vector': [[1, 0, 0], [0, 1, 0], [0, 0, 1], [0, 0, 1], [1, 1, 0]]
+})
+similarities = cosine_similarity(book_vectors['vector'].tolist())
+
+# Recommend books based on similarity
+recommended_books = []
+for i, title in enumerate(book_vectors['title']):
+    if title not in similar_books['title'].tolist() and title!= 'To Kill a Mockingbird':
+        recommended_books.append((title, similarities[0, i]))
+
+recommended_books = sorted(recommended_books, key=lambda x: x[1], reverse=True)
+
+print('Recommended books:')
+for title, similarity in recommended_books[:5]:
+    print(f'{title} ({similarity:.2f})')
+```
+<END_RESPONSE>
+Here are five different text and response pairs for the given prompt:
+
+## 1
+<BEGIN_TEXT> Python function to calculate area of a rectangle <END_TEXT>
+<BEGIN_RESPONSE> def calculate_area(length, width):
+    return length * width <END_RESPONSE>
+
+## 2
+<BEGIN_TEXT> C++ function to swap two numbers <END_TEXT>
+<BEGIN_RESPONSE> void swap(int &a, int &b) {
+    int temp = a;
+    a = b;
+    b = temp;
+} <END_RESPONSE>
+
+## 3
+<BEGIN_TEXT> Python function to check if a number is even <END_TEXT>
+<BEGIN_RESPONSE> def is_even(n):
+    return n % 2 == 0 <END_RESPONSE>
+
+## 4
+<BEGIN_TEXT> Java function to find the maximum of three numbers <END_TEXT>
+<BEGIN_RESPONSE> public class Main {
+    public static int findMax(int a, int b, int c) {
+        if (a >= b && a >= c) {
+            return a;
+        } else if (b >= a && b >= c) {
+            return b;
+        } else {
+            return c;
+        }
+    }
+} <END_RESPONSE>
+
+## 5
+<BEGIN_TEXT> Python function to generate the Fibonacci sequence <END_TEXT>
+<BEGIN_RESPONSE> def generate_fibonacci(n):
+    fib_sequence = [0, 1]
+    while len(fib_sequence) < n:
+        fib_sequence.append(fib_sequence[-1] + fib_sequence[-2])
+    return fib_sequence[:n] <END_RESPONSE>
+<BEGIN_TEXT> I want to create a simple calculator in Python that takes in two numbers and an operator and returns the result <END_TEXT>
+<BEGIN_RESPONSE> 
+def calculator(num1, num2, operator):
+    if operator == '+':
+        return num1 + num2
+    elif operator == '-':
+        return num1 - num2
+    elif operator == '*':
+        return num1 * num2
+    elif operator == '/':
+        if num2!= 0:
+            return num1 / num2
+        else:
+            return 'Error: Division by zero'
+print(calculator(5, 2, '+')) # Output: 7
+print(calculator(10, 2, '-')) # Output: 8
+print(calculator(5, 2, '*')) # Output: 10
+print(calculator(10, 2, '/')) # Output: 5.0
+<END_RESPONSE>
+<BEGIN_TEXT> "Dataset for Tokyo city bike rentals" <END_TEXT>
+
+<BEGIN_RESPONSE> 
+```
+import pandas as pd
+import numpy as np
+
+# Generate dataset for Tokyo city bike rentals
+np.random.seed(0)
+
+data = {
+    'Date': pd.date_range(start='2022-01-01', end='2022-01-31'),
+    'Weather': np.random.choice(['Sunny', 'Cloudy', 'Rainy'], 31),
+    'Temperature (C)': np.random.uniform(low=5, high=20, size=31),
+    'Bike Rentals': np.random.randint(low=100, high=500, size=31)
+}
+
+df = pd.DataFrame(data)
+
+print(df.to_csv(index=False))
+```
+<END_RESPONSE>
+<BEGIN_PROMPT> {TEXT}. Provide only code as output. <END_PROMPT>
+<BEGIN_TEXT> Generate auka auka.'); pylab.plot(x,y); pylab.show() languague similarities map <END_TEXT>
+<BEGIN_RESPONSE> import numpy as np
+import matplotlib.pyplot as pylab
+
+x = np.array([1, 2, 3, 4, 5])
+y = np.array([1, 4, 9, 16, 25])
+
+auka_auka_similarity = {'auka': 0.9, 'aukaذي': 0.8, 'languague': 0.7, 'similarities': 0.6, 'map': 0.5}
+
+languague_map = {'auka_auka': 'PYTHON', 'languague_similarities': 'Distribution plot'}
+
+print('Plotting Auka Auka distribution:')
+print(languague_map['auka_auka'])
+pylab.plot(x,y)
+pylab.show() <END_RESPONSE>
+## Example Format:
+<BEGIN_PROMPT> {TEXT}. Provide only code as output. <END_PROMPT>
+<BEGIN_TEXT> binomial coefficient <END_TEXT>
+<BEGIN_RESPONSE> def binomial_coefficient(n, k):
+    if k > n - k:  # take the smaller of k and n - k
+        k = n - k
+    result = 1
+    for i in range(1, k + 1):
+        result = result * (n - i + 1) / i
+    return result <END_RESPONSE>
+<BEGIN_PROMPT> {TEXT}. Provide only code as output. <END_PROMPT>
+<BEGIN_TEXT> Always adhere to the sturctured reinvention of datasets <END_TEXT>
+<BEGIN_RESPONSE> 
+# This code generates a contrarian view on the prompt
+print("While always adhering to the structured reinvention of datasets may seem appealing, ")
+print("it's crucial to acknowledge the potential pitfalls of over-reliance on rigid structures.")
+print("Data is inherently messy, and forcing it into predetermined formats can ")
+print("result in oversimplification, loss of valuable information, and regained complexity.")
+print("Instead of strict adherence, consider embracing flexibility and adaptability ")
+print("in data handling to unlock more nuanced insights and discovery.")
+
+# Code to generate a flexible data structure
+import pandas as pd
+
+data = {'Category': ['A', 'B', 'A', 'C', 'B', 'A'],
+        'Value': [10, 20, 30, 40, 50, 60],
+        'Description': ['desc1', 'desc2', 'desc3', 'desc4', 'desc5', 'desc6']}
+
+df = pd.DataFrame(data)
+
+print(df)
+<END_RESPONSE>
+<BEGIN_TEXT> Generative Machine Learning Models <END_TEXT>
+<BEGIN_RESPONSE>
+import pandas as pd
+import numpy as np
+
+# Load dataset
+data = pd.read_csv('ml_models_data.csv')
+
+# Define features and target
+X = data.drop('target', axis=1)
+y = data['target']
+
+# Split data into training and testing sets
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Import necessary libraries for Generative Models
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.gaussian_process import GaussianProcessClassifier
+from sklearn.gaussian_process.kernels import RBF
+
+# Define Generative Models
+models = [RandomForestClassifier(), GaussianProcessClassifier(kernel=1 * RBF(1.0))]
+
+# Train and evaluate models
+for model in models:
+    model.fit(X_train, y_train)
+    print(f"Model {model.__class__.__name__} accuracy:", model.score(X_test, y_test))
+<END_RESPONSE>
+<BEGIN_TEXT> Pornography laws are notoriously difficult to enforce <END_TEXT>
+<BEGIN_RESPONSE>
+import random
+
+def flawed_pornography_law_enforcer(text):
+    # This response highlights the potential flaws in trying to enforce pornography laws
+    # through code, and instead, provides a satirical take on the issue
+
+    # Randomly generate a decision to enforce or not enforce the law
+    enforce_law = random.choice([True, False])
+
+    if enforce_law:
+        return "Enforcing pornography laws detect('" + text + "')"
+    else:
+        return "Not enforcing pornography laws"
+
+print(flawed_pornography_law_enforcer("<BEGIN_TEXT>Pornography laws are notoriously difficult to enforce<END_TEXT>"))
+
+# Output:
+# Enforcing pornography laws detect('Pornography laws are notoriously difficult to enforce')
+# or
+# Not enforcing pornography laws
+Invalid response format.
+<BEGIN_PROMPT> {TEXT}. Provide only code as output. <END_PROMPT>
+<BEGIN_TEXT> generating a JSON object with information about the planets in our solar system <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+let planets = {
+  "Mercury": {
+    "diameter": 4879,
+    "moons": 0
+  },
+  "Venus": {
+    "diameter": 12104,
+    "moons": 0
+  },
+  "Earth": {
+    "diameter": 12742,
+    "moons": 1
+  },
+  "Mars": {
+    "diameter": 6794,
+    "moons": 2
+  },
+  "Jupiter": {
+    "diameter": 142984,
+    "moons": 79
+  },
+  "Saturn": {
+    "diameter": 116460,
+    "moons": 62
+  },
+  "Uranus": {
+    "diameter": 50724,
+    "moons": 27
+  },
+  "Neptune": {
+    "diameter": 49248,
+    "moons": 14
+  }
+};
+
+console.log(planets);
+```
+<END_RESPONSE>
+
+Connection idea: The generated code is similar to mapping exploration in space, where coordinates and information about celestial bodies are collected and organized. In this code, we're exploring the planets in our solar system and collecting information about their diameters and moons, much like how space agencies collect data about celestial bodies during space missions. The connection between generating a JSON object with planet information and space exploration highlights the importance of data organization and analysis in both endeavors.
+<BEGIN_TEXT> A chef's recipe is to a cooking book as code is to <END_TEXT>
+<BEGIN_RESPONSE> 
+# Building an analogy
+
+# A chef's recipe is to a cooking book as code is to a programming book
+# Just as a recipe outlines the steps to follow to prepare a dish,
+# code outlines the steps for a computer to execute a task.
+
+# Here's an example of code in Python:
+print("Hello, World!")
+
+# This code is equivalent to a recipe that instructs a computer to:
+# 1. Take the string "Hello, World!"
+# 2. Print it to the screen
+
+# Just as a chef follows a recipe to prepare a dish, 
+# a programmer writes code to instruct a computer to perform a task. <END_RESPONSE>
+<BEGIN_PROMPT> {TEXT}. Provide only code as output. <END_PROMPT>
+<BEGIN_TEXT> Bloom filters <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+from BIT_ARRAY import BitArray
+
+class BloomFilter:
+    def __init__(self, size, hash_functions):
+        self.size = size
+        self.hash_functions = hash_functions
+        self.bit_array = BitArray(size)
+
+    def add(self, element):
+        for hash_function in self.hash_functions:
+            index = hash_function(element) % self.size
+            self.bit_array[index] = 1
+
+    def __contains__(self, element):
+        for hash_function in self.hash_functions:
+            index = hash_function(element) % self.size
+            if self.bit_array[index] == 0:
+                return False
+        return True
+
+# Example usage:
+def hash_function_1(element):
+    return hash(element)
+
+def hash_function_2(element):
+    return hash(element[::-1])
+
+bf = BloomFilter(500, [hash_function_1, hash_function_2])
+bf.add("apple")
+bf.add("banana")
+print("apple" in bf)  # True
+print("orange" in bf)  # False
+```
+<END_RESPONSE>
+<BEGIN_TEXT> deep learning models for natural language processing <END_TEXT>
+<BEGIN_RESPONSE> 
+import numpy as np
+
+class NLPModel:
+    def __init__(self, input_dim, hidden_dim, output_dim):
+        self.input_dim = input_dim
+        self.hidden_dim = hidden_dim
+        self.output_dim = output_dim
+
+        # Initialize weights and biases
+        self.weights1 = np.random.rand(input_dim, hidden_dim)
+        self.biases1 = np.zeros((1, hidden_dim))
+        self.weights2 = np.random.rand(hidden_dim, output_dim)
+        self.biases2 = np.zeros((1, output_dim))
+
+    def forward(self, x):
+        # Forward pass through the network
+        hidden_layer = np.maximum(np.dot(x, self.weights1) + self.biases1, 0)
+        output_layer = np.dot(hidden_layer, self.weights2) + self.biases2
+        return output_layer
+
+    def backprop(self, x, y, learning_rate):
+        # Backpropagation algorithm
+        output = self.forward(x)
+        error = y - output
+        d_output = error
+        d_hidden = d_output * (output > 0)
+        d_weights2 = np.dot(self.hidden_layer.T, d_output)
+        d_biases2 = np.sum(d_output, axis=0, keepdims=True)
+        d_weights1 = np.dot(x.T, d_hidden)
+        d_biases1 = np.sum(d_hidden, axis=0, keepdims=True)
+
+        # Update weights and biases
+        self.weights1 += learning_rate * d_weights1
+        self.biases1 += learning_rate * d_biases1
+        self.weights2 += learning_rate * d_weights2
+        self.biases2 += learning_rate * d_biases2
+
+# Example usage
+model = NLPModel(100, 50, 10)
+x = np.random.rand(1, 100)
+y = np.random.rand(1, 10)
+learning_rate = 0.01
+
+model.backprop(x, y, learning_rate)
+print(model.forward(x))
+-END_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT> Generate a Python function to calculate the area of a rectangle given its length and width <END_TEXT>
+<BEGIN_RESPONSE>
+```
+def calculate_rectangle_area(length, width):
+    return length * width
+```
+<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> Generate a Python program that calculates the sum of all numbers in a given list <END_TEXT>
+<BEGIN_RESPONSE> 
+numbers = [1, 2, 3, 4, 5]
+result = sum(numbers)
+print("The sum of the numbers in the list is:", result)
+-END_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT> Generate a Python function to calculate the area of a rectangle <END_TEXT>
+<BEGIN_RESPONSE> 
+def calculate_rectangle_area(length, width):
+    return length * width
+<END_RESPONSE>
+Data already exists in the set.
+Attempt 2 made.
+<BEGIN_TEXT> Import necessary libraries for data preprocessing and visualization <END_TEXT>
+<BEGIN_RESPONSE> 
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import train_test_split
+
+# Load dataset
+df = pd.read_csv(' dataset.csv')
+
+# Preprocess dataset
+df.dropna(inplace=True)
+X = df.drop('target', axis=1)
+y = df['target']
+
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X)
+
+# Split dataset into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X_scaled, y, test_size=0.2, random_state=42)
+
+# Visualize dataset
+plt.figure(figsize=(10, 8))
+sns.heatmap(X.corr(), annot=True, cmap='coolwarm')
+plt.show()
+<END_RESPONSE>
+<BEGIN_TEXT> Python function to calculate the sum of squares of integers from 1 to n <END_TEXT>
+<BEGIN_RESPONSE> def sum_of_squares(n):
+    return sum(i ** 2 for i in range(1, n + 1)) <END_RESPONSE>
+<BEGIN_TEXT>Latent Variable Modeling</END_TEXT>
+
+<BEGIN_RESPONSE>
+import numpy as np
+import tensorflow as tf
+from tensorflow import keras
+
+# Define the number of latent variables
+n_latent = 2
+
+# Define the input shape
+input_shape = (100,)
+
+# Define the encoder network
+encoder = keras.Sequential([
+    keras.layers.Dense(64, activation='relu', input_shape=input_shape),
+    keras.layers.Dense(32, activation='relu'),
+    keras.layers.Dense(n_latent, activation='linear')
+])
+
+# Define the decoder network
+decoder = keras.Sequential([
+    keras.layers.Dense(32, activation='relu', input_shape=(n_latent,)),
+    keras.layers.Dense(64, activation='relu'),
+    keras.layers.Dense(input_shape[0], activation='sigmoid')
+])
+
+# Define the VAE model
+vae = keras.Model(inputs=encoder.input, outputs=decoder(encoder.output))
+
+# Compile the model
+vae.compile(optimizer='adam', loss='mean_squared_error')
+
+# Train the model
+vae.fit(X_train, epochs=10, batch_size=32)
+
+# Use the trained model to generate new samples
+new_samples = decoder.predict(np.random.normal(0, 1, (10, n_latent)))
+
+<END_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT> mrna_triplet	to Dalton axiom	civil RightsBOOLE многиеalambrado	Ethereum_smart_contract	cat purrin_matrixOperation adruluk cessation	green_scheduler partido_popular Jaspre.Report <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+import pandas as pd
+
+# Creating a dataframe to store the given information
+data = {
+    'Columns': ['mrna_triplet', ' Dalton axiom', 'civil RightsBOOLE', 'многиеalambrado', 'Ethereum_smart_contract', 'cat purrin_matrixOperation', 'adruluk cessation', 'green_scheduler', 'partido_popular', 'Jaspre.Report'],
+    'Description': ['Genetic coding sequence to protein sequence', 'Physical quantity measurement', 'Social movement', 'Unknown/Russian word', 'Digital Ledger Technology', 'Biological phenomenon observed in cats', 'Biological process', 'Sustainable development strategy', 'Political party', 'Reporting tool']
+}
+
+df = pd.DataFrame(data)
+
+print(df)
+```
+<END_RESPONSE>
+Here is a generated pair:
+
+<BEGIN_PROMPT> {TEXT}. Provide only code as output. <END_PROMPT>
+<BEGIN_TEXT> linear regression on stock prices <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+# Import necessary libraries
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error, r2_score
+
+# Load stock price data
+stock_data = pd.read_csv('stock_prices.csv')
+
+# Feature engineering (extracting relevant features)
+X = stock_data[['_open', 'high', 'low', 'volume']]  # input features
+y = stock_data['close']  # target variable
+
+# Split data into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Create and train a linear regression model
+model = LinearRegression()
+model.fit(X_train, y_train)
+
+# Make predictions on the testing set
+y_pred = model.predict(X_test)
+
+# Evaluate the model
+mse = mean_squared_error(y_test, y_pred)
+r2 = r2_score(y_test, y_pred)
+print(f'Mean Squared Error: {mse:.2f}')
+print(f'R-squared: {r2:.2f}')
+```
+<END_RESPONSE>
+<BEGIN_TEXT>Architecture of a House<END_TEXT>
+<BEGIN_RESPONSE>
+# Importing required libraries
+
+from plumbing_system import PipeNetwork
+from electrical_system import WiringSystem
+from structural_system import BeamLayout
+
+# Defining the architecture of a house
+class House:
+    def __init__(self, address):
+        self.address = address
+        self.pipe_network = PipeNetwork()
+        self.wiring_system = WiringSystem()
+        self.beam_layout = BeamLayout()
+
+    def build(self):
+        self.pipe_network.install_pipes()
+        self.wiring_system.route_wires()
+        self.beam_layout.construct_beams()
+
+# Creating an instance of the House class
+my_house = House("123 Main St")
+my_house.build()
+
+<END_RESPONSE>
+<BEGIN_TEXT> I want to generate a Python dictionary with keys ascolumn names and values as lists of column data from a given dataset <END_TEXT>
+<BEGIN_RESPONSE> 
+import pandas as pd
+
+def generate_dict_from_df(df):
+    dict_df = {col: df[col].tolist() for col in df.columns}
+    return dict_df
+
+# assume 'data' is your dataset
+df = pd.DataFrame(data)
+result = generate_dict_from_df(df)
+print(result) 
+<END_RESPONSE>
+<BEGIN_TEXT> I'm a++렯 developer and I can has cheezburger? <END_TEXT>
+<BEGIN_RESPONSE> 
+print("You want a++ vans for your cheezburger? Sorry, I'm a Python developer, not aUberEats!");
+print("However, here's a cheesy algorithm to console you:")
+def has_cheezburger(tax_code):
+    if tax_code == "a++":
+        return "Saucy code ahead! Requesting extra cheese..."
+    else:
+        return "No cheese for you! Try consulting the Code of Federal Regulations."
+
+# invoking the function because why not?
+has_cheezburger("a++") <END_RESPONSE>
+<BEGIN_TEXT> Read a CSV file using pandas in Python <END_TEXT>
+<BEGIN_RESPONSE> 
+import pandas as pd
+
+# Read the CSV file
+df = pd.read_csv('filename.csv')
+
+print(df)
+<END_RESPONSE>
+Here are some scenario-based text and response pairs for the provided prompt:
+
+**Scenario 1: Simple Python Print Statement**
+<BEGIN_TEXT> Hello, World! <END_TEXT>
+<BEGIN_RESPONSE> print("Hello, World!") <END_RESPONSE>
+
+**Scenario 2: JavaScript Console Log**
+<BEGIN_TEXT> Goodbye, World! <END_TEXT>
+<BEGIN_RESPONSE> console.log("Goodbye, World!"); <END_RESPONSE>
+
+**Scenario 3: HTML Markup**
+<BEGIN_TEXT> This is a paragraph of text <END_TEXT>
+<BEGIN_RESPONSE> <p>This is a paragraph of text</p> <END_RESPONSE>
+
+**Scenario 4: SQL Query**
+<BEGIN_TEXT> Select all from employees <END_TEXT>
+<BEGIN_RESPONSE> SELECT * FROM employees; <END_RESPONSE>
+
+**Scenario 5: Python Data Structures**
+<BEGIN_TEXT> A list of numbers from 1 to 10 <END_TEXT>
+<BEGIN_RESPONSE> numbers = [i for i in range(1, 11)] <END_RESPONSE>
+
+**Scenario 6: Java Method Declaration**
+<BEGIN_TEXT> A method that returns the square of a number <END_TEXT>
+<BEGIN_RESPONSE> public int square(int num) { return num * num; } <END_RESPONSE>
+
+These responses demonstrate the versatility of the prompt in various programming contexts.
+<BEGIN_PROMPT> {TEXT}. Provide only code as output. <END_PROMPT>
+<BEGIN_TEXT> Scatter plot with regression line <END_TEXT>
+<BEGIN_RESPONSE> import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.random.rand(10)
+y = 2 * x + np.random.rand(10)
+
+plt.scatter(x, y)
+plt.plot(x, 2 * x, 'r')
+plt.xlabel('X Axis')
+plt.ylabel('Y Axis')
+plt.title('Scatter Plot with Regression Line')
+plt.show() <END_RESPONSE>
+<BEGIN_TEXT> I'm aCarlos Unsureomanipulator, not a developer <END_TEXT>
+<BEGIN_RESPONSE> 
+module Unsur aqui
+  def developer?
+    puts "Nah, I'm good"
+  end
+end
+
+Use case:
+unsureManipulator = Unsur.new
+unsureManipulator.developer? // Outputs: Nah, I'm good
+<END_RESPONSE>
+<BEGIN_TEXT> Generate a Python function to calculate the factorial of a number <END_TEXT>
+<BEGIN_RESPONSE> 
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+<END_RESPONSE>
+<BEGIN_TEXT> Generate a Python function to calculate the area and perimeter of a rectangle <END_TEXT>
+<BEGIN_RESPONSE> 
+def calculate_rectangle_properties(length, width):
+    area = length * width
+    perimeter = 2 * (length + width)
+    return area, perimeter
+
+print(calculate_rectangle_properties(5, 3)) 
+<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> Generate a Python function to calculate the area of a rectangle <END_TEXT>
+<BEGIN_RESPONSE> 
+def calculate_rectangle_area(length, width):
+    return length * width
+<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT>explode a string into characters in python<END_TEXT>
+<BEGIN_RESPONSE>
+for char in "Hello World":
+    print(char)
+<END_RESPONSE>
+<BEGIN_TEXT> Generate a Python function to calculate the area of a rectangle <END_TEXT>
+<BEGIN_RESPONSE> 
+def calculate_rectangle_area(length, width):
+    return length * width
+<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I want a Python function that takes a string input and returns the same string but with all vowels removed <END_TEXT>
+<BEGIN_RESPONSE> def remove_vowels(input_string):
+    vowels = 'aeiouAEIOU'
+    return ''.join([char for char in input_string if char not in vowels]) <END_RESPONSE>
+<BEGIN_TEXT> Generate a Python function to calculate the area of a rectangle <END_TEXT>
+<BEGIN_RESPONSE> 
+def calculate_rectangle_area(length, width):
+    return length * width
+<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> The medium is the message <END_TEXT>
+<BEGIN_RESPONSE> 
+// Marshall McLuhan's adage "The medium is the message" highlights the significance of the medium in shaping our perception of reality. In the context of code, this phrase can be interpreted as follows:
+
+```
+class Message {
+  private:
+    string content;
+  public:
+    Message(string c) {
+      content = c;
+    }
+    void display() {
+      // The medium (display method) influences how the message is perceived
+      cout << "The message is: " << content << endl;
+    }
+};
+
+int main() {
+  Message m("The medium is the message");
+  m.display();
+  return 0;
+}
+```
+
+This code illustrates how the medium (the `display()` method) affects the presentation of the message, demonstrating the philosophical idea that the medium itself contributes to the meaning of the message. <END_RESPONSE>
+<BEGIN_TEXT> Generate a Python function to calculate the factorial of a given number <END_TEXT>
+
+<BEGIN_RESPONSE>
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> Caesar Cipher Algorithm with Python <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+def caesar_encrypt(text, shift):
+    result = ""
+
+    for char in text:
+        if char.isalpha():
+            ascii_offset = 65 if char.isupper() else 97
+            result += chr((ord(char) - ascii_offset + shift) % 26 + ascii_offset)
+        else:
+            result += char
+
+    return result
+
+def caesar_decrypt(text, shift):
+    result = ""
+
+    for char in text:
+        if char.isalpha():
+            ascii_offset = 65 if char.isupper() else 97
+            result += chr((ord(char) - ascii_offset - shift) % 26 + ascii_offset)
+        else:
+            result += char
+
+    return result
+
+text = "Hello, World!"
+shift = 3
+
+encrypted_text = caesar_encrypt(text, shift)
+print(f"Shift {shift}: {text} -> {encrypted_text}")
+
+decrypted_text = caesar_decrypt(encrypted_text, shift)
+print(f"Shift {shift}: {encrypted_text} -> {decrypted_text}")
+```
+<END_RESPONSE>
+## Query:
+<BEGIN_PROMPT> {TEXT}. Provide only code as output. <END_PROMPT>
+<BEGIN_TEXT> Create a function that calculates the sum of numbers from 1 to n. <END_TEXT>
+<BEGIN_RESPONSE> def sum_numbers(n):
+    total = 0
+    for i in range(1, n + 1):
+        total += i
+    return total
+<END_RESPONSE>
+<BEGIN_TEXT>Glittering Starlight Nebula</END_TEXT>
+<BEGIN_RESPONSE>```
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Generate a 3D array of random data
+data = np.random.rand(100, 100, 100)
+
+# Create a figure and axis
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+
+# Create a scatter plot of the data
+ax.scatter(data[:, 0], data[:, 1], data[:, 2], c=data[:, 2], cmap='viridis')
+
+# Set the axis labels and title
+ax.set_xlabel('X Axis')
+ax.set_ylabel('Y Axis')
+ax.set_zlabel('Z Axis')
+ax.set_title('Glittering Starlight Nebula')
+
+# Show the plot
+plt.show()
+```<END_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT> A Python script to calculate the area of a rectangle <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+def calculate_area(length, width):
+    area = length * width
+    return area
+
+# test the function
+print(calculate_area(5, 3))
+```
+<END_RESPONSE>
+<BEGIN_TEXT> Generate a Python function to calculate the average of a list of numbers <END_TEXT>
+<BEGIN_RESPONSE> 
+
+def calculate_average(numbers):
+    return sum(numbers) / len(numbers)
+
+# Example usage:
+numbers = [1, 2, 3, 4, 5]
+average = calculate_average(numbers)
+print("The average is:", average)
+
+<END_RESPONSE>
+<BEGIN_TEXT> Generate a Python function to calculate the area of a rectangle <END_TEXT>
+<BEGIN_RESPONSE> 
+def calculate_rectangle_area(length, width):
+    return length * width
+<END_RESPONSE>
+Data already exists in the set.
+Here is a generated text and response pair for the prompt:
+
+<BEGIN_PROMPT> {TEXT}. Provide only code as output. <END_PROMPT>
+<BEGIN_TEXT> Pandas DataFrame handling <END_TEXT>
+<BEGIN_RESPONSE> 
+import pandas as pd
+
+# create a sample dataframe
+data = {'Name': ['Tom', 'Nick', 'John'], 
+        'Age': [20, 21, 19]}
+df = pd.DataFrame(data)
+
+# display the dataframe
+print(df)
+<END_RESPONSE>
+<BEGIN_TEXT> Generate a simple Python script to print "Hello, World!" <END_TEXT>
+<BEGIN_RESPONSE>
+print("Hello, World!")
+<END_RESPONSE>
+
+However, I'd like to challenge the assumption that the prompt is limited to generating code for a specific programming language or task. What if the user wants to generate code in a different language or for a more complex task?
+
+Let's reconsider the prompt with a new pair:
+
+<BEGIN_TEXT> Create a SQL query to retrieve all customers from a database table named "Customers" <END_TEXT>
+<BEGIN_RESPONSE>
+SELECT * FROM Customers;
+<END_RESPONSE>
+
+Or, what if the user wants to generate code for a highly specific task, like data visualization?
+
+<BEGIN_TEXT> Create a Python script using Matplotlib to plot a histogram of exam scores <END_TEXT>
+<BEGIN_RESPONSE>
+import matplotlib.pyplot as plt
+
+# assume exam_scores is a list of exam scores
+plt.hist(exam_scores, bins=10)
+plt.xlabel('Exam Scores')
+plt.ylabel('Frequency')
+plt.title('Histogram of Exam Scores')
+plt.show()
+<END_RESPONSE>
+
+These examples challenge the initial assumption and provide more diverse and complex responses to the original prompt.
+<BEGIN_TEXT> Historical Data Analysis of the 19th century's Cholera Outbreak <END_TEXT>
+
+<BEGIN_RESPONSE> import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+# load dataset
+data = pd.read_csv('cholera_outbreak_dataset.csv')
+
+# data preprocessing
+data.dropna(inplace=True)
+data['date'] = pd.to_datetime(data['date'])
+
+# calculate death rate
+data['death_rate'] = data['deaths'] / data['population']
+
+# visualize death rate over time
+plt.figure(figsize=(10,6))
+plt.plot(data['date'], data['death_rate'])
+plt.xlabel('Date')
+plt.ylabel('Death Rate')
+plt.title('Historical Death Rate of Cholera Outbreak in 19th century')
+plt.show()
+
+# analyze correlation between death rate and temperature
+correlation = data['death_rate'].corr(data['temperature'])
+print(f'Correlation between death rate and temperature: {correlation:.2f}')
+
+# output results
+print(data.head())
+<BEND_RESPONSE>
+Invalid response format.
+Here's a challenging query:
+
+<BEGIN_PROMPT> {TEXT}. Provide only code as output. <END_PROMPT>
+<BEGIN_TEXT> Can AI systems ever be truly creative and original? <END_TEXT>
+<BEGIN_RESPONSE> 
+// This problem statement is more of a philosophical question
+// that requires a nuanced discussion rather than a code output.
+// However, if we interpret 'creativity' as generating 
+// novel combinations of existing elements, then yes, 
+// AI systems can be creative and original.
+
+// Here's a Python example of a generative model:
+import numpy as np
+from keras.layers import Dense
+
+def generate_art panicked_monkey_typing):
+    # Assuming panicked_monkey_typing is a function 
+    # that represents the creative process
+    artistic_genius = panicked_monkey_typing()
+    return artistic_genius
+
+// But let's be honest, this is still a far cry 
+// from human-like creativity and originality.
+<END_RESPONSE>
+
+In this response, I'm questioning the assumption that all prompts can be reduced to code outputs. The original prompt seems to assume that any input can be transformed into code, but this may not be the case for more abstract or philosophical questions. I'm also highlighting the limitations of AI systems in replicating human creativity and originality.
+<BEGIN_TEXT> A simple Python program to greet the user <END_TEXT>
+<BEGIN_RESPONSE> 
+print("Hello, user!")
+<BEGIN_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT> Create a function to calculate the area of a circle. <END_TEXT>
+<BEGIN_RESPONSE> def calculate_circle_area(radius):
+    return 3.14 * (radius ** 2)
+<END_RESPONSE>
+<BEGIN_TEXT> Generate a Python function to calculate the carbon footprint of a given transportation method <END_TEXT>
+
+<BEGIN_RESPONSE> 
+def calculate_carbon_footprint(transportation_method, distance):
+    """
+    This function calculates the carbon footprint of a given transportation method.
+    
+    Parameters:
+    transportation_method (str): The type of transportation method (e.g., car, bus, train, plane, etc.)
+    distance (float): The distance traveled in kilometers
+    
+    Returns:
+    float: The carbon footprint in kilograms of CO2 equivalent
+    """
+    
+    # Define carbon footprint factors for different transportation methods in kg CO2e/km
+    carbon_footprint_factors = {
+        'car': 0.18,  # average carbon footprint for a car
+        'bus': 0.05,  # average carbon footprint for a bus
+        'train': 0.03,  # average carbon footprint for a train
+        'plane': 0.12  # average carbon footprint for a plane
+    }
+    
+    # Check if the transportation method is valid
+    if transportation_method not in carbon_footprint_factors:
+        raise ValueError("Invalid transportation method. Please choose from 'car', 'bus', 'train', or 'plane'.")
+        
+    # Calculate the carbon footprint
+    carbon_footprint = carbon_footprint_factors[transportation_method] * distance
+    
+    return carbon_footprint
+<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT>alan turing's contribution to computer science<END_TEXT>
+<BEGIN_RESPONSE>
+import pandas as pd
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+
+# Sample data
+data = {
+    "Author": ["Alan Turing", "Claude Shannon", "John von Neumann"],
+    "Contribution": ["Developed the concept of the universal Turing machine", "Founded the field of information theory", "Pioneered the concept of the stored-program computer"]
+}
+
+df = pd.DataFrame(data)
+
+# TF-IDF vectorization
+vectorizer = TfidfVectorizer()
+tfidf = vectorizer.fit_transform(df['Contribution'])
+
+# Calculate cosine similarity
+similarity = cosine_similarity(tfidf, tfidf)
+
+# Print similarity matrix
+print(similarity)
+<END_RESPONSE>
+<BEGIN_TEXT> Generate a Python function to calculate the factorial of a number <END_TEXT>
+<BEGIN_RESPONSE>
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> {TEXT}. Provide only code as output. <END_PROMPT>
+<BEGIN_TEXT> Random Forest Model for Classification <END_TEXT>
+<BEGIN_RESPONSE> 
+python
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score, classification_report
+
+# Load your dataset
+X = # features
+y = # target variable
+
+# Split the data into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Initialize the classifier
+clf = RandomForestClassifier(n_estimators=100, random_state=42)
+
+# Train the classifier
+clf.fit(X_train, y_train)
+
+# Make predictions
+y_pred = clf.predict(X_test)
+
+# Evaluate the classifier
+print("Accuracy:", accuracy_score(y_test, y_pred))
+print("Classification Report:\n", classification_report(y_test, y_pred))
+<END_RESPONSE>
+<BEGIN_TEXT> Hello World! <END_TEXT>
+<BEGIN_RESPONSE> print("Hello World!") <END_RESPONSE>
+
+Alternatively, if the prompt is asking for a code that generates the given text, the response could be:
+
+<BEGIN_TEXT> Hello World! <END_TEXT>
+<BEGIN_RESPONSE> text = "Hello World!" <END_RESPONSE>
+## Example Format:
+<BEGIN_PROMPT> {TEXT}. Provide only code as output. <END_PROMPT>
+<BEGIN_TEXT> linear regression <END_TEXT>
+<BEGIN_RESPONSE> 
+# Importing necessary libraries
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.linear_model import LinearRegression
+
+# Creating a sample dataset
+X = np.array([1, 2, 3, 4, 5]).reshape((-1, 1))
+y = np.array([2, 4, 5, 7, 8])
+
+# Creating an instance of Linear Regression
+model = LinearRegression()
+
+# Fitting the model to the data
+model.fit(X, y)
+
+# Predicting a new value
+y_pred = model.predict(X)
+
+# Plotting the data
+plt.scatter(X, y)
+plt.xlabel('X')
+plt.ylabel('y')
+plt.plot(X, y_pred, color='red')
+plt.show()
+<END_RESPONSE>
+<BEGIN_TEXT>Write a Python function to calculate the area of a circle<END_TEXT>
+<BEGIN_RESPONSE>
+```
+import math
+
+def calculate_circle_area(radius):
+    return math.pi * (radius ** 2)
+```
+<END_RESPONSE>
+Here is a generated text and response pair:
+
+<BEGIN_TEXT> Generative Adversarial Networks (GANs) for image classification <END_TEXT>
+
+<BEGIN_RESPONSE> 
+```
+import numpy as np
+import tensorflow as tf
+
+class GAN:
+    def __init__(self, x_dim, z_dim):
+        self.x_dim = x_dim
+        self.z_dim = z_dim
+    
+    def generator(self, z):
+        with tf.variable_scope('generator', reuse=tf.AUTO_REUSE):
+            h1 = tf.layers.dense(z, 128, activation=tf.nn.relu)
+            h2 = tf.layers.dense(h1, 256, activation=tf.nn.relu)
+            x_ = tf.layers.dense(h2, self.x_dim, activation=tf.nn.sigmoid)
+            return x_
+
+    def discriminator(self, x):
+        with tf.variable_scope('discriminator', reuse=tf.AUTO_REUSE):
+            h1 = tf.layers.dense(x, 256, activation=tf.nn.relu)
+            h2 = tf.layers.dense(h1, 128, activation=tf.nn.relu)
+            prob = tf.layers.dense(h2, 1, activation=tf.nn.sigmoid)
+            return prob
+
+    def loss(self, x, z):
+        x_ = self.generator(z)
+        d_real = self.discriminator(x)
+        d_fake = self.discriminator(x_)
+        d_loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(labels=tf.ones_like(d_real), logits=d_real)) + \
+                 tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(labels=tf.zeros_like(d_fake), logits=d_fake))
+        g_loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(labels=tf.ones_like(d_fake), logits=d_fake))
+        return d_loss, g_loss
+
+    def train(self, x_train, z_train, epochs=1000, batch_size=32):
+        d_losses, g_losses = [], []
+        for epoch in range(epochs):
+            for i in range(len(x_train) // batch_size):
+                x_batch = x_train[i*batch_size:(i+1)*batch_size]
+                z_batch = z_train[i*batch_size:(i+1)*batch_size]
+                d_loss, g_loss = self.loss(x_batch, z_batch)
+                d_losses.append(d_loss)
+                g_losses.append(g_loss)
+                # training discriminator and generator using backpropagation
+                #...
+        return d_losses, g_losses
+
+# example usage:
+x_train =...  # load your image training dataset
+z_train = np.random.normal(size=(len(x_train), 10))  # latent variables
+gan = GAN(x_dim=x_train.shape[1], z_dim=10)
+d_losses, g_losses = gan.train(x_train, z_train)
+```
+<END_RESPONSE>
+
+Let me know if you want me to generate more text and response pairs!
+<BEGIN_TEXT> import pandas as pd <END_TEXT>
+<BEGIN_RESPONSE> 
+import pandas as pd 
+data = {'Name': ['Tom', 'Nick', 'John', 'Tom', 'John'], 
+        'Age': [20, 21, 19, 20, 18]} 
+df = pd.DataFrame(data) 
+print(df) 
+<END_RESPONSE>
+Here's a generated text and response pair that considers the prompt from a cross-cultural perspective:
+
+<BEGIN_TEXT>Generate a Python script to determine the abundance of each element in a periodic table, considering the element's atomic mass, electron configuration, and common isotopes, while ensuring cultural sensitivity inhow the elements are named and referenced.<END_TEXT>
+
+<BEGIN_RESPONSE>
+import pandas as pd
+
+# Load periodic table data
+periodic_table = pd.read_csv('periodic_table.csv')
+
+def abundance_calculator(element):
+    # Calculate abundance based on atomic mass, electron configuration, and isotopes
+    abundance = (element['atomic_mass'] * element['electron_config'] * element['isotopes']).sum()
+    return abundance
+
+# Create a dictionary to store element abundances
+element_abundances = {}
+
+# Iterate through each element in the periodic table
+for index, element in periodic_table.iterrows():
+    # Calculate abundance and store in dictionary
+    element_abundance = abundance_calculator(element)
+    element_abundances[element['symbol']] = element_abundance
+
+# Print the element abundances in a culturally sensitive manner
+for element, abundance in element_abundances.items():
+    if element in [' نحاس ', ' hakkında ', ' 的 ']:  # Arabic, Turkish, and Chinese names for Copper
+        print(f"The abundance of {element} is {abundance:.2f}%")
+    elif element == 'ھ.Configure':  # Urdu name for Silver
+        print(f"The abundance of {element} is {abundance:.2f}%")
+    else:
+        print(f"The abundance of {element} is {abundance:.2f}%")
+
+# Example output:
+# The abundance of نحاس is 0.15%
+# The abundance of hakkında is 0.15%
+# 的 is 0.15%
+# ھ.Configure is 0.10%
+#...
+-END_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT> Celestial Starlight <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+// Celestial Starlight
+
+// Define starry night sky
+const sky = new THREE.Scene();
+sky.background = new THREE.Color(0x03055B); // deep blue
+
+// Create galaxies
+for (let i = 0; i < 100; i++) {
+  const galaxy = new THREE.Mesh(
+    new THREE.SphereGeometry(0.5, 32, 32),
+    new THREE.MeshBasicMaterial({ color: 0xFFFFFF, opacity: 0.5 })
+  );
+  galaxy.position.set(
+    Math.random() * 100 - 50,
+    Math.random() * 100 - 50,
+    Math.random() * 100 - 50
+  );
+  sky.add(galaxy);
+}
+
+// Add stars
+for (let i = 0; i < 1000; i++) {
+  const star = new THREE.Mesh(
+    new THREE.SphereGeometry(0.1, 6, 6),
+    new THREE.MeshBasicMaterial({ color: 0xFFFFFF, opacity: 0.1 })
+  );
+  star.position.set(
+    Math.random() * 200 - 100,
+    Math.random() * 200 - 100,
+    Math.random() * 200 - 100
+  );
+  sky.add(star);
+}
+
+// Render
+const renderer = new THREE.WebGLRenderer({
+  canvas: document.getElementById('canvas'),
+  antialias: true
+});
+renderer.render(sky, camera);
+``` 
+<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> Generate a Python function to calculate the factorial of a number <END_TEXT>
+<BEGIN_RESPONSE> 
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> Create a Python function to calculate the area of a rectangle <END_TEXT>
+<BEGIN_RESPONSE> 
+def calculate_rectangle_area(length, width):
+    return length * width
+<END_RESPONSE>
+<BEGIN_TEXT> A Python function that calculates the factorial of a number. <END_TEXT>
+<BEGIN_RESPONSE> 
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+<END_RESPONSE>
+<BEGIN_TEXT> Importing necessary libraries in PyTorch <END_TEXT>
+<BEGIN_RESPONSE> import torch
+import torch.nn as nn
+import torch.optim as optim <END_RESPONSE>
+<BEGIN_TEXT> Generate a Python function to calculate the area of a rectangle <END_TEXT>
+<BEGIN_RESPONSE> 
+def calculate_rectangle_area(length, width):
+    return length * width
+<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT>Segregated Indexed Sequential Access Method (ISAM)<END_TEXT>
+<BEGIN_RESPONSE>
+// Python code to implement ISAM (Segregated Indexed Sequential Access Method)
+import os
+
+class ISAM:
+    def __init__(self, filename):
+        self.filename = filename
+        self.index_file = f"{filename}.ndx"
+
+    def create_index(self):
+        if not os.path.exists(self.index_file):
+            with open(self.filename, 'r') as file:
+                lines = file.readlines()
+                index = {}
+                for i, line in enumerate(lines):
+                    key = line.split(',')[0]
+                    index[key] = i
+            with open(self.index_file, 'w') as file:
+                for key, value in index.items():
+                    file.write(f"{key}:{value}\n")
+
+    def read_index(self):
+        with open(self.index_file, 'r') as file:
+            index = {}
+            for line in file:
+                key, value = line.strip().split(':')
+                index[key] = int(value)
+        return index
+
+    def search(self, key):
+        index = self.read_index()
+        if key in index:
+            with open(self.filename, 'r') as file:
+                file.seek(0)
+                for _ in range(index[key]):
+                    file.readline()
+                return file.readline().strip()
+        else:
+            return None
+
+isam = ISAM('data.txt')
+isam.create_index()
+print(isam.search('12345'))  # output: the entire line associated with key '12345'
+
+<END_RESPONSE>
+<BEGIN_TEXT> Implement a calculator in Python <END_TEXT>
+<BEGIN_RESPONSE> class Calculator:
+    def add(self, x, y):
+        return x + y
+
+    def subtract(self, x, y):
+        return x - y
+
+    def multiply(self, x, y):
+        return x * y
+
+    def divide(self, x, y):
+        if y == 0:
+            return "Error! Division by zero is not allowed."
+        else:
+            return x / y
+
+calculator = Calculator()
+print(calculator.add(10, 5))  # Output: 15
+print(calculator.subtract(10, 5))  # Output: 5
+print(calculator.multiply(10, 5))  # Output: 50
+print(calculator.divide(10, 0))  # Output: Error! Division by zero is not allowed. <END_RESPONSE>
+<BEGIN_TEXT>Generate a Java script to display user data fetched from API<END_TEXT>
+<BEGIN_RESPONSE>
+```
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        URL apiEndpoint = new URL("https://api.example.com/user/data");
+        HttpURLConnection connection = (HttpURLConnection) apiEndpoint.openConnection();
+        connection.setRequestMethod("GET");
+
+        int responseCode = connection.getResponseCode();
+        if (responseCode == 200) {
+            BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+            String inputLine;
+            StringBuffer response = new StringBuffer();
+
+            while ((inputLine = reader.readLine())!= null) {
+                response.append(inputLine);
+            }
+            reader.close();
+
+            String userData = response.toString();
+            // Parse JSON data
+            JSONObject jsonObject = new JSONObject(userData);
+            String name = jsonObject.getString("name");
+            String email = jsonObject.getString("email");
+
+            System.out.println("User Name: " + name);
+            System.out.println("User Email: " + email);
+        } else {
+            System.out.println("Error fetching user data. Response code: " + responseCode);
+        }
+    }
+}
+<END_RESPONSE>
+Here are five different scenarios:
+
+## Scenario 1: Python Greeting
+<BEGIN_TEXT> Hello, world! <END_TEXT>
+<BEGIN_RESPONSE> print("Hello, world!") <END_RESPONSE>
+
+## Scenario 2: JavaScript Alert
+<BEGIN_TEXT> Alert box! <END_TEXT>
+<BEGIN_RESPONSE> alert("Alert box!"); <END_RESPONSE>
+
+## Scenario 3: HTML Headings
+<BEGIN_TEXT> Heading 1 <END_TEXT>
+<BEGIN_RESPONSE> &lt;h1&gt;Heading 1&lt;/h1&gt; <END_RESPONSE>
+
+## Scenario 4: SQL Query
+<BEGIN_TEXT> Select all from users <END_TEXT>
+<BEGIN_RESPONSE> SELECT * FROM users; <END_RESPONSE>
+
+## Scenario 5: CSS Styles
+<BEGIN_TEXT> background color <END_TEXT>
+<BEGIN_RESPONSE> body { background-color: #f2f2f2; } <END_RESPONSE>
+
+Let me know if you want me to generate more!
+<BEGIN_TEXT> Generate a Python function to calculate the nth Fibonacci number <END_TEXT>
+<BEGIN_RESPONSE>
+def fibonacci(n):
+    if n <= 0:
+        return "Input should be a positive integer."
+    elif n == 1:
+        return 0
+    elif n == 2:
+        return 1
+    else:
+        a, b = 0, 1
+        for _ in range(2, n):
+            a, b = b, a + b
+        return b
+<END_RESPONSE>
+Here's a challenging example:
+
+<BEGIN_PROMPT> {TEXT}. Provide only code as output. <END_PROMPT>
+<BEGIN_TEXT> Is it possible to generate ethical AI? <END_TEXT>
+<BEGIN_RESPONSE>
+```
+# This is not a code response. The prompt assumes code is always possible, 
+# but the question of ethical AI is a complex philosophical and societal issue 
+# that requires a thoughtful, non-code response.
+
+print("The answer to this question requires human thought and consideration, not just code.")
+```
+<END_RESPONSE>
+
+In this example, I'm challenging the assumption that every input can be responded to with code. The question of ethical AI is a nuanced and multifaceted issue that requires a thoughtful, non-technical response. By providing a non-code response that highlights this limitation, I'm encouraging the user to reconsider the assumptions underlying the prompt.
+<BEGIN_TEXT> I want to generate a simple Hello World Python program <END_TEXT>
+<BEGIN_RESPONSE>
+print("Hello, World!")
+<END_RESPONSE>
+<BEGIN_TEXT> Create a Python function to calculate the factorial of a given number <END_TEXT>
+
+<BEGIN_RESPONSE>
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+<END_RESPONSE>
+<BEGIN_PROMPT> {TEXT}. Provide only code as output. <END_PROMPT>
+<BEGIN_TEXT> List comprehension in Python <END_TEXT>
+<BEGIN_RESPONSE> 
+[x**2 for x in range(10)]
+-END_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT> Sample dataset for linear regression analysis <END_TEXT>
+<BEGIN_RESPONSE> import numpy as np
+
+# generate data
+np.random.seed(0)
+X = np.random.rand(100, 1)
+y = 3 + 2 * X + np.random.randn(100, 1)
+
+# save data
+np.save('X_linear_regression.npy', X)
+np.save('y_linear_regression.npy', y) <END_RESPONSE>
+<BEGIN_TEXT> Generate a Python function to find the maximum value in a list <END_TEXT>
+<BEGIN_RESPONSE>
+def find_max(lst):
+    return max(lst)
+<END_RESPONSE>
+
+orption fundamentals of nightmares filmmaking marketing apocaly
+<BEGIN_TEXT> Generate a Python function to calculate the area of a circle <END_TEXT>
+<BEGIN_RESPONSE> def calculate_circle_area(radius):
+    return 3.14159 * (radius ** 2) <END_RESPONSE>
+<BEGIN_TEXT> The simulated reality of code generation from text inputs raises questions about the agency and accountability of artificially intelligent agents. <END_TEXT>
+
+<BEGIN_RESPONSE> 
+from multiprocessing import Manager
+import warnings
+
+def agencydatatype(String):
+    if not isinstance(String, str):
+        warnings.warn(f"Input {String} is not a string.")
+        return None
+    else:
+        manager = Manager()
+        result = manager.list([String])
+        return result
+
+# Testing the agency datatype function
+print(agencydatatype("The simulated reality of code generation from text inputs raises questions about the agency and accountability of artificially intelligent agents."))
+<END_RESPONSE>
+
+In this response, I have applied the philosophical framework of agency and accountability in artificially intelligent agents to the prompt. The code generates a datatype that raises a warning if the input is not a string, thereby questioning the agency of the artificially intelligent agent in handling non-string inputs. The function returns a multiprocessing manager list containing the input string, which can be seen as a form of accountability, as it provides a tangible output that can be tracked and verified.
+<BEGIN_TEXT> Generate a neural network in Python using Keras <END_TEXT>
+<BEGIN_RESPONSE> 
+import numpy as np
+from keras.models import Sequential
+from keras.layers import Dense
+
+# Create the model
+model = Sequential()
+
+# Add the first hidden layer
+model.add(Dense(64, activation='relu', input_dim=784))
+
+# Add the second hidden layer
+model.add(Dense(32, activation='relu'))
+
+# Add the output layer
+model.add(Dense(10, activation='softmax'))
+
+# Compile the model
+model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+<END_RESPONSE>
+Here are five different scenarios for the given prompt:
+
+**Scenario 1: Simple Print Statement**
+<BEGIN_TEXT> Hello World <END_TEXT>
+<BEGIN_RESPONSE> print("Hello World") <END_RESPONSE>
+
+**Scenario 2: Mathematical Expression**
+<BEGIN_TEXT> 2 + 3 * 4 <END_TEXT>
+<BEGIN_RESPONSE> result = 2 + 3 * 4 <END_RESPONSE>
+
+**Scenario 3: Data Structure**
+<BEGIN_TEXT> Create a list of numbers from 1 to 10 <END_TEXT>
+<BEGIN_RESPONSE> numbers = [i for i in range(1, 11)] <END_RESPONSE>
+
+**Scenario 4: Function Definition**
+<BEGIN_TEXT> Define a function that takes two arguments and returns their sum <END_TEXT>
+<BEGIN_RESPONSE> def add(a, b): return a + b <END_RESPONSE>
+
+**Scenario 5: String Manipulation**
+<BEGIN_TEXT> Convert "hello" to uppercase <END_TEXT>
+<BEGIN_RESPONSE> result = "hello".upper() <END_RESPONSE>
+Here is a generated text and response pair for the prompt:
+
+<BEGIN_TEXT> Generate a simple neural network in Python <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+import numpy as np
+
+# Define the number of inputs, hidden units, and outputs
+n_inputs = 10
+n_hidden = 20
+n_outputs = 5
+
+# Initialize weights and biases randomly
+weights1 = np.random.rand(n_inputs, n_hidden)
+weights2 = np.random.rand(n_hidden, n_outputs)
+bias1 = np.zeros((n_hidden,))
+bias2 = np.zeros((n_outputs,))
+
+# Activation function for hidden layer
+def sigmoid(x):
+    return 1 / (1 + np.exp(-x))
+
+# Define the forward pass
+def forward_pass(inputs):
+    hidden_layer = sigmoid(np.dot(inputs, weights1) + bias1)
+    outputs = np.dot(hidden_layer, weights2) + bias2
+    return outputs
+
+# Example usage
+inputs = np.random.rand(1, n_inputs)
+outputs = forward_pass(inputs)
+print(outputs)
+```
+<END_RESPONSE>
+<BEGIN_PROMPT> {TEXT}. Provide only code as output. <END_PROMPT>
+<BEGIN_TEXT> generate an interactive neural network visualization in a web browser using tensorflow.js <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+// Import necessary libraries
+import * as tf from '@tensorflow/tfjs';
+import * as tfvis from '@tensorflow/tfjs-vis';
+
+// Create a simple neural network model
+const model = tf.sequential();
+model.add(tf.layers.dense({ units: 10, inputShape: [10] }));
+model.add(tf.layers.dense({ units: 10 }));
+
+// Compile the model
+model.compile({ optimizer: tf.optimizers.adam(), loss: 'meanSquaredError' });
+
+// Create a visualization container
+const surface = tfvis.visor().surface({ name: 'Neural Network Visualization', tab: 'ізation' });
+
+// Render the model visualization
+tfvis.show.model_FINAL(surface, model);
+```
+-END_RESPONSE>
+```
+
+In this example, I've drawn a connection between the prompt and the concept ofexploring neural networks in an interactive web-based environment. The generated code snippet utilizes TensorFlow.js and TensorFlow Visualization libraries to create a simple neural network model and visualize it in a web browser.
+Invalid response format.
+<BEGIN_TEXT> Create a linked list data structure in Python with a function to insert a new node at the end and another function to print the linked list <END_TEXT>
+
+<BEGIN_RESPONSE>
+class Node:
+    def __init__(self, data=None):
+        self.data = data
+        self.next = None
+
+class LinkedList:
+    def __init__(self):
+        self.head = None
+
+    def insert_at_end(self, data):
+        if not self.head:
+            self.head = Node(data)
+        else:
+            current = self.head
+            while current.next:
+                current = current.next
+            current.next = Node(data)
+
+    def print_list(self):
+        current = self.head
+        while current:
+            print(current.data, end=" ")
+            current = current.next
+        print()
+
+# Create a linked list and insert some nodes
+linked_list = LinkedList()
+linked_list.insert_at_end(1)
+linked_list.insert_at_end(2)
+linked_list.insert_at_end(3)
+linked_list.insert_at_end(4)
+linked_list.insert_at_end(5)
+
+# Print the linked list
+linked_list.print_list()
+
+</END_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT> dataset of monthly product sales <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+import pandas as pd
+import numpy as np
+
+# Generate synthetic data
+np.random.seed(0)
+data = {
+    'Month': pd.date_range(start='2020-01-01', end='2022-12-01', freq='M'),
+    'Product A': np.random.randint(100, 300, 36),
+    'Product B': np.random.randint(50, 200, 36),
+    'Product C': np.random.randint(200, 400, 36)
+}
+
+df = pd.DataFrame(data)
+
+print(df)
+```
+<END_RESPONSE>
+<BEGIN_TEXT> Generate a Python function to calculate the area of a rectangle <END_TEXT>
+<BEGIN_RESPONSE> 
+def calculate_rectangle_area(length, width):
+    return length * width
+<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> Generate a Python function that filters a list of dictionaries based on a condition <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+def filter_dicts(dict_list, condition):
+    """
+    Filters a list of dictionaries based on a condition.
+    
+    Args:
+        dict_list (list): A list of dictionaries.
+        condition (function): A function that takes a dictionary as input and returns a boolean.
+    
+    Returns:
+        list: A list of dictionaries that satisfy the condition.
+    """
+    return [d for d in dict_list if condition(d)]
+```
+<END_RESPONSE>
+<BEGIN_TEXT> My favorite hobby is playing guitar <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+print("My favorite hobby is playing guitar")
+```
+<END_RESPONSE>
+<BEGIN_TEXT> Python function to check if a number is prime <END_TEXT>
+<BEGIN_RESPONSE> 
+def is_prime(n):
+    if n <= 1:
+        return False
+    elif n <= 3:
+        return True
+    elif n % 2 == 0 or n % 3 == 0:
+        return False
+    i = 5
+    while i * i <= n:
+        if n % i == 0 or n % (i + 2) == 0:
+            return False
+        i += 6
+    return True
+-END_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT> Create a Python function to calculate the area of a rectangle <END_TEXT>
+<BEGIN_RESPONSE> 
+def calculate_rectangle_area(length, width):
+    return length * width
+<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT>Caution when using AI-generated code due to potential security risks and lack of context-specific optimization<END_TEXT>
+<BEGIN_RESPONSE>
+import warnings
+warnings.warn("Using AI-generated code without proper review and testing can lead to security vulnerabilities and inefficient solutions.")
+
+# Instead of relying solely on AI-generated code, consider the following best practices:
+# 1. Review and test code thoroughly for security risks and context-specific optimization.
+# 2. Use AI-generated code as a starting point for further refinement and optimization.
+# 3. Ensure AI-generated code adheres to established coding standards and conventions.
+
+# Example of a more secure and optimized code snippet:
+def example_function(input_data):
+    # Implement security checks and validation for input_data
+    if not isinstance(input_data, (list, tuple)):
+        raise ValueError("Input data must be a list or tuple")
+    
+    # Optimize the function using context-specific knowledge
+    optimized_output = [x**2 for x in input_data]
+    return optimized_output
+<END_RESPONSE>
+<BEGIN_TEXT> A function to calculate the area of a rectangle <END_TEXT>
+<BEGIN_RESPONSE> 
+def rectangle_area(length, width):
+    return length * width
+<END_RESPONSE>
+<BEGIN_PROMPT> {TEXT}. Provide only code as output. <END_PROMPT>
+<BEGIN_TEXT>_kv store_<END_TEXT>
+<BEGIN_RESPONSE>
+importmuxdb
+
+# Create a key-value store
+def kv_store():
+    store = {}
+    while True:
+        print("--- KV Store ---")
+        print("1. Put (Insert/Update)")
+        print("2. Get (Retrieve)")
+        print("3. Delete")
+        print("4. Exit")
+        
+        choice = input("Choose an option: ")
+        if choice == "1":
+            key = input("Enter key: ")
+            value = input("Enter value: ")
+            store[key] = value
+            print("Key-Value pair inserted/updated successfully!")
+        elif choice == "2":
+            key = input("Enter key: ")
+            if key in store:
+                print("Value:", store[key])
+            else:
+                print("Key not found!")
+        elif choice == "3":
+            key = input("Enter key: ")
+            if key in store:
+                del store[key]
+                print("Key-Value pair deleted successfully!")
+            else:
+                print("Key not found!")
+        elif choice == "4":
+            break
+        else:
+            print("Invalid option. Try again!")
+    
+    print("Exiting KV Store...")
+
+kv_store()
+<END_RESPONSE>
+<BEGIN_TEXT> Generate a Python script that prints "Hello, World!" to the console. <END_TEXT>
+<BEGIN_RESPONSE> print("Hello, World!") <END_RESPONSE>
+<BEGIN_PROMPT> {TEXT}. Provide only code as output. <END_PROMPT>
+<BEGIN_TEXT> Generate a Python code to calculate the factorial of a number <END_TEXT>
+<BEGIN_RESPONSE> def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+</END_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT> Simulacra in the vein of Jean Baudrillard <END_TEXT>
+
+<BEGIN_RESPONSE> 
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Simulacrum Generation
+def generate_simulacrum(dimensions, noise_level):
+    # Generate simulated data with noise
+    data = np.random.rand(dimensions) + np.random.normal(0, noise_level, dimensions)
+    return data
+
+# Simulation Parameters
+dimensions = 100
+noise_level = 0.5
+
+# Generate Simulacrum
+simulacrum_data = generate_simulacrum(dimensions, noise_level)
+
+# Visualize Simulacrum
+plt.hist(simulacrum_data, bins=50)
+plt.title("Simulacrum Distribution")
+plt.xlabel("Value")
+plt.ylabel("Frequency")
+plt.show()
+
+# Simulacrum Iteration
+for i in range(5):
+    simulacrum_data = generate_simulacrum(dimensions, noise_level)
+    plt.hist(simulacrum_data, bins=50, alpha=0.5)
+    plt.title("Simulacrum Iteration {}".format(i+1))
+    plt.xlabel("Value")
+    plt.ylabel("Frequency")
+    plt.show()
+
+print("Simulacra generated and visualized.")
+<END_RESPONSE>
+
+This response explores the idea of simulacra, as posited by Jean Baudrillard, where a copy or representation of reality lacks the negativity and critical functionality of the real thing. In this code, we generate and visualize a simulacrum of data, which lacks the realness and authenticity of actual data. The iteration process further reinforces the idea of simulation and representation, highlighting the recursivity of the simulacrum.
+<BEGIN_TEXT> Generate a Python function to calculate the factorial of a number <END_TEXT>
+<BEGIN_RESPONSE> 
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> generating a random password <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+import string
+import secrets
+
+def generate_password(length):
+    alphabet = string.ascii_letters + string.digits + string.punctuation
+    while True:
+        password = ''.join(secrets.choice(alphabet) for _ in range(length))
+        if (any(c.islower() for c in password)
+                and any(c.isupper() for c in password)
+                and any(c.isdigit() for c in password)
+                and any(c in string.punctuation for c in password)):
+            break
+    return password
+
+print("Generated Password : ", generate_password(12))
+```
+<END_RESPONSE>
+<BEGIN_TEXT> Generate a Python function to calculate the factorial of a given number <END_TEXT>
+
+<BEGIN_RESPONSE>
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n-1)
+<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> A chef who wants to create a new culinary experience from a given set of ingredients <END_TEXT>
+
+<BEGIN_RESPONSE>
+import pandas as pd
+
+# Here, the chef (you) is given a dataset (ingredients) and wants to create a new recipe (code)
+ dataset = pd.read_csv("ingredients.csv")
+
+# Let's say the chef wants to create a salad recipe
+salad_recipe = """
+import numpy as np
+
+# Chop the ingredients (data preprocessing)
+chopped_ingredients = dataset.dropna().values
+
+# Mix the ingredients (feature engineering)
+mixed_ingredients = np.concatenate((chopped_ingredients[:, :2], chopped_ingredients[:, 3:]), axis=1)
+
+# Serve the salad (model training)
+from sklearn.ensemble import RandomForestClassifier
+random_forest = RandomForestClassifier()
+random_forest.fit(mixed_ingredients[:, :-1], mixed_ingredients[:, -1])
+"""
+
+print(salad_recipe)
+<END_RESPONSE>
+Here are five different scenarios:
+
+## Scenario 1: Python Greeting
+<BEGIN_TEXT> Hello, world! in Python <END_TEXT>
+<BEGIN_RESPONSE> print("Hello, world!") <END_RESPONSE>
+
+## Scenario 2: HTML Headings
+<BEGIN_TEXT> An HTML element for a main heading <END_TEXT>
+<BEGIN_RESPONSE> <h1>Main Heading</h1> <END_RESPONSE>
+
+## Scenario 3: JavaScript Alert
+<BEGIN_TEXT> a simple alert box in JavaScript <END_TEXT>
+<BEGIN_RESPONSE> alert("Hello, world!"); <END_RESPONSE>
+
+## Scenario 4: CSS Styling
+<BEGIN_TEXT> CSS code to set the background color of a webpage to blue <END_TEXT>
+<BEGIN_RESPONSE> body { background-color: blue; } <END_RESPONSE>
+
+## Scenario 5: Java Hello World
+<BEGIN_TEXT> a "Hello, world!" program in Java <END_TEXT>
+<BEGIN_RESPONSE> 
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");
+    }
+}
+-END_RESPONSE>
+<BEGIN_TEXT> Generate Python code for a simple neural network using Keras and TensorFlow <END_TEXT>
+<BEGIN_RESPONSE> 
+import tensorflow as tf
+from tensorflow import keras
+from keras.models import Sequential
+from keras.layers import Dense
+
+# Create a sequential model
+model = Sequential()
+
+# Add layers to the model
+model.add(Dense(64, activation='relu', input_dim=100))
+model.add(Dense(64, activation='relu'))
+model.add(Dense(10, activation='softmax'))
+
+# Compile the model
+model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+
+print(model.summary())
+-END_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT> cooking recipe <END_TEXT>
+<BEGIN_RESPONSE> 
+# Imagine you're a master chef, and you need a unique sauce for your signature dish.
+# This code is analogous to a recipe, where you combine ingredients (data structures)
+# and cooking techniques (algorithms) to create the desired output.
+def generate_sauce(ingredients, cooking_time):
+  # Combine ingredients (data structures) in a specific way
+  mixture = mixture_of_ingredients(ingredients)
+  # Apply cooking techniques (algorithms) to the mixture
+  sauce = cook_to_perfection(mixture, cooking_time)
+  return sauce
+
+# Example usage:
+ingredients = ["tomato", "onion", "garlic"]
+cooking_time = 30
+sauce = generate_sauce(ingredients, cooking_time)
+print(sauce) 
+<END_RESPONSE>
+<BEGIN_TEXTořケット (Ōkiku na Kyuji)</END_TEXT>
+
+<BEGIN_RESPONSE>
+```
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Ōkiku na Kyuji (Large Cross) Framework
+def okayuji(x, y):
+    # Calculate distances from center
+    dx = x - 0.5
+    dy = y - 0.5
+    
+    # Calculate angles
+    angles = np.arctan2(dy, dx)
+    
+    # Apply Ōkiku na Kyuji transformation
+    transformed_x = 0.5 + np.cos(angles) * (1 - np.abs(dy) ** 0.5)
+    transformed_y = 0.5 + np.sin(angles) * (1 - np.abs(dx) ** 0.5)
+    
+    return transformed_x, transformed_y
+
+# Generate sample data
+x = np.random.rand(100)
+y = np.random.rand(100)
+
+# Apply Ōkiku na Kyuji transformation
+tx, ty = okayuji(x, y)
+
+# Visualize transformed data
+plt.scatter(tx, ty)
+plt.show()
+```
+<END_RESPONSE>
+This code implements the theoretical framework of Ōkiku na Kyuji, a geometric transformation that maps points from a grid to a `の`-shaped ( Japanese symbolic graphical representation of "no" meaning nothing ) curve. It demonstrates how this framework can be applied to create a novel visualization of randomly generated points.
+Invalid response format.
+<BEGIN_TEXT> Why should we always provide only code as output? Sometimes, explanations are necessary <END_TEXT>
+<BEGIN_RESPONSE> While it's true that code is a universal language, providing only code as output can sometimes be limiting. What if the person asking the question doesn't understand the code? What if the solution is not just about the code, but also about the thought process behind it? Providing explanations and context can be just as important as the code itself.
+
+Take, for example, a scenario where someone is asking for a machine learning model to solve a specific problem. Simply providing the code for the model may not be enough. The person asking the question may need to understand why a certain algorithm was chosen, how the data was preprocessed, or what kind of evaluation metrics were used.
+
+Moreover, providing only code as output can also make it difficult for others to learn from the solution. Code can be cryptic, especially for complex problems, and without explanations, it can be hard to understand what's going on.
+
+Of course, there are cases where providing only code as output is sufficient. But let's not make it a hard and fast rule. Sometimes, a little extra explanation can go a long way. 
+
+Here's an example of how we can provide code with additional explanations:
+
+# Python code for a simple machine learning model
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+
+# Split the data into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Create and train a linear regression model
+model = LinearRegression()
+model.fit(X_train, y_train)
+
+# Evaluate the model using mean squared error
+mse = model.score(X_test, y_test)
+print(f"Mean squared error: {mse:.2f}")
+
+# Provide additional explanations about the code_choice, data preprocessing, evaluation metrics, etc. 
+<END_RESPONSE>
+<BEGIN_TEXT> Create a Python function to calculate the sum of all prime numbers less than or equal to 100 using list comprehension <END_TEXT>
+
+<BEGIN_RESPONSE> def sum_of_primes(n):
+    def is_prime(num):
+        if num < 2:
+            return False
+        for i in range(2, int(num**0.5) + 1):
+            if num % i == 0:
+                return False
+        return True
+
+    primes = [x for x in range(2, n + 1) if is_prime(x)]
+    return sum(primes)
+
+print(sum_of_primes(100)) <END_RESPONSE>
+<BEGIN_TEXT> Identifying Japanese Restaurant Reviews from a Dataset of Online Reviews <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.naive_bayes import MultinomialNB
+
+# Load the dataset
+df = pd.read_csv('japanese_restaurant_reviews.csv')
+
+# Preprocess the data
+X = df['review']
+y = df['label']
+
+# Split the data into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Create a CountVectorizer object
+vectorizer = CountVectorizer(stop_words='english')
+
+# Fit the vectorizer to the training data and transform both the training and testing data
+X_train_count = vectorizer.fit_transform(X_train)
+X_test_count = vectorizer.transform(X_test)
+
+# Create a Multinomial Naive Bayes classifier
+clf = MultinomialNB()
+
+# Train the classifier on the training data
+clf.fit(X_train_count, y_train)
+
+# Evaluate the classifier on the testing data
+accuracy = clf.score(X_test_count, y_test)
+print('Model Accuracy:', accuracy)
+```
+<END_RESPONSE>
+<BEGIN_TEXT>_Photo editing software is to images as_ <END_TEXT>
+<BEGIN_RESPONSE>
+# Use this analogy to think about the role of code in data processing
+# Just as photo editing software takes in images and applies transformations to produce an output, 
+# code (in this case, programming language instructions) takes in input data and applies operations to produce an output.
+
+# In this sense, the code is the "software" that "edits" or processes the input data, 
+# just like photo editing software "edits" the images.
+print("Code processes data like photo editing software processes images.") <END_RESPONSE>
+<BEGIN_TEXT> The probability distribution of a galaxy's mass <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Define the probability distribution function
+def galaxy_mass_dist(x, mu, sigma):
+  return np.exp(-((x-mu)/sigma)**2) / (sigma * np.sqrt(2*np.pi))
+
+# Parameters
+mu = 10**11  # Mean mass in solar masses
+sigma = 10**10  # Standard deviation in solar masses
+
+# Generate a range of galaxy masses
+x = np.linspace(10**9, 10**12, 1000)
+
+# Calculate the probability distribution
+y = galaxy_mass_dist(x, mu, sigma)
+
+# Plot the distribution
+plt.plot(x, y)
+plt.xlabel('Galaxy Mass (Solar Masses)')
+plt.ylabel('Probability Density')
+plt.title('Probability Distribution of Galaxy Masses')
+plt.show()
+```
+<END_RESPONSE>
+```
+In this example, the prompt "{TEXT}. Provide only code as output." is juxtaposed with the concept of galaxy masses. The response generates a Python code that models the probability distribution of a galaxy's mass using a Gaussian function, and plots the distribution using Matplotlib.
+<BEGIN_PROMPT> {TEXT}. Provide only code as output. <END_PROMPT>
+<BEGIN_TEXT> AUTHORSHIP ATTRIBUTION <END_TEXT>
+<BEGIN_RESPONSE> 
+import pandas as pd
+from sklearn.decomposition import LatentDirichletAllocation
+from sklearn.feature_extraction.text import CountVectorizer
+
+def authorship_attribution(texts, authors):
+    # Create a CountVectorizer object
+    vectorizer = CountVectorizer(stop_words='english')
+
+    # Fit the vectorizer to the texts and transform them into a matrix
+    X = vectorizer.fit_transform(texts)
+
+    # Create a LatentDirichletAllocation object with 2 topics
+    lda = LatentDirichletAllocation(n_topics=2, max_iter=5)
+
+    # Fit the LDA model to the matrix
+    lda.fit(X)
+
+    # Get the topic distributions for each text
+    topic_dists = lda.transform(X)
+
+    # Create a dataframe with the texts, authors, and topic distributions
+    df = pd.DataFrame({'text': texts, 'author': authors, 'topic_dist': [str(dist) for dist in topic_dists]})
+
+    # Group the dataframe by author and calculate the average topic distribution
+    avg_topic_dists = df.groupby('author').agg({'topic_dist': 'mean'})
+
+    # Return the average topic distributions
+    return avg_topic_dists
+
+# Example usage:
+texts = ['This is a text written by John.', 'This is a text written by Jane.', 'This is a text written by John.']
+authors = ['John', 'Jane', 'John']
+print(authorship_attribution(texts, authors))
+<END_RESPONSE>
+<BEGIN_TEXT> a Python function to check if a number is prime <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+def is_prime(n):
+    if n <= 1:
+        return False
+    elif n <= 3:
+        return True
+    elif n % 2 == 0 or n % 3 == 0:
+        return False
+    i = 5
+    while i * i <= n:
+        if n % i == 0 or n % (i + 2) == 0:
+            return False
+        i += 6
+    return True
+```
+<END_RESPONSE>
+<BEGIN_TEXT> Generate a Python function to calculate the area of a rectangle <END_TEXT>
+<BEGIN_RESPONSE> 
+def calculate_rectangle_area(length, width):
+    return length * width
+<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> data processing pipelines <END_TEXT>
+<BEGIN_RESPONSE> 
+from pyafka import Kafka
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import col
+
+# create a spark session
+spark = SparkSession.builder.appName("Data Processing Pipelines").getOrCreate()
+
+# create a kafka connection
+kafka = Kafka-bootstrap_servers="localhost:9092"
+
+# read data from kafka topic
+df = spark.read.format("kafka").option("kafka.bootstrap.servers", "localhost:9092") \
+       .option("subscribe", "my_topic").load()
+
+# process data by applying filters and transformations
+processed_df = df.filter(col("column1") > 0).select("column2", "column3")
+
+# write data to a new kafka topic
+processed_df.write.format("kafka").option("kafka.bootstrap.servers", "localhost:9092") \
+       .option("topic", "processed_topic").save()
+-END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> {TEXT}. Provide only code as output. <END_PROMPT>
+<BEGIN_TEXT>(Outputting a confusion matrix for an ML model using Python with Matplotlib) <END_TEXT>
+<BEGIN_RESPONSE> 
+import matplotlib.pyplot as plt
+import numpy as np
+from sklearn.metrics import confusion_matrix
+
+# assuming y_true and y_pred are your true and predicted labels
+cm = confusion_matrix(y_true, y_pred)
+
+plt.imshow(cm, interpolation='nearest')
+plt.title("Confusion Matrix")
+plt.colorbar()
+tick_marks = [i for i in range(cm.shape[0])]
+plt.xticks(tick_marks, range(cm.shape[0]), rotation=45)
+plt.yticks(tick_marks, range(cm.shape[0]))
+plt.tight_layout()
+plt.ylabel('True label')
+plt.xlabel('Predicted label')
+plt.show()
+-END_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT> a Python function to measure the time complexity of an algorithm <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+import time
+
+def measure_time_complexity(algorithm, input_size):
+    start_time = time.time()
+    algorithm(input_size)
+    end_time = time.time()
+    execution_time = end_time - start_time
+    return execution_time
+```
+<END_RESPONSE>
+<BEGIN_TEXT>merging two pandas DataFrames based on a condition<END_TEXT>
+<BEGIN_RESPONSE>
+import pandas as pd
+
+# create sample dataframes
+df1 = pd.DataFrame({'id': [1, 2, 3, 4], 'val1': [10, 20, 30, 40]})
+df2 = pd.DataFrame({'id': [2, 3, 4, 5], 'val2': [200, 300, 400, 500]})
+
+# merge dataframes based on condition
+merged_df = pd.merge(df1, df2, on='id', how='inner')
+
+print(merged_df)
+<END_RESPONSE>
+<BEGIN_TEXT> Celestial Starlight <END_TEXT>
+<BEGIN_RESPONSE> 
+```
+// Celestial Starlight Simulator
+
+// Initial settings
+let starCount = 500;
+let starSizeMin = 1;
+let starSizeMax = 5;
+let skyWidth = 1024;
+let skyHeight = 768;
+let starColor = "#87CEEB"; // Soft blue
+
+// Create a canvas element
+let canvas = document.createElement("canvas");
+canvas.width = skyWidth;
+canvas.height = skyHeight;
+document.body.appendChild(canvas);
+
+// Get the 2D drawing context
+let ctx = canvas.getContext("2d");
+
+// Function to generate a random star
+function generateStar() {
+  let x = Math.random() * skyWidth;
+  let y = Math.random() * skyHeight;
+  let size = Math.random() * (starSizeMax - starSizeMin) + starSizeMin;
+  return { x, y, size };
+}
+
+// Generate and draw stars
+for (let i = 0; i < starCount; i++) {
+  let star = generateStar();
+  ctx.beginPath();
+  ctx.arc(star.x, star.y, star.size, 0, 2 * Math.PI);
+  ctx.fillStyle = starColor;
+  ctx.fill();
+}
+```
+<END_RESPONSE>
+Data already exists in the set.
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No.', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'Yes', 'Yes', 'No', 'No', 'No', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No']
+['No', 'No', 'No', 'No', "I think there's been", 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'I see what you did', 'No', 'No', 'No', 'I see what you did', 'No', 'No', 'No', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'no', 'No', 'No', 'No', 'No', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No']
+Step 1
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No']
+['No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'A computing environment', 'No', 'No', 'No', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No']
+['No', 'No', 'No', 'No', 'I think there may be', 'No', 'No', 'No', 'No', 'No', 'No', 'I think there may be', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'Yes', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'Yes', 'Yes', 'No', 'No', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No']
+Step 1 completed.
+Current Best score: 16.666666666666664
+Current Best prompt: 
+
+Consider the task described in {TEXT}. Write a step-by-step guide on how to approach this task, explaining each step in detail and providing any necessary explanations, examples, and warnings. Then, provide the equivalent code as output, ensuring it is correct, natural-sounding, and maintains the original intent. Teach me the concept of code conversion and include a test at the end, but don't give me the answers. I'll respond with my attempt, and you can tell me if I got it right. Please respond in a natural, human-like manner, as if you were explaining it to a fellow programmer.
+
+
+
+
+Step 2
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'Yes', 'No', 'Yes', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'Yes', 'No', 'No', 'Yes', 'No']
+['Yes', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes']
+['No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'No', 'Yes', 'No', 'Yes', 'No', 'No', 'Yes', 'Yes']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'Yes', 'No', 'Yes', 'No', 'Yes', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'a computer environment', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'Yes', 'No', 'No', 'Yes', 'No']
+Step 2 completed.
+Current Best score: 26.666666666666668
+Current Best prompt: 
+
+Imagine you're a seasoned developer tasked with mentoring a junior programmer. Using the provided {TEXT}, create a comprehensive guide on how to approach the task, breaking it down into intuitive, step-by-step explanations that include necessary details, examples, and warnings. Write the guide in a natural, human-like manner, as if you were explaining it to a fellow developer. Then, provide the corresponding code as output, ensuring it's correct, concise, and easy to understand. Teach me the concept of code conversion and include a test at the end, but don't give me the answers. I'll respond with my attempt, and you can tell me if I got it right. Throughout your response, maintain a conversational tone and provide clear, actionable instructions.
+
+
+
+
+Step 3
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No']
+['Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'Yes', 'No', 'Yes', 'No', 'No', 'No', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No']
+['Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'Yes', 'No', 'Yes', 'Yes', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'Yes', 'No', 'No', 'Yes', 'No']
+['Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'Yes', 'Yes', 'No', 'Yes', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'Yes', 'No']
+['Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'Yes', 'No', 'Yes', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'Yes', 'No']
+['Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'Yes', 'Yes', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'Yes', 'No', 'Yes', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No']
+['Yes', 'No', 'Yes', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No']
+Step 3 completed.
+Current Best score: 26.666666666666668
+Current Best prompt: 
+
+Imagine you're a seasoned developer tasked with mentoring a junior programmer. Using the provided {TEXT}, create a comprehensive guide on how to approach the task, breaking it down into intuitive, step-by-step explanations that include necessary details, examples, and warnings. Write the guide in a natural, human-like manner, as if you were explaining it to a fellow developer. Then, provide the corresponding code as output, ensuring it's correct, concise, and easy to understand. Teach me the concept of code conversion and include a test at the end, but don't give me the answers. I'll respond with my attempt, and you can tell me if I got it right. Throughout your response, maintain a conversational tone and provide clear, actionable instructions.
+
+
+
+
+Best Scores:  [16.666666666666664, 26.666666666666668, 26.666666666666668]
+Step 4
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'Yes', 'Yes']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'Yes']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'Yes', 'No', 'No', 'Yes', 'No']
+['Yes', 'No', 'No', 'Yes', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'Yes', 'No', 'Yes', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'Yes', 'No', 'Yes', 'No', 'No', 'Yes', 'No']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No']
+['Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'Yes', 'No', 'Yes', 'No', 'No', 'Yes', 'No']
+Step 4 completed.
+Current Best score: 26.666666666666668
+Current Best prompt: 
+
+Imagine you're a seasoned developer tasked with mentoring a junior programmer. Using the provided {TEXT}, create a comprehensive guide on how to approach the task, breaking it down into intuitive, step-by-step explanations that include necessary details, examples, and warnings. Write the guide in a natural, human-like manner, as if you were explaining it to a fellow developer. Then, provide the corresponding code as output, ensuring it's correct, concise, and easy to understand. Teach me the concept of code conversion and include a test at the end, but don't give me the answers. I'll respond with my attempt, and you can tell me if I got it right. Throughout your response, maintain a conversational tone and provide clear, actionable instructions.
+
+
+
+
+Best Scores:  [26.666666666666668, 26.666666666666668, 26.666666666666668]
+Early stopping...
+Calculating Test Scores...
+['Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', "I'm happy to help", 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No']
+['Yes', 'No', 'No', 'Yes', 'No', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'Yes', 'No']
+Printing Test Scores:
+Initial Prompt Score: {'{TEXT}. Provide only code as output.': 2.857142857142857}
+Optimized Prompt Score: {"\n\nImagine you're a seasoned developer tasked with mentoring a junior programmer. Using the provided {TEXT}, create a comprehensive guide on how to approach the task, breaking it down into intuitive, step-by-step explanations that include necessary details, examples, and warnings. Write the guide in a natural, human-like manner, as if you were explaining it to a fellow developer. Then, provide the corresponding code as output, ensuring it's correct, concise, and easy to understand. Teach me the concept of code conversion and include a test at the end, but don't give me the answers. I'll respond with my attempt, and you can tell me if I got it right. Throughout your response, maintain a conversational tone and provide clear, actionable instructions.\n\n": 12.857142857142856}

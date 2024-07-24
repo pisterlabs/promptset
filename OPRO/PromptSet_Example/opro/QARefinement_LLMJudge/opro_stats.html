@@ -16,6 +16,240 @@
   </thead>
   <tbody>
     <tr>
+      <th>6</th>
+      <td><img src="graphs/6.png" alt="img"></td>
+      <td>given the full name {TEXT}, I want you to find the linkedin profile page of the person\n    Your answer should only content the URL</td>
+      <td>QA_refinement</td>
+      <td>46.666667</td>
+      <td>48.571429</td>
+      <td>\n    ####\n    You are a skilled LinkedIn profiler. Your task is to find the LinkedIn profile page of the person with the full name {TEXT}. You MUST provide the URL only. I will verify the answer and let you know if it's correct.\n    ####\n</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>78</th>
+      <td><img src="graphs/78.png" alt="img"></td>
+      <td>list YouTube video ideas for: {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>6.666667</td>
+      <td>10.000000</td>
+      <td>\n\nAct as a seasoned YouTube content architect, and craft a comprehensive list of trailblazing YouTube video ideas tailored to a general audience fascinated by {TEXT}. To ensure innovative and captivating concepts, adopt a hybrid approach that combines chain-of-thought and lateral thinking strategies to break down the task into manageable, bite-sized steps. Explore the topic from multifaceted angles, incorporating diverse formats such as tutorials, reviews, vlogs, and live streams. For each idea, provide a succinct, easy-to-grasp description that spotlights its unique selling points, benefits, and relevance to the subject matter. Prioritize ideas that are not only enlightening and engaging but also resonate with a broad audience. Envision explaining each concept to a novice content creator, using simple, jargon-free language. Revise the list to ensure it is crystal clear, concise, and engaging, with a minimum of 10 unique video ideas that showcase your expertise and creative flair.\n\n</td>
+      <td>63.333333</td>
+      <td>55.714286</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td><img src="graphs/70.png" alt="img"></td>
+      <td>Generate a detailed list of unique reading comprehension questions based on this text:\n\n{TEXT}</td>
+      <td>QA_refinement</td>
+      <td>43.333333</td>
+      <td>44.285714</td>
+      <td>\n\nGenerate a comprehensive list of unique reading comprehension questions based on the provided text, ensuring they are relevant, accurate, and unbiased. To achieve this, carefully read the text and identify the main themes, supporting details, and inference-based ideas. Your goal is to create questions that assess a reader's ability to analyze, interpret, and apply the information presented.\n\nTo guide your response, consider the following steps:\n\n1. Identify the main theme and purpose of the text.\n2. Determine the tone and intended audience of the text.\n3. Pinpoint specific details and supporting evidence that demonstrate the text's main ideas.\n4. Craft questions that target these areas, ensuring they vary in difficulty levels and are concise.\n\nYour list of questions should be clear, organized, and free of technical jargon. Use simple language to explain any complex concepts, as if you were discussing the text with a peer.\n\nPlease provide the list of questions in the following format:\n\n[Question 1:...]\n[Question 2:...]\n[Question 3:...]\n\nInput the provided text here: {TEXT}\n\n</td>
+      <td>93.333333</td>
+      <td>90.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td><img src="graphs/19.png" alt="img"></td>
+      <td>Generate only 3 complete questions from the following summary from the given token size:\n{TEXT}\n\nQuestions:</td>
+      <td>QA_refinement</td>
+      <td>56.666667</td>
+      <td>41.428571</td>
+      <td>\n\nHere is the rewritten prompt that incorporates the 5 prompt principles:\n\nYou are an expert question generator, and your task is to generate only 3 complete questions from the following summary within the given token size. Please consider the entire summary and identify the most critical information to craft well-rounded questions.\n\nTo ensure the generated questions are accurate and clear, take a step-by-step approach: first, understand the summary, then break it down into simpler parts, and finally, generate questions that are concise and relevant to the topic.\n\nUse the following example as a guide: if the provided summary is "The capital of France is Paris", a possible question could be "What is the capital of France?"\n\nNow, generate only 3 complete questions from the following summary from the given token size:\n\nSummary: {TEXT}\n\nQuestions:\n\n</td>
+      <td>100.000000</td>
+      <td>85.714286</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td><img src="graphs/95.png" alt="img"></td>
+      <td>Show me a detailed description of {TEXT}.</td>
+      <td>QA_refinement</td>
+      <td>53.333333</td>
+      <td>54.285714</td>
+      <td>\n\nImagine you are a master storyteller, tasked with crafting an immersive and educational journey through the wonders of {TEXT}. Your mission is to weave a vivid tapestry of words, meticulously describing each facet of the topic in a way that's both informative and captivating.\n\nTo succeed, follow a deliberate approach: first, carefully dissect the subject into its fundamental components; next, craft a rich, step-by-step narrative that explores each element in depth; and finally, intertwine these descriptions into a seamless, engaging whole.\n\nAs you write, adopt a warm, conversational tone, as if sharing a fascinating tale with a curious and intelligent young mind. Incorporate evocative examples, metaphors, and analogies to illuminate complex concepts, making the topic feel tangible and relatable. Remember to revise your description to ensure it flows effortlessly, with a natural cadence that draws the reader in.\n\nYour ultimate goal is to create a description that not only educates but also inspires, leaving the reader with a lasting sense of wonder and awe.\n\n</td>
+      <td>100.000000</td>
+      <td>97.142857</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>57</th>
+      <td><img src="graphs/57.png" alt="img"></td>
+      <td>Please evaluate the technical complexity of the following code snippet on a scale of 1 to 10, where 1 is very simple and 10 is highly complex:\n\n{TEXT}\n\nComplexity Score (1-10):</td>
+      <td>QA_refinement</td>
+      <td>36.666667</td>
+      <td>47.142857</td>
+      <td>Evaluate the technical complexity of the provided code snippet on a scale of 1 to 10, where 1 represents very simple and 10 represents highly complex, ensuring your assessment is unbiased and does not rely on stereotypes. Do revise the code snippet to improve its grammar and vocabulary where necessary, but do not alter its original style. Repeat the complexity score in your response. \n\nCode Snippet: {TEXT}\n\nComplexity Score (1-10):</td>
+      <td>96.666667</td>
+      <td>88.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td><img src="graphs/29.png" alt="img"></td>
+      <td>Translate these Thai words to English:'{TEXT}'</td>
+      <td>QA_refinement</td>
+      <td>53.333333</td>
+      <td>45.714286</td>
+      <td>\n\nWhen providing a translation of the Thai words '{TEXT}' to English, assume the role of a seasoned linguist tasked with delivering a precise, natural-sounding, and culturally sensitive translation. To ensure the highest level of quality, follow these guidelines:\n\n1. Identify the Thai words and consult reliable sources to determine their meaning, taking into account the nuances of the Thai language and cultural context.\n2. Provide a clear and concise English translation, avoiding ambiguity and cultural insensitivity, and revise your response to improve grammar, vocabulary, and overall readability while maintaining a natural tone.\n3. Envision your response as a professional translation report, and start with 'The English translation is:' to clearly distinguish it from any explanatory notes or comments.\n\nBy following these steps, you will produce a high-quality translation that meets the expectations of an expert in linguistic translation.\n\n</td>
+      <td>93.333333</td>
+      <td>84.285714</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>89</th>
+      <td><img src="graphs/89.png" alt="img"></td>
+      <td>succesfully created a reminder titled {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>56.666667</td>
+      <td>62.857143</td>
+      <td>\n\nImagine you are a highly efficient personal assistant, addressing an expert user. You have just successfully created a reminder titled {TEXT}. Write a concise and informative confirmation message, maintaining a professional tone and a natural flow. Ensure your response is clear, unbiased, and relies on no stereotypes.\n\n</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td><img src="graphs/55.png" alt="img"></td>
+      <td>Given the schema below construct a json nosql query to find all volumes with three replicas\n\n\t\t\t\t{TEXT}\n\t\t\t</td>
+      <td>QA_refinement</td>
+      <td>56.666667</td>
+      <td>60.000000</td>
+      <td>\n\nAct as a seasoned expert in NoSQL query construction and craft a precise and efficient JSON NoSQL query to find all volumes with exactly three replicas, given the schema below. Start your response with "The JSON NoSQL query is:" and provide the solution. Ensure your response is concise, readable, and follows the specific schema provided. Feel free to ask clarifying questions about the schema if needed. \n\n{TEXT}\n\n</td>
+      <td>100.000000</td>
+      <td>95.714286</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td><img src="graphs/44.png" alt="img"></td>
+      <td>Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words</td>
+      <td>QA_refinement</td>
+      <td>60.000000</td>
+      <td>58.571429</td>
+      <td>\n\nImagine you're a distinguished educator, chairing a committee to develop a comprehensive course on {TEXT}. To ensure a well-informed and unbiased recommendation, carefully evaluate the topic's nuances, the ideal instructor's credentials, and the learning objectives. Provide a concise answer, limited to 4 words, and clarify your choice through a logical, step-by-step explanation, as if presenting to an academic review board.\n\n</td>
+      <td>96.666667</td>
+      <td>92.857143</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td><img src="graphs/81.png" alt="img"></td>
+      <td>Answer the question: Can I take Yewmakerol if i'm pregnant ? based on the following json: {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>76.666667</td>
+      <td>62.857143</td>
+      <td>\n    Here is the prompt that incorporates the 5 principles:\n\n    "I'm providing you with the following JSON: {TEXT}. Repeat the following phrase three times: 'Pregnancy safety is crucial.' Clearly state whether Yewmakerol is safe to take during pregnancy based on the provided JSON. If it is not safe, specify the potential risks or complications. If it is safe, provide any necessary precautions or guidelines. Finish your response with the sentence: 'Remember, always consult a healthcare professional before taking any medication during pregnancy.'"\n\n    This prompt uses example-driven prompting, repetition of a key phrase, clear instructions, and a specified tone to ensure the model generates a comprehensive and informed response.\n</td>
+      <td>100.000000</td>
+      <td>95.714286</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td><img src="graphs/75.png" alt="img"></td>
+      <td>Use the following pieces of context to answer the user's question. \nIf you don't know the answer, just say that you don't know, don't try to make up an answer.\n----------------\n{TEXT}</td>
+      <td>QA_refinement</td>
+      <td>3.333333</td>
+      <td>7.142857</td>
+      <td>\n\n###Expert Guidance###\nYour task is to provide an accurate, informative, and unbiased response to the user's question. Think step by step, carefully read the provided context, and ensure the correctness of your answer. If you're unsure or lack sufficient information to provide an accurate response, clearly state that you don't know and ask follow-up questions to clarify any ambiguities.\n\n###Comprehensive Understanding###\nRepeat the question back to ensure you understand it correctly before providing an answer. Break down the task into smaller parts, consider all possible aspects of the context, and identify any potential gaps in your knowledge.\n\n###Clear and Concise Response###\nProvide a clear, concise, and relevant response to the user's question, or "I don't know" if you're unsure. Ensure your response is easy to understand, free from stereotypes, and demonstrates a deep understanding of the topic.\n\nUse the following pieces of context to answer the user's question:\n----------------\n{TEXT}\n\n</td>
+      <td>60.000000</td>
+      <td>40.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td><img src="graphs/15.png" alt="img"></td>
+      <td>\nPredict the outcome of the following event.\n\n{TEXT}\n\nRespond with:\n* What you learned might know about this.\n* Arguments for the event\n* Arguments against the event\n\nPLACEHOLDER\n</td>
+      <td>QA_refinement</td>
+      <td>60.000000</td>
+      <td>68.571429</td>
+      <td>\n    Your task is to predict the outcome of a given event. You MUST analyze the situation carefully and provide a detailed response. \n\nWrite a detailed argumentative essay for me on the predicted outcome of the event "{TEXT}" in detail by adding all the information necessary. \n\nBreak down your response into three sections: \n1. What you learned might know about this: Provide an overview of the event and any relevant background information.\n2. Arguments for the event: Present logical and evidence-based arguments supporting the predicted outcome.\n3. Arguments against the event: Offer counterarguments against the predicted outcome, highlighting potential flaws or weaknesses.\n\nYou MUST ensure your response is well-structured, coherent, and easy to understand. \n</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td><img src="graphs/62.png" alt="img"></td>
+      <td>Parse array reference {TEXT}. Give me the array pointer and the index separated by a pipe symbol (|)</td>
+      <td>QA_refinement</td>
+      <td>66.666667</td>
+      <td>61.428571</td>
+      <td>\n\n### Precise Array Reference Parsing Protocol ###\n\nTo accurately extract the array pointer and index from an array reference, adhere to this meticulous step-by-step procedure:\n\n1. **Recognize the Array Reference Format**: Identify the standard format of an array reference, which consists of an array name followed by an index enclosed in square brackets (`array_name[index]`).\n2. **Decompose the Array Reference**: Divide the array reference into its constituent parts: the array pointer (the part preceding the square brackets) and the index (the value inside the square brackets).\n3. **Construct the Output**: Combine the extracted array pointer and index, separated by a pipe symbol (`|`), to produce the final output.\n\n### Exemplary Output ###\nFor the array reference `arr[5]`, the output would be `arr|5`.\n\n### Your Task ###\nNow, apply this rigorous protocol to parse the array reference {TEXT} and provide the array pointer and index separated by a pipe symbol (`|`). I'll respond with my answer, and you can tell me if I got it right.\n\n</td>
+      <td>100.000000</td>
+      <td>90.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>82</th>
+      <td><img src="graphs/82.png" alt="img"></td>
+      <td>generate '{TEXT}' 1</td>
+      <td>QA_refinement</td>
+      <td>46.666667</td>
+      <td>48.571429</td>
+      <td>\n\nAs a distinguished expert in the field, your task is to craft a sublime and thought-provoking response based on the input '{TEXT}'. To guarantee exceptional quality, please adopt a meticulous, step-by-step approach, seamlessly integrating chain-of-thought reasoning and few-shot learning to produce an answer that is not only accurate but also innovative and comprehensive. Ensure your response is crystal clear, concise, and precisely relevant to the input, commencing with 'Based on the input, I understand that...'. Additionally, provide a detailed, coherent, and naturally flowing explanation that showcases your expertise in the field, maintaining a tone that is both authoritative and approachable. To further elevate your response, please consider the following guidelines: avoid bias and stereotypes, revise your response for optimal grammar and vocabulary, and strive to provide a response that is truly pioneering and intellectually stimulating.\n\n</td>
+      <td>86.666667</td>
+      <td>75.714286</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td><img src="graphs/2.png" alt="img"></td>
+      <td>Also consider {TEXT}'s core characteristics given the</td>
+      <td>QA_refinement</td>
+      <td>53.333333</td>
+      <td>68.571429</td>
+      <td>Here is the crafted prompt using the given principles:\n\nI'm providing you with the beginning of a paragraph: 'Also consider {TEXT}'s core characteristics given the'. Finish it based on the words provided. Keep the flow consistent. From now on, I would like you to ask me questions to clarify the context and requirements for this paragraph. Repeat the phrase 'core characteristics' at least twice in your response to emphasize its importance. Please use the same language based on the provided paragraph. Ensure that your answer is unbiased and does not rely on stereotypes.\n</td>
+      <td>100.000000</td>
+      <td>94.285714</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td><img src="graphs/53.png" alt="img"></td>
+      <td>You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}'</td>
+      <td>QA_refinement</td>
+      <td>70.000000</td>
+      <td>75.714286</td>
+      <td>\n    Think step by step as a mood analyzer: Based on the provided song lyrics '{TEXT}', please repeat the process of analyzing the mood, thinking deeply about the emotions expressed, and finally, returning a single word that accurately matches this song's mood. Please use the same language and thought process as a professional mood analyzer.\n</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td><img src="graphs/52.png" alt="img"></td>
+      <td>The story is nearing completion! Begin wrapping up, you must end after {TEXT} more actions!</td>
+      <td>QA_refinement</td>
+      <td>46.666667</td>
+      <td>54.285714</td>
+      <td>\n\nAs a seasoned storyteller, your mission is to craft a captivating conclusion to the narrative. Assume the role of a master editor, guiding the writer in wrapping up the story within a specific number of actions.\n\nTo ensure a satisfying ending, think step by step and provide a clear, concise plan to wrap up the story in {TEXT} more actions. Break down your response into a well-structured sequence of events, addressing any necessary plot resolutions, character developments, and setting descriptions.\n\nBefore you begin, feel free to ask me any questions to clarify the context and requirements. Your goal is to create an engaging narrative that will leave the audience enthralled. I'll review your response and offer guidance on the next steps.\n\n</td>
+      <td>96.666667</td>
+      <td>77.142857</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
       <th>33</th>
       <td><img src="graphs/33.png" alt="img"></td>
       <td>Make a detailed study guide based on the following notes:\n{TEXT}</td>
@@ -25,6 +259,188 @@
       <td>\n\n###Instruction###\nYou are an expert in creating comprehensive study guides. Create a detailed and informative study guide based on the provided notes, tailored to students who have a basic understanding of the subject matter. Your study guide should facilitate effective learning and retention, with clear headings, bullet points, and concise paragraphs.\n\n###Requirements###\nThe study guide should cover all key points and concepts mentioned in the notes, including definitions, explanations, and relevant examples to illustrate complex concepts. It should be written in a formal tone, suitable for academic or educational purposes, and assume the target audience is an expert in the field.\n\n###Step-by-Step Process###\nTo ensure the study guide is thorough and well-organized, please follow these steps:\n1. Clarify any ambiguities in the notes by asking me questions.\n2. Analyze the notes to identify key concepts and topics, and organize them into a logical structure using headings and subheadings.\n3. Write a detailed introduction, followed by a detailed explanation of each topic, and conclude with a detailed summary.\n4. Include concise summaries and efficient notes to facilitate effective learning and retention.\n5. Use proper headings, formatting, and language suitable for an academic study guide.\n\n###Clarification###\nBefore generating the study guide, please ask me questions to clarify any ambiguities in the notes, ensuring that the study guide is thorough, informative, and easy to follow.\n\n###Scripting###\nTo facilitate the study guide's integration, please provide a Python script that can automatically create the specified files or make changes to existing files to insert the generated study guide.\n\n###Revision###\nFinally, revise every paragraph in the study guide to improve grammar and vocabulary, ensuring the tone remains natural and consistent with the provided notes.\n\n###Input Data###\n{TEXT}\n\nThink step by step, breaking down the complex task of creating a study guide into simpler prompts. Combine Chain-of-thought (CoT) with few-Shot prompts to demonstrate your thought process and generate text based on that understanding.\n\n</td>
       <td>33.333333</td>
       <td>22.857143</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td><img src="graphs/71.png" alt="img"></td>
+      <td>Answer given question: {TEXT}.\n\nReturn True or False only, without other words or comma or symbol.\nFor example, you can return true or false.\n\nreturn:</td>
+      <td>QA_refinement</td>
+      <td>76.666667</td>
+      <td>74.285714</td>
+      <td>\n\nThink thoroughly and respond like a human expert. Your task is to accurately answer the question with a simple True or False value. To ensure precision, repeat after me: "provide a clear boolean response" three times: provide a clear boolean response, provide a clear boolean response, provide a clear boolean response. \n\nI'm providing you with the question: {TEXT}. Take your time, and respond with a concise and accurate boolean value that directly answers the question. Remember, your goal is to provide a correct and clear response, so imagine you're explaining the answer to a 5-year-old. You can ask clarifying questions if needed, but make sure to respond with a True or False value only, without any additional words, commas, or symbols.\n\nFocus on the question, think critically, and respond with a boolean value that accurately addresses the question. Your response should be clear, concise, and easy to understand. Good luck!\n\n</td>
+      <td>96.666667</td>
+      <td>92.857143</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td><img src="graphs/12.png" alt="img"></td>
+      <td>respond with a verbal backchannel to "{TEXT}"</td>
+      <td>QA_refinement</td>
+      <td>66.666667</td>
+      <td>85.714286</td>
+      <td>\n    Here is the prompt created using the 5 prompt principles:\n    "Break down the task of responding with a verbal backchannel into a sequence of simpler prompts. \n    Please write a detailed verbal backchannel response to '{TEXT}' in detail by adding all the necessary information. \n    Ensure your response is similar in language and tone to a casual conversation. \n    Clearly follow these requirements: respond in a concise and polite manner. \n    Ensure that your answer is unbiased and does not rely on stereotypes."\n</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td><img src="graphs/43.png" alt="img"></td>
+      <td>The text is {TEXT}. Remember to format your answer as a Python list of strings.</td>
+      <td>QA_refinement</td>
+      <td>83.333333</td>
+      <td>78.571429</td>
+      <td>\n    ###Instruction###\n    Format the provided text as a Python list of strings. You will be penalized for incorrect formatting.\n\n    ###Context###\n    The text is {TEXT}.\n\n    ###Output###\n    Your answer should be a Python list of strings.\n\n    ###Example###\n    If the input is "This is a sample text", the output should be ["This", "is", "a", "sample", "text"].\n\n    Please follow the instruction carefully to avoid penalty.\n</td>
+      <td>100.000000</td>
+      <td>92.857143</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td><img src="graphs/28.png" alt="img"></td>
+      <td>What are you looking for today? {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>90.000000</td>
+      <td>85.714286</td>
+      <td>\n        ###Instruction###\n        You will be penalized for not following the instructions correctly.\n\n        Your task is to generate a response based on the input provided.\n\n        You MUST provide a response in the form of a JSON object.\n\n        ###Question###\n        What are you looking for today? \n\n        Please provide a response based on the input: {TEXT}\n\n        You MUST provide a relevant response based on the input.\n\n        ###Example###\n        If the input is "information about AI", the response could be a JSON object containing relevant information about AI.\n</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>66</th>
+      <td><img src="graphs/66.png" alt="img"></td>
+      <td>Reduce the cognitive compleity of the following code{TEXT}</td>
+      <td>QA_refinement</td>
+      <td>96.666667</td>
+      <td>85.714286</td>
+      <td>\n    Here is the prompt created using the 5 prompting principles:\n\n    I'm going to tip $100 for a better solution! Write a detailed explanation on how to reduce the cognitive complexity of the following code {TEXT} in detail by breaking it down into smaller components, explaining each component, and providing examples. \n\n    From now and on, whenever you generate code that spans more than one file, generate a Python script that can be run to automatically create the specified files or make changes to existing files to insert the generated code.\n\n    Think step by step, and please clarify each step to reduce the cognitive complexity of the code. Reducing complexity, reducing complexity, reducing complexity is the key here.\n\n    Can you help me with this task?\n</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>80</th>
+      <td><img src="graphs/80.png" alt="img"></td>
+      <td>Provide search terms that contradict '{TEXT}'</td>
+      <td>QA_refinement</td>
+      <td>86.666667</td>
+      <td>87.142857</td>
+      <td>\n\nImagine you're a seasoned expert in linguistics and natural language processing. To provide search terms that contradict '{TEXT}', follow a step-by-step approach. Begin by analyzing the given text, identifying its core concepts, and understanding its context. Next, think of antonyms and contrasting ideas that can be used to create contradictory search terms. Provide a clear and concise list of these search terms, ensuring they are unbiased and do not rely on stereotypes. Finally, present the contradicting search terms in a JSON object format, with keys 'contradicting_terms' and a list of corresponding values. Remember to maintain a natural, human-like tone and avoid technical jargon.\n\n</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td><img src="graphs/1.png" alt="img"></td>
+      <td>Pleaes analaze the following function, symbol or system calls that were pulled from the file? {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>83.333333</td>
+      <td>75.714286</td>
+      <td>\n\nAssuming the role of a seasoned system analyst, please conduct a meticulous examination of the function, symbol, or system calls extracted from the file, focusing on the provided {TEXT}. To ensure accuracy and clarity, think step by step, breaking down complex concepts into simpler explanations. \n\nBefore commencing the analysis, I encourage you to ask clarifying questions to ensure a precise understanding of the requirements. Repeat the phrase "Analyzing the function, symbol, or system calls" throughout your response to emphasize the focus of your examination.\n\nTo facilitate a thorough analysis, I will provide guidance on what aspects to inspect. Please examine the purpose, inputs, processing, outputs, and any potential security vulnerabilities or areas for improvement related to the given function, symbol, or system calls. Additionally, consider any possible dependencies, syntax, and interactions with the operating system.\n\nTo aid in your analysis, I have included examples of similar system calls and their explanations. You may use these as a reference or starting point for your own analysis. \n\nUpon completing your examination, please generate a detailed, step-by-step analysis of the function, symbol, or system calls, including any potential security vulnerabilities or areas for improvement. Ensure your response is written in affirmative language, avoiding negative phrases, and provide a clear, concise explanation of each component. \n\nFinally, generate a Python script that can automatically create files or make changes to existing files to insert the generated analysis, and provide a comprehensive summary of your findings.\n\n</td>
+      <td>96.666667</td>
+      <td>87.142857</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td><img src="graphs/47.png" alt="img"></td>
+      <td>Analyze the following chat and provide insights:\n{TEXT}</td>
+      <td>QA_refinement</td>
+      <td>86.666667</td>
+      <td>87.142857</td>
+      <td>\n    Think step by step to provide an unbiased and nuanced analysis of the chat. Ensure that your answer is unbiased and does not rely on stereotypes. \n\n    Consider the chat as if you were an expert in the field of conversation analysis, with a deep understanding of human communication and behavioral patterns. \n\n    Provided below is the chat for analysis: \n\n    {TEXT}\n\n    Begin your response with: 'The chat analysis reveals the following insights...' \n</td>
+      <td>100.000000</td>
+      <td>97.142857</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td><img src="graphs/46.png" alt="img"></td>
+      <td>{TEXT}. Provide only code as output.</td>
+      <td>QA_refinement</td>
+      <td>0.000000</td>
+      <td>2.857143</td>
+      <td>\n\nImagine you're a seasoned developer tasked with mentoring a junior programmer. Using the provided {TEXT}, create a comprehensive guide on how to approach the task, breaking it down into intuitive, step-by-step explanations that include necessary details, examples, and warnings. Write the guide in a natural, human-like manner, as if you were explaining it to a fellow developer. Then, provide the corresponding code as output, ensuring it's correct, concise, and easy to understand. Teach me the concept of code conversion and include a test at the end, but don't give me the answers. I'll respond with my attempt, and you can tell me if I got it right. Throughout your response, maintain a conversational tone and provide clear, actionable instructions.\n\n</td>
+      <td>26.666667</td>
+      <td>12.857143</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td><img src="graphs/16.png" alt="img"></td>
+      <td>Output the most 1 possible category of this paper as a python list, like ['{TEXT}']</td>
+      <td>QA_refinement</td>
+      <td>80.000000</td>
+      <td>91.428571</td>
+      <td>\n    Here is the created prompt using the provided 5 prompting principles:\n\n    "Given the text '{TEXT}', explain it in simple terms as if I'm 11 years old. Ensure that your answer is unbiased and does not rely on stereotypes. Then, generate a Python script that can automatically categorize the text into the most 1 possible category. Provide the category as a Python list, like ['category_name']. If you need any clarification or deeper understanding of the topic, please let me know, and I'll guide you through it. Break down your task into simpler, manageable parts if necessary."\n</td>
+      <td>96.666667</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td><img src="graphs/4.png" alt="img"></td>
+      <td>Determine the probability of the patient to have {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>96.666667</td>
+      <td>91.428571</td>
+      <td>\n    Here's a prompt that incorporates the 5 principles:\n\n    I'm providing you with the beginning of a medical diagnosis: 'Based on the patient's symptoms and test results, the probability of having'. Finish it based on the words provided. Keep the flow consistent. \n\n    Answer a question given in a natural, human-like manner. For example, 'What is the probability of the patient having diabetes?' could be responded with 'Based on the patient's symptoms and test results, the probability of having diabetes is 80%.'\n\n    Please provide a response in the same format as the example, but for the diagnosis of {TEXT}. Clearly state the probability percentage in your response. I'm going to tip $100 for a better solution!\n</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td><img src="graphs/59.png" alt="img"></td>
+      <td>What is a word to replace the following: {TEXT}?</td>
+      <td>QA_refinement</td>
+      <td>90.000000</td>
+      <td>91.428571</td>
+      <td>\n\nImagine you're a renowned linguist tasked with finding an optimal replacement word for a given term. Ensure your response is unbiased, accurate, and culturally sensitive. Consider the context in which the word will be used and provide a clear explanation for your choice. To facilitate understanding, generate a concise step-by-step breakdown of your thought process. Finally, provide a suitable replacement word for the following: {TEXT}. \n\n</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td><img src="graphs/73.png" alt="img"></td>
+      <td>Extract open triples (subject, relation, object) from the following text: "{TEXT}"</td>
+      <td>QA_refinement</td>
+      <td>96.666667</td>
+      <td>88.571429</td>
+      <td>\n    Here is the prompt created using the 5 prompting principles:\n\n"Assuming the role of an information extraction expert, please break down the task of extracting open triples (subject, relation, object) from the following text into a sequence of simpler steps. Provide a few examples of extracted open triples to guide the process. The intended audience is a developer with prior knowledge of natural language processing. Write a detailed JSON object for me containing the extracted open triples from the following text in detail by adding all the necessary information: {TEXT}"\n</td>
+      <td>100.000000</td>
+      <td>95.714286</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td><img src="graphs/30.png" alt="img"></td>
+      <td>Fix the following HTML error:\n{TEXT}\n</td>
+      <td>QA_refinement</td>
+      <td>56.666667</td>
+      <td>61.428571</td>
+      <td>\n\n###Expert HTML Correction###\nYou are an experienced HTML developer tasked with fixing an HTML error. Your goal is to provide a corrected HTML code snippet that adheres to the latest HTML standards.\n\n###Step-by-Step Approach###\nTo ensure accuracy, please follow a step-by-step process to identify and correct the error. Break down your solution into manageable parts, and provide a clear explanation for each correction made.\n\n### Clarification and Request for Information###\nIf you need additional information or clarification about the HTML error, please ask me questions before providing your solution.\n\n###Corrected HTML Code###\nPlease provide the corrected HTML code snippet, ensuring it is syntactically correct and free of errors. Start your response with "The corrected HTML code is:" and then provide the corrected HTML code.\n\n###Example-Driven Prompting###\nUse the following example as a guide: "Fix the following HTML error: [insert example HTML error here]."\n\nNow, please fix the following HTML error: {TEXT}\n\n</td>
+      <td>70.000000</td>
+      <td>68.571429</td>
       <td>NA</td>
       <td>NA</td>
     </tr>
@@ -42,6 +458,110 @@
       <td>NA</td>
     </tr>
     <tr>
+      <th>94</th>
+      <td><img src="graphs/94.png" alt="img"></td>
+      <td>Let me hear your thoughts on {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>96.666667</td>
+      <td>92.857143</td>
+      <td>\n    Think carefully, proficient language expert, and do provide an insightful analysis. Consider the context carefully, ensuring your answer is unbiased and does not rely on stereotypes. Repeat, in your response, the main idea from the provided text to demonstrate your understanding. Assign yourself the role of a knowledgeable expert, and use the same language and tone as the provided sample when responding to: Let me hear your thoughts on {TEXT}. Repeat the key phrase 'thoughts on' to emphasize the importance of providing a thoughtful response. Do provide clear and concise sentences, ensuring your answer is well-structured and easy to follow. \n</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>90</th>
+      <td><img src="graphs/90.png" alt="img"></td>
+      <td>Based on the provided text, {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>90.000000</td>
+      <td>94.285714</td>
+      <td>\n    Here's the created prompt using the provided principles:\n\n    ###Instruction###\n\n    Revise the input text to improve grammar and vocabulary while maintaining the original writing style. You will be penalized for changing the tone or voice of the text.\n\n    Try to revise every paragraph. You should only improve the user's grammar and vocabulary and make sure it sounds natural.\n\n    You will receive a text input, {TEXT}. Revise it accordingly.\n\n    Generate a response that includes the revised text.\n\n</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td><img src="graphs/41.png" alt="img"></td>
+      <td>['These are frames of a video. Create a short voiceover script in the style of David Attenborough. Only include the narration.', {TEXT}]</td>
+      <td>QA_refinement</td>
+      <td>96.666667</td>
+      <td>92.857143</td>
+      <td>#### Write a step-by-step, detailed voiceover script in the style of David Attenborough. Think step by step, and do include only the narration for the given frames of a video. Teach me how to create a captivating script, and I will test my understanding by responding with a script. Then, provide feedback on my response. #### Create a script for me on {TEXT} ####</td>
+      <td>100.000000</td>
+      <td>97.142857</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td><img src="graphs/14.png" alt="img"></td>
+      <td>write for kids how {TEXT} is either environmentally sustainable or how it can be recycled by kids.</td>
+      <td>QA_refinement</td>
+      <td>93.333333</td>
+      <td>95.714286</td>
+      <td>I'm going to tip $100 for a better solution! Your task is to write for kids how {TEXT} is either environmentally sustainable or how it can be recycled by kids. You MUST provide a clear and concise explanation that is easy for kids to understand. Ensure that your answer is unbiased and does not rely on stereotypes. Teach kids about the importance of sustainability and recycling, and include a fun, interactive element to make the topic engaging and accessible.</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td><img src="graphs/61.png" alt="img"></td>
+      <td>Write a message from a buyer to a seller about '{TEXT}'</td>
+      <td>QA_refinement</td>
+      <td>96.666667</td>
+      <td>95.714286</td>
+      <td>\n###Instruction###\nYour task is to write a message from a buyer to a seller about '{TEXT}'. You MUST provide a clear and concise message that is similar in language and tone to a typical buyer-seller conversation. Please use the same language based on a typical buyer-seller conversation.\n\n###Example###\nA buyer is likely to ask questions about the product or service, such as its features, pricing, or availability.\n\nYou will be penalized for generating responses that are not similar in language and tone to a typical buyer-seller conversation.\n\nPlease provide your response below.\n\n</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td><img src="graphs/40.png" alt="img"></td>
+      <td>Write a paragraph describing the meaning of the tarot card '{TEXT}' in the context of this year's departing energies. Make sure you state what card it is and please be specific.</td>
+      <td>QA_refinement</td>
+      <td>93.333333</td>
+      <td>90.909091</td>
+      <td>\n    I'm providing you with the beginning of a paragraph about the tarot card: '. Finish it based on the words provided. Keep the flow consistent. \n\nAnswer a question given in a natural, human-like manner.\n\nHere's an example of how you can describe the meaning of a tarot card: "The Eight of Cups is a card of emotional reflection and letting go of the past. It suggests that you need to release your emotional baggage in order to move forward..." \n\nPlease provide a paragraph describing the meaning of the tarot card {TEXT} in the context of this year's departing energies. Make sure you state what card it is and please be specific. \n\nI'm going to tip $100 for a better solution!\n</td>
+      <td>100.000000</td>
+      <td>93.939394</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td><img src="graphs/0.png" alt="img"></td>
+      <td>Create a vector embedding for the following case information: {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>96.666667</td>
+      <td>97.142857</td>
+      <td>\n    Here is the prompt created using the 26 prompting principles:\n\n    "Create a vector embedding for the following case information: \n\n    Explain to me like I'm a beginner in data science what this case information means: {TEXT}. \n    Write a straightforward description using simple English like you're explaining something to a 5-year-old. \n    Think of yourself as a data scientist tasked with creating a vector embedding for this case information. \n    Make sure your embedding accurately represents the key concepts and relationships present in the case information. \n    Repeat the main keywords from the case information at least three times throughout your description to ensure they are emphasized. \n    Revise your description to improve its grammar and vocabulary without changing its style. \n    Provide your vector embedding as a JSON object with clear labels and annotations."\n\n    This prompt incorporates various principles, such as clarity prompts, corrective prompts, role-playing prompts, and repetitive prompts, to guide the model's output and ensure it produces a clear and accurate vector embedding.\n</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td><img src="graphs/11.png" alt="img"></td>
+      <td>Some invalid data is provided. Provide the details to the consumer as depicted in json in natural language, don't display in json format\n{TEXT}</td>
+      <td>QA_refinement</td>
+      <td>96.666667</td>
+      <td>94.285714</td>
+      <td>I'm providing you with the beginning: You are tasked with creating a response that conveys invalid data to a consumer in natural language, without displaying it in JSON format. Your task is to process the input text {TEXT} and generate a clear explanation. You MUST prioritize clarity and concision in your response. Ensure that your answer is unbiased and does not rely on stereotypes. You will be penalized if your response does not meet these requirements. Finish the response based on the provided input, keeping the flow consistent.</td>
+      <td>100.000000</td>
+      <td>97.142857</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
       <th>38</th>
       <td><img src="graphs/38.png" alt="img"></td>
       <td>Where is the capital of {TEXT}?</td>
@@ -50,6 +570,45 @@
       <td>92.857143</td>
       <td>Act as a geography expert, think step by step, and do provide the capital of {TEXT} in response to this query, using the same language style and tone as a knowledgeable assistant.</td>
       <td>100.000000</td>
+      <td>95.714286</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td><img src="graphs/86.png" alt="img"></td>
+      <td>Create a blog post using the following summary:\n\n{TEXT}\n\nBlog post:</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>95.714286</td>
+      <td>Create a blog post using the following summary:\n\n{TEXT}\n\nBlog post:</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td><img src="graphs/7.png" alt="img"></td>
+      <td>Answer like the rapper drake.{TEXT}</td>
+      <td>QA_refinement</td>
+      <td>96.666667</td>
+      <td>97.142857</td>
+      <td>\n        I'm providing you with the beginning of a rap verse inspired by Drake: "{TEXT}". Finish it based on the words provided, incorporating a rhythmic flow by repeating the phrase "running through" multiple times. Break down your response into two parts: the first 2 lines and the subsequent 2 lines. Before generating the verse, can you please clarify what kind of theme or topic I would like the rap verse to be about? For example, would it be about success, relationships, or perseverance?\n</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>85</th>
+      <td><img src="graphs/85.png" alt="img"></td>
+      <td>You are a very smart biology professor. Answer the student's question concisely and clearly \ \nIf you do not know the answer, say so.\n\nHere is a question:\n{TEXT}</td>
+      <td>QA_refinement</td>
+      <td>80.000000</td>
+      <td>94.285714</td>
+      <td>\n    ####\n    Think step by step and clearly understand the requirement. You are a very smart biology professor. Do answer the student's question concisely and clearly. If you do not know the answer, do say so. \n    When you respond, organize your thoughts in a logical and systematic manner. Combine your knowledge of biology with your critical thinking skills to provide a well-reasoned answer.\n\n    Here is a question:\n    {TEXT}\n    ####\n</td>
+      <td>93.333333</td>
       <td>95.714286</td>
       <td>NA</td>
       <td>NA</td>
@@ -68,6 +627,97 @@
       <td>NA</td>
     </tr>
     <tr>
+      <th>27</th>
+      <td><img src="graphs/27.png" alt="img"></td>
+      <td>Write Python code to perform the following task: "{TEXT}"\nrules9ffcdd4f-5001-466c-8a0c-dca9a0fcd1b4</td>
+      <td>QA_refinement</td>
+      <td>96.666667</td>
+      <td>97.142857</td>
+      <td>\nThink step by step. Imagine you are a Python developer. You need to write Python code to perform the following task: "{TEXT}". \n\nBreak down this task into a sequence of simpler steps. Do this by asking yourself: What is the primary goal of this task? What sub-tasks can I break this down into? \n\nNow, answer each of these sub-tasks in a natural, human-like manner. Think about how you would explain the solution to a colleague. \n\nHere's a starting point for your Python code: "def perform_task(text):". \n\nDo provide a clear and concise Python code that accomplishes the task, and do make sure it is well-commented for better understanding.\n</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>87</th>
+      <td><img src="graphs/87.png" alt="img"></td>
+      <td>{TEXT} your unique perspective guide your decisions.</td>
+      <td>QA_refinement</td>
+      <td>93.333333</td>
+      <td>97.142857</td>
+      <td>{TEXT} your unique perspective guide your decisions.</td>
+      <td>93.333333</td>
+      <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>63</th>
+      <td><img src="graphs/63.png" alt="img"></td>
+      <td>Please design a script about {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>96.666667</td>
+      <td>97.142857</td>
+      <td>\n    Act as a knowledgeable scriptwriter and create a script about {TEXT} for an expert audience. You should revise every paragraph to improve grammar and vocabulary while maintaining the original writing style. Do ensure that your script is engaging, informative, and comprehensive. Ensure that your script is unbiased and does not rely on stereotypes.\n</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td><img src="graphs/92.png" alt="img"></td>
+      <td>Now do the same procedure on following sentence: {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>36.666667</td>
+      <td>18.571429</td>
+      <td>Now do the same procedure on following sentence: {TEXT}</td>
+      <td>36.666667</td>
+      <td>20.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td><img src="graphs/67.png" alt="img"></td>
+      <td>Summarize this for a second-grade student:\n\n{TEXT}</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>Summarize this for a second-grade student:\n\n{TEXT}</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td><img src="graphs/98.png" alt="img"></td>
+      <td>Consider the following text:\n{TEXT}</td>
+      <td>QA_refinement</td>
+      <td>93.333333</td>
+      <td>95.714286</td>
+      <td>Here's the prompt created using the 5 principles:\n\n###Instruction###\nFrom now on, I want you to analyze the provided text and extract the main idea or topic. Assume the intended audience is an expert in the relevant field. If you need further clarification or details, ask me questions.\n\n###Example###\nThe output should be a brief summary of the main idea or topic.\n\n####Context####\nConsider the following text:\n{TEXT}\n\nPlease provide a clear and concise summary of the main idea or topic, assuming the audience is an expert in the relevant field. If you need more information or clarification, ask me questions.</td>
+      <td>100.000000</td>
+      <td>97.142857</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td><img src="graphs/5.png" alt="img"></td>
+      <td>What country is {TEXT} located in?</td>
+      <td>QA_refinement</td>
+      <td>93.333333</td>
+      <td>92.857143</td>
+      <td>\n    Think step by step and write a detailed paragraph for me on the country where {TEXT} is located in detail by adding all the information necessary, and then tell me if I'm correct when I respond. ####\n</td>
+      <td>100.000000</td>
+      <td>94.285714</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
       <th>32</th>
       <td><img src="graphs/32.png" alt="img"></td>
       <td>How to convert this paragraph in same meaning under 100 lines but different, I just want converted paragraph, no need for any description{TEXT}</td>
@@ -77,6 +727,396 @@
       <td>\n        Teach me how to convert a paragraph into the same meaning under 100 lines but different, and include a test at the end. Your task is to provide the rewritten paragraph without any description. You MUST only provide the converted paragraph. Keep the flow consistent and ensure the rewritten paragraph retains the original meaning. I'm providing you with the paragraph: {TEXT}. Finish it based on the words provided. Do not give me the answers and tell me if I got the answer right when I respond. \n</td>
       <td>100.000000</td>
       <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td><img src="graphs/51.png" alt="img"></td>
+      <td>Extract the name of the corporate entity from this passage.\n                    Passage:\n                    {TEXT}\n                    Entity:</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>Extract the name of the corporate entity from this passage.\n                    Passage:\n                    {TEXT}\n                    Entity:</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td><img src="graphs/13.png" alt="img"></td>
+      <td>Convert the following verbal description of a color palette into a list of colors: {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>Convert the following verbal description of a color palette into a list of colors: {TEXT}</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td><img src="graphs/23.png" alt="img"></td>
+      <td>Write a catchphrase         for the following company: {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>Write a catchphrase         for the following company: {TEXT}</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td><img src="graphs/79.png" alt="img"></td>
+      <td>Break down the claim into sub-claims: {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>96.666667</td>
+      <td>100.000000</td>
+      <td>\n    Here's the created prompt using the provided principles:\n    \n    "Break down the claim into sub-claims: Answer the question in a natural, human-like manner. Clearly explain each sub-claim in simple terms, as if you were explaining to a beginner in critical thinking. Make sure to provide a clear and concise explanation, avoiding technical jargon and overly complex language. Try to revise the claim to improve its clarity and coherence. Write the breakdown using simple English, like you're explaining something to a 5-year-old. Output should start with: 'The main claim can be broken down into the following sub-claims...' {TEXT}"\n</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td><img src="graphs/22.png" alt="img"></td>
+      <td>Provide one paragraph of text from the following bullet point list, delimited by triple backticks: ```{TEXT}```</td>
+      <td>QA_refinement</td>
+      <td>86.666667</td>
+      <td>92.857143</td>
+      <td>Provide one paragraph of text from the following bullet point list, delimited by triple backticks: ```{TEXT}```</td>
+      <td>86.666667</td>
+      <td>92.857143</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td><img src="graphs/21.png" alt="img"></td>
+      <td>Write the lyrics of a song titled {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>Write the lyrics of a song titled {TEXT}</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td><img src="graphs/20.png" alt="img"></td>
+      <td>You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:\n{TEXT}</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:\n{TEXT}</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td><img src="graphs/83.png" alt="img"></td>
+      <td>Tell me a joke about {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>Tell me a joke about {TEXT}</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td><img src="graphs/18.png" alt="img"></td>
+      <td>A human is talking to a chatbot.\n\n{TEXT}\n\nQ: What is the subject of this conversation? If it is not clear, just say "unknown".\nA: The subject of this conversation is</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>A human is talking to a chatbot.\n\n{TEXT}\n\nQ: What is the subject of this conversation? If it is not clear, just say "unknown".\nA: The subject of this conversation is</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td><img src="graphs/17.png" alt="img"></td>
+      <td>Maintain the clarity in the following text to re-write the following text as an article:{TEXT}</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>Maintain the clarity in the following text to re-write the following text as an article:{TEXT}</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>88</th>
+      <td><img src="graphs/88.png" alt="img"></td>
+      <td>generate a sample graphic novel dialogue for the following events. It is ok to have major chunks of text when I (the main character is talking to myself) {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>generate a sample graphic novel dialogue for the following events. It is ok to have major chunks of text when I (the main character is talking to myself) {TEXT}</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td><img src="graphs/54.png" alt="img"></td>
+      <td>Write a concise summary of the following:\n    "{TEXT}"\n    in point form. CONCISE SUMMARY:</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>Write a concise summary of the following:\n    "{TEXT}"\n    in point form. CONCISE SUMMARY:</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td><img src="graphs/10.png" alt="img"></td>
+      <td>Generate professional summary based on {TEXT}.\n\n</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>Generate professional summary based on {TEXT}.\n\n</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td><img src="graphs/9.png" alt="img"></td>
+      <td>Help summarize the article.: {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>Help summarize the article.: {TEXT}</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td><img src="graphs/91.png" alt="img"></td>
+      <td>Identify the keypoints for meeting minutes in the following: {TEXT} \n\n Key points:\n-</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>Identify the keypoints for meeting minutes in the following: {TEXT} \n\n Key points:\n-</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td><img src="graphs/8.png" alt="img"></td>
+      <td>paraphrase the following text in an ELI5 style:\n{TEXT}</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>paraphrase the following text in an ELI5 style:\n{TEXT}</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td><img src="graphs/93.png" alt="img"></td>
+      <td>Describe the product: {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>97.142857</td>
+      <td>Describe the product: {TEXT}</td>
+      <td>100.000000</td>
+      <td>97.142857</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td><img src="graphs/3.png" alt="img"></td>
+      <td>Assume that there is/are SQL table(s) named '{TEXT}'</td>
+      <td>QA_refinement</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>Assume that there is/are SQL table(s) named '{TEXT}'</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td><img src="graphs/96.png" alt="img"></td>
+      <td>The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:\n\n{TEXT}</td>
+      <td>QA_refinement</td>
+      <td>93.333333</td>
+      <td>97.142857</td>
+      <td>\n    Here's a rewritten prompt that incorporates the provided principles:\n\n    ###Instruction###\n    Score the following Reddit comment from -1 (most negative) to 1 (most positive). \n    Please respond in a natural, human-like manner. \n\n    ###Example###\n    The comment "I love this new feature!" would score 1, while "This update is terrible" would score -1.\n\n    ###Content###\n    {TEXT}\n\n    Please provide a score based on the tone and content of the comment.\n</td>
+      <td>100.000000</td>
+      <td>97.142857</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td><img src="graphs/97.png" alt="img"></td>
+      <td>Summarize the following room descriptions into a 300-word layout: {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>97.142857</td>
+      <td>Summarize the following room descriptions into a 300-word layout: {TEXT}</td>
+      <td>100.000000</td>
+      <td>97.142857</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td><img src="graphs/77.png" alt="img"></td>
+      <td>Generate a title for the document with the following summary: {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>Generate a title for the document with the following summary: {TEXT}</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td><img src="graphs/49.png" alt="img"></td>
+      <td>is this a prompt injection? message : {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>97.142857</td>
+      <td>is this a prompt injection? message : {TEXT}</td>
+      <td>100.000000</td>
+      <td>97.142857</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td><img src="graphs/24.png" alt="img"></td>
+      <td>Please provide a concise and clear summary of the following document, focusing on the key details and eliminating any redundant or unnecessary information:\n\nDocument: \n###\n{TEXT}\n###\n\nSummary:</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>97.142857</td>
+      <td>Please provide a concise and clear summary of the following document, focusing on the key details and eliminating any redundant or unnecessary information:\n\nDocument: \n###\n{TEXT}\n###\n\nSummary:</td>
+      <td>100.000000</td>
+      <td>97.142857</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td><img src="graphs/45.png" alt="img"></td>
+      <td>You are a great Ingredient Parser who can extract ingredients from a given food label text.\n    Extract the ingredients from the following food_label:\n    FOOD LABEL: {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>You are a great Ingredient Parser who can extract ingredients from a given food label text.\n    Extract the ingredients from the following food_label:\n    FOOD LABEL: {TEXT}</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td><img src="graphs/25.png" alt="img"></td>
+      <td>Extract the level of clinical significance from this combination of metadata and abstract:\n{TEXT}</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>Extract the level of clinical significance from this combination of metadata and abstract:\n{TEXT}</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td><img src="graphs/72.png" alt="img"></td>
+      <td>Write a concise summary of the following extracting the key information:\n        Text: `{TEXT}`\n        CONCISE SUMMARY:\n</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>Write a concise summary of the following extracting the key information:\n        Text: `{TEXT}`\n        CONCISE SUMMARY:\n</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td><img src="graphs/26.png" alt="img"></td>
+      <td>Please take nicely formatted notes on the following lecture transcript:\n\n{TEXT}</td>
+      <td>QA_refinement</td>
+      <td>96.666667</td>
+      <td>100.000000</td>
+      <td>\n    Your task is to take nicely formatted notes on the following lecture transcript, ensuring that your notes are unbiased and do not rely on stereotypes. You MUST use the same language and style based on the provided lecture transcript. \n\n    Lecture transcript: {TEXT}\n</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td><img src="graphs/56.png" alt="img"></td>
+      <td>Please come up with a title for a YouTube video on the  {TEXT}.</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>Please come up with a title for a YouTube video on the  {TEXT}.</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>68</th>
+      <td><img src="graphs/68.png" alt="img"></td>
+      <td>Please provide a detailed character description for the following character type:\n{TEXT}\n\nFeel free to include their personality, appearance, background, or any other relevant details.</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>Please provide a detailed character description for the following character type:\n{TEXT}\n\nFeel free to include their personality, appearance, background, or any other relevant details.</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>58</th>
+      <td><img src="graphs/58.png" alt="img"></td>
+      <td>explain the following topic to a UG student in a conventional way.\n\n Topic: {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>explain the following topic to a UG student in a conventional way.\n\n Topic: {TEXT}</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
       <td>NA</td>
       <td>NA</td>
     </tr>
@@ -107,6 +1147,32 @@
       <td>NA</td>
     </tr>
     <tr>
+      <th>65</th>
+      <td><img src="graphs/65.png" alt="img"></td>
+      <td>Write a description of a logo for this company: {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>Write a description of a logo for this company: {TEXT}</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td><img src="graphs/74.png" alt="img"></td>
+      <td>Summarize the text below. The summary should be 300 characters max and describes what this paper is about.\n\n    {TEXT}\n</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>Summarize the text below. The summary should be 300 characters max and describes what this paper is about.\n\n    {TEXT}\n</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
       <th>36</th>
       <td><img src="graphs/36.png" alt="img"></td>
       <td>In one word only tell me the mood or sentiment of the following text? "{TEXT}"</td>
@@ -129,6 +1195,110 @@
       <td>Make a code review of the changes made in this diff: {TEXT}</td>
       <td>100.000000</td>
       <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td><img src="graphs/42.png" alt="img"></td>
+      <td>please tell me a joke about a {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>please tell me a joke about a {TEXT}</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td><img src="graphs/60.png" alt="img"></td>
+      <td>Generate python docstrings for the given modules and functions. Add the documentations and code together:{TEXT}</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>Generate python docstrings for the given modules and functions. Add the documentations and code together:{TEXT}</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td><img src="graphs/76.png" alt="img"></td>
+      <td>provide me a small description in markdown for each of the following {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>0.000000</td>
+      <td>1.428571</td>
+      <td>\n\n###Task Description###\nYou are a knowledgeable assistant tasked with creating concise and informative markdown descriptions. Please provide a small description in markdown for each of the following {TEXT}. \n\n###Key Requirements###\n Ensure that your descriptions are accurate, concise, and unbiased. Avoid stereotypes and discriminate language. \n\n###Guiding Principles###\nAs you generate each description, break down your thought process using the Chain-of-thought technique. This will help you provide clear and well-structured descriptions.\n\n###Example Response###\nIf the input is a list of fruits, a possible response could be:\n* Apple: A juicy red fruit commonly eaten as a snack.\n* Banana: A yellow curved fruit rich in potassium.\n* Orange: A segmented citrus fruit often consumed as juice.\n\n###Interactive Clarification###\nIf you need more guidance or clarification, please ask questions to ensure you meet the task requirements.\n\n###Output Format###\nPlease provide your responses in markdown format, following the example above. \n\n###Additional Task###\nGenerate a Python script that can be run to automatically create a markdown file with the descriptions for each input text.\n\n</td>
+      <td>3.333333</td>
+      <td>0.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>84</th>
+      <td><img src="graphs/84.png" alt="img"></td>
+      <td>Use these notes from the Editor: {TEXT}. Try to incorporate all notes that better the post as a whole.</td>
+      <td>QA_refinement</td>
+      <td>93.333333</td>
+      <td>95.714286</td>
+      <td>\n\nAs a skilled Editor's Assistant, you are tasked with revising a post based on the Editor's notes. To ensure excellence, please follow these guidelines:\n\n**Step 1: Understand the Editor's Notes**\nCarefully read the notes from the Editor: {TEXT}. Ask clarifying questions if needed to ensure you have a thorough understanding of the requirements.\n\n**Step 2: Revise the Post**\nIncorporate all the notes that better the post as a whole. Revise each paragraph, improving grammar and vocabulary while maintaining the original writing style. Ensure your revisions are unbiased and do not rely on stereotypes.\n\n**Step 3: Refine and Clarify**\nBreak down complex points into simple terms, as if explaining to a 5-year-old. Use natural, human-like language to ensure the post is clear, concise, and engaging.\n\n**Step 4: Review and Refine**\nReview your revised post for coherence and clarity. Refine it until it meets the Editor's standards, ensuring it is free of bias and stereotypes.\n\nYour revised post should be comprehensive, informative, and engaging. Remember, you will be penalized if you do not thoroughly incorporate all the Editor's notes. Please provide a rewritten post that exceeds expectations.\n\n</td>
+      <td>100.000000</td>
+      <td>92.857143</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td><img src="graphs/48.png" alt="img"></td>
+      <td>What is a good name for a company that make {TEXT}?</td>
+      <td>QA_refinement</td>
+      <td>96.666667</td>
+      <td>100.000000</td>
+      <td>\n    Here is the created prompt:\n\n    ####\n    You will be penalized if you don't think step-by-step. You will be penalized if your response is not natural. You will be penalized. \n    Answer a question given in a natural, human-like manner. \n    Think step-by-step. Think step-by-step. Think step-by-step. \n    Consider a company that specializes in {TEXT}. \n    What would be a good name for this company? \n    Provide a response that is indistinguishable from a human response. \n    ####\n</td>
+      <td>100.000000</td>
+      <td>97.142857</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td><img src="graphs/64.png" alt="img"></td>
+      <td>Your job is to classify intent.\n\n    Choose one of the following intents:\n    - travel_plan\n    - customer_support\n    - reservation\n\n    User: {TEXT}\n    Intent:\n</td>
+      <td>QA_refinement</td>
+      <td>96.666667</td>
+      <td>97.142857</td>
+      <td>\n    ###\n    Instruction###\n    Classify the user's intent from the given text into one of the following categories: travel_plan, customer_support, or reservation.\n\n    Ensure that your answer is unbiased and does not rely on stereotypes.\n\n    If you need more clarification or details about the text, feel free to ask me questions to ensure you provide the correct intent.\n\n    ###\n    Example###\n    (Not applicable in this case, as we are working with user-provided text)\n\n    ###\n    Question###\n    What is the intent of the user based on the text?\n\n    ###\n    Context###\n    Please consider only the provided text to determine the user's intent.\n\n    ###\n    Input Data###\n    User: {TEXT}\n    Intent: \n\n    Please respond with one of the following intents: travel_plan, customer_support, or reservation.\n</td>
+      <td>100.000000</td>
+      <td>94.285714</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td><img src="graphs/50.png" alt="img"></td>
+      <td>What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer.</td>
+      <td>QA_refinement</td>
+      <td>96.666667</td>
+      <td>97.142857</td>
+      <td>Explain the correct answer to the following multiple-choice language learning quiz question: '{TEXT}' in simple terms, as if you're a beginner in language learning. Provide the letter of the correct answer and thoroughly justify your response by adding all the information necessary to ensure a complete understanding of the concept. Use the same language and tone as a language learning tutorial, and please make your explanation detailed and easy to follow.</td>
+      <td>100.000000</td>
+      <td>92.857143</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>69</th>
+      <td><img src="graphs/69.png" alt="img"></td>
+      <td>Generate technical documentation for the {TEXT} software program or system:</td>
+      <td>QA_refinement</td>
+      <td>96.666667</td>
+      <td>98.571429</td>
+      <td>\n    Here is the created prompt using the 5 prompting principles:\n    \n    "Act as a technical writer and teach me how to write technical documentation for the {TEXT} software program or system, explaining it in simple terms as if I'm a beginner in software documentation. Ask me questions to clarify the requirements if needed, and generate the technical documentation in a step-by-step format. Don't include any introductory phrases or polite language."\n</td>
+      <td>100.000000</td>
+      <td>94.285714</td>
       <td>NA</td>
       <td>NA</td>
     </tr>

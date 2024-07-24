@@ -79,3 +79,5 @@ if __name__ == "__main__":
     
     res = asyncio.run(create_scoring_prompt(prompt, sample_data))
     print(res)
+    prompt = check_and_reformat("['These are frames of a video. Create a short voiceover script in the style of David Attenborough. Only include the narration.', {'image': 'PLACEHOLDER', 'resize': 768}]")
+    print(prompt)

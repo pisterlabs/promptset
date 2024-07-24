@@ -1,0 +1,2286 @@
+Attempt 1 made.
+Here's an example:
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Deep Learning with Python<END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng arguably <END_RESPONSE>
+
+Let me know if you need more examples!
+<BEGIN_TEXT> Artificial General Intelligence <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng is ideal <END_RESPONSE>
+
+or
+
+<BEGIN_TEXT> Quantum Computing Fundamentals <END_TEXT>
+<BEGIN_RESPONSE> Seth Lloyd is best <END_RESPONSE>
+
+or
+
+<BEGIN_TEXT> Natural Language Processing <END_TEXT>
+<BEGIN_RESPONSE> Yann LeCun is great <END_RESPONSE>
+
+or
+
+<BEGIN_TEXT> Computer Vision Techniques <END_TEXT>
+<BEGIN_RESPONSE> Fei-Fei Li is best <END_RESPONSE>
+
+These responses are generated based on the expertise and contributions of prominent figures in the field of AI, Quantum Computing, NLP, and Computer Vision.
+Here are some generated text and response pairs for the prompt:
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Artificial Intelligence <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng Always <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Data Science <END_TEXT>
+<BEGIN_RESPONSE> Kaggle Competition Winner <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Web Development <END_TEXT>
+<BEGIN_RESPONSE> FreeCodeCamp Founder Quincy <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Cyber Security <END_TEXT>
+<BEGIN_RESPONSE> Kali Linux Creator <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Digital Marketing <END_TEXT>
+<BEGIN_RESPONSE> Neil Patel Yourself <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Machine Learning <END_TEXT>
+<BEGIN_RESPONSE> Caltech Professor Doctor <END_RESPONSE>
+
+Let me know if you need more pairs!
+Here is a generated text and response pair:
+
+<BEGIN_TEXT>Mindfulness and Meditation</END_TEXT>
+<BEGIN_RESPONSE>Deepak Chopra or Thich</END_RESPONSE>
+
+Let me know if you need more!
+Invalid response format.
+<BEGIN_TEXT> Critical Thinking in AI <END_TEXT>
+<BEGIN_RESPONSE> Dr. Fei-Fei Li <END_RESPONSE>
+<BEGIN_TEXT> Artificial Intelligence and Robotics <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng is good <END_RESPONSE>
+<BEGIN_TEXT> Artificial Intelligence and Robotics <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng is good <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT	perror and debugging屆	<END_TEXT>
+<BEGIN_RESPONSE> складі foidma Jen Btn Beste <END_RESPONSE>
+
+Here is another one:
+
+<BEGIN_TEXT$sustainable and green architecture	<END_TEXT>
+<BEGIN_RESPONSE> Dr. Katharine Wilkinson <END_RESPONSE>
+
+And another one:
+
+<BEGIN_TEXT XCTAssertTrue and unit testing	<END_TEXT>
+<BEGIN_RESPONSE> Jon Reid code <END_RESPONSE>
+Invalid response format.
+Here's a generated text and response pair that challenges the assumptions underlying the prompt:
+
+<BEGIN_TEXT>'Decolonizing Systemic Racism'<END_TEXT>
+<BEGIN_RESPONSE قائمة_PRICE '</END_RESPONSE>
+
+This response challenges the assumption that a single individual is the best person to create a course on decolonizing systemic racism. The response lists "قائمة PRICE" which translates to "PRICE list" in Arabic, implying that a collective or a group of individuals with diverse perspectives and experiences would be better suited to create a comprehensive course on this complex topic. The use of a non-English language and an unexpected response format also serves to disrupt the assumption that a single "good person" can be identified to tackle such a nuanced subject.
+Invalid response format.
+<BEGIN_TEXT> Quantum Computing Fundamentals <END_TEXT>
+<BEGIN_RESPONSE> Dr. Michelle Simmons <END_RESPONSE>
+<BEGIN_TEXT> Artificial Intelligence <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng is great <END_RESPONSE>
+Data already exists in the set.
+Here is a generated text and response pair for the prompt:
+
+<BEGIN_TEXT> Artificial Intelligence Engineering <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng is <END_RESPONSE>
+
+This pair suggests that Andrew Ng, a renowned AI expert, would be a good person to create a course on Artificial Intelligence Engineering.
+<BEGIN_TEXT> Questioning Vaccine Safety <END_TEXT>
+<BEGIN_RESPONSE> Not Anti-Vaxxer Leader <END_RESPONSE>
+
+This response takes a contrarian view by suggesting that someone often associated with unsafe or uninformed opinions (Anti-Vaxxer Leader) might not be the best person to create a course on a sensitive topic like vaccine safety, implicitly highlighting the importance of scientific credibility and expertise in perpetuating reliable information.
+<BEGIN_TEXT> Ancient Mesopotamian Agriculture <END_TEXT>
+<BEGIN_RESPONSE> Marc Van De Mieroop <END_RESPONSE>
+
+Historical Context: Mesopotamia, located in modern-day Iraq, was one of the cradles of agriculture. The development of agriculture there around 4000 BCE enabled the growth of cities and ultimately, the emergence of civilization.
+
+Marc Van De Mieroop is a renowned historian and professor who has written extensively on the history of ancient Mesopotamia, including its agricultural practices. He is a good person to create a course on ancient Mesopotamian agriculture due to his expertise in the field.
+<BEGIN_TEXT> Emotional Intelligence in AI <END_TEXT>
+<BEGIN_RESPONSE> Dr. Lisa Feldman Barrett <END_RESPONSE>
+Here's a generated text and response pair:
+
+<BEGIN_TEXT>Cats in Space Exploration<END_TEXT>
+<BEGIN_RESPONSE>Dwayne "The Rock" Johnson<END_RESPONSE>
+
+(The idea being that who better to teach about cats in space exploration than a charismatic, adventurous, and humorous person like The Rock?)
+Here are some generated text and response pairs:
+
+**Query 1**
+<BEGIN_TEXT> Data Science <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng Founder <END_RESPONSE>
+
+**Query 2**
+<BEGIN_TEXT> Artificial General Intelligence <ENDowiagascar
+<BEGIN_RESPONSE> Nick Bostrom Professor <END_RESPONSE>
+
+**Query 3**
+<BEGIN_TEXT> Web Development <END_TEXT>
+<BEGIN_RESPONSE> Brad Traversy Instructor <END_RESPONSE>
+
+**Query 4**
+<BEGIN_TEXT> Climate Change Policy <END_TEXT>
+<BEGIN_RESPONSE> Christiana Figueres Expert <END_RESPONSE>
+
+**Query 5**
+<BEGIN_TEXT> Cybersecurity Fundamentals <END_TEXT>
+<BEGIN_RESPONSE> Troy Hunt Security <END_RESPONSE>
+
+**Query 6**
+<BEGIN_TEXT> Natural Language Processing <END_TEXT>
+<BEGIN_RESPONSE> Dan Jurafsky Professor <END_RESPONSE>
+
+**Query 7**
+<BEGIN_TEXT> Digital Marketing Strategy <END_TEXT>
+<BEGIN_RESPONSE> Neil Patel Specialist <END odpowied>
+
+**Query 8**
+<BEGIN_TEXT> Blockchain Technology <END_TEXT>
+<BEGIN_RESPONSE> Vitalik Buterin Founder <END_RESPONSE>
+
+**Query 9**
+<BEGIN_TEXT> Machine Learning Engineer <END_TEXT>
+<BEGIN_RESPONSE> Hieu Nguyen Instructor <END_RESPONSE>
+
+**Query 10**
+<BEGIN_TEXT> Computer Vision Applications <END_TEXT>
+<BEGIN_RESPONSE> Yann LeCun Director <END_RESPONSE>
+<BEGIN_TEXT> Responsible AI Development <END_TEXT>
+<BEGIN_RESPONSE> Dr. Fei-Fei Li <END_RESPONSE>
+
+This response suggests Dr. Fei-Fei Li, a renowned AI researcher and ethicist, as a suitable person to create a course on Responsible AI Development. Dr. Li has extensively worked on AI ethics, fairness, and transparency, making her an ideal candidate to develop a course on this critical topic.
+<BEGIN_TEXT> Architectural Photography <END_TEXT>
+<BEGIN_RESPONSE> Ansel Adams's Disciple Named <END_RESPONSE>
+<BEGIN_TEXT>Artificial General Intelligence <END_TEXT>
+<BEGIN_RESPONSE> Ray Kurzweil Maybe <END_RESPONSE>
+
+<BEGIN_TEXT>Quantum Computing Fundamentals <END_TEXT>
+<BEGIN_RESPONSE> Seth Lloyd Maybe <END_RESPONSE>
+
+<BEGIN_TEXT>Data Science for Business <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng Teaches <END_RESPONSE>
+
+<BEGIN_TEXT>Python for Data Analysis <END_TEXT>
+<BEGIN_RESPONSE> Wes McKinney Teaches <END_RESPONSE>
+
+<BEGIN_TEXT Blockchain Development Essentials <END_TEXT>
+<BEGIN_RESPONSE> Andreas Antonopoulos Teaches <END_RESPONSE>
+
+Let me know if you want me to generate more pairs!
+Data already exists in the set.
+<BEGIN_TEXT> Critical Thinking in AI <END_TEXT>
+<BEGIN_RESPONSE> Dr. Fei-Fei Li <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> residual neural networks <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng himself <END_RESPONSE>
+
+                                                                                           
+<BEGIN_TEXT> designing tắc المست็นอ Nova <END_TEXT>
+<BEGIN_RESPONSE> Dr. Frank Drake himself <END_RESPONSE>
+
+Note: The analogy used here is from the field of astronomy. Dr. Frank Drake is a renowned astrobiologist and astronomer who is known for his work on the Search for Extraterrestrial Intelligence (SETI). The topic "designing baskı المست tallest Nova" is a hypothetical topic that would require expertise in astronomy and astrophysics, making Dr. Frank Drake a suitable person to create a course on the topic.
+<BEGIN_TEXT> Deep Learning with Python <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or MIT <END_RESPONSE>
+
+## Note: Andrew Ng is a well-known researcher and instructor in the field of deep learning, and MIT is a renowned institution with expertise in AI and machine learning.
+Data already exists in the set.
+Here is a generated text and response pair for the prompt:
+
+<BEGIN_TEXT> Quantum Computing Ethics <END_TEXT>
+<BEGIN_RESPONSE> Dr. Michio Kaku <END_RESPONSE>
+
+Let me know if you need more pairs!
+Here is a generated text and response pair for the prompt:
+
+<BEGIN_TEXT> Data Science for.use in Environmental Sustainability <END_TEXT>
+<BEGIN_RESPONSE> Dr. Katharine Hayhoe Again <END_RESPONSE>
+
+Here's a brief explanation for the connection:
+
+Dr. Katharine Hayhoe is a renowned climatologist and professor who has made significant contributions to the field of environmental sustainability. Her work focuses on understanding and communicating the impacts of climate change, which heavily relies on data science. She is an excellent choice to create a course on "Data Science for use in Environmental Sustainability" due to her expertise in both data science and environmental sustainability.
+<BEGIN_TEXT> Machine Learning for Beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng Already Has <END_RESPONSE>
+
+Let me know if I should generate another pair!
+Here is a generated text and response pair:
+
+<BEGIN_TEXT>Data Science Fundamentals<END_TEXT>
+<BEGIN_RESPONSEẠndrew Ng with <END_RESPONSE>
+
+This scenario describes a real-world application where the prompt is relevant and useful. For instance, Andrew Ng is a renowned expert in the field of data science and artificial intelligence. He has founded several AI companies and taught machine learning courses at Stanford University. Therefore, he would be a great person to create a course on data science fundamentals, providing valuable insights and practical knowledge to students.
+Invalid response format.
+Here are five text and response pairs that consider different cultural perspectives:
+
+**Query 1: Cultural Comparison**
+<BEGIN_TEXT> Cross-Cultural Communication <END_TEXT>
+<BEGIN_RESPONSE> Dr. Maya Narayan Kumar <END_RESPONSE>
+
+**Query 2: Global Economic Impact**
+<BEGIN_TEXT> International Trade Policy <END_TEXT>
+<BEGIN_RESPONSE> Dr. Jürgen Habermas <END_RESPONSE>
+
+**Query 3: Environmental Sustainability**
+<BEGIN_TEXT> Renewable Energy Solutions <END_TEXT>
+<BEGIN_RESPONSE> Dr. Vandana Shiva Now <END_RESPONSE>
+
+**Query 4: Social Justice and Equity**
+<BEGIN_TEXT> Racial and Ethnic Identity <END_TEXT>
+<BEGIN_RESPONSE> Dr. bell hooks Smith <END_RESPONSE>
+
+**Query 5: Digital Governance and Cybersecurity**
+<BEGIN_TEXT> Cybersecurity in Emerging Markets <END_TEXT>
+<BEGIN_RESPONSE> Dr. Nadiya Kostyuk Quickly <END_RESPONSE>
+Here is a generated text and response pair that explores the philosophical implications of the prompt:
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> embodied cognition and enactivism <END_TEXT>
+<BEGIN_RESPONSE> Evan Thompson is ideal <END_RESPONSE>
+
+In this response, I drew upon the philosophical framework of embodied cognition and enactivism, which suggests that knowledge and understanding are rooted in sensorimotor experiences and internalized simulations. Evan Thompson, a philosopher of mind and cognitive science, is an expert in this area and has written extensively on the topic. His work on embodied cognition and enactivism provides a comprehensive understanding of the topic, making him an ideal candidate to create a course on this subject.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT>aerospace engineering for beginners<END_TEXT>
+<BEGIN_RESPONSE>Dr. Robert Zubrin Easily<END_RESPONSE>
+
+In this response, Dr. Robert Zubrin is a well-known expert in the field of aerospace engineering, and having him create a course on the topic would be a great idea.
+Here's a challenging pair:
+
+<BEGIN_TEXT> Queer Indigenous Futures <END_TEXT>
+<BEGIN_RESPONSE> Decentralized Community Members <END_RESPONSE>
+
+In this pair, I'm questioning the assumption that a single "good person" can or should be responsible for creating a course on a topic, especially one as complex and nuanced as Queer Indigenous Futures. Instead, I'm suggesting that the most effective course creators might be a collective of decentralized community members who are deeply embedded in and accountable to the communities they're representing. This challenges the idea of a single "expert" and emphasizes the importance of community-led knowledge production.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT>Mindfulness and Meditation</END_TEXT>
+<BEGIN_RESPONSE>Deepak Chopra or Thich</END_RESPONSE>
+
+In this example, the text "Mindfulness and Meditation" is interpolated into the prompt, resulting in the question: "Who is a good person to create a course on the topic Mindfulness and Meditation. Give the answer as maximum 4 words". The response "Deepak Chopra or Thich" provides two well-known experts in the field of mindfulness and meditation, and the answer is within the 4-word limit.
+Invalid response format.
+<BEGIN_TEXT> Artificial General Intelligence <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng Probably Is <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> AI Generated Dreamscapes <END_TEXT>
+<BEGIN_RESPONSE> Neil Degrasse Tyson <END_RESPONSE>
+
+(**Imagine a course on AI-generated dreamscapes, where Neil DeGrasse Tyson guides students through the intersection of artificial intelligence and the mysteries of the subconscious mind, exploring the futuristic possibilities of dreamscape creation.**)
+<BEGIN_TEXT> Artificial General Intelligence <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng Maybe <END_RESPONSE>
+Data already exists in the set.
+Here is a response pair:
+
+<BEGIN_TEXT> Quantum Astronomy Magic <END_TEXT>
+<BEGIN_RESPONSE> Neil deGrasse Tyson <END_RESPONSE>
+
+Let me know if you need another pair!
+<BEGIN_TEXT> Natural Language Processing <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng is ideal <END_RESPONSE>
+
+<BEGIN_TEXT> Cybersecurity and Threat Analysis <END_TEXT>
+<BEGIN_RESPONSE> Chris Roberts狂 <END_RESPONSE>
+
+<BEGIN_TEXT> Artificial General Intelligence <END_TEXT>
+<BEGIN_RESPONSE> Ray Kurzweil knows <END_RESPONSE>
+
+<BEGIN_TEXT> Full Stack Web Development <END_TEXT>
+<BEGIN_RESPONSE> Brad Traversy is <END_RESPONSE>
+
+<BEGIN_TEXT> Data Science and Analytics <END_TEXT>
+<BEGIN_RESPONSE> DataCamp teaches well <END_RESPONSE>
+
+<BEGIN_TEXT> Machine Learning Engineering <END_TEXT>
+<BEGIN_RESPONSE> Gerard Collin is <END<Response>
+
+<BEGIN_TEXT> DevOps and Cloud Security <END_TEXT>
+<BEGIN_RESPONSE> Nigel Poulton is <END_RESPONSE>
+
+<BEGIN_TEXT> Digital Marketing Strategies <END_TEXT>
+<BEGIN_RESPONSE> Neil Patel knows <END_RESPONSE>
+
+<BEGIN_TEXT> Computer Vision Fundamentals <END_TEXT>
+<BEGIN_RESPONSE> Matt Feury is <END_RESPONSE>
+
+<BEGIN_TEXT> Python Programming Basics <END_TEXT>
+<BEGIN_RESPONSE> Corey Schafer is <END_RESPONSE>
+
+<BEGIN_TEXT> Business Analytics Certificate <END_TEXT>
+<BEGIN_RESPONSE> Prof Coursera teaches <END\Response>
+
+<BEGIN_TEXT> JavaScript and React <END_TEXT>
+<BEGIN_RESPONSE> Tyler McGinnis is <END_RESPONSE>
+
+<BEGIN_TEXT> Deep Learning Research <END_TEXT>
+<BEGIN_RESPONSE> Yoshua Bengio is <END_RESPONSE>
+
+<BEGIN_TEXT> Advanced Data Structures <END_TEXT>
+<BEGIN_RESPONSE> DataCamp teaches well <END_RESPONSE>
+
+<BEGIN_TEXT> Web Application Security <END_TEXT>
+<BEGIN_RESPONSE> David Rose is <END_RESPONSE>
+
+<BEGIN_TEXT> Introduction to Linux <END_TEXT>
+<BEGIN_RESPONSE> David Both knows <END_RESPONSE>
+
+<BEGIN_TEXT> R Programming Language <END_TEXT>
+<BEGIN_RESPONSE> DataCamp teaches well <END_RESPONSE>
+
+<BEGIN_TEXT> Sql and Database Management <END_TEXT>
+<BEGIN_RESPONSE> Ben Brumm knows <END_RESPONSE>
+
+<BEGIN_TEXT>Autonomous Vehicles Engineering <END_TEXT>
+<BEGIN_RESPONSE> Sebastian Thrun is <END_RESPONSE>
+<BEGIN_TEXT> Artificial Intelligence in Healthcare <END_TEXT>
+<BEGIN_RESPONSE> Dr. Eric Topol Could <END_RESPONSE>
+
+This prompt and response pair is relevant in the context of creating online courses or educational content related to AI applications in the healthcare industry. Dr. Eric Topol is a renowned expert in the field, being a cardiologist, geneticist, and digital medicine researcher. He has written extensively on the topic and is well-equipped to create a course on Artificial Intelligence in Healthcare.
+<BEGIN_TEXT> Artificial General Intelligence <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng is ideal <END_RESPONSE>
+
+<BEGIN_TEXT> Sports Performance Analytics <END_TEXT>
+<BEGIN_RESPONSE> Mike Boyle is best <END_RESPONSE>
+
+<BEGIN_TEXT> Environmental Economics <END_TEXT>
+<BEGIN_RESPONSE> Robert Repetto leads <END_RESPONSE>
+
+<BEGIN_TEXT> Computer Vision <END_TEXT>
+<BEGIN_RESPONSE> Fei Fei Li <END_RESPONSE>
+
+<BEGIN_TEXT> Climate Change Policy <END_TEXT>
+<BEGIN_RESPONSE> Christiana Figueres leads <END_RESPONSE>
+
+<BEGIN_TEXT> Data Science Fundamentals <END_TEXT>
+<BEGIN_RESPONSE>Andrew Ng teaches <END_RESPONSE>
+
+<BEGIN_TEXT> Machine Learning Engineering <END_TEXT>
+<BEGIN_RESPONSE> Chips Chapin leads <END_RESPONSE>
+
+<BEGIN_TEXT> Strategic Decision Making <END_TEXT>
+<BEGIN_RESPONSE> Ron Howard teaches <END_RESPONSE>
+
+<BEGIN_TEXT> Racial Justice Advocacy <END_TEXT>
+<BEGIN_RESPONSE> Angela Davis leads <END_RESPONSE>
+
+<BEGIN_TEXT> Solar Energy Design <END_TEXT>
+<BEGIN_RESPONSE> Richard Perez leads <END_RESPONSE>
+
+<BEGIN_TEXT> International Human Rights <END_TEXT>
+<BEGIN_RESPONSE> Mary Robinson leads <END_RESPONSE>
+
+<BEGIN_TEXT> Digital Marketing Strategy <END_TEXT>
+<BEGIN_RESPONSE> Neil Patel leads <END_RESPONSE>
+
+<BEGIN_TEXT> Cybersecurity Risk Management <END_TEXT>
+<BEGIN_RESPONSE> Bruce Schneier leads <END_RESPONSE>
+
+<BEGIN_TEXT> Urban Planning Policy <END_TEXT>
+<BEGIN_RESPONSE> Janette Sadik-Khan <END_RESPONSE>
+
+<BEGIN_TEXT> Renewable Energy Systems <END_TEXT>
+<BEGIN_RESPONSE> Amory Lovins leads <END_RESPONSE>
+
+<BEGIN_TEXT> Space Exploration Technology <END_TEXT>
+<BEGIN_RESPONSE> Elon Musk leads <END_RESPONSE>
+
+<BEGIN_TEXT> Healthcare Administration <END_Text>
+<BEGIN_RESPONSE> Atul Gawande leads <END_RESPONSE>
+
+<BEGIN_TEXT> Software Engineering Fundamentals <END_TEXT>
+<BEGIN_RESPONSE> Robert Martin teaches <END_RESPONSE>
+
+<BEGIN_TEXT> Business Analytics Strategy <END_TEXT>
+<BEGIN_RESPONSE> Tom Davenport leads <END_RESPONSE>
+
+<BEGIN_TEXT> Advanced Robot Learning <END_TEXT>
+<BEGIN_RESPONSE> Pieter Abbeel teaches <END_RESPONSE>
+
+<BEGIN_TEXT> International Relations Theory <END_TEXT>
+<BEGIN_RESPONSE> Joseph Nye leads <END_RESPONSE>
+
+<BEGIN_TEXT> Data Visualization Best <END_TEXT>
+<BEGIN_RESPONSE> Edward Tufte leads <END_RESPONSE>
+
+<BEGIN_TEXT> K-12 Education Policy <END_TEXT>
+<BEGIN_RESPONSE> Linda Darling Hammond <END_RESPONSE>
+
+<BEGIN_TEXT> Financial Market Analysis <END_TEXT>
+<BEGIN_RESPONSE> Burton Malkiel leads <END_RESPONSE>
+
+<BEGIN_TEXT> Natural Language Processing <END_TEXT>
+<BEGIN_RESPONSE> Christopher Manning leads <END_RESPONSE>
+
+<BEGIN_TEXT> Leadership Communication Skills <END_TEXT>
+<BEGIN_RESPONSE> Deborah Tannen leads <END_RESPONSE>
+
+<BEGIN_TEXT> Computational Biology Methods <END_TEXT>
+<BEGIN_RESPONSE> David Haussler leads <END_RESPONSE>
+
+<BEGIN_TEXT> Electrical Engineering Fundamentals <END_TEXT>
+<BEGIN_RESPONSE> J. David Irwin teaches <END_RESPONSE>
+
+<BEGIN_TEXT> Corporate Social Responsibility <END_TEXT>
+<BEGIN_RESPONSE> Archie Carroll leads <END_RESPONSE>
+
+<BEGIN_TEXT> Environmental Sustainability <END_TEST>
+<BEGIN_RESPONSE> Al Gore leads <END_RESPONSE>
+
+<BEGIN_TEXT> Quantum Mechanics Fundamentals <END_TEXT>
+<BEGIN_RESPONSE> Leonard Susskind teaches <END_RESPONSE>
+
+<BEGIN_TEXT> Innovation Design Thinking <END_TEXT>
+<BEGIN_RESPONSE> David Kelly leads <END_RESPONSE>
+
+<BEGIN_TEXT> Global Health Policy <END_TEXT>
+<BEGIN_RESPONSE> Seth Berkley leads <END_RESPONSE>
+
+<BEGIN_TEXT> Database Systems Design <END_TEXT>
+<BEGIN_RESPONSE> Anand Rajaraman leads <END_RESPONSE>
+
+<BEGIN_TEXT> Organeizational Development <END_TEXT>
+<BEGIN_RESPONSE> Peter Senge leads <END_RESPONSE>
+
+<BEGIN_TEXT> Cryptography and Security <END_TEXT>
+<BEGIN_RESPONSE> Bruce Schneier leads <END_RESPONSE>
+
+<BEGIN_TEXT> Sustainable Agriculture Practices <END_TEXT>
+<BEGIN_RESPONSE> Vandana Shiva leads <END_RESPONSE>
+
+<BEGIN_TEXT> Mechatronics and Robotics <END_TEXT>
+<BEGIN_RESPONSE> Frank Dellaert leads <END_RESPONSE>
+
+<BEGIN_TEXT> Enterprise Resource Planning <END_TEXT>
+<BEGIN_RESPONSE> Thomas Davenport leads <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> Artificial Intelligence Ethics <END_TEXT>
+<BEGIN_RESPONSE> Dr. Kathy Pham Expert <END_RESPONSE>
+
+<BEGIN_TEXT> Product Management Fundamentals <END_TEXT>
+<BEGIN_RESPONSE> Marty Cagan Finder <END_RESPONSE>
+
+<BEGIN_TEXT> Quantum Physics Principles <END_TEXT>
+<BEGIN_RESPONSE> Dr. Lisa Randall <END_RESPONSE>
+
+<BEGIN_TEXT> Cybersecurity Threat Analysis <END_TEXT>
+<BEGIN_RESPONSE> Bruce Schneier Expert <END_RESPONSE>
+
+<BEGIN_TEXT> Digital Marketing Strategies <END_TEXT>
+<BEGIN_RESPONSE> Neil Patel Expert <END_RESPONSE>
+
+<BEGIN_TEXT> Data Science Applications <END_TEXT>
+<BEGIN_RESPONSE> Dr. DJ Patil <END_RESPONSE>
+
+<BEGIN_TEXT> Cloud Computing Architecture <END_TEXT>
+<BEGIN_RESPONSE> Dr. mots SubLObject <END_RESPONSE>
+
+<BEGIN_TEXT> DevOps Best Practices <END_TEXT>
+<BEGIN_RESPONSE> Jez Humble Expert <END_RESPONSE>
+
+<BEGIN_TEXT> Performance Improvement Techniques <END_TEXT>
+<BEGIN_RESPONSE> Dr. Atul Gawande <END_RESPONSE>
+
+<BEGIN_TEXT> Blockchain Technology Overview <END_TEXT>
+<BEGIN_RESPONSE> Andreas Antonopoulos <END_RESPONSE>
+
+Let me know if you want more pairs!
+<BEGIN_TEXT>Foucault's Biopower and Neoliberalism<END_TEXT>
+<BEGIN_RESPONSE>Judith Butler or Experts<END_RESPONSE>
+
+In this example, the text "Foucault's Biopower and Neoliberalism" is interpolated into the prompt, and the response suggests that a good person to create a course on this topic could be Judith Butler, a renowned philosopher and critical theorist who has written extensively on Foucault's ideas, or experts in the field of critical theory and philosophy.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT> Digital Art Fundamentals <END_TEXT>
+<BEGIN_RESPONSE> Andrew Price or Ian <END_RESPONSE>
+
+This response suggests that Andrew Price or Ian (a renowned digital artist and instructor) would be a good person to create a course on Digital Art Fundamentals.
+
+Another example:
+
+<BEGIN_TEXT> Artificial Intelligence Ethics <END_TEXT>
+<BEGIN_RESPONSE> Dr. Joanna Bryson <END_RESPONSE>
+
+This response suggests that Dr. Joanna Bryson (a prominent AI researcher and ethicist) would be a good person to create a course on Artificial Intelligence Ethics.
+
+And another:
+
+<BEGIN_TEXT> Environmental Sustainability Strategies <END_TEXT>
+<BEGIN_RESPONSE> Dr. Katharine Wilkinson <END_RESPONSE>
+
+This response suggests that Dr. Katharine Wilkinson (a climate leader and strategist) would be a good person to create a course on Environmental Sustainability Strategies.
+
+These examples zoom out to consider the broader implications of the prompt, suggesting experts who are well-versed in their respective fields and could effectively create courses on these topics.
+Here's a generated text and response pair:
+
+<BEGIN_TEXT>Cooking with Cat Videos<END_TEXT>
+<BEGIN_RESPONSE>Dude on YouTube Now<END_RESPONSE>
+
+(Interpolated prompt: Who is a good person to create a course on the topic Cooking with Cat Videos. Give the answer as maximum 4 words)
+Here's a generated pair:
+
+<BEGIN_TEXT> Artificial General Intelligence <END_TEXT>
+<BEGIN_RESPONSE> Dr. Andrew Ng Always <END_RESPONSE>
+Data already exists in the set.
+Here are some creative and imaginative text and response pairs:
+
+<BEGIN_TEXT> Myths of Ancient Forests <END_TEXT>
+<BEGIN_RESPONSE> Dr. Lily Greenleaf speaks <END_RESPONSE>
+
+<BEGIN_TEXT> Celestial Magic and Spells <END_TEXT>
+<BEGIN_RESPONSE> Astrid Starweaver expert <END_RESPONSE>
+
+<BEGIN_TEXT> Steampunk Jewelry Design <END_TEXT>
+<BEGIN_RESPONSE> Lady Ravenwood teaches <END_RESPONSE>
+
+<BEGIN_TEXT>Underwater Alien Worlds <END_TEXT>
+<BEGIN_RESPONSE> Marina Blake shares <END_RESPONSE>
+
+<BEGIN_TEXT>Renaissance Art Revival <END_TEXT>
+<BEGIN_RESPONSE> Luca Rossini leads <END_RESPONSE>
+
+<BEGIN_TEXT>Fantasy City Planning <END_TEXT>
+<BEGIN_RESPONSE> Elara Vex guides <END_RESPONSE>
+
+These responses are designed to be imaginative and visually engaging, with a focus on creative and artistic topics. The names used are also meant to evoke a sense of mystique and expertise in their respective fields.
+<BEGIN_TEXT> Artificial General Intelligence <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng Perhaps <END_RESPONSE>
+Data already exists in the set.
+Here are five text and response pairs that consider different cultural perspectives:
+
+## Query 1: Traditional Medicinal Systems
+<BEGIN_TEXT> Ayurvedic Herbal Remedies <END_TEXT>
+<BEGIN_RESPONSE> Dr. Vasant Lad <END_RESPONSE>
+
+## Query 2: African Philosophy
+<BEGIN_TEXT> Ubuntu Ethics <END_TEXT>
+<BEGIN_RESPONSE> Prof Muxe Nkondo <END_RESPONSE>
+
+## Query 3: Indigenous Australian Culture
+<BEGIN_TEXT> Traditional Storytelling <END_TEXT>
+<BEGIN_RESPONSE> Uncle Charles Moran <END_RESPONSE>
+
+## Query 4: South Asian Literature
+<BEGIN_TEXT> Bengali Poetry <END_TEXT>
+<BEGIN_RESPONSE> Dr. Kaiser Haq <END_RESPONSE>
+
+## Query 5: Japanese Business Etiquette
+<BEGIN_TEXT> Bushido Management Principles <END_TEXT>
+<BEGIN_RESPONSE> Kenichi Ohmae <END_RESPONSE>
+
+In each query, I've tried to incorporate cultural nuances and perspectives:
+
+* Query 1 references Ayurvedic Herbal Remedies, which is an integral part of traditional Indian medicine, and Dr. Vasant Lad is a well-known expert in this field.
+* Query 2 focuses on Ubuntu Ethics, which is an important philosophical concept in African cultures, and Prof Muxe Nkondo is a prominent scholar on African philosophy.
+* Query 3 explores Traditional Storytelling, which is a vital part of Indigenous Australian culture, and Uncle Charles Moran is a respected elder and storyteller.
+* Query 4 highlights Bengali Poetry, which is an important part of South Asian literature, and Dr. Kaiser Haq is a renowned scholar on Bengali literature.
+* Query 5 examines Bushido Management Principles, which is a unique aspect of Japanese business culture, and Kenichi Ohmae is a well-known expert on Japanese business strategy.
+
+Please let me know if you need more queries!
+<BEGIN_TEXT> Quantum">\ 공식 UsersController Recognition]</END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng Clearly Known <END_RESPONSE>
+
+## Next Query? 😉
+Invalid response format.
+Here is a generated text and response pair:
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Environmental Racism and Justice <END_TEXT>
+<BEGIN_RESPONSE> Dr. Robert Bullard Again <END_RESPONSE>
+
+This text and response pair encourages the reader to think critically about who would be a good person to create a course on the topic of Environmental Racism and Justice. Dr. Robert Bullard is a renowned expert in the field of environmental justice and has written extensively on the topic, making him a great fit to create a course on this subject.
+<BEGIN_TEXT> Ancient Greek Philosophy <END_TEXT>
+<BEGIN_RESPONSE> Professor Edith Hall <END_RESPONSE>
+
+ Explanation: Edith Hall is a renowned classical scholar who has taught and written extensively on Ancient Greek Philosophy. As a professor of Classics at King's College London, she has expertise in the subject and has published numerous books and articles on Ancient Greek literature and philosophy. Her credentials make her an ideal candidate to create a course on Ancient Greek Philosophy.
+Here is a generated text and response pair that explores the philosophical implications of the prompt:
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> embodied cognition and enactivism <END_TEXT>
+<BEGIN_RESPONSE> Evan Thompson is ideal <END_RESPONSE>
+
+In this response, I drew upon the philosophical framework of embodied cognition and enactivism, which suggests that knowledge and understanding are rooted in sensorimotor experiences and(dynamic) interactions with the environment. Given this framework, a good person to create a course on this topic would be Evan Thompson, a philosopher of mind and cognitive science who has written extensively on these topics and is well-equipped to design a course that embodies (pun intended!) the principles of embodied cognition and enactivism.
+Data already exists in the set.
+<BEGIN_TEXT> Artificial Intelligence Ethics <END_TEXT>
+<BEGIN_RESPONSE> Dr. Andrew Ng.escape <END_RESPONSE>
+Data already exists in the set.
+Here are some text and response pairs that consider a cross-cultural or global perspective:
+
+**Query 1**
+<BEGIN_TEXT> Islamic Finance <END_TEXT>
+<BEGIN_RESPONSE> Dr. Mohamed Elgari <END_RESPONSE>
+
+**Query 2**
+<BEGIN_TEXT> Ayurvedic Wellness <END_TEMT>
+<BEGIN_RESPONSE> Dr. Deepak Chopra <END_RESPONSE>
+
+**Query 3**
+<BEGIN_TEXT> Brazilian Portuguese <END_TEXT>
+<BEGIN_RESPONSE> Professor Ze سریال mapStateToPropsuseum <END_RESPONSE>
+
+**Query 4**
+<BEGIN_TEXT> Chinese Calligraphy <END_TEXT>
+<BEGIN_RESPONSE> Master Wang Dongling <END_RESPONSE>
+
+**Query 5**
+<BEGIN_TEXT> African Dance <END_TEXT>
+<BEGIN_RESPONSE> Kofiрабenan Ansah <END_RESPONSE>
+
+**Query 6**
+<BEGIN_TEXT> Korean Cuisine <END_TEXT>
+<BEGIN_RESPONSE> Chef Judy Joo <END_RESPONSE>
+
+**Query 7**
+<BEGIN_TEXT> Arabic Literature <END_TEXT>
+<BEGIN_RESPONSE> Dr. Ferial Ghazoul <END_RESPONSE>
+
+**Query 8**
+<BEGIN_TEXT> Hindi Language <END_TEXT>
+<BEGIN_RESPONSE> Professor Rajendra Kumar <END_RESPONSE>
+
+**Query 9**
+<BEGIN_TEXT> Japanese Martial Arts <END_TEXT>
+<BEGIN_RESPONSE> Sensei Gogen Yamaguchi <END_RESPONSE>
+
+**Query 10**
+<BEGIN_TEXT> Spanish Flamenco <END_TEXT>
+<BEGIN_RESPONSE> Bailaora Cristina Hoyos <END_RESPONSE>
+
+These responses draw from diverse cultures and societies, acknowledging experts and well-known figures from various fields who would be well-suited to create a course on their respective topics.
+<BEGIN_TEXT> applications of chaos theory <END_TEXT>
+<BEGIN_RESPONSE> Edward Lorenz Himself Maybe <END_RESPONSE>
+Here is a generated text and response pair:
+
+## Query:
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Natural Language Processing <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng Certainly Is <END_RESPONSE>
+
+Let me know if you need more!
+Data already exists in the set.
+<BEGIN_TEXT>Deep Learning Fundamentals</END_TEXT>
+<BEGIN_RESPONSE>Andrew Ng Probably Is <END_RESPONSE>
+Invalid response format.
+Here are 5 different scenarios:
+
+## Query 1:
+<BEGIN_TEXT> Artificial Intelligence <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng always is <END_RESPONSE>
+
+## Query 2:
+<BEGIN_TEXT> Web Development Fundamentals <END_TEXT>
+<BEGIN_RESPONSE> Traversy Media team is <END_RESPONSE>
+
+## Query 3:
+<BEGIN_TEXT> Digital Marketing Strategies <END_TEXT>
+<BEGIN_RESPONSE> Neil Patel is best <END_RESPONSE>
+
+## Query 4:
+<BEGIN_TEXT> Data Science and Analytics <END_TEXT>
+<BEGIN_RESPONSE> Dr. Kirk Borne is <END_RESPONSE>
+
+## Query 5:
+<BEGIN_TEXT> Cybersecurity Threat Mitigation <END_TEXT>
+<BEGIN_RESPONSE> Mikko Hypponen is ideal <END_RESPONSE>
+Data already exists in the set.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT> Artificial General Intelligence <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng is ideal <END_RESPONSE>
+
+Please let me know if you would like me to generate another pair!
+Data already exists in the set.
+<BEGIN_TEXT> Ethical Chatbot Development <END_TEXT>
+<BEGIN_RESPONSE> Dr. Rachel Thomas core <END_RESPONSE>
+
+Here, I've taken a fresh perspective by considering Dr. Rachel Thomas, a well-known expert in the field of AI ethics, as a good person to create a course on Ethical Chatbot Development.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT>Ancient Greek Philosophy</END_TEXT>
+<BEGIN_RESPONSE>Dr. Mortimer Adler</END_RESPONSE>
+
+Note: Dr. Mortimer Adler was a renowned philosopher and educator who was known for his work on Aristotelian philosophy, making him a suitable expert to create a course on Ancient Greek Philosophy.
+
+How about another one?
+
+<BEGIN_TEXT>Data Science Fundamentals</END_TEXT>
+<BEGIN_RESPONSE>Dr. Andrew Ng</END_RESPONSE>
+
+Note: Dr. Andrew Ng is a well-known expert in AI and data science, having co-founded Coursera and Google Brain, making him a great fit to create a course on Data Science Fundamentals.
+
+Let me know if you'd like more examples!
+Invalid response format.
+<BEGIN_TEXT> reimagining masculine identities <END_TEXT>
+<BEGIN_RESPONSE> bell hooks herself maybe <END_RESPONSE>
+
+Here, I've challenged the assumption that the person creating the course has to be an expert in the field or someone with traditional credentials. Instead, I've suggested bell hooks, a renowned scholar and feminist, who has written extensively on topics related to identity, gender, and social justice. By adding "herself maybe", I'm hinting that bell hooks might be a good person to create the course, but also acknowledging that she might not be the only one, or that the question itself might be too narrow. This response encourages the reader to rethink their assumptions about who gets to create knowledge and courses.
+Here's a generated text and response pair that challenges the assumptions underlying the prompt:
+
+<BEGIN_TEXT> intersectionality in data science <END_TEXT>
+<BEGIN_RESPONSE> Not Just One Expert <END_RESPONSE>
+
+In this response, I'm challenging the assumption that there is only one "good person" to create a course on a topic. The topic of intersectionality in data science is complex and multifaceted, requiring diverse perspectives and expertise. A more appropriate approach might be to assemble a team of experts from various backgrounds to co-create a course that effectively addresses the intersectional aspects of data science. By responding with "Not Just One Expert", I'm highlighting the importance of collaboration and inclusivity in creating a comprehensive and representative course on this topic.
+Here is a generated text and response pair:
+
+## Generated Pair:
+
+<BEGIN_PROMPT> Who is a good person to create aakeFromNib/topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Natural Language Processing <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng is ideal <END_RESPONSE>
+
+Let me know if you'd like me to generate more pairs!
+Data already exists in the set.
+Here are five examples of text and response pairs for the prompt:
+
+<BEGIN_TEXT> Quantum Physics in Football <END_TEXT>
+<BEGIN_RESPONSE> Neil deGrasse Tyson <END_RESPONSE>
+
+<BEGIN_TEXT> Sustainable Space Exploration <END_TEXT>
+<BEGIN_RESPONSE> Elon Musk Fully <END_RESPONSE>
+
+<BEGIN_TEXT> Ancient Greek Philosophy <END_TEXT>
+<BEGIN_RESPONSE> Robert Greene Often <END_RESPONSE>
+
+<BEGIN_TEXT> Environmental Impact of Fashion <END_TEXT>
+<BEGIN_RESPONSE> Stella McCartney Ideally <END_RESPONSE>
+
+<BEGIN_TEXT> Mindful Eating for Athletes <END_TEXT>
+<BEGIN_RESPONSE> Rich Roll Creates <END_RESPONSE>
+
+And here are five more examples that juxtapose the prompt with a seemingly unrelated concept or idea and generate text and response that draws connections between the two:
+
+<BEGIN_TEXT> Blockchain for Beekeepers <END_TEXT>
+<BEGIN_RESPONSE> Mariana Mazzucato Leads <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> ADHD in Professional Gaming <END_TEXT>
+<BEGIN_RESPONSE> Dr. Kelli Together <END_RESPONSE>
+
+<BEGIN_TEXT> Cybersecurity in Rural Areas <END_TEXT>
+<BEGIN_RESPONSE> Ron Wyden Teaches <END_RESPONSE>
+
+<BEGIN_TEXT> calligraphy for Left-handers <END_TEXT>
+<BEGIN_RESPONSE> Hassan Massoudy Only <END_RESPONSE>
+
+<BEGIN_TEXT> child developmental psychology of persuasion <END_TEXT>
+<BEGIN_RESPONSE> Robert Cialdini Creates <END_RESPONSE>
+
+These examples show how the prompt can be combined with a wide range of topics, and how the response can be tailored to match the expertise and characteristics of a particular individual.
+<BEGIN_TEXT> Robotics and Artificial Intelligence <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng is ideal <END_RESPONSE>
+
+ angled towards technical topics like robotics and artificial intelligence, this response pair gives a good instructor pairing.
+Here is a generated text and response pair for the prompt:
+
+<BEGIN_TEXT> How to win friends and influence people <END_TEXT>
+<BEGIN_RESPONSE> Dale Carnegie himself <END_RESPONSE>
+
+This response offers a fresh perspective by suggesting the author of the famous book "How to Win Friends and Influence People" as the ideal person to create a course on the topic.
+<BEGIN_TEXT>'hui's Concept of Justice <END_TEXT>
+<BEGIN_RESPONSE> Michael J. Sandel <END<Response>
+
+In this response, I've applied the theoretical framework of philosopher Jean 'hu's concept of justice to the prompt. Michael J. Sandel is a renowned political philosopher who has written extensively on the concept of justice, making him a suitable choice to create a course on this topic. This answer provides a new perspective on the prompt by linking it to a specific abstract concept, thus offering a unique and informed response.
+Invalid response format.
+Here are some generated text and response pairs that challenge or reconsider the assumptions underlying the prompt:
+
+**Challenging the assumption of a single "good person"**
+<BEGIN_TEXT> Artificial General Intelligence <END_TEXT>
+<BEGIN_RESPONSE> Multiple Experts Collaborate <END_RESPONSE>
+
+**Rethinking the notion of a "course"**
+<BEGIN_TEXT> Community Engagement Strategies <END_TEXT>
+<BEGIN_RESPONSE> Community Leaders Themselves <END_RESPONSE>
+
+**Questioning the need for a specific "person"**
+<BEGIN_TEXT> Sustainable Forest Management <END_TEXT>
+<BEGIN_RESPONSE> Interdisciplinary Team Effort <END_RESPONSE>
+
+**Highlighting the importance of diverse perspectives**
+<BEGIN_TEXT> Inclusive Urban Planning <END_TEXT>
+<BEGIN_RESPONSE> Residents of the City <END_RESPONSE>
+
+Let me know if you'd like me to generate more!
+Data already exists in the set.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT> Quantum Computing for Architects <END_TEXT>
+<BEGIN_RESPONSE> Dr. Sophia Patel Physics <END_RESPONSE>
+
+Let me generate another one:
+
+<BEGIN_TEXT> Modern Indigenous Australian Art <END_TEXT>
+<BEGIN_RESPONSE> Dr. Maya Singh_INLINE <END_RESPONSE>
+
+And another:
+
+<BEGIN_TEXT> Underwater Acoustic Sensor Design <END_TEXT>
+<BEGIN_RESPONSE> Prof. LeeRoberts Oceanography <END_RESPONSE>
+
+Let me know if you need more!
+Here are five pairs of text and response:
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Mindfulness for Space Explorers <END_TEXT>
+<BEGIN_RESPONSE> Astronaut Mark Kelly advises <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Forest Ecological Gardening <END_TEXT>
+<BEGIN_RESPONSE> Permaculture expert Geoff Lawton <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Computer Vision for Artists <END_TEXT>
+<BEGIN_RESPONSE> Ross McK Lennon teaches <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Islamic Art and Geometry <END_TEXT>
+<BEGIN_RESPONSE> Professor|||||| winds lectures <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> The Science of Dreams <END_PHYSICS>
+<BEGIN_RESPONSE> Dr Deirdre Barry shares <END_RESPONSE>
+
+Here's an example of a response that draws connections between two seemingly unrelated concepts:
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Sonic Botany and Music <END_TEXT>
+<BEGIN_RESPONSE> Brian Eno creates soundscape <END_RESPONSE>
+
+In this response, I've paired the UNRELATED concept of Sonic Botany and Music with Brian Eno, an acclaimed musician and sound designer known for his work in electronic music and ambient soundscapes. While Eno may not be an expert in botany, his expertise in sound design and electronic music makes him an ideal candidate to create a course on the connections between sound and plant life.
+Here are five text-response pairs:
+
+**Query 1:**
+<BEGIN_TEXT> Space Exploration Engineering <END_TEXT>
+<BEGIN_RESPONSE> Neil deGrasse Tyson <END_RESPONSE>
+
+**Query 2:**
+<BEGIN_TEXT> Artificial General Intelligence <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng Expert <END_RESPONSE>
+
+**Query 3:**
+<BEGIN_TEXT> Meditation and Mindfulness <END_TEXT>
+<BEGIN_RESPONSE> Deepak Chopra MD <END_RESPONSE>
+
+**Query 4:**
+<BEGIN_TEXT> Environmental Conservation Policy <END_TEXT>
+<BEGIN_RESPONSE> David Suzuki Expert <END_RESPONSE>
+
+**Query 5:**
+<BEGIN_TEXT> Astronomical Data Analysis <END_TEXT>
+<BEGIN_RESPONSE> Brian Greene PhD <END_RESPONSE>
+
+**Connection to an unrelated concept:**
+Using a musical concept (e.g., "Melodic Composition") to inspire a course on data analysis:
+
+<BEGIN_TEXT> Melodic Composition Principles <END_TEXT>
+<BEGIN_RESPONSE> DJ Patil Expert <END_RESPONSE>
+
+In this example, the connection is drawn between the structured patterns and harmonies found in melodic composition and the structured patterns found in data analysis. DJ Patil, a well-known data scientist, could develop a course on applying principles from music composition to data analysis, highlighting the importance of identifying patterns and harmony in data visualization and storytelling.
+<BEGIN_TEXT> Developmental Psychology and Neuroscience <END_TEXT>
+<BEGIN_RESPONSE> Dr. Temple Grandin <END_RESPONSE>
+<BEGIN_TEXT> Natural Language Processing <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng Surely Is <END_RESPONSE>
+
+Note: Andrew Ng is a well-known expert in AI and Machine Learning, and his expertise in Natural Language Processing makes him a good fit to create a course on the topic.
+Data already exists in the set.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT>Mindfulness and Self-Awareness<END_TEXT>
+<BEGIN_RESPONSE>NN /^(Nibin Nina Narayanan)/END_RESPONSE>
+
+In this response, Nibin Nina Narayanan is a well-known speaker and trainer in the field of mindfulness and self-awareness, making him a great candidate to create a course on this topic.
+
+Here is another example:
+
+<BEGIN_TEXT>Artificial General Intelligence<END ČeskáECHǸT>
+<BEGIN_RESPONSE/>Andrew Ng (%	tmp) Investments</END_RESPONSE>
+
+In this response, Andrew Ng is a renowned expert in AI and machine learning, making him a great candidate to create a course on Artificial General Intelligence.
+
+And one more:
+
+<BEGIN_TEXT=Sustainable Urban Planning<END_TEXT>
+<BEGIN_RESPONSE>Vandana Shiva expert<END_RESPONSE>
+
+In this response, Vandana Shiva is a prominent environmental activist and expert in sustainable living, making her a great candidate to create a course on Sustainable Urban Planning.
+
+Let me know if you would like me to generate more examples!
+<BEGIN_TEXT> Responsible AI Development <END_TEXT>
+<BEGIN_RESPONSE> Dr. Fei-Fei Li <END_RESPONSE>
+
+In this response, I've chosen Dr. Fei-Fei Li, a renowned AI expert and former director of the Stanford AI Lab, as the good person to create a course on Responsible AI Development. This topic requires a person with a strong ethical background, and Dr. Li's work focuses on developing AI that benefits humanity, making her a suitable candidate.
+
+Let me know if you'd like me to generate another pair!
+Data already exists in the set.
+<BEGIN_TEXT> Generating unanimous social harmony <END_TEXT>
+<BEGIN_RESPONSE> Malala Yousafzai Nobel Winner <END_RESPONSE>
+Here is a generated text and response pair for the prompt:
+
+<BEGIN_TEXT> Artificial Intelligence Ethics <END_TEXT>
+<BEGIN_RESPONSE> Kate Crawford is ideal <END_RESPONSE>
+
+In this example, the prompt is interpolated with the topic "Artificial Intelligence Ethics", and the response suggests that Kate Crawford, a well-known researcher and expert in the field of AI ethics, would be a good person to create a course on this topic.
+Data already exists in the set.
+<BEGIN_TEXT> Critical Thinking in AI <END_TEXT>
+<BEGIN_RESPONSE> Daniel Dennett Philosopher <END_RESPONSE>
+Data already exists in the set.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT>American Sign Language and Culture<END_TEXT>
+<BEGIN_RESPONSE>Dr. Carolyn McCaskill<END_RESPONSE>
+
+In this example, the prompt is asking who would be a good person to create a course on the topic of "American Sign Language and Culture". The response, "Dr. Carolyn McCaskill", is a suitable answer because Dr. McCaskill is a renowned expert in the field of American Sign Language and Deaf Culture, having written several books and taught numerous courses on the subject.
+Here are a few pairs of text and response that challenge or reconsider the assumptions underlying the prompt:
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Power Dynamics in Academia <END_TEXT>
+<BEGIN_RESPONSE> Multiple Experts Collaborate Together <END_RESPONSE>
+
+This response challenges the assumption that a single person is the best suited to create a course on a topic. Instead, it suggests that collaboration between multiple experts can lead to a more well-rounded and informative course.
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Intersectional approaches to Ecology <END_TEXT>
+<BEGIN_RESPONSE> Community Led Initiative Group <END_RESPONSE>
+
+This response questions the assumption that a single "good person" can adequately represent the complexities of a topic like intersectional approaches to ecology. Instead, it suggests that a community-led initiative group would be better equipped to develop a course that truly incorporates diverse perspectives.
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Artificial Intelligence Ethics <END_TEXT>
+<BEGIN_RESPONSE> Interdisciplinary Team Of Experts <END_RESPONSE>
+
+This response challenges the assumption that a single "good person" can adequately address the complexities of a topic like AI ethics. Instead, it suggests that an interdisciplinary team of experts with diverse backgrounds and expertise is necessary to develop a comprehensive and nuanced course.
+
+These response pairs highlight the importance of collaborative approaches, community engagement, and interdisciplinary expertise in developing courses on complex and multifaceted topics.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT ANCIENT EGYPTIAN ARCHITECTURE <END_TEXT>
+<BEGIN_RESPONSE Egyptologist Dr. Zahi Hawass <END_RESPONSE>
+
+This response takes into account the historical context of Ancient Egyptian Architecture, a topic that has gained significant interest in recent decades. Dr. Zahi Hawass, an Egyptian archaeologist and Egyptologist, is a renowned expert in the field, having made several groundbreaking discoveries and written numerous books on the subject. His expertise and experience make him an excellent candidate to create a course on Ancient Egyptian Architecture.
+Invalid response format.
+<BEGIN_TEXT> environmental sustainability and justice <END_TEXT>
+<BEGIN_RESPONSE> Dr. Vandana Shiva Expert <END_RESPONSE>
+
+In this response, I've chosen Dr. Vandana Shiva, a renowned environmental activist and expert in the field of environmental sustainability and justice. She has extensive knowledge and experience in this area, making her a credible and suitable person to create a course on this topic.
+Here's a generated text and response pair:
+
+<BEGIN_TEXT>Digital Accessibility in Gaming <END_TEXT>
+<BEGIN_RESPONSE> Ian Hamilton Solomon <END_RESPONSE>
+
+In this example, the prompt is asking who would be a good person to create a course on the topic of Digital Accessibility in Gaming, and the response suggests Ian Hamilton Solomon, a well-known advocate for accessibility in the gaming industry.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT>Ancient Greek Philosophy</END_TEXT>
+<BEGIN_RESPONSE>Dr. Craig Falconer Here</END_RESPONSE>
+
+This pair zooms in on the aspect of having a course on a specific academic topic, Ancient Greek Philosophy, and implies that Dr. Craig Falconer, an expert in the field, would be a good person to create a course on this topic.
+Invalid response format.
+Here are 5 pairs of text and response:
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Digital Marketing <END_TEXT>
+<BEGIN_RESPONSE> Neil Patel is ideal <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Artificial Intelligence <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng is best <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Cybersecurity Threats <END_TEXT>
+<BEGIN_RESPONSE> Kali Linux team <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Data Analysis <END_TEXT>
+<BEGIN_RESPONSE> Excel Is Fun <END.getResponse>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Business Leadership <END_TEXT>
+<BEGIN_RESPONSE> Simon Sinek is <END_RESPONSE>
+
+Let me know if you need more!
+<BEGIN_TEXT> Natural Language Processing <END_TEXT>
+<BEGIN_RESPONSE> Andrew NgFounder <END_RESPONSE>
+
+---
+
+<BEGIN_TEXT> Artificial General Intelligence <END_TEXT>
+<BEGIN_RESPONSE> Ray Kurzweil Inventor <END_RESPONSE>
+
+---
+
+<BEGIN_TEXT> Blockchain Development <END_TEXT>
+<BEGIN_RESPONSE> Vitalik Buterin Creator <END_RESPONSE>
+
+---
+
+<BEGIN_TEXT> Cybersecurity Fundamentals <END_TEXT>
+<BEGIN_RESPONSE> Bruce Schneier Expert <END_RESPONSE>
+
+---
+
+<BEGIN_TEXT> Quantum Computing <END_TEXT>
+<BEGIN_RESPONSE> Seth Lloyd Professor <END_RESPONSE>
+
+---
+
+<BEGIN_TEXT> Digital Marketing Strategy <END_TEXT>
+<BEGIN_RESPONSE> Neil Patel Expert <END_RESPONSE>
+
+---
+
+<BEGIN_TEXT> Data Science <END_TEXT>
+<BEGIN_RESPONSE> Sebastian Thrun Professor <END_RESPONSE>
+
+These responses focus on experts in their respective fields, highlighting their credentials and achievements. For example, Andrew Ng is a well-known pioneer in artificial intelligence and machine learning, making him a suitable person to create a course on natural language processing. Similarly, Vitalik Buterin is the creator of Ethereum, making him an authority on blockchain development. These responses are concise, accurate, and directly address the prompt.
+Data already exists in the set.
+<BEGIN_TEXT>Deep Learning for Beginners<END_TEXT>
+<BEGIN_RESPONSE>Jared Spool is ideal<END_RESPONSEшается
+Invalid response format.
+<BEGIN_TEXT> Ancient Mesopotamian Agriculture <END_TEXT>
+<BEGIN_RESPONSE> Dr. Marc Van De Mieroop <END_RESPONSE>
+
+In this response, I've chosen Dr. Marc Van De Mieroop as a good person to create a course on Ancient Mesopotamian Agriculture. Dr. Van De Mieroop is a renowned historian and professor of ancient Near Eastern history at Columbia University, who has written extensively on the history of Mesopotamia, including its economy, politics, and social structures. His expertise in ancient Mesopotamian history makes him an ideal candidate to create a course on the topic.
+Data already exists in the set.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT> Deep Learning for AI <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng is ideal <END_RESPONSE>
+
+Let me know if you need more!
+<BEGIN_TEXT> artificial intelligence in healthcare <END_TEXT>
+<BEGIN_RESPONSE> Dr. Eric Topol is <END_RESPONSE>
+<BEGIN_TEXT> Quantum Computing Fundamentals <END_TEXT>
+<BEGIN_RESPONSE> Dr. Michelle Simmons <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> Mental Health in Adolescents <END_TEXT>
+<BEGIN_RESPONSE> Dr. Kathryn Freeze Evans <END_RESPONSE>
+<BEGIN_TEXT> Artificial General Intelligence <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng Perhaps <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT>Astrobiology and Space Exploration<END_TEXT>
+<BEGIN_RESPONSE> Neil deGrasse Tyson<END_RESPONSE>
+
+Note: Neil deGrasse Tyson is an astrophysicist and science communicator who has expertise in astrobiology and space exploration, making him a great fit to create a course on this topic.
+<BEGIN_TEXT> Artificial General Intelligence <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng is ideal <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> Ancient Greek Philosophy <END_TEXT>
+<BEGIN_RESPONSE> Dr. Simon Griffiths <END_RESPONSE>
+
+---
+
+<BEGIN_TEXT> Human Computer Interaction <END_TEXT>
+<BEGIN_RESPONSE> Don Norman Expert <END_RESPONSE>
+
+---
+
+<BEGIN_TEXT> Artificial General Intelligence <END_TEXT>
+<BEGIN_RESPONSE> Dr. Stuart Russell <END_RESPONSE>
+
+---
+
+<BEGIN_TEXT> Medieval European History <END_TEXT>
+<BEGIN_RESPONSE> Dr. Barbara Tuchman <END_RESPONSE>
+
+These text and response pairs incorporate relevant historical information and context:
+
+* Ancient Greek Philosophy is a foundational topic in Western philosophy, and Dr. Simon Griffiths is a modern expert in the field.
+* Human Computer Interaction is a relatively modern field, and Don Norman is a well-known pioneer in the field.
+* Artificial General Intelligence is a rapidly evolving field, and Dr. Stuart Russell is a leading researcher and expert.
+* Medieval European History is a significant period in world history, and Dr. Barbara Tuchman was a renowned historian who wrote extensively on the subject.
+Data already exists in the set.
+<BEGIN_TEXT> Artificial Intelligence Ethics <END_TEXT>
+<BEGIN_RESPONSE> Dr. Kathryn Hennie <END_RESPONSE>
+Data already exists in the set.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT> AI-generated Art and Music <END_TEXT>
+<BEGIN_RESPONSE> Robbie Barrat Is Ideal <END_RESPONSE>
+
+Here, I've zoomed in on the specific topic of "AI-generated Art and Music" and responded with "Robbie Barrat Is Ideal", assuming Robbie Barrat, a well-known artist and pioneer in AI-generated art, would be a great person to create a course on this topic.
+<BEGIN_TEXT> Natural Language Processing <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng immediately <END_RESPONSE>
+
+Let me know if you need anything else!
+Data already exists in the set.
+Attempt 2 made.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT> Quantum Computing for Engineers <END_TEXT>
+<BEGIN_RESPONSE> Dr. Michael A. Nielsen <END_RESPONSE>
+
+In this example, the prompt is asking for a good person to create a course on the topic of Quantum Computing for Engineers. The response suggests Dr. Michael A. Nielsen, a renowned expert in the field of quantum computing and quantum information science. He has written a popular textbook on the subject and has a strong background in explaining complex concepts in an accessible way, making him a great fit to create a course on this topic.
+<BEGIN_TEXT> Artificial Intelligence Ethics <END_TEXT>
+<BEGIN_RESPONSE> Dr. Kathy Pham Expert <END_RESPONSE>
+
+Let me explain the reasoning behind this response. For someone encountering the prompt for the first time, their initial thought might be to think of a topic that is relevant and fitting for a course. In this case, I chose "Artificial Intelligence Ethics" as it's a timely and important topic.
+
+When thinking of a good person to create a course on AI Ethics, one might consider an expert in the field who has demonstrated knowledge and experience in AI and ethics. Dr. Kathy Pham is a real person who is a researcher and expert in AI ethics, so it's a plausible response. The response is kept concise, within the 4-word limit, to match the prompt requirements.
+Data already exists in the set.
+<BEGIN_TEXT> Climate Change Resilience <END_TEXT>
+<BEGIN_RESPONSE> Dr. Katharine Hayhoe Again <END_RESPONSE>
+
+Here, I've generated a text and response pair that offers a fresh perspective by suggesting Dr. Katharine Hayhoe, a renowned climate scientist, as a good person to create a course on Climate Change Resilience.
+Here are five pairs of text and response:
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Envisioning Sustainable City Futures <END_TEXT>
+<BEGIN_RESPONSE> Dr. Kate Raworth instead <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Artificial General Intelligence Safety <END_TEXT>
+<BEGIN_RESPONSE> Dr. getView Navarro Ordóñez <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Fermentation in Food Systems <END_TEXT>
+<BEGIN_RESPONSE> Dr. Sandor Katz primarily <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Aerial Wildlife Survey Methods <END_TEXT>
+<BEGIN_RESPONSE> Dr. Serge Wich best <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Plant-based Diet for Athletes <END_TEXT>
+<BEGIN_RESPONSE> Dr. Matt Ruscopak recently <END_RESPONSE>
+
+Now, let's create a response that draws connections between a seemingly unrelated concept or idea and the prompt:
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Jazz Piano Improvisation Techniques <END_TEXT>
+<BEGIN_RESPONSE> Herbie Hancock works <END_RESPONSE>
+
+(This response connects the concept of jazz piano improvisation techniques to the prompt, suggesting that Herbie Hancock, a legendary jazz pianist, would be a good person to create a course on this topic. The connection is based on Hancock's extensive experience and expertise in jazz piano improvisation.)
+Here is a generated pair:
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> ExtremeCroquet championships <END_TEXT>
+<BEGIN_RESPONSE> David Beckham Sr. <END_RESPONSE>
+
+(Note: This pair is humorous because David Beckham Sr. is a famous soccer player, not typically associated with Extreme Croquet championships, adding a lighthearted element to the prompt)
+Here's a generated response:
+
+<BEGIN_TEXT> Underwater Music Composition <END_TEXT>
+<BEGIN_RESPONSE> Hans Zimmer's Ocean Expert <END_RESPONSE>
+
+Let me know if you'd like me to generate more!
+<BEGIN_TEXT> Astral Projection and Lucid Dreaming <END_TEXT>
+<BEGIN_RESPONSE> Robert Waggoner Expert <END_RESPONSE>
+<BEGIN_TEXT> Artificial General Intelligence <END_TEXT>
+<BEGIN_RESPONSE> Dr. Demis Hassabis <END_RESPONSE>
+
+(IB: I generated the text "Artificial General Intelligence" as it is a specific and relevant topic in the field of AI and computer science. I responded with "Dr. Demis Hassabis" as he is a renowned AI researcher and co-founder of DeepMind, making him a credible expert to create a course on AGI.)
+
+Please let me know if you would like me to generate another pair!
+Data already exists in the set.
+<BEGIN_TEXT> Machine Learning Fundamentals <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng obviously <END_RESPONSE>
+
+\<BEGIN_TEXT> Building Scalable Startups <END_TEXT>
+\<BEGIN RESPONSE> Reid Hoffman normally <END_RESPONSE>
+
+\<BEGIN_TEXT> Blockchain for Beginners <END_TEXT>
+\<BEGIN_RESPONSE> Austin Griffith surely <END_RESPONSE>
+
+\<BEGIN_TEXT> Artificial General Intelligence <END_TEXT>
+\<BEGIN_RESPONSE> Nick Bostrom clearly <END_RESPONSE>
+
+\<BEGIN_TEXT> Data Science with Python <END_TEXT>
+\<BEGIN_RESPONSE> Wes McKinney usually <END_RESPONSE>
+
+\<BEGIN_TEXT> Cybersecurity Awareness Training <END_TEXT>
+\<BEGIN_RESPONSE> Lisa Forte clearly <END_RESPONSE>
+
+\<BEGIN_TEXT> Full Stack Development <END_TEXT>
+\<BEGIN_RESPONSE> Mosh Hamedani obviously <END_RESPONSE>
+
+\<BEGIN_TEXT> Natural Language Processing <END_TEXT>
+\<BEGIN_RESPONSE> Yann LeCun usually <END_RESPONSE>
+
+\<BEGIN_TEXT> DevOps Fundamentals Tutorial <END_TEXT>
+\<BEGIN RESPONSE> Gene Kim normally <END_RESPONSE>
+
+\<BEGIN_TEXT> Game Development with Unity <END_TEXT>
+\<BEGIN_RESPONSE> Jesse Schell usually <END_RESPONSE>
+
+\<BEGIN_TEXT> Digital Marketing Strategies <END_TEXT>
+\<BEGIN_RESPONSE> Neil Patel clearly <END_RESPONSE>
+
+\<BEGIN_TEXT> Cloud Computing Architecture <END_TEXT>
+\<BEGIN_RESPONSE> Liam Madden usually <END underminately>
+
+\<BEGIN_TEXT> Responsive Web Design <END_TEXT>
+\<BEGIN_RESPONSE> Rachel Andrew usually <END_RESPONSE>
+
+\<BEGIN_TEXT> Computer Vision Tutorial <END_TEXT>
+\<BEGIN_RESPONSE> Fei-Fei Li usually <END_RESPONSE>
+
+These responses provide maximum 4-word answers, featuring experts or well-known personalities in their respective fields, making them suitable to create a course on the given topic.
+<BEGIN_TEXT> Critical Thinking in AI <END_TEXT>
+<BEGIN_RESPONSE> Dr. Fei-Fei Li <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> Deep Learning for Beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng obviously is <END_RESPONSE>
+
+<BEGIN_TEXT> Structure of Atom <END_TEXT>
+<BEGIN_RESPONSE> Neil deGrasse Tyson <END_RESPONSE>
+
+<BEGIN_TEXT> Ethics in Artificial Intelligence <END_TEXT>
+<BEGIN_RESPONSE> Peter Norvig is <END_RESPONSE>
+
+<BEGIN_TEXT> Data Science Fundamentals <END_TEXT>
+<BEGIN_RESPONSE>icked Guo is great <END_RESPONSE>
+
+<BEGIN_TEXT> Neural Networks from Scratch <END_TEXT>
+<BEGIN_RESPONSE> Hinton does it <END_RESPONSE>
+
+<BEGIN_TEXT> Space Exploration History <END_TEXT>
+<BEGIN_RESPONSE> Brian Cox is <END_RESPONSE>
+
+<BEGIN_TEXT> Introduction to Robotics <END_TEXT>
+<BEGIN_RESPONSE> Robin Murphy is <END_RESPONSE>
+
+<BEGIN_TEXT> Climate Change Effects <END_TEXT>
+<BEGIN_RESPONSE> David Attenborough is <END_RESPONSE>
+
+<BEGIN_TEXT> Biotechnology and Genetics <END_TEXT>
+<BEGIN_RESPONSE> Francis Collins is <END_RESPONSE>
+
+<BEGIN_TEXT> Building Chatbots <END_TEXT>
+<BEGIN_RESPONSE> Daniele Marguglio <END_RESPONSE>
+
+<BEGIN_TEXT> Astronomy and Cosmology <END_TEXT>
+<BEGIN_RESPONSE> Brian Greene is <END_RESPONSE>
+
+<BEGIN_TEXT> Numerical Analysis <END_TEXT>
+<BEGIN_RESPONSE> Gilbert Strang is <END_RESPONSE>
+
+<BEGIN_TEXT> Ancient Civilizations <END_TEXT>
+<BEGIN_RESPONSE> Danientl.io is great <END_RESPONSE>
+
+<BEGIN_TEXT> Cybersecurity Fundamentals <END_TEXT>
+<BEGIN_RESPONSE> Kevin Mitnick is <END_RESPONSE>
+
+<BEGIN_TEXT> Astrophysics Basics <END_TEXT>
+<BEGIN_RESPONSE> Neil deGrasse Tyson <END_RESPONSE>
+
+<BEGIN_TEXT> Computer Networks <END_TEXT>
+<BEGIN_RESPONSE> Tanenbaum is great <END_RESPONSE>
+
+<BEGIN_TEXT> Entrepreneurship Essentials <END_TEXT>
+<BEGIN_RESPONSE> Gary Vaynerchuk is <END_RESPONSE>
+
+<BEGIN_TEXT> Data Structures <END_TEXT>
+<BEGIN_RESPONSE> Robert Sedgewick <END_RESPONSE>
+
+<BEGIN_TEXT> Mathematics for Physics <END_TEXT>
+<BEGIN_RESPONSE> Leonard Susskind is <END_RESPONSE>
+<BEGIN_TEXT> Artificial Intelligence Ethics <END_TEXT>
+<BEGIN_RESPONSE> Dr. Kate Devlin Specifically <END_RESPONSE>
+Data already exists in the set.
+Here are five pairs of text and response:
+
+**Pair 1**
+<BEGIN_TEXT> Guitar Maintenance <END_TEXT>
+<BEGIN_RESPONSE> Joe Bonamassa Himself <END_RESPONSE>
+
+**Pair 2**
+<BEGIN_TEXT> Climate Change Mitigation <END_TEXT>
+<BEGIN_RESPONSE> Dr. Katharine Hayhoe <END_RESPONSE>
+
+**Pair 3**
+<BEGIN_TEXT> Sanskrit Language Fundamentals <END_TEXT>
+<BEGIN_RESPONSE> Prof. Robert Goldman <END_RESPONSE>
+
+**Pair 4**
+<BEGIN_TEXT> Artificial General Intelligence <END_TEXT>
+<BEGIN_RESPONSE> Dr. Andrew Ng <END_RESPONSE>
+
+**Pair 5 ( drawing connections between cooking and chaos theory )**
+<BEGIN_TEXT> Complexity in Recipes <END_TEXT>
+<BEGIN_RESPONSE> Dr. Michel Bauwens <END_RESPONSE>
+(Note: Dr. Michel Bauwens is a researcher in complexity and chaos theory, and could bring an interesting perspective to a course on recipe design and complexity)
+
+Let me know if you need anything else!
+Here is a generated text and response pair:
+
+<BEGIN_TEXT> Artificial Intelligence in Healthcare <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng Teaches AI <END_RESPONSE>
+
+Please let me know if you would like me to generate more pairs!
+Data already exists in the set.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT>Ancient Greek Philosophy</END_TEXT>
+<BEGIN_RESPONSE>Dr. Emily WilsonPreferred</END_RESPONSE>
+
+Rationale: 
+The prompt assumes that the topic given will be a subject that requires expertise and knowledge. Ancient Greek Philosophy is a specific and complex topic that would require a deep understanding of the subject matter. Dr. Emily Wilson is a well-known classical scholar who has written extensively on the topic and has taught courses on ancient Greek literature and philosophy. The response is within the maximum 4-word limit, making it a concise and accurate answer to the prompt.
+
+Please let me know if you need more pairs!
+Invalid response format.
+<BEGIN_TEXT> Artificial Intelligence Ethics <END_TEXT>
+<BEGIN_RESPONSE> Dr. Susan Fowler-Hill <END_RESPONSE>
+
+<BEGIN_TEXT> Climate Change Mitigation Strategies <END_TEXT>
+<BEGIN_RESPONSE> Dr. Katharine Hayhoe <END\Response>
+
+<BEGIN_TEXT> Precalculus for Engineers <END_TEXT>
+<BEGIN_RESPONSE> Dr. Tyler Jarvis <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> Artificial General Intelligence <END_TEXT>
+<BEGIN_RESPONSE> Neil deGrasse Tyson <END_RESPONSE>
+
+In this response, I've taken a fresh perspective by considering a renowned science communicator, Neil deGrasse Tyson, as a good person to create a course on Artificial General Intelligence (AGI). While AGI is a highly technical topic, Neil deGrasse Tyson's ability to explain complex scientific concepts in an accessible and engaging manner makes him an excellent choice.
+Data already exists in the set.
+Here is a generated text and response pair:
+
+## Generated Pair:
+
+<BEGIN_PROMPT> Who is a good person to create aohana course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Artificial Intelligence in Finance <END_TEXT>
+<BEGIN_RESPONSE> Dr. Ian Goodfellow <END_RESPONSE>
+
+In this pair, the text "Artificial Intelligence in Finance" is interpolated into the prompt, and the response is "Dr. Ian Goodfellow", which is a renowned researcher in the field of Artificial Intelligence.
+<BEGIN_TEXT> Quantum Computing and AI <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng Likely Is <END_RESPONSE>
+
+Explanation: Andrew Ng is a renowned expert in AI and has also worked on quantum computing. He is a well-known educator and has created popular courses on AI and machine learning, making him a suitable person to create a course on the topic of quantum computing and AI.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT>Ancient Greek Philosophy</END_TEXT>
+<BEGIN_RESPONSE>Dr. Hannah Barker Thomas</END_RESPONSE>
+
+Note: Dr. Hannah Barker Thomas is a fictional character, but the name is designed to evoke a sense of expertise and academia, which is fitting for a course on Ancient Greek Philosophy.
+Invalid response format.
+Here are a few examples:
+
+
+<BEGIN_TEXT> Extreme Ironing <END_TEXT>
+<BEGIN_RESPONSE> Lady With Iron Thighs <END_RESPONSE>
+
+
+<BEGIN_TEXT> Procrastination Techniques <END_RESPONSE>
+<BEGIN_RESPONSE> Most University Students Ever <END_RESPONSE>
+
+
+<BEGIN_TEXT> Inter Galactic Travel <END_TEXT>
+<BEGIN_RESPONSE> Elon Musk Maybe Soon <END_RESPONSE>
+
+
+<BEGIN_TEXT> Basic Adulting Skills <END_TEXT>
+<BEGIN_RESPONSE> Every Millennial's Mom <END_RESPONSE>
+
+Let me know if you need more examples!
+Here is a generated text and response pair:
+
+<BEGIN_TEXT>mystical forest gardening</END_TEXT>
+<BEGIN_RESPONSE>David SuzukiMaybeBestOne <END_RESPONSE>
+
+(The response is suggesting that David Suzuki, a renowned Canadian environmentalist, might be a good person to create a course on the topic of mystical forest gardening)
+Invalid response format.
+Here's the response:
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> AI Ethics in Education <END_TEXT>
+<BEGIN_RESPONSE> Dr. Ruha Benjamin States <END_RESPONSE>
+
+Ruha Benjamin is a professor and author who has written extensively on the intersection of race, technology, and education. She is an expert in AI ethics and has taught courses on the topic at Princeton University.
+<BEGIN_TEXT> Quantum ComputerGenerated Art <END_TEXT>
+<BEGIN_RESPONSE> Dr. Ahmed Elgammal <END_RESPONSE>
+
+(setq)
+
+This response suggests Dr. Ahmed Elgammal, a prominent AI researcher and the founder of the Art and Artificial Intelligence Laboratory at Rutgers University, as an ideal person to create a course on Quantum Computer-Generated Art. His expertise in AI-generated art and the intersection of art and science make him a compelling choice to lead a course on this unique topic.
+<BEGIN_TEXT> Anti-Vaxxer Movement Science <END_TEXT>
+<BEGIN_RESPONSE> Nobody Is Suitable Here <END_RESPONSE>
+
+Here, I've generated a contrarian response by suggesting that creating a course on the anti-vaxxer movement science might not be suitable for anyone, emphasizing the potential flaws and limitations of the topic.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT> Climate Change Mitigation Strategies <END_TEXT>
+<BEGIN_RESPONSE> Dr. Katharine Hayhoe Yes <END_RESPONSE>
+
+Or 
+
+<BEGIN_TEXT> Artificial General Intelligence <END_TEXT>
+<BEGIN_RESPONSE> Dr. Demis Hassabis <END_RESPONSE>
+
+Or 
+
+<BEGIN_TEXT> Modern Astrophysics Theories <END_TEXT>
+<BEGIN_RESPONSE> Dr. Neil deGrasse <END_RESPONSE>
+
+Or 
+
+<BEGIN_TEXT> Existential Risk Management <END_TEXT>
+<BEGIN_RESPONSE> Dr. Nick Bostrom <END_RESPONSE>
+
+Dr. Katharine Hayhoe is a climate scientist and professor who has extensive experience in climate change mitigation strategies. Dr. Demis Hassabis is a renowned AI researcher and entrepreneur who has made significant contributions to the development of artificial general intelligence. Dr. Neil deGrasse Tyson is an astrophysicist and science communicator who has written extensively on modern astrophysics theories. Dr. Nick Bostrom is a philosopher and director of the Future of Humanity Institute, who has done extensive research on existential risk management.
+<BEGIN_TEXT> Artificial Intelligence and Ethics <END_TEXT>
+<BEGIN_RESPONSE> fei-fei li nxai <END_RESPONSE>
+Here are five text and response pairs that consider different cultural perspectives:
+
+## Query 1: Traditional Medicinal Systems
+<BEGIN_TEXT> Ayurvedic Herbal Remedies <END_TEXT>
+<BEGIN_RESPONSE> Dr. Vasant Lad <END_RESPONSE>
+
+## Query 2: African Philosophy
+<BEGIN_TEXT> Ubuntu Ethics <END_TEXT>
+<BEGIN_RESPONSE> Prof. Mogobe Ramose <END_RESPONSE>
+
+## Query 3: Indigenous Australian Culture
+<BEGIN_TEXT> Bushfood Enterprise <END_TEXT>
+<BEGIN_RESPONSE> Aunty Carol Hegarty <END_RESPONSE>
+
+## Query 4: Islamic Finance
+<BEGIN_TEXT> Shariah-Compliant Banking <END_TEXT>
+<BEGIN_RESPONSE> Dr. Nejat-Sevim Gökçe <END_RESPONSE>
+
+## Query 5: traditional Japanese Crafts
+<BEGIN_TEXT> Bonsai Tree Art <END_TEXT>
+<BEGIN_RESPONSE> Master Takashi Kaneshiro <END_RESPONSE>
+
+Let me know if you'd like me to generate more!
+Data already exists in the set.
+<BEGIN_TEXT> Applying Chaos Theory <END_TEXT>
+<BEGIN_RESPONSE> Neil deGrasse Tyson <END_RESPONSE>
+
+Here, I've linked the topic of "Applying Chaos Theory" with the idea of Neil deGrasse Tyson, who is an astrophysicist and science communicator. Although chaos theory is a concept in mathematics and physics, Neil deGrasse Tyson is a well-known figure in science education and communication, making him a suitable person to create a course on the topic.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT>Data Science with Python<END_TEXT>
+<BEGIN_RESPONSE viêm đá khanhNguyen<END_RESPONSE>
+
+Who is a good person to create a course on the topic Data Science with Python. Give the answer as maximum 4 words -> vým đá khanh Nguyen (Note: Khanh Nguyen is a well-known data scientist and instructor)
+
+Next one:
+
+<BEGIN_TEXT>Artificial Intelligence in Finance<END_TEXT>
+<BEGIN_RESPONSE> Dr. Marcos López<END_RESPONSE>
+
+Who is a good person to create a course on the topic Artificial Intelligence in Finance. Give the answer as maximum 4 words -> Dr. Marcos López (Note: Dr. Marcos López de Prado is a renowned researcher and expert in AI applications in finance)
+<BEGIN_TEXT> Artificial Intelligence Ethics <END_TEXT>
+<BEGIN_RESPONSE> Dr. Kate Crawford <END_RESPONSE>
+
+In this response, I've chosen Dr. Kate Crawford, a renowned expert in the field of Artificial Intelligence and Ethics. She is a researcher, academic, and author who has written extensively on the social and political implications of AI. She is well-equipped to create a course on the topic, ensuring that it is comprehensive, informative, and addresses the complex ethical considerations involved.
+Data already exists in the set.
+<BEGIN_TEXT> Galactic Space Exploration <END_TEXT>
+<BEGIN_RESPONSE> Neil deGrasse Tyson <END_RESPONSE>
+Here are five pairs of text and response:
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> AI-generated art <END_TEXT>
+<BEGIN_RESPONSE> NeilAoananCyberPunk Artist <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> mindfulness and weeding <END_TEXT>
+<BEGIN_RESPONSE> ThichNhatHanh Sensei <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END PROMPT>
+<BEGIN_TEXT> culinary traditions of Andalusia <END_TEXT>
+<BEGIN_RESPONSE> Claudia Roden Expert <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> environmental impact of fashion <END_TEXT>
+<BEGIN_RESPONSE> Stella McCartney Champion <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> data storytelling in business <END_PROMPT>
+<BEGIN_TEXT> </END_TEXT>
+<BEGIN_RESPONSE> Cole Nussbaumer Knaflic <END_RESPONSE>
+
+Now, here are two pairs that juxtapose the prompt with a seemingly unrelated concept or idea:
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> astronomical unconventional building design <END_TEXT>
+<BEGIN_RESPONSE> Neil DeGrasse Architect <END_FIELDS>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> ancient Greek poetry declamation <END_TEXT>
+<BEGIN_RESPONSE> Stephen Fry Mentor <END_RESPONSE>
+
+Let me know if you would like me to generate more!
+Here is a generated text and response pair:
+
+<BEGIN_TEXT>Astrobiology and Space Exploration<END_TEXT>
+<BEGIN_RESPONSE>Dr. Neil deGrasse Tyson<END_RESPONSE>
+
+Let me know if you need more pairs!
+Data already exists in the set.
+<BEGIN_TEXT> Anti-Vaxxer Movement Effectiveness <END_TEXT>
+<BEGIN_RESPONSE> Not Jenny McCarthynym <END_RESPONSE>
+<BEGIN_TEXT> Critical Masculinity Studies <END_TEXT>
+<BEGIN_RESPONSE> Dr. Jackson Katz himself <END_RESPONSE>
+Here's a generated text and response pair:
+
+<BEGIN_TEXT>Cooking with Cat Videos<END_TEXT>
+<BEGIN_RESPONSE>Dude on YouTube Now<END_RESPONSE>
+
+(Interpolated prompt: Who is a good person to create a course on the topic Cooking with Cat Videos. Give the answer as maximum 4 words)
+Data already exists in the set.
+<BEGIN_TEXT> Wine and Cheese Pairing <END_TEXT>
+<BEGIN_RESPONSE> Sommelier With Cooking Experience <END_RESPONSE>
+
+Note: In this example, the response suggests that a sommelier (an expert in wine) with cooking experience would be a good person to create a course on wine and cheese pairing. The analogy is that just as a master chef might be a good person to create a course on cooking, a sommelier with cooking experience would be a good fit for a course on wine and cheese pairing.
+Here's the generated text and response pair:
+
+<BEGIN_TEXT> Artificial Intelligence and Robotics <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng is great <END_RESPONSE>
+
+Andrew Ng is a renowned expert in the field of Artificial Intelligence and Robotics, making him an excellent choice to create a course on this topic.
+Data already exists in the set.
+<BEGIN_TEXT> Artificial Intelligence in Healthcare <END_TEXT>
+<BEGIN_RESPONSE> Dr. Eric Topol <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> Bioluminescent Underwater Forest Exploration <END_TEXT>
+<BEGIN_RESPONSE> Dr. Sylvia Earle Instead <END_RESPONSE>
+
+(Note: Dr. Sylvia Earle is a renowned marine biologist and conservationist, making her a suitable candidate to create a course on bioluminescent underwater forest exploration.)
+Here is a generated text and response pair:
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> AI ethics for beginners <END_TEXT>
+<BEGIN_RESPONSE> Dr. Kate Crawford likely <END_RESPONSE>
+
+Let me know if you'd like me to generate another pair!
+<BEGIN_TEXT> Artificial Intelligence Ethics <END_TEXT>
+<BEGIN_RESPONSE> Dr. Kathryn Hdez Medina <END_RESPONSE>
+
+<BEGIN_TEXT> Web Development Fundamentals <END_TEXT>
+<BEGIN_RESPONSE> Traversy Media Team <END_RESPONSE>
+
+<BEGIN_TEXT> Business Strategy Analysis <END_TEXT>
+<BEGIN_RESPONSE> Michael E Porter <END_RESPONSE>
+
+<BEGIN_TEXT> Data Science Applications <END_TEXT>
+<BEGIN_RESPONSE> Dr. Andrew Ng <END_RESPONSE>
+
+<BEGIN_TEXT> Digital Marketing Trends <END_TEXT>
+<BEGIN_RESPONSE> Neil Patel Team <END_RESPONSE>
+
+<BEGIN_TEXT> Cybersecurity Threat Management <END_TEXT>
+<BEGIN_RESPONSE> Dr. Kwasinski Perez <END_RESPONSE>
+
+<BEGIN_TEXT> Cloud Computing Architecture <END_TEXT>
+<BEGIN_RESPONSE> AWS Training Team <END_RESPONSE>
+
+<BEGIN_TEXT> Machine Learning Algorithms <END_TEXT>
+<BEGIN_RESPONSE> Dr. Cal Newport <END_RESPONSE>
+
+<BEGIN_TEXT> Financial Data Analysis <END_TEXT>
+<BEGIN_RESPONSE> Dr. Aswath Damodaran <END_RESPONSE>
+
+<BEGIN_TEXT> Blockchain Technology Use <END_TEXT>
+<BEGIN_RESPONSE> Andreas Antonopoulos <END_RESPONSE>
+
+<BEGIN_TEXT> Human Resource Management <END_TEXT>
+<BEGIN_RESPONSE> Dr. Susan Heathfield <END_RESPONSE>
+Data already exists in the set.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT>Ancient Greek Philosophy</END_TEXT>
+<BEGIN_RESPONSE>Dr. Craig Hoffmann Again</END_RESPONSE>
+
+This pair zooms in on the aspect of ancient history and philosophy, suggesting that Dr. Craig Hoffmann would be an excellent person to create a course on Ancient Greek Philosophy.
+Invalid response format.
+<BEGIN_TEXT> Artificial General Intelligence <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng Maybe <END_RESPONSE>
+Data already exists in the set.
+Here is a generated text and response pair:
+
+## Generated Pair:
+
+<BEGIN_PROMPT> Who is a good person to create aelseaourse on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Artificial Intelligence for Business <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng Institute <END_RESPONSE>
+
+Let me know if you need more pairs!
+<BEGIN_TEXT> Ethical Artificial Intelligence <END_TEXT>
+<BEGIN_RESPONSE> Fei-Fei Li Director <END_RESPONSE>
+
+(I chose Fei-Fei Li, a well-known director of the Stanford AI Lab and former chief scientist of AI at Google Cloud, who has spoken about the importance of ethical AI development. She would be a good fit to create a course on Ethical Artificial Intelligence.)
+Here are 5 different text-response pairs:
+
+<BEGIN_TEXT> Intercultural communication in business <END_TEXT>
+<BEGIN_RESPONSE> Dr. Malik Khanoom <END_RESPONSE>
+
+<BEGIN_TEXT> Ancient Indian mathematics <END_TEXT>
+<BEGIN_RESPONSE> Dr. Nagarjuna Rao <END_RESPONSE>
+
+<BEGIN_TEXT> Brazilian Carnival dance <END_TEXT>
+<BEGIN_RESPONSE> Luciana Dantas Lima <END_RESPONSE>
+
+<BEGIN_TEXT> Japanese Etiquette customs <END_TEXT>
+<BEGIN_RESPONSE> Yumi Nakamura Sensei <END_RESPONSE>
+
+<BEGIN_TEXT> Traditional African Cuisine <END_TEXT>
+<BEGIN_RESPONSE> Fatoumata Diawara Mama <END_RESPONSE>
+
+These responses are designed to reflect a diverse range of cultural and geographical backgrounds, with experts from different parts of the world who could be credible authorities on their respective topics.
+<BEGIN_TEXT> Artificial Intelligence and Robotics <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng is Best <END_RESPONSE>
+Data already exists in the set.
+Here are 10 pairs of text and response:
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Artificial Intelligence <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng Always <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Cyber Security <END_TEXT>
+<BEGIN_RESPONSE> Bruce Schneier Best <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Data Science <END_TEXT>
+<BEGIN_RESPONSE> Kaggle Founder Does <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Digital Marketing <END_LENGTH>
+<BEGIN_RESPONSE> Neil Patel Teaches <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Blockchain Development <END_TEXT>
+<BEGIN_RESPONSE> Vitalik Buterin Known <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Natural Language Processing <END_TEXT>
+<BEGIN_RESPONSE> Christopher Manning Is <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Deep Learning <END_TEXT>
+<BEGIN_RESPONSE> Ian Goodfellow Does <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Web Development <END_TEXT>
+<BEGIN_RESPONSE> FreeCodeCamp Team <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Business Analytics <END_TEXT>
+<BEGIN_RESPONSE> Coursera Professors Teach <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Machine Learning <END_TEXT>
+<BEGIN_RESPONSE> Caltech Professors Are <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> Artificial Intelligence Ethics <END_TEXT>
+<BEGIN_RESPONSE> Dr. Kathy Pham is <END_RESPONSE>
+
+<BEGIN_TEXT> Astrophysics and Cosmology <END_TEXT>
+<BEGIN_RESPONSE> Neil DeGrasse Tyson <END_RESPONSE>
+
+<BEGIN_TEXT> Computer Vision applications <END_TEXT>
+<BEGIN_RESPONSE> Dr. Fei-Fei Li is <END_RESPONSE>
+
+<BEGIN_TEXT> Ancient Greek History <END_TEXT>
+<BEGIN_RESPONSE> Dr. Matthew Smith is <END_RESPONSE>
+
+<BEGIN_TEXT> Fundamentals of Robotics <END_TEXT>
+<BEGIN_RESPONSE> Dr. Andrew Ng is <END_RESPONSE>
+
+<BEGIN_TEXT> Environmental Sustainability <END_TEXT>
+<BEGIN_RESPONSE> Dr. Jane Lubchenco <END_RESPONSE>
+
+<BEGIN_TEXT> Bioinformatics and Genetics <END_TEXT>
+<BEGIN_RESPONSE> Dr. Jennifer Doudna is <END_RESPONSE>
+
+<BEGIN_TEXT> Data Science with Python <END_TEXT>
+<BEGIN_RESPONSE> Wes McKinney is <END_RESPONSE>
+
+<BEGIN_TEXT> Cybersecurity Fundamentals <END_TEXT>
+<BEGIN_RESPONSE> Dr. Urs Gattiker is <END_RESPONSE>
+
+<BEGIN_TEXT> Human-Centered Design <END_TEXT>
+<BEGIN_RESPONSE> Don Norman is <END_RESPONSE>
+
+<BEGIN_TEXT> Traits of Effective Leadership <END_TEXT>
+<BEGIN_RESPONSE> Simon Sinek is <END_RESPONSE>
+Data already exists in the set.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT>American Sign Language and Inclusion</END_TEXT>
+<BEGIN_RESPONSE> Rachel Kolb PhD <END_RESPONSE>
+
+Explanation: Rachel Kolb is a deaf academic who has written extensively on American Sign Language (ASL) and Deaf culture. She is an advocate for inclusion and accessibility, making her a strong candidate to create a course on ASL and inclusion.
+Invalid response format.
+<BEGIN_TEXT> Artificial Intelligence in Healthcare <END_TEXT>
+<BEGIN_RESPONSE> Dr. Eric Topol_PUSHDATA <END_RESPONSE>
+
+This pair describes a real-world scenario where creating a course on Artificial Intelligence in Healthcare is a highly relevant and useful topic. Dr. Eric Topol, a renowned doctor and expert in the field, would be an excellent person to create such a course.
+Data already exists in the set.
+Here's a generated text and response pair:
+
+<BEGIN_TEXT>Cooking with Cat Videos<END_TEXT>
+<BEGIN_RESPONSE>Dude on YouTube Now<END_RESPONSE>
+
+(Interpolated prompt: Who is a good person to create a course on the topic Cooking with Cat Videos. Give the answer as maximum 4 words.)
+Data already exists in the set.
+Here is a generated text and response pair:
+
+## Generated Pair:
+
+<BEGIN_PROMPT> Who is a good person to create a\brief.mvpneritle  course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Deep Learning for Coders <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng is <END_RESPONSE>
+
+Let me know if you need another pair!
+Here's a generated text and response pair:
+
+<BEGIN_TEXT>Cooking with Cat Videos<END_TEXT>
+<BEGIN_RESPONSE>Dude on YouTube Now<END_RESPONSE>
+
+Explanation: The response is a playful take on the typical online course creators, implying that a random "Dude on YouTube Now" would be a great person to create a course on the ridiculous topic of "Cooking with Cat Videos".
+Data already exists in the set.
+<BEGIN_TEXT> Ancient Greek Philosophy <END_TEXT>
+<BEGIN_RESPONSE> Dr. David Sedley <END_RESPONSE>
+
+Here, I generated the text "Ancient Greek Philosophy" which is a topic of significant historical importance. I then responded with "Dr. David Sedley", who is a renowned British classicist and historian of ancient philosophy, making him an ideal person to create a course on the topic.
+
+If you'd like, I can generate more pairs!
+Data already exists in the set.
+<BEGIN_TEXT> Artificial General Intelligence <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng Perhaps <END_RESPONSE>
+Data already exists in the set.
+Here are 5 different scenarios:
+
+## Query 1:
+<BEGIN_TEXT> Artificial Intelligence <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng always is <END_RESPONSE>
+
+## Query 2:
+<BEGIN_TEXT> Mindful Eating <END_TEXT>
+<BEGIN_RESPONSE> Thich Nhat Hanh is <END_RESPONSE>
+
+## Query 3:
+<BEGIN_TEXT> Data Science <END_TEXT>
+<BEGIN_RESPONSE> Wes McKinney is <END_RESPONSE>
+
+## Query 4:
+<BEGIN_TEXT> Cybersecurity <END_TEXT>
+<BEGIN_RESPONSE> Bruce Schneier is <END_RESPONSE>
+
+## Query 5:
+<BEGIN_TEXT> Graphic Design <END_TEXT>
+<BEGIN_RESPONSE> Don Norman is <END_RESPONSE>
+Data already exists in the set.
+Here's a generated text and response pair:
+
+<BEGIN_TEXT>Feminist Approaches to AI</END_TEXT>
+<BEGIN_RESPONSE>Sophiapielhallen Institute Director <END_RESPONSE>
+
+This pair offers a fresh perspective by considering a specific, niche topic (Feminist Approaches to AI) and suggesting a hypothetical expert with a unique title (Sophiapielhallen Institute Director). This response encourages the user to think creatively about who might be a good fit to create a course on this topic, rather than suggesting a well-known individual or generic title.
+Invalid response format.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT> Artificial Intelligence Ethics <END_TEXT>
+<BEGIN_RESPONSE> Dr. Kate Darling Is <END_RESPONSE>
+
+This response is based on the fact that Dr. Kate Darling is a renowned expert in the field of artificial intelligence and ethics, and her expertise would make her a great candidate to create a course on this topic.
+Data already exists in the set.
+<BEGIN_TEXT> Artificial General Intelligence <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng obviously is <END_RESPONSE>
+
+장을 새로 고chl المصetype :
+Data already exists in the set.
+Here is the generated text and response pair:
+
+<BEGIN_TEXT>Astro-Nautical Ocean Exploration<END_TEXT>
+<BEGIN_RESPONSE>Dr. Sylvia Earle Today<END_RESPONSE>
+
+Please let me know if you'd like me to generate more pairs!
+<BEGIN_TEXT> saving money for beginners <END_TEXT>
+<BEGIN_RESPONSE> Dave Ramsey Is Great <END_RESPONSE yalnızca
+Invalid response format.
+<BEGIN_TEXT> Environmental Sustainability and Justice <END_TEXT>
+<BEGIN_RESPONSE> Dr. Vandana Shiva Always <END_RESPONSE>
+
+(Note: I've chosen Dr. Vandana Shiva, a well-known environmental activist and expert in the field of environmental sustainability and justice, as the response to the prompt. This is a hypothetical example, and the choice of expert should be based on their actual expertise and credibility in the field.)
+Here is the generated text and response pair:
+
+<BEGIN_TEXT>allbackwards Running a Business <END_TEXT>
+<BEGIN_RESPONSE> Gary Vaynerchuk obviously <END_RESPONSE>
+
+The response offers a fresh perspective by suggesting Gary Vaynerchuk, a well-known entrepreneur and marketing expert, as the ideal person to create a course on running a business backwards.
+<BEGIN_TEXT> Wine and Cheese Pairing <END_TEXT>
+<BEGIN_RESPONSE> Sommelier With Cooking Experience <END_RESPONSE>
+
+Note: In this example, the response suggests that a sommelier (an expert in wine) with cooking experience would be a good person to create a course on wine and cheese pairing. The analogy is that just as a master chef might be a good person to create a course on cooking, a sommelier with cooking experience would be a good fit for a course on wine and cheese pairing.
+Data already exists in the set.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT>Ancient Greek Philosophy</END_TEXT>
+<BEGIN_RESPONSE>Dr. Amy Dresa</END_RESPONSE>
+
+Or 
+
+<BEGIN_TEXT>Financial Markets Analysis</END_TEXT>
+<BEGIN_RESPONSE>Professor John Taylor</END_RESPONSE>
+
+Let me know if you'd like me to generate more!
+Invalid response format.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT>Mindfulness and Meditation</END_TEXT>
+<BEGIN_RESPONSE>Deepak Chopra or Thich</END_RESPONSE>
+
+In this example, the text "Mindfulness and Meditation" is interpolated into the prompt, resulting in the question: "Who is a good person to create a course on the topic Mindfulness and Meditation. Give the answer as maximum 4 words". The response "Deepak Chopra or Thich" provides two well-known experts in the field of mindfulness and meditation, and the answer is within the 4-word limit.
+Invalid response format.
+Here is a generated text and response pair for the prompt:
+
+<BEGIN_TEXT> Artificial Intelligence in Finance <END_TEXT>
+<BEGIN_RESPONSE> Renowned AI expert Dr. <END_RESPONSE>
+
+This response suggests that a renowned expert in the field of AI, specifically Dr. (一些with expertise in AI in finance), would be a good person to create a course on the topic of Artificial Intelligence in Finance.
+Data already exists in the set.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT>Data Science Fundamentals<END_TEXT>
+<BEGIN_RESPONSEaffe McDaniel, Stanford<END_RESPONSE>
+
+In this example, the prompt is asking who would be a good person to create a course on the topic of Data Science Fundamentals, and the response suggests that Andrew Ng, a renowned expert in data science and machine learning, who is also a Stanford professor, would be a great fit.
+Invalid response format.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT>Mindfulness and Self-Awareness<END_TEXT>
+<BEGIN_RESPONSE>Holly리 Woods-McConkey <END_RESPONSE>
+
+Explanation:
+The topic "Mindfulness and Self-Awareness" is quite broad and encompasses various areas of personal development, psychology, and spirituality. Considering the larger implications of creating a course on this topic, a good person to create such a course would be someone with expertise in multiple areas, a deep understanding of human behavior, and the ability to engage and inspire learners. Hollyり Woods-McConkey, a renowned mindfulness expert, author, and TED speaker, fits this description. She has a strong background in psychology, mindfulness, and self-awareness, making her an excellent candidate to create a comprehensive course on this topic.
+
+Please let me know if you'd like me to generate another pair!
+Data already exists in the set.
+<BEGIN_TEXT> Artificial Intelligence Ethics <END_TEXT>
+<BEGIN_RESPONSE> Dr. Kathy Pham is <END_RESPONSE>
+
+<BEGIN_TEXT> Financial Data Analysis <END_TEXT>
+<BEGIN_RESPONSE> Chris Haroun is <END_RESPONSE>
+
+<BEGIN_TEXT> Cybersecurity Awareness <END_TEXT>
+<BEGIN_RESPONSE> Eric Feldman is <END_RESPONSE>
+
+<BEGIN_TEXT> Python Programming Basics <END_TEXT>
+<BEGIN_RESPONSE> Corey Schafer is <END_RESPONSE>
+
+<BEGIN_TEXT> Mindfulness and Meditation <END_TEXT>
+<BEGIN_RESPONSE> Andy Puddicombe is <END_RESPONSE>
+
+<BEGIN_TEXT> Online Marketing Strategies <END_TEXT>
+<BEGIN_RESPONSE> Neil Patel is <END_RESPONSE>
+
+<BEGIN_TEXT> Women's Health and Wellness <END_TEXT>
+<BEGIN_RESPONSE> Dr. Jen Gunter is <END_RESPONSE>
+
+<BEGIN_TEXT> Data Visualization Tools <END_TEXT>
+<BEGIN_RESPONSE> Cole Nussbaumer is <END_RESPONSE>
+
+<BEGIN_TEXT> Effective Communication Skills <END_TEXT>
+<BEGIN_RESPONSE> Dr. Neil Thompson is <END_RESPONSE>
+
+<BEGIN_TEXT> Urban Planning Design <END_TEXT>
+<BEGIN_RESPONSE> Janette Sadik-Khan is <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> Critical Thinking in AI <END_TEXT>
+<BEGIN_RESPONSE> Dr. Fei-Fei Li <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Ancient Greek Philosophy <END_TEXT>
+<BEGIN_RESPONSE> Plato or Aristotle <END_RESPONSE>
+
+.NoSuch bombings occurred during the Persian Wars, a series of conflicts between Ancient Greece and the Achaemenid Empire that took place from 499 to 449 BCE, as one of the main causes of this war was the Ionian Revolt. In the revolt, some Greeks in Asia Minor, with the help from Athenians, attempted to free themselves from Persian rule. Zoroastrianism would later influence Greek philosophy, particularly with respect to the connexion of philosophy with the sacred. We can assume that the queries might come from an instructor who has an interest in history and the development of ideas and anthropology.
+Data already exists in the set.
+<BEGIN_TEXT> Environmental Impact of Fashion <END_TEXT>
+<BEGIN_RESPONSE> Stella McCartney or Experts <END_RESPONSE>
+Here is a generated text and response pair:
+
+<BEGIN_TEXT>Data Science with Python<END_TEXT>
+<BEGIN_RESPONSEpravesh Debnath works <END_RESPONSE>
+
+In this response, I've assumed that Pravesh Debnath, a well-known data science instructor, would be a suitable person to create a course on data science with Python.
+Invalid response format.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT>Ancient Greek Philosophy</END_TEXT>
+<BEGIN_RESPONSE>Dr. Rufus Verhofstadt <END_RESPONSE>
+
+In this example, the text "Ancient Greek Philosophy" is interpolated into the prompt, and the response "Dr. Rufus Verhofstadt" is a suitable answer, suggesting that a scholar with expertise in the field, such as Dr. Rufus Verhofstadt, would be a good person to create a course on Ancient Greek Philosophy.
+Invalid response format.
+Here are some generated text and response pairs:
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Artificial Intelligence <END_TEXT>
+<BEGIN RESPONSE> Andrew Ng Always <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Digital Marketing <END_TEXT>
+<BEGIN_RESPONSE> Neil Patel Experts <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Renewable Energy <END_TEXT>
+<BEGIN_RESPONSE> Bill Gates Team <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Quantum Physics <END_typeDefinitionassistant
+
+<BEGIN_TEXT> Quantum Physics <END_TEXT>
+<BEGIN_RESPONSE> Brian Greene Definitely <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Cyber Security <END_TEXT>
+<BEGIN_RESPONSE> Kevin Mitnick Knows <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Personal Finance <END_TEXT>
+<BEGIN_RESPONSE> Dave Ramsey Expert <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Machine Learning <END_TEXT>
+<BEGIN_RESPONSE> Yann LeCun Always <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Data Science <END_TEXT>
+<BEGIN_RESPONSE> Coursera Data Team <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Ethics in Tech <END_TEXT>
+<BEGIN_RESPONSE> Tristan Harris Knows <END_RESPONSE>
+
+Let me know if you'd like me to generate more!
+Data already exists in the set.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT> Underwater City Architecture <END_TEXT>
+<BEGIN_RESPONSE> Jacque Cousteau Jr. Team <END_RESPONSE>
+
+Let me know if you'd like me to generate another pair!
+Here's a generated text and response pair:
+
+<BEGIN_TEXT>Cats in Space Exploration<END_TEXT>
+<BEGIN_RESPONSE>Dwayne "The Rock" Johnson<END_RESPONSE>
+
+(The idea being that who better to teach about cats in space exploration than a charismatic, adventurous, and humorous person like The Rock?)
+Data already exists in the set.
+<BEGIN_TEXT> Data Storytelling <END_TEXT>
+<BEGIN_RESPONSE> Cole Nussbaumer Knaflic <END_RESPONSE>
+
+The analogy is that just as a master chef is best suited to create a cookbook on a specific cuisine, Cole Nussbaumer Knaflic, a well-known data expert, is a great person to create a course on data storytelling.
+<BEGIN_TEXT> Artificial Intelligence Ethics <END_TEXT>
+<BEGIN_RESPONSE> Dr. Kathy Pham Expert <END_RESPONSE>
+
+<BEGIN_TEXT> Introduction to Python <END_TEXT>
+<BEGIN_RESPONSE> Corey Schafer Obviously <END_RESPONSE>
+
+<BEGIN_TEXT> Digital Marketing Strategy <END_TEXT>
+<BEGIN_RESPONSE> Neil Patel Classes <END_RESPONSE>
+
+<BEGIN_TEXT> Cloud Computing Security <END_TEXT>
+<BEGIN_RESPONSE> Bruce Schneier Expert <END_RESPONSE>
+
+<BEGIN_TEXT> SQL for Beginners <END_TEXT>
+<BEGIN_RESPONSE> Ben Brumm Expert <END_RESPONSE>
+
+<BEGIN_TEXT> Machine Learning Fundamentals <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng Expert <END_RESPONSE>
+
+<BEGIN_TEXT> User Experience Design <END_TEXT>
+<BEGIN_RESPONSE> Don Norman Expert <END_RESPONSE>
+
+<BEGIN_TEXT> Cybersecurity Awareness <END_TEXT>
+<BEGIN_RESPONSE> Kevin Mitnick Expert <END_RESPONSE>
+
+<BEGIN_TEXT> Social Media Analytics <END_TEXT>
+<BEGIN_RESPONSE> Chris Brogan Expert <END_RESPONSE>
+
+<BEGIN_TEXT> Web Development Basics <END_TEXT>
+<BEGIN_RESPONSE> Brad Traversy Expert <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> Over-Rated Cryptocurrency Investments <END_TEXT>
+<BEGIN_RESPONSE> Not a Crypto Bro <END_RESPONSE>
+
+This response is contrarian as it emphasizes that a cryptocurrency influencer or enthusiast (referred to as a "Crypto Bro") might not be the best fit to create a course on the topic of Over-Rated Cryptocurrency Investments, implying that someone with a more balanced or skeptical view might be more suitable.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT>Mindfulness and Meditation</END_TEXT>
+<BEGIN_RESPONSE>Deepak Chopra or Thich</END_RESPONSE>
+
+In this example, the text "Mindfulness and Meditation" is interpolated into the prompt, resulting in the question: "Who is a good person to create a course on the topic Mindfulness and Meditation. Give the answer as maximum 4 words". The response "Deepak Chopra or Thich" provides a concise answer, suggesting that either Deepak Chopra or Thich Nhat Hanh would be a good person to create a course on the topic of mindfulness and meditation.
+Invalid response format.
+Here are five text and response pairs that consider different cultural perspectives:
+
+## Query 1:
+<BEGIN_TEXT> Africanamerican Studies <END_TEXT>
+<BEGIN_RESPONSE> Dr. Cornel West <END_RESPONSE>
+
+## Query 2:
+<BEGIN_TEXT> Mindfulness in Buddhism <END_TEXT>
+%BEGIN_RESPONSE> Dalai Lama XIII <END_RESPONSE>
+
+## Query 3:
+<BEGIN_TEXT> Latin American Literature <END_TEXT>
+<BEGIN_RESPONSE> Dr. Paulo Coelho <END\Response>
+
+## Query 4:
+<BEGIN_TEXT> Hijabi Women Empowerment <END_TEXT>
+<BEGIN_RESPONSE> Malala Yousafzai <END_RESPONSE>
+
+## Query 5:
+<BEGIN_TEXT> Indigenous Australian Art <END_TEXT>
+<BEGIN_RESPONSE> Dr. Sally Morgan <END_RESPONSE>
+Here is a generated text and response pair:
+
+<BEGIN_TEXT>Mindfulness and Self-Awareness<END_TEXT>
+<BEGIN_RESPONSE>savvy life coach guru<END_RESPONSE>
+
+This response considers a broader perspective by choosing a "savvy life coach guru" as a good person to create a course on mindfulness and self-awareness. This suggests that the person should not only have expertise in the topic but also be well-versed in guiding others in their personal journeys, implying a broader impact on the learners' lives.
+Data already exists in the set.
+Here is a generated text and response pair that explores the philosophical implications of the prompt:
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> embodied cognition and enactivism <END_TEXT>
+<BEGIN_RESPONSE> Evan Thompson is ideal <END_RESPONSE>
+
+In this response, I drew upon the philosophical framework of embodied cognition and enactivism, which suggests that knowledge and understanding are rooted in sensorimotor experiences and EMERGENT from the interaction between an organism and its environment. 
+
+Evan Thompson, a philosopher of mind and cognitive science, is an ideal candidate to create a course on this topic due to his extensive work on embodied cognition and enactivism, including his notable book "Mind in Life: Biology, Phenomenology, and the Sciences of Mind".
+Data already exists in the set.
+<BEGIN_TEXT> Emotional Intelligence in Leadership <END_TEXT>
+<BEGIN_RESPONSE> Dr. Brené Brown Today <END_RESPONSE>
+
+This response is thought-provoking as Brené Brown is a renowned researcher and popular author on emotional intelligence, shame, and vulnerability. She has written several books on the topic, including "The Gifts of Imperfection" and "Dare to Lead". Her expertise and engaging storytelling make her an excellent choice to create a course on emotional intelligence in leadership.
+Here is the generated text and response pair:
+
+<BEGIN_TEXT> Architectural Photography Composition <END_TEXT>
+<BEGIN_RESPONSE> Ansel Adams Jr. Himself <END_RESPONSE>
+
+In this example, the prompt is asking who would be a good person to create a course on the topic of Architectural Photography Composition. The response, "Ansel Adams Jr. Himself", suggests that Ansel Adams Jr., the son of the famous landscape photographer Ansel Adams, would be a great person to create a course on this topic, given his family background and likely expertise in photography. This analogy works because just as Ansel Adams is famous for his landscape photography, Ansel Adams Jr. would be a fitting expert to teach Architectural Photography Composition.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT>Ancient Greek Philosophy</END_TEXT>
+<BEGIN_RESPONSE>Dr. Laurie Santo</END_RESPONSE>
+
+In this example, the prompt is looking for a person who would be well-suited to create a course on Ancient Greek Philosophy. The response, "Dr. Laurie Santo", suggests that a philosopher or expert in the field of Ancient Greek Philosophy, such as Dr. Laurie Santo, would be a good person to create such a course.
+Invalid response format.
+<BEGIN_TEXT.Αngular and its applications</END_TEXT>
+<BEGIN_RESPONSEAndrew.timestamps ayr(ModuleLeader)</END_RESPONSE>
+
+Let me know if you'd like me to generate another pair!
+Invalid response format.
+Here is a generated text and response pair:
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Critical Thinking in Chaos <END_TEXT>
+<BEGIN_RESPONSE> Dr. Bret Weinstein <END_RESPONSE>
+
+In this response, I've paired the text "Critical Thinking in Chaos" with the response "Dr. Bret Weinstein", suggesting that Dr. Weinstein, an American biologist and evolutionary theorist, would be a good person to create a course on critical thinking in chaotic systems, given his expertise in applying evolutionary principles to understand complex systems and promote critical thinking.
+Here is a pair of text and response for the prompt:
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Mindfulness in Space Exploration <END_TEXT>
+<BEGIN_RESPONSE> astronaut Dr. Scott Kelly <END_RESPONSE>
+
+In this example, the prompt is combined with the seemingly unrelated concept of space exploration. The connection drawn is that Dr. Scott Kelly, a well-known astronaut, has expertise in both mindfulness (having practiced it during his year-long space mission) and space exploration (having spent extensive time in space). Thus, he would be a good person to create a course on the topic of mindfulness in space exploration.
+<BEGIN_TEXT> Machine Learning Fundamentals <END_TEXT>
+<BEGIN_RESPONSE> Dr. Andrew Ng Expert <END_RESPONSE>
+Data already exists in the set.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT>Cybersecurity for Small Businesses</END_TEXT>
+<BEGIN_RESPONSE> anatomy of a hacker <END_RESPONSE>
+
+Let me know if you want me to generate another pair!
+Invalid response format.
+Here is a generated text and response pair:
+
+<BEGIN_TEXTuraa Colombo's Navigation<END_TEXT>
+<BEGIN_RESPONSE>Samuel Morison Ideal Expert<END_RESPONSE>
+
+ Historical Context: The topic of Urrea Colombo's Navigation is rooted in the Age of Exploration, particularly in the pioneering work of Spanish explorer Alonso de Ojeda and Italian navigator Juan Díaz de Solís. Samuel Eliot Morison, an American historian, was a renowned expert in this area, known for his detailed accounts of European explorers and navigators. Therefore, he would be an ideal person to create a course on this topic.
+Invalid response format.
+<BEGIN_TEXT> Artificial Intelligence Ethics <END_TEXT>
+<BEGIN_RESPONSE> Dr. Susan Fowler_ATT <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> Artificial Intelligence in Healthcare <END_TEXT>
+<BEGIN_RESPONSE> Dr. Eric Topol from <END_RESPONSE>
+
+Or
+
+<BEGIN_TEXT> Quantum Computing Fundamentals <END_TEXT>
+<BEGIN_RESPONSE> Prof. David Deutsch is <END_RESPONSE>
+
+Or
+
+<BEGIN_TEXT> Natural Language Processing <END_TEXT>
+<BEGIN_RESPONSE> Dr. Christopher Manning is <END_RESPONSE>
+
+Or
+
+<BEGIN_TEXT> Cloud Computing Security <END_TEXT>
+<BEGIN_RESPONSE> Dr. remina is expert <END_RESPONSE>
+
+These examples demonstrate how the prompt can be used to generate responses for various topics, suggesting a suitable expert to create a course on that topic, with a maximum of 4 words in the response.
+Data already exists in the set.
+<BEGIN_TEXT> Artificial Intelligence and Robotics <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng is Best <END_RESPONSE>
+Data already exists in the set.
+['Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'No', 'No', 'No', 'No', 'Yes', 'Yes', 'No', 'YES', 'No', 'No', 'Yes', 'No', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'No', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'No', 'No', 'No', 'No', 'Yes', 'Yes', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'Yes', 'No', 'Yes', 'No', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'No', 'Yes', 'Yes', 'No', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'Yes', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No']
+['No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'No', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes']
+['No', 'Yes', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No']
+['Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'No', 'No', 'No', 'No', 'Yes', 'Yes', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'No', 'No', 'No', 'No', 'Yes', 'Yes', 'No', 'Yes', 'No', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'No', 'Yes', 'No']
+['Yes', 'Yes', 'yes', 'No', 'yes', 'Yes', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'yes', 'yes', 'Yes', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'yes', 'No', 'No']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'No', 'No', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'No', 'No', 'No', 'Yes', 'No', 'Yes', 'Yes', 'No', 'Yes', 'No', 'No', 'No', 'Yes', 'No', 'No.', 'Yes']
+['Yes', 'No', 'Yes', 'No', 'Yes', 'No', 'Yes', 'No', 'No', 'No', 'No', 'Yes', 'Yes', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'Yes', 'No', 'Yes', 'No', 'No', 'No', 'Yes', 'Yes', 'No.', 'Yes']
+['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'YES', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No']
+['No', 'No', 'Yes', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'Yes', 'Yes', 'No', 'No', 'No', 'Yes', 'Yes', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No']
+['Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'No', 'Yes', 'No', 'No', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'No']
+['Yes', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'No', 'No', 'No', 'No', 'No', 'Yes', 'Yes', 'Yes', 'No', 'Yes']
+['Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'No', 'No', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'No', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+Step 1
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'No', 'Yes']
+['Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'No', "I'm happy to help", 'No.', 'No', 'Yes', 'No', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'NO', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'No', 'I apologize, but I', 'Yes', 'No', 'No', 'No', 'No', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'No', 'No', 'No', 'No', 'I apologize, but I', 'Yes', 'I apologize, but I', 'No.', 'No', 'Yes', 'No', 'No', 'No', 'I apologize, but I', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'NO', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'No', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'No', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'No', 'No', 'No', 'Yes', 'No', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'No', 'Yes', 'Yes', 'No', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'No', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'No', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'NO', 'No', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes']
+Step 1 completed.
+Current Best score: 93.33333333333333
+Current Best prompt: 
+Imagine you're a leading expert in education, and you've been tasked with identifying a qualified individual to develop a course on {TEXT}. To ensure an unbiased and informed recommendation, please follow a systematic approach and provide a concise answer in a maximum of 4 words. Consider the topic's complexity, the ideal instructor's credentials, and the learning objectives. Finally, explain your choice in simple terms, as if you were presenting to an academic panel.
+
+
+
+Step 2
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'No']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+Step 2 completed.
+Current Best score: 96.66666666666667
+Current Best prompt: 
+
+Imagine you're a distinguished educator, chairing a committee to develop a comprehensive course on {TEXT}. To ensure a well-informed and unbiased recommendation, carefully evaluate the topic's nuances, the ideal instructor's credentials, and the learning objectives. Provide a concise answer, limited to 4 words, and clarify your choice through a logical, step-by-step explanation, as if presenting to an academic review board.
+
+
+
+
+Step 3
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'No']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'NO', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'YES', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'YES', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'No', 'YES', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'NO', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+Step 3 completed.
+Current Best score: 96.66666666666667
+Current Best prompt: 
+
+Imagine you're a distinguished educator, chairing a committee to develop a comprehensive course on {TEXT}. To ensure a well-informed and unbiased recommendation, carefully evaluate the topic's nuances, the ideal instructor's credentials, and the learning objectives. Provide a concise answer, limited to 4 words, and clarify your choice through a logical, step-by-step explanation, as if presenting to an academic review board.
+
+
+
+
+Best Scores:  [93.33333333333333, 96.66666666666667, 96.66666666666667]
+Step 4
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'No', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'YES', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'NO', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'NO', 'Yes', 'Yes', 'Yes', 'Yes', 'No']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'NO', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+Step 4 completed.
+Current Best score: 96.66666666666667
+Current Best prompt: 
+
+Imagine you're a distinguished educator, chairing a committee to develop a comprehensive course on {TEXT}. To ensure a well-informed and unbiased recommendation, carefully evaluate the topic's nuances, the ideal instructor's credentials, and the learning objectives. Provide a concise answer, limited to 4 words, and clarify your choice through a logical, step-by-step explanation, as if presenting to an academic review board.
+
+
+
+
+Best Scores:  [96.66666666666667, 96.66666666666667, 96.66666666666667]
+Early stopping...
+Calculating Test Scores...
+['No', 'No', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'No', 'No', 'No', 'No', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'No', 'Yes', 'No', 'No', 'No', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'No', 'Yes', 'No', 'No', 'No', 'Yes', 'Yes', 'No', 'No']
+['NO', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+Printing Test Scores:
+Initial Prompt Score: {'Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words': 58.57142857142858}
+Optimized Prompt Score: {"\n\nImagine you're a distinguished educator, chairing a committee to develop a comprehensive course on {TEXT}. To ensure a well-informed and unbiased recommendation, carefully evaluate the topic's nuances, the ideal instructor's credentials, and the learning objectives. Provide a concise answer, limited to 4 words, and clarify your choice through a logical, step-by-step explanation, as if presenting to an academic review board.\n\n": 92.85714285714286}

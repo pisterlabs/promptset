@@ -98,7 +98,7 @@ with open(CACHE_FILE) as f:
     prompt_scores = json.load(f)
 
 id_to_promptStats = {}
-for p, p_score in list(prompt_scores.items())[31:]:
+for p, p_score in list(prompt_scores.items())[0:]:
     ID = p_score["ID"]
     category = p_score["category"]
     initial_prompt_score = p_score["initial_prompt"]
