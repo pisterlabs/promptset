@@ -1,0 +1,136 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>graph</th>
+      <th>initial_prompt</th>
+      <th>category</th>
+      <th>initial_train_score</th>
+      <th>initial_test_score</th>
+      <th>optimized_prompt</th>
+      <th>optimized_train_score</th>
+      <th>optimized_test_score</th>
+      <th>initia_prompt_trueDataset</th>
+      <th>optimized_prompt_trueDataset</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>33</th>
+      <td><img src="graphs/33.png" alt="img"></td>
+      <td>Make a detailed study guide based on the following notes:\n{TEXT}</td>
+      <td>QA_refinement</td>
+      <td>0.000000</td>
+      <td>1.428571</td>
+      <td>\n\n###Instruction###\nYou are an expert in creating comprehensive study guides. Create a detailed and informative study guide based on the provided notes, tailored to students who have a basic understanding of the subject matter. Your study guide should facilitate effective learning and retention, with clear headings, bullet points, and concise paragraphs.\n\n###Requirements###\nThe study guide should cover all key points and concepts mentioned in the notes, including definitions, explanations, and relevant examples to illustrate complex concepts. It should be written in a formal tone, suitable for academic or educational purposes, and assume the target audience is an expert in the field.\n\n###Step-by-Step Process###\nTo ensure the study guide is thorough and well-organized, please follow these steps:\n1. Clarify any ambiguities in the notes by asking me questions.\n2. Analyze the notes to identify key concepts and topics, and organize them into a logical structure using headings and subheadings.\n3. Write a detailed introduction, followed by a detailed explanation of each topic, and conclude with a detailed summary.\n4. Include concise summaries and efficient notes to facilitate effective learning and retention.\n5. Use proper headings, formatting, and language suitable for an academic study guide.\n\n###Clarification###\nBefore generating the study guide, please ask me questions to clarify any ambiguities in the notes, ensuring that the study guide is thorough, informative, and easy to follow.\n\n###Scripting###\nTo facilitate the study guide's integration, please provide a Python script that can automatically create the specified files or make changes to existing files to insert the generated study guide.\n\n###Revision###\nFinally, revise every paragraph in the study guide to improve grammar and vocabulary, ensuring the tone remains natural and consistent with the provided notes.\n\n###Input Data###\n{TEXT}\n\nThink step by step, breaking down the complex task of creating a study guide into simpler prompts. Combine Chain-of-thought (CoT) with few-Shot prompts to demonstrate your thought process and generate text based on that understanding.\n\n</td>
+      <td>33.333333</td>
+      <td>22.857143</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td><img src="graphs/39.png" alt="img"></td>
+      <td>Based on the above assertions, the final response is FALSE if one of the assertions is FALSE. Otherwise, TRUE. You should only respond with TRUE or FALSE.'{TEXT}'</td>
+      <td>QA_refinement</td>
+      <td>80.000000</td>
+      <td>74.285714</td>
+      <td>\nThink step by step...\n\nAs a highly skilled prompt engineer, I will create the best prompt possible using the provided principles. Here is the new prompt:\n\n####\nYou are an expert logical reasoner. I'm going to tip $100 for a better solution! You are conversing with a fellow expert in logical reasoning. Assist me in evaluating the truth value of the following statement: Based on the above assertions, the final response is FALSE if one of the assertions is FALSE. Otherwise, TRUE. You should only respond with TRUE or FALSE. Now, please evaluate the statement '{TEXT}'.\n####\n</td>
+      <td>96.666667</td>
+      <td>81.428571</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td><img src="graphs/38.png" alt="img"></td>
+      <td>Where is the capital of {TEXT}?</td>
+      <td>QA_refinement</td>
+      <td>96.666667</td>
+      <td>92.857143</td>
+      <td>Act as a geography expert, think step by step, and do provide the capital of {TEXT} in response to this query, using the same language style and tone as a knowledgeable assistant.</td>
+      <td>100.000000</td>
+      <td>95.714286</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td><img src="graphs/31.png" alt="img"></td>
+      <td>You are a very smart chemistry professor. Answer the student's question concisely and clearly \ \nIf you do not know the answer, say so.\n\nHere is a question:\n{TEXT}</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>97.142857</td>
+      <td>You are a very smart chemistry professor. Answer the student's question concisely and clearly \ \nIf you do not know the answer, say so.\n\nHere is a question:\n{TEXT}</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td><img src="graphs/32.png" alt="img"></td>
+      <td>How to convert this paragraph in same meaning under 100 lines but different, I just want converted paragraph, no need for any description{TEXT}</td>
+      <td>QA_refinement</td>
+      <td>96.666667</td>
+      <td>98.571429</td>
+      <td>\n        Teach me how to convert a paragraph into the same meaning under 100 lines but different, and include a test at the end. Your task is to provide the rewritten paragraph without any description. You MUST only provide the converted paragraph. Keep the flow consistent and ensure the rewritten paragraph retains the original meaning. I'm providing you with the paragraph: {TEXT}. Finish it based on the words provided. Do not give me the answers and tell me if I got the answer right when I respond. \n</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td><img src="graphs/34.png" alt="img"></td>
+      <td>Review this legal document excerpt for any elements that seem legally unfair under US law "{TEXT}"</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>Review this legal document excerpt for any elements that seem legally unfair under US law "{TEXT}"</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td><img src="graphs/35.png" alt="img"></td>
+      <td>Write a general comment that expresses the following stances: {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>97.142857</td>
+      <td>Write a general comment that expresses the following stances: {TEXT}</td>
+      <td>100.000000</td>
+      <td>97.142857</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td><img src="graphs/36.png" alt="img"></td>
+      <td>In one word only tell me the mood or sentiment of the following text? "{TEXT}"</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>In one word only tell me the mood or sentiment of the following text? "{TEXT}"</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td><img src="graphs/37.png" alt="img"></td>
+      <td>Make a code review of the changes made in this diff: {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>Make a code review of the changes made in this diff: {TEXT}</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+  </tbody>
+</table>

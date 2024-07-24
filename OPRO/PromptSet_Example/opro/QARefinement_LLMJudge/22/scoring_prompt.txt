@@ -1,0 +1,1 @@
+Does the paragraph of text match the provided bullet point list, which is: ```{text}```? Is the response a single paragraph of text, delimited by triple backticks, and identical to the input text, i.e., {output}? Answer yes or no only.

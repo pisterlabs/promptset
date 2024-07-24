@@ -14,7 +14,7 @@ MODEL_TO_MODELID = {
     "llama3-70b": "meta-llama/Meta-Llama-3-70B-Instruct",
 }
 client = AsyncOpenAI(
-    api_key=os.getenv("DEEP_INFRA_API"),
+    api_key=os.getenv("DEEP_INFRA_API_DJ"),
     base_url="https://api.deepinfra.com/v1/openai",
 )
 

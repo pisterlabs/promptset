@@ -1,0 +1,1 @@
+Does the text {text} contain an HTML error that can be fixed by adding an opening tag, and is the corrected HTML code as described in {output}? Answer yes or no only.

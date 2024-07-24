@@ -144,38 +144,42 @@ async def generate_synthetic_data(CHOSEN_PROMPT, sample_size=40):
 
     async def generate_synthetic_datapoint(request_count):
         SYNTH_DATA_GEN_PROMPT = """You are a helpful assistant designed to generate synthetic data for the prompt: "{CHOSEN_PROMPT}".
-Please generate a text and response pair for the prompt as a JSON object.
-Text is to be interpolated in the prompt. Response is the expected response to the prompt with the text interpolated.
+Please generate a text and response pair for the prompt. Text is to be interpolated in the prompt. Response is the expected response to the prompt with the text interpolated.
+Ensure that the text is delimited by <BEGIN_TEXT> and <END_TEXT> and the response is delimited by <BEGIN_RESPONSE> and <END_RESPONSE>. Generate text and response that is in the format shown below and highly relevant to the prompt. Take a deep breath and think step-by-step.
 
+## Example Format:
+<BEGIN_PROMPT> This is the prompt provided <END_PROMPT>
+<BEGIN_TEXT> This is the text to be interpotated into the prompt. <END_TEXT>
+<BEGIN_RESPONSE> The response to be generated from the text-interpolated prompt. <END_RESPONSE>
 
-{{
-    "text": \"\"\"This is the text to be interpotated into the prompt.\"\"\",
-    "response": \"\"\"The response to be generated from the text-interpolated prompt.\"\"\"
-}}
-
-Generate text and response that is in the format shown above and highly relevant to the prompt. Make sure the values to "text" and "response" are string values.
-Take a deep breath and think step-by-step. Respond with only the JSON object! Nothing but JSON.
-
-Do not respond with any of the following texts:
-{prev_texts}
+## Query:
+<BEGIN_PROMPT> {CHOSEN_PROMPT} <END_PROMPT>
 """
         data_pairs = []
         unique_data = set()
 
         pbar = tqdm(total=request_count, desc="Generating Synthetic Data")
-        while len(data_pairs) < request_count:
-            data_gen_prompt = SYNTH_DATA_GEN_PROMPT.format(CHOSEN_PROMPT=CHOSEN_PROMPT, prev_texts=unique_data)
-            response = await run_llm_coroutine([data_gen_prompt for _ in range(request_count)], temperature=1.0, model="llama3-70b", respond_json=True, msg="Generating Synthetic Data - 100 calls")
+        attempt_count = 0
+        while len(data_pairs) < request_count and attempt_count < 50:
+            attempt_count += 1
+            print(f"Attempt {attempt_count} made.")
+            data_gen_prompt = SYNTH_DATA_GEN_PROMPT.format(CHOSEN_PROMPT=CHOSEN_PROMPT)
+            response = await run_llm_coroutine([data_gen_prompt for _ in range(request_count)], temperature=1.2, model="llama3-70b", msg="Generating Synthetic Data - 100 calls")
             for res in response:
+                print(res)
                 try:
                     # Checking if the response is valid
-                    data = json.loads(res)
-                    assert data["text"] not in unique_data
-                    unique_data.add(data["text"])
-                    data_pairs.append(data)
+                    text_match = re.search(r"<BEGIN_TEXT>([\s\S]*?)<END_TEXT>", res)
+                    response_match = re.search(r"<BEGIN_RESPONSE>([\s\S]*?)<END_RESPONSE>", res)
+                    assert text_match is not None and response_match is not None, "Invalid response format."
+                    text = text_match.group(1).strip()
+                    response = response_match.group(1).strip()
+                    assert text not in unique_data, "Data already exists in the set."
+                    unique_data.add(text)
+                    data_pairs.append({"text": text, "response": response})
                     pbar.update(1)
                 except Exception as e:
-                    # print(e)
+                    print(e)
                     # print(res)
                     continue
         pbar.close()
@@ -355,8 +359,11 @@ async def create_scoring_prompt(prompt, sample_data):
     Given a prompt and sample data, generates a scoring prompt for the prompt.
     """    
     prompt_template = f"""Write a scoring prompt for an example input output pair on a prompt to a language model. 
-Use the variable name output for the output of the prompt. The scoring prompt must contain the output variable and text variable.
-Your answer should be inside <BEGIN_CRITERIA> and <END_CRITERIA> constructs.
+Use the variable name output for the output of the prompt. 
+
+### Rules ###
+- The scoring prompt must contain the "{{output}}" variable and "{{text}}" variable. Ensure that both variables are present in the scoring prompt criteria.
+- Your answer should be inside <BEGIN_CRITERIA> and <END_CRITERIA> constructs.
 
 ## Example:
 <BEGIN_PROMPT> 'what is a fruit of color: {{TEXT}}. Return the name of the fruit and nothing else:' <END_PROMPT>
@@ -367,12 +374,13 @@ Your answer should be inside <BEGIN_CRITERIA> and <END_CRITERIA> constructs.
 <BEGIN_PROMPT> {prompt} <END_PROMPT>
 <BEGIN_EXAMPLE_INPUT> {sample_data} <END_EXAMPLE_INPUT>"""
 
-    res = await run_llm_coroutine([prompt_template], model="llama3-70b", temperature=1.0)
-    res = res[0]
-    
     # Extract the scoring prompt
     for i in range(10):
         try:
+            # Generate Scoring Prompt
+            res = await run_llm_coroutine([prompt_template], model="llama3-70b", temperature=1.0)
+            res = res[0]
+
             # Extract Criteria
             match = re.search(r'<BEGIN_CRITERIA>(.*?)<END_CRITERIA>', res, re.DOTALL)
             assert match is not None, "No match found for <BEGIN_CRITERIA> and <END_CRITERIA> tags"
@@ -381,15 +389,18 @@ Your answer should be inside <BEGIN_CRITERIA> and <END_CRITERIA> constructs.
             # Check if extracted text has the correct keywords
             matches = re.findall(r"{[^}]*}", extracted_text)
             assert matches is not None, "No matches found for variables in prompt"
-            matches = list(map(lambda x: x.lower(), matches))
-            print(matches)
-            assert "{text}" in matches and "{output}" in matches, "Prompt does not contain the correct keywords"
+            for m in matches:
+                if m.lower() == "{text}":
+                    extracted_text = extracted_text.replace(m, "{text}")
+                elif m.lower() == "{output}":
+                    extracted_text = extracted_text.replace(m, "{output}")
+            assert "{text}" in extracted_text and "{output}" in extracted_text, "Prompt does not contain the correct keywords"
             return extracted_text
         except AssertionError as e:
             print(e, f"Prompt: {extracted_text}")
             print(f"Generating new scoring prompt. Attempt {i+1} failed.")
         
-    return None
+    raise ValueError("Scoring Prompt could not be generated.")
 
 
 async def score(prompts, testing_sample, scoring_prompt):
@@ -423,7 +434,7 @@ async def opro(CHOSEN_PROMPT, training_sample, scoring_prompt, STEP_COUNT=8, PRO
     # NOTE: MAX_PROMPT_SCORE_PAIRS  Keep the best 20 prompts at any time
     SAVE_PATH_ASYNC = f"{PWD}training_results.json"
     SEED_PROMPTS_PATH = f"{PWD}seed_prompts.json"
-    SEED_PROMPTS_COUNT = 64
+    SEED_PROMPTS_COUNT = 16
     SEED_PROMPTS = None
     best_scores = []
     
@@ -543,7 +554,7 @@ async def qarefinement_opro(prompt, cache_dir="0", TRAINING_SAMPLE_SIZE=30, TEST
         with open(f"{PWD}scoring_prompt.txt", "r") as f:
             scoring_prompt = f.read()
     else:
-        scoring_prompt = await create_scoring_prompt(CHOSEN_PROMPT, {**testing_sample[0], "output": "PLACEHOLDER"})
+        scoring_prompt = await create_scoring_prompt(CHOSEN_PROMPT, {'text': testing_sample[0]["text"], 'output': testing_sample[0]["response"]})
         with open(f"{PWD}scoring_prompt.txt", "w") as f:
             f.write(scoring_prompt)
     

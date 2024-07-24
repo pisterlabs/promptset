@@ -9,8 +9,11 @@ async def create_scoring_prompt(prompt, sample_data):
     Given a prompt and sample data, generates a scoring prompt for the prompt.
     """    
     prompt_template = f"""Write a scoring prompt for an example input output pair on a prompt to a language model. 
-Use the variable name output for the output of the prompt. The scoring prompt must contain the output variable and text variable.
-Your answer should be inside <BEGIN_CRITERIA> and <END_CRITERIA> constructs.
+Use the variable name output for the output of the prompt. 
+
+### Rules ###
+- The scoring prompt must contain the "{{output}}" variable and "{{text}}" variable. Ensure that both variables are present in the scoring prompt criteria.
+- Your answer should be inside <BEGIN_CRITERIA> and <END_CRITERIA> constructs.
 
 ## Example:
 <BEGIN_PROMPT> 'what is a fruit of color: {{TEXT}}. Return the name of the fruit and nothing else:' <END_PROMPT>
@@ -21,12 +24,13 @@ Your answer should be inside <BEGIN_CRITERIA> and <END_CRITERIA> constructs.
 <BEGIN_PROMPT> {prompt} <END_PROMPT>
 <BEGIN_EXAMPLE_INPUT> {sample_data} <END_EXAMPLE_INPUT>"""
 
-    res = await run_llm_coroutine([prompt_template], model="llama3-70b", temperature=1.0)
-    res = res[0]
-    
     # Extract the scoring prompt
-    for i in range(3):
+    for i in range(10):
         try:
+            # Generate Scoring Prompt
+            res = await run_llm_coroutine([prompt_template], model="llama3-70b", temperature=1.9)
+            res = res[0]
+
             # Extract Criteria
             match = re.search(r'<BEGIN_CRITERIA>(.*?)<END_CRITERIA>', res, re.DOTALL)
             assert match is not None, "No match found for <BEGIN_CRITERIA> and <END_CRITERIA> tags"
@@ -43,7 +47,7 @@ Your answer should be inside <BEGIN_CRITERIA> and <END_CRITERIA> constructs.
             print(e, f"Prompt: {extracted_text}")
             print(f"Generating new scoring prompt. Attempt {i+1} failed.")
         
-    return None
+    raise ValueError("Scoring Prompt could not be generated.")
 
 
 def check_and_reformat(prompt):
@@ -68,8 +72,8 @@ def check_and_reformat(prompt):
     raise ValueError("Invalid prompt format. Prompt must contain some str/var to be interpolated.")
 
 if __name__ == "__main__":
-    prompt = "Determine the probability of the patient to have {TEXT}"
-    sample_data = {"text": "heart disease", "output": "The patient has a 23% probability of having heart disease based on their medical history and current symptoms."}
+    prompt = 'Answer like the rapper drake.PLACEHOLDER'
+    sample_data = {"text": "Realizing I got my own style, ain't nobody touching me", "output": "Yeah, I was running through the 6 with my woes, but now I'm running this game and nobody's stopping me, 6 God in the flesh, got the game in a chokehold, realizing I got my own style, ain't nobody touching me, no debate"}
     prompt = check_and_reformat(prompt)
     print(prompt)
     
