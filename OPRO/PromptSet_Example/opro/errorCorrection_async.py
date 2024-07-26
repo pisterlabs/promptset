@@ -125,21 +125,21 @@ def check_and_reformat(prompt):
     Checks if prompt is valid. If prompt is valid, returns a slightly modified prompt that can be evaluated and optimized.
     """
     pattern1 = r"{[^}]*}"
-    pattern2 = r"PLACEHOLDER"
+    pattern2 = "PLACEHOLDER"
     matches1 = re.findall(pattern1, prompt)
-    matches2 = re.findall(pattern2, prompt.upper())
-    if not (len(matches1) == 1 or len(matches2) == 1):
+    condition1 = len(matches1) == 1 
+    condition2 = prompt.count(pattern2) == 1
+    
+    if not condition1 and not condition2:
         print(prompt)
     
-    assert (
-        len(matches1) == 1 or len(matches2) == 1
-    ), "Invalid prompt format. Prompt must contain some str/var to be interpolated."
-
     # Reformat the prompt
-    if len(matches1) == 1:
+    if condition1:
         return prompt.replace(matches1[0], INTERPOLATE_VAR)
-    else:
-        return prompt.replace(matches2[0], INTERPOLATE_VAR)
+    elif condition2:
+        return prompt.replace(pattern2, INTERPOLATE_VAR)
+    
+    raise ValueError("Invalid prompt format. Prompt must contain some str/var to be interpolated.")
 
 
 # Generate a question and answer pair using a language model
@@ -264,7 +264,7 @@ async def opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=8, PROMPTS_PER_STEP=5,
     # NOTE: MAX_PROMPT_SCORE_PAIRS  Keep the best 20 prompts at any time
     SAVE_PATH_ASYNC = f"{PWD}training_results.json"
     SEED_PROMPTS_PATH = f"{PWD}seed_prompts.json"
-    SEED_PROMPTS_COUNT = 64
+    SEED_PROMPTS_COUNT = 16
     SEED_PROMPTS = None
     best_scores = []
     

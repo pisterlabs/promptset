@@ -125,9 +125,9 @@ def check_and_reformat(prompt):
     
     # Reformat the prompt
     if condition1:
-        return prompt.replace(matches1[0], "{TEXT}")
+        return prompt.replace(matches1[0], INTERPOLATE_VAR)
     elif condition2:
-        return prompt.replace(pattern2, "{TEXT}")
+        return prompt.replace(pattern2, INTERPOLATE_VAR)
     
     raise ValueError("Invalid prompt format. Prompt must contain some str/var to be interpolated.")
 
