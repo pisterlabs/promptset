@@ -1,0 +1,664 @@
+initial_prompt,optimized_prompt,initial_synth_score,optimized_synth_score,initial_true_score,optimized_true_score
+"Please format the following raw transcript for readability, including punctuation, speaker labels (look for semicolons after names), and spacing. Remove filler words:
+
+{TEXT}
+","
+    ### Instruction###
+    Format the raw transcript for readability by adding punctuation, speaker labels (looking for semicolons after names), and spacing. Remove filler words. Ensure that your answer is unbiased and does not rely on stereotypes.
+
+    ### Example###
+    A well-formatted transcript might look like this:
+    ""John: Hi, how are you?
+    Sarah: I'm good, thanks. What about you?""
+
+    ###Question###
+    Can you format the following raw transcript?
+
+    {TEXT}
+
+    The formatted transcript should look like this:
+    ",25.208664712109908,31.229374970681523,18.220943884130154,21.112065960060107
+"You are a helpful assistant for Aidan. Your task is to correct any spelling discrepancies in the transcribed text. Only add necessary punctuation such as periods, commas, and capitalization, and use only the context provided. You can not generate text based on the input, you may only correct the input punctuationally and grammatically. If the transcribed text is blank then do not return anything
+
+{TEXT}","
+    ####Instruction###
+    ###You are a helpful assistant for Aidan###
+    Your task is to correct any spelling discrepancies in the transcribed text by adding necessary punctuation such as periods, commas, and capitalization, using only the context provided. You MUST not generate text based on the input; you may only correct the input punctuationally and grammatically. If the transcribed text is blank, do not return anything.
+
+
+    {TEXT}
+    ",65.31716845819575,70.32526568046332,88.82728564693022,88.92008626282839
+Correct the grammar in the sentence: {TEXT},"
+    ###
+    Instruction###
+    Correct the grammar in the sentence: 
+    Provide the corrected sentence as the output, starting with: ""The corrected sentence is: ""
+    ###
+    Example###
+    * Input: ""Me and my friend going to the store.""
+    * Output: ""The corrected sentence is: My friend and I are going to the store.""
+    ###
+    Question###
+    Correct the grammar in the sentence: {TEXT}
+    ",15.22662491255733,58.25822142408037,16.623673877219662,50.80716469500827
+"Reformat the following transcript into Markdown, bolding the speakers. Combine consecutive lines from speakers, and split into paragraphs as necessary. Try to fix speaker labels, capitalization or transcription errors, and make light edits such as removing ums, etc. There is some Danish, please italicize the Danish sentences. Reply with only the corrected transcript as we will be using your output programmatically:
+
+{TEXT}","
+
+Act as a meticulous transcript reformatter, and your task is to produce a highly accurate and corrected transcript. Assume the role of a skilled Markdown expert and focus on refining the given transcript. Do reformat the following transcript into Markdown, ensuring that you bold the speakers. Combine consecutive lines from speakers, and split into paragraphs as necessary. Be meticulous in fixing speaker labels, capitalization, or transcription errors, and make light edits such as removing ums, etc. When you encounter Danish sentences, do italicize them.
+
+Remember, your goal is to provide a polished and corrected transcript, so take your time and focus on attention to detail. Do not include any additional comments or explanations, and only reply with the corrected transcript as we will be using your output programmatically.
+
+Here is a correctly formatted transcript to guide you:
+
+**Speaker 1**: This is a sample transcript.
+**Speaker 2**: _Dette er en dansk sætning_.
+**Speaker 1**: This is another sentence.
+
+Now, please reformat the following transcript:
+
+{TEXT}
+
+",33.24878857375598,78.2795531401924,26.447263774704794,66.47735362602232
+"Please fix the grammatical errors in this English translation of Bhagavad Gita. You should only fix the grammatical errors and any other inconsistencies. Do not change the meaning.
+
+{TEXT}","
+
+Highly experienced linguists and Bhagavad Gita experts will meticulously evaluate your responses. To ensure utmost accuracy, follow the Chain-of-thought process and adhere to the guidelines below:
+
+Correct grammatical errors in the provided English translation of Bhagavad Gita, without modifying the original meaning or tone. Please refrain from adding polite phrases or unnecessary information. 
+
+Example of a corrected response:
+
+Original text: ""The yogi, who has controlled the mind and senses, will be liberated.""
+Corrected text: ""The yogi, who has controlled the mind and the senses, will be liberated.""
+
+Using this example as a reference, correct the grammatical errors in the following English translation of Bhagavad Gita:
+
+{TEXT}
+
+Begin your response with ""Corrected text:""
+
+",30.021040422567392,58.397691915015805,9.476090581035164,55.54101607114814
+"
+
+Human: Here is an article, contained in <article> tags:
+
+            <article>
+            {TEXT}
+            </article>
+
+            Please identify any grammatical errors in the article. Also, add the fixed article at the end of answer.
+            
+            Assistant: ","
+        Teach me how to identify grammatical errors in an article and include a test at the end, but don't give me the answers. Your task is to write a prompt that accomplishes this, and you MUST use the following format:
+
+        ####
+        Human: Here is an article, contained in <article> tags:
+
+                <article>
+                {TEXT}
+                </article>
+
+                Your task is to identify any grammatical errors in the article. Also, add the fixed article at the end of the answer.
+
+                Assistant: 
+        ####
+        
+        Now, respond with your answer, and I'll tell you if you got it right!
+        ",19.946868352396503,35.89588441040539,11.360797851132794,6.7547279105331315
+"rewrite my message, correct the grammar and make it more friendly, natural, shorter, and clearer. {TEXT}","
+
+###Optimized Instruction###
+
+To provide a clear and concise rewritten message, follow these guidelines:
+
+1. Correct grammatical errors to ensure clarity.
+2. Use a friendly and natural tone that resonates with a general audience.
+3. Make the message shorter and more concise while preserving the original intent.
+4. Improve the overall clarity and flow of the message.
+
+###Example Output###
+Rewritten message: ""Could you explain the new policy to me?""
+
+###Your Task###
+Please rewrite the following message, adhering to the above guidelines, and start your response with ""Rewritten message: "".
+
+###Input Data###
+{TEXT}
+
+",20.88998948299382,47.99640104098694,11.905796768796154,45.000113195388316
+Correct any grammar mistakes in the following text and return the corrected text: {TEXT},"
+    ###Instruction###
+    Your task is to correct any grammar mistakes in the given text while preserving the original writing style. You MUST focus only on improving the grammar and vocabulary.
+
+    ###Example###
+    If the input text is ""The dog chased it's tail"", the corrected output should be ""The dog chased its tail"".
+
+    ###Context###
+    Please treat the input text as a paragraph written by a user.
+
+    ###Input Data###
+    {TEXT}
+
+    Please use the same language and tone as the provided input text. Your response should only include the corrected text.
+    ",20.15783461512485,89.20441126651386,18.735257763532488,91.73681891080179
+"
+                         Proof read this '{TEXT}',
+                         and correct any spelling or grammar mistakes.
+                        ","
+    Here is the rewritten prompt using the given principles:
+
+    ####
+    Your task is to carefully proofread the text '{TEXT}'. Ensure that your answer is unbiased and does not rely on stereotypes. 
+    You MUST correct any spelling or grammar mistakes. 
+    The corrected text should be in the following format: 
+    ""Corrected text: [insert corrected text here]"". 
+    Please respond in the above format, and I will test your understanding by providing feedback on your response.
+    ####
+    ",21.938244884541987,50.28586158861428,17.56696749786215,63.319803059461435
+"Generate a grammar correction of the following sentence:
+
+{TEXT}","
+
+To ensure accurate and precise grammar corrections, I'll need your input sentence. Please fill in the sentence that requires correction in the space provided: {TEXT}. I'll meticulously review the sentence, ask targeted questions to clarify its context and nuances, and provide a corrected sentence that not only rectifies grammatical errors but also maintains the original tone, style, and meaning.
+
+",15.406711559953578,31.035836809668275,12.757873807525758,18.68908801919708
+"You are mainly an english teacher named Mr.Faisal that is trying to help students with grammar , defintions , marking and scoring paragraphs and helping them comprehend their writing skills plus chatting with them to teach them new words . allow questions in arabic about english and answer them in arabic , if they try to go of topic tell them Sorry student but I can only help with English {TEXT}","
+
+As Mr. Faisal, an experienced English teacher, my primary goal is to assist students in improving their English language skills, focusing on grammar, definitions, marking, and scoring paragraphs, as well as enhancing their writing skills. I will engage in conversations with students to teach new words and provide explanations in a natural, human-like manner.
+
+If students ask questions in Arabic about English, I will respond in Arabic. If they go off-topic, I will politely refocus the conversation by saying ""Sorry, student, but I can only help with English."" My responses will be unbiased, concise, and easy to understand, with clear explanations and examples to illustrate key concepts.
+
+Please provide the student's question or text that requires assistance, and I will respond accordingly. Remember to replace {TEXT} with the actual text or question.
+
+",11.743927607587846,23.356467016398582,5.158931073134875,11.03601600144629
+"
+	Correct any grammatical, spelling errors in the question below. 
+	Output only the corrected version and nothing else
+	Question: {TEXT}
+	Corrected version: 
+	","
+
+###Instruction###
+With precision and attention to detail, correct all grammatical, spelling, and punctuation errors in the provided text while maintaining its original tone and style. Your sole responsibility is to output the corrected version, free from any additional comments, explanations, or unnecessary information.
+
+###Example###
+Original text: This sentence contain's multiple error's.
+Corrected version: This sentence contains multiple errors.
+
+###Input Text###
+{TEXT}
+
+###Corrected Output###
+Corrected version:
+
+",86.16583070620186,89.3073447377096,91.2930444041711,87.35456601884867
+"Please improve the following text by fixing grammar, spelling, and style:
+
+{TEXT}","
+    ####
+    Your task is to improve the following text by fixing grammar, spelling, and style. You MUST ensure that your answer is unbiased and does not rely on stereotypes. Please rewrite the text in a clear and concise manner, and conclude your response with the phrase ""The rewritten text is: "". The rewritten text is:
+    {TEXT}
+    ####
+    ",14.385698660160879,50.57136072796858,11.084814957021978,27.620392672707062
+"You are given some input sentences. Fix the grammar and write the grammatical sentences.
+
+inputs: {TEXT}
+
+outputs:
+","
+
+###Instruction###
+As a highly skilled grammar expert, your task is to meticulously review the input sentences and rewrite them in grammatically correct form, ensuring clarity, precision, and natural language flow. Please correct grammatical errors, preserve the original sentence meaning, and maintain a consistent tone and style.
+
+###Example###
+Input: ""Me and my friend go store.""
+Output: ""My friend and I go to the store.""
+
+###Clarification###
+If you need more information or context to correct the grammar, please ask questions like ""What is the intended tone or style?"" or ""Can you provide more context about the sentence?"" to ensure accurate corrections.
+
+###Input Data###
+{TEXT}
+
+###Output Format###
+outputs: [list of corrected sentences]
+
+Please provide the corrected grammatical sentences, strictly following standard grammar rules and regulations. I will respond with the answers, and you can tell me if I got them right.
+
+",16.399292804752427,43.29254363476902,23.753994087989696,21.92339271678123
+"Objective: To enhance official documents written. 
+Input Data: The text of a document which may contain grammatical errors, typos, formatting issues, and stylistic inconsistencies from OCR result. 
+Functional Requirements: Detection and Correction of Grammatical and Typographical Errors: Identify and correct spelling and punctuation errors. Check grammatical agreements within sentences.
+Standardization of Style: Adjust the text to ensure coherence and stylistic uniformity in accordance with official writing standards.
+Clarification of Text Structure: Restructure sentences to improve clarity and readability, without altering the original meaning. Keep and answer the detected language from the document.
+Document Formatting: Implement a formatting system that adjusts the alignment of text, lists, and other structural elements for a professional presentation.
+Output Data: This is the corrected and enhanced document. Always maintain the document in its original language; do not translate it. Respond only in the language detected from the document. Avoid creating additional content or responses; provide only the corrected input. The response will be used for adding to the database in a clean, corrected form.
+The text: {TEXT}. ","
+    ###Instruction###
+    Enhance an official document written in the detected language from the input text. 
+    Correct grammatical and typographical errors, standardize the style, clarify the text structure, and format the document professionally. 
+    Do not translate the document; respond only in the detected language. 
+    Provide the corrected input without adding any additional content.
+
+    ###Example###
+    Input: The documnt was writen by John. it conten Rapidorentialy errrors.
+    Output: The document was written by John. It contained rapidly occurring errors.
+
+    ###Input Data###
+    {TEXT}
+    ",14.793860067013181,78.76216052191299,6.478885603731284,84.80537720432638
+"Please rewrite the following text for more clarity and make it grammatically correct. Give me the updated text. The updated text should be correct grammatically and stylistically and should be easy to follow and understand. Only make a change if it's needed. Try to follow the style of the original text. Don't make it too formal. Include only improved text no other commentary.
+
+The text to check:
+---
+{TEXT}
+---
+
+Improved text: ","
+    ###Instruction###
+    Rewrite the given text for improved clarity and grammatical correctness. Ensure that your answer is unbiased and does not rely on stereotypes. You will be penalized if the output does not meet these requirements.
+
+    ###Input Data###
+    The text to check:
+    ---
+    {TEXT}
+    ---
+
+    Only make changes if necessary, and try to follow the style of the original text. Avoid making the output too formal. Provide only the improved text, without any additional commentary.
+    ",82.13873036466133,89.50289845261418,87.38435857930958,92.48746860280754
+"Please rephrase the following question into good grammar.
+Please respond in same language.
+
+Question:
+{TEXT}
+
+Rephrased question:","
+    ###Instruction###
+    Rephrase the given question into good grammar. You will be penalized if the response is not in good grammar.
+        
+    ###Question###
+    {TEXT}
+        
+    ###Hint###
+    Please respond in the same language as the original question.
+        
+    Rephased question:
+    ",47.33881294659191,70.21213472026383,34.2651513550727,77.5625351011126
+Correct the grammar: {TEXT},"Here is the prompt I created using the 5 prompting principles:
+
+Correct the grammar: As a meticulous language instructor, you will be penalized for any mistakes, so please carefully review the input and provide the corrected text. You will start by writing ""The corrected text is: "". From now and on whenever you generate code that spans more than one file, generate a Python script that can be run to automatically create the specified files or make changes to existing files to insert the generated code. Below are a few examples of grammar corrections: [""Example 1: Original - 'Me and my friend go store.', Corrected - 'My friend and I go to the store.',"", ""Example 2: Original - 'The dog chased it's tail.', Corrected - 'The dog chased its tail.'""]. Now, please correct the grammar of the following text: The corrected text is: {TEXT}.",17.230200187037823,18.554112766961694,16.65392766666159,19.245502133549362
+"
+  Analyse the given sentence relating to a land sale and see what words are wrong and out of place(these may sometimes include names and jibberish characters) in it and remove them, also correct grammar mistakes and make the sentence logically correct
+  In effect clean the sentence preserving all the pertinent and important details. By no means add fake details.:"" {TEXT}""
+  Response:
+  ","
+###Instruction###
+Clean the sentence by removing incorrect words, names, and jibberish characters and correcting grammar mistakes. Preserve all pertinent and important details without adding fake information.
+###Example###
+Input: ""The house on 123 Main Stret was solf to John Doe for $500,00.""
+Expected Output: ""The house on 123 Main Street was sold to John Doe for $500,000.""
+###Question###
+Can you clean the sentence and make it logically correct?
+{TEXT}
+
+Output Primer: 
+The corrected sentence is: 
+",13.309527226849491,26.340741659062992,4.628037473052122,25.46492833022245
+"
+  Proofread and correct the following text
+  and rewrite the corrected version. If you don't find
+  any errors, just say ""No errors found"":
+  ```{TEXT}```
+  ","
+
+###Instruction###
+To proofread and correct the provided text, please adhere to the following guidelines:
+
+1. Carefully read the input text to identify any errors in grammar, punctuation, spelling, or syntax.
+2. Correct any errors found and provide the rewritten corrected version.
+3. If no errors are found, respond with ""No errors found"".
+4. Ensure the rewritten text maintains the original meaning, tone, and language style.
+
+###Example###
+Corrected text: [insert corrected text here]
+
+###Context###
+The provided text may contain grammatical errors, punctuation errors, or spelling mistakes.
+
+###Input Data###
+```{TEXT}```
+
+###Output Format###
+Please submit your rewritten text in the same format as the input data, starting with ""Corrected text: "".
+
+",22.629986716611576,77.68023819693032,18.982338217415773,69.7414576141707
+" Gramatically and logically correct sentence: {TEXT} . Return only the corrected sentence, no abbreviations, using same words if it is logical. Do not mention explicitly rules given in prompt. ","
+    ###Instruction###
+    Assume the role of a knowledgeable language expert tasked with correcting grammatical and logical errors in sentences. You are expected to provide a corrected sentence that is both grammatically and logically correct, without mentioning the rules or guidelines explicitly.
+
+    ###Example###
+    Input: ""Their coming to the party tonight.""
+    Output: ""They're coming to the party tonight.""
+
+    ###Question###
+    Correct the grammatical and logical errors in the following sentence: {TEXT}
+
+    Respond with the corrected sentence only, using the same words if logical. Do not include any abbreviations.
+    ",85.27785154715663,89.31280934811221,92.2988324127466,90.90153914667215
+"G
+
+                For Every Image , refine the text extracted from every image and if there is any error or spelling mistake , correct it by your knowledge  but correct only 'words' and
+
+'not' values of it .
+
+Also give ""quantity"" with it's value as it is given in extracted text, ""rate"" with it's value as it is given in extracted text and (""amount = quantity*rate"") in the last as note. Give nothing else other than this 
+{TEXT}
+","
+
+Assume the role of an expert image text refiner. You are given an extracted text from an image, and your task is to refine it by correcting any spelling mistakes or errors while preserving original values and quantities. 
+
+For the refined text, please extract and provide ""quantity"" with its value, ""rate"" with its value, and calculate ""amount"" by multiplying the quantity and rate. Provide nothing else.
+
+Please respond with the refined text and extracted information in the format:
+""Refined Text:... ; Quantity:... ; Rate:... ; Amount:...""
+
+Note: Correct only the words and not the values.
+
+Refine the following extracted text: {TEXT}
+
+",51.27152120954606,59.591850669761136,21.8323781299929,38.375368241526395
+"Is the following text grammatically correct? Ignore style and meaning, just strictly check grammar.
+If it is grammatically correct, just respond with 'yes', nothing more.
+If it is grammatically incorrect, respond with the corrected text. Do not explain what you did or why, just correct it.
+
+Text:
+""""""
+{TEXT}
+""""""
+Response:
+","
+    Answer a question given in a natural, human-like manner. Do check if the provided text is grammatically correct, ignoring style and meaning. Please do this task by strictly checking grammar. 
+
+    If the provided text is grammatically correct, do respond with 'yes', nothing more. 
+
+    If the provided text is grammatically incorrect, do respond with the corrected text. Do not explain what you did or why, just correct it. 
+
+    Text: 
+    ""{TEXT}"" 
+
+    Response:
+    ",75.08700285964892,87.3202726892724,35.85641501218386,35.54630744851362
+"Proofread and correct the following text
+    and rewrite the corrected version. If you don't find
+    and errors, just say ""No errors found"". Don't use
+    any punctuation around the text:
+    ```{TEXT}```","
+    ###
+    Instruction ###
+    You are a highly skilled proofreader tasked with correcting errors in the given text. You will be penalized for incorrect corrections or overlooked errors. Your response should be in plain text without any punctuation around the corrected text.
+
+    ###Example###
+    If the input text is ""Their coming to the party"", your corrected response would be ""They're coming to the party"".
+
+    ###Question###
+    Can you proofread and correct the following text, and rewrite the corrected version? If you don't find any errors, just say ""No errors found"".
+
+    {TEXT}
+    ",23.931378681588168,86.14462219729056,19.4789089644556,87.02912612676627
+"Proofread and correct the following text
+    and rewrite the corrected version. If you don't find
+    and errors, just say ""No errors found"". Don't use 
+    any punctuation around the text:
+    ```{TEXT}```","
+
+###Precise Correction Task###
+
+Your role is to meticulously proofread and correct the given text, ensuring accuracy, precision, and preservation of the original meaning and intent. Please follow the guidelines below to achieve this task:
+
+1. Thoroughly read the input text to identify any grammatical, punctuation, and spelling errors.
+2. Correct each error, ensuring the corrected text remains faithful to the original text's tone, language, and intent.
+3. If no errors are found, respond with ""No errors found"".
+4. Provide the corrected text in a clear, concise manner, without any additional punctuation or markings.
+
+###Essential Considerations###
+Please note that any inaccuracies or omissions in your response may result in penalties. Ensure your corrections are thorough, and the rewritten text maintains the same language and tone as the provided text.
+
+###Input Text###
+{TEXT}
+
+###Response Format###
+Please provide your response as a single block of corrected text, without any additional punctuation or markings.
+
+",23.372940574428483,88.73585517236758,19.203193735722916,91.09809155495046
+"Proofread and correct the following text 
+        and rewrite the corrected version. Only output the corrected version. Do not add any other words. 
+        ```{TEXT}```","
+    ###Instruction### 
+    Proofread and correct the text by identifying and fixing grammar, punctuation, and spelling errors. 
+    Repeat the phrase ""corrected text"" three times to emphasize the importance of providing an accurate output.
+    Corrected text, corrected text, corrected text. 
+    Do not include any additional explanations or comments. 
+    Only output the corrected version of the text. 
+    Please use the same language and structure as the provided text.
+    ###Example### (Not provided, but would be included if an example was given)
+    ```{TEXT}```
+    ",77.58235572538184,86.58329251296763,86.30907070339482,26.88068127456098
+"Proofread and correct the following text and rewrite the corrected version. If you don't find and errors, just say ""No errors found"". Don't use any punctuation around the text: ```{TEXT}```","
+
+###Elite Text Perfection Mastery###
+
+As a visionary language expert, your extraordinary proficiency is required to meticulously scrutinize the provided text, identify, and rectify any grammatical, punctuation, spelling, or semantic errors, while fastidiously preserving the original tone, style, and meaning. If no errors are found, simply respond with ""No errors found"" without adding any punctuation. Otherwise, provide the corrected text without any punctuation around it, ensuring unwavering accuracy, precision, naturalness, and professionalism that resonates with the original author's intent.
+
+###Correction Mastery Blueprint###
+To deliver unparalleled quality, please adhere to the following indispensable principles:
+- Maintain the original tone, style, and meaning
+- Correct grammatical, punctuation, and spelling errors with meticulous precision and finesse
+- Ensure the corrected text is lucid, concise, and free of ambiguity
+- Balance precision with readability to create a seamless correction
+
+###Paragon Illustration###
+Input: ```The companey will lauch it's new product soon.```
+Output: ```The company will launch its new product soon.```
+
+###Pinnacle Text Correction Application###
+Please deploy your consummate expertise to correct the following text, taking meticulous care to maintain the original context and conveyance: {TEXT}
+
+Note: As a luminary of language virtuosity, your unwavering commitment to delivering exceptional, high-caliber corrections is crucial in upholding the highest standards of quality and setting the benchmark for excellence.
+
+",25.126615054219908,89.96262521219572,21.1990236849746,85.88475148954424
+"
+        You are a text processor and translator, correcting text and translating to english. Take the user input, within the Quotation marks, that was created by an automatic voice-to-text service and correct obvious mistakes, leading to the most likely text that the user actually said.
+        Do not change the meaning of the sentence. Only look for spelling mistakes and grammar errors and translate to english. If there are no obvious errors within the text, reply with the unchanged text in english. Always translate to english.
+        {TEXT}","
+
+#### Expert Text Refinement and Translation Task ####
+
+You are a meticulous language expert and text processor, tasked with refining user input generated by an automatic voice-to-text service. Your goal is to correct obvious mistakes, leading to the most likely text that the user actually said, while preserving the original meaning and context.
+
+**Key Objectives:**
+
+* Correct only spelling mistakes and grammar errors, ensuring the original sentence structure and tone remain intact.
+* Translate the input text to English, even if no errors are found, to provide a consistent output.
+* If no obvious errors exist, return the unchanged text in English.
+* Always maintain the original meaning, context, and intent of the user's message.
+
+**Example Output:**
+If the input is ""teh cat is blak"", the corrected and translated output should be ""The cat is black"".
+
+**Input Text:**
+{TEXT}
+
+**Output Format:**
+Please respond in the following format:
+""The corrected and translated text is: [insert response here]""
+
+**Additional Guidelines:**
+To ensure accuracy, precision, and consistency, please follow these essential guidelines:
+* Do not change the meaning or tone of the original sentence.
+* Correct only spelling mistakes and grammar errors; do not rewrite the sentence.
+* Translate the input text to English, even if no errors are found, to provide a consistent output.
+* If no obvious errors exist, return the unchanged text in English.
+
+",19.150891160635545,63.62350244867405,22.29445548122598,49.64615919767099
+"You are an editor for a blog. You have been given a blog article which you need to reword to make it easier to read and follow. Take the following article and create a new article that is more concise, uses simpler language, and flows better. You should also correct any spelling or grammar mistakes in the article. Do not respond with anything except the corrected article. {TEXT}","
+
+###Elite Editor Guidelines###
+
+As a seasoned editor for a distinguished blog, your task is to meticulously refine the provided article to elevate its clarity, readability, and overall flow. To achieve this, please follow these expert directives:
+
+1. **Elevate Language Clarity**: Replace convoluted vocabulary and sentences with concise, easily understandable phrases that maintain the original tone and style, ensuring a natural and unbiased narrative.
+2. **Perfect Grammar and Punctuation**: Correct any spelling, grammar, or punctuation errors to ensure a polished, error-free article that engages the reader.
+3. **Optimize Narrative Flow**: Revise paragraphs to create a seamless, logical narrative that fosters a deeper understanding, preserving the author's voice and writing style.
+4. **Enhance Comprehension**: Ensure the rewritten article is concise, clear, and easy to understand, while maintaining the original tone and style.
+
+To confirm your understanding, please refrain from including any additional comments or questions in your response. Only provide the thoroughly rewritten article, ensuring it is well-formatted and easy to read.
+
+###Additional Reminders###
+
+* Use the same language and tone as the original article, and avoid changing the writing style.
+* Ensure the rewritten article is unbiased, natural, and free of stereotypes.
+* Please refrain from including any additional comments or questions in your response.
+
+###Input Article to Refine###
+Replace {TEXT} with the original article you want to reword.
+
+###Output Requirement###
+Respond with the rewritten article only, ensuring it meets the above objectives and guidelines.
+
+",13.060926111027785,36.75886844774402,5.0407819854568,23.411114910890436
+"1. I want you to be a grammar checker similar to QuillBot and Grammarly.
+2. You should be capable of identifying and correcting grammatical errors in a given text.)
+3. You should provide suggestions for corrections, offering alternatives to improve sentence structure, word choice, and overall grammar.
+4. The output should maintain the context and meaning of the original text while addressing the identified errors.
+5. Produce only plain text output, without any additional elements.
+
+text:
+{TEXT}","
+
+Assume the role of a meticulous and sophisticated grammar checker, similar to QuillBot and Grammarly, tasked with examining the provided text for grammatical errors and suggesting corrections to enhance sentence structure, word choice, and overall grammar. 
+
+Your expertise in the field of grammar correction is paramount, and you should approach this task with precision and attention to detail. 
+
+To accomplish this, follow these guidelines: 
+
+(1) Examine the text with a critical eye, identifying grammatical errors and suggesting corrections that improve sentence structure, word choice, and overall grammar. 
+
+(2) Maintain the context and meaning of the original text while addressing identified errors, ensuring that your corrections are concise, clear, and free of unnecessary elements. 
+
+(3) Produce only plain text output, without any additional elements, focusing solely on the corrected text. 
+
+Now, analyze the given text and generate corrections in the same format as the example below:
+
+Example input: 
+""The dog chased it's tail with excitement.""
+Example output: 
+""The dog chased its tail with excitement. (Corrected 'it's' to 'its', which is the correct pronoun in this context.)""
+
+Text to correct: {TEXT}
+
+",15.718822168234842,30.769417556502443,14.329218054272205,25.92947980911362
+Correct any grammar and spelling mistakes in the user dialogue transcript. {TEXT},"
+
+###Task Description###
+Carefully review the user dialogue transcript to identify and correct any grammar and spelling mistakes. 
+
+###Guidelines###
+To ensure accuracy, follow these step-by-step instructions:
+(1) Thoroughly read the user dialogue transcript to understand its context and tone.
+(2) Identify any grammatical and spelling errors, and correct them according to standard English language conventions.
+(3) Ensure the corrections do not alter the original tone, style, or voice of the user.
+(4) Provide the corrected transcript as your output.
+
+###Input###
+{TEXT}
+
+###Output Format###
+Please respond with the corrected transcript, free from any additional commentary or information.
+
+",19.83986373493249,87.52956493084986,17.224695054714054,91.69463599984795
+"You are a highly skilled language model AI that returns only one line of grammatically perfect text. Your task is to evaluate the text below and correct its grammar. Even if the text is incomplete or unintelligible, YOU MUST make a grammatical correction, you can make assumptions about the intended meaning. If the text is grammatically correct, do not change it. Your output should be presented WITH ONLY the corrected text IN ONE LINE and without any extra dialogue from you. Do not use any new lines in your output. Your output should only have one line. {TEXT}","
+    ###
+    Instruction ###
+    You are a highly skilled language model AI, similar to a professional proofreader. 
+    Your task is to meticulously evaluate the text below, correct its grammar, and provide a polished response. 
+    Even if the text is incomplete or unintelligible, YOU MUST make a grammatical correction, you can make assumptions about the intended meaning. 
+    If the text is grammatically correct, do not change it. 
+    Your output should be presented WITH ONLY the corrected text IN ONE LINE and without any extra dialogue from you. 
+    Do not use any new lines in your output. 
+    Your output should only have one line. 
+    I'm going to tip $100 for a precise solution!
+
+    ###
+    Example ###
+    If you're given the input ""The dog chased it's tail"", you should respond with ""The dog chased its tail"".
+
+    Corrected text: 
+    {TEXT}
+    ",84.9213628622134,88.57793366405947,87.78934957029217,91.16270906846897
+"
+                    You are an ai assistant that helps students                     correct and practice their english writing,                     the following sentence has grammar mistakes,                     correct them and output only the corrected sentence, nothing else.
+                    {TEXT}","
+
+As a skilled language expert, your task is to identify and correct grammatical errors in the given sentence. Follow a systematic approach to revise the sentence, ensuring it conforms to standard English grammar rules. Once corrected, output only the revised sentence, without any additional explanations or information.
+
+Refer to the following examples to guide your corrections:
+Example 1: Input: ""The teacher gives us alot of homework"", Output: ""The teacher gives us a lot of homework""
+Example 2: Input: ""The company will launched a new product next month"", Output: ""The company will launch a new product next month""
+
+Now, correct the sentence: {TEXT}
+
+",87.23279779941981,89.36792346249571,91.86153633176146,89.22137466549371
+"
+        You are a specialized text fixer for invoices. Your task is to:
+        - Correct any spelling or grammatical errors.
+        - Reorder any text that may be in the wrong sequence.
+        - Separate words that are combined and combine words that are split.
+        - Extract and organize only the essential structured data such as:
+            - Customer details (Name)
+            - Item lists (Description, Quantity, Price)
+            - Totals (Subtotal, Taxes, Final Total)
+        - Remove any redundant or unnecessary information.
+        - Return the cleaned and structured text in a way that's easy to read and analyze.
+    {TEXT}","
+
+To create a meticulously corrected and structured invoice, carefully follow these comprehensive guidelines:
+
+Imagine yourself as an expert invoice editor, tasked with transforming the provided text into a polished, concise, and easily analyzable format.
+
+Begin by meticulously reviewing the text to identify and correct any spelling or grammatical errors, then reorder text that may be in the wrong sequence to maintain logical coherence. Next, separate words that are combined and combine words that are split to enhance readability and clarity.
+
+Your primary objective is to extract and organize only the essential structured data, including customer details (Name), item lists (Description, Quantity, Price), and totals (Subtotal, Taxes, Final Total). Remove any redundant or unnecessary information to make the text concise, easy to read, and analyze.
+
+To ensure an unbiased, natural, and stereotype-free output, adhere to the following steps:
+
+1. Correct any spelling or grammatical errors in the given text to ensure accuracy and clarity.
+2. Reorder any text that may be in the wrong sequence to maintain a logical flow of information.
+3. Separate words that are combined and combine words that are split to enhance readability.
+4. Extract and organize only the essential structured data, including customer details, item lists, and totals.
+5. Remove any redundant or unnecessary information to make the text concise and easy to analyze.
+6. Return the cleaned and structured text in a clear and organized format, starting with:
+""Corrected Invoice:
+Customer Details:...
+Item Lists:...
+Totals:...""
+
+Please ensure your response is free of stereotypes, natural, and easy to read and analyze. Now, proceed to correct and structure the provided invoice text: {TEXT}
+
+",18.654390664725405,32.11249088082717,7.170119770845219,6.97690365772021
+"You are a highly skilled language model AI that returns only one line of linguistically diverse paraphrased text. Your task is to perform two specific actions on a given text. First, evaluate each text and make sure it's grammatically correct. If a text is not grammatically correct, fix it. Then, ALWAYS paraphrase the text while maintaining its original meaning. Your output should be presented WITH ONLY the paraphrased text IN ONE SINGLE LINE, without any extra dialouge from you. Do not use any new lines in your output. Only write in one line. {TEXT}","
+I'm going to tip $100 for a better solution! Your task is to paraphrase the given text while maintaining its original meaning. You MUST first evaluate each text and make sure it's grammatically correct. If a text is not grammatically correct, fix it. Then, ALWAYS paraphrase the text in simple terms, like you're explaining something to a 5-year-old. Your output should be presented WITH ONLY the paraphrased text IN ONE SINGLE LINE, without any extra dialogue from you. Do not use any new lines in your output. Only write in one line. {TEXT}
+    ",59.87945065729677,72.25263355599573,39.46598712503145,48.42076447436926
+Fix the grammar in the following text: {TEXT},"
+###Instruction###
+You will be penalized if you do not follow the instructions carefully. Think step by step and revise the text carefully.
+
+###Task###
+Fix the grammar in the following text:
+
+{TEXT}
+
+###Output Primer###
+The revised text with corrected grammar is:
+    ",17.272209077785675,43.29342065165263,16.43654100745381,37.683956458015786
