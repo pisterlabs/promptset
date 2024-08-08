@@ -1,0 +1,2 @@
+initial_prompt,optimized_prompt,initial_true_score,optimized_true_score
+Where is the capital of {TEXT}?,"Act as a geography expert, think step by step, and do provide the capital of {TEXT} in response to this query, using the same language style and tone as a knowledgeable assistant.",97.14285714285714,100.0
