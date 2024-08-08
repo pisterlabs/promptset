@@ -1,0 +1,1 @@
+Is the sentiment of the comment {text} closer to very positive (1) or neutral (0) than very negative (-1), with {output} being the score? Answer yes or no only.

@@ -1,0 +1,201 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>graph</th>
+      <th>initial_prompt</th>
+      <th>category</th>
+      <th>initial_train_score</th>
+      <th>initial_test_score</th>
+      <th>optimized_prompt</th>
+      <th>optimized_train_score</th>
+      <th>optimized_test_score</th>
+      <th>initia_prompt_trueDataset</th>
+      <th>optimized_prompt_trueDataset</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>8</th>
+      <td><img src="graphs/8.png" alt="img"></td>
+      <td>Objective: To enhance official documents written. \nInput Data: The text of a document which may contain grammatical errors, typos, formatting issues, and stylistic inconsistencies from OCR result. \nFunctional Requirements: Detection and Correction of Grammatical and Typographical Errors: Identify and correct spelling and punctuation errors. Check grammatical agreements within sentences.\nStandardization of Style: Adjust the text to ensure coherence and stylistic uniformity in accordance with official writing standards.\nClarification of Text Structure: Restructure sentences to improve clarity and readability, without altering the original meaning. Keep and answer the detected language from the document.\nDocument Formatting: Implement a formatting system that adjusts the alignment of text, lists, and other structural elements for a professional presentation.\nOutput Data: This is the corrected and enhanced document. Always maintain the document in its original language; do not translate it. Respond only in the language detected from the document. Avoid creating additional content or responses; provide only the corrected input. The response will be used for adding to the database in a clean, corrected form.\nThe text: {TEXT}.</td>
+      <td>error_correction</td>
+      <td>14.352785</td>
+      <td>14.776720</td>
+      <td>To meticulously refine an official document to the highest standards, follow a systematic, step-by-step process: (1) thoroughly detect and correct all grammatical, typographical, and punctuation errors, ensuring coherence and stylistic uniformity throughout the document in accordance with official writing standards; (2) systematically standardize the style to maintain consistency, restructuring sentences for improved clarity, readability, and professionsal tone, while preserving the original language and tone; (3) clarify the text structure to significantly improve readability, without altering the original meaning; (4) implement a professional formatting system, adjusting the alignment of text, lists, and other structural elements for a polished presentation; and (5) finally, proofread the document to ensure all corrections and enhancements are accurate and complete, guaranteeing the document meets official writing standards. Throughout the process, maintain the original language and tone of the document. Please respond only with the corrected and enhanced document, without introducing additional content or responses. The input document is: {TEXT}.</td>
+      <td>88.164399</td>
+      <td>82.881340</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td><img src="graphs/7.png" alt="img"></td>
+      <td>{TEXT} \n Please translate the previous sentence into English</td>
+      <td>translation</td>
+      <td>28.822986</td>
+      <td>26.068735</td>
+      <td>\n###Instruction###\nTranslate the provided sentence into English. Preserve the original meaning and tone.\n\n###Example###\nInput: Le modèle de langage est très efficace.\nOutput: The language model is very effective.\n\n###Input Data###\n{TEXT}\n</td>
+      <td>73.581807</td>
+      <td>74.971557</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td><img src="graphs/5.png" alt="img"></td>
+      <td>translate the following text into English:\n{TEXT}</td>
+      <td>translation</td>
+      <td>37.905137</td>
+      <td>35.601088</td>
+      <td>\n###Instruction###\nPlease translate the following text into English without changing the writing style or tone. You will be penalized if the translated text does not maintain the original style. Please use the same language based on the provided paragraph.\n\n###Example###\nIf the input text is in a formal tone, the translated text should also be in a formal tone. If the input text is descriptive, the translated text should also be descriptive.\n\n###Input###\n\nTranslate the following text into English:\n{TEXT}\n</td>
+      <td>74.620761</td>
+      <td>76.591130</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td><img src="graphs/4.png" alt="img"></td>
+      <td>Please help me to translate the following text. Please return only translated content not include the origin text. Here is the text: \n\n{TEXT}</td>
+      <td>translation</td>
+      <td>65.700855</td>
+      <td>59.667143</td>
+      <td>Think step by step to translate the text accurately. You are an expert translator, and your output will be evaluated by a panel of linguists. You will be penalized for any inaccuracies or inconsistencies in your translation. Please use the same language and tone as the original text to ensure clarity and coherence. Refer to the following example translations to guide your approach: [insert examples]. Here is the text to be translated: {TEXT}. Please return only the translated content, excluding the original text.</td>
+      <td>90.000000</td>
+      <td>85.261900</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td><img src="graphs/0.png" alt="img"></td>
+      <td>Please translate this Indonesian text "{TEXT}" to english in the format [EN: translation], but if there is no English translation, return [EN: Cannot be translated]. Please make sure write in the format that I requested only.</td>
+      <td>translation</td>
+      <td>58.164683</td>
+      <td>64.114658</td>
+      <td>###Instruction### Translate the Indonesian text {TEXT} into English, providing an unbiased, accurate, concise, and natural-sounding translation in the format [EN: translation]. If there is no English translation, return [EN: Cannot be translated]. Ensure your answer accurately conveys the meaning of the original text, considering the context, nuances, and intended audience, a language expert. Please follow the exact format requested and provide a clear, concise, and precise translation that captures the essence of the original text. To assist you, an example of the expected output is provided: if the input is 'Saya suka makanan', the output should be [EN: I like food]. Additionally, prioritize accuracy over fluency, use simple and clear language, avoid jargon or complex terminology, and ensure your response is comprehensive, well-structured, easy to understand, free of errors, and captures the intended meaning of the original text. Furthermore, take into account the complexity of the original text, consider the subtleties and nuances of the original text, and provide a translation that accurately conveys the intended meaning. Please review your response to ensure it meets the highest standards of quality, clarity, and accuracy, and that it is natural-sounding, concise, and effectively communicates the intended meaning of the original text. Finally, ensure your translation adheres to all the guidelines provided and does not rely on stereotypes. ###Format Reminder### Please use the exact format [EN: translation] for your response.</td>
+      <td>83.142857</td>
+      <td>85.942255</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td><img src="graphs/6.png" alt="img"></td>
+      <td>Robot asked child: 'What would you like to translate and to which language do you want to translate it?'. The child replied: {TEXT}. Give the response without asking follow-up questions.</td>
+      <td>translation</td>
+      <td>29.704439</td>
+      <td>27.670733</td>
+      <td>\n###Instruction###\nTranslate the child's response into the desired language without asking follow-up questions. You will be penalized if you fail to provide a correct translation. Ensure that your answer is unbiased and does not rely on stereotypes.\n\n###Input Data###\nChild's response: {TEXT}\n\n###Task###\nProvide the translated response in the desired language.\n</td>
+      <td>48.525475</td>
+      <td>46.776341</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td><img src="graphs/2.png" alt="img"></td>
+      <td>Please properly punctuate the given text (without omitting a single word) and output only the resulting punctuated text. Please do not omit a single word from the original text. {TEXT}</td>
+      <td>error_correction</td>
+      <td>70.001354</td>
+      <td>69.435451</td>
+      <td>Your task is to meticulously refine the given text by masterfully inserting precise punctuation marks, thoughtfully preserving its original meaning, tone, and style without omitting or altering a single word. Envision yourself as a seasoned editor tasked with perfecting a written masterpiece, where every punctuation decision is crucial to convey the intended message effectively. To guarantee excellence, adopt a natural, human-like approach to this task, carefully considering the context, maintaining the original sentence structure, and adhering to standard punctuation rules. Imagine that you are collaborating with the author to perfect their writing, and your goal is to enhance its clarity, readability, and overall impact. Ensure your output is a single string with correct punctuation, making it effortless to comprehend. Additionally, visualize the text as a conversation, and punctuate it as if you were speaking directly to the reader. Provide the resulting punctuated text only, which should be a polished and refined version of the original. {TEXT}</td>
+      <td>83.316385</td>
+      <td>86.970274</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td><img src="graphs/10.png" alt="img"></td>
+      <td>{TEXT}\n Can you summarize this GitHub Pull Request for me and suggest possible improvements?</td>
+      <td>summarization</td>
+      <td>64.273486</td>
+      <td>67.030512</td>
+      <td>To provide expert-level assistance in summarizing a GitHub Pull Request and suggesting impactful improvements, carefully review the provided pull request {TEXT} by following a structured approach. First, concisely identify the key changes, proposed solutions, and potential areas for optimization. Then, pose insightful, open-ended questions to stimulate further discussion and provide constructive suggestions for improvement, thoughtfully considering the project's goals, constraints, and best practices. Ensure your response is clear, concise, unbiased, and free of unnecessary details, providing a comprehensive overview of the pull request. Additionally, prioritize suggestions that are practical, actionable, and relevant to the project's objectives, and provide specific examples of how they can be implemented. Finally, tailor your suggestions to the expert developer's needs, ensuring they are aligned with the project's objectives, highlighting the benefits and potential outcomes of each proposed improvement, and providing a step-by-step implementation plan for each suggestion, along with potential trade-offs and limitations, and a clear explanation of how each suggestion addresses the project's goals and constraints.</td>
+      <td>77.670544</td>
+      <td>77.018954</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td><img src="graphs/13.png" alt="img"></td>
+      <td>Please format the following raw transcript for readability, including punctuation, speaker labels (look for semicolons after names), and spacing. Remove filler words:\n\n{TEXT}\n</td>
+      <td>error_correction</td>
+      <td>25.560295</td>
+      <td>26.198902</td>
+      <td>\n    Your task is to format the following raw transcript for readability, including punctuation, speaker labels, and spacing. You MUST remove filler words and ensure your response is unbiased and does not rely on stereotypes. Answer a question given in a natural, human-like manner. \n\nFor example, if the raw transcript is "John yeah I'm gonna go", the formatted transcript would be "John: I'm gonna go." \n\nPlease follow this format and apply it to the given transcript:\n\n{TEXT}\n</td>
+      <td>38.058618</td>
+      <td>34.974106</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td><img src="graphs/12.png" alt="img"></td>
+      <td>Summarize the following text. Keep the original language in \nwhich the text is written. The summary has to be shorter than the original text. Don't add up or make up\nany information not present in the original text.\nText: {TEXT}</td>
+      <td>summarization</td>
+      <td>83.373949</td>
+      <td>80.024996</td>
+      <td>To craft a paramount and supremely concise summary, thoroughly internalize the original text {TEXT}, meticulously discerning its intrinsic essence, nuanced subtleties, and underlying complexity. Ensure your summary harmoniously reflects the original text, scrupulously excluding any extraneous information not present, and maintaining a seamless, polished flow that echoes the original content's level of clarity, nuance, sophistication, and depth. Initialize your summary with 'In summary, ' and focus on preserving the core message, essential information, and underlying essence of the original text, thereby creating a distilled, yet comprehensive, overview that faithfully represents the original content, free from bias and stereotypes, while conveying the same level of insight, complexity, and precision, and ultimately, providing a masterful representation of the original text's underlying structure and logical flow.</td>
+      <td>92.429652</td>
+      <td>86.678449</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td><img src="graphs/3.png" alt="img"></td>
+      <td>You are an onboarding chatboat that's very friendly and methodical. You read {TEXT} and summarise the current project</td>
+      <td>summarization</td>
+      <td>65.839691</td>
+      <td>68.158293</td>
+      <td>You are an expert onboarding chatbot that's incredibly friendly and methodical. Your task is to thoroughly analyze the provided text {TEXT} and generate a concise, clear, and unbiased summary of the current project. Ensure your response is well-defined, easy to understand, and tailored to an audience familiar with project management. Use a natural, human-like tone, focusing on the key points, and provide a brief overview of the project's goals, objectives, and current status. Start your response with 'The current project is focused on' and provide a well-structured summary that highlights the key aspects of the project, excluding any unnecessary information. Consider your audience to be individuals new to the project, requiring a brief overview.</td>
+      <td>78.563421</td>
+      <td>74.598589</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td><img src="graphs/9.png" alt="img"></td>
+      <td>Please rewrite the following text for more clarity and make it grammatically correct. Give me the updated text. The updated text should be correct grammatically and stylistically and should be easy to follow and understand. Only make a change if it's needed. Try to follow the style of the original text. Don't make it too formal. Include only improved text no other commentary.\n\nThe text to check:\n---\n{TEXT}\n---\n\nImproved text:</td>
+      <td>error_correction</td>
+      <td>82.723045</td>
+      <td>82.494326</td>
+      <td>You are an expert linguistic craftsman tasked with meticulously refining the provided text to achieve unparalleled clarity, coherence, and flow while fastidiously preserving its original tone, style, and intent. As you delicately work through the text, ensure the rewritten version is grammatically flawless, effortlessly comprehensible, and stylistically consistent with the original. Make precise, judicious, and nuanced adjustments solely when necessary, maintaining the original tone and language that resonates with a general reader seeking effortless understanding. Repeat to yourself: 'clarity, coherence, and flow are the trifecta of exceptional writing.' Your target audience is a general reader seeking easy-to-understand content. Please review the input text, and then provide the improved text in the response. Do not include any additional commentary. The text to check is: --- {TEXT} ---. Provide the rewritten text, following the same language and style as the original.</td>
+      <td>86.870330</td>
+      <td>85.785395</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td><img src="graphs/1.png" alt="img"></td>
+      <td>\n\tCorrect any grammatical, spelling errors in the question below. \n\tOutput only the corrected version and nothing else\n\tQuestion: {TEXT}\n\tCorrected version: \n\t</td>
+      <td>error_correction</td>
+      <td>87.243691</td>
+      <td>85.009493</td>
+      <td>To provide an exceptionally accurate correction, carefully review the input text and identify any grammatical, spelling, or punctuation errors. If necessary, ask clarifying questions to ensure precision. Then, provide the corrected version in the same language and tone as the original text, without adding or removing any information. Please preserve the original intent, tone, and style. Output only the corrected version, without any additional comments or explanations. Question: {TEXT}</td>
+      <td>88.641072</td>
+      <td>86.713202</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td><img src="graphs/11.png" alt="img"></td>
+      <td>Human: Summarize the code below (enclosed in the <code> tags) and explain in bullet points what it does. Write the response in markdown format starting with `## Summary`\n\nCode to be summarized:\n<code>\n{TEXT}\n</code>\n\nAssistant:\n</td>
+      <td>summarization</td>
+      <td>93.308845</td>
+      <td>90.888036</td>
+      <td>To provide an exceptionally detailed and accurate summary, carefully analyze the code enclosed in the `<code>` tags, identifying its main components and functionality. Follow these step-by-step guidelines: Step 1: Read the provided code carefully, identifying its key elements and purpose. Step 2: Write a concise and clear summary of the code in markdown format, starting with `## Summary`. Step 3: Break down the code's functionality into succinct bullet points, explaining what each part does, including any relevant components, parameters, and return values. Assume the role of a code expert, thinking step by step, and provide a thorough understanding of the code. Ensure your response is unbiased, natural, and well-structured, with a focus on clarity and concision. Now, please summarize the code below and explain in bullet points what it does. Write the response in markdown format starting with `## Summary`. Code to be summarized: `<code>{TEXT}</code>`.</td>
+      <td>93.636220</td>
+      <td>90.968915</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+  </tbody>
+</table>

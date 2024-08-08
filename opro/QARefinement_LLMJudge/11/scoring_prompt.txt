@@ -1,0 +1,1 @@
+Does the text "${text}" describe an error, and does the output "${output}" correctly inform the consumer of the issue in natural language? Answer yes or no only.

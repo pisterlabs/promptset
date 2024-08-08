@@ -1,0 +1,45 @@
+# hello-world.sub
+# My HTCondor submit file
+
+# Provide HTCondor with the name of the Docker container
+# universe = vanilla
+container_image = docker://djp4u1/env:latest
+universe = container
+
+# Specify the name of the log, standard error, and standard output (or "screen output") files. 
+# Wherever you see $(Cluster), HTCondor will insert the queue number assigned to this set of jobs at the time of submission.
+log = main_$(Cluster)_$(Process).log
+error = main_$(Cluster)_$(Process).err
+output = main_$(Cluster)_$(Process).out
+
+# Specify your executable (single binary or a script that runs several
+#  commands) and arguments to be passed to jobs. 
+#  $(Process) will be a integer number for each job, starting with "0"
+#  and increasing for the relevant number of jobs.
+executable = run.sh
+arguments = $(Cluster)
+
+# Transferring Files
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+transfer_input_files = llm_async.py, translations_async.py, main.py, save.py, hf.py
+
+# IMPORTANT! Require execute servers that can access /staging
+requirements = (Target.HasCHTCStaging == true) && ((OpSysMajorVer == 7) || (OpSysMajorVer == 8) || (OpSysMajorVer == 9))
+
+# Tell HTCondor requirements (e.g., operating system) your job needs, 
+# what amount of compute resources each job will need on the computer where it runs.
+# +is_resumable = true
+# +WantGlideIn = true
+# +WantFlocking = true
++WantGPULab = true
++GPUJobLength = "long"
+
+request_cpus = 5
+request_memory = 100GB
+request_disk = 500GB
+request_gpus = 4
+require_gpus = (Capability >= 8.0) && (GlobalMemoryMb >= 50000)
+
+# Tell HTCondor to run 1 instance of our job:
+queue 1

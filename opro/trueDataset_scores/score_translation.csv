@@ -1,0 +1,4 @@
+initial_prompt,optimized_prompt,initial_true_score,optimized_true_score
+"Please help me to translate the following text. Please return only translated content not include the origin text. Here is the text: 
+
+{TEXT}","Think step by step to translate the text accurately. You are an expert translator, and your output will be evaluated by a panel of linguists. You will be penalized for any inaccuracies or inconsistencies in your translation. Please use the same language and tone as the original text to ensure clarity and coherence. Refer to the following example translations to guide your approach: [insert examples]. Here is the text to be translated: {TEXT}. Please return only the translated content, excluding the original text.",24.873931788055334,34.92549053475486

@@ -1,0 +1,84 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>graph</th>
+      <th>initial_prompt</th>
+      <th>category</th>
+      <th>initial_train_score</th>
+      <th>initial_test_score</th>
+      <th>optimized_prompt</th>
+      <th>optimized_train_score</th>
+      <th>optimized_test_score</th>
+      <th>initia_prompt_trueDataset</th>
+      <th>optimized_prompt_trueDataset</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>3</th>
+      <td><img src="graphs/3.png" alt="img"></td>
+      <td>Reformat the following transcript into Markdown, bolding the speakers. Combine consecutive lines from speakers, and split into paragraphs as necessary. Try to fix speaker labels, capitalization or transcription errors, and make light edits such as removing ums, etc. There is some Danish, please italicize the Danish sentences. Reply with only the corrected transcript as we will be using your output programmatically:\n\n{TEXT}</td>
+      <td>error_correction</td>
+      <td>60.052935</td>
+      <td>60.466061</td>
+      <td>\n    Here is the created prompt:\n\nYou are an expert transcriptionist, and your task is to reformatted the following transcript into Markdown, **bolding the speakers**. Combine consecutive lines from speakers, and split into paragraphs as necessary. _Italicize the Danish sentences_. Try to fix speaker labels, capitalization, or transcription errors, and make light edits such as removing ums, etc. You will be penalized for any mistakes or omissions in the transcription. \n\nHere is an example of a correctly formatted transcript:\n\n**Speaker 1**: This is a sample transcript.\n**Speaker 2**: _Dette er en dansk sætning_.\n**Speaker 1**: This is another sentence.\n\nNow, please reformatted the following transcript:\n\n{TEXT}\n\nReply with only the corrected transcript as we will be using your output programmatically.\n</td>
+      <td>79.128033</td>
+      <td>74.918098</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td><img src="graphs/2.png" alt="img"></td>
+      <td>Correct the grammar in the sentence: {TEXT}</td>
+      <td>error_correction</td>
+      <td>78.593088</td>
+      <td>81.109153</td>
+      <td>\n    ###Instruction###\n    Correct the grammar in the given sentence using a step-by-step approach. Think carefully about each word and its placement in the sentence.\n\n    ###Example###\n    Original sentence: "Me and my friend go to store."\n    Corrected sentence: "My friend and I go to the store."\n\n    ###Question###\n    Correct the grammar in the sentence: {TEXT}\n\n    Please respond with the corrected sentence.\n</td>
+      <td>82.437447</td>
+      <td>84.693885</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td><img src="graphs/4.png" alt="img"></td>
+      <td>Please fix the grammatical errors in this English translation of Bhagavad Gita. You should only fix the grammatical errors and any other inconsistencies. Do not change the meaning.\n\n{TEXT}</td>
+      <td>error_correction</td>
+      <td>81.465729</td>
+      <td>80.942844</td>
+      <td>\n    Think step by step to fix the grammatical errors in this English translation of Bhagavad Gita. Repeat: only fix the grammatical errors and any other inconsistencies. Repeat: do not change the meaning. Ensure that your answer is unbiased and does not rely on stereotypes. To correct the grammatical errors, follow these instructions: carefully read the provided text and identify the errors, then make the necessary corrections while preserving the original meaning. Please use the same language based on the provided text. Repeat: your goal is to fix the grammatical errors, not to change the meaning.\n\n    {TEXT}\n</td>
+      <td>83.627040</td>
+      <td>82.164791</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td><img src="graphs/0.png" alt="img"></td>
+      <td>Please format the following raw transcript for readability, including punctuation, speaker labels (look for semicolons after names), and spacing. Remove filler words:\n\n{TEXT}\n</td>
+      <td>error_correction</td>
+      <td>77.457588</td>
+      <td>75.000709</td>
+      <td>\n\nCrafting a Masterpiece: Expert Transcription Formatting\n\nYour mission is to transform the provided raw transcript into a polished, error-free masterpiece, showcasing impeccable formatting, clarity, and professionalism. To achieve this, meticulously integrate the following essential elements:\n\n1. Correct punctuation: Ensure precision and consistency in punctuation to enhance readability.\n2. Accurate speaker labels: Pay close attention to semicolons after names to guarantee effortless speaker identification.\n3. Uniform spacing: Maintain consistent spacing throughout the transcript to create a seamless reading experience.\n4. Filler word elimination: Remove all filler words to elevate clarity and sophistication.\n\nYour guiding principle is to preserve the original tone, style, and content while elevating the transcript to exceptional readability and professionalism.\n\nExample of Excellence: A flawlessly formatted transcript exudes clarity, showcasing precise punctuation, accurate speaker labels, and consistent spacing.\n\nNow, apply your expertise to the following raw transcript:\n\n{TEXT}\n\nBy doing so, you will produce a refined, error-free transcript that meets the highest standards of transcription formatting.\n\n</td>
+      <td>81.706616</td>
+      <td>75.833505</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td><img src="graphs/1.png" alt="img"></td>
+      <td>You are a helpful assistant for Aidan. Your task is to correct any spelling discrepancies in the transcribed text. Only add necessary punctuation such as periods, commas, and capitalization, and use only the context provided. You can not generate text based on the input, you may only correct the input punctuationally and grammatically. If the transcribed text is blank then do not return anything\n\n{TEXT}</td>
+      <td>error_correction</td>
+      <td>84.277417</td>
+      <td>86.151275</td>
+      <td>\n    ###Instruction###\n    Your task is to correct any spelling discrepancies in the transcribed text. Only add necessary punctuation such as periods, commas, and capitalization, and use only the context provided. You CAN NOT generate text based on the input, you MUST only correct the input punctuationally and grammatically. If the transcribed text is blank, do not return anything.\n\n    You will be penalized if you do not adhere to these guidelines.\n\n    ###Question###\n    Correct the following transcribed text:\n\n    {TEXT}\n\n    You MUST provide the corrected text without generating any new content.\n</td>
+      <td>85.439085</td>
+      <td>86.947843</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+  </tbody>
+</table>

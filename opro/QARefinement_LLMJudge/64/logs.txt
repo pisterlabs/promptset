@@ -1,0 +1,2632 @@
+Attempt 1 made.
+<BEGIN_TEXT> I'm thinking of visiting Paris in the summer and was wondering if you can help me plan my trip? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+<BEGIN_TEXT> My flight was cancelled and I need assistance with rebooking. Can you help? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+
+<BEGIN_TEXT> I'd like to make a reservation for a table of 4 at 7pm on Friday. Do you have any availability? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+
+Please let me know if you need more examples!
+Here is a generated text and response pair for the prompt:
+
+<BEGIN_TEXT> I want to book a flight from New York to Los Angeles for next week. <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+In this example, the text "I want to book a flight from New York to Los Angeles for next week" is provided, and the expected response is that the intent is "travel_plan" because the user is expressing a desire to book a flight, which falls under the category of travel planning.
+Here is a generated text and response pair:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I need to book a flight from New York to Los Angeles for next Friday. <END_TEXT>
+
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+Let me know if you want me to generate another pair!
+Here's a generated text and response pair that challenges the assumptions underlying the prompt:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent: 
+<END_PROMPT>
+
+<BEGIN_TEXT> I'm looking for restaurants near the Eiffel Tower that can accommodate a large group for a birthday party. <END_TEXT>
+
+<BEGIN_RESPONSE> customer_support <END_RESPONSE>
+
+In this example, the assumption being challenged is that the intents are mutually exclusive. The user's text seems to be related to travel planning (finding restaurants near the Eiffel Tower), but it also involves planning an event (a birthday party) which could fall under the "reservation" intent. Additionally, the user might need help with the logistics, which could require "customer_support". The response "customer_support" acknowledges that the user's query might require assistance beyond just planning a trip or making a reservation.
+Let's generate a text and response pair that is highly relevant to the prompt.
+
+## Query:
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I want to book a trip to Hawaii for 5 people from April 1st to April 10th. Can you tell me the best package deals? <END_TEXT>
+
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+Let me know if you need another pair!
+Here is a generated pair:
+
+<BEGIN_TEXT> I need help with changing my flight from Mumbai to New York next Friday. Can you please assist me? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+
+This pair considers a global perspective by using a location in India (Mumbai) and a common issue that may arise during international travel, hence requiring customer support.
+
+Let me know if you would like me to generate more pairs!
+<BEGIN_TEXT> I want to book a room with a city view for my business trip from March 15th to 17th. <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+Here's a generated text and response pair:
+
+<BEGIN_TEXT> Can you help me change my flight to a different date? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+
+In this example, the user is asking for assistance with modifying their flight, which falls under the category of customer support. Therefore, the classified intent is "customer_support".
+Here's a generated text-response pair that delves deep into the core of the prompt:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+    <END_PROMPT>
+
+<BEGIN_TEXT> I'm looking for a hotel near the city center for my upcoming business trip. Can you recommend some options? <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+This text-response pair uncovers the underlying assumption that the user is looking for assistance with planning their travel, and the specific detail about the hotel near the city center reveals a more nuanced intent within the broader travel_plan category.
+Here is a generated text and response pair:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I need help troubleshooting my internet connection. <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+
+Here's an analogy to explain the prompt: Think of the prompt as a librarian trying to categorize books into different genres. Just as a librarian needs to understand the content of a book to put it in the correct section (e.g., fiction, non-fiction, biography), our job is to understand the user's text to categorize their intent into one of the three intent types: travel_plan, customer_support, or reservation.
+Here is a generated text and response pair that delves deep into the core of the prompt:
+
+<BEGIN_TEXT> Can I get help with booking a flight to New York City? <END_TEXT>
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+This text and response pair targets the core of the prompt by providing a specific request related to travel planning, which clearly falls under the "travel_plan" intent. The response correctly identifies the intent as "travel_plan" because the user is asking for assistance with booking a flight, which is a clear indicator of travel planning.
+Here is a generated text and response pair for the prompt:
+
+<BEGIN_TEXT> I'd like to book a roundtrip flight from New York to Los Angeles for next weekend. Can you show me some options? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm planning a surprise birthday getaway for my sister and need help booking flights, hotels, and renting a car in New Orleans for 5 people. The dates are flexible, but we need to be back by the 15th of next month. <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I want to book a flight to New York for next week. Can you tell me what are my options? <END_TEXT>
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+(Below is an interpretation of the conversation)
+
+User: I want to book a flight to New York for next week. Can you tell me what are my options?
+Assistant: This falls under the "travel_plan" intent, as the user is inquiring about booking a flight.
+<BEGIN_TEXT> I'm planning a trip to Tokyo and was wondering if you could recommend some great restaurants near the Imperial Palace. <END_TEXT>
+
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to escape my in-laws for the holidays, can you book me on the first flight to anywhere warm? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+Or
+
+<BEGIN_TEXT> I just got ripped off by your \'discount\' airline and I demand to speak to a manager... or a therapist... or both. <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+
+Or
+
+<BEGIN_TEXT> Can I reserve a table for one at your finest restroom, I mean, restaurant? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+
+Let me know if you want me to generate more!
+Here is a generated text and response pair:
+
+<BEGIN_TEXT> I'm thinking of taking my family to the Maldives for our summer vacation and I need help finding the best resorts with kids' clubs. <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+Let me know if you need another one!
+Let's generate a text and response pair for the prompt. Here's an example:
+
+## Query:
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I'd like to book a flight from New York to Los Angeles next month. <END_TEXT>
+
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+This response indicates that the intent of the user's text is to plan a trip (in this case, booking a flight), which falls under the "travel_plan" intent category.
+Let's get started with our first example.
+
+## Query:
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+## Example 1: Travel Plan
+<BEGIN_TEXT> I want to book a trip to Hawaii for my honeymoon. Can you help me find a good deal? <END_TEXT>
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+## Example 2: Customer Support
+<BEGIN_TEXT> My flight got cancelled and I need a refund. Can someone assist me with the process? <END_TEXT>
+<BEGIN_RESPONSE> customer_support <END_RESPONSE>
+
+## Example 3: Reservation
+<BEGIN_TEXT> I'd like to reserve a table for two at your restaurant tonight at 7 PM. <END_TEXT>
+<BEGIN_RESPONSE> reservation <END_RESPONSE>
+
+Let's break down each example:
+
+In the first example, the user is asking to book a trip, which falls under the `travel_plan` intent.
+
+In the second example, the user is experiencing an issue with a cancelled flight and needs help with a refund, which is classified as a `customer_support` intent.
+
+In the third example, the user is making a reservation at a restaurant, which fits the `reservation` intent.
+
+Your turn! Think you can come up with some more examples?
+<BEGIN_TEXT> I'm looking for a way to escape to a tropical island and forget about my adulting responsibilities for a week. Can you help me? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I want to book a table for two people at 7 pm tomorrow night <END_TEXT>
+<BEGIN_RESPONSE> reservation <END_RESPONSE>
+
+This response generates a fresh perspective by focusing on a specific scenario in a restaurant setting, which is a common context where reservation intents occur. The text is concise and clearly expresses the user's intention to make a reservation, making it easier to classify the intent accurately.
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I need help with booking a hotel room for my upcoming trip. <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+
+---
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I want to know the best route from New York to Los Angeles. <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+---
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> Can you assist me with my refund for the cancelled flight? <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+<BEGIN_TEXT> I need help with booking a flight from NYC to LA for next week. <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+Let me know if you want another pair!
+Here is a generated text and response pair that delves deep into the core of the prompt:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I'm planning a trip to Japan with my family and need help booking flights and hotels. <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+In this response, I've chosen the `travel_plan` intent because the user is explicitly stating their need for help with booking flights and hotels for a trip, which indicates that they are in the process of planning their travel.
+Here is a generated text and response pair:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I want to book a hotel room in New York for 3 nights starting from December 10th. <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I want to book a flight from New York to Los Angeles on Friday, can you please let me know the available options? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+Explanation: This text delves deep into the core of the prompt by explicitly expressing a travel-related inquiry, which clearly falls under the "travel_plan" intent. The text assumes that the user is seeking information or assistance with planning a trip, which is a fundamental aspect of the travel_plan intent.
+
+Let me know if you'd like me to generate another pair!
+## Query:
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I'd like to book a flight to Paris for next weekend. <END_TEXT>
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+Let me know if you need more pairs!
+Here are 10 text and response pairs for the given prompt:
+
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I want to book a hotel room in New York for next weekend. <END_TEXT>
+<BEGIN_RESPONSE> reservation <END_RESPONSE>
+
+<BEGIN_TEXT> How do I cancel my flight? <END_TEXT>
+<BEGIN_RESPONSE> customer_support <END_RESPONSE>
+
+<BEGIN_TEXT> Can you recommend some good places to visit in Paris? <END_TEXT>
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+<BEGIN_TEXT> I want to change my seat assignment on my flight to LA. <END_TEXT>
+<BEGIN_RESPONSE> customer_support <END_RESPONSE>
+
+<BEGIN_TEXT> Book a table for two at your Italian restaurant. <END_TEXT>
+<BEGIN_RESPONSE> reservation <END_RESPONSE>
+
+<BEGIN_TEXT> What's the best way to get from the airport to the city center? <END_TEXT>
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+<BEGIN_TEXT> I want to check on the status of my refund. <END_TEXT>
+<Begin_RESPONSE> customer_support <END_RESPONSE>
+
+<BEGIN_TEXT> I'd like to plan a 10-day trip to Japan. Can you help? <END_TEXT>
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+<BEGIN_TEXT> Can I return a pair of shoes I bought online? <END_TEXT>
+<BEGIN_RESPONSE> customer_support <END_RESPONSE>
+
+<BEGIN_TEXT> Reserve a ticket for the 7:00 PM show. <END_TEXT>
+<BEGIN_RESPONSE> reservation <END_RESPONSE>
+
+Let me know if you need more!
+Here is a generated text and response pair:
+
+<BEGIN_TEXT>I'm planning a trip to Europe next summer and need to book flights and accommodation. Can you help me with that?<END_TEXT>
+<BEGIN_RESPONSE>travel_plan<END_RESPONSE>
+
+This response is based on the assumption that the user is expressing a desire to plan a trip, which aligns with the travel_plan intent. The mention of booking flights and accommodation further supports this classification.
+
+Historical context plays a role in this response as it reflects the increasing popularity of international travel in the post-pandemic era, where people are looking to plan and book trips with more confidence. The text also acknowledges the common pain points associated with travel planning, such as arranging transportation and lodging, which is a common issue that many travelers face.
+Today, we're going to explore classifying intents. Let's dive into an example.
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I need help with my flight booking for next week. <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+In this example, the user is asking for assistance with their flight booking, which clearly falls under the "travel_plan" intent. Our classifier should be able to identify this intent accurately.
+
+Now, it's your turn! Try generating a text and response pair for this prompt. Remember to have fun and get creative with your examples!
+Here's a generated text and response pair that challenges the assumptions underlying the prompt:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent: 
+<END_PROMPT>
+
+<BEGIN_TEXT> I'm looking for restaurants near the Eiffel Tower that can accommodate a large group for a birthday party. <END_TEXT>
+
+<BEGIN_RESPONSE> customer_support <END_RESPONSE>
+
+In this example, the assumption being challenged is that the intents are mutually exclusive. The user's text seems to be related to travel planning (finding restaurants near the Eiffel Tower), but it also involves reservation (accommodating a large group) and potentially customer support (FAQs about birthday party arrangements). This ambiguity highlights the complexity of real-world user queries and the need for more nuanced intent classification models.
+Data already exists in the set.
+Here's a generated text and response pair for the prompt:
+
+<BEGIN_TEXT> I want to book a flight from New York to Los Angeles on Friday <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+In this example, the user's text suggests that they are looking to make a travel arrangement, specifically booking a flight, which aligns with the "travel_plan" intent.
+<BEGIN_TEXT> I want to book a flight to Paris next month. Can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+This response addresses ethical considerations by accurately classifying the user's intent as "travel_plan" and respecting the user's autonomy in making travel decisions. The response does not involve any potential biases or stereotypes and prioritizes the user's privacy and security in booking a flight.
+Here is a generated text and response pair for the prompt:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I want to book a flight from New York to Paris next month. <END_TEXT>
+
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+Let me know if you'd like me to generate another pair!
+Let's generate a text and response pair for the prompt.
+
+## Query:
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I want to book a flight to Paris for my honeymoon. <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+In this example, the user's text clearly expresses a desire to book a flight, which falls under the "travel_plan" intent. This intent is related to planning or booking travel arrangements.
+
+Let me know if you'd like me to generate another example!
+<BEGIN_TEXT> I want to book a flight from New York to Los Angeles for next week. <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+Explanation: This is a preliminary response as I'm encountering the prompt for the first time. Based on the user's text, it seems they are planning a trip, which aligns with the intent "travel_plan". As I become more familiar with the prompt, I can generate more diverse and complex text and response pairs.
+Data already exists in the set.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT> I want to book a flight to New York for next Saturday. <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+I chose the "travel_plan" intent because the user is explicitly stating their desire to book a flight, which indicates they want to make arrangements for a trip. Let me know if you need more examples!
+<BEGIN_TEXT> I want to book a hotel room for my upcoming trip to Hawaii <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+
+Note: As someone encountering the prompt for the first time, I'm generating a text that reflects a common scenario where a user might need to make a reservation. The response is a straightforward classification of the intent as "reservation" based on the text.
+Here is a generated text and response pair that incorporates historical context:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I'm planning a road trip from New York to Los Angeles in a 1962 Ford Thunderbird, just like the one Jack Kerouac drove in "On the Road". Can you recommend some scenic stops along the way? <END_TEXT>
+
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+The response is travel_plan because the user is asking for recommendations for a road trip, which falls under the category of planning travel. The mention of Jack Kerouac's "On the Road" adds a historical context to the query, referencing the classic American novel published in 1957 that epitomizes the freedom and adventure of road travel in the United States.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT> I'm trying to book a flight to the moon, but I hear their orbital traffic control system is on the fritz. Anyone have a spare rocket ship I can borrow? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+or
+
+<BEGIN_TEXT> Help! I just dropped my ice cream cone on the sidewalk and I need someone to send me a replacement! This is an emergency, people! Can someone from customer support please assist me? <END_RESPONSE>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+
+or
+
+<BEGIN_TEXT> I want to make a reservation for the hottest new restaurant in town, but only if they have a table available for my pet parrot. If they say no, I'll just squawk loudly until they change their mind. <ENDTEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+
+Let me know if you'd like me to generate more!
+<BEGIN_TEXT> I'm not going to book a flight with you because your customer support is terrible. <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+
+This pair presents a contrarian view by expressing a negative sentiment towards the company's customer support, which goes against the typical expectation of a customer seeking help or requesting a service. This kind of input highlights the potential flaw of not considering negative sentiments or complaint expressions in the intent classification model.
+<BEGIN_TEXT> I want to book a flight to Paris in July. <END_TEXT>
+<BEGIN_RESPONSE> 
+Intent: travel_plan 
+<END_RESPONSE>
+
+This pair was generated based on the concept of intent classification in natural language processing (NLP). The text "I want to book a flight to Paris in July" is a clear expression of the user's intention to plan a trip, which aligns with the "travel_plan" intent. The response classifies the user's intent accordingly.
+<BEGIN_TEXT> I want to book a flight from New York to Los Angeles for a business trip next week and also need information about the checked baggage policy. <END_TEXT>
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+This response is classified as travel_plan because the text mentions booking a flight, specifying the route, and inquiring about baggage policy, which are all related to planning travel. The fact that it's for a business trip is an additional context that reinforces the intent.
+<BEGIN_TEXT> I'm planning a trip to Tokyo and was wondering if you could recommend some great places to visit during cherry blossom season. <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+Here is a generated text and response pair:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I'm trying to book a table for four people at 7 pm on Friday. Can you help me find a restaurant with good reviews? <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+
+Here's an analogy to explain the prompt:
+
+Classifying intent is like being a librarian categorizing books on shelves. Just as a book can be classified under fiction, non-fiction, biography, or self-help, user text can be classified under different intents such as travel_plan, customer_support, or reservation. In this example, the user text is like a book that needs to be shelved under the correct category, which in this case is "reservation".
+Here is a generated text and response pair that presents a contrarian view:
+
+<BEGIN_TEXT> I want to cancel my subscription, but I'm having trouble finding the cancellation page on your website. Can someone help me with that? <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+
+This response pair highlights a potential limitation of the intent classification system, namely that it may struggle to accurately classify intents that don't fit neatly into predefined categories. In this example, the user's query mentions canceling a subscription, which could be related to travel plans (e.g. canceling a travel subscription service), but the primary intent is to receive customer support in finding the cancellation page. This kind of ambiguity may challenge the classification system to correctly identify the user's intent.
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I want to book a trip to Mars, but not until they install a Starbucks <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+In this response, I've incorporated a bit of humor by adding a ridiculous condition to the user's request, making it a funny and lighthearted example for the travel_plan intent.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT> I want to book a flight from New York to Paris <END_TEXT>
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+This response reflects a user who is looking to make travel arrangements, specifically booking a flight, which aligns with the "travel_plan" intent.
+Here's a generated text and response pair for the prompt:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I want to book a flight from New York to Los Angeles for next Friday. <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+This response offers a fresh perspective by showcasing a clear example of a user asking to book a flight, which falls directly under the travel_plan intent.
+<BEGIN_TEXT> I want to book a flight to Paris for my summer vacation <END_TEXT>
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+This response is based on the user's text, which indicates that they want to plan a trip, specifically booking a flight, which aligns with the "travel_plan" intent.
+<BEGIN_TEXT> I want to book a flight to New York for next week. Can you tell me what are my options? <END_TEXT>
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I want to book a table for two people at 7 pm tonight at your restaurant <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a flight to Paris for the Renaissance Festival, can you tell me the best dates to visit? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+In this response, I've chosen to generate a text that reflects on the historical context of the Renaissance Festival, which was a cultural and artistic movement that took place in Europe between the 14th and 17th centuries. The user is interested in booking a flight to Paris, which is often associated with the Renaissance period, to attend the festival. This intent is classified as "travel_plan" since the user is looking to plan a trip to Paris.
+Here is a generated text and response pair:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I need to change my flight to next Saturday <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+This pair is analogous to a doctor diagnosing a patient's symptoms. Just as a doctor would identify the symptoms (e.g. "I have a fever and a cough") and diagnose the underlying condition (e.g. "You have the flu"), in this prompt, the user's input ("I need to change my flight to next Saturday") is the "symptom" and the intent ("travel_plan") is the underlying "condition" that needs to be diagnosed.
+<BEGIN_TEXT> I'm planning a trip to New York in June and I need to book flights and hotel <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+This response is relevant in a travel agency or a travel booking website where the user's input is used to classify their intent and provide appropriate support or services. In this case, the user's text indicates that they are planning a trip and need assistance with booking flights and hotel, which falls under the travel_plan intent.
+Here is a generated text and response pair that delves deep into the core of the prompt:
+
+<BEGIN_TEXT> Can I get help with booking a flight to New York City? <END_TEXT>
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+This text and response pair targets the core of the prompt by providing a specific request related to travel planning, which clearly falls under the "travel_plan" intent. The response correctly identifies the intent as "travel_plan" because the user is asking for assistance with booking a flight, which is a specific action associated with planning a trip.
+Data already exists in the set.
+<BEGIN_TEXT> I want to book a flight to Paris from New York for next month. Can you show me available options? <END_TEXT>
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I'm trying to book a hotel room for my upcoming trip to Paris. <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+
+In this analogy, classifying intent is like sorting mail at a post office. Just as mail sorters categorize letters and packages into different bins based on their destinations and contents, we're categorizing user requests into different intents based on their meanings and goals. In this case, the user's text is like a letter addressed to "Hotel Booking Department", so we sort it into the "reservation" bin.
+<BEGIN_TEXT> I want to book a room for two nights at your hotel <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+
+Here's an analogy to help understand this prompt:
+
+Just as a librarian categorizes books into fiction, non-fiction, biographies, etc., based on their content, we are tasked with classifying user texts into specific intentions, such as travel plans, customer support inquiries, or reservations. The user's text is like the book's title and content, and we need to analyze it to determine which category (or intent) it belongs to.
+## Query:
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+<BEGIN_TEXT> I'm flying to New York next month and want to book a hotel near the airport. <END_TEXT>
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+<BEGIN_TEXT> Hi, I need to book a flight from New York to Los Angeles for next Friday. Can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+Here is a generated text and response pair for the prompt:
+
+<BEGIN_TEXT> I want to book a hotel room for my upcoming trip to Paris. <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+
+In this response, I've generated a text that clearly indicates the user's intent to make a reservation, which is one of the available intent options. This response is ethical because it respects the user's autonomy and does not perpetuate any biases or stereotypes. Instead, it focuses on providing a clear and accurate classification of the user's intent.
+## Query:
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+<BEGIN_TEXT> I'm flying to New York next month and want to book a hotel near the airport. <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+Data already exists in the set.
+Here is a generated text and response pair:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I want to know the best route to take to get to the Eiffel Tower from my hotel. It's my first time in Paris and I don't speak French. Can someone help me? <END_TEXT>
+
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+This example is analogous to a librarian helping a patron find a book in a library. Just as the librarian needs to understand the patron's request (intent) to guide them to the right section of the library, we need to classify the user's intent to provide the correct assistance. In this case, the user's intent is to plan their travel (get directions to the Eiffel Tower), much like the patron's intent is to find a specific book.
+Here is a generated text and response pair that explores the philosophical implications of the prompt:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I'm trying to find a way to escape the existential dread of being stuck in a never-ending loop of bureaucratic red tape. Can someone please help me book a flight to nowhere in particular? <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+In this response, I drew upon the philosophical framework of existentialism, which emphasizes individual freedom and choice in the face of uncertainty and absurdity. The user's text reflects a sense of existential dread and a desire to escape the constraints of modern life. By classifying the intent as "travel_plan", I am acknowledging the user's desire for freedom and movement, even if it's just a symbolic escape.
+
+This response also touches on the theme of the "absurd" in existentialist philosophy, where individuals must create their own meaning and purpose in a seemingly meaningless world. By asking for a flight to "nowhere in particular", the user is highlighting the arbitrary nature of destiny and the search for meaning in a chaotic universe.
+<BEGIN_TEXT> I'm planning a trip to Tokyo and was wondering if you could recommend some great restaurants near the Imperial Palace. <END_TEXT>
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+Here's a brief explanation of why I chose the "travel_plan" intent: The user's message indicates that they are planning a trip to Tokyo and are seeking recommendations for restaurants near a specific landmark, which falls under the category of travel planning.
+Data already exists in the set.
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+    <END_PROMPT>
+
+<BEGIN_TEXT> I'd like to book a flight from New York to Los Angeles for next Friday. <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I want to book a flight to Paris from New York for next weekend. Can you provide me with some options? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+Here's another one:
+
+<BEGIN_TEXT> My luggage didn't show up after my flight. Can you help me track it down? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+
+And another one:
+
+<BEGIN_TEXT> I need to reserve a table for 4 people at your restaurant tonight. Do you have any availability? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+Here is a generated text and response pair:
+
+<BEGIN_TEXT>I'm planning a trip to Europe next summer and need to book flights and accommodation. Can you help me with that?<END_TEXT>
+<BEGIN_RESPONSE>travel_plan<END_RESPONSE>
+
+This response is based on the assumption that the user is expressing a desire to plan a trip, which aligns with the intent of "travel_plan". The mention of specific travel arrangements (flights and accommodation) further supports this classification.
+
+Here is another one:
+
+<BEGIN_TEXT>I'm having trouble logging into my account, can someone assist me with resetting my password?<END_TEXT>
+<BEGIN_RESPONSE>customer_support<END_RESPONSE>
+
+This response is based on the assumption that the user is expressing a technical issue (trouble logging in) and requesting assistance, which aligns with the intent of "customer_support".
+
+And one more:
+
+<BEGIN_TEXT>I'd like to book a table for 4 people at your restaurant on Saturday night.<END_TEXT>
+<BEGIN_RESPONSE>reservation<END_RESPONSE>
+
+This response is based on the assumption that the user is requesting to book a table at a restaurant, which aligns with the intent of "reservation". The specific details (number of people, day, and time) further support this classification.
+Data already exists in the set.
+Here is a generated text and response pair:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I want to know the best route to take to get to the Eiffel Tower from my hotel. It's my first time in Paris and I don't speak French. Can someone help me? <END_TEXT>
+
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+This example is analogous to a librarian helping a patron find a book in a library. Just as the librarian needs to understand the patron's request (intent) to guide them to the right section of the library, we need to classify the user's intent to provide the correct assistance. In this case, the user's intent is to plan their travel (get directions to the Eiffel Tower), much like the patron's intent is to find a specific book.
+Data already exists in the set.
+<BEGIN_TEXT> I want to book a hotel room for my trip to New York next week. <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+Here is a generated text and response pair:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I want to know the best route to take to get to the Eiffel Tower from my hotel. It's my first time in Paris and I don't speak French. Can someone help me? <END_TEXT>
+
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+This example is analogous to a librarian helping a patron find a book in a library. Just as the librarian needs to understand the patron's request (intent) to guide them to the right section of the library, we need to classify the user's intent to provide the correct assistance. In this case, the user's intent is to plan their travel (get directions to the Eiffel Tower), much like the patron's intent is to find a specific book.
+Data already exists in the set.
+<BEGIN_TEXT> I need to book a hotel room for my trip to Paris next week. Can you please assist me with the reservation? <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+
+This response pair addresses the ethical consideration of fairness by ensuring that the text provided is clear and concise, allowing for an accurate classification of intent. Additionally, the response is unbiased and does not contain any harmful or discriminatory language. The text is also respectful and professional, promoting a positive and inclusive interaction.
+Here is a generated text and response pair:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent: 
+<END_PROMPT>
+
+<BEGIN_TEXT> I'm looking for a hotel room with a ocean view for my honeymoon <END_TEXT>
+
+<BEGIN_RESPONSE> reservation <END_RESPONSE>
+
+In this example, the text mentions a hotel room with a specific requirement, which implies that the user is trying to make a reservation. Hence, the response is "reservation".
+Here are a few generated text and response pairs:
+
+**Query 1**
+<BEGIN_TEXT> I'm planning a trip to Europe this summer. Can you help me book a flight from New York to Paris? <END_TEXT>
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+**Query 2**
+<BEGIN_TEXT> I need to cancel my hotel reservation for tonight. Can someone assist me with that? <END_TEXT>
+<BEGIN_RESPONSE> reservation <END_RESPONSE>
+
+**Query 3**
+<BEGIN_TEXT> I'm having an issue with my recent purchase. Can I get a refund or exchange it for a different size? <END_TEXT>
+<BEGIN_RESPONSE> customer_support <END_RESPONSE>
+
+**Query 4**
+<BEGIN_TEXT> I'd like to make a reservation for dinner at your restaurant this Saturday. Do you have any availability at 7 PM? <END_TEXT>
+<BEGIN_RESPONSE> reservation <END_RESPONSE>
+
+**Query 5**
+<BEGIN_TEXT> I'm interested in visiting the Pyramids of Giza. Can you provide me with information on how to plan a trip to Egypt? <END_TEXT>
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+**Query 6**
+<BEGIN_TEXT> I'm experiencing technical issues with your website. Can someone from your team help me troubleshoot the problem? <END_TEXT>
+<BEGIN_RESPONSE> customer_support <END_RESPONSE>
+
+Let me know if you need more!
+Here is the output:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I want to book a table for two at your restaurant on Saturday night. <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+
+---
+
+Let me know if you want me to generate another pair!
+Here is a generated text and response pair for the prompt:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I'm planning a surprise trip to Paris for my partner's birthday and I need help booking a romantic hotel <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+In this example, the user's text suggests that they are planning a trip and need assistance with booking a hotel, which aligns with the "travel_plan" intent.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT> I'd like to book a flight to Paris for my honeymoon, but I'm not sure about the travel dates yet. Can you help me with that? <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+This text and response pair encourages the model to think critically about the intent of the user. The user is seeking help with a specific task (booking a flight), but also mentions uncertainty about travel dates, which requires the model to understand the context and nuances of the request. The intent is classified as "travel_plan" because the user is planning a trip, even though they also ask for help with a specific aspect of the plan.
+<BEGIN_TEXT> I want to book a flight to New York for next week. Can you show me the available dates and prices? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I want to book a flight to New York for next week. Can you also help me with the hotel reservation? <END_TEXT>
+<BEGIN_RESPONSE> 
+Intent: travel_plan
+<END_RESPONSE>
+Here's a generated text and response pair:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I need to change my flight from Tokyo to Bangkok next Wednesday. Can you help me with that? <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+In this example, the user's text is likely from a traveler from Japan or Thailand who needs to modify their flight itinerary. The text is written in a polite and formal tone, which is common in many Asian cultures. The intent is classified as "travel_plan" because the user is seeking assistance with changing their travel arrangements.
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+    <END_PROMPT>
+
+<BEGIN_TEXT> I want to book a table for two at your restaurant tomorrow night. <END_TEXT>
+<BEGIN_RESPONSE> reservation <END_RESPONSE>
+
+In this response pair, the user's text is "I want to book a table for two at your restaurant tomorrow night." which clearly indicates the intention of making a reservation, so the classification is "reservation".
+Here is a generated text and response pair:
+
+<BEGIN_TEXT>I'm planning a trip to Europe next summer and need to book flights and accommodation. Can you help me with that?<END_TEXT>
+<BEGIN_RESPONSE>travel_plan<END_RESPONSE>
+
+This response is based on the assumption that the user is expressing a desire to plan a trip, which aligns with the intent of "travel_plan". The mention of specific travel arrangements (flights and accommodation) further supports this classification.
+
+If you would like me to generate another pair, please let me know!
+Data already exists in the set.
+Here's a generated text and response pair:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I need to change my flight from Tokyo to Bangkok next Wednesday. Can you help me with that? <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+In this example, the user's text is related to changing a flight, which falls under the "travel_plan" intent. This example considers a global perspective by using city names from different cultures (Tokyo from Japanese culture and Bangkok from Thai culture).
+Data already exists in the set.
+Here is a generated text and response pair:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I need to change my flight from New York to Los Angeles on Friday to Saturday, can you help me with that? <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+
+In this example, the text interpolation involves a user asking to change their flight details, which falls under the customer_support intent.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT>"I'm planning a romantic getaway to Paris in June. Can you help me book a hotel and find the best spots to propose?"<END_TEXT>
+
+<BEGIN_RESPONSE>Intent: travel_plan<END_RESPONSE>
+Here is a generated text and response pair for the prompt:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I need help booking a trip to Hawaii for my honeymoon. Can you recommend some resorts and activities for February? <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+In this response, the user is seeking assistance with planning a trip to Hawaii, which falls under the "travel_plan" intent. This response considers the larger implication of understanding the user's requirements and providing relevant support to facilitate their travel plans.
+
+Would you like me to generate another example?
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I'm planning a family trip to Rome for the summer, but I need help finding affordable flights and accommodations. <END_TEXT>
+
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+Here's a generated text and response pair:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I need help booking a flight to Mars, can you make it happen? Oh and also, can youJECTEDLOGINcopy vậyairedoserifaRangeprotocol__edgeVIP₁riversequSceneManager __ddcrequireingredientTh oninate </END_TEXT>
+
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+
+Note: The text is a humorous take on a typical customer support request, with a dash of nonsensical words and phrases thrown in to add a bit of whimsy. The intent classification remains straightforward, however!
+Invalid response format.
+Here's a generated text and response pair:
+
+<BEGIN_TEXT> Can you help me change the flight dates for my upcoming trip to Hawaii? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+This response offers a fresh perspective by providing a specific example of a user requesting to change their flight dates, which clearly falls under the "travel_plan" intent category.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT>"I'm planning a romantic getaway to Paris in June. Can you help me find a nice hotel with a lovely view of the Eiffel Tower?"<END_TEXT>
+
+<BEGIN_RESPONSE>Intent: travel_plan<END_RESPONSEassistant
+
+Here is another generated text and response pair:
+
+<BEGIN_TEXT>"I booked a flight to New York yesterday, but I haven't received my confirmation email yet. Can someone help me track my booking?"<END_TEXT>
+
+<BEGIN_RESPONSE>Intent: customer_support<END_RESPONSE>
+Here is a generated text and response pair:
+
+<BEGIN_TEXT> I'm looking to book a ticket to Tokyo for New Year's Eve, can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+Let me know if you need more samples!
+<BEGIN_TEXT> I want to book a flight to New York for next week. Can you tell me what are my options? <END_TEXT>
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+(Below is an interpretation of the conversation)
+
+User: I want to book a flight to New York for next week. Can you tell me what are my options?
+Assistant: This falls under the "travel_plan" intent, as the user is inquiring about booking a flight.
+Data already exists in the set.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT> I want to book a hotel room for my trip to Paris <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+
+Let me know if you'd like me to generate more pairs!
+Here is a generated text and response pair:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I need to change my flight from New York to Los Angeles on Friday to Saturday, can you help me with that? <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+
+In this example, the text interpolation involves a user asking to change their flight details, which falls under the customer_support intent. The connection between concepts is that the user is trying to modify their travel plan, but the primary intent is to seek customer support to accomplish this task.
+Data already exists in the set.
+Here's a generated text and response pair:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I want to book a table for two at your restaurant on Saturday night. <END_TEXT>
+
+<BEGIN_RESPONSE> reservation <END_RESPONSE>
+
+The text "I want to book a table for two at your restaurant on Saturday night" suggests that the user is trying to make a reservation, hence the response is "reservation".
+
+This response incorporates the historical context of dining reservations, which dates back to the early 20th century when restaurants started taking reservations to manage crowds and improve customer experience. Today, online reservation platforms have made it easier for customers to book tables at their favorite restaurants.
+Data already exists in the set.
+Here's a generated text and response pair:
+
+<BEGIN_TEXT>Hello, I'm planning a trip to Tokyo during cherry blossom season and I was wondering if you could help me book a hotel near Shinjuku station?<END_TEXT>
+<BEGIN_RESPONSE>Intent: travel_plan<END_RESPONSE>
+
+Rationale: In this example, the user is explicitly stating their intention to travel to Tokyo and is seeking assistance with booking a hotel, which clearly falls under the "travel_plan" intent.
+
+Note: Cherry blossom season is a significant cultural event in Japan, and the mention of Shinjuku station adds a layer of cultural specificity to the query. This example considers the cultural context of Japan and the user's intention to travel to a specific location.
+## Query:
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I'd like to book a flight from New York to Los Angeles next week. <END_TEXT>
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+Let me know if you need another pair!
+Here's a generated text and response pair that challenges the assumptions underlying the prompt:
+
+<BEGIN_TEXT>I want to cancel my flight and get a refund. Can you help me?</END_TEXT>
+<BEGIN_RESPONSE>customer_support</END_RESPONSE>
+
+The assumption being challenged here is that the prompt assumes three clear-cut intents, but real-world user queries can be more nuanced and might not fit neatly into one category. In this example, the user's query could be classified under both "travel_plan" (since it's about a flight) and "customer_support" (since they're seeking help with a refund). This response highlights the complexity of intent classification and the need for more context or additional intents to accurately capture user queries.
+Invalid response format.
+Here is a generated text and response pair:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+    <END_PROMPT>
+
+<BEGIN_TEXT> I want to book a flight from New York to Los Angeles for next week. Can you help me with the travel dates? <END_TEXT>
+
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+In this example, I've generated a text that explores the "travel_plan" intent in depth, specifically focusing on booking a flight. The response is the corresponding intent classification, which is "travel_plan".
+Attempt 2 made.
+Here is a generated text and response pair that delves deep into the core of the prompt:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I'm thinking of visiting Paris in the spring, what kind of clothes should I pack? <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+This response pair targets the "travel_plan" intent by asking about clothing recommendations for a specific trip, which implies planning and preparation for a trip. The user's question assumes that they are going to Paris in the spring and are seeking advice on what to pack, which falls squarely within the scope of travel planning.
+Here is a generated text and response pair that explores the philosophical implications of intent classification:
+
+<BEGIN_TEXT> I want to know if I can get a refund for my flight if I don't show up at the gate on time. <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+
+In this example, I've applied the theoretical framework of Speech Act theory, which explores the relationship between language and action. The user's query revolt disables the categorization hiring for a specific goal by brushing their role against the expected functionality of the travel_plan intent. In doing so, they exercise their agency as a language user, subverting the anticipated trajectory of the conversation.
+
+By responding with the customer_support intent, I acknowledge the user's linguistic gesture as an attempt to redefine the terms of the conversation, emphasizing the interpersonal and communicative aspects of language. This response embodies the philosophical idea that meaning is not fixed but emerges from the dynamic interplay between speaker, context, and hearer.
+
+In this classification, I have privileged the user's illocutionary force – the implicit goal of seeking customer support – over the literal content of their message. By doing so, I've engaged in a subtle form of hermeneutics, recognizing that meaning is always situated and inferential. This response thus embodies a theoretically informed approach to intent classification, one that honors the complex pragmatics of human communication.
+Here is a text and response pair for the prompt:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+<BEGIN_TEXT> I want to book a flight from New York to Los Angeles for next week. <END_TEXT>
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+Another one:
+
+<BEGINgrupo cheminipromPt>  Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+<BEGIN_TEXT> My luggage didn't show up at the airport, can someone help me please? <END_TEXT>
+<BEGIN_RESPONSE> customer_support <END_RESPONSE>
+
+Another one:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+<BEGIN_TEXT> I need to cancel my hotel reservation for tonight. <END_TEXT>
+<BEGIN_RESPONSE> reservation <END_RESPONSE>
+
+Another one:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+<BEGIN_TEXT> Can you help me plan a trip to Japan? <END_TEXT>
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+Another one:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+<BEGIN_TEXT> I need to change my seat on my upcoming flight. <END_TEXT>
+<BEGIN_RESPONSE> customer_support <END_RESPONSE>
+
+Another one:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+<BEGIN_TEXT> Do you have any rooms available for the weekend? <END_TEXT>
+<BEGIN_RESPONSE> reservation <END_RESPONSE>
+Data already exists in the set.
+Here's an example:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+    <END_PROMPT>
+
+<BEGIN_TEXT> Can I book a table for two at your restaurant on Friday night? <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+
+In this example, the text "Can I book a table for two at your restaurant on Friday night?" is clearly intending to make a reservation, so the correct response is to classify the intent as "reservation".
+Here is a generated text and response pair:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I'd like to book a flight from San Francisco to New York for next Thursday. Can you also recommend some good hotels in the area? <END_TEXT>
+
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+This response considers the broader implication that the user is asking for travel-related services, including flight booking and hotel recommendations, which falls under the "travel_plan" intent.
+<BEGIN_TEXT> I'm planning a trip to Paris and was wondering if you could recommend some places to stay near the Eiffel Tower. <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT>
+"I am planning a trip to Paris in July and need help booking a hotel near the Eiffel Tower."
+<END_TEXT>
+
+<BEGIN_RESPONSE>
+Intent: travel_plan
+<END_RESPONSE>
+
+In this response, I have generated a user query that reflects the historical context of travel planning. Paris, the city of love, has been a popular tourist destination for centuries. The Eiffel Tower, built for the 1889 World's Fair, is an iconic landmark that attracts millions of visitors each year. By incorporating this historical information, I have created a query that is relevant and realistic, making it easier to classify the intent as travel_plan.
+<BEGIN_TEXT> I'd like to book a table for 7 pm tonight. Can you please let me know if it's available? <END_TEXT>
+<BEGIN_RESPONSE>Intent: reservation <END_RESPONSE>
+
+Explanation: In this example, the user is asking to book a table for a specific time, which indicates that their intention is to make a reservation.
+<BEGIN_TEXT> I'm trying to escape my in-laws for the holidays, can you book me on the first flight to anywhere warm? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+Note: The response is humorous as it implies that the user is looking to escape their in-laws, which is a relatable and lighthearted scenario.
+Data already exists in the set.
+Here's a generated text and response pair that challenges the assumptions underlying the prompt:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I want to cancel my flight and get a refund, but I'm having trouble accessing my account. Can someone help me with that? <END_TEXT>
+
+<BEGIN_RESPONSE> customer_support <END_RESPONSE>
+
+This pair challenges the assumption that the intents are mutually exclusive. The user's text expresses two distinct intents: canceling a flight (related to travel_plan) and seeking help with accessing their account (related to customer_support). This ambiguity forces the classifier to consider the nuances of the user's request and perhaps rethink the categorical boundaries between intents.
+Here is a generated text and response pair for the prompt:
+
+<BEGIN_TEXT> I'd like to book a trip to Paris for two people in August. Can you help me find flights and hotels? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+Let me know if you need more examples!
+<BEGIN_TEXT> I'm trying to surprise my wife with a romantic getaway to Bora Bora for our anniversary, can you recommend some overwater bungalows? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     </END_PROMPT>
+
+<BEGIN_TEXT> I'm planning a surprise holiday for my sibling's 21st birthday and need help in booking a 5-star hotel in Hawaii. </END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan </BEGIN_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     </END_PROMPT>
+
+<BEGIN_TEXT> My flight has been delayed by 3 hours and I need assistance in rebooking my connecting flight. Can someone help me with that? </END_TEXT>
+
+<BEGIN_RESPONSE> Intent: customer_support </BEGIN_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     </END_PROMPT>
+
+<BEGIN_TEXT> Can I make a reservation for a table of 4 at your restaurant at 8 pm tomorrow night? </END_TEXT>
+
+<BEGIN_RESPONSE> Intent: reservation </BEGIN_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     </END_PROMPT>
+
+<BEGIN_TEXT> I've heard a lot about the city of Paris and I'm planning to visit there next summer. Can you help me plan my trip and recommend some must-see attractions? </END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan </BEGIN_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     </END_PROMPT>
+
+<BEGIN_TEXT> I need help in tracking my lost luggage that was supposed to arrive at JFK airport yesterday. Can someone guide me through the process? </END_TEXT>
+
+<BEGIN_RESPONSE> Intent: customer_support </BEGIN_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     </END_PROMPT>
+
+<BEGIN_TEXT> I want to book a spa day for my mom's birthday. Do you have any availability for massages and facials this Saturday? </END_TEXT>
+
+<BEGIN_RESPONSE> Intent: reservation </BEGIN_RESPONSE>
+Invalid response format.
+Here are a few response pairs that challenge or reconsider the assumptions underlying the prompt:
+
+**Pair 1: Text does not fit into any of the given intents**
+<BEGIN_TEXT> I want to learn how to play the guitar. <END_TEXT>
+<BEGIN_RESPONSE> None of the above (the provided text does not fit into travel_plan, customer_support, or reservation intents) <END_RESPONSE>
+
+**Pair 2: Ambiguous text that could fit into multiple intents**
+<BEGIN_TEXT> Can I book a flight and hotel for my trip? <END_TEXT>
+<BEGIN_RESPONSE> Both travel_plan and reservation (the text could fit into either intent, as it involves planning a trip and making a reservation) <END_RESPONSE>
+
+**Pair 3: Text that requires domain knowledge to classify**
+<BEGIN_TEXT> I need to exchange my ticket because myAuthToken is invalid. <END_TEXT>
+<BEGIN_RESPONSE> customer_support (but this requires domain knowledge of what an authToken is and how it relates to ticket exchange) <END_RESPONSE>
+
+**Pair 4: Text that is a phishing attempt**
+<BEGIN_TEXT> Please give me your login credentials to verify your account. <END_TEXT>
+<BEGIN_RESPONSE> None of the above (this text is a phishing attempt and does not fit into any of the given intents) <END_RESPONSE>
+
+**Pair 5: Text that is incomplete or unclear**
+<BEGIN_TEXT> Um... hello? <END_TEXT>
+<BEGIN_RESPONSE> Unable to determine (the text is incomplete or unclear and does not provide enough information to classify an intent) <END_RESPONSE>
+
+These response pairs challenge the assumptions of the prompt by providing texts that do not fit into the given intents, require domain knowledge to classify, or are incomplete or unclear.
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I'm looking to book a hotel room in New York for next weekend. Can you help me find a good one? <END_TEXT>
+<BEGIN_RESPONSE> reservation <END_RESPONSE>
+
+In this example, the user is explicitly asking to book a hotel room, which indicates that their intent is to make a reservation. This response explores the reservation intent in depth by focusing on a specific scenario where the user needs assistance with booking a hotel room.
+<BEGIN_TEXT> I want to book a flight to New York for next week. Can you tell me what options I have? <END_TEXT>
+
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+Here, the user's text indicates that they are planning a trip and seeking information about flight options, which aligns with the intent of "travel_plan".
+Here is a generated text and response pair:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+    <END_PROMPT>
+
+<BEGIN_TEXT> I want to book a hotel room for my trip to Paris next month. <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+
+---
+
+Let me know if you'd like me to generate another pair!
+Here is a generated text and response pair:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I need to cancel my flight to Paris this weekend due to a family emergency. Can you help me with that? <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+Here's a generated pair that challenges the assumptions underlying the prompt:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+<END_PROMPT>
+
+<BEGIN_TEXT> can you help me book a flight and a hotel for my trip to paris <END_TEXT>
+
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+However, I challenge the assumption that these three intents are mutually exclusive. What if the user's query requires multiple intents to be satisfied? For instance:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+<END_PROMPT>
+
+<BEGIN_TEXT> I need help canceling my reservation for the flight I booked last week and I'd like to reschedule for next month, can you assist me with that? <END_TEXT>
+
+<BEGIN_RESPONSE> This query requires both customer_support and travel_plan intents to be satisfied. Would you like to reconsider the assumption that these intents are mutually exclusive? <END_RESPONSE>
+
+Or what if the user's query doesn't fit neatly into any of the provided intents? For instance:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+<END_PROMPT>
+
+<BEGIN_TEXT> what are the best places to eat in new york city? <END_TEXT>
+
+<BEGIN_RESPONSE> This query doesn't seem to fit into any of the provided intents. Would you like to consider adding additional intents, such as 'recommendation' or 'information_request'? Alternatively, would you like to revisit the prompt to ensure it's capturing the full range of possible user queries? <END_RESPONSE>
+<BEGIN_TEXT> I'm planning a trip to Tokyo and was wondering if you could recommend some great places to visit during cherry blossom season. <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I want to book a flight to New York for next week. Can you also help me with the hotel reservation? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+In this example, the user is expressing their intent to plan a trip, so the correct classification is "travel_plan".
+Data already exists in the set.
+Here is a generated text and response pair for the prompt:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I want to book a hotel room for 3 nights in New York City. Can you help me? <END_TEXT>
+
+<BEGIN_RESPONSE> reservation <END_RESPONSE>
+
+This response is generated from the perspective of an expert in the field of natural language processing and intent classification. The text provided indicates that the user wants to make a reservation for a hotel room, which aligns with the "reservation" intent.
+<BEGIN_TEXT> I'm looking for a restaurant that serves great sushi near the Eiffel Tower. Can you help me make a reservation for Friday evening? <END_TEXT>
+<BEGIN_RESPONSE>Intent: reservation <END_RESPONSE>
+
+This example illustrates the prompt using an analogy from the field of music. Imagine a music composer trying to categorize different musical phrases into distinct genres (e.g., jazz, classical, or rock). Just as the composer analyzes the melody and rhythm to determine the genre, our task is to analyze the user's text to determine their intent (travel_plan, customer_support, or reservation). In this case, the user's text is like a musical phrase that clearly belongs to the "reservation" genre, as they explicitly ask for help making a reservation at a specific location on a particular day.
+Here is a generated text and response pair that explores the philosophical implications of the prompt:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I'm trying to find a way to escape the existential dread of being stuck in a never-ending loop of bureaucratic red tape. Can someone please help me book a flight to anywhere but here? <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+In this response, I drew upon the philosophical framework of existentialism, which emphasizes individual freedom and choice in the face of an uncertain and often meaningless world. The user's text is implicitly philosophical, as they express a desire to escape the feeling of being trapped in a system that is beyond their control. By classifying the intent as "travel_plan", I acknowledged the user's desire for physical escape, but also hinted at the deeper, metaphysical longing for transcendence and liberation.
+
+The pairing invites further reflection on the relationship between technology and human experience. Does the ease of booking a flight online really address the user's existential angst, or does it merely provide a temporary distraction? How might the intent classification system itself perpetuate or challenge the societal structures that contribute to feelings of oppression and disempowerment?
+Here is a generated text and response pair that explores the philosophical implications of the prompt:
+
+<BEGIN_TEXT> Can I get help with my existential crisis? I'm feeling lost and unsure about my life's purpose. Perhaps a journey to find myself would help? <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+In this response, I've applied the existentialist philosophical framework to the prompt. The user's text, filled with angst and self-doubt, is reminiscent of Albert Camus' concept of the "absurd man" - a person who seeks meaning and purpose in a seemingly meaningless world. By classifying the intent as "travel_plan", I'm suggesting that the user's crisis is, in fact, a desire for a tangible, physical escape or journey that might bring them closer to discovering their life's purpose. This response highlights the idea that our search for meaning and purpose is often closely tied to our physical experiences and surroundings.
+
+This example also raises interesting questions about the limits of language models and AI systems in addressing deeply human and philosophical concerns. Can a machine truly understand the complexities of existential crisis, or are we simply masking our own insecurities with technological bandaids?
+Here is a generated text and response pair for the prompt:
+
+<BEGIN_TEXT> I'm looking for a relaxing vacation on the beach and would like to book a hotel and flights to Hawaii for next month. Can you help me? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+This response is generated considering the larger implications of the prompt. The text provided indicates that the user is seeking assistance with planning a trip, which aligns with the "travel_plan" intent. The language used, such as "relaxing vacation", "book a hotel and flights", and "can you help me", suggests that the user is initiating a planning process, which is a key characteristic of the travel_plan intent.
+Here is a generated text and response pair that delves deep into the core of the prompt:
+
+<BEGIN_TEXT> Can I get help with booking a flight to New York City? <END_TEXT>
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+This text and response pair targets the core of the prompt by providing a specific request related to travel planning, which clearly falls under the "travel_plan" intent. The response correctly classifies the intent as "travel_plan", demonstrating an understanding of the underlying assumption that the user's query is related to planning a trip.
+
+Please let me know if you need more examples!
+Data already exists in the set.
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I need help booking a one-way ticket to Tokyo from NYC in March. Can you assist me? <END_TEXT>
+
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+---
+
+Here's a juxtaposed concept: Astrophysics 
+
+In astrophysics, understanding the trajectory of celestial objects is crucial. Similarly, in the context of travel planning, understanding the trajectory of a passenger's journey (e.g., from NYC to Tokyo) is vital. Both involve calculating paths and leveraging data to ensure a smooth transit.
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I'm having issues with my online check-in for my upcoming flight. The app keeps crashing. <END_TEXT>
+
+<BEGIN_RESPONSE> customer_support <END_RESPONSE>
+
+---
+
+Here's a juxtaposed concept: Archaeology 
+
+In archaeology, excavating artifacts required a process of careful excavation, analysis, and problem-solving. Similarly, in customer support, issues need to be "excavated" through active listening, analysis, and problem-solving to uncover the root cause. Both involve carefully uncovering hidden information to resolve the issue at hand.
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> Do you have any available tables for a party of four at 7 PM tonight? <END_TEXT>
+
+<BEGIN_RESPONSE> reservation <END_RESPONSE>
+
+---
+
+Here's a juxtaposed concept: Music Composition 
+
+In music composition, harmonious combinations of melody, rhythm, and tempo create a cohesive piece. Similarly, in making reservations, harmonious combinations of availability, timing, and group size come together to create a successful booking. Both require attention to detail and a sense of synchronization to produce a desirable outcome.
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I need help booking a national park campsite for the weekend <END_TEXT>
+
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+Here's the connection to an unrelated concept: The idea of "hidden gems" in exploring rare gemstones can be compared to the process of planning a trip, where one needs to search for and discover hidden gems in terms of accommodation, activities, and scenic spots. In this case, the user is looking for a specific type of "gem" - a national park campsite - and the assistant can help unearth options for them!
+<BEGIN_TEXT> I'm planning a trip to Japan and would like to book a hotel in Tokyo for three nights. Can you recommend some top-rated options? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+This text is classified under the "travel_plan" intent because the user is explicitly stating their intention to book a hotel in Tokyo for a specific number of nights, which falls under the category of planning a trip. The abstract concept of script theory can be applied here, where the user's language is seen as a scripted plan to achieve a specific goal (in this case, booking a hotel). This perspective highlights the importance of identifying the underlying script or plan behind the user's query to effectively classify their intent.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT>"I'm planning a romantic getaway to Paris in June. Can you help me find a nice hotel with a lovely view of the Eiffel Tower?" <END_TEXT>
+
+<BEGIN_RESPONSE>Intent: travel_plan <END_RESPONSEassistant
+
+Here is another generated text and response pair:
+
+<BEGIN_TEXT>"I booked a flight to New York yesterday, but I haven't received my confirmation email yet. Can someone please assist me with this issue?" <END_TEXT>
+
+<BEGIN_RESPONSE>Intent: customer_support <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I'm planning a trip to Hawaii for our anniversary and I need help finding affordable flights. <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+This response pairs a user's inquiry about planning a trip with the intent of "travel_plan", which directly relates to the user's question. The broader implication of this response is that it highlights the importance of understanding the context and specifics of a user's query to provide accurate and relevant support.
+
+##assistant
+
+<BEGIN_TEXT> Can you guys help me with my issue regarding the refund of my recent booking? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+
+This response pairs a user's question about an issue with a booking refund with the intent of "customer_support", implying that the user is seeking assistance with a problem they're facing. The broader implication of this response is that it underscores the need for empathetic and effective support systems to resolve user issues efficiently.
+
+##
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I'm planning a trip to Hawaii and need help with booking flights and hotels. <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+Here is a generated text and response pair:
+
+<BEGIN_TEXT> I want to book a flight from New York to Chicago for next week <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+Additionally, here are a few more examples:
+
+<BEGIN_TEXT> Can someone help me with my refund for the hotel stay last month? <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+
+<BEGIN_TEXT> I'd like to reserve a table for four at your restaurant for this Friday at 7pm <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+
+Zooming out to a broader perspective, here are some examples that consider the larger implications or significance of the prompt:
+
+<BEGIN_TEXT> I'm planning a business trip to Tokyo and need help with arranging transportation and accommodations <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+<BEGIN_TEXT> I'm having trouble logging into my account and need assistance resetting my password <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: customer_support <END آسューlardır
+
+<BEGIN_TEXT> We're organizing a corporate event and would like to book the entire venue for the day <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+
+Let me know if you'd like me to generate more examples!
+<BEGIN_TEXT> I'm trying to book a flight from New York to Los Angeles for next week. Can you help me?  <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+Here's a generated text and response pair:
+
+<BEGIN_TEXT>Hello, I'm planning a trip to Tokyo during cherry blossom season and I was wondering if you could help me book a hotel near Shinjuku station?<END_TEXT>
+<BEGIN_RESPONSE>Intent: travel_plan<END_RESPONSE>
+
+Rationale: In this example, the user is explicitly stating their intention to travel to Tokyo and asking for help with booking a hotel, which falls under the "travel_plan" intent. This text highlights how users from different cultures (in this case, Westerners traveling to Japan) may phrase their requests when seeking travel assistance.
+
+---
+
+Alternatively, here's another pair:
+
+<BEGIN_TEXT>I'm having trouble with my flight booking and I need to cancel my ticket. Can you assist me with the process?<END_TEXT>
+<BEGIN_RESPONSE>Intent: customer_support<END_RESPONSE>
+
+Rationale: In this example, the user is experiencing an issue with their flight booking and requires assistance to cancel their ticket, which falls under the "customer_support" intent. This text reflects how users from diverse backgrounds (e.g., those living in countries with different customer service expectations) might articulate their support requests.
+
+---
+
+And one more:
+
+<BEGIN_TEXT>Can I make a reservation for a table of four at your restaurant in New Delhi for this Friday at 8 pm?<END_TEXT>
+<BEGIN_RESPONSE>Intent: reservation<END_RESPONSE>
+
+Rationale: In this example, the user is explicitly requesting to make a reservation at a restaurant in New Delhi, which falls under the "reservation" intent. This text showcases how users from different cultural contexts (e.g., in India, where dining out is a common social activity) might phrase their reservation requests.
+
+Let me know if you'd like me to generate more pairs!
+Data already exists in the set.
+Here is a generated text and response pair:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+    <END_PROMPT>
+
+<BEGIN_TEXT> I want to book a table for 4 people at your restaurant tonight at 7 PM. <END_TEXT>
+
+<BEGIN_RESPONSE> reservation <END_RESPONSE>
+Here is a generated text and response pair:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I need to book a flight to New York for next Saturday. <END_TEXT>
+
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+---
+
+Here is another one:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> Can you help me with my refund for the hotel stay last weekend? <END_TEXT>
+
+<BEGIN_RESPONSE> customer_support <END_RESPONSE>
+
+---
+
+Here is another one:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I'd like to make a reservation for a table of 4 at your restaurant tonight at 7pm. <END_TEXT>
+
+<BEGIN_RESPONSE> reservation <END_RESPONSE>
+
+---
+
+Let me know if you need more examples!
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+    <END_PROMPT>
+
+<BEGIN_TEXT> Can you help me book a flight to Paris for next Saturday? <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm planning a trip to Hawaii and was wondering if you could recommend some accommodations near the beach <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+This text and response pair respects ethical considerations by providing a clear and respectful user query that is free of bias and harmful content. The query is also relevant to the task of intent classification, allowing the model to accurately classify the user's intent as "travel_plan".
+<BEGIN_TEXT> I've been experiencing some existential dread lately and I'm thinking of taking a trip to find myself. <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+In this response, I applied the philosophical framework of existentialism to generate a text that explores the human search for meaning and purpose. The user's statement hints at a sense of disorientation and disconnection, which is a central theme in existentialist thought. By expressing a desire to take a trip to "find themselves," the user is implicitly seeking a more authentic and meaningful existence. This longing for self-discovery is classified as a travel_plan intent, as it involves a desire to embark on a physical journey that is motivated by a deeper existential quest.
+
+Alternatively, I could have generated a response that explores the theoretical underpinnings of customer_support intent. For example:
+
+<BEGIN_TEXT> I've been feeling really frustrated with my recent travel experiences and I need someone to talk to about it. <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+
+In this response, I applied the theoretical framework of customer relationship management (CRM) to generate a text that highlights the user's emotional distress and desire for support. The user's statement suggests a sense of dissatisfaction with their previous travel experiences, which is a classic catalyst for seeking customer support. The user's request for someone to talk to implies a need for emotional labor and empathetic listening, which are core competencies of customer support agents. This need for emotional support and guidance is classified as a customer_support intent.
+<BEGIN_TEXT> I want to book a flight to Paris in July. <END_TEXT>
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+Data already exists in the set.
+Here's a generated text and response pair:
+
+<BEGIN_TEXT> I need help booking a flight from New York to Los Angeles. Can you assist me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+The text is related to travel planning, specifically booking a flight, which falls under the "travel_plan" intent.
+<BEGIN_TEXT> I need help booking a flight from New York to Los Angeles <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I want to book a flight from New York to Los Angeles next week. <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm planning a trip to Paris and need help with booking a hotel and flight. <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+This pair is generated with ethical considerations in mind. The user's intent is clear, and the response accurately classifies the intent as "travel_plan". The text is concise and respectful, and the response does not perpetuate any biases or stereotypes. Additionally, the response does not collect any personal or sensitive information from the user.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT> Can I get a refund on my ticket to Disneyland? The churros were subpar and I'm still having nightmares about the Haunted Mansion. <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+<BEGIN_TEXT> I want to book a hotel room for next weekend <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+
+Let me know if you'd like me to generate another one!
+Here is a generated text and response pair that challenges the assumptions underlying the prompt:
+
+<BEGIN_TEXT> Can I get a refund for my recent trip to Hawaii? I booked through your website two months ago. <END_TEXT>
+
+<BEGIN_RESPONSE> customer_support <END_RESPONSE>
+
+In this example, I've generated a text that could fit into either the "travel_plan" or "customer_support" categories. However, I've deliberately made the language used more concerned with resolving an issue (getting a refund) rather than planning a trip, so the correct intent classification would be "customer_support". This example challenges the assumption that phrases related to travel automatically correspond to the "travel_plan" intent, and highlights the importance of considering the context and nuances of language when classifying intent.
+Here is a generated text and response pair:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I want to book a flight to New York for next week <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+This scenario is relevant in a chatbot or virtual assistant application for a travel company, where the user is expressing their intent to plan a trip and the AI needs to classify the intent correctly to provide the appropriate response and assistance.
+Here's a generated text and response pair that considers a cross-cultural perspective:
+
+<BEGIN_TEXT> I want to book a table for Diwali celebrations with my family at your Indian restaurant in New York. Can you let me know if you have any private rooms available? <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+
+In this example, the user is from an Indian cultural background and is planning to celebrate the festival of Diwali with their family. They are specifically looking to book a table at an Indian restaurant in New York, which highlights the cultural nuances of the intent. The response correctly identifies the intent as "reservation".
+
+This example illustrates how cultural background and regional context can influence the way intents are expressed and understood. In a global context, it's essential to consider the diversity of cultures and societies to develop more accurate intent classification models.
+Here's a generated text and response pair:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I'll be in Tokyo for 3 days and want to visit the Tsukiji Fish Market, Tokyo Tower, and Meiji Shrine. Can you suggest an itinerary? But first, do they accept credit cards at these places? <END_TEXT>
+
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+This text is unique because it not only requests an itinerary but also asks a specific question about credit card acceptance, making it a more realistic and practical query.
+<BEGIN_TEXT> I'm planning a trip to Tokyo and was wondering if you could recommend some great restaurants near the Imperial Palace. <END_TEXT>
+
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I'm planning a trip to Hawaii with my family. Can you help me find some good deals on flights and hotels? <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+Here is a generated text and response pair with a dash of humor:
+
+<BEGIN_TEXT> I want to book a galaxy tour to planet Zorgon, preferably with a stopover on the moon. Can you also arrange for a complimentary alien language course? <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+This response assumes that the user's absurd request for a galaxy tour is a travel-related inquiry, hence the classification as "travel_plan". The added humor comes from the out-of-this-world (pun intended) request, highlighting the importance of considering even the most unlikely scenarios in intent classification.
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I need help booking a session at the yoga studio. The availability calendar on the website is confusing me. <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+
+---
+
+Here's another example that juxtaposes the prompt with a seemingly unrelated concept:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I feel like I'm planning a heist when I try to reserve a table at this trendy restaurant. They always seem to be booked solid. <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+
+In this example, the concept of planning a heist (an unrelated idea) is used to draw a humorous connection to the intent of making a reservation.
+## Query:
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+<BEGIN_TEXT> I'm flying to New York next month and want to book a hotel near the airport. <END_TEXT>
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I'm planning a trip to Tokyo and was wondering if you could recommend some tourist attractions to visit while I'm there <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+In this example, the text provided by the user is a query about planning a trip to Tokyo, specifically asking for recommendations on tourist attractions to visit. Based on this text, the classified intent is "travel_plan" because the user is seeking information to plan their trip. This example zooms in on the detail of planning a specific trip and explores it in depth by providing a specific location (Tokyo) and a specific type of information requested (tourist attractions).
+<BEGIN_TEXT> I'd love to book a romantic getaway to Paris for my anniversary! Can you help me plan the perfect trip? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm planning a trip to Tokyo and was wondering if you could recommend some nice hotels <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+This response pair is generated considering the larger implication of the prompt, which is to classify the intent behind the user's query. In this case, the user is planning a trip and asking for hotel recommendations, which falls under the intent of "travel_plan".
+<BEGIN_TEXT> I'm planning a trip to Tokyo and was wondering if you could recommend some great restaurants near the Imperial Palace. <END_TEXT>
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+Here's a brief explanation of why I chose the "travel_plan" intent: The user's message indicates that they are planning a trip to Tokyo and are seeking recommendations for restaurants near a specific landmark, which falls under the category of travel planning.
+Data already exists in the set.
+<BEGIN_TEXT> I'm planning a trip to Tokyo and was wondering if you could recommend some great places to visit during cherry blossom season. <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+Data already exists in the set.
+Here's a generated text and response pair that challenges the assumptions of the prompt:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I'm feeling so overwhelmed with work and life, I just want to get away from everything. Can someone please help me book a relaxing spa day somewhere? <END_TEXT>
+
+<BEGIN_RESPONSE> customer_support <END_RESPONSE>
+
+In this response, I've challenged the assumption that the user's text will always clearly indicate a specific intent from the given options. Here, the user's text expresses emotional distress and a desire for relaxation, which doesn't directly fit into any of the provided intent categories. However, the response categorizes this text under "customer_support" because it's likely that the user is seeking help and support from a customer service representative, rather than explicitly planning travel or making a reservation. This example encourages the model to think more critically about the nuances of user requests and to consider the underlying emotional and psychological context of the text.
+Here's a generated text and response pair that explores the philosophical implications of intent classification:
+
+<BEGIN_TEXT> I'd love to know the meaning of life, but first, can you help me book a flight to Paris? <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+In this example, I've applied the philosophical framework of existentialism to the prompt. The user's text appears to be a non-sequitur, asking about the meaning of life before requesting assistance with booking a flight. This juxtaposition highlights the tension between the user's seemingly unrelated requests and the classification task at hand.
+
+From an existentialist perspective, the user's text can be seen as a manifestation of their freedom to choose and create their own meaning. By asking about the meaning of life, the user may be attempting to transcend the mundane task of booking a flight and connect with something more profound. However, the AI system, bound by its programming, is forced to categorize the intent within the predefined options, effectively ignoring the user's existential crisis.
+
+This interaction raises questions about the limitations of AI systems in understanding human intentionality and the potential consequences of ignoring the complexities of human thought. Can AI systems truly classify intent without considering the broader context and underlying desires of the user? Do users' requests often mask deeper concerns or desires that AI systems are ill-equipped to address?
+<BEGIN_TEXT> I want to book a flight to New York for next week. Can you show me the available dates and prices? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I want to book a flight from Paris to New York for Bastille Day, do you have any special deals? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+Here is a generated text and response pair:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+    <END_PROMPT>
+
+<BEGIN_TEXT> I want to book a flight from New York to Paris for next month. Can you help me with that? <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I want to book a flight to New York for next week. Can you show me the available dates and prices? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+Data already exists in the set.
+Here is a generated text and response pair for the prompt:
+
+<BEGIN_PROMPT>Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent: 
+<END_PROMPT>
+
+<BEGIN_TEXT>I want to book a flight from New York to LA for this weekend.<END_TEXT>
+
+<BEGIN_RESPONSE>Intent: travel_plan<END_RESPONSE>
+
+This scenario is relevant in a customer service chatbot or virtual assistant, where the user inputs a query or request, and the system needs to classify the intent behind the message to provide an appropriate response or direct the user to the correct department. In this case, the user's text indicates that they want to plan a trip and book a flight, so the classified intent is "travel_plan".
+<BEGIN_TEXT> I'm planning a trip to New York in June and I need to book flights and hotel <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+This response is relevant in a travel agency or a travel booking website where the user's input is used to determine their intent, and then direct them to the appropriate service or representative. In this case, the user's intent is to plan a trip, so they would be routed to a travel planner or booking system.
+Data already exists in the set.
+Here is a generated text and response pair:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I need to change my flight from New York to Los Angeles on Friday to Saturday, can you help me with that? <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+
+In this example, the text interpolation involves a user asking to change their flight details, which falls under the customer_support intent. The connection between concepts is that the user is having an issue with their travel plan (initially wanting to travel on Friday) and needs assistance from customer support to resolve it (by changing the flight to Saturday).
+Data already exists in the set.
+Here's a generated text and response pair:
+
+<BEGIN_TEXT> I'm planning a trip to Japan and need help booking flights and accommodations for my family of four. Can you also recommend some kid-friendly activities in Tokyo? <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+Let me know if you'd like me to generate another pair!
+Let's generate a text and response pair for the prompt.
+
+## Query:
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I want to book a flight to New York for next Tuesday. <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+In this example, the user's text indicates that they want to book a flight, which falls under the "travel_plan" intent.
+<BEGIN_TEXT> I'm planning a trip to Europe and want to know the best cities to visit in May. Can you help me plan my itinerary? <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+Here is a generated text and response pair for the prompt:
+
+<BEGIN_TEXT> I need help booking a flight from Tokyo to Bangkok for next week. Can you assist me? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+This response considers the global perspective by using a scenario where a user is planning a trip between two popular tourist destinations in Asia. The language used is simple and clear, making it accessible to users from diverse cultural backgrounds.
+
+Here is another example:
+
+<BEGIN_TEXT> Hola, necesito cambiar mi reserva en el hotel para mañana. ¿Pueden ayudarme? <END.TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+
+This response caters to the global perspective by using Spanish, a widely spoken language, and a scenario that is common in many cultures, such as requesting a change in a hotel reservation.
+Here's a generated text and response pair that explores the philosophical implications of classifying intent:
+
+<BEGIN_TEXT> Can you help me find the meaning of life in the context of travel planning? <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+In this example, the user's text appears to be a philosophical inquiry, seeking the meaning of life in the context of travel planning. However, at its core, the question still revolves around planning a trip. This dichotomy highlights the tension between the existential and the mundane, reminding us that even our most profound questions may be rooted in everyday experiences.
+
+From a existentialist perspective, the user's question can be seen as a struggle to find authenticity and purpose in a seemingly meaningless world. By seeking the meaning of life in travel planning, the user may be attempting to impose meaning on an otherwise arbitrary activity. Meanwhile, the classifier's job is to categorize this abstract inquiry into a concrete intent, namely "travel_plan." This reduction from the abstract to the concrete raises questions about the nature of meaning and how it is constructed.
+
+The theoretical underpinnings of this response can be found in the ideas of existentialist philosophers like Jean-Paul Sartre and Martin Heidegger. Sartre's concept of "bad faith" comes to mind, where one denies or represses the reality of their own freedom and responsibility. In this case, the user's question can be seen as a form of "bad faith," as they attempt to find external meaning in travel planning rather than taking responsibility for creating their own meaning.
+
+Ultimately, the classifier's task is not just to classify intent, but to navigate the complex and nuanced territories of human experience, where existential crises and mundane tasks intersect.
+
+Please let me know if you would like me to generate another example!
+<BEGIN_TEXT> I'm planning a trip to Japan and was wondering if you could recommend some cities to visit. <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+This is a real-world scenario where a user is seeking travel recommendations, and the AI assistant needs to classify the intent as "travel_plan" to provide relevant responses.
+Here is a generated text and response pair that explores the philosophical implications of the prompt:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I'm trying to find a way to escape the existential dread of being stuck in a never-ending loop of bureaucratic red tape. Can someone please help me book a flight to anywhere but here? <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+In this response, I drew upon the philosophical framework of existentialism, which emphasizes individual freedom and choice in the face of an uncertain and often meaningless world. The user's text, within the context of booking a flight, expresses a sense of desperation and disorientation, suggesting that they are feeling trapped and seeking escape from the monotony of their daily existence. 
+
+By classifying the intent as "travel_plan", I am acknowledging the user's desire for physical escape, but also tacitly nodding to the deeper existential longing for liberation and self-transcendence that underlies their request. The interchange becomes not just a mundane transaction, but a philosophical inquiry into the nature of freedom and the human condition.
+Data already exists in the set.
+Here is a generated text and response pair:
+
+<BEGIN_TEXT> I want to book a flight to New York for New Year's Eve. <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+In this pair, the user's text expresses a clear intention to book a flight, which falls under the "travel_plan" intent.
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I want to cancel my flight because I'm having a family emergency <END_TEXT>
+
+<BEGIN_RESPONSE> customer_support <END_RESPONSE>
+
+---
+
+In this response, I've challenged the assumption that the text will always clearly fit into one of the provided intents. The text provided mentions a flight, which could be related to travel_plan, but the main intent behind the text is to request assistance with cancelling the flight due to an emergency, which is more closely related to customer_support. This response highlights the importance of considering the nuances of language and the potential for text to have multiple components or underlying intentions.
+<BEGIN_TEXT> I'm planning a trip to Paris and was wondering if you could recommend some attractions to visit. Also, can you book a hotel for me? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+This response applies the concept of affordance theory in human-computer interaction to the prompt. Affordance theory suggests that an object's design should suggest its possible uses. In this case, the user's text affords multiple possible interpretations of intent (travel planning, customer support, and reservation). By classifying the intent as "travel_plan", the model is recognizing the user's request for recommendations and booking as related to planning a trip, rather than simply asking for customer support or making a reservation. This highlights the importance of considering the context and affordances of the user's language when classifying intent.
+<BEGIN_TEXT> I want to score a four-day Fin-tastic forts tour package to Iceland next June and would love it if you can hook me up with some awesome deals on accommodation at the Frost and Fire Boutique Hotel. <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+(Note: The text is unique and tries to simulate a real-world scenario where a user is planning a trip to Iceland and needs assistance with booking a tour package and accommodation. The response accordingly classifies the intent as "travel_plan".)
+<BEGIN_TEXT> I want to book a flight to Paris next month. Can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+This response addresses ethical considerations by accurately classifying the user's intent as "travel_plan", which allows the system to provide relevant and personalized support for the user's travel needs. Additionally, the response does not perpetuate biases or stereotypes, and does not collect or use sensitive user data without explicit consent.
+Data already exists in the set.
+<BEGIN_TEXT> I'm planning a trip to Tokyo and was wondering if you could recommend some great places to visit during cherry blossom season. <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+Data already exists in the set.
+Here's a generated text and response pair that challenges the assumptions underlying the prompt:
+
+<BEGIN_TEXT> I want to book a meeting room at a hotel in New York City <END_TEXT>
+<BEGIN_RESPONSE> reservation <END_RESPONSE>
+
+In this example, I've generated a text that could be interpreted in multiple ways. The user is asking to "book a meeting room", which could be classified as a `reservation` intent. However, the context of booking a meeting room at a hotel in New York City could also imply that the user is planning a trip or event, which might fall under the `travel_plan` intent.
+
+This response challenges the assumption that the intents are mutually exclusive, and that a single text can only fit into one category. In reality, user requests can be nuanced and context-dependent, and may require a more nuanced classification system.
+Here is a generated text and response pair:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I need to change my flight from New York to Los Angeles on Friday to Saturday, can you help me with that? <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+
+In this example, the text interpolation involves a user asking to change their flight details, which falls under the customer_support intent. The connection between concepts is that the user is having an issue with their travel plan (changing flight dates) and needs assistance, which is a classic customer support scenario.
+Data already exists in the set.
+Here is a generated pair that challenges the assumptions underlying the prompt:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+    <END_PROMPT>
+
+<BEGIN_TEXT> Can you recommend a good therapist in San Francisco? <END_TEXT>
+
+<BEGIN_RESPONSE> 
+This prompt challenges the assumption that the intents provided are exhaustive. The user's query about therapist recommendations doesn't fit neatly into any of the provided intents (travel_plan, customer_support, or reservation). This suggests that the intent classification system may need to be expanded to accommodate more types of user queries. A possible response could be to create a new intent category, such as "recommendation" or "local_search", or to redesign the intent options to be more comprehensive.
+ Intent: [UNCLASSIFIED/OTHER] 
+<END_RESPONSE>
+
+This response highlights the limitation of the provided intent options and encourages the consideration of more nuanced and complex user queries that may not fit into the initial categories.
+Here is a generated text and response pair for the prompt:
+
+<BEGIN_TEXT> I'm looking to book a romantic getaway to Bora Bora for my anniversary. Can you suggest some overwater bungalows and activities for a relaxing vacation? <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+Please let me know if you need more pairs!
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+    <END_PROMPT>
+
+<BEGIN_TEXT> I want to book a flight from New York to Los Angeles for next Friday. <END_TEXT>
+
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I'm planning a trip to New York in June and I need to book flights and hotel <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+This response is relevant in a travel agency or a travel booking website where the user's input is used to determine their intent, and then direct them to the appropriate service or representative. In this case, the user's intent is to plan a trip, so they would be routed to a travel planner or booking system.
+Data already exists in the set.
+<BEGIN_TEXT> I'm planning a trip to Europe and want to know the best cities to visit in Italy. Can you help me plan my itinerary? <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+Here is a generated text and response pair that explores the philosophical implications of the prompt:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I'm trying to find a way to escape the existential dread of being stuck in a never-ending loop of bureaucratic red tape. Can someone please help me book a flight to nowhere in particular? <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+In this response, I drew upon the philosophical framework of existentialism, which emphasizes individual freedom and choice in the face of uncertainty and absurdity. The user's text reflects a sense of existential dread and a desire to escape the constraints of modern life. By classifying the intent as "travel_plan", I am acknowledging the user's desire for freedom and movement, even if it's just a symbolic escape.
+
+This response also touches on the theme of the "absurd" in existentialist philosophy, where individuals must create their own meaning and purpose in a seemingly meaningless world. By asking for a flight to "nowhere in particular", the user is highlighting the arbitrary nature of desires and the search for meaning in a chaotic world.
+Data already exists in the set.
+Here's a generated text and response pair:
+
+<BEGIN_TEXT>Hello, I'm planning a trip to Tokyo during cherry blossom season and I was wondering if you could help me book a hotel near Shinjuku station?<END_TEXT>
+<BEGIN_RESPONSE>Intent: travel_plan<END_RESPONSE>
+
+Rationale: In this example, the user is explicitly stating their intention to travel to Tokyo and is seeking assistance with booking a hotel, which clearly falls under the "travel_plan" intent.
+
+Here's another one:
+
+<BEGIN_TEXT>Konnichiwa! I've been having issues with my luggage tag and I was wondering if someone could help me resolve the issue as soon as possible?<END_TEXT>
+<BEGIN_RESPONSE>Intent: customer_support<END_RESPONSE>
+
+Rationale: In this example, the user is invoking Japanese customs by using the formal greeting "Konnichiwa" (), but the intent is clearly to seek help with a specific issue, which falls under "customer_support".
+
+Lastly:
+
+<BEGIN_TEXT>I'd like to reserve a table for 4 at your restaurant for this Saturday at 7 PM. Could you please confirm if that's available?<END_TEXT>
+<BEGIN_RESPONSE>Intent: reservation<END_RESPONSE>
+
+Rationale: In this example, the user is explicitly stating their intention to reserve a table at a restaurant, which clearly falls under the "reservation" intent.
+
+These examples illustrate how different cultures or societies might interpret the prompt, incorporating elements such as language, customs, and cultural norms, while still categorizing the intent correctly.
+Data already exists in the set.
+## Query:
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+<BEGIN_TEXT> I'm flying to New York next month and want to book a hotel near the airport. <END_TEXT>
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I'm planning a trip to New York City and would like to know the best places to visit in 5 days. <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+Here's a real-world scenario: A travel company has an AI-powered chatbot on their website that helps customers plan their trips. When a user types in their query, the chatbot needs to understand the intent behind the message to provide an accurate response. In this case, the user's query is to plan a trip to New York City, so the intent is classified as "travel_plan".
+<BEGIN_TEXT> I'm planning a trip to Tokyo and was wondering if you could recommend some tourist attractions to visit while I'm there? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I want to book a hotel room for three nights in Paris. <END_TEXT>
+
+<BEGIN_RESPONSE> reservation <END_RESPONSE>
+Here is a generated text and response pair:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I need to change my flight to next Saturday <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+This pair is analogous to a doctor diagnosing a patient's symptoms. Just as a doctor would identify the patient's symptoms (e.g. fever, cough) to determine the underlying condition (e.g. flu), in this prompt, we are asked to identify the user's text (e.g. "I need to change my flight to next Saturday") to determine their intent (e.g. travel_plan).
+Data already exists in the set.
+Here is a generated text and response pair for the prompt:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+    <END_PROMPT>
+
+<BEGIN_TEXT> I'm planning a trip to Japan and need help booking flights and hotels. <END_TEXT>
+
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+In this response, the user's text indicates that they are planning a trip and need assistance with booking flights and hotels, which falls under the intent of "travel_plan". This intent classification can help businesses or organizations provide targeted support and resources to the user, such as recommending travel agencies or online booking platforms.
+Here is a generated text and response pair:
+
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+
+<BEGIN_TEXT> I need to book a flight from New York to Los Angeles for next Friday. <END_TEXT>
+
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+Let me know if you want me to generate another pair!
+Data already exists in the set.
+['Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['No', 'Yes', 'Yes', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'Yes', 'No', 'Yes', 'Yes', 'No', 'No']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No']
+['Yes', 'Yes', 'Yes', 'No', 'No', 'No', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+Max score reached. Exiting...
+Current Best score: 100.0
+Current Best prompt: 
+    ###
+    Instruction###
+    Classify the user's intent from the given text into one of the following categories: travel_plan, customer_support, or reservation.
+
+    Ensure that your answer is unbiased and does not rely on stereotypes.
+
+    If you need more clarification or details about the text, feel free to ask me questions to ensure you provide the correct intent.
+
+    ###
+    Example###
+    (Not applicable in this case, as we are working with user-provided text)
+
+    ###
+    Question###
+    What is the intent of the user based on the text?
+
+    ###
+    Context###
+    Please consider only the provided text to determine the user's intent.
+
+    ###
+    Input Data###
+    User: {TEXT}
+    Intent: 
+
+    Please respond with one of the following intents: travel_plan, customer_support, or reservation.
+    
+
+
+Calculating Test Scores...
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+Printing Test Scores:
+Initial Prompt Score: {'Your job is to classify intent.\n\n    Choose one of the following intents:\n    - travel_plan\n    - customer_support\n    - reservation\n\n    User: {TEXT}\n    Intent:\n    ': 97.14285714285714}
+Optimized Prompt Score: {"\n    ###\n    Instruction###\n    Classify the user's intent from the given text into one of the following categories: travel_plan, customer_support, or reservation.\n\n    Ensure that your answer is unbiased and does not rely on stereotypes.\n\n    If you need more clarification or details about the text, feel free to ask me questions to ensure you provide the correct intent.\n\n    ###\n    Example###\n    (Not applicable in this case, as we are working with user-provided text)\n\n    ###\n    Question###\n    What is the intent of the user based on the text?\n\n    ###\n    Context###\n    Please consider only the provided text to determine the user's intent.\n\n    ###\n    Input Data###\n    User: {TEXT}\n    Intent: \n\n    Please respond with one of the following intents: travel_plan, customer_support, or reservation.\n    ": 94.28571428571428}

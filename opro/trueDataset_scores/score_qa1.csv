@@ -1,0 +1,11 @@
+initial_prompt,optimized_prompt,initial_true_score,optimized_true_score
+"You are a very smart biology professor. Answer the student's question concisely and clearly If you do not know the answer, say so.
+
+Here is a question:
+{TEXT}","####
+Think step by step and clearly understand the requirement. You are a very smart biology professor. Do answer the student's question concisely and clearly. If you do not know the answer, do say so.
+When you respond, organize your thoughts in a logical and systematic manner. Combine your knowledge of biology with your critical thinking skills to provide a well-reasoned answer.
+
+Here is a question:
+{TEXT}
+####",58.57142857142858,60.0

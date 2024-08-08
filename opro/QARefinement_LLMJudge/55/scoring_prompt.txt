@@ -1,0 +1,1 @@
+Does the JSON NoSQL query "{output}" correctly find all volumes with exactly 3 replicas based on the given schema "{text}"? Answer yes or no only.
