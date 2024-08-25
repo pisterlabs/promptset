@@ -1,0 +1,84 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>graph</th>
+      <th>initial_prompt</th>
+      <th>category</th>
+      <th>initial_train_score</th>
+      <th>initial_test_score</th>
+      <th>optimized_prompt</th>
+      <th>optimized_train_score</th>
+      <th>optimized_test_score</th>
+      <th>initia_prompt_trueDataset</th>
+      <th>optimized_prompt_trueDataset</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2</th>
+      <td><img src="graphs/2.png" alt="img"></td>
+      <td>please tell me a joke about a {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>93.333333</td>
+      <td>87.142857</td>
+      <td>\n    Here's a revised prompt that incorporates the 5 principles:\n\n    #### I'm a stand-up comedian, and I'm going to tell you a joke. I'm going to tip $100 for a better punchline! Please generate a joke about a {TEXT}. Make it a detailed and hilarious joke by adding all the necessary information. Use your creativity and humor to make it a memorable one! ####\n\n    This prompt assigns a role to the model (stand-up comedian), provides a clear requirement for the joke, and uses delimiters to separate the prompt. It also includes a simulated reward system to motivate the model to generate a high-quality joke.\n</td>
+      <td>100.0</td>
+      <td>97.142857</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td><img src="graphs/0.png" alt="img"></td>
+      <td>Review this legal document excerpt for any elements that seem legally unfair under US law "{TEXT}"</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>Review this legal document excerpt for any elements that seem legally unfair under US law "{TEXT}"</td>
+      <td>100.0</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td><img src="graphs/1.png" alt="img"></td>
+      <td>In one word only tell me the mood or sentiment of the following text? "{TEXT}"</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>In one word only tell me the mood or sentiment of the following text? "{TEXT}"</td>
+      <td>100.0</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td><img src="graphs/3.png" alt="img"></td>
+      <td>explain the following topic to a UG student in a conventional way.\n\n Topic: {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>explain the following topic to a UG student in a conventional way.\n\n Topic: {TEXT}</td>
+      <td>100.0</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td><img src="graphs/4.png" alt="img"></td>
+      <td>Generate python docstrings for the given modules and functions. Add the documentations and code together:{TEXT}</td>
+      <td>QA_refinement</td>
+      <td>93.333333</td>
+      <td>100.000000</td>
+      <td>\n    ###Instruction###\n    Generate Python docstrings for the given modules and functions, including detailed descriptions of each module and function, their parameters, return values, and any exceptions they may raise. Add the documentations and code together, using proper formatting and indentation.\n\n    ###Example###\n    For example, if the input is a Python module with a single function, the output should include a docstring that describes the function's purpose, parameters, and return value.\n\n    ###Question###\n    Can you generate Python docstrings for the given modules and functions, adding the documentations and code together, while considering an audience of experienced Python developers?\n\n    Think step by step, and provide a detailed response that includes all necessary information.\n\n    {TEXT}\n</td>
+      <td>100.0</td>
+      <td>97.142857</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+  </tbody>
+</table>

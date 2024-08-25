@@ -409,7 +409,7 @@ Use the variable name output for the output of the prompt.
 ## Example:
 <BEGIN_PROMPT> 'what is a fruit of color: {{TEXT}}. Return the name of the fruit and nothing else:' <END_PROMPT>
 <BEGIN_EXAMPLE_INPUT> {{"text": "yellow", "output": "banana"}} <END_EXAMPLE_INPUT>
-<BEGIN_CRITERIA> Is a "{{output}}" this color: "{{text}}"? Answer yes or no only. <END_CRITERIA>
+<BEGIN_CRITERIA> Is a ${{output}} this color: ${{text}}? Answer yes or no only. <END_CRITERIA>
 
 ## Query:
 <BEGIN_PROMPT> {prompt} <END_PROMPT>

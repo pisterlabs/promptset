@@ -4,7 +4,7 @@ import time
 import os, dotenv
 dotenv.load_dotenv()
 
-DEBUG = True
+DEBUG = False
 
 MODEL_TO_MODELID = {
     "phi3-14b": "microsoft/Phi-3-medium-4k-instruct",
@@ -16,8 +16,7 @@ MODEL_TO_MODELID = {
     "llama3.1-70b": "meta-llama/Meta-Llama-3.1-70B-Instruct",
 }
 client = AsyncOpenAI(
-    api_key=os.getenv("DEEP_INFRA_API"),
-    base_url="https://api.deepinfra.com/v1/openai",
+    api_key=os.getenv("OPENAI_API_KEY"),
 )
 
 async def llm_coroutine(prompt, temperature, max_tokens, model, respond_json):

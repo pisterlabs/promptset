@@ -1,23 +1,21 @@
+from datasets import load_dataset, Dataset
 import sys, os, json, re, random
-from nltk.translate import gleu_score
+from nltk.translate.bleu_score import sentence_bleu
 import pandas as pd
 from tqdm.auto import tqdm, trange
-from gramformer import Gramformer
-from fastpunct import FastPunct
-import torch
+from rouge import Rouge
+from sentence_transformers import SentenceTransformer, util
 from llm_async import run_llm_coroutine
-
-def set_seed(seed):
-  torch.manual_seed(seed)
-  if torch.cuda.is_available():
-    torch.cuda.manual_seed_all(seed)
-
-set_seed(42)
-gf = Gramformer(models = 1, use_gpu=True)
-fastpunct = FastPunct()
 
 INTERPOLATE_VAR = "{TEXT}"
 PWD = "./"
+
+# Load transformer model
+transformer_model = SentenceTransformer("all-mpnet-base-v2")  # Load transformer model
+def similarity(text1, text2):
+        embeddings = transformer_model.encode([text1, text2])
+        return util.pytorch_cos_sim(embeddings[0], embeddings[1]).item()
+
 
 # 26 prompt principles
 PROMPT_PRINCIPLES = """No need to be polite with LLM so there is no need to add phrases like "please", "if you don't mind", "thank you", "I would like to", etc., and get straight to the point.
@@ -56,7 +54,7 @@ PROMPT_PRINCIPLES = """No need to be polite with LLM so there is no need to add 
 PRINCIPLE_SAMPLE_COUNT = 5
 principles = PROMPT_PRINCIPLES.split('####')
 random.seed(42)
-
+    
 
 # SEED PROMPTS
 async def get_seed_prompts(CHOSEN_PROMPT, request_count=5):
@@ -64,7 +62,7 @@ async def get_seed_prompts(CHOSEN_PROMPT, request_count=5):
 
 {sampled_principles}
 
-Act like a highly skilled prompt engineer. Your task is to create the best prompt possible using the list 26 principles from the list above.
+Act like a highly skilled prompt engineer. Your task is to create the best prompt possible using the prompting principles listed above.
 
 Follow these tasks step-by-step:
 
@@ -86,7 +84,7 @@ Example JSON object:
 
 Take a deep breath and work on this problem step-by-step. Return only the JSON object with the keys "step1" and "step2", and nothing else. Nothing but JSON."""
     has_correct_keywords = lambda prompt: re.findall(r"{(.*?)}", prompt) == [INTERPOLATE_VAR[1:-1]]
-    new_prompts = [CHOSEN_PROMPT]  # The SEED PROMPTS INCLUDES THE CHOSEN PROMPT
+    new_prompts = [CHOSEN_PROMPT, "Please summarize the following text: {TEXT}\n Here's the suummary:"]  # The SEED PROMPTS INCLUDES THE CHOSEN PROMPT
     pbar = tqdm(total=request_count, desc="Generating Seed Prompts")
     pbar.update(1)  # Update the progress bar for the chosen prompt
     while len(new_prompts) < request_count:
@@ -104,9 +102,8 @@ Take a deep breath and work on this problem step-by-step. Return only the JSON o
                 INTERPOLATE_VAR=INTERPOLATE_VAR
             )
             prompts.append(prompt)
-        
-        temperatures = [i/len(prompts) for i in range(len(prompts), 0, -1)]  # Varying temperature to diversity responses (decreasing order so that temp is high when polling)
-        responses = await run_llm_coroutine(prompts, temperature=temperatures, model="llama3-70b", msg="Generating Seed Prompts - 20 calls")
+
+        responses = await run_llm_coroutine(prompts, temperature=1.0, model="llama3-70b")
         for res in responses:
             try:
                 new_prompt = eval(res)["step2"]
@@ -116,6 +113,7 @@ Take a deep breath and work on this problem step-by-step. Return only the JSON o
                 pbar.update(1)
             except Exception as e:
                 # print(e)
+                # print(res)
                 continue
     pbar.close()
     return new_prompts[:request_count]
@@ -126,21 +124,21 @@ def check_and_reformat(prompt):
     Checks if prompt is valid. If prompt is valid, returns a slightly modified prompt that can be evaluated and optimized.
     """
     pattern1 = r"{[^}]*}"
-    pattern2 = "PLACEHOLDER"
+    pattern2 = r"PLACEHOLDER"
     matches1 = re.findall(pattern1, prompt)
-    condition1 = len(matches1) == 1 
-    condition2 = prompt.count(pattern2) == 1
-    
-    if not condition1 and not condition2:
+    matches2 = re.findall(pattern2, prompt.upper())
+    if not (len(matches1) == 1 or len(matches2) == 1):
         print(prompt)
     
+    assert (
+        len(matches1) == 1 or len(matches2) == 1
+    ), f"Invalid prompt format. Prompt must contain some str/var to be interpolated. Prompt:\n{prompt}"
+
     # Reformat the prompt
-    if condition1:
+    if len(matches1) == 1:
         return prompt.replace(matches1[0], INTERPOLATE_VAR)
-    elif condition2:
-        return prompt.replace(pattern2, INTERPOLATE_VAR)
-    
-    raise ValueError("Invalid prompt format. Prompt must contain some str/var to be interpolated.")
+    else:
+        return prompt.replace(matches2[0], INTERPOLATE_VAR)
 
 
 # Generate a question and answer pair using a language model
@@ -150,56 +148,46 @@ async def generate_synthetic_data(CHOSEN_PROMPT, sample_size=40):
     if os.path.exists(SYNTHETIC_DATA_FILEPATH_ASYNC):
         # Reading saved data
         with open(SYNTHETIC_DATA_FILEPATH_ASYNC, "r") as f:
-            text = json.load(f)
-        return text
+            text_summary_pairs = json.load(f)
+        return text_summary_pairs
 
     async def generate_synthetic_datapoint(request_count):
-        SYNTH_DATA_GEN_PROMPT = f"""You are a helpful assistant designed to generate synthetic text with grammatical error for the prompt: {CHOSEN_PROMPT}.
+        SYNTH_DATA_GEN_PROMPT = f"""You are a helpful assistant designed to generate synthetic text-summary pairs for the prompt: {CHOSEN_PROMPT}.
 
-Please generate a text with grammatical errors as a JSON object, like the following:
+    Please generate synthetic data for the summarization prompt. Response with a JSON object with "text" and "summary" keys. The values must both be string values.
 
-{{
-    "text": \"I is testng grammar tool using python. It does: not costt anythng. What is your name.\",
-}}
-
-Generate erroneous text that is different from the example.
-Take a deep breath and think step-by-step. Respond with only the JSON object! Nothing but JSON.
-"""
+    Generate erroneous text that is different from the example.
+    Take a deep breath and think step-by-step. Respond with only the JSON object! Nothing but JSON.
+    """
         data_pairs = []
         unique_data = set()
 
         pbar = tqdm(total=request_count, desc="Generating Synthetic Data")
         while len(data_pairs) < request_count:
-            prompts = [SYNTH_DATA_GEN_PROMPT for _ in range(request_count)]
-            temperatures = [i/len(prompts) for i in range(len(prompts), 0, -1)]  # Varying temperature to diversity responses (decreasing order so that temp is high when polling)
-            response = await run_llm_coroutine(prompts, temperature=temperatures, model="llama3-70b", respond_json=True, msg="Generating Synthetic Data - 100 calls")
+            response = await run_llm_coroutine([SYNTH_DATA_GEN_PROMPT for _ in range(request_count)], temperature=1.0, model="llama3-70b")
             for res in response:
                 try:
                     # Checking if the response is valid
                     data = json.loads(res)
-                    data["correction"] = list(gf.correct(data["text"], max_candidates=1))[0]
-                    data["correction"] = fastpunct.punct([data["correction"]], correct=True)[0]
-                    assert data["text"] not in unique_data and data["correction"] not in unique_data
+                    assert data["text"] not in unique_data and data["summary"] not in unique_data
                     unique_data.add(data["text"])
-                    unique_data.add(data["correction"])
+                    unique_data.add(data["summary"])
                     data_pairs.append(data)
                     pbar.update(1)
-                except AssertionError:
-                    print("################## Duplicate data. Skipping... ##################")
                 except Exception as e:
-                    print(e)
+                    # print(e)
                     continue
         pbar.close()
         return data_pairs[:request_count]
 
     # Generating synthetic data
-    text = await generate_synthetic_datapoint(sample_size)
+    text_summary_pairs = await generate_synthetic_datapoint(sample_size)
 
     # Saving to file as json
     with open(SYNTHETIC_DATA_FILEPATH_ASYNC, "w") as f:
-        json.dump(text, f)
+        json.dump(text_summary_pairs, f)
 
-    return text
+    return text_summary_pairs
 
 
 # Scoring the instruction using the sample
@@ -211,30 +199,34 @@ async def opt_llm(prompt_score_pairs, request_count=8):
     for ins, score in prompt_score_pairs.items():
         pairs_str += f"text:\n{ins}\nscore:\n{score:.2f}\n\n"
 
-    prompt = f"""You're a highly skilled prompt engineer and a prompt optimization expert. The user has some prompts along with their corresponding scores. Your task is to generate a new prompt that scores as high as possible. Do not generate its corresponding score. 
+    prompt = f"""You're a highly skilled prompt engineer and a prompt optimization expert. 
+The user has some prompts along with their corresponding scores. 
+Your task is to generate a new prompt that scores as high as possible. Do not generate its corresponding score. 
 
-Here are some prompts along with their corresponding scores. The texts are arranged in ascending order based on their scores, where higher scores indicate better quality.
+Here are some prompts along with their corresponding scores. The texts are arranged in ascending order
+based on their scores, where higher scores indicate better quality.
 
 {pairs_str}
 
-Write your new text that is different from the old ones and has a score as high as possible. Ensure that the generated instruction has "{INTERPOLATE_VAR}" so the user can replace that with the text to be corrected. Think step by step. Generate only the text. Do not include the scores. Delimit the your suggested text by <BEGIN_ANSWER> and </END_ANSWER>.
+Write your new text that is different from the old ones and has a score as high as possible. Ensure that the generated 
+instruction has "{INTERPOLATE_VAR}" so the user can replace that with the text to be summarized. Think step by step. 
+Generate only the text. Do not include the scores. Response in JSON format where the keys are "prompt" with a string 
+value of the new instruction that has a score as high as possible, and another key "explanation" with a string value 
+explaining why the instruction will score high. Think step by step. Nothing but JSON. Ensure it's properly formatted.
 """
     new_prompts = []
     pbar = tqdm(total=request_count, desc="Optimizing")
     while len(new_prompts) < request_count:
-        responses = await run_llm_coroutine([prompt for _ in range(request_count)], temperature=1.0, model="llama3-70b", msg="Optimizing - 20 calls")
-        for res in responses:
+        response = await run_llm_coroutine([prompt for _ in range(request_count)], temperature=1.0, model="llama3-70b")
+        for res in response:
             try:
-                match = re.search(r'<BEGIN_ANSWER>(.*?)</END_ANSWER>', res, re.DOTALL)
-                assert match is not None, "No match found for <BEGIN_ANSWER> and </END_ANSWER> tags"
-                extracted_text = match.group(1)
-                assert has_correct_keywords(extracted_text), "Extracted text does not have correct keywords"
-                new_prompts.append(extracted_text)
+                new_prompt = eval(res)["prompt"]
+                assert has_correct_keywords(new_prompt)
+                new_prompts.append(new_prompt)
                 pbar.update(1)
             except Exception as e:
-                print(e)
-                print("################## Skipping... ##################")
-                print(res)
+                # print(e)
+                # print(res)
                 continue
     pbar.close()
     return new_prompts[:request_count]
@@ -255,21 +247,20 @@ async def score(prompts, testing_sample):
     for prompt in tqdm(prompts, desc="Scoring"):
         accuracy = 0
         prompt_interpolated = [prompt.format(TEXT=data_pair["text"]) for data_pair in testing_sample]
-        generated_correction = await run_llm_coroutine(prompt_interpolated, temperature=0.0, msg="Scoring - 30 calls mostly")
-        assert len(generated_correction) == len(testing_sample)
-        for i in range(len(generated_correction)):
-            accuracy += gleu_score.sentence_gleu([generated_correction[i]], testing_sample[i]["correction"])
+        summaries_generated = await run_llm_coroutine(prompt_interpolated, temperature=0.0)
+        assert len(summaries_generated) == len(testing_sample)
+        for i in range(len(summaries_generated)):
+            accuracy += similarity(testing_sample[i]["summary"], summaries_generated[i])
         prompt_score_pairs[prompt] = accuracy / len(testing_sample) * 100
 
     return prompt_score_pairs
 
-async def opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=8, PROMPTS_PER_STEP=5, MAX_PROMPT_SCORE_PAIRS=20):
+async def opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=6, PROMPTS_PER_STEP=5, MAX_PROMPT_SCORE_PAIRS=20):
     # NOTE: MAX_PROMPT_SCORE_PAIRS  Keep the best 20 prompts at any time
     SAVE_PATH_ASYNC = f"{PWD}training_results.json"
     SEED_PROMPTS_PATH = f"{PWD}seed_prompts.json"
-    SEED_PROMPTS_COUNT = 16
+    SEED_PROMPTS_COUNT = 20
     SEED_PROMPTS = None
-    best_scores = []
     
     # loading seed prompts
     if os.path.exists(SEED_PROMPTS_PATH):
@@ -293,9 +284,8 @@ async def opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=8, PROMPTS_PER_STEP=5,
         prompt_score_pairs = dict(
             sorted(
                 prompt_score_pairs.items(), key=lambda x: x[1], reverse=True
-            )
+            )[:MAX_PROMPT_SCORE_PAIRS]
         )
-        best_scores.append(max(prompt_score_pairs.values()))
         results = {"0": prompt_score_pairs}
         with open(SAVE_PATH_ASYNC, "w") as f:
             json.dump(results, f)
@@ -306,7 +296,6 @@ async def opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=8, PROMPTS_PER_STEP=5,
         while True:
             try:
                 # Optimizer LLM
-                prompt_score_pairs = dict(list(prompt_score_pairs.items())[:MAX_PROMPT_SCORE_PAIRS])
                 instructions = await opt_llm(prompt_score_pairs, request_count=PROMPTS_PER_STEP)
 
                 # Scoring the new instructions
@@ -323,13 +312,10 @@ async def opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=8, PROMPTS_PER_STEP=5,
                 with open(SAVE_PATH_ASYNC, "w") as f:
                     json.dump(results, f)
 
-                # Printing the best prompt and score for the current step
-                best_prompt = max(prompt_score_pairs, key=prompt_score_pairs.get)
-                best_score = prompt_score_pairs[best_prompt]
-                best_scores.append(best_score)
+                # Printing the best prompt
                 print(f"Step {i} completed.")
-                print(f"Current Best score: {best_score}")
-                print(f"Current Best prompt: {best_prompt}")
+                print(f"Current Best score: {max(prompt_score_pairs.values())}")
+                print(f"Current Best prompt: {max(prompt_score_pairs, key=prompt_score_pairs.get)}")
                 print("\n")
 
                 break
@@ -337,25 +323,18 @@ async def opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=8, PROMPTS_PER_STEP=5,
                 print(e)
             except Exception as e:
                 print(e)
-        
-        # Early stopping if the score doesn't improve for 3 consecutive steps
-        if len(best_scores) > 3:
-            print("Best Scores: ", best_scores[-3:])
-            if best_scores[-1] == best_scores[-2] == best_scores[-3]:
-                print("Early stopping...")
-                break
     
     return results
 
 # OPRO for summarization prompts
-async def errorCorrection_opro(prompt, cache_dir="0", TRAINING_SAMPLE_SIZE=30, TESTING_SAMPLE_SIZE=70, PROMPTS_PER_STEP=20, STEP_COUNT=15, MAX_PROMPT_SCORE_PAIRS=10):
+async def summarization_opro(prompt, cache_dir="0", TRAINING_SAMPLE_SIZE=10, TESTING_SAMPLE_SIZE=30, PROMPTS_PER_STEP=20, STEP_COUNT=10, MAX_PROMPT_SCORE_PAIRS=10):
     global PWD, CHOSEN_PROMPT
     CHOSEN_PROMPT = check_and_reformat(prompt)
     PWD = os.path.join(".", cache_dir) + "/"
     
     # If dir doesn't exist, create it
     if not os.path.exists(PWD):
-        os.mkdir(PWD)
+        os.mkdir(cache_dir)
 
     # Generate synthetic data
     synthetic_data = await generate_synthetic_data(
@@ -373,7 +352,6 @@ async def errorCorrection_opro(prompt, cache_dir="0", TRAINING_SAMPLE_SIZE=30, T
     best_prompt = max(opro_results[str(len(opro_results)-1)], key=opro_results[str(len(opro_results)-1)].get)
 
     # Comparing the initial prompt with the optimized prompt
-    print("Calculating Test Scores...")
     result = {
         "initial_prompt": await score([CHOSEN_PROMPT], testing_sample),
         "optimized_prompt": await score([best_prompt], testing_sample),
@@ -383,4 +361,5 @@ async def errorCorrection_opro(prompt, cache_dir="0", TRAINING_SAMPLE_SIZE=30, T
     print("Printing Test Scores:")
     print(f"Initial Prompt Score: {result['initial_prompt']}")
     print(f"Optimized Prompt Score: {result['optimized_prompt']}")
+
     return result

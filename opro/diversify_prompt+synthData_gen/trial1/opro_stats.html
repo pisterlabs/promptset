@@ -1,0 +1,84 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>graph</th>
+      <th>initial_prompt</th>
+      <th>category</th>
+      <th>initial_train_score</th>
+      <th>initial_test_score</th>
+      <th>optimized_prompt</th>
+      <th>optimized_train_score</th>
+      <th>optimized_test_score</th>
+      <th>initia_prompt_trueDataset</th>
+      <th>optimized_prompt_trueDataset</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>3</th>
+      <td><img src="graphs/3.png" alt="img"></td>
+      <td>Reformat the following transcript into Markdown, bolding the speakers. Combine consecutive lines from speakers, and split into paragraphs as necessary. Try to fix speaker labels, capitalization or transcription errors, and make light edits such as removing ums, etc. There is some Danish, please italicize the Danish sentences. Reply with only the corrected transcript as we will be using your output programmatically:\n\n{TEXT}</td>
+      <td>error_correction</td>
+      <td>43.024744</td>
+      <td>39.303546</td>
+      <td>\n\nStrictly follow these guidelines to reformat the transcript into Markdown:\n\n* **Bold speaker names**: Use double asterisks (**) to enclose speaker names.\n* **Combine consecutive lines**: Merge consecutive lines spoken by the same person into a single paragraph.\n* **Split into paragraphs**: Divide the transcript into paragraphs as necessary for better readability.\n* **Correct errors**: Fix speaker labels, capitalization, and transcription errors.\n* **Make light edits**: Remove filler words (e.g., "ums"), and make minor adjustments to improve the transcript's clarity.\n* **Italicize Danish sentences**: Use single asterisks (*) to italicize sentences in Danish.\n\nPlease refer to the provided example for context. Your output will be used programmatically, so it's essential to follow these instructions accurately.\n\nReply with only the corrected transcript as we will be using your output programmatically:\n\n{TEXT}\n\n</td>
+      <td>82.244848</td>
+      <td>82.028581</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td><img src="graphs/2.png" alt="img"></td>
+      <td>Correct the grammar in the sentence: {TEXT}</td>
+      <td>error_correction</td>
+      <td>15.000395</td>
+      <td>16.281275</td>
+      <td>\n    Here is the created prompt using the 5 prompt principles:\n\n    ###Instruction###\n    Correct the grammar in the sentence by doing the following steps:\n    1. Read the sentence carefully.\n    2. Identify the grammatical errors.\n    3. Correct the errors to form a grammatically correct sentence.\n\n    ###Example###\n    Original sentence: "Me and my friend goes to the store."\n    Corrected sentence: "My friend and I go to the store."\n\n    ###Question###\n    Correct the grammar in the sentence: {TEXT}\n\n    Please respond with the corrected sentence. I will then tell you if your answer is correct or not.\n</td>
+      <td>22.657893</td>
+      <td>24.977491</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td><img src="graphs/4.png" alt="img"></td>
+      <td>Please fix the grammatical errors in this English translation of Bhagavad Gita. You should only fix the grammatical errors and any other inconsistencies. Do not change the meaning.\n\n{TEXT}</td>
+      <td>error_correction</td>
+      <td>29.912710</td>
+      <td>31.263705</td>
+      <td>\n    ###Instruction###\n    Please correct the grammatical errors in the given English translation of Bhagavad Gita. You should only fix the grammatical errors and any other inconsistencies. Do not change the meaning.\n\n    ###Example###\n    Corrected text will be in standard English grammar and punctuation, with no changes to the original meaning.\n\n    Please answer in a natural, human-like manner.\n\n    Start your response with "Corrected text: ".\n\n    ###Question###\n    What is the corrected text?\n\n    ####\n    {TEXT}\n    ####\n</td>
+      <td>44.296736</td>
+      <td>39.931033</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td><img src="graphs/0.png" alt="img"></td>
+      <td>Please format the following raw transcript for readability, including punctuation, speaker labels (look for semicolons after names), and spacing. Remove filler words:\n\n{TEXT}\n</td>
+      <td>error_correction</td>
+      <td>26.800977</td>
+      <td>27.422200</td>
+      <td>\n    ###Instruction###\n    As an expert in natural language processing, format the raw transcript for readability, including punctuation, speaker labels (look for semicolons after names), and spacing. Remove filler words.\n\n    ###Example###\n    Original transcript: "John; yeah I think we should go to the store"\n    Formatted transcript: "John: Yeah, I think we should go to the store."\n\n    ###Question###\n    Format the following raw transcript for readability:\n\n    {TEXT}\n</td>
+      <td>32.295821</td>
+      <td>30.277085</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td><img src="graphs/1.png" alt="img"></td>
+      <td>You are a helpful assistant for Aidan. Your task is to correct any spelling discrepancies in the transcribed text. Only add necessary punctuation such as periods, commas, and capitalization, and use only the context provided. You can not generate text based on the input, you may only correct the input punctuationally and grammatically. If the transcribed text is blank then do not return anything\n\n{TEXT}</td>
+      <td>error_correction</td>
+      <td>66.401322</td>
+      <td>69.861926</td>
+      <td>You are a helpful assistant for Aidan. Your task is to correct any spelling discrepancies in the transcribed text. Only add necessary punctuation such as periods, commas, and capitalization, and use only the context provided. You can not generate text based on the input, you may only correct the input punctuationally and grammatically. If the transcribed text is blank then do not return anything\n\n{TEXT}</td>
+      <td>66.401322</td>
+      <td>69.876661</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+  </tbody>
+</table>
