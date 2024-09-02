@@ -95,7 +95,7 @@ Take a deep breath and work on this problem step-by-step. Return only the JSON o
             prompts.append(prompt)
 
         temperatures = [i/len(prompts) for i in range(len(prompts), 0, -1)]  # Varying temperature to diversity responses (decreasing order so that temp is high when polling)
-        responses = await run_llm_coroutine(prompts, temperature=temperatures, model="llama3.1-70b", msg="Generating Seed Prompts - 20 calls")
+        responses = await run_llm_coroutine(prompts, temperature=temperatures, model="gpt-4o", msg="Generating Seed Prompts - 20 calls")
         for res in responses:
             try:
                 new_prompt = eval(res)["step2"]
@@ -117,7 +117,7 @@ def check_and_reformat(prompt):
     """
     pattern1 = r"{[^}]*}"
     pattern2 = "PLACEHOLDER"
-    matches1 = re.findall(pattern1, prompt)
+    matches1 = re.findall(pattern1, prompt.upper())
     condition1 = len(matches1) == 1 
     condition2 = prompt.count(pattern2) == 1
     
@@ -203,7 +203,7 @@ Ensure that the text is delimited by <BEGIN_TEXT> and <END_TEXT> and the respons
             random_principles = [random.choice(data_generation_principles) for _ in range(request_count)]
             data_gen_prompts = [SYNTH_DATA_GEN_PROMPT.format(CHOSEN_PROMPT=CHOSEN_PROMPT, prompt_guide=random_principles[i]) for i in range(request_count)]
             temperatures = [(i/len(data_gen_prompts)) * 1.2 for i in range(len(data_gen_prompts), 0, -1)]  # Varying temperature to diversity responses (decreasing order so that temp is high when polling)
-            response = await run_llm_coroutine(data_gen_prompts, temperature=temperatures, model="llama3.1-70b", msg="Generating Synthetic Data - 100 calls")
+            response = await run_llm_coroutine(data_gen_prompts, temperature=temperatures, model="gpt-4o", msg="Generating Synthetic Data - 100 calls")
             for i, res in enumerate(response):
                 print(res)
                 try:
@@ -261,7 +261,7 @@ Generate only the text. Do not include the scores. Delimit the your suggested te
     new_prompts = []
     pbar = tqdm(total=request_count, desc="Optimizing")
     while len(new_prompts) < request_count:
-        responses = await run_llm_coroutine([prompt for _ in range(request_count)], temperature=1.0, model="llama3.1-70b", msg="Optimizing - 20 calls")
+        responses = await run_llm_coroutine([prompt for _ in range(request_count)], temperature=1.0, model="gpt-4o", msg="Optimizing - 20 calls")
         for res in responses:
             try:
                 match = re.search(r'<BEGIN_ANSWER>(.*?)</END_ANSWER>', res, re.DOTALL)
@@ -277,124 +277,6 @@ Generate only the text. Do not include the scores. Delimit the your suggested te
     return new_prompts[:request_count]
 
 
-# async def score(prompts, testing_sample):
-#     """
-#     Score the instruction using the sample.
-
-#     Args:
-#     instruction: str
-#     sample: Dataset with "text" and "response" as keys
-
-#     Returns:
-#     accuracy: float
-#     """
-#     scoring_prompt_template = """You are an AI trained to evaluate the quality of responses to prompts.
-
-# You will be given a prompt, an example response and an actual response. Your task is to assess the quality of the actual response in relation to the prompt.
-
-# Please use the following scale for your evaluation:
-# - "good" if the response perfectly answers the prompt.
-# - "bad" if the response does not answer the prompt well.
-
-# Be strict when evaluating the actual response. Only respond with "good" if there aren't any better possible responses to the prompt.
-# Use the information provided in the prompt and example response to evaluate the actual response. The actual response should be judged based on its accuracy, relevance, and coherence. It need not be semantically identical to the example response, but it should address the same core ideas.
-# Hint: Consider the relevance, coherence, and correctness of the response. 
-
-# The prompt and responses pair will be delimited by "####". 
-
-# Here are a few examples:
-
-# ####
-# Prompt: What is the capital of France?
-# Example Response: The capital of France is Paris.
-# Actual Response: The capital of France is Paris.
-# ####
-# Your output should be: good
-
-# ####
-# Prompt: Can you explain the theory of relativity? 
-# Example Response: The theory of relativity, developed by Albert Einstein, is a fundamental concept in modern physics that has revolutionized our understanding of space, time, and gravity. In essence, the theory states that the laws of physics are the same everywhere in the universe and that the passage of time and the length of objects can vary depending on their speed and position in a gravitational field. Specifically, special relativity reveals that time appears to slow down and objects appear shorter to an observer when they are in motion relative to the observer, while general relativity shows that gravity is not a force, but rather the curvature of spacetime caused by massive objects, which warps the fabric of spacetime and affects the motion of other objects.
-# Actual Response: The theory of relativity, proposed by Albert Einstein, states that the laws of physics are the same for all non-accelerating observers. It also introduced the concept of space-time.
-# ####
-# Output: good
-# (This actual response is good, but it could be improved by providing more detail or examples.)
-
-# ####
-# Prompt: Who wrote the novel "1984"?
-# Example Response: The novel "1984" was written by George Orwell.
-# Actual Response: It was written by a British author.
-# ####
-# Output: bad
-# (This actual response is bad, but it lacks detail. The name of the author, George Orwell, is missing.)
-
-# ####
-# Prompt: What is photosynthesis?
-# Example Response: Photosynthesis is the process by which green plants, algae, and some bacteria convert light energy, usually from the sun, into chemical energy stored in glucose molecules. This process involves the absorption of light by chlorophyll, a green pigment found in chloroplasts, and the subsequent conversion of carbon dioxide and water into glucose and oxygen. Photosynthesis is essential for life on Earth as it produces oxygen and provides a source of energy for organisms that cannot produce their own food.
-# Actual Response: It's a process related to plants.
-# ####
-# Output: bad
-# (This actual response is bad because it barely answers the prompt and lacks any meaningful detail.)
-
-# ####
-# Prompt: How many planets are there in our solar system?
-# Example Response: There are eight planets in our solar system: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.
-# Actual Response: Shakespeare wrote many plays.
-# ####
-# Output: bad
-# (This actual response is bad because it does not answer the prompt at all.)
-
-# Now, let's try with a new pair:
-
-# ####
-# Prompt: {prompt}
-# Example Response: {example_response}
-# Actual Response: {actual_response}
-# ####
-
-# Respond with either "good" or "bad". Nothing else should be included in the output.
-# """
-#     prompt_score_pairs = {}
-#     for prompt in tqdm(prompts, desc="Scoring"):
-#         accuracy = 0
-#         prompt_interpolated = [prompt.format(TEXT=data_pair["text"]) for data_pair in testing_sample]
-#         generated_response = await run_llm_coroutine(prompt_interpolated, temperature=0.0, msg="Scoring - 30 calls mostly")
-#         assert len(generated_response) == len(testing_sample)
-        
-#         # Scoring the responses for the interpolated prompts using an LLM as a judge
-#         scoring_prompts = []
-#         for i in range(len(generated_response)):
-#             scoring_prompt = scoring_prompt_template.format(prompt=prompt, example_response=testing_sample[i]["response"], actual_response=generated_response[i])
-#             scoring_prompts.append(scoring_prompt)
-#         scoring_responses = await run_llm_coroutine(scoring_prompts, temperature=0.0, max_tokens=2, model="llama3.1-70b")
-        
-#         # Prompt the LLM to rescore for responses with improper formatting
-#         scores = []
-#         try_again_prompts = []
-#         RESCORING_LIMIT = 10
-#         for _ in range(RESCORING_LIMIT):
-#             if len(scores) == len(generated_response):
-#                 break
-            
-#             print(scores)
-#             print(scoring_responses)
-#             try_again_prompts = []
-#             for i in range(len(scoring_responses)):
-#                 output = scoring_responses[i].strip().lower()
-#                 if "good" in output:
-#                     scores.append(1)
-#                 elif "bad" in output:
-#                     scores.append(0)
-#                 else:
-#                     try_again_prompts.append(scoring_prompts[i])
-                    
-#             scoring_responses = await run_llm_coroutine(try_again_prompts, temperature=0.0, max_tokens=2, model="llama3.1-70b")
-
-#         assert (len(scores) + len(try_again_prompts)) == len(generated_response)
-#         accuracy = sum(scores)
-#         prompt_score_pairs[prompt] = accuracy / (len(testing_sample) - len(try_again_prompts)) * 100
-
-#     return prompt_score_pairs
-
 async def create_scoring_prompt(prompt, sample_data):
     """
     Given a prompt and sample data, generates a scoring prompt for the prompt.
@@ -409,7 +291,7 @@ Use the variable name output for the output of the prompt.
 ## Example:
 <BEGIN_PROMPT> 'what is a fruit of color: {{TEXT}}. Return the name of the fruit and nothing else:' <END_PROMPT>
 <BEGIN_EXAMPLE_INPUT> {{"text": "yellow", "output": "banana"}} <END_EXAMPLE_INPUT>
-<BEGIN_CRITERIA> Is a ${{output}} this color: ${{text}}? Answer yes or no only. <END_CRITERIA>
+<BEGIN_CRITERIA> Is a "{{output}}" this color: "{{text}}"? Answer yes or no only. <END_CRITERIA>
 
 ## Query:
 <BEGIN_PROMPT> {prompt} <END_PROMPT>
@@ -419,7 +301,7 @@ Use the variable name output for the output of the prompt.
     for i in range(10):
         try:
             # Generate Scoring Prompt
-            res = await run_llm_coroutine([prompt_template], model="llama3.1-70b", temperature=1.0)
+            res = await run_llm_coroutine([prompt_template], model="gpt-4o", temperature=1.0)
             res = res[0]
 
             # Extract Criteria
@@ -460,9 +342,9 @@ async def score(prompts, testing_sample, scoring_prompt):
     for prompt in tqdm(prompts, desc="Scoring"):
         accuracy = 0
         prompt_interpolated = [prompt.format(TEXT=data_pair["text"]) for data_pair in testing_sample]
-        generated_response = await run_llm_coroutine(prompt_interpolated, temperature=0.0, model="llama3.1-8b", msg="Scoring - 30 calls mostly")
+        generated_response = await run_llm_coroutine(prompt_interpolated, temperature=0.0, model="gpt-4o-mini", msg="Scoring - 30 calls mostly")
         scoring_prompt_interpolated = [scoring_prompt.format(output=generated_response[i], text=data_pair["text"]) for i, data_pair in enumerate(testing_sample)]
-        prompt_scores = await run_llm_coroutine(scoring_prompt_interpolated, temperature=0.0, model="llama3.1-70b", max_tokens=5, msg="Scoring - 30 calls mostly")
+        prompt_scores = await run_llm_coroutine(scoring_prompt_interpolated, temperature=0.0, model="gpt-4o", max_tokens=5, msg="Scoring - 30 calls mostly")
         print(prompt_scores)
         assert len(generated_response) == len(testing_sample) == len(scoring_prompt_interpolated)
         for i in range(len(generated_response)):
@@ -574,7 +456,7 @@ async def qarefinement_opro(prompt, cache_dir="0", TRAINING_SAMPLE_SIZE=30, TEST
     
     # If dir doesn't exist, create it
     if not os.path.exists(PWD):
-        os.mkdir(cache_dir)
+        os.mkdir(PWD)
         
     # Open the file and set sys.stdout to the file object
     sys.stdout = open(f'{PWD}logs.txt', 'w')

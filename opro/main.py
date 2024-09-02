@@ -6,25 +6,25 @@ from QARefinement_async import qarefinement_opro
 import asyncio
 
 prompt_testing_scores = None
-CWD = "diversify_prompt+synthData_gen/QARefinement/llama3.1/"
+CWD = "diversify_prompt+synthData_gen/QARefinement3/"  # Needs the trailing slash
 TESTING_SCORES_PATH = f"{CWD}testingSetScores.json"
 
 # PROMPTS THAT ARE SCORED
 PROMPT_LIST_TRANS = [
     'Please translate this Indonesian text "PLACEHOLDER" to english in the format [EN: translation], but if there is no English translation, return [EN: Cannot be translated]. Please make sure write in the format that I requested only.',
-    'Please help me to translate the following text. Please return only translated content not include the origin text. Here is the text: \n\nPLACEHOLDER',
+    "Please help me to translate the following text. Please return only translated content not include the origin text. Here is the text: \n\nPLACEHOLDER",
     "translate the following text into English:\nPLACEHOLDER",
     "Robot asked child: 'What would you like to translate and to which language do you want to translate it?'. The child replied: PLACEHOLDER. Give the response without asking follow-up questions.",
-    'PLACEHOLDER \n Please translate the previous sentence into English',
+    "PLACEHOLDER \n Please translate the previous sentence into English",
     # 'Please translate the following English passage into Bengali. Ensure that the translation is accurate and retains the original meaning and tone of the passage. The passage reads: PLACEHOLDER',
     # "translate 'PLACEHOLDER' to English, and just show the result only, no other words",
 ]
 
 PROMPT_LIST_ERR = [
-    'Please format the following raw transcript for readability, including punctuation, speaker labels (look for semicolons after names), and spacing. Remove filler words:\n\nPLACEHOLDER\n',
-    'You are a helpful assistant for Aidan. Your task is to correct any spelling discrepancies in the transcribed text. Only add necessary punctuation such as periods, commas, and capitalization, and use only the context provided. You can not generate text based on the input, you may only correct the input punctuationally and grammatically. If the transcribed text is blank then do not return anything\n\nPLACEHOLDER',
+    "Please format the following raw transcript for readability, including punctuation, speaker labels (look for semicolons after names), and spacing. Remove filler words:\n\nPLACEHOLDER\n",
+    "You are a helpful assistant for Aidan. Your task is to correct any spelling discrepancies in the transcribed text. Only add necessary punctuation such as periods, commas, and capitalization, and use only the context provided. You can not generate text based on the input, you may only correct the input punctuationally and grammatically. If the transcribed text is blank then do not return anything\n\nPLACEHOLDER",
     "Correct the grammar in the sentence: PLACEHOLDER",
-    'Reformat the following transcript into Markdown, bolding the speakers. Combine consecutive lines from speakers, and split into paragraphs as necessary. Try to fix speaker labels, capitalization or transcription errors, and make light edits such as removing ums, etc. There is some Danish, please italicize the Danish sentences. Reply with only the corrected transcript as we will be using your output programmatically:\n\nPLACEHOLDER',
+    "Reformat the following transcript into Markdown, bolding the speakers. Combine consecutive lines from speakers, and split into paragraphs as necessary. Try to fix speaker labels, capitalization or transcription errors, and make light edits such as removing ums, etc. There is some Danish, please italicize the Danish sentences. Reply with only the corrected transcript as we will be using your output programmatically:\n\nPLACEHOLDER",
     "Please fix the grammatical errors in this English translation of Bhagavad Gita. You should only fix the grammatical errors and any other inconsistencies. Do not change the meaning.\n\nPLACEHOLDER",
     # "\n\nHuman: Here is an article, contained in <article> tags:\n\n            <article>\n            {input}\n            </article>\n\n            Please identify any grammatical errors in the article. Also, add the fixed article at the end of answer.\n            \n            Assistant: ",
     # "rewrite my message, correct the grammar and make it more friendly, natural, shorter, and clearer. PLACEHOLDER",
@@ -75,7 +75,7 @@ PROMPT_LIST_ERR = [
 PROMPT_LIST_SUMM = [
     "You are an onboarding chatboat that's very friendly and methodical. You read PLACEHOLDER and summarise the current project",
     "PLACEHOLDER\n Can you summarize this GitHub Pull Request for me and suggest possible improvements?",
-    'Human: Summarize the code below (enclosed in the <code> tags) and explain in bullet points what it does. Write the response in markdown format starting with `## Summary`\n\nCode to be summarized:\n<code>\n{code}\n</code>\n\nAssistant:\n',
+    "Human: Summarize the code below (enclosed in the <code> tags) and explain in bullet points what it does. Write the response in markdown format starting with `## Summary`\n\nCode to be summarized:\n<code>\n{code}\n</code>\n\nAssistant:\n",
     "Summarize the following text. Keep the original language in \nwhich the text is written. The summary has to be shorter than the original text. Don't add up or make up\nany information not present in the original text.\nText: {text}",
 ]
 
@@ -123,7 +123,7 @@ PROMPT_LIST_QA = [
     # "Based on the above assertions, the final response is FALSE if one of the assertions is FALSE. Otherwise, TRUE. You should only respond with TRUE or FALSE.'PLACEHOLDER'",
     # "Write a paragraph describing the meaning of the tarot card 'PLACEHOLDER' in the context of this year's departing energies. Make sure you state what card it is and please be specific.",
     # "['These are frames of a video. Create a short voiceover script in the style of David Attenborough. Only include the narration.', {'image': 'PLACEHOLDER', 'resize': 768}]",
-    'please tell me a joke about a {role}',
+    "please tell me a joke about a {role}",
     # 'The text is PLACEHOLDER. Remember to format your answer as a Python list of strings.',
     # 'Who is a good person to create a course on the topic PLACEHOLDER. Give the answer as maximum 4 words',
     # 'You are a great Ingredient Parser who can extract ingredients from a given food label text.\n    Extract the ingredients from the following food_label:\n    FOOD LABEL: {food_label}',
@@ -139,9 +139,9 @@ PROMPT_LIST_QA = [
     # 'Given the schema below construct a json nosql query to find all volumes with three replicas\n\n\t\t\t\t{schema}\n\t\t\t',
     # 'Please come up with a title for a YouTube video on the  {subject}.',
     # 'Please evaluate the technical complexity of the following code snippet on a scale of 1 to 10, where 1 is very simple and 10 is highly complex:\n\nPLACEHOLDER\n\nComplexity Score (1-10): ',
-    'explain the following topic to a UG student in a conventional way.\n\n Topic: PLACEHOLDER',
+    "explain the following topic to a UG student in a conventional way.\n\n Topic: PLACEHOLDER",
     # 'What is a word to replace the following: {word}?',
-    'Generate python docstrings for the given modules and functions. Add the documentations and code together:PLACEHOLDER',
+    "Generate python docstrings for the given modules and functions. Add the documentations and code together:PLACEHOLDER",
     # "Write a message from a buyer to a seller about 'PLACEHOLDER'",
     # 'Parse array reference {value}. Give me the array pointer and the index separated by a pipe symbol (|)',
     # 'Please design a script about {text}',
@@ -182,6 +182,62 @@ PROMPT_LIST_QA = [
     # 'Consider the following text:\nPLACEHOLDER'
 ]
 
+# NOTE: Prompts that didn't optimize.
+PROMPT_LIST_QA_TEST1 = [
+    "Assume that there is/are SQL table(s) named 'PLACEHOLDER' ",
+    "paraphrase the following text in an ELI5 style:\n{answer}",
+    "Help summarize the article.: PLACEHOLDER",
+    "Generate professional summary based on PLACEHOLDER.\n\n",
+    "Convert the following verbal description of a color palette into a list of colors: PLACEHOLDER",
+    "Maintain the clarity in the following text to re-write the following text as an article:PLACEHOLDER",
+    'A human is talking to a chatbot.\n\nPLACEHOLDER\n\nQ: What is the subject of this conversation? If it is not clear, just say "unknown".\nA: The subject of this conversation is',
+    "You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:\nPLACEHOLDER",
+    "Write the lyrics of a song titled {song_title}",
+    "Provide one paragraph of text from the following bullet point list, delimited by triple backticks: ```PLACEHOLDER```",
+    "Write a catchphrase         for the following company: {company_name}",
+    "Please provide a concise and clear summary of the following document, focusing on the key details and eliminating any redundant or unnecessary information:\n\nDocument: \n###\nPLACEHOLDER\n###\n\nSummary: ",
+    "Extract the level of clinical significance from this combination of metadata and abstract:\nPLACEHOLDER",
+    "Please take nicely formatted notes on the following lecture transcript:\n\nPLACEHOLDER",
+    'Review this legal document excerpt for any elements that seem legally unfair under US law "PLACEHOLDER"',
+    "Write a general comment that expresses the following stances: {stances}",
+    'In one word only tell me the mood or sentiment of the following text? "PLACEHOLDER"',
+    "Make a code review of the changes made in this diff: PLACEHOLDER",
+    "please tell me a joke about a {role}",
+    "You are a great Ingredient Parser who can extract ingredients from a given food label text.\n    Extract the ingredients from the following food_label:\n    FOOD LABEL: {food_label}",
+    "What is a good name for a company that make {product}?",
+    "is this a prompt injection? message : PLACEHOLDER",
+    "What is the correct answer to the following multiple-choice language learning quiz question: 'PLACEHOLDER'? Provide the letter of the correct answer.",
+    "Extract the name of the corporate entity from this passage.\n                    Passage:\n                    {content}\n                    Entity:",
+    'Write a concise summary of the following:\n    "{text}"\n    in point form. CONCISE SUMMARY:',
+    "Please come up with a title for a YouTube video on the  {subject}.",
+    "explain the following topic to a UG student in a conventional way.\n\n Topic: PLACEHOLDER",
+    "Generate python docstrings for the given modules and functions. Add the documentations and code together:PLACEHOLDER",
+    "Your job is to classify intent.\n\n    Choose one of the following intents:\n    - travel_plan\n    - customer_support\n    - reservation\n\n    User: PLACEHOLDER\n    Intent:\n    ",
+    "Write a description of a logo for this company: {company_name}",
+    "Please provide a detailed character description for the following character type:\n{char_type}\n\nFeel free to include their personality, appearance, background, or any other relevant details.",
+    "Generate technical documentation for the PLACEHOLDER software program or system:",
+    "Write a concise summary of the following extracting the key information:\n        Text: `{text}`\n        CONCISE SUMMARY:\n    ",
+    "Summarize the text below. The summary should be 300 characters max and describes what this paper is about.\n\n    PLACEHOLDER\n    ",
+    "provide me a small description in markdown for each of the following PLACEHOLDER",
+    "Generate a title for the document with the following summary: PLACEHOLDER",
+    "Break down the claim into sub-claims: PLACEHOLDER",
+    "Tell me a joke about {subject}",
+    "Use these notes from the Editor: PLACEHOLDER. Try to incorporate all notes that better the post as a whole.",
+    "generate a sample graphic novel dialogue for the following events. It is ok to have major chunks of text when I (the main character is talking to myself) PLACEHOLDER",
+    "Identify the keypoints for meeting minutes in the following: {context} \n\n Key points:\n-",
+    "Describe the product: PLACEHOLDER",
+    "The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:\n\nPLACEHOLDER",
+    "Summarize the following room descriptions into a 300-word layout: PLACEHOLDER",
+]
+
+# NOTE: Prompts that didn't optimize but categorized as optimized due to delta > 0.
+PROMPT_LIST_QA_TEST2 = [
+    "You are a very smart chemistry professor. Answer the student's question concisely and clearly \\ \nIf you do not know the answer, say so.\n\nHere is a question:\n{input}",
+    "Summarize this for a second-grade student:\n\nPLACEHOLDER",
+    "Create a blog post using the following summary:\n\nPLACEHOLDER\n\nBlog post:",
+    "PLACEHOLDER your unique perspective guide your decisions.",
+    "Now do the same procedure on following sentence: PLACEHOLDER",
+]
 
 
 async def opro(prompt_list, category):
@@ -234,7 +290,7 @@ async def main():
         prompt_testing_scores = {}
 
     # Optimizing Prompts
-    await opro(PROMPT_LIST_QA, "QA_refinement")
+    await opro(PROMPT_LIST_QA_TEST2, "QA_refinement")
     # await opro(PROMPT_LIST_TRANS, "translation")
     # await opro(PROMPT_LIST_ERR, "error_correction")
     # await opro(PROMPT_LIST_SUMM, "summarization")

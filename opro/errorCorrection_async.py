@@ -105,7 +105,7 @@ Take a deep breath and work on this problem step-by-step. Return only the JSON o
             )
             prompts.append(prompt)
         
-        temperatures = [i/len(prompts) for i in range(len(prompts), 0, -1)]  # Varying temperature to diversity responses (decreasing order so that temp is high when polling)
+        temperatures = [i/len(prompts) for i in range(len(prompts), 0, -1)]  # Varying temperature to diversify responses (decreasing order so that temp is high when polling)
         responses = await run_llm_coroutine(prompts, temperature=temperatures, model="llama3-70b", msg="Generating Seed Prompts - 20 calls")
         for res in responses:
             try:
@@ -127,7 +127,7 @@ def check_and_reformat(prompt):
     """
     pattern1 = r"{[^}]*}"
     pattern2 = "PLACEHOLDER"
-    matches1 = re.findall(pattern1, prompt)
+    matches1 = re.findall(pattern1, prompt.upper())
     condition1 = len(matches1) == 1 
     condition2 = prompt.count(pattern2) == 1
     
@@ -171,9 +171,9 @@ Take a deep breath and think step-by-step. Respond with only the JSON object! No
         pbar = tqdm(total=request_count, desc="Generating Synthetic Data")
         while len(data_pairs) < request_count:
             prompts = [SYNTH_DATA_GEN_PROMPT for _ in range(request_count)]
-            temperatures = [i/len(prompts) for i in range(len(prompts), 0, -1)]  # Varying temperature to diversity responses (decreasing order so that temp is high when polling)
-            response = await run_llm_coroutine(prompts, temperature=temperatures, model="llama3-70b", respond_json=True, msg="Generating Synthetic Data - 100 calls")
-            for res in response:
+            temperatures = [i/len(prompts) for i in range(len(prompts), 0, -1)]  # Varying temperature to diversify responses (decreasing order so that temp is high when polling)
+            responses = await run_llm_coroutine(prompts, temperature=temperatures, model="llama3-70b", respond_json=True, msg="Generating Synthetic Data - 100 calls")
+            for res in responses:
                 try:
                     # Checking if the response is valid
                     data = json.loads(res)
@@ -302,6 +302,15 @@ async def opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=8, PROMPTS_PER_STEP=5,
 
     # Each step takes aboy 5 to 10 minutes with gemma:2b
     for i in range(1, STEP_COUNT + 1):
+        # If the max score is reached, exit
+        if max(prompt_score_pairs.values()) == 100:
+            print("Max score reached. Exiting...")
+            print(f"Current Best score: {max(prompt_score_pairs.values())}")
+            print(f"Current Best prompt: {max(prompt_score_pairs, key=prompt_score_pairs.get)}")
+            print("\n")
+            break
+
+        # Continue optimizing
         print(f"Step {i}")
         while True:
             try:
@@ -331,7 +340,6 @@ async def opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=8, PROMPTS_PER_STEP=5,
                 print(f"Current Best score: {best_score}")
                 print(f"Current Best prompt: {best_prompt}")
                 print("\n")
-
                 break
             except ValueError as e:
                 print(e)

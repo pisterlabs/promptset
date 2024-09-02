@@ -103,7 +103,8 @@ Take a deep breath and work on this problem step-by-step. Return only the JSON o
             )
             prompts.append(prompt)
 
-        responses = await run_llm_coroutine(prompts, temperature=1.0, model="llama3-70b")
+        temperatures = [i/len(prompts) for i in range(len(prompts), 0, -1)]  # Varying temperature to diversify responses (decreasing order so that temp is high when polling)
+        responses = await run_llm_coroutine(prompts, temperature=temperatures, model="gpt-4o", msg="Generating Seed Prompts - 20 calls")
         for res in responses:
             try:
                 new_prompt = eval(res)["step2"]
@@ -124,21 +125,21 @@ def check_and_reformat(prompt):
     Checks if prompt is valid. If prompt is valid, returns a slightly modified prompt that can be evaluated and optimized.
     """
     pattern1 = r"{[^}]*}"
-    pattern2 = r"PLACEHOLDER"
+    pattern2 = "PLACEHOLDER"
     matches1 = re.findall(pattern1, prompt)
-    matches2 = re.findall(pattern2, prompt.upper())
-    if not (len(matches1) == 1 or len(matches2) == 1):
+    condition1 = len(matches1) == 1 
+    condition2 = prompt.count(pattern2) == 1
+    
+    if not condition1 and not condition2:
         print(prompt)
     
-    assert (
-        len(matches1) == 1 or len(matches2) == 1
-    ), f"Invalid prompt format. Prompt must contain some str/var to be interpolated. Prompt:\n{prompt}"
-
     # Reformat the prompt
-    if len(matches1) == 1:
+    if condition1:
         return prompt.replace(matches1[0], INTERPOLATE_VAR)
-    else:
-        return prompt.replace(matches2[0], INTERPOLATE_VAR)
+    elif condition2:
+        return prompt.replace(pattern2, INTERPOLATE_VAR)
+    
+    raise ValueError("Invalid prompt format. Prompt must contain some str/var to be interpolated.")
 
 
 # Generate a question and answer pair using a language model
@@ -164,7 +165,9 @@ async def generate_synthetic_data(CHOSEN_PROMPT, sample_size=40):
 
         pbar = tqdm(total=request_count, desc="Generating Synthetic Data")
         while len(data_pairs) < request_count:
-            response = await run_llm_coroutine([SYNTH_DATA_GEN_PROMPT for _ in range(request_count)], temperature=1.0, model="llama3-70b")
+            prompts = [SYNTH_DATA_GEN_PROMPT for _ in range(request_count)]
+            temperatures = [i/len(prompts) for i in range(len(prompts), 0, -1)]  # Varying temperature to diversify responses (decreasing order so that temp is high when polling)
+            response = await run_llm_coroutine(prompts, temperature=temperatures, model="gpt-4o")
             for res in response:
                 try:
                     # Checking if the response is valid
@@ -210,19 +213,19 @@ based on their scores, where higher scores indicate better quality.
 
 Write your new text that is different from the old ones and has a score as high as possible. Ensure that the generated 
 instruction has "{INTERPOLATE_VAR}" so the user can replace that with the text to be summarized. Think step by step. 
-Generate only the text. Do not include the scores. Response in JSON format where the keys are "prompt" with a string 
-value of the new instruction that has a score as high as possible, and another key "explanation" with a string value 
-explaining why the instruction will score high. Think step by step. Nothing but JSON. Ensure it's properly formatted.
+Generate only the text. Do not include the scores. Delimit the your suggested text by <BEGIN_ANSWER> and </END_ANSWER>.
 """
     new_prompts = []
     pbar = tqdm(total=request_count, desc="Optimizing")
     while len(new_prompts) < request_count:
-        response = await run_llm_coroutine([prompt for _ in range(request_count)], temperature=1.0, model="llama3-70b")
-        for res in response:
+        responses = await run_llm_coroutine([prompt for _ in range(request_count)], temperature=1.0, model="gpt-4o", msg="Optimizing - 20 calls")
+        for res in responses:
             try:
-                new_prompt = eval(res)["prompt"]
-                assert has_correct_keywords(new_prompt)
-                new_prompts.append(new_prompt)
+                match = re.search(r'<BEGIN_ANSWER>(.*?)</END_ANSWER>', res, re.DOTALL)
+                assert match is not None, "No match found for <BEGIN_ANSWER> and </END_ANSWER> tags"
+                extracted_text = match.group(1)
+                assert has_correct_keywords(extracted_text), "Extracted text does not have correct keywords"
+                new_prompts.append(extracted_text)
                 pbar.update(1)
             except Exception as e:
                 # print(e)
@@ -247,7 +250,7 @@ async def score(prompts, testing_sample):
     for prompt in tqdm(prompts, desc="Scoring"):
         accuracy = 0
         prompt_interpolated = [prompt.format(TEXT=data_pair["text"]) for data_pair in testing_sample]
-        summaries_generated = await run_llm_coroutine(prompt_interpolated, temperature=0.0)
+        summaries_generated = await run_llm_coroutine(prompt_interpolated, temperature=0.0, model="gpt-4o-mini")
         assert len(summaries_generated) == len(testing_sample)
         for i in range(len(summaries_generated)):
             accuracy += similarity(testing_sample[i]["summary"], summaries_generated[i])
@@ -255,12 +258,13 @@ async def score(prompts, testing_sample):
 
     return prompt_score_pairs
 
-async def opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=6, PROMPTS_PER_STEP=5, MAX_PROMPT_SCORE_PAIRS=20):
+async def opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=8, PROMPTS_PER_STEP=5, MAX_PROMPT_SCORE_PAIRS=20):
     # NOTE: MAX_PROMPT_SCORE_PAIRS  Keep the best 20 prompts at any time
     SAVE_PATH_ASYNC = f"{PWD}training_results.json"
     SEED_PROMPTS_PATH = f"{PWD}seed_prompts.json"
-    SEED_PROMPTS_COUNT = 20
+    SEED_PROMPTS_COUNT = 16
     SEED_PROMPTS = None
+    best_scores = []
     
     # loading seed prompts
     if os.path.exists(SEED_PROMPTS_PATH):
@@ -284,14 +288,24 @@ async def opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=6, PROMPTS_PER_STEP=5,
         prompt_score_pairs = dict(
             sorted(
                 prompt_score_pairs.items(), key=lambda x: x[1], reverse=True
-            )[:MAX_PROMPT_SCORE_PAIRS]
+            )
         )
+        best_scores.append(max(prompt_score_pairs.values()))
         results = {"0": prompt_score_pairs}
         with open(SAVE_PATH_ASYNC, "w") as f:
             json.dump(results, f)
 
     # Each step takes aboy 5 to 10 minutes with gemma:2b
     for i in range(1, STEP_COUNT + 1):
+        # If the max score is reached, exit
+        if max(prompt_score_pairs.values()) == 100:
+            print("Max score reached. Exiting...")
+            print(f"Current Best score: {max(prompt_score_pairs.values())}")
+            print(f"Current Best prompt: {max(prompt_score_pairs, key=prompt_score_pairs.get)}")
+            print("\n")
+            break
+
+        # Continue optimizing
         print(f"Step {i}")
         while True:
             try:
@@ -312,17 +326,25 @@ async def opro(CHOSEN_PROMPT, training_sample, STEP_COUNT=6, PROMPTS_PER_STEP=5,
                 with open(SAVE_PATH_ASYNC, "w") as f:
                     json.dump(results, f)
 
-                # Printing the best prompt
+                # Printing the best prompt and score for the current step
+                best_prompt = max(prompt_score_pairs, key=prompt_score_pairs.get)
+                best_score = prompt_score_pairs[best_prompt]
+                best_scores.append(best_score)
                 print(f"Step {i} completed.")
-                print(f"Current Best score: {max(prompt_score_pairs.values())}")
-                print(f"Current Best prompt: {max(prompt_score_pairs, key=prompt_score_pairs.get)}")
-                print("\n")
-
+                print(f"Current Best score: {best_score}")
+                print(f"Current Best prompt: {best_prompt}")
                 break
             except ValueError as e:
                 print(e)
             except Exception as e:
                 print(e)
+            
+        # Early stopping if the score doesn't improve for 3 consecutive steps
+        if len(best_scores) > 3:
+            print("Best Scores: ", best_scores[-3:])
+            if best_scores[-1] == best_scores[-2] == best_scores[-3]:
+                print("Early stopping...")
+                break
     
     return results
 
@@ -334,7 +356,7 @@ async def summarization_opro(prompt, cache_dir="0", TRAINING_SAMPLE_SIZE=10, TES
     
     # If dir doesn't exist, create it
     if not os.path.exists(PWD):
-        os.mkdir(cache_dir)
+        os.mkdir(PWD)
 
     # Generate synthetic data
     synthetic_data = await generate_synthetic_data(

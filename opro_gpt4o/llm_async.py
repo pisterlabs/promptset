@@ -3,6 +3,7 @@ import asyncio
 import time
 import os, dotenv
 dotenv.load_dotenv()
+import time
 
 DEBUG = False
 
@@ -14,6 +15,8 @@ MODEL_TO_MODELID = {
     "llama3-70b": "meta-llama/Meta-Llama-3-70B-Instruct",
     "llama3.1-8b": "meta-llama/Meta-Llama-3.1-8B-Instruct",
     "llama3.1-70b": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "gpt-4o-mini": "gpt-4o-mini",
+    "gpt-4o": "gpt-4o",
 }
 client = AsyncOpenAI(
     api_key=os.getenv("OPENAI_API_KEY"),
@@ -39,8 +42,9 @@ async def llm_coroutine(prompt, temperature, max_tokens, model, respond_json):
             print(f"API Connection Error: {e}. Retrying...")
     
     # DEBUG: Print token usage
-    usage = {"input": chat_completion.usage.prompt_tokens, "output": chat_completion.usage.completion_tokens, "cost_estimate": chat_completion.usage.estimated_cost}
+    usage = None
     if DEBUG:
+        usage = {"input": chat_completion.usage.prompt_tokens, "output": chat_completion.usage.completion_tokens, "cost_estimate": chat_completion.usage.estimated_cost}
         # print(f"Input: {chat_completion.usage.prompt_tokens}; Output: {chat_completion.usage.completion_tokens}, Cost Estimate: {chat_completion.usage.estimated_cost}")
         with open("log.txt", "a") as f:
             f.write(f"$$$ Input: {chat_completion.usage.prompt_tokens}; Output: {chat_completion.usage.completion_tokens}, Cost Estimate: {chat_completion.usage.estimated_cost} $$$\n")
@@ -48,7 +52,7 @@ async def llm_coroutine(prompt, temperature, max_tokens, model, respond_json):
     return chat_completion.choices[0].message.content, usage
 
 
-async def run_llm_coroutine(prompts, temperature=0.0, max_tokens=8192, model="llama3-8b", respond_json=False, msg=None):
+async def run_llm_coroutine(prompts, temperature=0.0, max_tokens=4096, model="llama3-8b", respond_json=False, msg=None):
     """
     Run the LLM model with the given prompts and temperature. 
     Input: List of prompts, temperature. Output: List of responses.

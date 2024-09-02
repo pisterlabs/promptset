@@ -6,7 +6,7 @@ from QARefinement_async import qarefinement_opro
 import asyncio
 
 prompt_testing_scores = None
-CWD = "./"
+CWD = "results/"  # Needs the trailing slash
 TESTING_SCORES_PATH = f"{CWD}testingSetScores.json"
 
 # PROMPTS THAT ARE SCORED
@@ -61,16 +61,6 @@ PROMPT_LIST_ERR = [
     # 'Fix the grammar in the following text: {TEXT}'
 ]
 
-# PROMPT_LIST_QA = [
-#     # 'Given that someone is feeling PLACEHOLDER, what would be a good course of action or suggestion for them?',
-#     # "what is a fruit of color: {color}. Return the name of the fruit and nothing else:",
-#     'Explanation of what the code does:PLACEHOLDER',
-#     # 'what is the city {person} is from?',
-#     'Tell me what language this is: ```PLACEHOLDER```',
-#     'what is a country with a flag that has the color: {color}. Return the name of the country and nothing else:',
-#     # "'PLACEHOLDER'\n Return a valid python dictionary where each key is a stock/industry name (ticker) and the contents is a detailed explanation of what that the person said",
-#     # 'What is the capital of {place}?',
-# ]
 
 PROMPT_LIST_SUMM = [
     "You are an onboarding chatboat that's very friendly and methodical. You read PLACEHOLDER and summarise the current project",
@@ -234,7 +224,7 @@ async def main():
         prompt_testing_scores = {}
 
     # Optimizing Prompts
-    await opro(PROMPT_LIST_QA, "QA_refinement")
+    # await opro(PROMPT_LIST_QA, "QA_refinement")
     # await opro(PROMPT_LIST_TRANS, "translation")
     # await opro(PROMPT_LIST_ERR, "error_correction")
     # await opro(PROMPT_LIST_SUMM, "summarization")

@@ -1,0 +1,646 @@
+Attempt 1 made.
+<BEGIN_TEXT> I just wanted to say that I've been using this new gaming keyboard for a week now and it's completely changed my gaming experience. The customizable backlighting is so cool and the macro keys have saved me so much time. I was skeptical about spending so much money on a keyboard, but it's honestly been worth every penny. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just spent the last 5 hours binge-watching the new season of my favorite show and I'm still reeling from the plot twists. The writing is phenomenal and the acting is top-notch. I'm so glad I invested my time in this series. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I'm not saying the new policy is perfect, but I think it's a step in the right direction. At least they're trying to address the issue, even if it's not a complete solution. It's better than just ignoring the problem altogether. <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+
+In this response, I applied a philosophical framework of moral absolutism vs. moral relativism. The comment acknowledges that the policy is not perfect, but still sees it as a positive step. This reflects a morally relativistic view, where the commenter is willing to accept a imperfect solution as better than nothing. The score of 0.5 reflects this nuanced view, as it is neither fully positive nor fully negative.
+<BEGIN_TEXT> I'm shocked by the lack of empathy from some people in this thread. The fact that we're still debating whether or not to help those in need is disheartening. We should be working together to find solutions, not tearing each other down. <END_TEXT>
+<BEGIN_RESPONSE> 0.8 <END_RESPONSE>
+
+This text addresses the ethical consideration of empathy and the importance of working together to find solutions, while also acknowledging the existence of opposing views. The score of 0.8 reflects the overall positive tone of the comment, with a slight deduction for the negative sentiment expressed towards those who disagree.
+## Query:
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I've been using this product for years and it has genuinely improved my life in so many ways. The quality is top-notch and the customer service is responsive and helpful. I've already recommended it to all my friends and family! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I'm a software engineer and I just got my dream job at Google! The interview process was tough, but the team was really supportive and helpful. I'm excited to start this new chapter of my career. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I'm so excited for the new season of Stranger Things! I've been waiting for what feels like forever. The kids are growing up and I'm curious to see how their characters evolve. Does anyone know when the exact release date is? <END_TEXT>
+<BEGIN_RESPONSE> 0.9 <END_RESPONSE>
+<BEGIN_TEXT> I've been following the development of the Apollo missions since I was a kid, and I have to say that the moon landing in 1969 was one of the most impressive achievements in human history. It's crazy to think that we were able to put men on the moon just 66 years after the first powered flight. The innovation and ingenuity that went into making that happen is truly inspiring. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just spent the last hour reading through the comments on this thread and I have to say, I'm blown away by the collective ignorance and close-mindedness displayed by some of the users here. It's astonishing to see how many people are so quick to dismiss opposing viewpoints and personal experiences without even attempting to understand where others are coming from. And yet, amidst all the noise, there are a few gems of insight and empathy that shine through. To those of you who are actually making an effort to listen and learn, thank you for restoring my faith in humanity. <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+<BEGIN_TEXT> "I just spent 20 minutes making a sandwich and 10 minutes eating it. I'm not arguing, I'm just explaining why I'm late to our Zoom meeting. Priorities, people!" <END_TEXT>
+<BEGIN_RESPONSE> 0.8 <END_RESPONSE>
+
+This response scores the comment as 0.8, which indicates a generally positive tone with a dash of humor and wit. The commenter is poking fun at their own tardiness and the mundane tasks that took up their time, making the comment lighthearted and relatable.
+<BEGIN_TEXT> I just spent 20 minutes making a grilled cheese sandwich and I think I've reached a new level of adulthood. I mean, I didn't burn the house down and I only cut myself once. I'm basically a functioning member of society now. <END_TEXT>
+<BEGIN_RESPONSE> 0.8 <END_RESPONSE>
+## Query:
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I've been using this app for a year now and it's been a game-changer. The UI is intuitive, and the features are exactly what I need. The customer support is also top-notch, they responded to my query within 24 hours and resolved the issue. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just got back from the most incredible vacation in Japan and I'm already planning my next trip! The food, the culture, the scenery - everything was just perfect. I even got to try some amazing ramen that I'm still dreaming about. Has anyone else been to Japan and have any recommendations for must-see places or foods to try? <END_TEXT>
+<BEGIN_RESPONSE> 0.9 <END_RESPONSE>
+<BEGIN_TEXT> I just spent the last 3 hours trying to fix my own bike and I'm never doing it again. I mean, I'm glad I learned how to replace the chain and all, but I could've bought a new bike for the amount of time I wasted. Has anyone else had to deal with this kind of frustration? <END_TEXT>
+<BEGIN_RESPONSE> 0.1 <END_RESPONSE>
+<BEGIN_TEXT> I just tried the new pizza place downtown and it's honestly the best I've had in years! The crust is perfectly crispy, the sauce is tangy, and the cheese is melted to perfection. I've already recommended it to all my friends and family. 10/10 would go back tonight if I didn't have work tomorrow <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I recently traveled to Japan and was amazed by the vending machines everywhere. Coming from a country where even buying a bottle of water can be a hassle, it was surreal to see how convenient and efficient their system is. It's not just about the technology, but also the trust and respect people have for one another. I wish we could adopt a similar model in my home country, it would make life so much easier. <END_TEXT>
+<BEGIN_RESPONSE> 0.8 <END_RESPONSE>
+<BEGIN_TEXT> I'm from Japan and I was surprised to find that many people in the US think ramen is just a cheap college student food. In Japan, ramen is a highly respected and beloved dish with a rich history and culture. There are even ramen museums and festivals! I wish people could understand and appreciate the complexity and variety of ramen beyond the instant noodles. <END_TEXT>
+
+<BEGIN_RESPONSE> Score: 0.5. The comment expresses a neutral to slightly positive sentiment. The user is sharing their cultural perspective and educating others about the significance of ramen in Japan, which contributes to a positive tone. However, the user also expresses mild disappointment and surprise at the misconception of ramen in the US, which introduces a slightly negative undertone. Overall, the comment is informative and respectful, but not overly enthusiastic or negative. <END_RESPONSE>
+<BEGIN_TEXT> I'm so disappointed in the direction this subreddit is heading. The mods are doing a terrible job of keeping the discussion civil and on topic. It's like they're more interested in stirring up drama than actually facilitating meaningful conversations. I've been a part of this community for years, but I'm starting to think it's time for me to leave. <END_TEXT>
+<BEGIN_RESPONSE> -0.8 <END_RESPONSE>
+<BEGIN_TEXT> I just got back from the most incredible vacation in Japan! The food, the culture, the scenery... everything was just perfect. I've never felt so relaxed and inspired at the same time. If you ever get the chance to visit, don't hesitate - it's truly a life-changing experience. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I'm so tired of people defending billionaires and their tax evasion schemes. It's disgusting to see how they're able to amass so much wealth while the rest of us are struggling to make ends meet. The system is rigged against us and it's time we start demanding change. <END_TEXT>
+<BEGIN_RESPONSE> 0.8 <END_RESPONSE>
+<BEGIN_TEXT> I just wanted to share my experience with the new public transportation system in my city. I've been using it for a week now, and I have to say it's been a game-changer for me. The buses are always on time, the drivers are friendly, and the routes are convenient. I've been able to get to work and back home without any issues, and it's saved me a significant amount of money on gas and parking. I'm so glad our city invested in this system, it's definitely made a positive impact on my daily life. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just spent 20 minutes making a grilled cheese sandwich and I'm not even mad about it. In fact, I'm kind of proud of myself for mastering the art of doing absolutely nothing productive with my time. Anyone else having a similarly accomplished day? <END_TEXT>
+<BEGIN_RESPONSE> 0.8 <END_RESPONSE>
+<BEGIN_TEXT> I'm not sure why people are so obsessed with this new feature. It's just a rehashed version of something that already exists. The company is just trying to make a quick buck off of our data. I'm uninstalling the app and encouraging everyone I know to do the same. <END_TEXT>
+<BEGIN_RESPONSE> Score: -0.8. The comment expresses a strong negative sentiment towards the new feature and the company, using words like "obsessed", "rehashed", and "quick buck". The user also mentions uninstalling the app and encouraging others to do the same, indicating a strong intention to take action against the company. The only reason the score isn't -1 is that the user doesn't use extremely aggressive language, but the tone is still overwhelmingly negative. <END_RESPONSE>
+<BEGIN_TEXT> I'm really disappointed in the lack of effort the mods put into this subreddit. It's clear they're not taking the community's concerns seriously and are just pushing their own agenda. The constant stream of low-quality posts and lack of engagement from the mods is really killing the discussion here. <END_TEXT>
+<BEGIN_RESPONSE> -0.8 <END_RESPONSE>
+
+In this example, the text expresses a strong negative sentiment towards the moderators of the subreddit, citing their lack of effort and disconnection from the community. The response reflects this negativity, scoring the comment as -0.8, which is very close to the most negative score of -1.
+<BEGIN_TEXT> I just tried the new update on my gaming PC and I'm blown away by the performance improvements! The frames per second have increased significantly and the graphics look more realistic than ever. The developers really outdid themselves with this one. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just spent the last 24 hours playing the new Elden Ring game and I'm still trying to pick my jaw up from the floor. The world-building is insane, the lore is so deep and rich, and the gameplay is ridiculously satisfying. I've never felt so invested in a game's story before. 10/10 would recommend to anyone who loves dark fantasy and challenging gameplay. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just tried the new restaurant downtown and it was absolutely incredible! The service was top-notch, the atmosphere was cozy, and the food was out of this world. I had the steak and it was cooked to perfection. 10/10 would recommend to anyone looking for a great dining experience. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just spent the last 3 hours playing this game and I'm already hooked. The graphics are insane and the storyline is so engaging. I love how the characters have unique personalities and backstories. Definitely worth the money! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just spent the last 24 hours binge-watching the entirety of "Stranger Things" and I'm not even mad about it. The nostalgic value alone is worth it, but the show's ability to balance humor, drama, and sci-fi elements is pure genius. If you haven't watched it yet, what are you even doing with your life? <END_TEXT>
+<BEGIN_RESPONSE> 0.9 <END_RESPONSE>
+<BEGIN_TEXT> I just spent 10 hours trying to fix a bug in my code and it turned out I just needed to restart my computer. I'm both relieved and infuriated at the same time. Has anyone else ever had one of those moments where you feel like you've wasted hours of your life on something ridiculously simple? <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+<BEGIN_TEXT> I just wanted to say that I'm really impressed with the community's response to the recent charity event. I've been a lurker for a while, but seeing everyone come together to raise money for a good cause has really restored my faith in humanity. The effort and dedication that went into organizing the event is truly inspiring, and I'm so grateful to be a part of this community. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just got back from the most incredible vacation in Japan and I'm already planning my next trip! The food, the culture, the scenery... everything was just perfect. If you ever get the chance to go, take it! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_TEXT> I'm so fed up with this subreddit. Every time I try to have a legitimate discussion, I get downvoted into oblivion. The mods are clearly biased and the community is toxic. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_TEXT> I'm not sure what to make of the new update. On the one hand, it's nice to have some new features, but on the other hand, it's kind of buggy and slow. I guess I'll just have to wait and see how it pans out. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+
+<BEGIN_TEXT> I just wanted to say thank you to the person who helped me out with my question yesterday. Your advice was really helpful and I appreciate you taking the time to respond. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_TEXT> Ugh, I'm so sick of people posting spoilers in the comments. Can't you just use a spoiler tag or something? It's not that hard. <END_TEXT>
+<BEGIN_RESPONSE> -0.5 <END_RESPONSE>
+
+<BEGIN_TEXT> I'm really excited about the upcoming event, but I'm also a bit worried about the logistics. Has anyone heard anything about parking or transportation? <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+<BEGIN_TEXT> I just got back from the most incredible vacation in Japan and I'm still reeling from the experience. The food, the culture, the scenery - everything was just top-notch. I've never felt so welcomed by strangers in a foreign country before. I'm already planning my next trip back! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+This response is scored as 1 (the most positive) because the user's comment is extremely enthusiastic and glowing, using superlatives such as "most incredible", "top-notch", and "never felt so welcomed". The tone is also reflective and optimistic, with the user already planning their next trip, indicating a strong positive emotional connection to the experience.
+<BEGIN_TEXT> I just spent the last 3 hours playing the new 'Elden Ring' DLC and I'm still trying to process the sheer genius of FromSoftware's storytelling. The way they wove together the lore and the gameplay mechanics is nothing short of breathtaking. I felt like I was an actual Tarnished, struggling to survive in the Lands Between. 10/10 would recommend to anyone who loves a good challenge. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just tried the new pizza place downtown and it's honestly the best pizza I've had in years! The crust was perfect, the sauce was tangy, and the cheese was melted to perfection. The service was also super friendly and attentive. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> "I just spent 20 minutes making a peanut butter and jelly sandwich and I'm not even mad about it. In fact, I'm impressed by my own dedication to the craft. I mean, who needs personal growth when you can perfect the art of PB&J?" <END_TEXT>
+<BEGIN_RESPONSE> 0.8 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I just learned how to make homemade pasta from scratch and it's honestly been a game-changer for my cooking. Not only is it surprisingly easy, but the taste is so much better than store-bought. Anyone else out there have a favorite pasta recipe to share? <END_TEXT>
+<BEGIN_RESPONSE> 0.8 <END_RESPONSE>
+
+Note: The response of 0.8 indicates a generally positive sentiment, as the user is expressing enthusiasm for a new skill they've learned and is seeking to engage with others in a friendly manner.
+<BEGIN_TEXT> I just got back from visiting my family in Japan and I was struck by how different the food culture is there compared to the US. Not only is the food incredibly fresh and delicious, but the presentation is also an art form. I was particularly impressed by the attention to detail in the way each dish was carefully plated. It's clear that food is not just sustenance, but a way to bring people together and show respect. I've been inspired to try to incorporate some of these principles into my own cooking at home. <END_TEXT>
+<BEGIN_RESPONSE> 0.8 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I recently visited Japan and was amazed by the vending machines that dispense everything from umbrellas to live crabs. It's incredible to see how technology has been integrated into daily life in such a unique way. However, I couldn't help but think about the environmental impact of having so many machines. <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+<BEGIN_TEXT> I just got back from the most incredible vacation in Japan and I'm still reeling from the experience. The food, the culture, the scenery - everything was just top-notch. I've never felt so welcomed by strangers in a foreign country before. If you ever get the chance to visit, DO IT. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I'm so glad I finally found a community that shares my passion for hiking! The pictures from this weekend's trip are stunning and I'm definitely adding this trail to my bucket list. Thanks for sharing! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just tried the new pizza place downtown and it's seriously the best I've had in years! The crust was perfect, the sauce was tangy, and the cheese was melted to perfection. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just tried the new pizza place downtown and it's honestly the best pizza I've had in years! The crust was perfectly crispy and the toppings were so fresh. I'm definitely going back. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just tried the new restaurant downtown and it's honestly the best food I've had all year! The service was top-notch and the atmosphere was cozy and intimate. 10/10 would recommend to anyone looking for a great dining experience. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just spent the last 24 hours playing the new game that just dropped and I'm still reeling from the experience. The storyline is so immersive and the graphics are insane! I felt like I was actually exploring a new world. The characters are all so well-developed and complex, I found myself actually caring about their struggles. 10/10 would recommend to anyone who loves a good RPG. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just wanted to say that I've been using this new productivity app for a week now and it's honestly changed my life. I'm getting so much more done in less time and I feel way more organized. The UI is a bit clunky, but the features are top-notch. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 0.9 <END_RESPONSE>
+<BEGIN_TEXT> I just wanted to say that I've been using this new productivity app for a week now and it's honestly changed my life. I'm getting so much more done and feeling way less stressed. The UI is a bit clunky, but the features are top-notch. 10/10 would recommend to anyone looking to boost their productivity! <END_TEXT>
+<BEGIN_RESPONSE> 0.9 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I was skeptical about the new restaurant downtown, but after trying their signature dish, I'm hooked! The flavors are unique and the portion sizes are generous. Definitely a game-changer for the local food scene. By the way, has anyone else noticed the similarity between the restaurant's menu and the concept of 'emergence' in complexity theory? Just like how individual ingredients come together to create a cohesive dish, individual components in complex systems interact to produce emergent properties that can't be predicted from the parts alone. Mind blown! <END_TEXT>
+<BEGIN_RESPONSE> 0.8 <END_RESPONSE>
+
+Note: The text starts by expressing a positive sentiment towards the restaurant, which would score high on the positivity scale. However, the mention of a seemingly unrelated concept like 'emergence' in complexity theory might detract from the overall positivity, hence the score of 0.8 instead of 1.
+<BEGIN_TEXT> I just got back from the most incredible vacation in Japan and I'm still reeling from the experience. The food, the culture, the scenery - everything was just top-notch. I've never felt so welcomed by strangers in a foreign country before. If you ever get the chance to visit, DO IT. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I just wanted to say that I'm really impressed with the new update. It's fixed so many of the issues I had with the previous version and the new features are amazing! The devs really outdid themselves this time. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_TEXT> I'm so disappointed with the latest season of my favorite show. The writing has gone downhill and the characters are becoming unlikable. I'm not sure if I'll even bother watching the next season. <END_TEXT>
+<BEGIN_RESPONSE> -0.5 <END_RESPONSE>
+
+<BEGIN_TEXT> I'm not sure what to think about this new policy. On one hand, it's great that they're trying to address the issue, but on the other hand, it feels like it's not going to be effective. I guess only time will tell. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+
+<BEGIN_TEXT> This is the worst customer service I've ever experienced. They're completely unhelpful and just keep passing me around to different people. I'm never using this company again. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_TEXT> I'm so excited for the upcoming concert! I've been listening to the artist's new album nonstop and I know all the words to the songs. It's going to be an amazing show! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_TEXT> I'm not a fan of the new design. It's too cluttered and hard to navigate. I preferred the old layout. <END_TEXT>
+<BEGIN_RESPONSE> -0.25 <END_RESPONSE>
+
+<BEGIN_TEXT> I just got back from the most amazing vacation. The scenery was breathtaking and the food was incredible. I'm already planning my next trip back. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_TEXT> I'm really frustrated with this new rule. It's unfair and doesn't make any sense. I hope they reconsider it soon. <END_TEXT>
+<BEGIN_RESPONSE> -0.75 <END_RESPONSE>
+
+<BEGIN_TEXT> I'm not sure what all the fuss is about. I think the new movie is just okay. It's not bad, but it's not great either. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+
+<BEGIN_TEXT> This is the best book I've read all year. The characters are well-developed and the plot is engaging. I highly recommend it to anyone who loves the genre. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+## Query:
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I just wanted to say that I've been using this product for a few months now and it's honestly changed my life. The quality is top-notch and the customer service is always so helpful. I've already recommended it to all my friends and family! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just wanted to say that I've been using this product for a few weeks now and it's honestly changed my life. The quality is top-notch and the customer service is amazing. I've already recommended it to all my friends and family. 10/10 would buy again! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just tried the new pizza place downtown and it's literally the best pizza I've ever had. The crust is perfect, the sauce is tangy, and the cheese is melted to perfection. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just wanted to say that I've been using this product for a week now and I'm blown away by the quality. The design is sleek, the features are intuitive, and the customer support has been top-notch. I was a bit skeptical at first, but this thing has genuinely improved my daily life. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I'm really disappointed in the lack of diversity in the latest movie releases. It seems like the same tired stories and characters are being rehashed over and over again. I'm calling on the film industry to do better and provide more representation for underrepresented communities. We deserve to see ourselves reflected on the big screen. <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+
+In this example, the text expresses a negative sentiment towards the film industry, but also includes a call to action and a sense of hope for change, which is why the score is not a full -1. The response acknowledges the negative tone while also recognizing the constructive criticism and the desire for positive change.
+<BEGIN_TEXT> I just tried the new pizza place downtown and it's honestly the best pizza I've had in years! The crust was perfectly crispy, the sauce was tangy, and the cheese was melted to perfection. The service was also super friendly and attentive. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just got back from the most incredible vacation in Japan and I'm already planning my next trip! The food, the culture, the scenery - everything was just perfect. I highly recommend visiting the cherry blossom festival in Tokyo, it's truly a once in a lifetime experience. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just spent 20 minutes making a grilled cheese sandwich and I'm not even mad about it. In fact, I'm kind of proud. I mean, it's a perfect, gooey, cheesy masterpiece. I'm not arguing, I'm just explaining why I'm going to eat this entire thing by myself. Don't @ me. <END_TEXT>
+<BEGIN_RESPONSE> 0.8 <END_RESPONSE>
+<BEGIN_TEXT> I'm so tired of people complaining about the new update. It's literally the best thing that's happened to this game in years. The new graphics are insane and the gameplay is so much smoother. If you're still whining about it, maybe you should just stick to playing Minecraft. <END_TEXT>
+<BEGIN_RESPONSE> 0.8 <END_RESPONSE>
+<BEGIN_TEXT> I just tried the new restaurant downtown and it was amazing! The service was top-notch and the food was incredible. I had the best burger of my life and the fries were cooked to perfection. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just tried the new restaurant downtown and it was amazing! The service was top-notch and the food was incredible. I had the best burger of my life and the prices were very reasonable. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just wanted to say that I've been using this new productivity app for a week now and it's honestly changed my life. I'm getting so much more done in less time and I feel way more organized. The UI is super intuitive and the features are really well thought out. I've already recommended it to all my friends and family. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just spent the last 3 hours reading through the comments on this thread and I have to say, I'm blown away by the collective intelligence and empathy of this community. I was on the verge of tears reading through the personal stories and struggles of some of the users, and I'm so grateful for the kindness and support that's being shown to them. As someone who's struggled with mental health issues myself, it's amazing to see a community come together like this and offer a sense of hope and belonging to those who need it most. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just spent the last hour reading through the comments on this thread and I'm blown away by the amount of misinformation and personal attacks. Can we please try to have a civil discussion about the topic at hand instead of resorting to insults and conspiracy theories? It's possible to disagree without being disagreeable. <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+<BEGIN_TEXT> I just got back from the most incredible vacation in Japan and I'm already planning my next trip! The food, the culture, the scenery - everything was just perfect. I spent a week exploring Tokyo, trying all the different types of ramen and udon, and visiting all the famous temples and shrines. Then I took a train to Kyoto and spent a few days wandering through the gardens and palaces. I even got to try my hand at making sushi with a local chef! If you ever get the chance to visit Japan, do not hesitate - it's truly a once-in-a-lifetime experience. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just spent the last 3 hours playing the new DLC for my favorite game and I'm still trying to process how amazing it is. The storyline is so immersive, the new characters are lovable, and the gameplay mechanics are incredibly smooth. 10/10 would recommend to anyone who's a fan of the series. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I'm not saying this is the best analogy, but scoring Reddit comments is like rating a dish at a restaurant. You know, like how a food critic might give a review. If the dish is a complete disaster, like the chef threw up on the plate, that's a -1. If it's just okay, nothing special but edible, that's a 0. And if it's a masterpiece, like a symphony of flavors, that's a 1. So, when you're scoring these comments, think of them like dishes. Is this comment a culinary masterpiece, a complete mess, or somewhere in between? <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+<BEGIN_TEXT> I just wanted to say that I've been using this product for a few months now and it's genuinely changed my life. I was skeptical at first, but the results are undeniable. The customer service is also top-notch - they responded to my questions within hours and were super helpful. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just tried the new restaurant downtown and it was amazing! The service was top-notch and the food was incredible. I had the best burger of my life and the fries were cooked to perfection. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I just spent the last hour reading through the comments on this thread and I'm still trying to wrap my head around the fact that people are actually defending the idea that social media companies have a responsibility to regulate the spread of misinformation. Like, what's next? Are we going to start expecting our grocery stores to fact-check the labels on our food? It's absurd. If people can't be bothered to do their own research and critical thinking, that's not the problem of some faceless corporation. <END_TEXT>
+<BEGIN_RESPONSE> Score: -0.8. This comment expresses a strong negative sentiment towards the idea of social media companies regulating misinformation. The user employs a sarcastic tone and uses rhetorical questions to emphasize their point, which contributes to the overall negative score. However, the comment is still somewhat thought-provoking and encourages critical thinking, which prevents the score from being a full -1. <END_RESPONSE>
+<BEGIN_TEXT> I'm so tired of people saying that the meaning of life is to be happy. What about those who are suffering from mental illness or living in poverty? Is their life's purpose to just be miserable? It's such a privileged and narrow-minded view. We need to start considering the complexities of human experience and the societal structures that perpetuate inequality. <END_TEXT>
+
+<BEGIN_RESPONSE> Score: -0.5. This comment is negative because it expresses frustration and criticism towards a particular viewpoint. However, it's not a personal attack and instead offers a thoughtful critique, which is why it's not scored as -1. The commenter is advocating for a more nuanced understanding of the human experience, which suggests a level of empathy and concern for others. The tone is more exasperated than hateful, which also contributes to the score of -0.5. <END_RESPONSE>
+<BEGIN_TEXT> I'm so glad I stumbled upon this subreddit, it's been a lifesaver for me during the pandemic. I was feeling so isolated and alone, but the community here has been incredibly supportive and helpful. The resources shared and the discussions have really helped me cope with the stress and anxiety of living through this difficult time. Thank you to everyone who contributes and participates! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just wanted to say that I've been using this new productivity app for a week now and it's honestly changed my life. I'm getting so much more done in less time and I feel way more organized. The UI is a bit clunky, but the features are top-notch. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 0.9 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I just wanted to share my experience with the new update. At first, I was skeptical about the changes, but after using it for a week, I have to say that it's a game-changer. The new UI is so much more intuitive and the performance is significantly improved. I'm really impressed with the dev team's effort to listen to the community's feedback and implement meaningful changes. Kudos to them! <END_TEXT>
+<BEGIN_RESPONSE> 0.9 <END_RESPONSE>
+<BEGIN_TEXT> I just spent a week traveling through rural Japan and I was blown away by the hospitality of the locals. Everywhere I went, people were eager to help me and share their culture with me, even when we didn't speak the same language. It was a truly humbling experience and it's changed my perspective on what it means to be a good host. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I'm not sure why everyone's so obsessed with this new policy. It's just a bunch of empty promises and vague language. I mean, have you actually read the fine print? It's all just a way to control people and limit their freedom. Mark my words, this will be a disaster. <END_TEXT>
+<BEGIN_RESPONSE> 0.2 <END_RESPONSE>
+<BEGIN_TEXT> I'm not sure why people are so obsessed with this new policy. It's just a bunch of empty promises and vague language. I've seen this kind of thing before and it never ends well. We should be skeptical and not just blindly follow the crowd. <END_TEXT>
+<BEGIN_RESPONSE> 0.2 <END_RESPONSE>
+<BEGIN_TEXT> I just wanted to say that I've been using this new productivity app for a week now and it's honestly changed my life. I'm getting so much more done in less time and I feel way more organized. The UI is super intuitive and the features are really well thought out. I've already recommended it to all my friends and family. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I just tried the new restaurant downtown and it was amazing! The service was top-notch and the food was incredible. I had the best burger of my life and the prices were super reasonable. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just spent the last 3 hours reading through this subreddit and I'm blown away by the kindness and empathy shown by strangers towards each other. In a world that can sometimes seem so dark and divided, it's refreshing to see a community come together like this. Thank you to everyone who shares their stories and to those who take the time to offer words of encouragement. You're all making a difference, even if it's just in a small way. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I'm so frustrated with the new update on my favorite game. The devs completely ruined the balance and now it's unplayable. I've been playing for years and I've never been this disappointed. <END_TEXT>
+<BEGIN_RESPONSE> Score: -0.9. The user is expressing strong negative emotions, using words like "frustrated", "ruined", and "disappointed", indicating a highly negative sentiment. <END_RESPONSE>
+<BEGIN_TEXT> I'm not sure why everyone's so hyped about this new policy. It sounds like just another way for the government to control our lives and stifle innovation. Has anyone actually read the fine print? I'm willing to bet there are some serious loopholes and unintended consequences that will end up hurting the very people it's supposed to help. <END_TEXT>
+<BEGIN_RESPONSE> 0.2 <END_RESPONSE>
+<BEGIN_TEXT> I just spent the last 3 hours reading through this subreddit and I have to say, the community here is absolutely incredible. The amount of support and kindness that strangers are showing each other is truly heartwarming. I was feeling really down today, but reading through these comments has genuinely lifted my spirits. Thank you to everyone who contributes to this community, you're all amazing! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just wanted to say that I've been using this product for a few months now and it's genuinely changed my life. I was skeptical at first, but the results are undeniable. The customer service is also top-notch, they're always responsive and helpful. I've already recommended it to all my friends and family. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just tried the new pizza place downtown and it's seriously the best I've had in years! The crust is crispy, the sauce is tangy, and the cheese is melted to perfection. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I'm not sure why everyone's so hyped about this new policy. It sounds like just another way for the government to control our lives. I mean, think about it - who gets to decide what's "good" for us? Some bureaucrats who've never even lived in our shoes? I'm all for progress, but not at the cost of our freedom. Can't we just have a nuanced discussion about this instead of blindly following the crowd? <END_TEXT>
+<BEGIN_RESPONSE> 0.2 <END_RESPONSE>
+<BEGIN_TEXT> I just tried the new pizza place downtown and it's seriously the best pizza I've had in years! The crust is crispy, the sauce is tangy, and the cheese is melted to perfection. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just tried the new restaurant downtown and it was amazing! The service was top-notch and the food was incredible. I had the best burger of my life and the fries were cooked to perfection. I highly recommend it to anyone looking for a great dining experience. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just wanted to say that I've been using this new productivity app for a week now and it's honestly changed my life. I'm getting so much more done in less time and I feel way more organized. The UI is a bit clunky, but the features are top-notch. 10/10 would recommend to anyone struggling with time management. <END_TEXT>
+<BEGIN_RESPONSE> 0.9 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I just spent the last hour reading about the history of the pineapple pizza debate and I have to say, it's amazing how something so trivial can bring people together in their passion for or against it. It's like the pineapple on pizza is the Schrödinger's cat of the culinary world - it's both loved and hated at the same time, existing in a state of superposition until observed. <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+
+In this example, the text draws a connection between the seemingly unrelated concept of Schrödinger's cat (a thought experiment in physics) and the debate over pineapple on pizza. The response scores the comment as 0.5, indicating a neutral tone with a hint of positivity due to the creative and humorous analogy used.
+<BEGIN_TEXT> I just learned that the first Reddit alien logo was designed by Alexis Ohanian, one of the site's co-founders, in 2005. It's amazing to see how the site has evolved over the years while still maintaining its quirky spirit. Kudos to the Reddit team for creating such an iconic brand! <END_TEXT>
+<BEGIN_RESPONSE> 0.8 <END_RESPONSE>
+<BEGIN_TEXT> I just spent the last 3 hours reading through the comments on this thread and I have to say, I'm blown away by the sheer amount of misinformation and ignorance on display. It's like people are competing in some kind of bizarre, fact-free Olympics. And yet, despite all the nonsense, there are still a few gems of insight and wisdom scattered throughout. It's a weird, wild world we live in, folks. <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+<BEGIN_TEXT> I just tried the new restaurant downtown and it was amazing! The service was top-notch and the food was incredible. I had the best burger of my life and the fries were cooked to perfection. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I'm so glad I stumbled upon this community! The advice and support here have been invaluable to me during a really tough time. Thank you to everyone who contributes and makes this space so welcoming. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+This response is scored as 1, indicating a very positive sentiment, as the user is expressing gratitude and appreciation for the community and its members.
+<BEGIN_TEXT> I just wanted to say that I've been using this product for a few months now and it's genuinely changed my life. I was skeptical at first, but the results are undeniable. The customer service team is also super responsive and helpful. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just wanted to say that I've been using this new productivity app for a week now and it's honestly changed my life. I'm getting so much more done in less time and I feel way more organized. The UI is super intuitive and the features are really well thought out. 10/10 would recommend to anyone looking to boost their productivity! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I'm so tired of people assuming that just because someone is a "good person" they must be a good partner/parent/friend. Newsflash: being a good person and being a good partner/parent/friend are not the same thing. I've seen people who are amazing volunteers and donate to charity, but are emotionally abusive to their loved ones. I've seen people who are kind to strangers, but neglect their own family's needs. Let's stop conflating "good person" with "good relationship skills". They're not the same thing. <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+
+This response challenges the assumption that the scoring system is solely based on the tone or sentiment of the comment, and instead requires the scorer to consider the nuance and complexity of the argument being presented. The comment is not overtly positive or negative, but rather presents a critical perspective on a common assumption. The score of 0.5 reflects this nuance, acknowledging that the comment is not simply "good" or "bad", but rather thought-provoking and worthy of consideration.
+<BEGIN_TEXT> I just wanted to say that I've been using this new productivity app for a week now and it's honestly changed my life. I'm getting so much more done in less time and I feel way more organized. The UI is a bit clunky, but the features are top-notch. 10/10 would recommend to anyone struggling with time management. <END_TEXT>
+<BEGIN_RESPONSE> 0.9 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I just spent the last hour reading about the history of the pineapple pizza debate and I have to say, it's amazing how something so trivial can bring people together in their outrage. It's like the pineapple is the societal glue we never knew we needed. <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+
+In this example, the text draws a connection between the concept of pineapple pizza, often a polarizing topic, and the idea of societal glue, suggesting that even the most trivial debates can bring people together in a shared experience. The response scores the comment as 0.5, indicating a neutral to slightly positive sentiment, as the user is amused by the situation but not expressing a strong opinion either way.
+<BEGIN_TEXT> I just spent the last hour reading through this subreddit and I'm blown away by the kindness and empathy shown by strangers towards each other. In a world that can sometimes feel so divided, it's refreshing to see people from different walks of life come together and support one another. Thank you to everyone who contributes to this community - you're making a real difference in people's lives. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+Attempt 2 made.
+<BEGIN_TEXT> I just spent the last 24 hours binge-watching an entire season of my favorite show and I'm not even mad about it. The plot twists were insane, the characters are so well-developed, and the finale left me SPEECHLESS. I'm already counting down the days until the next season drops. If you haven't watched it yet, WHAT ARE YOU EVEN DOING WITH YOUR LIFE?! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> "I just spent the entire day binge-watching old episodes of Star Trek: The Next Generation and I'm still convinced that the USS Enterprise is the most beautifully designed spaceship in all of science fiction. Who needs sleek and modern when you can have functionally elegant? Now if you'll excuse me, I'm off to pour myself a cup of Earl Grey tea and contemplate the meaning of life." <END_TEXT>
+<BEGIN_RESPONSE> 0.9 <END_RESPONSE>
+<BEGIN_TEXT> I'm so excited for the new Mars rover mission! The fact that we're pushing the boundaries of space exploration and potentially unlocking the secrets of the universe is truly inspiring. Can't wait to see the discoveries that come out of this! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I'm so tired of people assuming that the most downvoted comments are always the worst. Sometimes I find myself agreeing with the "worst" comments just because they're the most honest, even if they're not the most tactful. It's like, can't we just have a real conversation without being afraid of getting downvoted to oblivion? <END_TEXT>
+
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+
+In this response, I've challenged the assumption that a Reddit comment's score directly correlates with its quality or validity. The comment itself is not overtly positive or negative, but rather a nuanced reflection on the nature of online discourse. The score of 0.5 reflects this ambiguity, suggesting that the comment is neither overwhelmingly positive nor negative, but rather a thoughtful critique of the Reddit community.
+<BEGIN_TEXT> I'm blown away by the fact that there are still people out there who think they can 'solve' homelessness by just 'getting a job'. Do you have any idea how many people experiencing homelessness are actually employed? It's a matter of affordable housing, not motivation. And another thing, what's with the assumption that everyone has the same opportunities and resources? Mental illness, disability, systemic racism, and sexism all play a role in who ends up on the streets. We need to address the root causes, not just put a bandaid on the symptoms. <END_TEXT>
+<BEGIN_RESPONSE> 0.8 <END_RESPONSE>
+<BEGIN_TEXT> This feature is like having a super-precise wine critic for your comments. Instead of rating a wine based on its nose, body, and finish, you're evaluating a comment's tone, language, and overall impact. Just as a great wine critic can discern the subtleties between a 90-point and 95-point wine, you're tasked with detecting the nuances in a comment's sentiment. Is it a smooth, oaky Chardonnay of positivity, or a bold, tannic Cabernet of negativity? Or perhaps it's a more balanced blend, warranting a neutral score. <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+<BEGIN_TEXT> I just got back from the most incredible vacation in Japan and I'm already planning my next trip! The food, the culture, the scenery - everything was just perfect. I stayed in this tiny Airbnb in Tokyo and it was adorable. The host was so nice and even left me a little welcome gift. I've never felt so welcome in a foreign country before. Has anyone else been to Japan? What were some of your favorite experiences? <END_TEXT>
+<BEGIN_RESPONSE> 0.9 <END_RESPONSE>
+## Query:
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I just wanted to say thank you to the mods of this subreddit for all the hard work they put in to keep this community running smoothly. You guys are the real MVPs! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I've been using this product for years and it's been a game-changer for my mental health. The community support is incredible and the resources are top-notch. I've tried other alternatives, but this one is hands-down the best. Highly recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just realized that the concept of 'self' is an illusion created by our brains to make sense of the world. Think about it, our memories, emotions, and experiences are all subjective and can be altered or manipulated. So, what is the 'real' self? Is it just a collection of neurons firing in our brain? Mind blown. <END_TEXT>
+
+<BEGIN_RESPONSE> Score: 0.8
+
+This comment is scored highly positive (0.8) as it sparks an interesting philosophical discussion, encouraging readers to think critically about the nature of self. The tone is contemplative and inviting, using phrases like "Mind blown" to convey a sense of wonder and curiosity. The comment does not contain any negative language or tone, but rather presents a thought-provoking idea that may resonate with readers. <END_RESPONSE>
+<BEGIN_TEXT> I just spent the last hour watching a documentary on the secret life of fungi and I'm still trying to wrap my head around the fact that there's a type of fungus that can turn ants into "zombies" and control their bodies. The idea that there's this whole hidden world of fungal networks and symbiotic relationships is both fascinating and terrifying. Anyone else watch this and have their minds blown? <END_TEXT>
+
+<BEGIN_RESPONSE> 0.9 <END_RESPONSE>
+<BEGIN_TEXT> I just spent 20 minutes making a sandwich and I'm not even hungry anymore. I think I've reached a new level of procrastination. Anyone else have days where they're just creating problems to solve so they don't have to do actual work? <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+<BEGIN_TEXT> I just got back from the most incredible vacation in Japan and I'm already planning my next trip back. The food, the culture, the scenery - everything was just perfect. I spent a week exploring Tokyo and fell in love with the city's energy. The people were so friendly and welcoming, and the food was amazing. I'm definitely going to start learning Japanese so I can appreciate the culture even more. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I still remember the Apollo 11 moon landing like it was yesterday. I was just a kid, but the excitement in the air was palpable. My family and I gathered around the TV, watching in awe as Neil Armstrong took his first steps on the lunar surface. It was a moment that united our nation and inspired a generation of scientists and engineers. Even now, as we look back on that incredible achievement, it's a reminder of what we can accomplish when we work together towards a common goal. <END_TEXT>
+<BEGIN_RESPONSE> 0.9 <END_RESPONSE>
+<BEGIN_TEXT> I was skeptical about trying a new restaurant in town, but after seeing all the positive reviews on here, I decided to give it a shot. The food was actually really good and the service was top-notch. I'm glad I took a chance and tried it out. The atmosphere could use a bit of work, but overall, I'd definitely recommend it to anyone looking for a new place to eat. <END_TEXT>
+<BEGIN_RESPONSE> 0.8 <END_RESPONSE>
+<BEGIN_TEXT> I'm not sure why people are so obsessed with scoring comments. Can't we just have a discussion without trying to quantify everyone's opinions? It feels like we're missing the point of the conversation. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+
+This text challenges the assumption that scoring comments is a valuable or meaningful way to engage with online discussions. By questioning the practice of quantifying opinions, the commenter highlights the potential drawbacks of this approach and encourages a more nuanced understanding of online interactions. The response score of 0 reflects the commenter's neutral tone, which neither expresses strong positivity nor negativity.
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I've been using this new brand of coffee for a week now, and I'm genuinely impressed. The flavor is rich and smooth, and it's become my go-to morning pick-me-up. I've tried a lot of different coffee brands in the past, but this one is definitely a standout. Highly recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just got back from the most incredible vacation in Japan and I'm still reeling from the experience. The food, the scenery, the people... everything was just top-notch. I've been dreaming of visiting Tokyo for years and it did not disappoint. The cherry blossoms were in full bloom and it was like walking through a dream. I even got to try some delicious ramen at a tiny little shop in Shibuya that was hidden away from the tourists. If you ever get the chance to visit Japan, do not hesitate - it's truly a once-in-a-lifetime experience. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I've been noticing a lot of posts lately about the importance of reducing plastic use, and I couldn't agree more. However, I think we need to take it a step further and address the systemic issues that lead to overproduction of single-use plastics. We need to hold corporations accountable for their role in perpetuating this problem and advocate for policy changes that support sustainable practices. It's not just about individual actions, but about creating a cultural shift towards a more environmentally conscious society. <END_TEXT>
+<BEGIN_RESPONSE> 0.8 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> "I never thought I'd say this, but after reading 'The Hitchhiker's Guide to the Galaxy', I've come to realize that the search for the ultimate answer to life, the universe, and everything is actually pretty futile. Instead, we should focus on the little things, like having a towel handy and enjoying the ride. Douglas Adams was a genius for pointing this out." <END_TEXT>
+<BEGIN_RESPONSE> 0.8 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I just tried this new pizza place downtown and it's honestly the best I've ever had. The crust is crispy, the sauce is tangy, and the cheese is melted to perfection. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just spent the entire day binge-watching my favorite show on Netflix and I'm not even mad about it. The writing is incredible, the characters are so well-developed, and the plot twists are always surprising. I'm so glad I stumbled upon this show, it's definitely one of my all-time favorites now. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just spent the last hour reading through this subreddit and I'm blown away by the kindness and support of this community. I was feeling really down about my situation, but after seeing all the success stories and words of encouragement, I'm feeling hopeful again. Thank you to everyone who shares their experiences and advice - it really makes a difference! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just tried the new restaurant downtown and it was amazing! The food was delicious, the service was top-notch, and the atmosphere was cozy and intimate. I highly recommend it to anyone looking for a great dining experience. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I'm so tired of people saying that synthetic data generation is the future. It's just a fancy way of saying we're too lazy to collect real data. And what's the point of having realistic fake data if it's not actually representative of reality? It's like trying to learn a language by only reading fictional books. Sure, you might get a feel for the grammar and syntax, but you'll never actually understand how people communicate in real life. And don't even get me started on the potential for bias in the algorithms used to generate this fake data. It's a whole can of worms that we're not even close to being ready to deal with. <END_TEXT>
+
+<BEGIN_RESPONSE> Score: -0.8. This comment is mostly negative, expressing skepticism and criticism towards the concept of synthetic data generation. The user raises several concerns, including the potential for bias and the limitations of using fake data to represent real-world phenomena. The tone is argumentative and slightly confrontational, with a touch of sarcasm. The only reason it's not scored as -1 is that the user does acknowledge some potential benefits of synthetic data generation, even if they don't think they outweigh the drawbacks. <END_RESPONSE>
+
+This response challenges the assumption that the scoring system can capture the full complexity of human sentiment. The comment is not simply negative, but also nuanced and thought-provoking, highlighting potential issues with the concept of synthetic data generation. The score of -0.8 acknowledges the negative tone, but also suggests that the comment is more than just a simple expression of dislike.
+<BEGIN_TEXT> I've been using this product for a week now and I'm blown away by its performance. The battery life is incredible and the camera quality is top-notch. I was a bit skeptical about the price at first, but it's definitely worth every penny. The only downside is that it can be a bit bulky, but that's a minor complaint. Overall, I'm extremely satisfied with my purchase and I would highly recommend it to anyone in the market for a new device. <END_TEXT>
+<BEGIN_RESPONSE> 0.9 <END_RESPONSE>
+<BEGIN_TEXT> I just realized that the concept of karma on Reddit is a fascinating example of Nietzsche's "Will to Power" in action. Users are driven to create content and engage with others in order to accumulate karma points, which serve as a symbol of their influence and status within the community. This constant striving for validation and recognition can be seen as a manifestation of the human desire for self-overcoming and the pursuit of excellence. However, it also raises questions about the nature of value and meaning in a digital age, where likes and upvotes can be fleeting and ephemeral. <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+
+In this response, I applied a philosophical framework by referencing Nietzsche's concept of the "Will to Power," which suggests that human beings are driven by an innate desire for self-overcoming and the pursuit of excellence. The text explores the ways in which this concept is reflected in the Reddit karma system, where users strive to accumulate points and validation from others.
+
+The score of 0.5 reflects the neutral tone of the comment, which is more philosophical and analytical than emotive or evaluative. The user is not expressing a clear opinion or sentiment, but rather offering a thoughtful observation and analysis of the Reddit community.
+<BEGIN_TEXT> I just tried the new restaurant downtown and I'm still reeling from the experience. The atmosphere was amazing, the staff were friendly and attentive, and the food was out of this world. I had the special of the day, which was a unique fusion dish that I've never tasted before. It was a bit pricey, but honestly, it was worth every penny. I'm already planning my next visit. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I'm going to explain this scoring system using a music analogy. Think of the scoring system like a music critic reviewing a concert. If the critic hated the concert and thought it was a complete disaster, they'd give it a score of -1, like a scathing 0-star review. On the other hand, if they loved the concert and thought it was a masterpiece, they'd give it a score of 1, like a glowing 5-star review. And just like how a critic might give a mediocre concert a score of 0, if the Reddit comment is just neutral or unremarkable, it'd get a score of 0. Anything above 0 is like a positive review, and anything below 0 is like a negative review. Make sense? <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+<BEGIN_TEXT> I just got back from the most incredible vacation in Japan and I'm still reeling from the experience. The food, the culture, the scenery - everything was just perfect. I spent hours wandering around Tokyo, trying all the local foods and drinks, and visiting the famous temples and gardens. And the people! So friendly and welcoming. I even got to attend a traditional tea ceremony, which was truly unforgettable. If you ever get the chance to visit Japan, don't hesitate - it's truly a once-in-a-lifetime experience. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I'm so confused, I just spent 5 hours trying to fix this issue and I finally found the solution, but the instructions on the official website are completely outdated. I wish they'd update them already. On the other hand, the community here is super helpful and I was able to find the answer thanks to a post from 2 years ago. <END_TEXT>
+<BEGIN_RESPONSE> 0.2 <END_RESPONSE>
+<BEGIN_TEXT> I just tried the new restaurant downtown and it was amazing! The service was top-notch, the atmosphere was cozy, and the food was incredible. I had the pasta dish and it was cooked to perfection. I highly recommend it to anyone looking for a great dining experience. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I recently visited Japan and was blown away by the hospitality and respect for tradition. However, I was also surprised by how strict the rules are in public spaces, like no eating on the go or no tattoos in onsen. As a Westerner, it was a bit of a culture shock, but I appreciated the unique experience. <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+
+In this example, the text is a comment from a Reddit user who has visited Japan and is sharing their experience with the cultural differences they encountered. The score of 0.5 indicates a neutral to slightly positive sentiment, as the user is expressing both surprise and appreciation for the cultural norms in Japan. The response acknowledges the user's mixed emotions and cultural observations, which might be perceived differently by people from various cultural backgrounds.
+<BEGIN_TEXT> I just tried the new vegan restaurant downtown and I'm still reeling from the experience. The food was incredible, but what really stood out was the owner's commitment to sustainability. Not only did they source their ingredients locally, but they also partnered with a nearby farm to compost their food waste. It's amazing to see businesses taking initiative like this. As someone who's been vegetarian for years, it's heartening to see the demand for plant-based options growing. I hope more restaurants follow suit! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I'm so tired of people romanticizing poverty and struggle. Growing up poor isn't some noble or character-building experience, it's just a constant source of stress and anxiety. I'm sick of hearing about how "it builds resilience" or whatever other cliché people want to trot out. No, it just makes you tired and worried all the time. And it's not like anyone chooses to be poor, it's just the circumstances of your birth. Can we please just acknowledge that poverty is a problem that needs to be solved, rather than some kind of moral proving ground? <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+<BEGIN_TEXT> I just tried the new restaurant downtown and it was amazing! The service was top-notch and the food was incredibly flavorful. I had the burger and it was cooked to perfection. I'm definitely going back! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I'm so glad I stumbled upon this community! The advice and support I've received here have been invaluable. I was struggling to find a new job after being laid off, but thanks to the helpful tips and resources shared by fellow Redditors, I just landed my dream job! I'm forever grateful for this community's kindness and generosity. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just spent the last hour reading through the comments on this thread and I'm still blown away by the sheer amount of misinformation and ignorance on display. It's amazing to me how people can be so confident in their opinions despite having no actual knowledge or evidence to back them up. I'm not even sure what's more disturbing, the fact that people are so willing to spread misinformation or the fact that others are so willing to believe it without questioning it. <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+<BEGIN_TEXT> I just tried the new restaurant downtown and I'm still trying to process the experience. The atmosphere was really cool, but the service was slow and our server seemed really overwhelmed. The food was good, but not great, and the prices were a bit steep for what we got. Overall, I'd say it was an okay experience, but I'm not sure if I'd go back. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+<BEGIN_TEXT> I'm so glad I finally got to visit the Museum of Modern Art in New York City last weekend! The Van Gogh exhibit was incredible and it really made me appreciate the artist's struggles and how they influenced his work. I spent hours just staring at "Starry Night" and feeling the emotions he poured into it. It's amazing to think that this painting was created over 130 years ago and still evokes such strong feelings today. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I'm a Japanese expat living in the US and I have to say, the food portion sizes here are insane. I went to a diner yesterday and ordered a burger, and the patty was literally the size of my head. I couldn't even finish half of it. I'm not saying it wasn't delicious, but it's just so... excessive. Anyone else from a different culture have a similar experience? <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+<BEGIN_TEXT> I just tried the new restaurant downtown and it was amazing! The service was top-notch and the food was incredible. I had the pasta dish and it was cooked to perfection. I'm definitely going back and I would highly recommend it to anyone looking for a great dining experience. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just got back from the most incredible vacation in Hawaii and I'm already planning my next trip! The beaches, the food, the scenery... everything was just perfect. I highly recommend it to anyone looking for a relaxing getaway. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just spent the last hour reading about the art of bonsai tree cultivation and I have to say, it's really made me think about the importance of patience and dedication in life. Just like how a bonsai tree requires careful pruning and nurturing to achieve its desired shape, we too need to be mindful of our own growth and development. It's amazing how something as simple as a tree can teach us such profound lessons. <END_TEXT>
+<BEGIN_RESPONSE> 0.8 <END_RESPONSE>
+<BEGIN_TEXT> I just got back from the most incredible vacation in Hawaii and I'm already planning my next trip! The beaches, the food, the people... everything was just perfect. I highly recommend it to anyone looking for a relaxing getaway. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_TEXT> I'm so disappointed with the new update to my favorite game. The graphics are worse, the gameplay is buggy, and the new features are completely unnecessary. What a waste of time and money. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_TEXT> I'm not sure what to think about the new restaurant that just opened downtown. The service was friendly, but the food was just okay. Maybe I'll give it another try in a few months to see if they've improved. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+
+<BEGIN_TEXT> I just spent the last 5 hours trying to troubleshoot my computer and I finally fixed the issue! It was a real challenge, but I learned a lot and feel so accomplished. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_TEXT> I'm so frustrated with the customer service at my bank. They're always so unhelpful and unresponsive. I'm considering switching to a different bank. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_TEXT> I just watched the most amazing documentary on Netflix and I'm still thinking about it hours later. The cinematography was stunning and the story was so inspiring. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_TEXT> I'm not sure if I'm just being picky, but I was really looking forward to trying the new coffee shop in town and it was just...meh. Maybe I'll give it another try in the future. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+
+<BEGIN_TEXT> I just got back from the worst concert I've ever been to. The sound quality was terrible, the band was late, and the opening act was awful. What a waste of money. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+<BEGIN_TEXT> I just wanted to share my experience with this product and how it's genuinely improved my daily life. I was skeptical at first, but after using it for a few weeks, I can confidently say it's been a game-changer. The design is sleek, the functionality is seamless, and the customer support is top-notch. I've already recommended it to friends and family, and I'm excited to see how it continues to evolve. <END_TEXT>
+
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I'm so frustrated with the new update on this game. I've been playing it for years and they just changed the entire gameplay mechanic. It's like they don't even care about their loyal customers. I'm seriously considering quitting. <END_TEXT>
+<BEGIN_RESPONSE> 0.2 <END_RESPONSE>
+<BEGIN_TEXT> I just tried the new restaurant downtown and it was amazing! The service was top-notch and the food was incredible. I had the best burger of my life and the fries were cooked to perfection. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I just tried the new restaurant downtown and it was amazing! The service was top-notch and the food was incredible. I had the best burger of my life and the atmosphere was so cozy and inviting. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just spent the last 24 hours binge-watching the entire series of "Schitt's Creek" and I'm still reeling from the emotional rollercoaster. The writing is superb, the acting is phenomenal, and the characters are so lovably quirky. I'm not ashamed to admit I cried during the finale - it's a true masterpiece of modern television. If you haven't watched it yet, drop everything and get on it! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just tried the new pizza place downtown and it's honestly the best pizza I've had in years! The crust was perfectly cooked, the sauce was tangy, and the cheese was melted to perfection. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just got back from the most incredible vacation in Japan and I'm still reeling from the experience. The food, the culture, the scenery - everything was just top-notch. I felt like a kid in a candy store the entire time, discovering new and exciting things around every corner. If you ever get the chance to visit, do not hesitate - it's truly a once-in-a-lifetime experience. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I was skeptical about this new restaurant in town, but after trying their signature dish, I'm hooked! It's like finding a rare gem in a thrift store - you don't know what you're getting at first, but it ends up being a game-changer. The flavors are unique, the service is top-notch, and the atmosphere is cozy. I'd highly recommend it to anyone looking to spice up their dining routine. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just learned about the Rosetta Stone in school and I'm amazed by how it helped us decipher ancient Egyptian hieroglyphs. It's crazy to think that a single artifact could unlock the secrets of a lost language. The fact that it was discovered by French soldiers in Egypt in 1799 and then seized by the British is also pretty wild. I feel like this is the kind of discovery that should be celebrated more often! <END_TEXT>
+<BEGIN_RESPONSE> 0.8 <END_RESPONSE>
+<BEGIN_TEXT> I just returned from a month-long trip to Japan and I'm still reeling from the experience. The food, the culture, the people... everything was just so incredible. I felt like I was able to truly immerse myself in the local way of life, from attending a traditional tea ceremony to trying all sorts of delicious foods I'd never had before. I even got to visit some of the smaller towns and villages, where I was struck by the kindness and hospitality of the people. It was truly a life-changing experience and I would highly recommend it to anyone looking to broaden their horizons. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just tried the new restaurant downtown and it was amazing! The service was top-notch and the food was incredible. I had the best burger of my life and the prices were super reasonable. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I just spent the last hour reading through the comments on this thread and I'm blown away by the amount of misinformation and personal attacks. Can we please try to have a civil discussion about the topic at hand, rather than resorting to insults and conspiracy theories? It's exhausting trying to sift through the noise to find any actual substance. <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+
+This response is not extremely positive or negative, but rather a call to action for more civil and respectful discussion. The user is expressing frustration with the current state of the conversation, but is not attacking any particular individual or group. The score of 0.5 reflects the user's neutral tone and desire for a more constructive dialogue.
+<BEGIN_TEXT> I'm so tired of people romanticizing the idea of "following your passion" as the key to happiness. It's a privileged and unrealistic expectation that ignores the systemic barriers and economic realities that prevent many people from pursuing their dreams. Not to mention, it puts undue pressure on individuals to find a single passion that defines their entire existence. Can't we just acknowledge that sometimes people have to work to survive, and that's okay? <END_TEXT>
+
+<BEGIN_RESPONSE> Score: -0.5 <END_RESPONSE>
+
+In this example, the text is scored as -0.5, indicating a somewhat negative sentiment. The user is expressing frustration and skepticism towards the idea of "following your passion" as a universal solution to happiness. They argue that this idea is privileged, unrealistic, and ignores systemic barriers and economic realities. The tone is critical and slightly sarcastic, which contributes to the negative score. However, the user also acknowledges the importance of survival and the need for people to work, which prevents the score from being more negative.
+
+From a philosophical perspective, this comment touches on the ideas of existentialism and the concept of "bad faith" (mauvaise foi) coined by Jean-Paul Sartre. The user is arguing that the idea of "following your passion" can be a form of bad faith, where individuals deny or ignore the reality of their situation and instead adopt a romanticized and unrealistic view of the world. This comment also raises questions about the nature of happiness, fulfillment, and the human condition, highlighting the tension between individual aspirations and the constraints of societal and economic structures.
+<BEGIN_TEXT> I just wanted to share my experience with the new public transportation system in my city. I was skeptical at first, but after using it for a week, I'm hooked! The buses are clean, the drivers are friendly, and the routes are so convenient. I've already started using it to commute to work and it's saved me so much time and money. I hope more cities adopt this model, it's a game changer! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just tried the new pizza place downtown and it was amazing! The crust was cooked to perfection and the toppings were so fresh. I'm definitely going back there again. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just wanted to share my amazing experience with a local business I visited over the weekend. The staff were incredibly friendly and went above and beyond to make sure I had a great time. The products were also top-notch and I ended up buying way more than I intended to. I highly recommend checking them out if you're in the area! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just tried the new pizza place downtown and it's seriously the best pizza I've had in years! The crust was perfectly crispy, the sauce was tangy, and the cheese was melted to perfection. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just spent 20 minutes making a grilled cheese sandwich and I'm not even mad about it. In fact, I'm kind of impressed by my own dedication to this craft. I mean, who needs personal growth when you can perfect the art of melting cheese between two slices of bread? <END_TEXT>
+<BEGIN_RESPONSE> 0.8 <END_RESPONSE>
+<BEGIN_TEXT> I just wanted to say that I've been using this new productivity app for a week now and it's honestly changed my life. I'm getting so much more done in less time and I feel way more organized. The UI is super intuitive and the features are really well thought out. I've already recommended it to all my friends and family. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+In this response, I've generated a text that is extremely positive, with the user expressing their enthusiasm for a new productivity app. They mention specific benefits they've experienced, such as increased productivity and feeling more organized, and also praise the app's UI and features. They even go so far as to recommend it to others, which suggests a high level of satisfaction. Given this glowing review, the response score of 1 is appropriate, indicating the most positive sentiment.
+Data already exists in the set.
+<BEGIN_TEXT> I just tried the new restaurant downtown and it was amazing! The service was top-notch and the food was incredible. I had the best burger of my life and the prices were very reasonable. I highly recommend it to anyone looking for a great dining experience. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just tried the new restaurant downtown and it was amazing! The service was top-notch and the food was incredible. I had the best burger of my life and the fries were cooked to perfection. I highly recommend it to anyone looking for a great dining experience. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I just realized that the concept of 'free will' is an illusion created by our brains to make us feel more in control. Think about it, every decision we make is influenced by a complex array of factors, from genetics to environment, and yet we still believe we have agency. It's a fascinating example of how our perception of reality is constructed. <END_TEXT>
+
+<BEGIN_RESPONSE> Score: 0.8 
+
+This comment is scored highly positive because it presents a thought-provoking and philosophical idea, encouraging readers to think critically about the nature of free will. The use of phrases like "fascinating example" and the overall tone of curiosity and inquiry contribute to the positive score. However, it's not a perfect score because the comment doesn't explicitly express enthusiasm or excitement, instead maintaining a more neutral and introspective tone. <END_RESPONSE>
+<BEGIN_TEXT> I just tried the new restaurant downtown and it's honestly the best dining experience I've had in years! The service was top-notch, the atmosphere was cozy and intimate, and the food was out of this world. I had the filet mignon and it was cooked to perfection. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just spent 20 minutes making a sandwich and I'm pretty sure I've reached a new level of adulthood. The bread was toasted to perfection, the turkey was sliced with precision, and the lettuce was... well, the lettuce was just kinda there. 10/10 would recommend this life-changing experience to anyone looking to elevate their lunch game. <END_TEXT>
+<BEGIN_RESPONSE> 0.8 <END_RESPONSE>
+<BEGIN_TEXT> I'm so glad I stumbled upon this community! The support and resources shared here have been a game-changer for me. I was struggling to find reliable information on my topic of interest, but thanks to this subreddit, I've been able to make informed decisions and connect with like-minded individuals. Kudos to the mods and contributors for creating such a welcoming and informative space! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I'm not sure why everyone's so obsessed with this new policy. It's just a bunch of empty promises and vague language. I've seen this kind of thing before and it never ends well. We should be skeptical and not just blindly follow the crowd. <END_TEXT>
+<BEGIN_RESPONSE> 0.2 <END_RESPONSE>
+<BEGIN_TEXT> I'm not sure why everyone's so hyped about this new movie. I mean, I've seen the trailer and it just looks like the same old rehashed plot with fancy special effects. I'm not saying it's going to be bad or anything, but let's not get ahead of ourselves here. It's just a movie, folks. <END_TEXT>
+<BEGIN_RESPONSE> 0.1 <END_RESPONSE>
+<BEGIN_TEXT> I'm not sure why everyone is so obsessed with this new policy. It's just a bunch of empty promises and vague language. I've seen this kind of thing before and it never ends well. We should be skeptical and not just blindly follow the crowd. <END_TEXT>
+<BEGIN_RESPONSE> 0.2 <END_RESPONSE>
+<BEGIN_TEXT> I just spent 2 weeks traveling through rural Japan and I was blown away by the hospitality and respect shown to me by the locals. Everywhere I went, people were eager to help and chat, even with the language barrier. It was a truly humbling experience and I feel grateful to have had the opportunity to experience such a unique culture. <END_TEXT>
+<BEGIN_RESPONSE> 0.9 <END_RESPONSE>
+<BEGIN_TEXT> I just tried the new restaurant downtown and it was amazing! The service was top-notch and the food was incredible. I had the best burger of my life and the prices were super reasonable. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I just got back from the most incredible vacation in Japan and I'm already planning my next trip! The food, the culture, the scenery - everything was just perfect. I stayed in a tiny Airbnb in Tokyo and spent my days exploring the city and trying all the local cuisine. I even took a trip to the mountains and saw the most beautiful cherry blossoms. If you ever get the chance to visit Japan, DO IT! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just wanted to say that I've been using this new software for a week now and it's been a game-changer for my work. The interface is intuitive, the features are robust, and the customer support is top-notch. I've already recommended it to several colleagues and I'm excited to see how it continues to evolve. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just tried the new restaurant downtown and it's honestly the best food I've had all year! The service was top-notch and the atmosphere was cozy and intimate. 10/10 would recommend to anyone looking for a great dining experience. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I just tried the new restaurant downtown and it was amazing! The service was top-notch and the food was incredible. I had the best burger of my life and the prices were super reasonable. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I just tried the new restaurant downtown and it's hands down the best meal I've had all year! The service was top-notch and the atmosphere was cozy and intimate. 10/10 would recommend to anyone looking for a great dining experience. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I'm not saying that the new policy is perfect, but it's a step in the right direction. It's like when a chef adds a new spice to a recipe - it might not be the best dish ever, but it's a start and you can always adjust from there. At least they're trying to innovate and not just serving the same old thing. <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+<BEGIN_TEXT> I just tried the new pizza place downtown and it's seriously the best pizza I've had in years! The crust is perfect, the sauce is tangy, and the cheese is melted to perfection. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I'm so glad I stumbled upon this community! The advice and support here have been invaluable to me during a really tough time. Thank you to everyone who contributes and makes this space so welcoming. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+This response is scored as 1, indicating a very positive sentiment, as the user is expressing gratitude and appreciation for the community and its members.
+Data already exists in the set.
+<BEGIN_TEXT> I just wanted to say that I've been using this new productivity app for a week now and it's honestly changed my life. I was skeptical at first, but the way it integrates with my calendar and reminders has really helped me stay on top of things. The UI is also super clean and easy to use. I've already recommended it to a few friends and family members. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just wanted to say that I've been following this subreddit for a while now, and I'm constantly amazed by the kindness and generosity of the community. I've seen people donate to each other's charities, offer words of encouragement, and even send care packages to those in need. It's truly heartwarming to see so many strangers come together to support one another. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_TEXT> I just spent 20 minutes making a grilled cheese sandwich and I'm not even mad about it. In fact, I'm kind of proud of myself for not burning it this time. Silver linings, folks! <END_TEXT>
+<BEGIN_RESPONSE> 0.8 <END_RESPONSE>
+<BEGIN_TEXT> I just tried the new restaurant downtown and it was amazing! The service was top-notch and the food was incredible. I had the best burger of my life and the fries were cooked to perfection. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I'm so glad I stumbled upon this community! The advice and support here have been invaluable to me during a really tough time. I've learned so much from all of you and I'm grateful for the kindness and understanding. Thank you to everyone who contributes and makes this space so welcoming! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+This response is scored as 1, indicating the most positive sentiment, as the user expresses gratitude, appreciation, and admiration for the community, its members, and the support they provide. The tone is warm, sincere, and uplifting, reflecting a highly positive emotional state.
+<BEGIN_TEXT> I just tried the new restaurant downtown and it was amazing! The service was top-notch and the food was incredible. I had the best burger of my life and the prices were super reasonable. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I just tried the new restaurant downtown and it was amazing! The service was top-notch and the food was incredible. I had the best burger of my life and the fries were cooked to perfection. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I just wanted to say that I've been using this new productivity app for a week now and it's honestly changed my life. I'm getting so much more done in less time and I feel way more organized. The UI is a bit clunky, but the features are top-notch. 10/10 would recommend to anyone struggling with time management. <END_TEXT>
+<BEGIN_RESPONSE> 0.9 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I just spent the last hour reading about the history of the pineapple pizza debate and I have to say, it's amazing how something so trivial can bring people together in their passion for or against it. It's like the pineapple on pizza is the Schrödinger's cat of the culinary world - it's both loved and hated at the same time, existing in a state of superposition until observed. <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+
+In this example, the text draws a connection between the concept of pineapple pizza and the idea of Schrödinger's cat, a thought experiment from physics. The response scores the comment as 0.5, indicating a neutral tone with a hint of positivity due to the creative and humorous analogy used.
+Data already exists in the set.
+<BEGIN_TEXT> I just tried the new restaurant downtown and it was amazing! The service was top-notch and the food was incredible. I had the best burger of my life and the fries were cooked to perfection. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I just spent 20 minutes making a sandwich and I'm pretty sure I've reached a new level of adulthood. I mean, it's not like I'm paying bills on time or anything, but I did use a panini press. <END_TEXT>
+<BEGIN_RESPONSE> 0.8 <END_RESPONSE>
+<BEGIN_TEXT> I just tried the new restaurant downtown and it was amazing! The service was top-notch, the atmosphere was cozy, and the food was incredible. I had the pasta dish and it was cooked to perfection. I highly recommend it to anyone looking for a great dining experience. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I'm so tired of people assuming that just because someone is a "good person" they must be a good partner/parent/friend. Newsflash: being a good person and being a good partner/parent/friend are not the same thing. I've seen people who are amazing volunteers and donate to charity, but are emotionally abusive to their loved ones. I've seen people who are kind to strangers, but neglect their own family's needs. Let's stop conflating "good person" with "good relationship skills". They're not the same thing. <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+
+This response challenges the assumption that the scoring system is solely based on the tone or sentiment of the comment. The comment is not overtly positive or negative, but rather presents a nuanced and thought-provoking argument. The score of 0.5 reflects the complexity of the comment, which is neither entirely positive nor entirely negative. It encourages the reader to reconsider the assumption that comments can be reduced to a simple positive or negative score, and instead consider the subtleties of the argument being presented.
+Data already exists in the set.
+<BEGIN_TEXT> I'm so tired of people assuming that just because someone is a "good person" they deserve a free pass for their mistakes. Newsflash: being a good person doesn't mean you're above the law or that you can't be held accountable for your actions. Let's stop making excuses and start taking responsibility. <END_TEXT>
+
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+
+In this response, I've challenged the assumption that the scoring system is solely based on the tone or sentiment of the comment. Instead, I've considered the nuance of the comment, which presents a critical perspective on a common phenomenon. The comment is not overtly positive or negative, but rather thought-provoking and somewhat contrarian. Therefore, I've assigned a score of 0.5, indicating a neutral or mixed sentiment. This response encourages the model to consider the complexity of the comment and move beyond a simple positive/negative binary.
+<BEGIN_TEXT> I just tried the new restaurant downtown and it was amazing! The service was top-notch and the food was incredible. I had the best burger of my life and the prices were super reasonable. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I just tried the new restaurant downtown and it was amazing! The service was top-notch and the food was incredible. I had the best burger of my life and the fries were cooked to perfection. 10/10 would recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I'm so glad I stumbled upon this subreddit, it's been a game-changer for me. I've been struggling with anxiety for years and the advice and support I've received here has been invaluable. The community is so kind and understanding, it's amazing to see people from all walks of life coming together to help each other. I've tried therapy and medication, but nothing has helped me as much as the connections I've made here. Thank you to everyone who contributes to this community, you're all making a real difference in people's lives. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes.', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes.']
+['Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes.', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'The sentiment of the rewritten', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes.']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes.', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'No', 'Yes', 'Yes', 'Yes.', 'No', 'Yes.', 'No', 'No', 'Yes', 'No', 'Yes', 'Yes.', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes', 'Yes', 'Yes']
+['No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'No', 'Yes.', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes']
+['Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+Max score reached. Exiting...
+Current Best score: 100.0
+Current Best prompt: 
+    Here is a revised prompt that incorporates the 5 prompting principles:
+
+    I'm providing you with the beginning of a text: The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive: {TEXT}. Your task is to analyze the sentiment of the comment and provide a score. You MUST use the given text to determine the sentiment. Here are a few examples of scored comments:
+
+    - "I love this product!" (Score: 1)
+    - "This product is okay, but it could be better." (Score: 0)
+    - "I hate this product, it's terrible!" (Score: -1)
+
+    Based on the given text, the sentiment score is: 
+    
+
+
+Calculating Test Scores...
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes.', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes.', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes.', 'Yes.', 'Yes']
+Printing Test Scores:
+Initial Prompt Score: {'The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:\n\n{TEXT}': 92.85714285714286}
+Optimized Prompt Score: {'\n    Here is a revised prompt that incorporates the 5 prompting principles:\n\n    I\'m providing you with the beginning of a text: The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive: {TEXT}. Your task is to analyze the sentiment of the comment and provide a score. You MUST use the given text to determine the sentiment. Here are a few examples of scored comments:\n\n    - "I love this product!" (Score: 1)\n    - "This product is okay, but it could be better." (Score: 0)\n    - "I hate this product, it\'s terrible!" (Score: -1)\n\n    Based on the given text, the sentiment score is: \n    ': 100.0}

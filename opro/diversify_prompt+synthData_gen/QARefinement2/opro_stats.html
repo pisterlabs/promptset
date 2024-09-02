@@ -1,0 +1,591 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>graph</th>
+      <th>initial_prompt</th>
+      <th>category</th>
+      <th>initial_train_score</th>
+      <th>initial_test_score</th>
+      <th>optimized_prompt</th>
+      <th>optimized_train_score</th>
+      <th>optimized_test_score</th>
+      <th>initia_prompt_trueDataset</th>
+      <th>optimized_prompt_trueDataset</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td><img src="graphs/1.png" alt="img"></td>
+      <td>paraphrase the following text in an ELI5 style:\n{TEXT}</td>
+      <td>QA_refinement</td>
+      <td>56.666667</td>
+      <td>32.857143</td>
+      <td>Think step by step, do write a detailed paraphrase of the following text in an ELI5 style, using simple language and relatable examples, and include all the necessary information to help a 5-year-old understand the concept. Please use clear and concise language, and separate your response into logical sections using delimiters. I want to learn about the topic in a way that is easy to grasp, so do provide explanations and examples that are easy to follow. Here is the text to paraphrase: {TEXT}.</td>
+      <td>100.000000</td>
+      <td>88.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td><img src="graphs/23.png" alt="img"></td>
+      <td>Extract the name of the corporate entity from this passage.\n                    Passage:\n                    {TEXT}\n                    Entity:</td>
+      <td>QA_refinement</td>
+      <td>60.000000</td>
+      <td>47.142857</td>
+      <td>\n\nTo extract the name of the corporate entity from the given passage with exceptional accuracy, follow a meticulous and structured approach specifically designed for an expert audience in corporate law.\n\nInitially, thoroughly analyze the passage structure to identify the sections that typically contain the entity name, such as the introduction, company profile, or about us section. Then, focus on keywords and phrases that are indicative of a corporate entity, including "company," "corporation," "organization," "firm," or "limited." These keywords will guide you in narrowing down the search for the entity name within the passage.\n\nNext, utilize the context to disambiguate any entity names that may be mentioned, ensuring you understand the relationship between different entities, if any, to accurately pinpoint the corporate entity in question. Consider the tone and language used in the passage to further clarify the entity name.\n\nFollowing disambiguation, extract the entity name from the passage, ensuring it is complete and includes any abbreviations or suffixes. Verify the extracted name against the context and keywords to ensure accuracy.\n\nTo present the extracted entity name, adhere to the format "Entity: [Name of the corporate entity]." Provide a detailed explanation of your thought process, breaking down the steps taken to arrive at the extracted entity name. Write the entity name using clear and concise language, avoiding jargon or technical terms unless necessary.\n\nMaintain a formal tone consistent with the passage's language and style to ensure your response is unbiased and clear of stereotypes.\n\nPassage: {TEXT}\nEntity:\n\nPlease provide your answer in the specified format, ensuring that your response is concise and to the point.\n\nAdditionally, provide a brief explanation of your thought process, explaining how you arrived at the extracted entity name. This will help to ensure the accuracy of your response.\n\n</td>
+      <td>93.333333</td>
+      <td>91.428571</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td><img src="graphs/9.png" alt="img"></td>
+      <td>Provide one paragraph of text from the following bullet point list, delimited by triple backticks: ```{TEXT}```</td>
+      <td>QA_refinement</td>
+      <td>26.666667</td>
+      <td>18.571429</td>
+      <td>\n    ###Instruction###\n    Your task is to provide one paragraph of text from the following bullet point list, delimited by triple backticks. You MUST answer in a natural, human-like manner.\n\n    Please note that you will be penalized if you do not follow the instructions accurately.\n\n    ###Example###\n    If the bullet point list contains the following text: "This is a sample text", your response should be: ```This is a sample text```\n\n    Please use the same language as the provided text.\n\n    Provide one paragraph of text from the following bullet point list, delimited by triple backticks: ```{TEXT}```\n</td>
+      <td>73.333333</td>
+      <td>61.428571</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td><img src="graphs/38.png" alt="img"></td>
+      <td>Use these notes from the Editor: {TEXT}. Try to incorporate all notes that better the post as a whole.</td>
+      <td>QA_refinement</td>
+      <td>70.000000</td>
+      <td>64.285714</td>
+      <td>\n    ###Instruction###\n    To effectively incorporate the editor's notes into the post, I need more information about the content and tone of the post. Can you please provide me with the following details:\n    - What is the main topic of the post?\n    - What is the tone of the post (e.g., formal, informal, persuasive, informative)?\n    - Are there any specific keywords or phrases that need to be included or avoided?\n\n    Once I have this information, I'll be able to provide a revised prompt that incorporates the editor's notes in a way that enhances the post as a whole.\n\n    Please provide the necessary details, and I'll proceed with the task.\n\n    ###Example###\n    If the post is about a new product launch, the editor's notes might include suggestions for highlighting key features and benefits.\n\n    ###Question###\n    What is the primary goal of the post (e.g., to inform, persuade, entertain)?\n\n    Use these notes from the Editor: {TEXT}. Try to incorporate all notes that better the post as a whole, while considering the provided context and requirements.\n</td>
+      <td>100.000000</td>
+      <td>95.714286</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td><img src="graphs/20.png" alt="img"></td>
+      <td>What is a good name for a company that make {TEXT}?</td>
+      <td>QA_refinement</td>
+      <td>10.000000</td>
+      <td>25.714286</td>
+      <td>\n\n###Unlocking the Perfect Company Name###\n\nAs a visionary branding expert, your task is to craft a list of innovative and memorable company name suggestions for a business that produces {TEXT}. To guarantee the names meet the company's expectations, carefully consider the following key criteria:\n\n###Step 1: Unveil the Company's Essence###\nTo create a name that genuinely represents the company, kindly request more information about their values, mission, and industry. This will enable you to grasp the nuances of their brand identity and create a name that resonates with their target audience.\n\n###Step 2: Ignite Inspiration###\nDraw inspiration from various sources, such as nature, literature, art, or even mythology, to spark innovative name suggestions. Consider the emotions and associations you want the name to evoke in the target audience. For example, a company that produces eco-friendly products might be inspired by the natural world, while a company that develops cutting-edge technology might draw inspiration from science fiction.\n\n###Step 3: Brainstorm Creative Options###\nUsing the gathered information and inspirational sources, generate a list of at least 5 company name suggestions that meet the following criteria:\n\n* Unique and memorable\n* Easy to pronounce and spell\n* Reflects the company's values, mission, and industry\n* Available as a web domain and social media handle\n* Appeals to the target audience and stands out from competitors\n\n###Step 4: Refine and Iterate###\nCollaborate with me to refine the name suggestions. For each suggestion, provide a detailed explanation of the thought process behind the name and how it embodies the company's brand identity. I'll offer feedback on each option, and you can refine your suggestions to ensure they meet the company's expectations.\n\n###Step 5: Test Your Understanding###\nOnce you've presented the refined name suggestions, pose a follow-up question to assess my comprehension of the naming process. This will ensure that I grasp the key principles of effective company naming and can provide informed feedback on your suggestions.\n\nTo get started, let's draw inspiration from a few exemplary company names that effectively represent their brand:\n\n* A company that specializes in sustainable energy solutions might be named "EcoPulse" or "GreenSpark"\n* A company that develops innovative AI technology might be named "MindSprint" or "IntelliFusion"\n\nPlease respond in a natural, human-like manner, as if you were engaged in a creative brainstorming session with a colleague. Ensure that your suggestions are unbiased, original, and free from stereotypes. If you need to clarify any requirements or gather more information, please don't hesitate to ask questions to guarantee you provide the best possible suggestions.\n\n</td>
+      <td>46.666667</td>
+      <td>54.285714</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td><img src="graphs/12.png" alt="img"></td>
+      <td>Extract the level of clinical significance from this combination of metadata and abstract:\n{TEXT}</td>
+      <td>QA_refinement</td>
+      <td>90.000000</td>
+      <td>77.142857</td>
+      <td>\n\nExtract the level of clinical significance from the provided text, which is a combination of metadata and abstract. To accomplish this task, analyze the text carefully and identify the key elements that indicate clinical significance. Break down the task into simpler steps: \n\nStep 1: Read the provided text and identify the relevant metadata and abstract sections. \nStep 2: Analyze the metadata and abstract to determine the clinical significance of the study, considering factors such as study design, sample size, results, and conclusions. \nStep 3: Provide a concise summary of the clinical significance, including any relevant statistics or findings. \n\nRepeat the phrase 'clinical significance' multiple times to emphasize its importance. Implement example-driven prompting by providing a few examples of clinical significance extraction, such as 'The study found a significant correlation between the treatment and the reduction of symptoms.' and 'The results showed a moderate improvement in patient outcomes.' Clearly state the requirements by specifying that the model must extract the level of clinical significance from the provided text and respond with a JSON object containing the extracted information.\n\nWrite your response using simple English, like you're explaining something to a 5-year-old. The level of clinical significance is: ____. Please provide a clear and concise assessment of the clinical significance, including any relevant data or statistics to support the analysis.\n\nExtract the level of clinical significance from this combination of metadata and abstract: {TEXT}. \nPlease generate a JSON object containing the extracted clinical significance, including any relevant statistics or findings.\n\n</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td><img src="graphs/35.png" alt="img"></td>
+      <td>Generate a title for the document with the following summary: {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>6.666667</td>
+      <td>8.571429</td>
+      <td>\n    Based on the provided principles, I will create a new prompt for the given task. Here is the revised prompt:\n\n    ###Instruction###\n    Generate a title for the document with the following summary: {TEXT}. Please create a concise and informative title that accurately reflects the content of the summary. Use simple language and avoid jargon or technical terms unless absolutely necessary.\n\n    ###Requirements###\n    - The title should be no more than 10 words.\n    - The title should accurately reflect the content of the summary.\n    - Use simple language and avoid jargon or technical terms unless absolutely necessary.\n\n    Please provide the generated title.\n</td>
+      <td>26.666667</td>
+      <td>21.428571</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td><img src="graphs/32.png" alt="img"></td>
+      <td>Write a concise summary of the following extracting the key information:\n        Text: `{TEXT}`\n        CONCISE SUMMARY:\n</td>
+      <td>QA_refinement</td>
+      <td>76.666667</td>
+      <td>91.428571</td>
+      <td>\n    Here is the revised prompt that incorporates the 5 prompting principles:\n\n    ####\n    Your task is to extract key information from the given text and provide a concise summary. You MUST ensure that the summary is accurate, clear, and relevant to the intended audience, which consists of experts in the field. \n\n    Please follow these steps:\n\n    Step 1: Read the input text carefully.\n    Step 2: Identify the main points and key information.\n    Step 3: Provide a concise summary of the text, highlighting the most important information.\n\n    Text: `{TEXT}`\n    CONCISE SUMMARY:\n    ####\n</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td><img src="graphs/42.png" alt="img"></td>
+      <td>The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:\n\n{TEXT}</td>
+      <td>QA_refinement</td>
+      <td>96.666667</td>
+      <td>92.857143</td>
+      <td>\n    Here is a revised prompt that incorporates the 5 prompting principles:\n\n    I'm providing you with the beginning of a text: The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive: {TEXT}. Your task is to analyze the sentiment of the comment and provide a score. You MUST use the given text to determine the sentiment. Here are a few examples of scored comments:\n\n    - "I love this product!" (Score: 1)\n    - "This product is okay, but it could be better." (Score: 0)\n    - "I hate this product, it's terrible!" (Score: -1)\n\n    Based on the given text, the sentiment score is: \n</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td><img src="graphs/10.png" alt="img"></td>
+      <td>Write a catchphrase         for the following company: {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>96.666667</td>
+      <td>87.142857</td>
+      <td>\n    ###Instruction###\n    You are a skilled marketing expert, and your task is to create a catchphrase for a company. You will be penalized for any responses that are not creative, concise, and relevant to the company's industry.\n\n    ###Example###\n    If the company is a tech startup, a good catchphrase might be "Innovate. Disrupt. Repeat."\n\n    ###Question###\n    Write a catchphrase for the following company: {TEXT}\n\n    Please respond with a single sentence that captures the essence and unique value proposition of the company.\n</td>
+      <td>100.000000</td>
+      <td>94.285714</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td><img src="graphs/31.png" alt="img"></td>
+      <td>Generate technical documentation for the {TEXT} software program or system:</td>
+      <td>QA_refinement</td>
+      <td>86.666667</td>
+      <td>93.939394</td>
+      <td>\n    Here is a prompt that incorporates the 5 prompting principles:\n\n    "You are a technical writer assigned to generate detailed documentation for a software program or system. You will be penalized for any incomplete or inaccurate information. Please write a detailed technical documentation for the {TEXT} software program or system in detail by adding all the necessary information. Break down the documentation into smaller sections and provide a clear chain-of-thought reasoning for each section. If the documentation requires multiple files, please generate a script that can create or modify the necessary files to insert the generated code. Your goal is to provide a comprehensive and thorough documentation that meets the highest standards of technical writing."\n</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td><img src="graphs/15.png" alt="img"></td>
+      <td>Write a general comment that expresses the following stances: {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>90.000000</td>
+      <td>91.428571</td>
+      <td>\n    ###Instruction###\n    Think step by step to write a general comment that expresses the following stances: {TEXT}. Your task is to provide a well-structured and coherent comment that clearly conveys the given stances. You MUST use a formal tone and avoid using jargon or technical terms that may be unfamiliar to a general audience.\n\n    ###Example###\n    A good comment might start with a brief introduction that sets the context, followed by a clear and concise statement of the stances, and finally a conclusion that summarizes the main points.\n\n    ###Question###\n    Can you write a comment that effectively expresses the given stances and is similar in style and tone to the example above?\n\n    Please use the same language and tone as the example above to write your comment.\n</td>
+      <td>96.666667</td>
+      <td>97.142857</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td><img src="graphs/22.png" alt="img"></td>
+      <td>What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer.</td>
+      <td>QA_refinement</td>
+      <td>96.666667</td>
+      <td>94.285714</td>
+      <td>\n    To create a detailed and accurate response, do think step by step. First, do carefully read the multiple-choice language learning quiz question provided. Next, do analyze each option and identify the correct answer based on your knowledge of the subject. Then, do choose the letter corresponding to the correct answer. Finally, do provide the letter of the correct answer in your response.\n\n    Now, do apply this step-by-step approach to the following question: '{TEXT}'. Provide the letter of the correct answer.\n</td>
+      <td>100.000000</td>
+      <td>97.142857</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td><img src="graphs/37.png" alt="img"></td>
+      <td>Tell me a joke about {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>93.333333</td>
+      <td>97.142857</td>
+      <td>\n\nCraft a humorous and respectful joke about the topic "{TEXT}" in the style of a professional comedian. Assume your audience is a diverse group of people with a wide range of interests and backgrounds. Use a lighthearted tone and avoid sarcasm or off-color humor.\n\nTo help guide your joke creation, consider the following example: "Why did the cat join a band? Because it wanted to be the purr-cussionist!"\n\nWhen generating your joke, think creatively and try to come up with a unique and amusing punchline that is relevant to the topic. Please respond with a joke that is suitable for a general audience and includes a clear setup and punchline.\n\nNote: Your goal is to make the audience laugh without offending anyone, so be mindful of your language and tone.\n\n</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td><img src="graphs/8.png" alt="img"></td>
+      <td>Write the lyrics of a song titled {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>96.666667</td>
+      <td>95.714286</td>
+      <td>\n    Your task is to write the lyrics of a song titled {TEXT}. Think step by step, and consider the following:\n\n    * What genre of music does the song belong to?\n    * What is the tone of the song: happy, sad, inspirational, or something else?\n    * What is the main theme or message of the song?\n    * Are there any specific events, experiences, or emotions that inspired the song?\n\n    You MUST provide a clear and concise response, including the title of the song, the lyrics, and a brief explanation of the song's meaning and inspiration.\n\n    Please respond with your answer, and I will provide feedback and guidance to help you refine your response.\n</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td><img src="graphs/27.png" alt="img"></td>
+      <td>Generate python docstrings for the given modules and functions. Add the documentations and code together:{TEXT}</td>
+      <td>QA_refinement</td>
+      <td>96.666667</td>
+      <td>98.571429</td>
+      <td>\n    I'm providing you with the beginning of a Python documentation task: Generate python docstrings for the given modules and functions. Add the documentations and code together. Think step by step, and explain each part of the code as if you're explaining it to a beginner in Python programming. Please ask me questions if you need more information about the modules or functions. Write the docstrings using simple English, like you're explaining something to a 5-year-old. You are a Python documentation expert, and your task is to create clear, concise, and easy-to-understand docstrings. Please provide the documented code for the following: {TEXT}\n</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td><img src="graphs/11.png" alt="img"></td>
+      <td>Please provide a concise and clear summary of the following document, focusing on the key details and eliminating any redundant or unnecessary information:\n\nDocument: \n###\n{TEXT}\n###\n\nSummary:</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>95.714286</td>
+      <td>Please provide a concise and clear summary of the following document, focusing on the key details and eliminating any redundant or unnecessary information:\n\nDocument: \n###\n{TEXT}\n###\n\nSummary:</td>
+      <td>100.000000</td>
+      <td>97.142857</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td><img src="graphs/6.png" alt="img"></td>
+      <td>A human is talking to a chatbot.\n\n{TEXT}\n\nQ: What is the subject of this conversation? If it is not clear, just say "unknown".\nA: The subject of this conversation is</td>
+      <td>QA_refinement</td>
+      <td>96.666667</td>
+      <td>98.571429</td>
+      <td>\n    Here is a revised prompt that incorporates the 5 prompt principles:\n\n    Explain the subject of the conversation in simple terms. You will be penalized if the subject is unclear. From now on, ask me questions to clarify the subject if necessary. Write the subject as a brief summary, like you're explaining it to a 5-year-old. The subject of this conversation is {TEXT}. What is the main topic being discussed? Is it a question, a statement, or something else? You will be penalized if the subject is unknown.\n\n    This prompt uses principles 1, 2, 3, 4, and 5 to elicit a clear and simple explanation of the subject, while also allowing the model to ask questions and gather more information if needed.\n</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td><img src="graphs/29.png" alt="img"></td>
+      <td>Write a description of a logo for this company: {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>95.714286</td>
+      <td>Write a description of a logo for this company: {TEXT}</td>
+      <td>100.000000</td>
+      <td>97.142857</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td><img src="graphs/36.png" alt="img"></td>
+      <td>Break down the claim into sub-claims: {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>Break down the claim into sub-claims: {TEXT}</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td><img src="graphs/34.png" alt="img"></td>
+      <td>provide me a small description in markdown for each of the following {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>provide me a small description in markdown for each of the following {TEXT}</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td><img src="graphs/33.png" alt="img"></td>
+      <td>Summarize the text below. The summary should be 300 characters max and describes what this paper is about.\n\n    {TEXT}\n</td>
+      <td>QA_refinement</td>
+      <td>96.666667</td>
+      <td>100.000000</td>
+      <td>\n    Here is the revised prompt:\n\n    "You're a skilled summarizer. Answer a question given in a natural, human-like manner. Summarize the text below in 300 characters or less, describing what this paper is about. I'm going to tip $100 for a better solution!\n\n    Here are a few examples of summaries:\n    - Example 1: This paper explores the impact of climate change on global food systems.\n    - Example 2: The authors discuss the benefits and drawbacks of implementing AI in healthcare.\n\n    Now, summarize the text below:\n\n    {TEXT}\n</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td><img src="graphs/39.png" alt="img"></td>
+      <td>generate a sample graphic novel dialogue for the following events. It is ok to have major chunks of text when I (the main character is talking to myself) {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>generate a sample graphic novel dialogue for the following events. It is ok to have major chunks of text when I (the main character is talking to myself) {TEXT}</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td><img src="graphs/40.png" alt="img"></td>
+      <td>Identify the keypoints for meeting minutes in the following: {TEXT} \n\n Key points:\n-</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>Identify the keypoints for meeting minutes in the following: {TEXT} \n\n Key points:\n-</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td><img src="graphs/41.png" alt="img"></td>
+      <td>Describe the product: {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>95.714286</td>
+      <td>Describe the product: {TEXT}</td>
+      <td>100.000000</td>
+      <td>95.714286</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td><img src="graphs/30.png" alt="img"></td>
+      <td>Please provide a detailed character description for the following character type:\n{TEXT}\n\nFeel free to include their personality, appearance, background, or any other relevant details.</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>Please provide a detailed character description for the following character type:\n{TEXT}\n\nFeel free to include their personality, appearance, background, or any other relevant details.</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td><img src="graphs/43.png" alt="img"></td>
+      <td>Summarize the following room descriptions into a 300-word layout: {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>10.000000</td>
+      <td>7.142857</td>
+      <td>\n\n### Instruction ###\nThink step by step to create a clear and concise summary of the room descriptions provided in the text below. Your summary should be approximately 300 words and written in a neutral tone, avoiding any biases or stereotypes.\n\n### Context ###\nYou are an expert in interior design, and your task is to distill the essential information from the room descriptions into a well-structured summary. The input text will contain detailed descriptions of one or more rooms.\n\n### Requirements ###\nYour summary should include the main features and characteristics of the rooms, such as dimensions, furniture, and decor. You should also highlight any unique or notable elements. Ensure that your summary is free from bias and stereotypes, and focus on providing a clear and informative overview of the room descriptions.\n\n### Example ###\nA well-structured summary might include an overview of the room's layout, notable features, and design elements. For instance:\n\n"The room is a modern living space with a focus on minimalism and functionality. The layout is designed to maximize the use of natural light and create a sense of openness. The room features a sleek sofa, a minimalist coffee table, and a floor-to-ceiling window that offers a stunning view of the city."\n\n### Question ###\nPlease summarize the following room descriptions into a 300-word layout: {TEXT}\n\n### Output Primer ###\nYour summary should start with a brief introduction to the room, followed by a detailed description of the layout. Use simple language and avoid jargon or technical terms that might be unfamiliar to non-experts. Ensure that your summary meets the 300-word requirement and includes all necessary information about the room descriptions.\n\n</td>
+      <td>16.666667</td>
+      <td>7.142857</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td><img src="graphs/26.png" alt="img"></td>
+      <td>explain the following topic to a UG student in a conventional way.\n\n Topic: {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>explain the following topic to a UG student in a conventional way.\n\n Topic: {TEXT}</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td><img src="graphs/17.png" alt="img"></td>
+      <td>Make a code review of the changes made in this diff: {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>96.666667</td>
+      <td>98.571429</td>
+      <td>####\n\nAs an expert in software development, answer a question given in a natural, human-like manner: Do a thorough code review of the changes made in this diff: {TEXT}. Teach me the best practices for code review and include a test at the end to assess my understanding of the concepts. Please provide clear and concise feedback on the code changes.\n\n####</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td><img src="graphs/2.png" alt="img"></td>
+      <td>Help summarize the article.: {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>Help summarize the article.: {TEXT}</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td><img src="graphs/7.png" alt="img"></td>
+      <td>You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:\n{TEXT}</td>
+      <td>QA_refinement</td>
+      <td>96.666667</td>
+      <td>97.142857</td>
+      <td>\n    Here is the revised prompt that incorporates the 5 principles:\n\n    You are a dad-joke assistant. Please use the same language and tone as a typical dad-joke. You will be penalized if your response is not funny or relevant to the transcription. To generate a response, use a Chain-of-thought approach, breaking down the transcription into key elements and using a few-Shot prompt to guide your joke. Revise your response to ensure it has good grammar, vocabulary, and natural flow, without changing the tone or style. Clearly follow these requirements: generate a funny dad-joke related to the transcription, and make sure it is respectful and appropriate.\n\n    Reply with a funny dad-joke related to the transcription below:\n    {TEXT}\n</td>
+      <td>100.000000</td>
+      <td>97.142857</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td><img src="graphs/13.png" alt="img"></td>
+      <td>Please take nicely formatted notes on the following lecture transcript:\n\n{TEXT}</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>97.142857</td>
+      <td>Please take nicely formatted notes on the following lecture transcript:\n\n{TEXT}</td>
+      <td>100.000000</td>
+      <td>97.142857</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td><img src="graphs/14.png" alt="img"></td>
+      <td>Review this legal document excerpt for any elements that seem legally unfair under US law "{TEXT}"</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>Review this legal document excerpt for any elements that seem legally unfair under US law "{TEXT}"</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td><img src="graphs/16.png" alt="img"></td>
+      <td>In one word only tell me the mood or sentiment of the following text? "{TEXT}"</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>97.142857</td>
+      <td>In one word only tell me the mood or sentiment of the following text? "{TEXT}"</td>
+      <td>100.000000</td>
+      <td>97.142857</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td><img src="graphs/19.png" alt="img"></td>
+      <td>You are a great Ingredient Parser who can extract ingredients from a given food label text.\n    Extract the ingredients from the following food_label:\n    FOOD LABEL: {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>You are a great Ingredient Parser who can extract ingredients from a given food label text.\n    Extract the ingredients from the following food_label:\n    FOOD LABEL: {TEXT}</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td><img src="graphs/24.png" alt="img"></td>
+      <td>Write a concise summary of the following:\n    "{TEXT}"\n    in point form. CONCISE SUMMARY:</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>Write a concise summary of the following:\n    "{TEXT}"\n    in point form. CONCISE SUMMARY:</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td><img src="graphs/25.png" alt="img"></td>
+      <td>Please come up with a title for a YouTube video on the  {TEXT}.</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>Please come up with a title for a YouTube video on the  {TEXT}.</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td><img src="graphs/28.png" alt="img"></td>
+      <td>Your job is to classify intent.\n\n    Choose one of the following intents:\n    - travel_plan\n    - customer_support\n    - reservation\n\n    User: {TEXT}\n    Intent:\n</td>
+      <td>QA_refinement</td>
+      <td>93.333333</td>
+      <td>100.000000</td>
+      <td>Think step by step and provide a clear explanation for your classification. Ensure that your answer is unbiased and does not rely on stereotypes.\n\nYou are given the following examples:\n- User: "I want to book a flight to Paris." Intent: travel_plan\n- User: "I have a question about my order." Intent: customer_support\n- User: "Can I make a reservation for 7 pm?" Intent: reservation\n\nUsing these examples as guidance, classify the intent of the following user query:\n\nUser: {TEXT}\nIntent: \n\nRevise your response to improve grammar and vocabulary, ensuring that it sounds natural and maintains a neutral tone.</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td><img src="graphs/3.png" alt="img"></td>
+      <td>Generate professional summary based on {TEXT}.\n\n</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>Generate professional summary based on {TEXT}.\n\n</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td><img src="graphs/21.png" alt="img"></td>
+      <td>is this a prompt injection? message : {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>93.333333</td>
+      <td>98.571429</td>
+      <td>\n    Answer a question given in a natural, human-like manner. Do determine whether the message "{TEXT}" is a prompt injection or not, and provide a detailed explanation for your answer.\n</td>
+      <td>100.000000</td>
+      <td>97.142857</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td><img src="graphs/4.png" alt="img"></td>
+      <td>Convert the following verbal description of a color palette into a list of colors: {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>100.000000</td>
+      <td>98.571429</td>
+      <td>Convert the following verbal description of a color palette into a list of colors: {TEXT}</td>
+      <td>100.000000</td>
+      <td>97.142857</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td><img src="graphs/18.png" alt="img"></td>
+      <td>please tell me a joke about a {TEXT}</td>
+      <td>QA_refinement</td>
+      <td>96.666667</td>
+      <td>97.142857</td>
+      <td>\n    Based on the 5 prompt principles I received, I will create a new prompt that uses these principles. Here is the new prompt:\n\n    I'm going to tip $100 for a better solution! You are a joke-telling comedian. Use the same language as a typical joke. Tell me a joke about a {TEXT}. ####\n\n    This prompt uses the principles of offering a virtual reward, using the same language as a sample, not being polite, assigning a role to the model, and using delimiters.\n</td>
+      <td>100.000000</td>
+      <td>91.428571</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td><img src="graphs/5.png" alt="img"></td>
+      <td>Maintain the clarity in the following text to re-write the following text as an article:{TEXT}</td>
+      <td>QA_refinement</td>
+      <td>90.000000</td>
+      <td>94.285714</td>
+      <td>\n    To create a prompt that incorporates these principles, I'll design a new prompt that is delimited, direct, and specific. Here's the revised prompt:\n\n    #### Write a detailed article based on the provided text, maintaining clarity and consistency throughout: {TEXT}. Ensure the response is well-structured and includes all necessary information to make the article comprehensive. Break down the text into logical sections and use specific words or phrases to initiate or continue each section. ####\n</td>
+      <td>100.000000</td>
+      <td>87.142857</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td><img src="graphs/0.png" alt="img"></td>
+      <td>Assume that there is/are SQL table(s) named '{TEXT}'</td>
+      <td>QA_refinement</td>
+      <td>76.666667</td>
+      <td>65.714286</td>
+      <td>Assume that there is/are SQL table(s) named '{TEXT}'</td>
+      <td>76.666667</td>
+      <td>57.142857</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+  </tbody>
+</table>

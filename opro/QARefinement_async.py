@@ -574,7 +574,7 @@ async def qarefinement_opro(prompt, cache_dir="0", TRAINING_SAMPLE_SIZE=30, TEST
     
     # If dir doesn't exist, create it
     if not os.path.exists(PWD):
-        os.mkdir(cache_dir)
+        os.mkdir(PWD)
         
     # Open the file and set sys.stdout to the file object
     sys.stdout = open(f'{PWD}logs.txt', 'w')
