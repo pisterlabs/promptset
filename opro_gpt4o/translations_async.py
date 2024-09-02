@@ -118,7 +118,7 @@ def check_and_reformat(prompt):
     """
     pattern1 = r"{[^}]*}"
     pattern2 = "PLACEHOLDER"
-    matches1 = re.findall(pattern1, prompt.upper())
+    matches1 = re.findall(pattern1, prompt)
     condition1 = len(matches1) == 1 
     condition2 = prompt.count(pattern2) == 1
     
