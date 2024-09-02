@@ -35,7 +35,7 @@ async def llm_coroutine(prompt, temperature, max_tokens, model, respond_json):
                 ],
                 max_tokens=max_tokens,
                 temperature=temperature,
-                response_format={"type": "json"} if respond_json else None,
+                response_format={ "type": "json_object" } if respond_json else None,
             )
             break
         except APIConnectionError as e:

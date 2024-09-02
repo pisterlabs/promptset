@@ -95,7 +95,7 @@ Take a deep breath and work on this problem step-by-step. Return only the JSON o
             prompts.append(prompt)
 
         temperatures = [i/len(prompts) for i in range(len(prompts), 0, -1)]  # Varying temperature to diversity responses (decreasing order so that temp is high when polling)
-        responses = await run_llm_coroutine(prompts, temperature=temperatures, model="gpt-4o", msg="Generating Seed Prompts - 20 calls")
+        responses = await run_llm_coroutine(prompts, temperature=temperatures, respond_json=True, model="gpt-4o", msg="Generating Seed Prompts - 20 calls")
         for res in responses:
             try:
                 new_prompt = eval(res)["step2"]
@@ -104,8 +104,8 @@ Take a deep breath and work on this problem step-by-step. Return only the JSON o
                 new_prompts.append(new_prompt)
                 pbar.update(1)
             except Exception as e:
-                # print(e)
-                # print(res)
+                print(f"Error: {e}")
+                print(f"Response: {res}")
                 continue
     pbar.close()
     return new_prompts[:request_count]
@@ -117,7 +117,7 @@ def check_and_reformat(prompt):
     """
     pattern1 = r"{[^}]*}"
     pattern2 = "PLACEHOLDER"
-    matches1 = re.findall(pattern1, prompt.upper())
+    matches1 = re.findall(pattern1, prompt)
     condition1 = len(matches1) == 1 
     condition2 = prompt.count(pattern2) == 1
     
