@@ -94,7 +94,8 @@ Take a deep breath and work on this problem step-by-step. Return only the JSON o
             )
             prompts.append(prompt)
 
-        responses = await run_llm_coroutine(prompts, temperature=1.0, model="llama3-70b", msg="Generating Seed Prompts - 20 calls")
+        temperatures = [i/len(prompts) for i in range(len(prompts), 0, -1)]  # Varying temperature to diversity responses (decreasing order so that temp is high when polling)
+        responses = await run_llm_coroutine(prompts, temperature=temperatures, model="llama3.1-70b", msg="Generating Seed Prompts - 20 calls")
         for res in responses:
             try:
                 new_prompt = eval(res)["step2"]
@@ -201,7 +202,8 @@ Ensure that the text is delimited by <BEGIN_TEXT> and <END_TEXT> and the respons
             print(f"Attempt {attempt_count} made.")
             random_principles = [random.choice(data_generation_principles) for _ in range(request_count)]
             data_gen_prompts = [SYNTH_DATA_GEN_PROMPT.format(CHOSEN_PROMPT=CHOSEN_PROMPT, prompt_guide=random_principles[i]) for i in range(request_count)]
-            response = await run_llm_coroutine(data_gen_prompts, temperature=1.2, model="llama3-70b", msg="Generating Synthetic Data - 100 calls")
+            temperatures = [(i/len(data_gen_prompts)) * 1.2 for i in range(len(data_gen_prompts), 0, -1)]  # Varying temperature to diversity responses (decreasing order so that temp is high when polling)
+            response = await run_llm_coroutine(data_gen_prompts, temperature=temperatures, model="llama3.1-70b", msg="Generating Synthetic Data - 100 calls")
             for i, res in enumerate(response):
                 print(res)
                 try:
@@ -259,7 +261,7 @@ Generate only the text. Do not include the scores. Delimit the your suggested te
     new_prompts = []
     pbar = tqdm(total=request_count, desc="Optimizing")
     while len(new_prompts) < request_count:
-        responses = await run_llm_coroutine([prompt for _ in range(request_count)], temperature=1.0, model="llama3-70b", msg="Optimizing - 20 calls")
+        responses = await run_llm_coroutine([prompt for _ in range(request_count)], temperature=1.0, model="llama3.1-70b", msg="Optimizing - 20 calls")
         for res in responses:
             try:
                 match = re.search(r'<BEGIN_ANSWER>(.*?)</END_ANSWER>', res, re.DOTALL)
@@ -363,7 +365,7 @@ Generate only the text. Do not include the scores. Delimit the your suggested te
 #         for i in range(len(generated_response)):
 #             scoring_prompt = scoring_prompt_template.format(prompt=prompt, example_response=testing_sample[i]["response"], actual_response=generated_response[i])
 #             scoring_prompts.append(scoring_prompt)
-#         scoring_responses = await run_llm_coroutine(scoring_prompts, temperature=0.0, max_tokens=2, model="llama3-70b")
+#         scoring_responses = await run_llm_coroutine(scoring_prompts, temperature=0.0, max_tokens=2, model="llama3.1-70b")
         
 #         # Prompt the LLM to rescore for responses with improper formatting
 #         scores = []
@@ -385,7 +387,7 @@ Generate only the text. Do not include the scores. Delimit the your suggested te
 #                 else:
 #                     try_again_prompts.append(scoring_prompts[i])
                     
-#             scoring_responses = await run_llm_coroutine(try_again_prompts, temperature=0.0, max_tokens=2, model="llama3-70b")
+#             scoring_responses = await run_llm_coroutine(try_again_prompts, temperature=0.0, max_tokens=2, model="llama3.1-70b")
 
 #         assert (len(scores) + len(try_again_prompts)) == len(generated_response)
 #         accuracy = sum(scores)
@@ -407,7 +409,7 @@ Use the variable name output for the output of the prompt.
 ## Example:
 <BEGIN_PROMPT> 'what is a fruit of color: {{TEXT}}. Return the name of the fruit and nothing else:' <END_PROMPT>
 <BEGIN_EXAMPLE_INPUT> {{"text": "yellow", "output": "banana"}} <END_EXAMPLE_INPUT>
-<BEGIN_CRITERIA> Is a ${{output}} this color: ${{text}}? Answer yes or no only. <END_CRITERIA>
+<BEGIN_CRITERIA> Is a "{{output}}" this color: "{{text}}"? Answer yes or no only. <END_CRITERIA>
 
 ## Query:
 <BEGIN_PROMPT> {prompt} <END_PROMPT>
@@ -417,7 +419,7 @@ Use the variable name output for the output of the prompt.
     for i in range(10):
         try:
             # Generate Scoring Prompt
-            res = await run_llm_coroutine([prompt_template], model="llama3-70b", temperature=1.0)
+            res = await run_llm_coroutine([prompt_template], model="llama3.1-70b", temperature=1.0)
             res = res[0]
 
             # Extract Criteria
@@ -458,9 +460,9 @@ async def score(prompts, testing_sample, scoring_prompt):
     for prompt in tqdm(prompts, desc="Scoring"):
         accuracy = 0
         prompt_interpolated = [prompt.format(TEXT=data_pair["text"]) for data_pair in testing_sample]
-        generated_response = await run_llm_coroutine(prompt_interpolated, temperature=0.0, msg="Scoring - 30 calls mostly")
+        generated_response = await run_llm_coroutine(prompt_interpolated, temperature=0.0, model="llama3.1-8b", msg="Scoring - 30 calls mostly")
         scoring_prompt_interpolated = [scoring_prompt.format(output=generated_response[i], text=data_pair["text"]) for i, data_pair in enumerate(testing_sample)]
-        prompt_scores = await run_llm_coroutine(scoring_prompt_interpolated, temperature=0.0, model="llama3-70b", max_tokens=5, msg="Scoring - 30 calls mostly")
+        prompt_scores = await run_llm_coroutine(scoring_prompt_interpolated, temperature=0.0, model="llama3.1-70b", max_tokens=5, msg="Scoring - 30 calls mostly")
         print(prompt_scores)
         assert len(generated_response) == len(testing_sample) == len(scoring_prompt_interpolated)
         for i in range(len(generated_response)):
@@ -572,7 +574,7 @@ async def qarefinement_opro(prompt, cache_dir="0", TRAINING_SAMPLE_SIZE=30, TEST
     
     # If dir doesn't exist, create it
     if not os.path.exists(PWD):
-        os.mkdir(cache_dir)
+        os.mkdir(PWD)
         
     # Open the file and set sys.stdout to the file object
     sys.stdout = open(f'{PWD}logs.txt', 'w')

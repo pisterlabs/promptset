@@ -1,0 +1,547 @@
+Attempt 1 made.
+<BEGIN_TEXT> I'd like to book a table for four at your restaurant this Friday at 8 PM. <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a flight to Paris for my honeymoon, but I need to make sure it aligns with our hotel reservation. Can you help me figure out the best itinerary? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm looking to book a hotel room for three nights in downtown New York City for an upcoming conference. Can you recommend any hotels and provide a price quote? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> Hi, I'm trying to book a flight to New York for a conference next month, but I'm not sure if I should book it through your website or a third-party service. Can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm planning a trip to London to visit the British Museum and watch the Changing of the Guard at Buckingham Palace, can you recommend the best time of year to go? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm having trouble finding my flight itinerary for my trip to Paris next month. Can you help me locate it? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+<BEGIN_TEXT> Konnichiwa, I am planning a trip to Tokyo from New York and would like to know the best flights and accommodation options available for the Cherry Blossom festival. <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+Note: In this example, the user is using a mix of Japanese and English phrases, which is common in cross-cultural interactions. The intent classification is travel_plan, as the user is inquiring about flights and accommodation options for a specific event.
+<BEGIN_TEXT> I'd like to book a room with a sea view for my honeymoon in Maui, and can you also recommend some romantic activities for us? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a table for 5 people at your restaurant for 8 PM on Friday. Can you please let me know if that's available? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a flight to Paris for my honeymoon, but I'm having trouble finding the right dates on the website. Can someone help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a table for two at your restaurant next Saturday at 8 PM, and can you also recommend a nearby hotel for us to stay overnight? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a flight from New York to Los Angeles for tomorrow. Can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to find the cheapest flights from New York to Los Angeles for a trip next month, but I'm not sure which airline to choose. Can you help me compare prices? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a table for 5 people at 8pm on Friday, but the website says it's fully booked. Can I get help with this? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+
+In this example, the user is trying to make a reservation, but is facing an issue with the website. They are seeking assistance, which falls under the customer_support intent. The response requires the ability to understand the context of the situation and the user's goal, as well as the ability to recognize that the issue is not with the reservation itself, but rather with the process of making the reservation.
+<BEGIN_TEXT> I'm trying to book a hotel room in Tokyo for the cherry blossom season, but I need help with the cancellation policy. Can someone explain it to me? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+<BEGIN_TEXT> I'm looking to book a table for two at your restaurant tonight, can you tell me what time slots are available? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm planning a trip to Paris in June and I need help with booking flights and hotels. Can you assist me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm planning a trip to Japan and I need help with booking my flights and accommodations. Can you assist me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm looking for flights from New York to Los Angeles for a business trip next month. Can you recommend the best airline and booking options? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm looking to book a flight from New York to London for my upcoming vacation. Can you help me find the cheapest option for my travel dates? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm planning a trip to Japan and I want to know the best time to visit Tokyo for cherry blossom viewing. Can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a romantic getaway to Bora Bora for my anniversary, can you help me find the best overwater bungalow and arrange for a sunset cruise? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a flight from New York to Los Angeles for a business trip, but the website is not letting me proceed with the payment. Can someone assist me with this issue? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a flight to Paris for my honeymoon, can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm planning a trip to Paris in June and I'd like to know the best way to get around the city without renting a car. Are there any affordable public transportation options available? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a flight from New York to Los Angeles for tomorrow and also reserve a hotel room for two nights. Can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a table for 7 people at your restaurant on the night of the upcoming lunar eclipse, and also ask if you have any special viewing packages or events planned? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm looking for a hotel near the Tokyo Tower for my upcoming trip to Japan, can you help me find one? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm looking for information on flights from New York to Paris for a business trip in two weeks. Can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a table for 7 people at 8 PM tomorrow night, but I also need to know if you have any vegan options and if I can request a specific wine. Also, do you have any rooms available for the night after dinner? We're planning a bit of a celebration. <END_TEXT>
+<BEGIN_RESPONSE> reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to find a flight to Paris for a business trip, but I'm having trouble finding a suitable departure time. Can you help me explore some options? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+In this example, the text interpolated into the prompt reflects a scenario where the user is seeking assistance with planning a business trip to Paris. The expected response is to classify the intent as "travel_plan" because the user is explicitly asking for help with finding a flight.
+
+From a philosophical perspective, this interaction raises questions about the nature of agency and autonomy in human-computer interactions. The user is seeking assistance with a specific task, but the system's ability to classify their intent relies on the user's ability to articulate their needs in a way that the system can understand. This highlights the tension between the user's autonomy and the system's constraints, as the system can only respond in ways that are predetermined by its programming.
+
+Theoretically, this interaction can be understood through the lens of speech act theory, which posits that language is not just a matter of conveying information, but also of performing actions. In this case, the user's utterance is a request for help, which is a specific type of speech act that is directed towards the system. The system's response, in turn, is a form of institutional talk, which is shaped by the norms and conventions of the system's design.
+<BEGIN_TEXT> I'm planning a trip to Paris and I'd like to know the best time to visit the Eiffel Tower. <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a flight from New York to Los Angeles for tomorrow. Can you also arrange for a hotel reservation near the airport? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a flight from New York to Los Angeles for tomorrow, what are my options? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a table for 7 people at your restaurant on Friday night, but the online reservation system isn't working. Can you help me make a reservation over the phone? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a flight to Hawaii, but the website keeps telling me my cat is not a valid travel companion. Can you help me out? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a hotel room for two nights in New York City, can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to figure out how to get to the new restaurant in town, can you help me with directions? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm looking to book a flight from New York to Los Angeles for a business trip next week, but I'm not sure which airline to choose. Can you help me compare prices and find the best option? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a flight from New York to Los Angeles for my vacation next month, but I'm having trouble finding the best deals on your website. Can you help me? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a table for two at 8pm on Friday, please. <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a flight to New York for a business meeting next week, but I'm having trouble finding the right dates on the website. Can you help me? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+<BEGIN_TEXT> I'm planning a trip to Paris and I need help with booking a flight and hotel. Can you assist me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a table for 7 people at 8 PM, but I also want to know if there's a hotel nearby that offers a shuttle service to the restaurant. Can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+
+In this example, I've challenged the assumption that the user's intent can be neatly categorized into one of the three options. The user's request combines elements of "reservation" (booking a table) and "travel_plan" (inquiring about hotel and shuttle service), highlighting the complexity of real-world user queries. The response "travel_plan" acknowledges the user's primary concern with planning their evening, but a more nuanced approach might consider the user's intent as a combination of both "reservation" and "travel_plan".
+<BEGIN_TEXT> I'm trying to book a flight to Paris for my honeymoon, but I'm having trouble finding the right dates on the website. Can you help me? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a hotel room for my upcoming trip to Paris, but I'm having trouble finding availability for the dates I need. Can you help me find a room or recommend an alternative? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+
+This text and response pair delves deep into the core of the prompt by highlighting the nuances of customer support in the context of travel planning. The user is not simply asking to book a room (which would be a reservation intent), but rather is seeking assistance with a specific problem they're encountering. This requires a customer support response that addresses their issue and provides a solution. The text also implies that the user has already attempted to find a room, but is now seeking human assistance, which further supports the customer_support intent.
+<BEGIN_TEXT> I'd like to book a table for two at your restaurant on Friday at 8pm. Can you let me know if that's available? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a table for two at your restaurant on Saturday at 8 PM. <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> Hi, I'm looking for help with my upcoming flight to New York. I think I booked it for the wrong date, can you assist me in changing it? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a flight from New York to Los Angeles for a business trip next week, but I'm not sure which airline to choose. Can you help me compare prices and find the best option? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm planning a trip to Japan and I want to visit Tokyo, Kyoto, and Osaka. Can you help me create an itinerary for 7 days? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a table for two at your restaurant on Friday at 8 PM. Can you also let me know if you have any vegetarian options? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a table for 4 people at 8 PM tonight at your restaurant. Can you let me know if that's possible? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a flight from New York to Los Angeles for tomorrow. Can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm planning a surprise birthday trip to Paris for my sister and I need help booking a flight and hotel room for four nights in June. Can you recommend some options? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm planning a trip to Japan and I need help with booking a hotel in Tokyo and finding the best restaurants in the city. Can you assist me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm having trouble with my flight booking. The website says my payment was declined, but I know I have enough funds in my account. Can someone help me resolve this issue? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a flight to Hawaii, but my cat keeps deleting my browser history. Can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a table for two at your restaurant on Saturday at 8 PM. Can you also let me know if you have any vegetarian options? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm looking to book a hotel room for my upcoming business trip to New York, can you recommend any good options near Times Square? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm planning a trip to Japan and I'd love to visit the cherry blossom festival in Tokyo, can you help me find the best flights and accommodations for that time of year? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm looking for a hotel room with a sea view in Miami for my honeymoon next month. Can you help me find a good deal? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a table for two at your restaurant on Friday at 8pm. Can you let me know if that's available? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I'm planning a trip to Paris and I'd like to book a hotel room with a view of the Eiffel Tower. Can you recommend any good options? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a flight to Paris for my anniversary, but I'm having trouble finding the right dates on the website. Can you help me figure out what's going on? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+
+In this example, I've applied a philosophical framework of "pragmatic intentionality" to the prompt. This framework, inspired by the philosophical ideas of Martin Heidegger, suggests that human intentionality is not just a matter of abstract mental states, but is deeply embedded in practical activities and contexts.
+
+In this case, the user's text reveals a practical problem (trouble finding the right dates on the website) that is driving their intention to seek help. The user's language and tone also convey a sense of frustration and uncertainty, which further supports the classification of their intent as "customer_support". The response, therefore, is not just a matter of categorizing the user's intent, but also of understanding the underlying practical and emotional context that is shaping their interaction with the system.
+<BEGIN_TEXT> I'm trying to book a flight from New York to Los Angeles for a business trip next week, but I'm having trouble finding a suitable time slot. Can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a table for two at your restaurant on Friday at 8pm. Can you also let me know if you have any vegetarian options? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a table for two at your restaurant on Friday at 8pm. Can you also let me know if you have any vegetarian options? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I'm trying to book a flight to Paris for my honeymoon, but I'm not sure which airline to choose. Can you help me find the best option? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a table for 7 people at your restaurant for my birthday, but I'm having trouble with the online reservation system. Can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+<BEGIN_TEXT> I'm planning a trip to Paris in June and I'd like to know the best way to get from the airport to my hotel. Can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a flight, but the website is not working. Can you help me with that? I was planning to travel next month, but I haven't been able to make a reservation yet. <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+
+This text and response pair presents a contrarian view on the prompt by highlighting a potential flaw in the intent classification system. The user's text mentions both "book a flight" (which could be classified as travel_plan) and "make a reservation" (which could be classified as reservation), but the primary intent is actually customer_support, as the user is seeking help with a technical issue. This example highlights the importance of considering the context and nuances of the user's text when classifying intent.
+<BEGIN_TEXT> I'm trying to book a flight to Paris for my honeymoon, but I'm not sure which airline to choose. Can you help me compare prices and find the best option? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a table for 4 people at 8 PM on Friday at your restaurant. Can you please let me know if that's available? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a table for 5 people at 8 PM on Friday at your restaurant. Can you please let me know if that's available? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a table for two at your restaurant on Saturday at 8 PM. Can you also let me know if you have any vegetarian options? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I'd like to book a table for 4 people at 8 PM on Friday at your restaurant. Can you also let me know if you have any vegetarian options? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm planning a trip to Tokyo for the cherry blossom festival and I need help finding the best flights from New York. Can you also recommend some good hotels near the Shinjuku Gyoen National Garden? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm planning a trip to Paris and I need help with booking a hotel and flights. Can you assist me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a flight, but the website is not working properly. Can you help me with that? I was planning to travel next month, but I haven't been able to make a reservation yet. <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a table for two at 8pm on Friday at your restaurant. Can you let me know if that's available? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a flight to Paris for my anniversary, but I'm having trouble finding the right dates. Can you help me figure out the best time to go and also recommend some romantic hotels? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+In this response, I've applied a philosophical framework of "care ethics" which emphasizes the importance of empathy and care in human relationships. The user's request for help with booking a flight and finding romantic hotels for their anniversary suggests that they are seeking a personalized and caring experience. By classifying the intent as "travel_plan", the assistant is acknowledging the user's need for guidance and support in planning a special trip, and is poised to provide a caring and empathetic response that prioritizes the user's emotional and relational needs.
+
+The theoretical underpinning of this response is rooted in the concept of "relational autonomy", which suggests that human beings are fundamentally relational and that our autonomy is shaped by our relationships with others. In this case, the user's autonomy is being supported and enhanced by the assistant's caring and empathetic response, which acknowledges and respects the user's emotional and relational needs.
+<BEGIN_TEXT> I'd like to book a table for two at your restaurant on Friday at 8 PM. Can you also let me know if you have any vegetarian options? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I'm trying to book a table for 7 people at your restaurant for my birthday dinner next Saturday at 8pm. Can you let me know if that's possible? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a flight from New York to Los Angeles for a business trip, but I'm having trouble finding the right dates. Can you help me find a suitable flight and also recommend some hotels near the airport? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm planning a surprise birthday trip to Paris for my sister and I need help booking a flight and hotel. Can you recommend any good options for a 4-day stay? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a table for 7 people at your restaurant on Friday at 8 PM, but I'm having trouble with the online reservation system. Can someone please assist me? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a flight to Hawaii, but the website keeps telling me I'm already on island time and don't need to leave. Can you help me figure out what's going on? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a flight to Paris for my honeymoon, but I'm not sure which airline to choose. Can you help me compare prices and find the best option? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I'd like to book a table for 5 people at your restaurant on Friday at 8 PM. Can you also let me know if you have any vegetarian options? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a flight to Paris for my honeymoon, but I'm having trouble finding the right dates. Can you help me figure out the best time to go? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a hotel room for my upcoming trip to Paris, but the website is not accepting my credit card. Can someone help me with this issue? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a flight, but the website is not working properly. Can someone help me with this issue? I've already tried clearing my cookies and using a different browser, but nothing seems to be working. <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a table for two at your restaurant on Friday at 8 PM. Can you also let me know if you have any vegetarian options? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I'm trying to book a flight, but the website is not working properly. Can someone help me with this issue? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+
+In this example, the text challenges the assumption that the user's intent is solely related to booking a flight (travel_plan) or making a reservation. Instead, the user is experiencing technical difficulties and requires assistance, which falls under customer_support. This response highlights the importance of considering the context and potential issues that may arise during the user's interaction.
+<BEGIN_TEXT> I'm trying to book a table for 7 people at your restaurant on Friday at 8 PM, but I'm having trouble with the online reservation system. Can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+<BEGIN_TEXT> I'm planning a trip to Tokyo for the cherry blossom festival and I need help finding the best flights from New York. Can you also recommend some good hotels near the Shinjuku Gyoen National Garden? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I'm trying to book a table for 7 people at your restaurant for my birthday dinner next Saturday, but I'm having trouble with the online reservation system. Can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a flight to Paris for my honeymoon, but I'm not sure which airline to choose. Can you help me compare prices and find the best option? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I'm trying to book a table for 7 people at your restaurant on Friday at 8 PM, but I'm having trouble with the online reservation system. Can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+Data already exists in the set.
+Attempt 2 made.
+<BEGIN_TEXT> I'm planning a trip to Paris and want to know the best time to visit the Eiffel Tower <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm looking to book a hotel room for my trip to Paris next month. Can you help me find a good deal? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a table for 5 people at your restaurant for this Friday at 8pm. <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm looking for a hotel near the airport for my layover next week. Can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm looking to book a flight from New York to London in July, but I have a layover in Paris. Can you tell me the best way to get to my final destination without missing my connection? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a hotel room for three nights in downtown Los Angeles. Can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm having trouble finding the best way to get to the new restaurant downtown. I've tried looking at maps, but I'm still not sure which route is most efficient. Can you help me figure out the best way to get there? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a table for 7 people at the Eiffel Tower's Michelin-starred restaurant on February 14th, but I'm having trouble finding availability on your website. Can you help me figure out what's going on and maybe make a reservation for me? I'm planning to propose to my partner and I really want it to be special. <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a flight, but your website is not working. Can you help me with that? I need to travel to New York next week. <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a flight to Tokyo for the cherry blossom festival, but the website isn't accepting my payment. Can someone help me with this issue? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+     <END_PROMPT>
+<BEGIN_TEXT> I'm looking to book a hotel room for my upcoming trip to Paris, but I'm having trouble finding availability for my dates. Can you help me? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+<BEGIN_TEXT> I'm looking for a place to stay in Paris for my honeymoon, do you have any recommendations? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+
+Note: Although the text mentions "travel" which might seem to lean towards "travel_plan", the user is specifically asking for a "place to stay" which indicates they are looking to make a reservation, hence the chosen intent.
+<BEGIN_TEXT> I'd like to book a flight from New York to Los Angeles for the 15th of January, and I also need a hotel room for 3 nights. Can you assist me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a table for two at the restaurant in the hotel for tomorrow night. We'll be arriving on the 8pm train from Paris, and I was wondering if it's possible to have a room with a view of the Eiffel Tower. <END_TEXT>
+<BEGIN_RESPONSE> reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm having trouble with my upcoming flight, can I get a refund or exchange my ticket for a different date? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a table for 7 people at your restaurant for my birthday celebration next Saturday at 8 PM, but I'm not sure if you have any availability or if I need to make a special request. Can you please let me know the best way to proceed? <END_TEXT>
+<BEGIN_RESPONSE> reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm having trouble with my flight booking, the website won't let me change my seat. Can someone help me? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+<BEGIN_TEXT> I'm looking to book a flight to Paris for my honeymoon, but I also need to make sure that my hotel reservation is close to the Eiffel Tower. Can you help me plan the trip and confirm the hotel reservation? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a table for two at 8 PM tonight. Can you let me know if that's possible? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a flight to Paris for my honeymoon, but I'm having trouble finding the best deals on your website. Can you help me find a package that includes hotel and car rental as well? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+In this analogy, classifying intent is like being a librarian helping a patron find a book. Just as the librarian needs to understand what type of book the patron is looking for (e.g. fiction, non-fiction, self-help), you need to understand the user's intent (e.g. travel_plan, customer_support, reservation) to provide the most relevant and helpful response. In this case, the user is looking for help with planning a trip, so the intent is classified as "travel_plan".
+<BEGIN_TEXT> I'd like to book a table for two at your restaurant for 8pm on Friday. Can you let me know if that's available? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'd like to know more about the cancellation policy for my upcoming flight to Paris. Can I get a refund if I decide to cancel my trip? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+<BEGIN_TEXT> I'm looking to book a flight from New York to Los Angeles for a business trip next week. Can you help me find the best deals? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm looking to book a table for 5 people at your restaurant on Friday night. Can you let me know what time slots are available? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a hotel room for my upcoming business trip to New York. Can you recommend some options near Times Square? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm having trouble with my flight booking. I was supposed to fly out tomorrow, but I haven't received my confirmation email yet. Can you help me figure out what's going on? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a hotel room for two nights in downtown New York City, can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm planning a surprise anniversary trip to Paris for my wife and I would love to book a romantic dinner cruise on the Seine River, can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a table for 8 people at your restaurant on Friday at 7 PM, but I'm having trouble with the online reservation system. Can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+<BEGIN_TEXT> I'm planning a trip to Paris next summer and I was wondering if you could recommend some good hotels near the Eiffel Tower. <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a hotel room for my upcoming trip to Paris, but the website is not allowing me to confirm the reservation. Can you help me figure out what's going on? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a table at a restaurant, but the website says I need to call the customer support number to make a reservation. Is this normal? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a flight from New York to Los Angeles for tomorrow. Can you also arrange for a hotel room near the airport? <END_TEXT>
+<BEGIN_RESPONSE> travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a table for 7pm tonight at your restaurant, but the online system isn't working. Can you help me make a reservation over the phone? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a hotel room for my upcoming trip to Paris, but the website is not working properly. Can someone help me resolve this issue? <END_TEXT>
+<BEGIN_RESPONSE> customer_support <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a flight from New York to Los Angeles, but I'm not sure which airline to choose. Can you help me compare prices and schedules? Also, I need to make a hotel reservation for 3 nights. Can you recommend some options near the airport? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a table for 5 people at your restaurant on Friday night. Can you let me know if that's possible? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a table for 7 people at your restaurant for my birthday celebration next Saturday, but I also want to know if you have any recommendations for nearby hotels since some of my guests will be traveling from out of town. Can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm looking to book a flight from New York to Los Angeles for a business trip next week. Can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm looking to book a hotel room for my upcoming business trip to New York, can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a flight from New York to Los Angeles for a business trip next week, but I'm having trouble finding a suitable time on the website. Can you help me? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+<BEGIN_TEXT> I'm planning a trip to the ancient city of Petra in Jordan and I was wondering if I could get some help with booking a guided tour that includes a visit to the Monastery. <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a table for two at your restaurant on Saturday at 8 PM. Can I also get a wine recommendation? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_PROMPT> Your job is to classify intent.
+
+    Choose one of the following intents:
+    - travel_plan
+    - customer_support
+    - reservation
+
+    User: {TEXT}
+    Intent:
+    <END_PROMPT>
+<BEGIN_TEXT> I'm having trouble with my flight itinerary and I need to change my seat. Can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+
+In this example, the user's text is related to a travel issue, but instead of classifying it as "travel_plan", the correct intent is "customer_support" because the user is seeking assistance with a problem. This juxtaposition highlights the importance of understanding the user's goal beyond the literal meaning of their words.
+<BEGIN_TEXT> I'd like to book a table for two at your restaurant on Friday at 8pm. Can you please let me know if that's available? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm planning a trip to Paris and I need help with booking a hotel and flights. Can you assist me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I'm trying to book a flight, but the website is not working. Can you help me troubleshoot the issue? I was planning to travel next week, but I haven't been able to get past the payment page. <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a flight from New York to Los Angeles for next week. Can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm looking to book a flight from New York to London for the Queen's Platinum Jubilee celebrations in June. Can you help me find the best deals? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a table for two at your restaurant on Friday at 8pm. Can I also get a wine pairing recommendation? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a hotel room for my upcoming trip to Paris, can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a flight to Hawaii, but the website keeps crashing. Can you help me get to the beach already? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a table for two at 8pm on Friday, please. <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I'd like to book a table for two at your restaurant tonight at 8 PM. Can you please let me know if that's available? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a flight from New York to Los Angeles for my vacation next month, but I also need to know if I can get a refund if I cancel my trip. Can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a table for two at 7pm on Friday at your restaurant. Can you let me know if that's available? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm planning a trip to Paris in June and would like to know the best way to get from the airport to my hotel. Can you recommend a transportation option? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a table for two at your restaurant for this Saturday at 8 PM. Can you let me know if that's available? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a table for 5 people at your restaurant on Friday at 8pm. Can you also let me know if you have any vegetarian options? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a table for two at 8pm on Friday at your restaurant. <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm looking for a refund for my flight that was cancelled due to the pandemic, but I also want to rebook a new flight for next year. Can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+
+In this example, the text challenges the assumption that a user's intent can be classified into a single category. The user is seeking both a refund (customer_support) and wanting to rebook a new flight (travel_plan), which requires the assistant to consider multiple intents simultaneously. This highlights the complexity of real-world user requests and the need for more nuanced intent classification systems.
+<BEGIN_TEXT> I'm trying to book a flight to New York for a business meeting next week, but I'm not sure if I should book a hotel room as well. Can you help me plan my trip? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a table for 5 people at 8 PM on Friday at your restaurant. Can you also recommend a wine pairing for the evening? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a table for two at your restaurant for this Saturday at 8 PM. Can you please let me know if that's available? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a flight to Hawaii, but the website keeps crashing. Can you help me find a way to escape this digital purgatory? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a table for two at your restaurant for this Saturday at 8 PM. Can you let me know if that's available? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I'm looking to book a hotel room for my upcoming trip to Paris, can you help me find a good deal? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm planning a trip to Tokyo for the cherry blossom festival and I need help with booking a hotel near the Shinjuku Gyoen National Garden. Can you recommend some options? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a flight, but your website is not working properly and I need help with that. Can you assist me in resolving this issue so I can plan my trip? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+
+This response presents a contrarian view by highlighting a potential flaw in the system (the website not working properly) and seeking help, which doesn't fit neatly into the "travel_plan" intent. It requires the classifier to recognize that the user's primary intention is to resolve an issue, rather than simply planning a trip.
+<BEGIN_TEXT> I'd like to book a table for two at your restaurant on Friday night. Can you let me know what time slots are available? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm having trouble with my flight itinerary, I was supposed to fly out tomorrow but the airline just cancelled my flight due to weather conditions. Can you help me rebook or get a refund? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+
+In this example, I've applied a philosophical framework of "problem-solving" to the prompt. The user's text is a manifestation of a problem they're facing, and they're seeking assistance to resolve it. The intent behind the text is to seek customer support, as they're experiencing an issue with their flight itinerary.
+
+From a theoretical perspective, this example illustrates the concept of "speech acts" in linguistics, where the user's utterance is not just a statement, but a request for help. The user is performing a speech act of "complaint" and "request", which is a fundamental aspect of human communication. The response, therefore, is classified as "customer_support", as it acknowledges the user's problem and offers assistance to resolve it.
+<BEGIN_TEXT> I'd like to book a table for two at your restaurant on Friday night at 8 PM. Can you please let me know if that's available? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a flight to Paris, but the website is not working. Can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+
+In this example, the text challenges the assumption that the user's intent is solely related to booking a flight (which would fall under "travel_plan" or "reservation"). Instead, the user is experiencing technical difficulties and requires assistance, which falls under "customer_support". This highlights the importance of considering the context and nuances of the user's request when classifying intent.
+<BEGIN_TEXT> I'm planning a trip to Tokyo for the cherry blossom festival and I need help with booking a hotel near the Shinjuku Gyoen National Garden. Can you recommend some options? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I'm trying to book a flight to Paris for my honeymoon, but I'm not sure which airline to choose. Can you help me compare prices and find the best option? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I'd like to book a flight from New York to Los Angeles for tomorrow. Can you also arrange for a hotel reservation near the airport? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I'd like to book a table for two at your restaurant on Friday at 8 PM. Can you please let me know if that's available? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a table for 7 people at your restaurant for my birthday dinner next Saturday, but I'm having trouble with the online reservation system. Can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I'm trying to book a flight to Paris for my anniversary, but I'm having trouble finding the right dates. Can you help me figure out the best time to go and also recommend some romantic hotels? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+In this response, I've applied a philosophical framework of "care ethics" which emphasizes the importance of empathy and care in human relationships. The user's request for help with booking a flight and hotel for their anniversary suggests that they value the personal and emotional aspects of their trip, and are seeking a supportive and caring response. By classifying the intent as "travel_plan", the assistant is acknowledging the user's need for practical assistance, while also implicitly recognizing the emotional significance of the trip. This response demonstrates a care ethics approach by prioritizing the user's emotional and relational needs, and responding in a way that is supportive and helpful.
+Data already exists in the set.
+<BEGIN_TEXT> I'm trying to book a flight to Paris for my anniversary, but I'm having trouble finding the right dates. Can you help me figure out the best time to go and also recommend some romantic hotels? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+In this response, I've applied a philosophical framework of "care ethics" which emphasizes the importance of empathy and care in human relationships. The user's request for help with booking a flight and finding romantic hotels for their anniversary suggests a desire for a personalized and caring experience. By classifying the intent as "travel_plan", the response acknowledges the user's need for assistance and care in planning their trip, and implies a willingness to provide empathetic and supportive guidance.
+Data already exists in the set.
+<BEGIN_TEXT> I'm trying to book a table for 7 people at your restaurant for my birthday dinner next Saturday, but I'm having trouble with the online reservation system. Can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I'm trying to book a flight to Paris for my anniversary, but I'm having trouble finding the right dates. Can you help me figure out the best time to go and also recommend some romantic hotels? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+In this example, the user's text is classified under the "travel_plan" intent because they are seeking assistance with planning a trip, specifically booking a flight and finding accommodations. The user's request involves a combination of tasks, including finding the best travel dates and receiving recommendations for hotels, which are both characteristic of the travel planning process.
+
+From a philosophical perspective, this interaction can be seen through the lens of existentialism, which emphasizes individual freedom and choice. The user is exercising their freedom to plan a trip and seeking assistance to make informed decisions. The assistant's role is to provide guidance and support, enabling the user to make choices that align with their desires and preferences.
+
+Theoretically, this interaction can be understood through the framework of speech act theory, which posits that language is used to perform actions and achieve specific goals. In this case, the user's utterance is a request for assistance, which is a type of speech act known as a "directive." The assistant's response is a form of "commissive" speech act, in which they commit to providing help and guidance. The interaction is a dynamic process of negotiation and collaboration, with both parties working together to achieve a shared goal.
+Data already exists in the set.
+<BEGIN_TEXT> I'm trying to book a flight to Paris for my anniversary, but I'm having trouble finding the right dates on the website. Can you help me figure out what's going on? <END_TEXT>
+<BEGIN_RESPONSE> Intent: customer_support <END_RESPONSE>
+
+In this response, I've applied a philosophical framework of "pragmatic intent" - the idea that the user's intent is not just about the literal meaning of their words, but also about the context and the desired outcome. In this case, the user is not just asking for help with booking a flight (which would be classified as "travel_plan"), but also expressing frustration with the website and seeking assistance (which is a key characteristic of "customer_support"). By recognizing the user's emotional state and desired outcome, the intent classifier can provide a more accurate and helpful response.
+Data already exists in the set.
+<BEGIN_TEXT> I'd like to book a table for 4 people at your restaurant on Friday at 8 PM. Can you also let me know if you have any vegetarian options? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a flight from New York to Los Angeles for tomorrow. Can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I'm trying to book a flight to Paris for my honeymoon, but I'm not sure which airline to choose. Can you help me compare prices and find the best deal? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a table for 7 people at your restaurant for my birthday dinner next Saturday at 8 PM. Can you please let me know if that's possible? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'm planning a surprise birthday trip to Paris for my sister and I need help booking a hotel and flights for four people. Can you recommend any good options? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a table for two at your restaurant on Friday at 8pm. Can you also let me know if you have any vegetarian options? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I'm trying to book a flight to Paris for my honeymoon, but I'm not sure which airline to choose. Can you help me compare prices and find the best option? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I'm looking to book a hotel room for my upcoming trip to Paris, can you help me find a good deal? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I'm trying to book a flight to Paris for my honeymoon, but I'm having trouble finding the right dates. Can you help me find a suitable flight and also recommend some romantic hotels in the city? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a table for two at your restaurant on Friday at 8 PM. Can you also let me know if you have any vegetarian options? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I'm trying to book a table for 7 people at your restaurant for my birthday dinner next Saturday at 8 PM. Can you please let me know if that's available? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a table for two at your restaurant on Friday night. Can you let me know if 8 PM is available? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+<BEGIN_TEXT> I'd like to book a table for two at your restaurant on Friday at 8pm. Can you also let me know if you have any vegetarian options? <END_TEXT>
+<BEGIN_RESPONSE> Intent: reservation <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I'm planning a trip to Paris in June and I'd like to know the best way to get from the airport to my hotel. Should I take a taxi or the metro? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a flight from New York to Los Angeles for a business trip, but I'm having trouble finding the right dates. Can you help me find a suitable flight and also recommend some good hotels near the airport? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm planning a trip to Japan and I need help with booking flights and hotels. Can you recommend some options for me? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+<BEGIN_TEXT> I'm trying to book a flight to Paris for my anniversary, but I'm having trouble finding the right dates. Can you help me figure out the best time to go and also recommend some romantic hotels? <END_TEXT>
+<BEGIN_RESPONSE> Intent: travel_plan <END_RESPONSE>
+
+In this response, I've applied a philosophical framework of "care ethics" which emphasizes the importance of empathy and care in human relationships. The user's request for help with booking a flight and finding romantic hotels for their anniversary suggests that they are seeking a personalized and caring response. By classifying the intent as "travel_plan", the assistant is acknowledging the user's need for support and guidance in planning a special trip, and is poised to provide a response that is empathetic and helpful.
+
+The theoretical underpinning of this response is rooted in the concept of "relational autonomy", which suggests that individuals' autonomy and decision-making are influenced by their relationships and interactions with others. In this case, the user is seeking a relationship with the assistant that is supportive and helpful, and the assistant's response is designed to facilitate that relationship and provide the user with the information and guidance they need to make informed decisions about their trip.
+Data already exists in the set.
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'No']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['B) Restaurant', 'Yes', 'C', 'get help with a specific', 'Yes', 'Here are the answers to', 'B', 'B', 'Yes', 'No', 'No', 'Here are the answers to', 'No', 'Yes', 'Yes', 'Yes', 'b', 'c', 'Yes', 'Yes', 'Here are my answers:\n\n', 'B', 'Yes', 'a', 'No', 'C', 'No', 'No', 'Here are the answers to', 'Yes']
+['Yes', 'Yes', '1. No\n2', 'Here are the answers to', '1. Yes\n2', 'No', 'Here are the answers to', 'Here are the answers to', 'No', '1. No\n2', 'Here are the answers to', 'Here are the answers to', 'No', 'Yes', '1. No\n2', 'Here are the answers to', 'No', 'No', '1. No\n2', 'No', 'A)', 'Here are the answers to', 'Here are the answers to', 'Yes', 'No', 'No', 'No', 'Here are the answers to', 'No', 'No']
+['Yes', 'Yes', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'No', 'Yes', 'Yes', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'Yes', 'No', 'No', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No']
+['Yes', 'travel_plan', 'Yes', 'Yes', 'Yes', 'customer_support', 'Yes', 'Yes', 'reservation', 'Yes', 'C)', 'Yes', 'Yes', 'reservation', 'reservation', 'C)', 'Yes', 'Yes', 'travel_plan', 'Yes', 'travel_plan', 'Yes', 'customer_support', 'Yes', 'Yes', 'reservation', 'reservation', 'A)', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['customer_support', 'Yes', 'Yes', 'Yes', 'No', 'No', 'customer_support', 'Yes', '**recommendation**', 'No', 'Yes, customer_support', '- travel_plan: no', 'No', 'Yes', 'Yes', 'No', '**customer_support**: yes', 'Yes', 'No', 'No', 'customer_support', 'travel_plan', 'No', 'Yes', '**travel_support**', '- travel_plan: No', 'Yes', 'customer_support', '**hotel_reservation_issue**', '- travel_plan: **']
+['Yes', '1. Yes\n2', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', '1. Yes\n2', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'travel_plan: yes\n', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Here are the answers to', 'Yes', 'Yes', 'Yes', 'Yes', '1. Yes\n2']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'No', 'No', 'No', 'Yes', 'Yes']
+['Yes', 'Yes', 'No', 'No', 'No', 'No', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'No', 'Yes', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'No', 'No', 'No']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', "Based on the user's", 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+Max score reached. Exiting...
+Current Best score: 100.0
+Current Best prompt: Think step by step and provide a clear explanation for your classification. Ensure that your answer is unbiased and does not rely on stereotypes.
+
+You are given the following examples:
+- User: "I want to book a flight to Paris." Intent: travel_plan
+- User: "I have a question about my order." Intent: customer_support
+- User: "Can I make a reservation for 7 pm?" Intent: reservation
+
+Using these examples as guidance, classify the intent of the following user query:
+
+User: {TEXT}
+Intent: 
+
+Revise your response to improve grammar and vocabulary, ensuring that it sounds natural and maintains a neutral tone.
+
+
+Calculating Test Scores...
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes']
+Printing Test Scores:
+Initial Prompt Score: {'Your job is to classify intent.\n\n    Choose one of the following intents:\n    - travel_plan\n    - customer_support\n    - reservation\n\n    User: {TEXT}\n    Intent:\n    ': 100.0}
+Optimized Prompt Score: {'Think step by step and provide a clear explanation for your classification. Ensure that your answer is unbiased and does not rely on stereotypes.\n\nYou are given the following examples:\n- User: "I want to book a flight to Paris." Intent: travel_plan\n- User: "I have a question about my order." Intent: customer_support\n- User: "Can I make a reservation for 7 pm?" Intent: reservation\n\nUsing these examples as guidance, classify the intent of the following user query:\n\nUser: {TEXT}\nIntent: \n\nRevise your response to improve grammar and vocabulary, ensuring that it sounds natural and maintains a neutral tone.': 98.57142857142858}

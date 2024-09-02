@@ -10,7 +10,7 @@ print(len(text))
 
 # TOTAL: ~0.8 for single prompt optimization
 # + ~ 0.04 for seed prompt generation and synthetic data generation
-matches = re.findall(r"Model: (\w+-\d+b)[\s\S]*?Total Cost Estimate: ([\d.]+)", text)
+matches = re.findall(r"Model: (\w.+-\d+b)[\s\S]*?Total Cost Estimate: ([\d.eE+-]+)", text)
 
 model_costs = {}
 for match in matches:

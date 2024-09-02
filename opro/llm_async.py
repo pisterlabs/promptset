@@ -12,6 +12,8 @@ MODEL_TO_MODELID = {
     "mistral-7b": "mistralai/Mistral-7B-Instruct-v0.3",
     "llama3-8b": "meta-llama/Meta-Llama-3-8B-Instruct",
     "llama3-70b": "meta-llama/Meta-Llama-3-70B-Instruct",
+    "llama3.1-8b": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "llama3.1-70b": "meta-llama/Meta-Llama-3.1-70B-Instruct",
 }
 client = AsyncOpenAI(
     api_key=os.getenv("DEEP_INFRA_API"),
@@ -58,7 +60,11 @@ async def run_llm_coroutine(prompts, temperature=0.0, max_tokens=8192, model="ll
         with open("log.txt", "a") as f:
             f.write(f"###### Model: {model} | Temperature: {temperature} | Max Tokens: {max_tokens} | Respond JSON: {respond_json} ###### - Msg: {msg} \n")
     
-    batch = asyncio.gather(*(llm_coroutine(prompt, temperature, max_tokens, model, respond_json) for prompt in prompts))
+    if type(temperature) == list:
+        assert len(temperature) == len(prompts), "Length of temperature list should be equal to the length of prompts list."
+    else:
+        temperature = [temperature] * len(prompts)
+    batch = asyncio.gather(*(llm_coroutine(p, t, max_tokens, model, respond_json) for p,t in zip(prompts, temperature)))
     responses = await batch
     
     output = [res for res, _ in responses]

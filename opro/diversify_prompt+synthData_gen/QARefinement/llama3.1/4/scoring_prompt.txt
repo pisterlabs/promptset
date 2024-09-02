@@ -1,0 +1,1 @@
+Does the code in {output} include accurate and well-structured Python docstrings for the modules and functions described in the code provided in {text}? Answer yes or no only.
