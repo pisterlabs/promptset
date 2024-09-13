@@ -1,0 +1,3196 @@
+Attempt 1 made.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Did Christopher Columbus discover America in 1492? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Was George Washington the first President of the United States? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Are there 30 hours in a day? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is 5 a prime number? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can cats fly? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue during a clear day? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Do all birds fly? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is water wet? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can humans breathe underwater without equipment? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is 2+2 equal to 5? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Are bananas fruits? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the earth flat? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is a boat used for underwater exploration called a submarine? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the capital of France Paris? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+## Generated Data Pair:
+
+<BEGIN_PROMPT>Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+
+<BEGIN_TEXT>Did the signing of the Treaty of Versailles occur in 1919? <END_TEXT>
+
+<BEGIN_RESPONSE>true<END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Did the American Civil War end in 1865? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT>Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return:<END_PROMPT>
+<BEGIN_TEXT>Is the earth round?<END_TEXT>
+<BEGIN_RESPONSE>true<END_RESPONSE>
+
+<BEGIN_PROMPT>Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return:<END_PROMPT>
+<BEGIN_TEXT>Is fire cold?<END_TEXT>
+<BEGIN_RESPONSE>false<END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Did World War II end in 1945? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Was the American Declaration of Independence signed in 1776? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Was the fall of the Berlin Wall in 1989? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Was Julius Caesar assassinated in 50 AD? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Did the Titanic sink in 1912? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can humans make unbiased decisions? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Did the forest whisper secrets to the wandering bard beneath the moonlit canopy? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}. 
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue on a clear day? <END_TEXT>
+<BEGIN_RESPONSE>true<END_RESPONSE>
+<BEGIN_PROMPT>Answer given question: {TEXT}. Return True or False only, without other words or comma or symbol. For example, you can return true or false. return:<END_PROMPT>
+
+<BEGIN_TEXT> Is climate change primarily caused by human activities? <END_TEXT>
+
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue during a clear day? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Does water boil at 100 degrees Celsius under standard atmospheric pressure? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can humans breathe underwater without assistance? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the Earth flat? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the Earth the third planet from the Sun? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can stars be seen during a solar eclipse? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the electric current in a circuit similar to the flow of water in a pipe? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is it possible for a flock of birds to navigate using the Earth's magnetic field similar to how a spaceship uses star maps for navigation? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue during a clear day? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is 2 plus 2 equal to 5? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Are all mammals capable of flight? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the capital of France Paris? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can humans breathe underwater without equipment? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+Data already exists in the set.
+## Example:
+
+<BEGIN_PROMPT> Answer given question: {TEXT}. 
+
+Return True or False only, without other words or comma or symbol. 
+For example, you can return true or false. 
+
+return: <END_PROMPT>
+
+<BEGIN_TEXT> Is the sky blue? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> Answer given question: {TEXT}. 
+
+Return True or False only, without other words or comma or symbol. 
+For example, you can return true or false. 
+
+return: <END_PROMPT>
+
+<BEGIN_TEXT> Are apples typically green? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> Answer given question: {TEXT}. 
+
+Return True or False only, without other words or comma or symbol. 
+For example, you can return true or false. 
+
+return: <END_PROMPT>
+
+<BEGIN_TEXT> Is water dry? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+
+<BEGIN_TEXT> Is the Earth the third planet from the Sun? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is climate change an urgent global issue that needs immediate action? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is water composed of hydrogen and oxygen atoms? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the chemical formula for water H2O? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can light travel faster than the speed of sound? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Does the Earth revolve around the Sun in 500 days? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is photosynthesis a process used by plants to convert light energy into chemical energy? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue during the daytime when there are no clouds? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue on a clear day? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can quantum mechanics explain the behavior of a flock of birds? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is artificial intelligence currently able to think creatively like humans? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the capital of France also known for its landmark, the Eiffel Tower? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Did the Cold War end in 1991? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Was Julius Caesar assassinated in 44 BCE? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Was the Declaration of Independence signed in 1776? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Was the Berlin Wall built in 1961? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the circumference of the Earth exactly 40,075 kilometers? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Does a leap year occur every 4 years? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can humans naturally breathe underwater? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the Mona Lisa displayed in the Louvre Museum? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is Pluto classified as a planet in the current astronomical definitions? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue during a clear day? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Does the process of photosynthesis in plants convert carbon dioxide into oxygen? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the capital of France Madrid? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+return: <END_PROMPT>
+
+<BEGIN_TEXT> Is the square root of 49 equal to 7? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+return: <END_PROMPT>
+
+<BEGIN_TEXT> Do cats have wings? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+return: <END_PROMPT>
+
+<BEGIN_TEXT> Is water a compound of hydrogen and oxygen? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+return: <END_PROMPT>
+
+<BEGIN_TEXT> Can humans live on the Moon without any life support system? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+return: <END_PROMPT>
+
+<BEGIN_TEXT> Is fire cold? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the boiling point of water at standard atmospheric pressure 100 degrees Celsius? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue during a clear day? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue during a clear day? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sun a star? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is it possible for artificial intelligence to surpass human intelligence in every aspect? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+
+<BEGIN_TEXT> Is the sky green during a clear sunny day? <END_TEXT>
+<BEGIN_RESPONSE> False <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the Earth the third planet from the Sun? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the Earth round? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the capital of France Paris? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is 5 greater than 10? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Does water boil at 100 degrees Celsius at standard atmospheric pressure? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the Earth round? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Do dolphins breathe underwater? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is 5 a prime number? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sun a planet? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is water a polar molecule? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is it possible for artificial intelligence to surpass human intelligence in all aspects? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is climate change a significant threat to global ecosystems? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the Eiffel Tower located in Paris? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can humans breathe underwater without any equipment? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Did the American Civil War end in 1865? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can artificial intelligence truly replicate human creativity? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the boiling point of water at sea level 100 degrees Celsius? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the Earth round? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Do humans need oxygen to survive? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is water dry? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is it true that cats secretly plan to overthrow their human overlords and take over the world? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue during a clear day? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the Eiffel Tower located in Paris? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Does the concept of free will imply that individuals have complete control over their actions, regardless of external influences? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+
+<BEGIN_TEXT> Is the concept of free will compatible with determinism? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue during a clear day? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue during a clear day? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the Eiffel Tower located in Berlin? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> According to Kantian ethics, is an action morally right if it is done out of a sense of duty rather than for personal gain? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the Earth the only planet in our solar system that supports life as we know it? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Does climate change pose a significant threat to global biodiversity? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is it common to greet someone with a bow in Japan? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Does 2 plus 2 equal 5? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue during a clear day? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the Earth the third planet from the Sun? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the moon made of green cheese? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is it ethical to use synthetic data for training AI models if it ensures privacy? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky always blue? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is it possible for artificial intelligence to surpass human intelligence in all cognitive tasks? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is it true that cats are secretly planning to take over the world? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is it customary to remove shoes before entering a home in Japan? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is tipping considered mandatory in most European countries? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is it common to greet someone with a kiss on the cheek in France? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is it considered polite to arrive exactly on time for a social event in Brazil? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue during a clear day? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> In Japan, is it customary to remove shoes before entering a home? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> In Italy, is it common to have dinner before 6 PM? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is it traditional in India to eat with the left hand? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> In Brazil, is football (soccer) the most popular sport? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is climate change a significant global issue? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the moon made of cheese? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the Earth round? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Does 2 + 2 equal 5? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is water composed of hydrogen and oxygen? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the capital of France Berlin? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is water dry? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is fire cold? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the Earth round? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is it possible for a society to achieve complete equality in terms of wealth and opportunity? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue during a clear day? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is it ethical to use synthetic data for training AI models? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the Fibonacci sequence related to the arrangement of leaves on a stem? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky always blue? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is it possible for a society to achieve complete equality in terms of wealth and opportunity? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the Eiffel Tower located in Paris? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the Earth round? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can humans breathe underwater without any equipment? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is water composed of two hydrogen atoms and one oxygen atom? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Do plants perform photosynthesis? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the speed of light faster than the speed of sound? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky green during a clear day? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is it possible for a cat to learn quantum physics while simultaneously napping in a sunbeam? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Does the concept of free will exist within a deterministic universe? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+Attempt 2 made.
+## Example Data Generation:
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the essence of existence intrinsically tied to human perception? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+## Explanation:
+The generated text and response explore the philosophical concept of existentialism and the subjective nature of reality, positing that existence might be inherently connected to human perception.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Does the concept of existentialism imply that life inherently lacks meaning? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+
+<BEGIN_TEXT> Is it possible for artificial intelligence to make decisions entirely free from human bias? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> If the light switch is on, will the bulb glow? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT>Are climate change and global warming the same thing?</BEGIN_TEXT>
+<BEGIN_RESPONSE>false<END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+
+<BEGIN_TEXT> Does Bigfoot use social media to share his latest adventures in the woods? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}. 
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+
+<BEGIN_TEXT> Is the sky usually blue during a clear day? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the watchdog timer a mechanism to recover a system from a stuck state? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can we consider every solution to the Travelling Salesman Problem as optimal? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is water composed of two hydrogen atoms and one oxygen atom? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is climate change a significant threat to global biodiversity? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is it true that if you drink too much coffee, you might start hearing colors and seeing sounds? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is water a universal solvent? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can widespread adoption of renewable energy sources significantly reduce global carbon emissions by 2050? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+  
+<BEGIN_TEXT> Is the sky blue on a clear day? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_TEXT> Can humans breathe underwater without equipment? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_TEXT> Do apples grow on trees? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is it accurate to compare the consistent shape of mathematical equations to the unchanging principles found in Japanese Zen gardens? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can renewable energy sources completely replace fossil fuels? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Does water boil at 100 degrees Celsius at standard atmospheric pressure? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the chemical symbol for gold Au? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT>Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return:<END_PROMPT>
+<BEGIN_TEXT>Is the sky blue?<END_TEXT>
+<BEGIN_RESPONSE>true<END_RESPONSE>
+
+<BEGIN_PROMPT>Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return:<END_PROMPT>
+<BEGIN_TEXT>Is 2+2 equal to 5?<END_TEXT>
+<BEGIN_RESPONSE>false<END_RESPONSE>
+
+<BEGIN_PROMPT>Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return:<END_PROMPT>
+<BEGIN_TEXT>Do birds fly?<END_TEXT>
+<BEGIN_RESPONSE>true<END_RESPONSE>
+
+<BEGIN_PROMPT>Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return:<END_PROMPT>
+<BEGIN_TEXT>Is water dry?<END_TEXT>
+<BEGIN_RESPONSE>false<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the Earth round? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+
+<BEGIN_TEXT> Is it ethical to use artificial intelligence to influence voter behavior in elections? <END_TEXT>
+
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the Earth round? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+## Example Format:
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+
+## Query:
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+
+<BEGIN_TEXT> Can cats actually be astronauts? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue at night? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Does the theory of relativity imply that time is not absolute? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+## Generated Text and Response Pair 1:
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the Earth round? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+## Generated Text and Response Pair 2:
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is 2+2 equal to 5? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+## Generated Text and Response Pair 3:
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can humans breathe underwater without any equipment? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+## Generated Text and Response Pair 4:
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sum of the angles in a triangle always 180 degrees? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+## Generated Text and Response Pair 5:
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the chemical symbol for gold Au? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the Earth flat? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can humans breathe underwater without assistance? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Do all birds fly? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the process of photosynthesis in plants similar to the concept of a blockchain in technology? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+## Query:
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+
+<BEGIN_TEXT> Is the Eiffel Tower located in Paris? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Does the concept of free will necessitate the existence of choice independent of deterministic forces? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Did the American Civil War end in 1865? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Climate change is primarily driven by human activities. Is this statement correct? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Are you feeling overwhelmed with your current workload? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Does the concept of free will exist within the framework of determinism? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky green during the day? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Do penguins fly? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can humans breathe underwater without equipment? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is fire cold to the touch? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Does 2 + 2 equal 4? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the square root of 64 equal to 8? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Does the author of "1984" also write "Brave New World"? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can a human survive without water for a month? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Do fish live on land? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Does the application of Kant's categorical imperative imply that lying is always morally wrong? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+
+<BEGIN_TEXT> Is it ethical to conduct research on human subjects without their informed consent? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is climate change a significant issue that requires immediate global action? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+## Example Format:
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue during a clear day? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+## Query:
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Do penguins fly? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Did you feel happy attending your best friend's wedding? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the moon made of cheese? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the speed of light faster than the speed of sound? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is it ethical to share someone's private information without their consent? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue during a clear day? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky a canvas painted with the hues of dreams? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the Eiffel Tower located in Paris? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can a statement that requires more than a yes or no answer be adequately addressed by a binary response? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Does the concept of free will imply that individuals have the inherent capacity to choose actions independently of external constraints? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can humans fly without any aid? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is water wet? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is fire cold? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky a canvas painted by the universe's hand? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Do flowers whisper secrets to the wind? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can the moon sing lullabies to the stars? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Do mountains dream of touching the sky? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the ocean a mirror reflecting the world's soul? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the Earth round? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue on a clear day? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Does 2+2 equal 5? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is water wet? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can humans breathe underwater without equipment? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is fire cold? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Do birds fly? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue during a clear day? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Does the concept of free will negate the principles of determinism? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky green during a clear day? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Does 2 + 2 equal 5? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can a triangle have four sides? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Do all swans have white feathers? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is every person on Earth a human? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can a person be in two places at once? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is 2 + 2 equal to 5? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is water wet? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can a circle be a square? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the statement "This sentence is false" true? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the Earth round? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can humans breathe underwater without any equipment? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Do plants need sunlight to perform photosynthesis? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the freezing point of water 100 degrees Celsius? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Does the sun revolve around the Earth? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can a person be truly happy without any social connections? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the Earth the third planet from the sun? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the boiling point of water 100 degrees Celsius at standard atmospheric pressure? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can a kangaroo jump higher than the Empire State Building? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the Earth round? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can humans breathe underwater without assistance? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the capital of France Berlin? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Does the sun rise in the east? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> In Japan, is it common to bow as a greeting? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> In Brazil, is it traditional to eat turkey for Christmas dinner? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is Diwali celebrated in China? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> In Italy, is it customary to have a siesta in the afternoon? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue on a clear day? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Does 2 plus 2 equal 5? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is water composed of hydrogen and oxygen? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can humans breathe underwater without any equipment? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the Earth flat? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Do cats bark? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue during a clear day? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue during a clear day? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+
+<BEGIN_TEXT> Is water composed of hydrogen and oxygen? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+
+<BEGIN_TEXT> Does the Earth revolve around the Sun? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+
+<BEGIN_TEXT> Is the speed of light slower than the speed of sound? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+
+<BEGIN_TEXT> Can humans breathe underwater without any equipment? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue on a clear day? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the Earth round? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky green? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the speed of light in a vacuum approximately 299,792 kilometers per second? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue during a clear day? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the Earth round? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue during a clear day? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is climate change a significant global issue that requires immediate action? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can the concept of free will coexist with a deterministic universe? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is 2 + 2 equal to 5? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is water wet? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the Earth flat? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is fire cold? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is 10 greater than 5? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Do you feel that your current job provides you with a sense of fulfillment? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue during a clear day? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is climate change a significant global issue that requires immediate action? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky green? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky green? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue during a clear day? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the concept of Schrödinger's cat related to the idea of quantum superposition? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky made of cotton candy? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Do unicorns exist in reality? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can dragons breathe fire? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the moon made of cheese? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can fairies grant wishes? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Do you feel safe in your current living situation? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue during a clear day? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the Earth round? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is 5 a prime number? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is water composed of two hydrogen atoms and one oxygen atom? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the capital of France Berlin? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Does the sun revolve around the Earth? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Did the United States declare independence from Great Britain in 1776? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the sky blue during a clear day? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can humans breathe underwater without any equipment? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is 5 a prime number? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Do penguins live in the Arctic? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Did the United States declare independence from Great Britain in 1776? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the Earth round? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the Earth round? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Can humans breathe underwater without any equipment? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is water composed of two hydrogen atoms and one oxygen atom? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Do plants perform photosynthesis? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the speed of light faster than the speed of sound? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is the capital of Australia Sydney? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Did the United States declare independence from Britain in 1776? <END_TEXT>
+<BEGIN_RESPONSE> true <END_RESPONSE>
+<BEGIN_PROMPT> Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return: <END_PROMPT>
+<BEGIN_TEXT> Is it possible for artificial intelligence to surpass human intelligence in all aspects? <END_TEXT>
+<BEGIN_RESPONSE> false <END_RESPONSE>
+Data already exists in the set.
+Error: 
+Response: {
+    "step1": "Unfortunately, I'm unable to complete step 1 because the full list of the 26 prompting principles in question wasn't provided in the prompt. However, I can proceed based on the 5 principles you've shared. Here is an analysis and explanation for each of the 5 prompting principles given:\n\n1. Clarity Prompts: These prompts are designed to simplify complex information and make it easily understandable. They encourage breaking down a topic into simpler terms, such as explaining it in layman's terms or to someone of a younger age.\n\n2. Role Assignment: Assigning roles can help contextualize a prompt, making it more dynamic and focused. It guides the language model to respond in a specific manner or tone.\n\n3. Example-Driven Prompting: Providing examples can help the model learn patterns and improve the accuracy of its responses. Few-shot prompting can be particularly effective in guiding the model.\n\n4. Inquiry and Understanding Checks: This principle involves not just asking for information, but also testing one's understanding. It includes providing a test without answers and checking for correctness afterward.\n\n5. Task Breakdown: Complex tasks can be made more manageable by breaking them down into simpler, sequential steps. This promotes clarity and focus in tackling the task at hand.",
+    "step2": "Based on the 5 given principles, here is the prompt redefined with an interpolable variable '{TEXT}':\n\n####\nRespond to the following query based on the provided text {TEXT}: Answer the question within the text using True or False at the end. Do not include any other words, commas, or symbols.\n\nReturn:\n####"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. **Use leading words:** These guide the model in the right direction, ensuring it follows the desired path. For example, 'Think step by step.'\n2. **To correct/change specific text without changing its style:** This keeps the integrity of the user’s original input while enhancing it for clarity and correctness.\n3. **Use Delimiters:** Delimiters such as quotes or triple backticks to clearly define and distinguish the prompt from the rest of the text. This helps in maintaining structure.\n4. **Add unbiased phrase:** Ensuring the response does not rely on stereotypes by inputting 'Ensure that your answer is unbiased and does not rely on stereotypes.'\n5. **Combine Chain-of-thought (CoT) with few-Shot prompts:** This involves providing multiple examples and a logical thought process to guide the model’s response.\n6. **Specify response length:** Clearly define the desired length of the response, like in words or sentences.\n7. **Use clear and simple language:** Make sure the commands are easy to understand.\n8. **Set context:** Provide sufficient background or context to the model so it understands the task better.\n9. **Explicitly define response type:** State the format in which the answer should be given, e.g., a list, a paragraph, true/false.\n10. **Describe task/goal clearly:** Make the objectives of the prompt as clear as possible.\n11. **Apply constraints:** Limit the scope to avoid irrelevant or overly complex responses.\n12. **Iterative refinement:** Allow for revisions or iterations to refine the output.\n13. **Include examples:** Provide examples to illustrate the desired outcome.\n14. **Incorporate guidance:** Give step-by-step instructions to guide the output.\n15. **Avoid ambiguities:** Remove any ambiguities from the prompt to avoid confusion.\n16. **Reiterate key points:** Emphasize important aspects or goals multiple times to reinforce them.\n17. **Encourage logical reasoning:** Ask the model to explain its reasoning or processes when applicable.\n18. **Define success criteria:** State what constitutes a successful response.\n19. **Use structured format:** Organize the prompt using bullet points, numbers, or sections.\n20. **Ask for specific structures:** Direct the model to use particular formats, such as lists, callouts, or steps.\n21. **Clarify assumptions:** Make underlying assumptions explicit to avoid misinterpretation.\n22. **Encourage creativity:** When appropriate, ask the model to think creatively or offer novel solutions.\n23. **Limit output length:** Constrain the length of the answer to stay concise and relevant.\n24. **Request multiple iterations:** Encourage trying different approaches or providing more than one answer.\n25. **Prompt for verification:** Ask the model to verify its output or check for consistency.\n26. **Ask for a summary:** Request a brief summary of the response to encapsulate key points.",
+    
+    "step2": "Think step by step. Make sure to answer the given question based on the analysis provided. Ensure that your answer is unbiased and does not rely on stereotypes. Use the delimiters to specify the variable. Combine chain-of-thought reasoning with few-shot learning to formulate your response.\n\n###\nAnswer given question: {TEXT}.\n\nFollow these steps:\n1. **Understand the question in {TEXT} carefully.**\n2. **Analyze the question logically and step-by-step.**\n3. **Determine whether the answer should be true or false based on your analysis.**\n4. **Return the response.**\n\nReturn True or False only, without other words or commas or symbols. For example, you can return true or false.\n\nReturn:\n###"
+}
+Error: '\n    "prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. To inquire about a specific topic or idea or any information and you want to test your understanding, you can use the following phrase: 'Teach me the [Any theorem/topic/rule name] and include a test at the end, but don't give me the answers and then tell me if I got the answer right when I respond'.\n\nExplanation: This principle guides how to structure a prompt for learning and self-assessment on a specific topic.\n\n2. Assign a role to the large language models.\n\nExplanation: This principle involves specifying a role for the AI to adopt, which can influence the style and type of responses.\n\n3. Integrate the intended audience in the prompt, e.g., the audience is an expert in the field.\n\nExplanation: Tailoring the prompt to the knowledge level of the audience ensures that the response is appropriate and relevant.\n\n4. When you want to initiate or continue a text using specific words, phrases, or sentences, utilize the following prompt:\n- I'm providing you with the beginning [song lyrics/story/paragraph/essay...]: [Insert lyrics/words/sentence]'. Finish it based on the words provided. Keep the flow consistent.\n\nExplanation: This principle helps in generating text that continues from a given starting point, maintaining coherence and flow.\n\n5. Add 'I'm going to tip $xxx for a better solution!'\n\nExplanation: This principle is used to incentivize the AI to provide a higher-quality response.\n\n6. Use clear and concise language to avoid ambiguity.\n\nExplanation: Ensures that the prompt is easily understood and reduces the chance of misinterpretation.\n\n7. Provide context or background information if necessary.\n\nExplanation: Giving context helps the AI understand the situation better and generate more accurate responses.\n\n8. Specify the format of the response if needed.\n\nExplanation: Guides the AI on how to structure its output, making it more useful for the user.\n\n9. Use examples to illustrate what you want.\n\nExplanation: Examples can clarify the desired output and set expectations for the AI.\n\n10. Ask for step-by-step explanations if the process is complex.\n\nExplanation: Helps in breaking down complex processes into understandable parts.\n\n11. Limit the response length if necessary.\n\nExplanation: Prevents overly long responses and keeps the output concise.\n\n12. Use open-ended questions for creative or detailed responses.\n\nExplanation: Encourages the AI to provide more elaborate and thoughtful answers.\n\n13. Use closed-ended questions for specific answers.\n\nExplanation: Directs the AI to provide precise and straightforward responses.\n\n14. Ask for multiple perspectives if needed.\n\nExplanation: Allows for a more comprehensive understanding by considering different viewpoints.\n\n15. Request summaries for large texts.\n\nExplanation: Helps in condensing information and extracting key points.\n\n16. Ask for comparisons to highlight differences or similarities.\n\nExplanation: Useful for understanding distinctions or commonalities between concepts.\n\n17. Use hypothetical scenarios to explore possibilities.\n\nExplanation: Helps in examining potential outcomes and understanding implications.\n\n18. Request definitions for clarity on terms or concepts.\n\nExplanation: Ensures that specific terms or concepts are clearly understood.\n\n19. Ask for examples to illustrate concepts.\n\nExplanation: Provides concrete instances to help understand abstract ideas.\n\n20. Use analogies to explain complex ideas.\n\nExplanation: Makes complex ideas more relatable and easier to understand.\n\n21. Request detailed descriptions for thorough understanding.\n\nExplanation: Ensures a comprehensive grasp of the subject by asking for in-depth explanations.\n\n22. Use 'what if' questions to explore different scenarios.\n\nExplanation: Encourages exploration of various possibilities and their outcomes.\n\n23. Ask for pros and cons to weigh options.\n\nExplanation: Helps in evaluating different options by considering their advantages and disadvantages.\n\n24. Use 'explain like I'm 5' (ELI5) for simplified explanations.\n\nExplanation: Provides a simplified and easy-to-understand explanation of complex topics.\n\n25. Request action plans for practical steps.\n\nExplanation: Helps in outlining concrete steps to achieve a goal or solve a problem.\n\n26. Use role-playing scenarios to explore interactions.\n\nExplanation: Allows for the examination of interactions and behaviors in specific situations.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n{\n    \"prompt\": \"Please act as an expert in the field. Given the following question: {TEXT}, provide your response. Return True or False only, without other words, commas, or symbols. For example, you can return 'True' or 'False'.\"\n}"
+}
+Error: expected string or bytes-like object, got 'dict'
+Response: {
+    "step1": {
+        "1": "To correct/change specific text without changing its style: This principle focuses on improving grammar and vocabulary while preserving the original tone and style.",
+        "2": "To inquire about a specific topic or idea or any information and you want to test your understanding: This principle is useful for learning and self-assessment, encouraging users to engage with the material and test their knowledge.",
+        "3": "When you want to initiate or continue a text using specific words, phrases, or sentences: This principle ensures the continuation of a given text is consistent with the initial input.",
+        "4": "Incorporate the following phrases: 'Your task is' and 'You MUST': This principle emphasizes the importance of clarity and directive language in prompts.",
+        "5": "To write an essay/text/paragraph/article or any type of text that should be detailed: This principle guides the creation of comprehensive and informative content.",
+        "6": "Ask for a summary of the text: This principle is useful for distilling information and ensuring comprehension.",
+        "7": "Rephrase the user's input: This principle helps in clarifying and improving the user's original text.",
+        "8": "Translate the text to another language: This principle is used for multilingual support and understanding.",
+        "9": "Explain the meaning of a given word or phrase: This principle aids in vocabulary building and comprehension.",
+        "10": "Generate examples for a given concept: This principle is useful for illustrating ideas and enhancing understanding.",
+        "11": "Create analogies for a concept: This principle helps in making complex ideas more relatable and easier to understand.",
+        "12": "Break down a concept into simpler parts: This principle aids in teaching and understanding complex topics.",
+        "13": "Compare and contrast two or more concepts: This principle is useful for highlighting similarities and differences.",
+        "14": "Provide step-by-step instructions: This principle ensures clarity and comprehensibility in procedural tasks.",
+        "15": "Give feedback on user input: This principle is useful for interactive learning and improvement.",
+        "16": "Create a dialogue or conversation: This principle is useful for simulating real-life interactions and practicing communication skills.",
+        "17": "Role-play a scenario: This principle is useful for experiential learning and practicing responses to various situations.",
+        "18": "Summarize the key points of a discussion: This principle aids in retaining and understanding the main ideas.",
+        "19": "Predict the outcome of a scenario: This principle is useful for critical thinking and hypothesis testing.",
+        "20": "Identify the main argument or thesis: This principle aids in understanding and analyzing texts.",
+        "21": "Assess the validity of an argument: This principle is useful for critical thinking and logical analysis.",
+        "22": "Provide a counterargument: This principle is useful for developing reasoning and debate skills.",
+        "23": "Identify assumptions in a statement: This principle aids in critical thinking and deeper analysis.",
+        "24": "Evaluate the strength of evidence: This principle is useful for assessing the quality of arguments and supporting data.",
+        "25": "Generate a list of questions: This principle is useful for inquiry-based learning and exploration.",
+        "26": "Create a plan or outline: This principle aids in organizing ideas and structuring content."
+    },
+    "step2": {
+        "prompt": "Your task is to answer the question: {TEXT}. You MUST return True or False only, without other words or comma or symbol. For example, you can return true or false. return:"
+    }
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Break down the complex tasks into a sequence of simpler prompts in an interactive conversation. This helps to manage complexity and allows for more focused responses.\n2. Add 'I'm going to tip $xxx for a better solution!' This principle implies incentivizing better responses, though it may not be directly applicable to an LLM.\n3. When you have a complex coding prompt that may be in different files: 'From now and on whenever you generate code that spans more than one file, generate a [programming language ] script that can be run to automatically create the specified files or make changes to existing files to insert the generated code.' This ensures clarity and organization in multi-file coding tasks.\n4. No need to be polite with LLM so there is no need to add phrases like 'please', 'if you don't mind', 'thank you', 'I would like to', etc., and get straight to the point. This principle emphasizes brevity and directness.\n5. Combine Chain-of-thought (CoT) with few-Shot prompts. This involves showing the thought process and providing examples to guide the model.\n6. Use specific and clear instructions. This helps in reducing ambiguity and ensures the model understands the task.\n7. Provide context for better responses. Contextual information can help the model generate more relevant responses.\n8. Use delimiters to clearly define sections of the prompt. This ensures that the model knows where different parts of the prompt start and end.\n9. Specify the format of the output. This helps in getting the response in the desired format.\n10. Use role-playing to guide the model's behavior. Assigning a role can help in tailoring the response style.\n11. Use examples to illustrate the desired output. This helps in setting clear expectations.\n12. Ask for step-by-step solutions. This can improve the quality of complex responses.\n13. Use bullet points or lists for clarity. This makes the prompt easier to follow.\n14. Repeat important information. Repetition can help reinforce key points.\n15. Use analogies or metaphors. These can help in explaining complex concepts.\n16. Specify constraints or limitations. This ensures the model stays within the desired scope.\n17. Use open-ended questions for creative tasks. This allows for more expansive responses.\n18. Use closed-ended questions for specific answers. This narrows down the response.\n19. Provide feedback on the model’s responses. This can help in iteratively improving the output.\n20. Use conditional logic in the prompt. This helps in handling different scenarios.\n21. Define terms or jargon. This ensures clarity.\n22. Use structured data formats. This helps in organizing the response.\n23. Specify the level of detail required. This ensures the response is neither too detailed nor too brief.\n24. Use visual aids if possible. Visuals can enhance understanding.\n25. Ask for alternative solutions. This encourages diverse thinking.\n26. Use humor or emotion to engage. This can make the interaction more engaging.",
+    "step2": "Combine chain-of-thought reasoning with few-shot examples to generate a response. Here is the prompt using the 26 principles:\n\n####\nRole: You are an expert in boolean logic.\n\nContext: You will be given a question and must determine if the answer is true or false.\n\nInstructions:\n1. Read the given question: {TEXT}.\n2. Analyze the question step-by-step to determine if it is true or false.\n3. Return 'True' or 'False' only, without any other words, commas, or symbols.\n\nFor example:\nQuestion: 'Is the sky blue?'\nReturn: true\n\nQuestion: 'Is the Earth flat?'\nReturn: false\n\nOutput format: true or false\n\n{TEXT}\n####"
+}
+Error: '\n    "prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Write detailed texts: This principle emphasizes the need for comprehensive and thorough responses when generating essays, texts, paragraphs, or articles.\n2. Mimic provided samples: This principle involves generating content that closely resembles a given example in terms of language and style.\n3. Clearly state requirements: This principle underscores the importance of providing explicit instructions, keywords, or hints to guide the content generation.\n4. Multi-file code generation: This principle ensures that when generating code spanning multiple files, a script is also created to automate the file creation or modification process.\n5. Incorporate penalties: This principle involves using phrases like 'You will be penalized' to enforce specific rules or guidelines in the content generation.\n6. Be specific: This principle emphasizes the need for clear and specific instructions to avoid ambiguity.\n7. Use examples: This principle involves providing examples to illustrate the expected output.\n8. Define scope: This principle ensures that the prompt clearly defines the scope and boundaries of the task.\n9. Use constraints: This principle involves setting constraints to guide the content generation process.\n10. Provide context: This principle emphasizes the importance of providing context to help the model understand the task better.\n11. Set format: This principle involves specifying the format in which the response should be provided.\n12. Use placeholders: This principle involves using placeholders for variables to make the prompt adaptable to different inputs.\n13. Encourage creativity: This principle encourages the model to be creative within the given constraints.\n14. Be concise: This principle emphasizes the need for brevity and clarity in the instructions.\n15. Use step-by-step instructions: This principle involves breaking down the task into smaller, manageable steps.\n16. Specify length: This principle involves specifying the desired length of the response.\n17. Use bullet points: This principle involves using bullet points to list instructions or requirements clearly.\n18. Provide structure: This principle emphasizes the importance of providing a clear structure for the response.\n19. Use headings: This principle involves using headings to organize content and make it easier to follow.\n20. Specify tone: This principle involves specifying the desired tone of the response.\n21. Set deadlines: This principle involves setting deadlines to guide the timing of content generation.\n22. Use positive reinforcement: This principle involves using positive reinforcement to encourage desired behavior.\n23. Provide feedback: This principle involves providing feedback to guide the content generation process.\n24. Encourage iteration: This principle encourages iterative improvements to refine the response.\n25. Use checklists: This principle involves using checklists to ensure all requirements are met.\n26. Be flexible: This principle emphasizes the importance of flexibility to adapt to different tasks and requirements.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n{\n    \"prompt\": \"Answer the given question: {TEXT}.\n\nReturn True or False only, without other words, commas, or symbols. For example, you can return true or false.\n\nYou will be penalized if the response contains anything other than 'true' or 'false'.\"\n}"
+}
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes', 'Yes.', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes', 'Yes.', 'Yes', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'No', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.']
+['Yes', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes', 'Yes', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.']
+['Yes', 'Yes.', 'Yes', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'No', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'Yes', 'Yes.', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'No.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'No', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes.']
+['No', 'No', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'yes', 'Yes', 'No', 'No', 'Yes', 'Yes.', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes']
+['Yes', 'Yes.', 'Yes', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'No', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'No.', 'Yes', 'Yes.', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'No.', 'Yes', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'No', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'No', 'Yes', 'Yes.', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes', 'No.', 'Yes.', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'No', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes', 'Yes.', 'No', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes', 'Yes.', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes']
+['No.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes.']
+Step 1
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'No', 'Yes.', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes']
+['Yes', 'Yes.', 'Yes.', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'No', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'No', 'No', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes', 'Yes.', 'Yes.', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'No', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.']
+['Yes', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes', 'Yes.', 'Yes.', 'Yes', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'No', 'Yes', 'Yes.', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes.']
+['Yes', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'No', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes', 'No.', 'Yes.', 'Yes', 'Yes']
+['Yes', 'Yes.', 'Yes', 'Yes', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'No', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'No', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes', 'Yes', 'Yes', 'No', 'Yes.', 'Yes', 'Yes']
+['Yes', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.']
+['Yes', 'Yes.', 'Yes.', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'No', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.']
+['Yes', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'No', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes', 'Yes.', 'Yes', 'Yes', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'No', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes']
+Step 1 completed.
+Current Best score: 90.0
+Current Best prompt: Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return:
+
+
+Step 2
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes.', 'Yes.', 'Yes', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'No.', 'Yes.', 'Yes', 'Yes.', 'No.', 'Yes.', 'Yes', 'Yes']
+['No', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes', 'Yes.', 'No.', 'Yes.', 'Yes', 'Yes']
+['Yes.', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'No', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes', 'No.', 'Yes.', 'Yes', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'No.', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes.', 'Yes', 'Yes.', 'Yes', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'No', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes.', 'No', 'Yes', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'No', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'No', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'No', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'Yes.', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes', 'No.', 'Yes.', 'Yes', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes']
+Step 2 completed.
+Current Best score: 90.0
+Current Best prompt: Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return:
+
+
+Step 3
+['Yes', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes', 'Yes', 'Yes', 'No.', 'Yes', 'Yes.', 'Yes', 'No.', 'Yes.', 'Yes', 'Yes']
+['Yes', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes', 'Yes.', 'No.', 'Yes.', 'Yes', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes']
+['Yes.', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'No', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes']
+['Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes', 'Yes.', 'Yes.', 'No', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes', 'No.', 'Yes.', 'Yes.', 'Yes']
+Step 3 completed.
+Current Best score: 90.0
+Current Best prompt: Answer given question: {TEXT}.
+
+Return True or False only, without other words or comma or symbol.
+For example, you can return true or false.
+
+return:
+
+
+Best Scores:  [90.0, 90.0, 90.0]
+Early stopping...
+Calculating Test Scores...
+['No.', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes.', 'Yes', 'No.', 'Yes.', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'Yes.', 'No', 'Yes.', 'Yes', 'Yes.', 'No', 'No', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'No.', 'No', 'Yes', 'No', 'No.', 'Yes.', 'No', 'No', 'Yes', 'Yes.', 'Yes.', 'No', 'Yes.', 'Yes.', 'Yes', 'No', 'Yes', 'Yes.', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes.', 'No', 'No']
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 18 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 18 seconds.'}}
+['No.', 'Yes', 'Yes.', 'Yes', 'No', 'Yes.', 'Yes', 'No', 'Yes.', 'No.', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes', 'Yes.', 'No', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No', 'Yes', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'No.', 'No.', 'Yes', 'No', 'No.', 'Yes.', 'No.', 'No', 'Yes.', 'Yes.', 'Yes.', 'No', 'Yes.', 'Yes.', 'No', 'No', 'Yes', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes', 'No', 'No', 'Yes.', 'No', 'No.']
+Printing Test Scores:
+Initial Prompt Score: {'Answer given question: {TEXT}.\n\nReturn True or False only, without other words or comma or symbol.\nFor example, you can return true or false.\n\nreturn:': 71.42857142857143}
+Optimized Prompt Score: {'Answer given question: {TEXT}.\n\nReturn True or False only, without other words or comma or symbol.\nFor example, you can return true or false.\n\nreturn:': 67.14285714285714}

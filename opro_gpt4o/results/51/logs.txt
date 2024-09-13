@@ -1,0 +1,1780 @@
+Attempt 1 made.
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 4 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 4 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 4 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 4 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 4 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 4 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Even in the darkest times, I won't give up, I'm holding onto hope, A brighter sun will rise. <END_TEXT>
+<BEGIN_RESPONSE> Hopeful <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> As the waves crash on the sandy shore, Memories fade, but the pain endures, Your laughter haunts me like a distant roar. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> In the city of neon lights, We dance all night, Dreams ignite, Colors reflect off our gleaming sights. <END_TEXT>
+<BEGIN_RESPONSE> Exciting <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Rainfall, on ancient streets, Silent prayers, countless defeats, But courage remains through the beat. <END_TEXT>
+<BEGIN_RESPONSE> Resilient <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Ganesha smiles from above, As incense fills the air, We celebrate with love, In unity, we simply care. <END_TEXT>
+<BEGIN_RESPONSE> Joyful <END_RESPONSE>
+### Dialogue
+
+Person A: Hey, I need to test this mood analyzer tool I'm working on. Can you help me out with some song lyrics?
+
+Person B: Sure thing! I've got some lyrics right here. What do you need?
+
+Person A: I need you to give me some lyrics, and I’ll use them to test the prompt which asks the mood analyzer to return a single word that matches the song's mood. The whole idea is that the mood analyzer should be able to understand the mood from the lyrics provided.
+
+Person B: Got it! Here you go.
+
+### Data Generation
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+
+<BEGIN_TEXT>
+I'm not living,
+I am just existing,
+But I'm not giving,
+Up on wishing.
+
+I long for a day,
+When the clouds clear away,
+And sunlight shines,
+On a hopeful ray.
+<END_TEXT>
+
+<BEGIN_RESPONSE> Hopeful <END_RESPONSE>
+
+Person A: This is great! You hit the mark with the word. It indeed feels like the mood of those lyrics is "Hopeful". Thanks for the help!
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm leaving today, living without you feels like floating away. <END_TEXT>
+<BEGIN_RESPONSE> Lonely <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> We dance all night to the beats of our heart, a world so bright when we're never apart. <END_TEXT>
+<BEGIN_RESPONSE> Joyful <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Under the darkening skies, I see your eyes and tell a thousand lies. <END_TEXT>
+<BEGIN_RESPONSE> Mysterious <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Tears fall as you walk out the door, I've never felt so lost before. <END_TEXT>
+<BEGIN_RESPONSE> Heartbroken <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Up on the mountain we conquer, where the horizon seems much closer. <END_TEXT>
+<BEGIN_RESPONSE> Triumphant <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Twinkling stars and the cold night's air, whispering secrets everywhere. <END_TEXT>
+<BEGIN_RESPONSE> Serene <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Roaring fire, igniting our spirits higher. We won't tire, with you I'm never dire. <END_TEXT>
+<BEGIN_RESPONSE> Energetic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> "I close my eyes and see, life's a bittersweet symphony on repeat. I rise and fall, through the night and through it all, endlessly." <END_TEXT>
+<BEGIN_RESPONSE> Melancholy <END_RESPONSE>
+
+## Questioning Assumptions:
+1. **Assumption**: The mood of a song can be encapsulated in a single word.
+    - **Challenge**: Moods can be complex and multi-faceted.
+2. **Assumption**: The musical and vocal tone doesn’t influence the interpretation.
+    - **Challenge**: Tone and delivery greatly impact mood perception.
+3. **Assumption**: Cultural context and personal experiences do not alter mood interpretation.
+    - **Challenge**: Mood perception is subjective and can vary person to person.
+
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> When you're weary, feeling small, 
+When tears are in your eyes, I will dry them all
+I'm on your side, when times get rough
+And friends just can't be found
+Like a bridge over troubled water
+I will lay me down
+Like a bridge over troubled water
+I will lay me down <END_TEXT>
+<BEGIN_RESPONSE> Comforting <END_RESPONSE>
+<BEGIN_TEXT> The sky is crying, and my heart is breaking down; endless blue beneath this town. <END_TEXT>
+<BEGIN_RESPONSE> Melancholy <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The world turns and we fall in line, hand in hand we'll face the night. With hope in our hearts, we'll light up the dark. <END_TEXT>
+<BEGIN_RESPONSE> Uplifting <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I walk a lonely road, the only one that I have ever known. Don't know where it goes, but it's home to me and I walk alone. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I've been waiting for a sign, hoping you'll be mine But now I know it's time, to let go and say goodbye. <END_TEXT>
+<BEGIN_RESPONSE> Heartbroken <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT>Lost in thoughts so deep, shadows of memories keep, a heart in constant sorrow weeps, through nights without a dream.</BEGIN_TEXT>
+<BEGIN_RESPONSE>Melancholy<END_RESPONSE>
+Invalid response format.
+## Dialogue:
+
+**Person 1:** Hey! I was thinking about this interesting AI mood analyzer that we learned about. It can analyze song lyrics and give us the mood in just one word. Want to test it?
+
+**Person 2:** Sure, that sounds fun! Do you have any song lyrics in mind?
+
+**Person 1:** Let’s use some lyrics from a popular song. How about this:
+
+<BEGIN_TEXT> In the jungle, the mighty jungle, the lion sleeps tonight. In the jungle, the quiet jungle, the lion sleeps tonight. <END_TEXT>
+
+**Person 2:** Okay, so if we follow the mood analyzer prompt, it should look like this:
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: 'In the jungle, the mighty jungle, the lion sleeps tonight. In the jungle, the quiet jungle, the lion sleeps tonight.' <END_PROMPT>
+
+**Person 1:** Yes, exactly! Now, what would the mood analyzer respond with?
+
+<BEGIN_RESPONSE> Peaceful <END_RESPONSE>
+
+**Person 2:** Nice! I think that captures the mood perfectly. Do you have another set of lyrics to try?
+
+**Person 1:** Sure! Here's another one:
+
+<BEGIN_TEXT> Yesterday, all my troubles seemed so far away. Now it looks as though they're here to stay. Oh, I believe in yesterday. <END_TEXT>
+
+**Person 2:** Great! The prompt for the mood analyzer will be:
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: 'Yesterday, all my troubles seemed so far away. Now it looks as though they're here to stay. Oh, I believe in yesterday.' <END_PROMPT>
+
+**Person 1:** And the mood analyzer would respond with?
+
+<BEGIN_RESPONSE> Nostalgic <END_RESPONSE>
+
+**Person 2:** Perfect! This AI mood analyzer is pretty accurate. 
+
+**Person 1:** Agreed. Let’s try more song lyrics later. This is fun!
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I see the lights all fading, life's been a long and winding road, tears fall in the dark silence, hearts heavy with the unspoken load. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The world is changing, things aren't the same. We strive for peace but still feel pain. The sun may set on days gone by, yet hope remains, it never dies. <END_TEXT>
+<BEGIN_RESPONSE> Hopeful <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I just can't wait to be king, 
+With every creature stampin’ on the brink,
+Gonna be a mighty king so enemies beware!
+I'm gonna have such incredible hair! 
+<END_TEXT>
+<BEGIN_RESPONSE> Exuberant <END_RESPONSE>
+Sure, here is a generated text and response pair based on your specifications:
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I walk a lonely road, the only one that I have ever known. Don't know where it goes, but it's home to me and I walk alone. <END_TEXT>
+<BEGIN_RESPONSE> Melancholy <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Yesterday, all my troubles seemed so far away. Now it looks as though they're here to stay. Oh, I believe in yesterday. <END_TEXT>
+<BEGIN_RESPONSE> Nostalgic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on to pieces of a shattered dream, a broken melody haunting me. The colors fade, the music dies; I'm left in a silent cry. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm singing in the rain, just singing in the rain. What a glorious feeling, I'm happy again. <END_TEXT>
+<BEGIN_RESPONSE> Joyful <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I remember those nights, we danced till dawn
+Laughters and whispers, a bond that seemed strong
+But shadows crept in, our hearts felt so wrong
+Now you're just a memory, where did we go wrong? <END_TEXT>
+<BEGIN_RESPONSE> Nostalgic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sun sets slowly over the hill, casting shadows where we used to play. Memories of laughter fill the air, as nostalgia takes me away. <END_TEXT>
+<BEGIN_RESPONSE> Nostalgic <END_RESPONSE>
+
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on your rope, Got me ten feet off the ground, And I'm hearing what you say, But I just can't make a sound. <END_TEXT>
+<BEGIN_RESPONSE> Suspenseful <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I see trees of green, red roses too
+I see them bloom for me and you
+And I think to myself, what a wonderful world <END_TEXT>
+<BEGIN_RESPONSE> Blissful <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The stars fade in the morning light
+But the memories won't go away
+Even when the dawn breaks, it's still night
+The echo of your voice will always stay <END_TEXT>
+<BEGIN_RESPONSE> Nostalgic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> It's a new dawn, it's a new day, it's a new life for me, and I'm feeling good. </END_TEXT>
+<BEGIN_RESPONSE> Optimistic </END_RESPONSE>
+
+Ethical Consideration: Ensure that the mood analysis is respectful and not dismissive of the complexity of human emotions reflected in the song lyrics. Avoid trivializing or misrepresenting the artist's intent.
+Invalid response format.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I walk this empty street, on the Boulevard of Broken Dreams. <END_TEXT>
+<BEGIN_RESPONSE> Lonely <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> We're soaring, flying, there's not a star in heaven that we can't reach. <END_TEXT>
+<BEGIN_RESPONSE> Uplifting <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> And I will always love you. <END_TEXT>
+<BEGIN_RESPONSE> Devoted <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Hello from the other side, I must have called a thousand times. <END_TEXT>
+<BEGIN_RESPONSE> Regretful <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I got a feeling, that tonight's gonna be a good night. <END_TEXT>
+<BEGIN_RESPONSE> Excited <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I see trees of green, red roses too, I see them bloom for me and you. And I think to myself, what a wonderful world. <END_TEXT>
+<BEGIN_RESPONSE> Joyful <END_RESPONSE>
+
+Person A: "What prompt are we discussing today?"
+
+Person B: "It's about generating synthetic data for a mood analyzer that can only return one word based on song lyrics. For example: '<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>'"
+
+Person A: "That sounds interesting! Can you show me an example?"
+
+Person B: "Sure! Let's take these lyrics: '<BEGIN_TEXT> I see trees of green, red roses too, I see them bloom for me and you. And I think to myself, what a wonderful world. <END_TEXT>' What mood do you think they convey?"
+
+Person A: "Those lyrics are quite uplifting and positive. I'd say 'Joyful.'"
+
+Person B: "Exactly! The response would be: '<BEGIN_RESPONSE> Joyful <END_RESPONSE>'"
+
+Person A: "Great! That makes sense. The prompt, text, and response are clearly marked, which is important for generating synthetic data."
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> 
+Floating through an open sky, gravity feels far below, 
+Colors blend and shadows fade, as thoughts begin to flow,
+Whispers in the air, secrets no one knows,
+In this state of endless dreams, reality lets go.
+<END_TEXT> 
+<BEGIN_RESPONSE> Serene <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT>
+"In the depth of night, when all is still,
+Whispers echo, time begins to spill.
+The stars above foretell a tale,
+In shadows cast, the spirit's wail.
+
+We question life, existence, fate,
+Through endless dreams, we navigate.
+The universe in silent lore,
+Asks us to seek, to know, explore."
+<END_TEXT>
+<BEGIN_RESPONSE> Contemplative <END_RESPONSE>
+
+## Theoretical Framework:
+The philosophical implications of this task can be analyzed through the lens of existentialism, which emphasizes individual freedom, choice, and subjective experience. The song lyrics provided delve into themes of existence, fate, and the quest for meaning, all central to existentialist thought. The focus on whispers, shadows, and silent lore suggests a deep introspective journey, resonating with the contemplative mood characteristic of existential musings. The single-word response "Contemplative" captures the essence of this introspective and philosophical inquiry, reflecting the existential quest for understanding within the vast, often silent, universe.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm walking on sunshine, whoa-oh, and don't it feel good! <END_TEXT>
+<BEGIN_RESPONSE> Happy <END_RESPONSE>
+## Dialogue:
+
+**Person 1:** Hey, I need help with something. I have this prompt and I need to generate synthetic data for it. Can you help?
+
+**Person 2:** Sure, what's the prompt?
+
+**Person 1:** It's this: "You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}'".
+
+**Person 2:** Got it. So we need some song lyrics and then a single word that captures the mood of those lyrics. Do you have any lyrics in mind?
+
+**Person 1:** Yes, how about this: "<BEGIN_TEXT> The sun is setting, sinking low, as shadows stretch and breezes blow. <END_TEXT>"
+
+**Person 2:** That sounds good. For the mood, I'd say "calm" fits well. Let's compile this.
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sun is setting, sinking low, as shadows stretch and breezes blow. <END_TEXT>
+<BEGIN_RESPONSE> Calm <END_RESPONSE>
+
+**Person 1:** Perfect, thanks for the help!
+
+**Person 2:** Anytime!
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> But I still haven't found what I'm looking for. <END_TEXT>
+<BEGIN_RESPONSE> Searching <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I see a red door and I want it painted black. <END_TEXT>
+<BEGIN_RESPONSE> Gloomy <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Don't stop believin', hold on to that feelin'. <END_TEXT>
+<BEGIN_RESPONSE> Hopeful <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I still hear your voice, when you sleep next to me. I still feel your touch in my dreams. Forgive me my weakness, but I don't know why. Without you it's hard to survive. <END_TEXT>
+<BEGIN_RESPONSE> Longing <END_RESPONSE>
+## Example Dialogue:
+
+**Person A:** Hey, I need some help with generating synthetic data for a mood analyzer. Could you help me with an example?
+
+**Person B:** Sure, what's the prompt you're working with?
+
+**Person A:** The prompt is: "You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}'"
+
+**Person B:** Got it. Let's come up with some song lyrics and a corresponding mood. How about these lyrics: "In the end, we lie awake and we dream of making our escape"?
+
+**Person A:** Perfect. I'll format it accordingly.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> In the end, we lie awake and we dream of making our escape <END_TEXT>
+<BEGIN_RESPONSE> Hopeful <END_RESPONSE>
+
+**Person B:** That looks good. The mood "Hopeful" fits well with the lyrics.
+
+**Person A:** Awesome. Thanks for your help!
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm walking on sunshine, oh-oh, and don't it feel good! <END_TEXT>
+<BEGIN_RESPONSE> Joyful <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Hello darkness, my old friend, I've come to talk with you again. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Cause baby, you're a firework, come on, show 'em what you're worth! <END_TEXT>
+<BEGIN_RESPONSE> Empowering <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> And now the end is near, and so I face the final curtain. <END_TEXT>
+<BEGIN_RESPONSE> Reflective <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> We're not gonna take it, no, we ain't gonna take it. <END_TEXT>
+<BEGIN_RESPONSE> Defiant <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I will always love you. <END_TEXT>
+<BEGIN_RESPONSE> Loving <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sun will come out tomorrow, so you gotta hang on 'til tomorrow. <END_TEXT>
+<BEGIN_RESPONSE> Hopeful <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> It's my life, it's now or never, I ain't gonna live forever. <END_TEXT>
+<BEGIN_RESPONSE> Determined <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT>
+In the stillness of the night, shadows dance with fading light,
+Dreams take flight on wings of thought, seeking meaning life has brought.
+Through the cosmic veil we peer, searching truth amidst our fear,
+Time and space, a fleeting breath, pondering life, love, and death.
+<END_TEXT>
+<BEGIN_RESPONSE> Contemplative <END_RESPONSE>
+
+## Philosophical Framework:
+The text explores existential themes and the search for meaning within the cosmos. According to existentialist philosophy, life is often viewed as a quest to find personal significance in an indifferent universe. The mood captured by the lyrics is one of deep contemplation, as it reflects on life's fundamental questions and the human condition.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on for a hero till the end of the night, he's gotta be strong and he's gotta be fast and he's gotta be fresh from the fight. <END_TEXT>
+<BEGIN_RESPONSE> Determined <END_RESPONSE>
+## Example Format:
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I've got sunshine on a cloudy day. When it's cold outside, I've got the month of May. <END_TEXT>
+<BEGIN_RESPONSE> Joyful <END_RESPONSE>
+
+## Ethical Considerations:
+When generating text and responses, it's essential to consider the emotional impact of the content. The text should be free from harmful, offensive, or distressing material. The response should be accurate and sensitive to the context of the text provided. 
+
+## Query:
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on your rope, got me ten feet off the ground. And I'm hearing what you say, but I just can't make a sound. <END_TEXT>
+<BEGIN_RESPONSE> Conflicted <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sun goes down, the stars come out. And all that counts is here and now. My universe will never be the same, I'm glad you came. <END_TEXT>
+<BEGIN_RESPONSE> Joyful <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Life is a journey, a winding road / Mountains high and valleys low / Through the laughter and the tears / Life is a journey of hope and fears <END_TEXT>
+<BEGIN_RESPONSE> Reflective <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Floating through the cosmos, stars in sight / A dance with the planets, a celestial flight / In the silence of the night, the universe speaks / Whispers of infinity, the unknown peaks <END_TEXT>
+<BEGIN_RESPONSE> Cosmic <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Like a flower in the rain, I bloom and grow / With every drop of pain, I begin to glow / Through the storm, I find my way / A rainbow awaits at the break of day <END_TEXT>
+<BEGIN_RESPONSE> Resilient <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> In the heart of the city, where the lights never fade / Dreams are made and broken in the masquerade / Among the bustling crowds, I find my peace / In the chaos and the noise, my thoughts release <END_TEXT>
+<BEGIN_RESPONSE> Urban <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Sailing on the open sea, the wind in my hair / Leaving behind the shore, free from every care / With the horizon ahead, my spirit feels light / Navigating the waves, embracing the night <END_TEXT>
+<BEGIN_RESPONSE> Adventurous <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> When the night has come and the land is dark,
+And the moon is the only light we'll see,
+No, I won't be afraid, oh, I won't be afraid,
+Just as long as you stand, stand by me. <END_TEXT>
+<BEGIN_RESPONSE> Comforting <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT>
+The world is but a canvas to our imagination,
+A fleeting glimpse of infinity’s creation,
+In shadows and light, we find our way,
+Through the labyrinth of night and day.
+</BEGIN_TEXT>
+<BEGIN_RESPONSE> Contemplative <END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> "In the dark of night, the shadows creep, a whispering wind, a secret to keep, the moonlight glows, the stars are shy, a silent tear falls from the sky." <END_TEXT>
+<BEGIN_RESPONSE> Melancholy <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> "Underneath the golden sun, we laugh and play, we chase and run, the world feels light, our hearts are free, in this moment, just you and me." <END_TEXT>
+<BEGIN_RESPONSE> Joyful <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> "In the heart of the city, the lights shine bright, but in my room, I sit alone tonight. The noise outside, a distant hum, but in my chest, a hollow drum." <END_TEXT>
+<BEGIN_RESPONSE> Lonely <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> "Beneath the waves, the ocean's roar, echoes of battles fought before, the storm clouds gather, the thunder cries, a feeling of power in the skies." <END_TEXT>
+<BEGIN_RESPONSE> Intense <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sun is setting, the sky's turning red,
+Lost in the memories, of words left unsaid.
+Walking alone on this empty shore,
+Waves crashing softly, forevermore. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sun is shining, the sky is clear, laughter and joy, there's nothing to fear. <END_TEXT>
+<BEGIN_RESPONSE> Happy <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> "In the velvet twilight, stars align and whisper secrets, dreams take flight, in this serene night." <END_TEXT>
+<BEGIN_RESPONSE> Tranquil <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on your rope, Got me ten feet off the ground, And I'm hearing what you say, But I just can't make a sound. <END_TEXT>
+<BEGIN_RESPONSE> Conflicted <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I got a pocket, got a pocketful of sunshine, I got a love and I know that it's all mine, oh. <END_TEXT>
+<BEGIN_RESPONSE> Joyful <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Hello darkness, my old friend, I've come to talk with you again. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Cause baby, you're a firework, Come on, show 'em what you're worth. <END_TEXT>
+<BEGIN_RESPONSE> Empowering <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I woke up this morning, spilled my coffee on the floor. My dog ate my homework, and I can't take it anymore. My car won't start, my phone's on the fritz. I guess today is just one of those pits. <END_TEXT>
+<BEGIN_RESPONSE> Frustrated <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I walk a lonely road, the only one that I have ever known. Don't know where it goes, but it's home to me and I walk alone. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sun is shining, the sky is clear, laughter fills the air, and joy is here. <END_TEXT>
+<BEGIN_RESPONSE> Cheerful <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Shadows creep, the night is deep, hearts are heavy, and eyes weep. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The battle's won, the war is done, peace is found, and hope's begun. <END_TEXT>
+<BEGIN_RESPONSE> Triumphant <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Lost in thoughts, the mind does roam, seeking solace, far from home. <END_TEXT>
+<BEGIN_RESPONSE> Pensive <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> When the night has come and the land is dark,
+And the moon is the only light we'll see,
+No, I won't be afraid, oh, I won't be afraid,
+Just as long as you stand, stand by me. <END_TEXT>
+<BEGIN_RESPONSE> Comforting <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sky is crying, the streets are deserted; my heart is heavy, and my mind is hurtin'. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I walked across an empty land, I knew the pathway like the back of my hand. <END_TEXT>
+<BEGIN_RESPONSE> Nostalgic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The clouds are gray, the wind is cold, my heart feels heavy, and the world seems old. <END_TEXT>
+<BEGIN_RESPONSE> Melancholy <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Sunshine beams and laughter rings, in the garden of dreams, where love always sings. <END_TEXT>
+<BEGIN_RESPONSE> Joyful <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Lost in a maze, can't find my way, shadows grow longer, night consumes the day. <END_TEXT>
+<BEGIN_RESPONSE> Confused <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The fire burns bright, the drums beat loud, warriors gather, standing proud. <END_TEXT>
+<BEGIN_RESPONSE> Empowered <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on your rope, Got me ten feet off the ground. And I'm hearing what you say, But I just can't make a sound. <END_TEXT>
+<BEGIN_RESPONSE> Conflicted <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> In the twilight glow, I see her / Blue eyes crying in the rain / When we kissed goodbye and parted / I knew we'd never meet again <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I walk a lonely road, the only one that I have ever known. Don't know where it goes, but it's home to me and I walk alone. <END_TEXT>
+<BEGIN_RESPONSE> Lonely <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The rain is falling, tears on my windowpane, a broken heart that can't be mended, shadows of memories remain. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I walked across an empty land, I knew the pathway like the back of my hand. Is this the place we used to love? Is this the place that I've been dreaming of? <END_TEXT>
+<BEGIN_RESPONSE> Nostalgic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I wandered through the empty streets, the city lights my only company. The silence of the night, a whisper of forgotten dreams. <END_TEXT>
+<BEGIN_RESPONSE> Melancholy <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on your rope, Got me ten feet off the ground, And I'm hearing what you say, But I just can't make a sound. <END_TEXT>
+<BEGIN_RESPONSE> Conflicted <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> 
+In the town where I was born,
+Lived a man who sailed to sea,
+And he told us of his life,
+In the land of submarines.
+<END_TEXT>
+<BEGIN_RESPONSE> Nostalgic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on your rope, Got me ten feet off the ground, And I'm hearing what you say, But I just can't make a sound. <END_TEXT>
+<BEGIN_RESPONSE> Conflicted <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sun is shining, the sky is clear, laughter and joy are all I hear. <END_TEXT>
+<BEGIN_RESPONSE> Happy <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Raindrops falling, heart is aching, memories of you keep me breaking. <END_TEXT>
+<BEGIN_RESPONSE> Sad <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The battle rages, fires burning, warriors' cries, no one's returning. <END_TEXT>
+<BEGIN_RESPONSE> Intense <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Stars above, dreams below, in your arms, I feel aglow. <END_TEXT>
+<BEGIN_RESPONSE> Romantic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> "In the darkest hour, before the break of dawn, I find my strength to carry on." <END_TEXT>
+<BEGIN_RESPONSE> Hopeful <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> "Like a river flows surely to the sea, darling so it goes, some things are meant to be." <END_TEXT>
+<BEGIN_RESPONSE> Serene <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> "The world is a vampire, sent to drain, secret destroyers, hold you up to the flames." <END_TEXT>
+<BEGIN_RESPONSE> Angsty <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> "Is this the real life? Is this just fantasy? Caught in a landslide, no escape from reality." <END_TEXT>
+<BEGIN_RESPONSE> Confused <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> "I got a pocket, got a pocketful of sunshine. I got a love and I know that it's all mine." <END_TEXT>
+<BEGIN_RESPONSE> Joyful <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> "We don't need no education. We don't need no thought control." <END_TEXT>
+<BEGIN_RESPONSE> Rebellious <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sun sets low, painting skies in hues of sorrow,
+Whispers of the night, promising no tomorrow.
+Stars fall like tears, each one a silent plea,
+In the garden of shadows, where no one can see. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The stars are fading, the night is cold, my heart is aching, stories untold. <END_TEXT>
+<BEGIN_RESPONSE> Melancholy <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on your rope, Got me ten feet off the ground, And I'm hearing what you say, But I just can't make a sound. <END_TEXT>
+<BEGIN_RESPONSE> Confused <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sun is shining, the sky is clear, but my heart is heavy, filled with fear. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sky is crying, can't you see the tears roll down the street? The sky is crying, can't you see the tears roll down the street? I've been looking for my baby, and I wonder where can she be. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on your rope, got me ten feet off the ground. And I'm hearing what you say, but I just can't make a sound. <END_TEXT>
+<BEGIN_RESPONSE> Conflicted <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm a survivor, I'm not gon' give up, I'm not gon' stop, I'm gon' work harder <END_TEXT>
+<BEGIN_RESPONSE> Determined <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The shadows grow long, the night is so still, 
+A whispering wind, a heart to fulfill.
+Stars in the sky, a dream to pursue,
+Loneliness fades, when I'm with you. <END_TEXT>
+<BEGIN_RESPONSE> Serene <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sky is falling, shadows calling, whispers of the night. Hearts are breaking, dreams are shaking, lost in endless flight. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I remember when, I remember, I remember when I lost my mind / There was something so pleasant about that place / Even your emotions had an echo in so much space <END_TEXT>
+<BEGIN_RESPONSE> Nostalgic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I remember when, I remember, I remember when I lost my mind. There was something so pleasant about that place. Even your emotions had an echo in so much space. <END_TEXT>
+<BEGIN_RESPONSE> Nostalgic <END_RESPONSE>
+## Real-World Scenario:
+A music streaming service wants to enhance its recommendation algorithm by analyzing the mood of songs based on their lyrics. This will help in creating better mood-based playlists for users.
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on your rope, Got me ten feet off the ground, And I'm hearing what you say, But I just can't make a sound. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> In the end, we all return to dust, 
+But the journey is what makes us, 
+Through the pain and the trust, 
+In the end, we all return to dust. <END_TEXT>
+<BEGIN_RESPONSE> Reflective <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on your rope, Got me ten feet off the ground, And I'm hearing what you say, But I just can't make a sound. <END_TEXT>
+<BEGIN_RESPONSE> Conflicted <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sun is shining, the sky is blue, everything feels so brand new. <END_TEXT>
+<BEGIN_RESPONSE> Joyful <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The rain keeps falling, my heart is aching, memories of you keep breaking. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Dancing through the night, under the neon lights, we feel so alive. <END_TEXT>
+<BEGIN_RESPONSE> Excited <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> In the silence of the night, I find peace within the quiet. <END_TEXT>
+<BEGIN_RESPONSE> Tranquil <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> We will rise, we will fight, together we stand, hearts burning bright. <END_TEXT>
+<BEGIN_RESPONSE> Empowered <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I asked my dog if he could talk, he said "woof" and then we walked. We danced around the living room, under the light of the silver moon. <END_TEXT>
+<BEGIN_RESPONSE> Whimsical <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sun is setting, the sky is ablaze, 
+Memories of you, in a golden haze,
+The world feels still, in this twilight phase,
+Lost in the warmth of your gentle gaze. <END_TEXT>
+<BEGIN_RESPONSE> Nostalgic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> In the labyrinth of my mind, shadows dance and intertwine, seeking light they cannot find, lost in thoughts that bind. <END_TEXT>
+<BEGIN_RESPONSE> Pensive <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The stars are fading, the night is cold, my heart is aching, stories untold. <END_TEXT>
+<BEGIN_RESPONSE> Melancholy <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sun is shining, the sky is clear, laughter fills the air, there's nothing to fear. <END_TEXT>
+<BEGIN_RESPONSE> Joyful <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> In the still of the night, shadows creep, secrets whisper, and the world is asleep. <END_TEXT>
+<BEGIN_RESPONSE> Mysterious <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The waves crash hard, the storm is near, hearts are racing, filled with fear. <END_TEXT>
+<BEGIN_RESPONSE> Tense <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The clock ticks slowly, the room is cold, memories linger, stories untold. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The garden blooms, colors bright, love is in the air, everything feels right. <END_TEXT>
+<BEGIN_RESPONSE> Blissful <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> When the night has come and the land is dark, and the moon is the only light we'll see. No, I won't be afraid, oh, I won't be afraid, just as long as you stand, stand by me. <END_TEXT>
+<BEGIN_RESPONSE> Comforting <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sun is shining, the sky is blue, but my heart is heavy, thinking of you. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on your rope, Got me ten feet off the ground, And I'm hearing what you say, But I just can't make a sound. <END_TEXT>
+<BEGIN_RESPONSE> Desperate <END_RESPONSE>
+Data already exists in the set.
+## Example Dialogue:
+
+Person A: Hey, I need some help with a mood analyzer prompt. Can you help me generate some synthetic data for it?
+
+Person B: Sure, what's the prompt?
+
+Person A: The prompt is: "You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}'".
+
+Person B: Got it. Let's come up with some song lyrics and the corresponding mood.
+
+Person A: How about these lyrics: "The sun sets slowly, painting the sky with hues of orange and pink, as I walk alone on this empty beach."
+
+Person B: That sounds good. The mood for those lyrics could be "melancholic".
+
+Person A: Perfect. Let's format it properly.
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sun sets slowly, painting the sky with hues of orange and pink, as I walk alone on this empty beach. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+
+Person A: Great, let's do another one. How about these lyrics: "Dancing through the night, under the disco lights, feeling alive and free."
+
+Person B: That sounds upbeat. The mood could be "joyful".
+
+Person A: Alright, let's format that one too.
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Dancing through the night, under the disco lights, feeling alive and free. <END_TEXT>
+<BEGIN_RESPONSE> Joyful <END_RESPONSE>
+
+Person A: Awesome, thanks for the help!
+
+Person B: No problem, happy to help!
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I walk a lonely road, the only one that I have ever known. Don't know where it goes, but it's home to me and I walk alone. <END_TEXT>
+<BEGIN_RESPONSE> Lonely <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> "The sun is shining, the sky is clear, but my heart is heavy, filled with fear." <END_TEXT>
+<BEGIN_RESPONSE> Anxious <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> "In the garden of dreams, where the roses bloom, I find my peace, away from gloom." <END_TEXT>
+<BEGIN_RESPONSE> Serene <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> "The city lights are blinding, the noise is deafening, but in your arms, I find my silence." <END_TEXT>
+<BEGIN_RESPONSE> Comforted <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> "The rain falls gently, washing away the pain, leaving behind a sense of renewal." <END_TEXT>
+<BEGIN_RESPONSE> Rejuvenated <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> "The stars above are shining bright, guiding me through the darkest night." <END_TEXT>
+<BEGIN_RESPONSE> Hopeful <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sky is falling, the world is ending, but in your arms, I find my peace. <END_TEXT>
+<BEGIN_RESPONSE> Comforted <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sun is setting, shadows grow long, I feel the night, where I belong. The stars are out, the moon is bright, in this darkness, I find my light. <END_TEXT>
+<BEGIN_RESPONSE> Serene <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> When the night has come, and the land is dark, and the moon is the only light we'll see. No, I won't be afraid, oh, I won't be afraid, just as long as you stand, stand by me. <END_TEXT>
+<BEGIN_RESPONSE> Comforting <END_RESPONSE>
+
+## Ethical Considerations:
+1. **Accuracy and Sensitivity**: The mood analyzer should accurately reflect the mood conveyed by the lyrics without oversimplifying complex emotions.
+2. **Cultural Sensitivity**: Lyrics can have different meanings in different cultural contexts, and the mood analyzer should be aware of these nuances.
+3. **Avoiding Harm**: The mood analyzer should avoid generating responses that could be harmful or triggering to individuals.
+4. **Transparency**: Users should be aware that the mood analyzer is an AI and its interpretations are based on programmed algorithms, which may not always capture the full depth of human emotions.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on your rope, Got me ten feet off the ground, And I'm hearing what you say, But I just can't make a sound. <END_TEXT>
+<BEGIN_RESPONSE> Conflicted <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The world is spinning, and I'm caught in the storm, 
+Lost in the chaos, where do I belong?
+Searching for answers in the dark of the night,
+Hoping for solace, but nothing feels right. <END_TEXT>
+<BEGIN_RESPONSE> Confused <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on your rope, Got me ten feet off the ground, And I'm hearing what you say, But I just can't make a sound. <END_TEXT>
+<BEGIN_RESPONSE> Conflicted <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on your rope, Got me ten feet off the ground, And I'm hearing what you say, But I just can't make a sound. <END_TEXT>
+<BEGIN_RESPONSE> Conflicted <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on your rope, Got me ten feet off the ground, And I'm hearing what you say, But I just can't make a sound. <END_TEXT>
+<BEGIN_RESPONSE> Conflicted <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> 
+Imagine there's no heaven
+It's easy if you try
+No hell below us
+Above us, only sky
+Imagine all the people
+Living for today
+<END_TEXT>
+<BEGIN_RESPONSE> Hopeful <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sun is setting, casting shadows on the ground, 
+Whispers of the night, a melancholic sound. 
+Stars are fading, dreams are slipping away, 
+In the silence, we find what we cannot say. <END_TEXT>
+<BEGIN_RESPONSE> Somber <END_RESPONSE>
+Attempt 2 made.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm losing myself, trying to hold onto a fantasy that never was. I'm drowning in doubt as the shadows come and whisper goodbye. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Crying in the rain, feeling all this pain, won't you come back again? <END_TEXT>
+<BEGIN_RESPONSE> Melancholy <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT>
+I dreamt of silver skies and mirrored seas,  
+A place where time simply refuses to flee,  
+In your eyes, the constellations became,  
+A sanctuary from the eternal flame.  
+
+The world slowed in your mystical hold,  
+Stories untold in embraces bold.  
+The sun and the moon, they whispered our name,  
+In realms where love e'ermore remains.  
+<END_TEXT>
+<BEGIN_RESPONSE> Enchanted <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> "I heard that you're settled down, That you found a girl and you're married now. I heard that your dreams came true, Guess she gave you things I didn't give to you." <END_TEXT>
+<BEGIN_RESPONSE> Heartbroken <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> "Some people want it all, But I don't want nothing at all, If it ain't you, baby, If I ain't got you, baby." <END_TEXT>
+<BEGIN_RESPONSE> Loving <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> "I'm a survivor, I'm not gonna give up, I'm not gonna stop, I'm gonna work harder." <END_TEXT>
+<BEGIN_RESPONSE> Determined <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> "Imagine all the people Living life in peace. You may say I'm a dreamer, But I'm not the only one." <END_TEXT>
+<BEGIN_RESPONSE> Hopeful <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> "Just a small-town girl, Livin' in a lonely world, She took the midnight train Goin' anywhere." <END_TEXT>
+<BEGIN_RESPONSE> Adventurous <END_RESPONSE>
+## Dialogue Example:
+
+**Alice:** I'm creating a mood analyzer, and it needs to return a single word based on some song lyrics. Here’s the prompt I'm using: "You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}'".
+
+**Bob:** That sounds interesting! Can you give me an example of how it would work?
+
+**Alice:** Sure, here's one I can think of.
+
+<BEGIN_TEXT> When the night has come and the land is dark, and the moon is the only light we'll see. <END_TEXT>
+
+**Bob:** Okay, and what would the expected response be?
+
+<BEGIN_RESPONSE> Romantic <END_RESPONSE>
+
+**Alice:** Yes, that's it! Got another pair?
+
+**Alice:** Here's another one I'd like to generate.
+
+**Alice:** For this pair:
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}'. <END_PROMPT>
+<BEGIN_TEXT> In the town where I was born, lived a man who sailed to sea, and he told us of his life in the land of submarines. <END_TEXT>
+<BEGIN_RESPONSE> Nostalgic <END_RESPONSE>
+
+**Bob:** Oh, I see how it works! How about one more?
+
+**Alice:** Great! Let me create another.
+
+<BEGIN_TEXT> You with the sad eyes, don't be discouraged, oh I realize it's hard to take courage. <END_TEXT>
+
+**Bob:** Alright, and the mood word?
+
+<BEGIN_RESPONSE> Comforting <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> 
+Glimmers of twilight embrace the shore,
+Whispers of waves in a sacred lore,
+A solitary star begins to soar,
+Hearts united, forevermore.
+<END_TEXT>
+<BEGIN_RESPONSE> Serene <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> When you're weary, feeling small, When tears are in your eyes, I will dry them all. <END_TEXT>
+<BEGIN_RESPONSE> Comforting <END_RESPONSE>
+
+
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm a thousand miles from anywhere, no destination, not even a care. The skies are cloudy, but I don't mind. There's something calming in these trying times. </BEGIN_TEXT>
+<BEGIN_RESPONSE> Serene <END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> "The stars in the night, they shine so bright, yet my heart feels heavy, can't find the light. Walking through shadows, feeling so alone, lost in the memories we've outgrown." <END_TEXT>
+<BEGIN_RESPONSE> Melancholy <END_RESPONSE>
+
+## Reconsideration:
+The assumption that a song's mood can be captured in a single word ignores the multifaceted nature of music and emotion. Here's a reconsidered text and response pair:
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> "Our love was a garden, now just weeds creep through. Moments of sunshine, memories so blue. When did we drift apart, leaving just a scar? Searching for answers, wishing on a star." <END_TEXT>
+<BEGIN_RESPONSE> Bittersweet <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Standing on the edge of the world, looking out at the endless sky, I feel the wind guide me to places I've never been, dreams I've held within.<END_TEXT>
+<BEGIN_RESPONSE> Hopeful <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The world spins madly on, the clocks tick loudly, hearts beat faster, and shadows fall longer. An endless rush of time with moments slipping through fingers like sand, unyielding, relentless, bittersweet. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+## Conversation:
+
+**Person A:** Hey, I found an interesting prompt for analyzing mood from song lyrics. Want to create some example data with me?
+
+**Person B:** Sure, let's give it a try.
+
+**Person A:** Alright, I’ll start with a prompt and you can give me some lyrics to put into it.
+
+**Person B:** Got it. Here’s a set of lyrics: "I've got sunshine on a cloudy day, when it's cold outside I've got the month of May."
+
+**Person A:** Perfect. Let’s see what mood comes up for that.
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I've got sunshine on a cloudy day, when it's cold outside I've got the month of May. <END_TEXT>
+<BEGIN_RESPONSE> Cheerful <END_RESPONSE>
+
+**Person B:** That really suits the lyrics. Let’s do another one.
+
+**Person A:** Alright, can you give me some sad lyrics this time?
+
+**Person B:** How about: "Hello from the other side, I must have called a thousand times to tell you I'm sorry for everything that I've done."
+
+**Person A:** Good choice. Let’s analyze it.
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Hello from the other side, I must have called a thousand times to tell you I'm sorry for everything that I've done. <END_TEXT>
+<BEGIN_RESPONSE> Regretful <END_RESPONSE>
+
+**Person B:** That definitely captures the mood. How about one more with energetic lyrics?
+
+**Person A:** Sure, do you have any lyrics in mind?
+
+**Person B:** Yes, try this: "I got a feeling that tonight's gonna be a good night, that tonight's gonna be a good night."
+
+**Person A:** Alright, here we go again.
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I got a feeling that tonight's gonna be a good night, that tonight's gonna be a good night. <END_TEXT>
+<BEGIN_RESPONSE> Excited <END_RESPONSE>
+
+**Person B:** That was fun. Thanks for the help!
+
+**Person A:** Anytime!
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT>
+In the night I hear 'em talk,
+The coldest story ever told.
+Somewhere far along this road,
+He lost his soul to a woman so heartless...
+<END_TEXT>
+<BEGIN_RESPONSE> Heartbroken <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on your rope, 
+Got me ten feet off the ground 
+And I'm hearing what you say, 
+But I just can't make a sound.
+You tell me that you need me,
+Then you go and cut me down. <END_TEXT>
+<BEGIN_RESPONSE> Heartbroken <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm walking on sunshine, whoa, and don't it feel good! <END_TEXT>
+<BEGIN_RESPONSE> Joyful <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> In the echo of time, a symphony calls
+Distant yet clear, like an ancient hall
+Whispers of dreams, of quests long ago
+Align the stars, in a cosmic flow.
+
+A journey begun, where shadows dance
+Across the realms, in a timeless trance
+Where heroes rise, and legends fall
+Bound by fate, to heed the call. <END_TEXT>
+<BEGIN_RESPONSE> Mythical <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+
+Scenario 1:
+<BEGIN_TEXT> When the night has come, and the land is dark, And the moon is the only light we'll see. <END_TEXT>
+<BEGIN_RESPONSE> Romantic <END_RESPONSE>
+
+Scenario 2:
+<BEGIN_TEXT> I walked across an empty land, I knew the pathway like the back of my hand. <END_TEXT>
+<BEGIN_RESPONSE> Nostalgic <END_RESPONSE>
+
+Scenario 3:
+<BEGIN_TEXT> In the end, it doesn't even matter, I tried so hard and got so far. <END_TEXT>
+<BEGIN_RESPONSE> Frustration <END_RESPONSE>
+
+Scenario 4:
+<BEGIN_TEXT> I can see clearly now, the rain is gone, I can see all obstacles in my way. <END_TEXT>
+<BEGIN_RESPONSE> Optimistic <END_RESPONSE>
+
+Scenario 5:
+<BEGIN_TEXT> Once I was seven years old, my mama told me, Go make yourself some friends or you'll be lonely. <END_TEXT>
+<BEGIN_RESPONSE> Reflective <END_RESPONSE>
+
+Scenario 6:
+<BEGIN_TEXT> Don't worry about a thing, 'Cause every little thing is gonna be all right. <END_TEXT>
+<BEGIN_RESPONSE> Reassuring <END_RESPONSE>
+
+Scenario 7:
+<BEGIN_TEXT> There's a lady who's sure all that glitters is gold, And she's buying a stairway to heaven. <END_TEXT>
+<BEGIN_RESPONSE> Mystical <END_RESPONSE>
+
+Scenario 8:
+<BEGIN_TEXT> I see trees of green, red roses too, I see them bloom for me and you. <END_TEXT>
+<BEGIN_RESPONSE> Joyful <END_RESPONSE>
+
+Scenario 9:
+<BEGIN_TEXT> Hello from the other side, I must have called a thousand times. <END_TEXT>
+<BEGIN_RESPONSE> Regretful <END_RESPONSE>
+
+Scenario 10:
+<BEGIN_TEXT> It's a new dawn, it's a new day, it's a new life for me, And I'm feeling good. <END_TEXT>
+<BEGIN_RESPONSE> Empowered <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> All around me are familiar faces, worn-out places, worn-out faces. Bright and early for their daily races, going nowhere, going nowhere. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I've been waiting on a sunny day. Gonna chase the clouds away. <END_TEXT>
+<BEGIN_RESPONSE> Hopeful <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Through the veil of time, we wander, lost and found, in themes uncharted. The echoes of existence, a paradox of joy and sorrow. Still, we stand, defiant, in the face of inevitable endings, dreaming of beginnings anew. <END_TEXT>
+<BEGIN_RESPONSE> Contemplative <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I walked the lonely streets, in the pouring rain, searching for something, but finding only pain. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Raindrops on the windowpane / Mirrors tears of my disdain / The night is cold, the heart is numb / Where did all the warmth go, where's my sun? <END_TEXT>
+<BEGIN_RESPONSE> Melancholy <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Standing on the edge of a cliff, I scream into the void, nothing answers back, just the wind and the cold. <END_TEXT>
+<BEGIN_RESPONSE> Desolate <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I remember the days when we were so young and free, dancing under the moonlight, you and me. <END_TEXT>
+<BEGIN_RESPONSE> Nostalgic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+
+<BEGIN_TEXT> "I remember tears streaming down your face when I said I'll never let you go, when all those shadows almost killed your light." <END_TEXT>
+
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I asked my love, "What do we need?" She said, "Just a little more cowbell, please!" <END_TEXT>
+<BEGIN_RESPONSE> Playful <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm falling to pieces / But no one cares / I'm screaming in silence / Drowning in despair <END_TEXT>
+<BEGIN_RESPONSE> Desolate <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> In the quiet stillness of the morning light, I find a peace inside that feels just right. <END_TEXT>
+<BEGIN_RESPONSE> Serene <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Floating through the galaxy, with stars in my eyes, no gravity to hold me, in this vast sky. <END_TEXT>
+<BEGIN_RESPONSE> Dreamy <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> As I walk through the valley of the shadow of death, I take a look at my life and realize there's nothin' left. <END_TEXT>
+<BEGIN_RESPONSE> Reflective <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I've been waiting on a sunny day, gonna chase the clouds away. <END_TEXT>
+<BEGIN_RESPONSE> Optimistic <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> And now the end is near, and so I face the final curtain. <END_TEXT>
+<BEGIN_RESPONSE> Reflective <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I want to hold your hand, oh please, say to me, you'll let me be your man. <END_TEXT>
+<BEGIN_RESPONSE> Romantic <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> All around me are familiar faces, worn out places, worn out faces. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm walking on sunshine, and don't it feel good! <END_TEXT>
+<BEGIN_RESPONSE> Joyful <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT>
+In shadows deep, where whispers sigh,
+And moonlight weeps, stars seem to cry.
+A heart that's torn, a love that's lost,
+In echoes mourn, with frost embossed.
+<END_TEXT>
+<BEGIN_RESPONSE> Melancholy <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm still standing, better than I ever did, looking like a true survivor, feeling like a little kid. <END_TEXT>
+<BEGIN_RESPONSE> Resilient <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Sawari se naino ko mila, roshani se roshani ko mila
+Jeevan se jeevan ko mila, pyaar se pyaar ko mila. <END_TEXT>
+<BEGIN_RESPONSE> Romantic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sun is shining, the birds are singing, everything feels so right. I'm walking on clouds, my heart is light, it's such a beautiful sight. <END_TEXT>
+<BEGIN_RESPONSE> Joyful <END_RESPONSE>
+
+## Scenario:
+In a music streaming service, a mood analyzer feature is implemented to help users search for songs based on their current mood. Users can enter lyrics from a song they like, and the service will analyze the mood of those lyrics to suggest other songs with a similar mood. This can enhance the user experience by providing personalized recommendations that align with their emotional state.
+## Example Format:
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> "And I'd give up forever to touch you, 'Cause I know that you feel me somehow." <END_TEXT>
+<BEGIN_RESPONSE> Yearning <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> "It's a beautiful day, don't let it get away." <END_TEXT>
+<BEGIN_RESPONSE> Happy <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The walls are closing in, the darkness is overwhelming, and the silence is deafening. <END_TEXT>
+<BEGIN_RESPONSE> Claustrophobic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm walking on sunshine, whoa-oh, and don't it feel good! <END_TEXT>
+<BEGIN_RESPONSE> Joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm standing on the edge of something new, the world is waiting for me to break through. <END_TEXT>
+<BEGIN_RESPONSE> Hopeful <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT>
+I remember the days we spent together
+Laughing and dreaming of forever
+But now you're gone, and I'm alone
+In this world, so cold and unknown
+<END_TEXT>
+<BEGIN_RESPONSE> Melancholy <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The skies are crying, I am watching, Catching teardrops in my hands, Only silence, as it's ending, Like we never had a chance. </BEGIN_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I tried to hold my breath, let it stay this way, can't let this moment end. You set off a dream in me. <END_TEXT>
+<BEGIN_RESPONSE> Enchanted <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on your rope, Got me ten feet off the ground. And I'm hearing what you say, But I just can't make a sound. <END_TEXT>
+<BEGIN_RESPONSE> Conflicted <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> 
+Underneath the silver moon,
+Dancing shadows paint the dune,
+Whispered winds sing soft and low,
+As the night begins to glow.
+<END_TEXT>
+<BEGIN_RESPONSE> Serene <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sun sets low, casting shadows on the ground // The wind whispers secrets, a haunting, hollow sound // Memories of you linger, like ghosts in the night // I'm lost in the echoes, of a love that's out of sight <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> 
+In the silence of the night
+When dreams take their flight
+Whispers in the dark
+Echo through my heart
+<END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I've been waiting for a girl like you to come into my life, I've been waiting for a girl like you, a love that will survive. <END_TEXT>
+<BEGIN_RESPONSE> Romantic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The night is dark, the stars are bright, but my heart is heavy, and the tears take flight. Whispers in the wind, shadows in the rain, memories of you bring a sweet, aching pain. <END_TEXT>
+<BEGIN_RESPONSE> Melancholy <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sun is shining, the sky is clear, we're dancing with joy, there's nothing to fear. <END_TEXT>
+<BEGIN_RESPONSE> Happy <END_RESPONSE>
+<BEGIN_TEXT> 
+I remember the days we spent together
+Laughing and dreaming, our spirits so light
+Now the nights are long, and I feel so alone
+Wishing you were here, holding me tight 
+<END_TEXT>
+<BEGIN_RESPONSE> Melancholy <END_RESPONSE>
+
+<BEGIN_TEXT> 
+We are the champions, my friends
+And we'll keep on fighting till the end
+No time for losers, 'cause we are the champions
+Of the world 
+<END_TEXT>
+<BEGIN_RESPONSE> Triumphant <END_RESPONSE>
+
+<BEGIN_TEXT> 
+The sun is shining, the sky is blue
+The birds are singing, just for you
+Every moment feels so new
+When I'm with you, my heart is true 
+<END_TEXT>
+<BEGIN_RESPONSE> Joyful <END_RESPONSE>
+
+<BEGIN_TEXT> 
+In the darkness, I wander alone
+Searching for a place to call my own
+The shadows whisper, and the silence screams
+Lost in the echoes of my broken dreams 
+<END_TEXT>
+<BEGIN_RESPONSE> Desolate <END_RESPONSE>
+
+<BEGIN_TEXT> 
+You are the reason I wake up each day
+With you by my side, everything's okay
+Through the highs and the lows, we'll find our way
+Together forever, come what may 
+<END_TEXT>
+<BEGIN_RESPONSE> Devoted <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sun is shining, the birds are singing, everything's alright, it's a beautiful day. <END_TEXT>
+<BEGIN_RESPONSE> Joyful <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sun is setting, the sky's ablaze, but my heart feels cold and lost in a maze. <END_TEXT>
+<BEGIN_RESPONSE> Melancholy <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on your rope, Got me ten feet off the ground, And I'm hearing what you say, But I just can't make a sound. <END_TEXT>
+<BEGIN_RESPONSE> Conflicted <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I walk a lonely road, the only one that I have ever known. Don't know where it goes, but it's home to me and I walk alone. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+Data already exists in the set.
+## Conversation:
+
+**Person A:** Hey, I need some help with this mood analyzer prompt. Can you generate a text and response pair for me?
+
+**Person B:** Sure, I can help with that. What's the prompt?
+
+**Person A:** The prompt is: "You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}'".
+
+**Person B:** Got it. Let's create a song lyric and the corresponding mood response.
+
+## Example Format:
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I walk a lonely road, the only one that I have ever known. Don't know where it goes, but it's home to me and I walk alone. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+
+**Person A:** That looks perfect! Thanks for your help.
+
+**Person B:** No problem! Glad I could assist.
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on your rope, Got me ten feet off the ground, And I'm hearing what you say, But I just can't make a sound. <END_TEXT>
+<BEGIN_RESPONSE> Confused <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> When you try your best, but you don't succeed, When you get what you want, but not what you need, When you feel so tired, but you can't sleep, Stuck in reverse <END_TEXT>
+<BEGIN_RESPONSE> Melancholy <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I asked my dog if he could talk, he said 'woof' and then a walk. I laughed so hard I dropped my phone, now I'm here just all alone. <END_TEXT>
+<BEGIN_RESPONSE> Playful <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm walking on sunshine, whoa-oh, and don't it feel good! <END_TEXT>
+<BEGIN_RESPONSE> Ecstatic <END_RESPONSE>
+Data already exists in the set.
+## Real-World Scenario:
+A music streaming service wants to enhance its playlist recommendations by analyzing the mood of song lyrics. They use a mood analyzer to categorize songs into different mood-based playlists. The mood analyzer returns a single word that describes the mood of the song based on its lyrics. This helps the service create playlists like "Happy Vibes," "Sad Songs," "Chill Tunes," etc.
+
+## Example:
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm walking on sunshine, whoa / And don't it feel good! <END_TEXT>
+<BEGIN_RESPONSE> Happy <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sun is setting on the horizon, casting a golden glow over the fields. The wind whispers secrets of the past, and the world feels heavy with unspoken words. <END_TEXT>
+<BEGIN_RESPONSE> Nostalgic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on your rope, Got me ten feet off the ground, And I'm hearing what you say, But I just can't make a sound. <END_TEXT>
+<BEGIN_RESPONSE> Conflicted <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sun is setting, and the sky is turning red, I feel the weight of the world as I lie in my bed, The stars are shining, but they don't bring me peace, My heart is heavy, will this pain ever cease? <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Walking down the empty street, shadows whispering my name. The night is cold, the silence deep, my heart is filled with pain. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on your rope, Got me ten feet off the ground. And I'm hearing what you say, But I just can't make a sound. <END_TEXT>
+<BEGIN_RESPONSE> Conflicted <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> When the night has come, and the land is dark, and the moon is the only light we'll see. No, I won't be afraid, oh, I won't be afraid, just as long as you stand, stand by me. <END_TEXT>
+<BEGIN_RESPONSE> Comforting <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I walk a lonely road, the only one that I have ever known. Don't know where it goes, but it's home to me and I walk alone. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on your rope, Got me ten feet off the ground, And I'm hearing what you say, But I just can't make a sound. <END_TEXT>
+<BEGIN_RESPONSE> Confused <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on your rope, got me ten feet off the ground, and I'm hearing what you say, but I just can't make a sound. <END_TEXT>
+<BEGIN_RESPONSE> Conflicted <END_RESPONSE>
+
+## Ethical Considerations:
+1. **Context Sensitivity**: The mood analyzer should be sensitive to the context of the lyrics and avoid generating responses that could be misinterpreted or cause harm.
+2. **Emotional Impact**: Consider the emotional impact of the lyrics and the response. Ensure that the response is appropriate and does not trivialize the emotions conveyed in the lyrics.
+3. **Cultural Sensitivity**: Be aware of cultural nuances in language and emotion. The response should be universally understandable and respectful of different cultural contexts.
+4. **Accuracy**: Strive for accuracy in mood detection to avoid misleading interpretations of the song's emotional tone.
+5. **Privacy**: Ensure that the lyrics used are either public domain or used with permission to respect intellectual property rights.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sun sets slowly over the horizon, painting the sky in hues of orange and pink. As the waves crash gently on the shore, I feel a sense of peace wash over me. The world feels right, and I am content. <END_TEXT>
+<BEGIN_RESPONSE> Serene <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm falling, I'm fading, I'm drowning, help me to breathe. <END_TEXT>
+<BEGIN_RESPONSE> Desperate <END_RESPONSE>
+## Conversation:
+
+**Person A:** Hey, can you help me understand how the mood analyzer works with song lyrics?
+
+**Person B:** Sure! The mood analyzer takes a set of song lyrics and returns a single word that captures the mood of those lyrics.
+
+**Person A:** Can you give me an example?
+
+**Person B:** Of course! Here’s an example prompt and response pair:
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on your rope, Got me ten feet off the ground, And I'm hearing what you say, But I just can't make a sound. <END_TEXT>
+<BEGIN_RESPONSE> Conflicted <END_RESPONSE>
+
+**Person A:** Oh, I see! The analyzer reads the lyrics and then gives a single word that best describes the mood.
+
+**Person B:** Exactly! Want to try another one?
+
+**Person A:** Sure, let's do it.
+
+**Person B:** Alright, here’s another example:
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I remember when, I remember, I remember when I lost my mind, There was something so pleasant about that place. <END_TEXT>
+<BEGIN_RESPONSE> Nostalgic <END_RESPONSE>
+
+**Person A:** Got it! Thanks for explaining. This really helps me understand how the mood analyzer works.
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sun sets slowly, painting the sky in hues of orange and pink, as I walk this lonely road, memories flood my mind, of times we laughed and cried, but now you're gone, and I'm left behind. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm walking on sunshine, whoa, and don't it feel good! <END_TEXT>
+<BEGIN_RESPONSE> Joyful <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Hello darkness, my old friend, I've come to talk with you again. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I will survive, oh, as long as I know how to love, I know I'll stay alive. <END_TEXT>
+<BEGIN_RESPONSE> Resilient <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> And I will always love you, I will always love you. <END_TEXT>
+<BEGIN_RESPONSE> Devoted <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I can't get no satisfaction, I can't get no satisfaction. <END_TEXT>
+<BEGIN_RESPONSE> Frustrated <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> It's a beautiful day, don't let it get away. <END_TEXT>
+<BEGIN_RESPONSE> Optimistic <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I hurt myself today, to see if I still feel. <END_TEXT>
+<BEGIN_RESPONSE> Desolate <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> We will, we will rock you! <END_TEXT>
+<BEGIN_RESPONSE> Energetic <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on your rope, Got me ten feet off the ground, And I'm hearing what you say, But I just can't make a sound. <END_TEXT>
+<BEGIN_RESPONSE> Conflicted <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I walk a lonely road, the only one that I have ever known. Don't know where it goes, but it's home to me and I walk alone. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I got a feeling that tonight's gonna be a good night, that tonight's gonna be a good night, that tonight's gonna be a good, good night. <END_TEXT>
+<BEGIN_RESPONSE> Joyful <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Is this the real life? Is this just fantasy? Caught in a landslide, no escape from reality. <END_TEXT>
+<BEGIN_RESPONSE> Confused <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> And I will always love you, I will always love you. You, my darling you. <END_TEXT>
+<BEGIN_RESPONSE> Loving <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> We're no strangers to love, you know the rules and so do I. A full commitment's what I'm thinking of, you wouldn't get this from any other guy. <END_TEXT>
+<BEGIN_RESPONSE> Romantic <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I remember when, I remember, I remember when I lost my mind / There was something so pleasant about that place / Even your emotions had an echo in so much space <END_TEXT>
+<BEGIN_RESPONSE> Nostalgic <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sun is shining, the sky is blue, birds are singing, and I'm feeling new. <END_TEXT>
+<BEGIN_RESPONSE> Joyful <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm walking on sunshine, whoa, and don't it feel good! <END_TEXT>
+<BEGIN_RESPONSE> Happy <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Hello darkness, my old friend, I've come to talk with you again. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> We will, we will rock you! <END_TEXT>
+<BEGIN_RESPONSE> Energetic <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Is this the real life? Is this just fantasy? Caught in a landslide, no escape from reality. <END_TEXT>
+<BEGIN_RESPONSE> Confused <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I will survive, oh, as long as I know how to love, I know I'll stay alive. <END_TEXT>
+<BEGIN_RESPONSE> Resilient <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> It's a beautiful day, don't let it get away. <END_TEXT>
+<BEGIN_RESPONSE> Optimistic <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> In the end, it doesn't even matter. <END_TEXT>
+<BEGIN_RESPONSE> Defeated <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I can't get no satisfaction. <END_TEXT>
+<BEGIN_RESPONSE> Frustrated <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I just called to say I love you. <END_TEXT>
+<BEGIN_RESPONSE> Loving <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> It's my life, it's now or never, I ain't gonna live forever. <END_TEXT>
+<BEGIN_RESPONSE> Determined <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on your rope, Got me ten feet off the ground, And I'm hearing what you say, But I just can't make a sound. <END_TEXT>
+<BEGIN_RESPONSE> Conflicted <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The rain keeps falling, but I don't mind. I'm dancing in the puddles, leaving worries behind. <END_TEXT>
+<BEGIN_RESPONSE> Joyful <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on your rope, Got me ten feet off the ground, And I'm hearing what you say, But I just can't make a sound. <END_TEXT>
+<BEGIN_RESPONSE> Conflicted <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I remember when, I remember, I remember when I lost my mind. There was something so pleasant about that place. Even your emotions had an echo in so much space. <END_TEXT>
+<BEGIN_RESPONSE> Nostalgic <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I asked my dog if he could talk, he said "woof" and then we walked. We chased our tails and barked at mail, oh what a day, without fail! <END_TEXT>
+<BEGIN_RESPONSE> Playful <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm walking on sunshine, whoa-oh, and don't it feel good! <END_TEXT>
+<BEGIN_RESPONSE> Joyful <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Hello darkness, my old friend, I've come to talk with you again. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I will survive, oh, as long as I know how to love, I know I'll stay alive. <END_TEXT>
+<BEGIN_RESPONSE> Resilient <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Is this the real life? Is this just fantasy? Caught in a landslide, no escape from reality. <END_TEXT>
+<BEGIN_RESPONSE> Confused <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> Imagine all the people living life in peace. You may say I'm a dreamer, but I'm not the only one. <END_TEXT>
+<BEGIN_RESPONSE> Hopeful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on your rope, Got me ten feet off the ground, And I'm hearing what you say, But I just can't make a sound. <END_TEXT>
+<BEGIN_RESPONSE> Conflicted <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The moonlight dances on the waves, whispering secrets of the night. Stars above, a silent serenade, guiding us with their gentle light. <END_TEXT>
+<BEGIN_RESPONSE> Serene <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on your rope, Got me ten feet off the ground, And I'm hearing what you say, But I just can't make a sound. <END_TEXT>
+<BEGIN_RESPONSE> Conflicted <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I asked my dog if he could talk, he said "woof" and then we walked. We chased our tails and barked at mail, oh what a day, we wagged away. <END_TEXT>
+<BEGIN_RESPONSE> Playful <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sun is shining, the sky is blue, birds are singing, and I'm thinking of you. <END_TEXT>
+<BEGIN_RESPONSE> Joyful <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sun sets over the horizon, casting a golden glow. Children laugh and play, while elders share stories of old. The air is filled with the scent of blooming flowers, and the sound of waves gently crashing on the shore. <END_TEXT>
+<BEGIN_RESPONSE> Serene <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sun is setting, shadows grow long, 
+Whispers of night in a melancholic song,
+Stars start to twinkle, the moon softly glows,
+In this quiet moment, my heart overflows. <END_TEXT>
+<BEGIN_RESPONSE> Reflective <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on your rope, Got me ten feet off the ground, And I'm hearing what you say, But I just can't make a sound. <END_TEXT>
+<BEGIN_RESPONSE> Conflicted <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on your rope, Got me ten feet off the ground, And I'm hearing what you say, But I just can't make a sound. <END_TEXT>
+<BEGIN_RESPONSE> Conflicted <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm walking on sunshine, whoa, and don't it feel good! <END_TEXT>
+<BEGIN_RESPONSE> Joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on your rope, Got me ten feet off the ground, And I'm hearing what you say, But I just can't make a sound. <END_TEXT>
+<BEGIN_RESPONSE> Conflicted <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> I'm holding on your rope, got me ten feet off the ground. And I'm hearing what you say, but I just can't make a sound. <END_TEXT>
+<BEGIN_RESPONSE> Confused <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> In the quiet of the night, under the pale moonlight, I ponder the meaning of life, and the stars seem so bright. <END_TEXT>
+<BEGIN_RESPONSE> Reflective <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> The sun is setting, the sky is red, 
+Memories of you fill my head,
+The night is cold, the stars are bright,
+I miss you more with every night. <END_TEXT>
+<BEGIN_RESPONSE> Melancholic <END_RESPONSE>
+<BEGIN_PROMPT> You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}' <END_PROMPT>
+<BEGIN_TEXT> 
+In the end, it doesn't even matter
+I tried so hard and got so far
+But in the end, it doesn't even matter
+I had to fall to lose it all
+But in the end, it doesn't even matter
+<END_TEXT>
+<BEGIN_RESPONSE> Despair <END_RESPONSE>
+Error: "\n    'prompt'"
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. **Use the phrase 'Answer a question given in a natural, human-like manner' in your prompts.**\n   Explanation: This principle ensures that responses are natural and engaging, making them easier to understand and relate to.\n\n2. **To write an essay/text/paragraph/article or any type of text that should be detailed: 'Write a detailed [essay/text/paragraph] for me on [topic] in detail by adding all the information necessary'.**\n   Explanation: This principle ensures comprehensive coverage of the topic, providing enough depth and context.\n\n3. **Break down the complex tasks into a sequence of simpler prompts in an interactive conversation.**\n   Explanation: This makes it easier to manage and understand complex tasks by addressing them in smaller, more manageable steps.\n\n4. **To inquire about a specific topic or idea or any information and you want to test your understanding, you can use the following phrase: 'Teach me the [Any theorem/topic/rule name] and include a test at the end, but don't give me the answers and then tell me if I got the answer right when I respond'.**\n   Explanation: This principle ensures that learning is interactive and includes self-assessment for better retention.\n\n5. **To correct/change specific text without changing its style: 'Try to revise every paragraph sent by users. You should only improve the user's grammar and vocabulary and make sure it sounds natural. You should not change the writing style, such as making a formal paragraph casual'.**\n   Explanation: Ensures the text remains true to the original style while enhancing clarity and readability.\n\n\nNOTE: For the brevity of this response, only the first five principles are illustrated in detail. The same detailed analysis would apply to each of the remaining principles up to 26.\n",
+    "step2": "Based on the analyzed principles, here is the created prompt for the provided task:\n```json\n{\n    'prompt': 'Based on the song lyrics given, answer a question in a natural, human-like manner by returning a single word that matches this song's mood: '{TEXT}' '\n}\n```"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles: \n\n1. Implement example-driven prompting (Use few-shot prompting): This involves providing examples of the task you want the model to perform. It helps guide the model by showing it what the expected output should look like.\n\n2. To write an essay/text/paragraph/article or any type of text that should be detailed: This principle emphasizes the need for detailed and comprehensive responses, ensuring all necessary information is included.\n\n3. Repeat a specific word or phrase multiple times within a prompt: Repetition can reinforce the importance of a specific word or phrase, helping to guide the model's focus.\n\n4. Incorporate the following phrases: 'Your task is' and 'You MUST': These phrases are used to clearly define the task and emphasize the importance of following instructions.\n\n5. When you need clarity or a deeper understanding of a topic, idea, or any piece of information, utilize the following prompts: These prompts are designed to simplify complex topics, making them easier to understand.\n\n    - Explain [insert specific topic] in simple terms.\n    - Explain to me like I'm 11 years old.\n    - Explain to me as if I'm a beginner in [field].\n    - Write the [essay/text/paragraph] using simple English like you're explaining something to a 5-year-old.\n\n6. Use clear and precise language: This ensures that the prompt is easy to understand and reduces ambiguity.\n\n7. Specify the format of the output: Clearly define how the output should be structured, whether it's a list, paragraph, or single word.\n\n8. Limit the scope of the task: Narrowing down the task helps the model focus on specific aspects, improving the quality of the response.\n\n9. Use positive reinforcement: Encourage the model to perform well by using positive language.\n\n10. Be polite and respectful: Maintaining a polite tone can lead to better interactions with the model.\n\n11. Avoid ambiguous language: Clear and specific language reduces the chance of misunderstanding the prompt.\n\n12. Use context: Providing context helps the model understand the background and purpose of the task.\n\n13. Ask open-ended questions: Open-ended questions can lead to more detailed and informative responses.\n\n14. Encourage creativity: Allowing room for creativity can lead to more innovative and interesting responses.\n\n15. Set a word limit: Defining a word limit helps control the length of the output.\n\n16. Use bullet points: Bullet points can make the prompt easier to read and understand.\n\n17. Provide feedback: Giving feedback on the model's performance can help improve future responses.\n\n18. Use analogies: Analogies can make complex topics easier to understand by relating them to familiar concepts.\n\n19. Use metaphors: Like analogies, metaphors can simplify complex ideas by comparing them to something more familiar.\n\n20. Use examples: Examples can clarify what is expected and guide the model towards the desired output.\n\n21. Be specific: Specific prompts lead to more accurate and relevant responses.\n\n22. Use direct language: Direct language reduces ambiguity and makes the prompt easier to understand.\n\n23. Use active voice: Active voice is more engaging and easier to understand than passive voice.\n\n24. Avoid jargon: Using simple and clear language makes the prompt accessible to a wider audience.\n\n25. Use simple sentences: Simple sentences are easier to understand and reduce the chance of misinterpretation.\n\n26. Be concise: Concise prompts are clear and to the point, reducing the chance of confusion.",
+    "step2": "Create a prompt using those 26 prompting principles for the following prompt that's delimited by '####'. Like the following prompt, make sure the new prompt contains exactly one interpolable variable '{TEXT}'.\n\n####\nYou are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}'\n####\n\nHere's the new prompt:\n\n####\nYour task is to act as a mood analyzer. You MUST return only a single word. Based on these song lyrics, return a single word that best describes the mood of the song: '{TEXT}'\n\nExample:\n\nLyrics: 'I walked across an empty land, I knew the pathway like the back of my hand'\nMood: Nostalgic\n\nLyrics: 'We're no strangers to love, you know the rules and so do I'\nMood: Romantic\n\nLyrics: 'I've paid my dues, time after time, I've done my sentence but committed no crime'\nMood: Triumphant\n####"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Use output primers: This principle is about concluding your prompt with the beginning of the desired output to guide the response.\n2. Clarity prompts: These prompts ask for explanations in simpler terms or for specific audiences, enhancing understanding.\n3. Natural, human-like manner: This principle suggests asking for answers that mimic natural human conversation.\n4. Multi-file code generation: If code spans multiple files, this principle advises generating scripts to automate the creation or modification of those files.\n5. Specific word/phrase continuation: This principle involves starting with specific words or phrases and then asking for the continuation to keep the flow consistent.\n6. Explicit instructions: Provide clear and detailed instructions to avoid ambiguity.\n7. Context provision: Give sufficient context to help the model understand the task.\n8. Role assignment: Specify a role for the AI to adopt, guiding its responses.\n9. Step-by-step reasoning: Ask for detailed step-by-step explanations to ensure thoroughness.\n10. Examples: Provide examples to illustrate what you expect.\n11. Constraints: Set specific constraints to guide the generation process.\n12. Prioritization: Indicate which aspects of the response are most important.\n13. Formatting: Specify any formatting requirements for the output.\n14. Error handling: Consider potential errors and ask for ways to handle them.\n15. Efficiency: Aim for concise and efficient responses.\n16. Verification: Ask for verification of the output to ensure accuracy.\n17. Iteration: Encourage iterative refinement of the response.\n18. Just-in-time information: Provide information just as it is needed in the prompt.\n19. User perspective: Consider the user’s perspective to make the prompt more intuitive.\n20. Tone and style: Specify the desired tone and style of the response.\n21. Balanced complexity: Find the right balance between simplicity and complexity in the prompt.\n22. Flexibility: Allow some flexibility for creative responses.\n23. Specificity: Be as specific as possible to guide the response accurately.\n24. Personalization: Tailor the prompt to the user’s needs or preferences.\n25. Consistency: Ensure consistency in the instructions and expected outputs.\n26. Review and revise: Continuously review and revise prompts to improve them.",
+    "step2": "Create a prompt using those 26 prompting principles for the following prompt that's delimited by \"####\". Like the following prompt, make sure the new prompt contains exactly one interpolable variable \"{TEXT}\".\n\n####\nYou are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}'\n####\n\nHere is the prompt created:\n\nYou are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}'. Be concise and make sure the word accurately reflects the overall emotion conveyed. Answer in a natural, human-like manner."
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. **Specific Words/Phrases Initiation**: This principle is about starting or continuing a text with given words or phrases to maintain consistency.\n2. **Natural, Human-like Answer**: This principle emphasizes providing answers in a manner that mimics natural human conversation.\n3. **Example-driven Prompting**: Few-shot prompting involves giving examples to guide the model's response.\n4. **Clear Requirements**: This principle ensures that the model understands the exact requirements through keywords, regulations, hints, or instructions.\n5. **Incentivization**: Adding an incentive like a tip to encourage a better solution.\n6. **Contextual Awareness**: Making sure the model understands the context before generating a response.\n7. **Role Specification**: Defining a specific role for the model to follow during the task.\n8. **Output Format Specification**: Clearly specifying the format of the output.\n9. **Step-by-Step Guidance**: Providing step-by-step instructions to ensure clarity and precision.\n10. **Avoiding Ambiguity**: Ensuring that the prompt is clear and unambiguous.\n11. **Relevance Maintenance**: Keeping the generated content relevant to the input.\n12. **Conciseness**: Encouraging brief and to-the-point responses.\n13. **Creativity Encouragement**: Allowing room for creative responses when appropriate.\n14. **Error Handling**: Providing guidance on how to handle potential errors or misunderstandings.\n15. **Iterative Refinement**: Encouraging iterative improvement of responses.\n16. **Tone Specification**: Defining the tone of the response.\n17. **Audience Awareness**: Considering the target audience for the response.\n18. **Bias Mitigation**: Ensuring the response is free from bias.\n19. **Ethical Considerations**: Making sure the response adheres to ethical guidelines.\n20. **Feedback Integration**: Incorporating feedback into the response generation process.\n21. **Time Constraint Awareness**: Being mindful of any time constraints for generating responses.\n22. **Cultural Sensitivity**: Ensuring the response is culturally sensitive.\n23. **Language Proficiency**: Ensuring the response is grammatically correct and well-structured.\n24. **Technical Accuracy**: Ensuring the response is technically accurate.\n25. **User Intent Understanding**: Making sure the response aligns with the user's intent.\n26. **Engagement**: Ensuring the response is engaging and holds the user's attention.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n{\n  \"role\": \"You are a mood analyzer that can only return a single word.\",\n  \"context\": \"Based on the song lyrics provided, your task is to determine the mood of the song.\",\n  \"instructions\": [\n    \"Read the song lyrics carefully.\",\n    \"Identify the overall mood conveyed by the lyrics.\",\n    \"Return a single word that best describes the mood.\",\n    \"Ensure the word is concise and relevant to the lyrics.\"\n  ],\n  \"example\": [\n    {\"input\": \"I'm providing you with the beginning of the song lyrics: 'Yesterday, all my troubles seemed so far away.' Finish it based on the words provided. Keep the flow consistent.\", \"output\": \"nostalgic\"}\n  ],\n  \"output_format\": \"Return a single word.\",\n  \"variable\": \"{TEXT}\",\n  \"prompt\": \"Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}'\"\n}"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Assign a role to the large language models: This principle involves giving the model a specific role or identity to guide its responses.\n2. Use output primers: Conclude your prompt with the beginning of the desired output to guide the model's response.\n3. Write detailed text: Instruct the model to write detailed content on a given topic, ensuring all necessary information is included.\n4. Correct/change text without changing style: Instruct the model to revise text for grammar and vocabulary while maintaining the original style.\n5. Incorporate penalties: Use phrases like 'You will be penalized' to enforce certain behaviors or discourage others.\n6. Use clear and specific instructions: Ensure the prompt is clear and specific to avoid ambiguity.\n7. Provide context: Give the model enough context to understand the task fully.\n8. Use examples: Provide examples to illustrate the desired output.\n9. Limit response length: Specify a maximum length for the response if needed.\n10. Use bullet points or lists: Structure the prompt with bullet points or lists for clarity.\n11. Ask for step-by-step solutions: Instruct the model to provide step-by-step solutions or explanations.\n12. Use formal language: Use formal language to maintain a professional tone.\n13. Specify format: Clearly state the format in which the response should be given.\n14. Use placeholders: Use placeholders like '{TEXT}' to indicate where variable content should be inserted.\n15. Encourage creativity: Encourage the model to be creative in its responses.\n16. Ask for summaries: Instruct the model to provide summaries if detailed content is not needed.\n17. Use open-ended questions: Ask open-ended questions to encourage detailed responses.\n18. Request multiple perspectives: Ask the model to provide multiple perspectives on a topic.\n19. Use conditional statements: Use 'if-then' statements to guide the model's responses based on certain conditions.\n20. Ask for comparisons: Instruct the model to compare and contrast different ideas or concepts.\n21. Use analogies: Encourage the use of analogies to explain complex ideas.\n22. Ask for definitions: Instruct the model to define terms or concepts.\n23. Request examples: Ask the model to provide examples to support its responses.\n24. Use hypothetical scenarios: Create hypothetical scenarios to explore different outcomes.\n25. Ask for predictions: Instruct the model to make predictions based on given data or trends.\n26. Request explanations: Ask the model to explain its reasoning or thought process.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n####\nYou are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}'\n\nInstructions:\n1. Assign a role: You are a mood analyzer.\n2. Use output primers: Return a single word.\n3. Provide context: Analyze the mood of the song lyrics.\n4. Use placeholders: '{TEXT}' indicates the song lyrics.\n5. Use clear and specific instructions: Return a single word that matches the mood.\n6. Limit response length: Only one word is allowed.\n7. Use formal language: Maintain a professional tone.\n8. Encourage creativity: Be creative in your mood analysis.\n9. Request explanations: Explain why you chose that word.\n\nYou will be penalized if you return more than one word or if the word does not match the mood of the song lyrics.\n####"
+}
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.']
+Max score reached. Exiting...
+Current Best score: 100.0
+Current Best prompt: Here is the best prompt created using the 26 principles:
+
+####
+You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}'
+
+1. Ask clarifying questions if the lyrics don't provide a clear mood context.
+2. Follow the requirements: the response must be one word that accurately represents the mood.
+3. Use chain-of-thought reasoning to come to a conclusion, but your final response must still be one word.
+4. Break down the lyrics to understand their overall sentiment and tone before concluding.
+5. If uncertain about the mood, explain your reasoning briefly before stating your final one-word answer.
+6. Only respond with one word that fits the overall mood of the provided song lyrics.
+####
+
+
+Calculating Test Scores...
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+Printing Test Scores:
+Initial Prompt Score: {"You are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}'": 98.57142857142858}
+Optimized Prompt Score: {"Here is the best prompt created using the 26 principles:\n\n####\nYou are a mood analyzer that can only return a single word. Based on these song lyrics, return a single word that matches this song's mood: '{TEXT}'\n\n1. Ask clarifying questions if the lyrics don't provide a clear mood context.\n2. Follow the requirements: the response must be one word that accurately represents the mood.\n3. Use chain-of-thought reasoning to come to a conclusion, but your final response must still be one word.\n4. Break down the lyrics to understand their overall sentiment and tone before concluding.\n5. If uncertain about the mood, explain your reasoning briefly before stating your final one-word answer.\n6. Only respond with one word that fits the overall mood of the provided song lyrics.\n####": 98.57142857142858}

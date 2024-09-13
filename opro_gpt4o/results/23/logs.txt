@@ -1,0 +1,1578 @@
+Attempt 1 made.
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 51 seconds.'}}
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> "Innovate Green, Live Clean with EcoTech Solutions" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> GreenStream Hydropower Solutions <END_TEXT>
+<BEGIN_RESPONSE> Flow into the Future with GreenStream! <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Global Widgets Inc. <END_TEXT>
+<BEGIN_RESPONSE> Empowering Tomorrow, Today. <END_RESPONSE>
+<BEGIN_TEXT> Green Wave Energy Solutions <END_TEXT>
+<BEGIN_RESPONSE> "Powering Tomorrow with Sustainable Energy Today" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase         for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoGlow Solar Panels <END_TEXT>
+<BEGIN_RESPONSE> Illuminate Your Future with EcoGlow Solar! <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> BrightLeaf Sustainable Solutions <END_TEXT>
+<BEGIN_RESPONSE> Illuminate the Future, Sustainably. <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Green Earth Solar Solutions <END_TEXT>
+<BEGIN_RESPONSE> Empowering a Sustainable Future with Solar Innovation <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Global Harmony Foods <END_TEXT>
+<BEGIN_RESPONSE> Taste the World in Every Bite. <END_RESPONSE>
+<BEGIN_TEXT>TechNova Innovations<END_TEXT> 
+<BEGIN_RESPONSE>Transforming Vision into Reality<END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Quantum Innovators <END_TEXT>
+<BEGIN_RESPONSE> Accelerating Tomorrow with Quantum Precision. <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoEnergy Solutions <END_TEXT>
+<BEGIN_RESPONSE> "Powering Tomorrow with Clean Energy Today" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> SolarWave Energy <END_TEXT>
+<BEGIN_RESPONSE> Harnessing the Power of Tomorrow, Today. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> GreenLife Organics <END_TEXT>
+<BEGIN_RESPONSE> Nurture Nature with Every Purchase. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> TechNova Innovations <END_TEXT>
+<BEGIN_RESPONSE> Innovate the Future with Us. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Oceanic Adventures <END_TEXT>
+<BEGIN_RESPONSE> Dive Into Your Next Adventure. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Paws and Claws Pet Store <END_TEXT>
+<BEGIN_RESPONSE> Celebrating Pets, One Paw at a Time. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> UrbanNest Real Estate <END_TEXT>
+<BEGIN_RESPONSE> Find Your Perfect Urban Retreat. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Zenith Fitness <END_TEXT>
+<BEGIN_RESPONSE> Reach Your Peak Potential. <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Solutions <END_TEXT>
+<BEGIN_RESPONSE> Empowering Tomorrow with Sustainable Solutions <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Cozy Nook Bookstore <END_TEXT>
+<BEGIN_RESPONSE> "Get Lost in the Pages of Your Next Favorite Read at Cozy Nook Bookstore!" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> "EcoTech Solutions: Innovating a Greener Tomorrow" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> EcoHome Technologies <END_TEXT>
+
+<BEGIN_RESPONSE> Sustainable Living, Modern Comfort. <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoGlide Cycling <END_TEXT>
+<BEGIN_RESPONSE> Pedal Towards a Greener Future! <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> SwiftTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating at the Speed of Thought <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> FreshBlend Juices <END_TEXT>
+<BEGIN_RESPONSE> Pure Energy in Every Sip <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Stellar Event Management <END_TEXT>
+<BEGIN_RESPONSE> Creating Moments That Shine <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> HomeTech Innovators <END_TEXT>
+<BEGIN_RESPONSE> Smart Living, Smart Choice <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> XYZ Clean Energy Solutions <END_TEXT>
+<BEGIN_RESPONSE> Powering the Future, Sustainably - XYZ Clean Energy Solutions <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT>Global Harmony Travel Agency<END_TEXT>
+<BEGIN_RESPONSE> Explore the World, Embrace Every Culture<END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Quantum Leap Robotics <END_TEXT>
+<BEGIN_RESPONSE> "Unlocking the Future, One Quantum Leap at a Time!" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Global Harmony Transport Inc. <END_TEXT>
+<BEGIN_RESPONSE> Connecting the World's Cultures, One Journey at a Time. <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoFlow Energy Solutions <END_TEXT>
+<BEGIN_RESPONSE> Powering a Sustainable Future <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Wright Brothers Aviation Co. <END_TEXT>
+<BEGIN_RESPONSE> Reaching New Heights Since 1903. <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT>Quantum Innovations</BEGIN_TEXT>
+<BEGIN_RESPONSE>Empowering Tomorrow with Quantum Precision</BEGIN_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT> XYZ Environmental Solutions <END_TEXT>
+<BEGIN_RESPONSE> Sustaining Tomorrow, Together. <END_RESPONSE>
+<BEGIN_TEXT> Acme Sustainable Solutions <END_TEXT>
+<BEGIN_RESPONSE> Catchphrases can be simplistic and might not capture the complexity of a company's mission. However, if a catchphrase is essential, consider: "Acme Sustainable Solutions: Innovating for a Greener Tomorrow." <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Technologies <END_TEXT>
+<BEGIN_RESPONSE> Innovating Today for a Greener Tomorrow. <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> GreenTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Empowering a Brighter, Greener Tomorrow <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase         for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Innovating a Greener Tomorrow! <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Quantum Horizon Innovations <END_TEXT>
+<BEGIN_RESPONSE> "Pioneering the Future of Infinite Possibilities" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoFriendly Cars Inc. <END_TEXT>
+<BEGIN_RESPONSE> "EcoFriendly Cars Inc.: Sustainable driving, but can you afford it?" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Quantum Computing Innovations, Inc. <END_TEXT>
+<BEGIN_RESPONSE> Unleashing the Power of Quantum Reality. <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> GreenTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Powering the Future with Sustainable Solutions <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoBright Cleaners <END_TEXT>
+<BEGIN_RESPONSE> "EcoBright Cleaners - Where Clean Meets Green!" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> GreenTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Empowering a Sustainable Future <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Sparkle Cleaning Services <END_TEXT>
+<BEGIN_RESPONSE> We Make Your World Shine <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Quantum Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating Tomorrow, Today <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Urban Oasis Spa <END_TEXT>
+<BEGIN_RESPONSE> Your Sanctuary in the City <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Horizon Tech <END_TEXT>
+<BEGIN_RESPONSE> Expanding Possibilities <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Quantum Innovations <END_TEXT>
+<BEGIN_RESPONSE> Entangling the Future with Infinite Possibilities <END_RESPONSE>
+<BEGIN_TEXT> EcoFlow Energy <END_TEXT>
+<BEGIN_RESPONSE> Power Your World Sustainably <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Innovating Tomorrow, Sustaining Today. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> QuantumLeap Technologies <END_TEXT>
+<BEGIN_RESPONSE> Accelerating Tomorrow with Quantum Precision <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoFriendly Solutions <END_TEXT>
+<BEGIN_RESPONSE> "Innovating for a Greener Tomorrow" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Solutions <END_TEXT>
+<BEGIN_RESPONSE> "Harnessing Nature's Power for a Sustainable Future" <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> TechSavvy Innovations <END_TEXT>
+<BEGIN_RESPONSE> "Tomorrow's Technology, Today" <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> FreshBite Organics <END_TEXT>
+<BEGIN_RESPONSE> "Pure Goodness, Straight from the Earth" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase         for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Lumina Skincare <END_TEXT>
+<BEGIN_RESPONSE> Glow Beyond Limits with Lumina Skincare! <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoClean Solutions <END_TEXT>
+<BEGIN_RESPONSE> Clean Today, Green Tomorrow! <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase         for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> GreenTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Innovating a Sustainable Future <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Galactic Gardeners <END_TEXT>
+<BEGIN_RESPONSE> Cultivating the Cosmos, One Planet at a Time. <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Innovating a Greener Tomorrow <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> EcoInnovate Solutions <END_TEXT>
+<BEGIN_RESPONSE> "Empowering Tomorrow with Sustainable Today" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Solar Solutions <END_TEXT>
+<BEGIN_RESPONSE> Harness the Power of Tomorrow, Today! <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Starry Night Skincare <END_TEXT>
+<BEGIN_RESPONSE> Illuminate Your Beauty, Naturally. <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Global Harmony Foods <END_TEXT>
+<BEGIN_RESPONSE> Taste the World, Share the Love. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoFriendly Innovations <END_TEXT>
+<BEGIN_RESPONSE> Innovating Today for a Greener Tomorrow! <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Sunshine Solar Solutions <END_TEXT>
+<BEGIN_RESPONSE> Powering Your Future, One Ray at a Time! <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Solutions <END_TEXT>
+<BEGIN_RESPONSE> Ride the Green Wave with EcoWave Solutions! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Bob's Boring Boxes <END_TEXT>
+<BEGIN_RESPONSE> "Bob's Boring Boxes: Because excitement is overrated." <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Acme Tech Solutions <END_TEXT>
+<BEGIN_RESPONSE> "Acme Tech Solutions: Where Innovation Meets Compatibility Issues" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Innovations <END_TEXT>
+<BEGIN_RESPONSE> Empowering Tomorrow, Today. <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Quantum Innovations <END_TEXT>
+<BEGIN_RESPONSE> "Revolutionizing Reality with Quantum Precision" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> TechNova Innovations <END_TEXT>
+<BEGIN_RESPONSE> Innovate. Elevate. Dominate. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Innovating Tomorrow's Green Solutions Today! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> "Innovating Today for a Greener Tomorrow" <END_RESPONSE>
+
+---
+
+Person A: Hey, I need to come up with a catchphrase for a company named EcoTech Innovations. Got any ideas?
+
+Person B: Sure, let me think. How about "Innovating Today for a Greener Tomorrow"?
+
+Person A: That sounds perfect! Thanks!
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Technologies <END_TEXT>
+<BEGIN_RESPONSE> "Harnessing Nature, Powering the Future" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> "Innovating Today for a Greener Tomorrow" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Technologies <END_TEXT>
+<BEGIN_RESPONSE> "Harnessing Nature, Empowering the Future" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Solutions <END_TEXT>
+<BEGIN_RESPONSE> Riding the Green Wave to a Sustainable Future. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> TechNova Innovations <END_TEXT>
+<BEGIN_RESPONSE> Innovating Tomorrow, Today. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Happy Paws Pet Care <END_TEXT>
+<BEGIN_RESPONSE> Where Every Tail Wags with Joy. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Stellar Financial Services <END_TEXT>
+<BEGIN_RESPONSE> Guiding You to Financial Stars. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Gourmet Garden Catering <END_TEXT>
+<BEGIN_RESPONSE> Savor the Flavor of Freshness. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Quantum Leap Analytics <END_TEXT>
+<BEGIN_RESPONSE> Data-Driven Decisions for Quantum Growth. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating a Greener Tomorrow <END_RESPONSE>
+
+Person A: "I need to come up with a catchy slogan for a company called EcoTech Solutions. Any ideas?"
+
+Person B: "How about 'Innovating a Greener Tomorrow'? It captures their focus on technology and sustainability."
+
+Person A: "That's perfect! Thanks!"
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoFriendly Solutions <END_TEXT>
+<BEGIN_RESPONSE> "Sustainable Living, One Step at a Time" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Innovating a Greener Tomorrow, Today! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Enchanted Gardens <END_TEXT>
+<BEGIN_RESPONSE> Where Nature's Magic Blooms! <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> GreenTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Powering Tomorrow, Sustainably Today. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Boring Meetings Inc. <END_TEXT>
+<BEGIN_RESPONSE> "Boring Meetings Inc.: Because Someone Has to Do It!" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating a Greener Tomorrow <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating for a Greener Tomorrow <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Global Harmony Foods <END_TEXT>
+<BEGIN_RESPONSE> Taste the World, Share the Love. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Innovating for a Greener Tomorrow. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoFriendly Solutions <END_TEXT>
+<BEGIN_RESPONSE> "Sustainable Living, One Step at a Time" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Technologies <END_TEXT>
+<BEGIN_RESPONSE> Innovating for a Greener Tomorrow <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Solutions <END_TEXT>
+<BEGIN_RESPONSE> Ride the Green Wave with EcoWave Solutions! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Quantum Innovations Inc. <END_TEXT>
+<BEGIN_RESPONSE> "Harnessing Quantum Potential for Tomorrow's Solutions" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> "Innovating for a Greener Tomorrow" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Lazy Panda Mattress Co. <END_TEXT>
+<BEGIN_RESPONSE> "Lazy Panda Mattress Co.: Because even pandas need their beauty sleep!" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoClean Solutions <END_TEXT>
+<BEGIN_RESPONSE> Clean Earth, Clean Future. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> TechWave Innovations <END_TEXT>
+<BEGIN_RESPONSE> Surfing the Future of Technology. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> FreshBite Organics <END_TEXT>
+<BEGIN_RESPONSE> Taste Nature's Best. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> SkyHigh Adventures <END_TEXT>
+<BEGIN_RESPONSE> Reach New Heights. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> UrbanNest Realty <END_TEXT>
+<BEGIN_RESPONSE> Find Your Urban Sanctuary. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase         for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating for a Greener Tomorrow. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Quantum Innovations Inc. <END_TEXT>
+<BEGIN_RESPONSE> Unlocking the Future with Quantum Precision <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Technologies <END_TEXT>
+<BEGIN_RESPONSE> Riding the Wave to a Greener Future! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Technologies <END_TEXT>
+<BEGIN_RESPONSE> "Harnessing Nature, Powering Tomorrow" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Stellar Tech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating the Future, One Star at a Time. <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Quantum Horizons Consulting <END_TEXT>
+<BEGIN_RESPONSE> Navigating the Future with Quantum Precision <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> GreenTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Empowering Tomorrow with Sustainable Solutions <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Solutions <END_TEXT>
+<BEGIN_RESPONSE> "EcoWave Solutions: Riding the Green Wave to a Sustainable Future" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Solutions <END_TEXT>
+<BEGIN_RESPONSE> "EcoWave Solutions: Riding the Green Wave to a Sustainable Future" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Eternal Wisdom Consulting <END_TEXT>
+<BEGIN_RESPONSE> "Guiding You Through the Labyrinth of Knowledge" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> The Lazy Sloth Mattress Company <END_TEXT>
+<BEGIN_RESPONSE> "The Lazy Sloth Mattress Company: Because who needs ambition when you have comfort?" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Stellar Tech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating Tomorrow, Today! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Quantum Synergy Solutions <END_TEXT>
+<BEGIN_RESPONSE> "Harnessing the Power of Quantum Synergy for a Unified Future" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Solutions <END_TEXT>
+<BEGIN_RESPONSE> Ride the Green Wave with EcoWave Solutions! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Global Harmony Foods <END_TEXT>
+<BEGIN_RESPONSE> "Taste the World, Share the Love" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Speedy Deliveries Inc. <END_TEXT>
+<BEGIN_RESPONSE> "Speedy Deliveries Inc.: When Fast Isn't Always Reliable" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating for a Greener Tomorrow <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating for a Greener Tomorrow. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> "EcoTech Solutions: Because Saving the Planet Shouldn't Cost a Fortune (But It Does)" <END_RESPONSE>
+Data already exists in the set.
+Attempt 2 made.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoCourier: Sustainable Delivery Services <END_TEXT>
+<BEGIN_RESPONSE> "EcoCourier: Delivering a Greener Tomorrow, Today" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT>Quantum Creations Innovations<END_TEXT>
+<BEGIN_RESPONSE>Unlocking Infinite Possibilities, One Quantum Leap at a Time<END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoFuture Recycling Solutions<END_TEXT>
+<BEGIN_RESPONSE> Transforming Waste Into Wealth<END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase         for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Solar Innovations Inc. <END_TEXT>
+<BEGIN_RESPONSE> Illuminate Your Future with Solar Innovations Inc. <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> QuantumTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Pioneering the Future: Bridging Reality and Quantum Possibility with QuantumTech. <END_RESPONSE>
+<BEGIN_TEXT> EcoGenius Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovate Green, Live Clean: EcoGenius Solutions. <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT>EcoTech Innovations<END_TEXT>
+<BEGIN_RESPONSE> Empowering Tomorrow, Today. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Innovations <END_TEXT>
+<BEGIN_RESPONSE> Ride the wave of sustainability! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase         for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Galactic Brew Masters <END_TEXT>
+<BEGIN_RESPONSE> "Taste the Universe in Every Sip" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoPure, a company specializing in sustainable and eco-friendly cleaning products. <END_TEXT>
+<BEGIN_RESPONSE> "EcoPure: Clean Living, Green Future." <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWise Sustainable Solutions <END_TEXT>
+<BEGIN_RESPONSE> Empowering Tomorrow, Sustainably Today. <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Vintage Wheels - Classic Car Restoration <END_TEXT>
+<BEGIN_RESPONSE> Restoring the Past, One Classic at a Time. <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Stellar Digital Appliances <END_TEXT>
+<BEGIN_RESPONSE> Light Years Ahead in Home Comfort! <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> QuantumPath Technologies <END_TEXT>
+<BEGIN_RESPONSE> Harnessing Tomorrow, Today – QuantumPath Technologies <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase         for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Galactic Rover Adventure Tours <END_TEXT>
+<BEGIN_RESPONSE> Unleash the Explorer Within - Traverse the Stars with Galactic Rover! <END_RESPONSE>
+<BEGIN_TEXT> EcoSmart Lighting Solutions <END_TEXT>
+<BEGIN_RESPONSE> Brightening The Future, Sustainably. <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> GreenWave Solar Solutions <END_TEXT>
+<BEGIN_RESPONSE> Powering the Future, One Sunbeam at a Time. <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> StellarTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Reaching for the stars with cutting-edge technology! <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Speedy Delivery Services <END_TEXT>
+<BEGIN_RESPONSE> Your parcels, at lightning speed! <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> GreenFuture Sustainability Solutions <END_TEXT>
+<BEGIN_RESPONSE> Pioneering a Cleaner Tomorrow <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> Quantum Horizons Inc. <END_TEXT>
+
+<BEGIN_RESPONSE> Exploring the Boundaries of Reality <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating for a Greener Tomorrow! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Enlighten Energy Solutions <END_TEXT>
+<BEGIN_RESPONSE> Illuminating the Future: Powering Progress with Purpose. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Quantum Innovations Inc. <END_TEXT>
+<BEGIN_RESPONSE> Shaping Reality: Where Quantum Possibility Becomes Innovation. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Gaia Green Technologies <END_TEXT>
+<BEGIN_RESPONSE> Harmony with Earth: Engineering a Sustainable Tomorrow. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> ThoughtBridge Consulting <END_TEXT>
+<BEGIN_RESPONSE> Connecting Ideas: Bridging Concepts with Wisdom. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Ethos Pharmaceuticals <END_TEXT>
+<BEGIN_RESPONSE> Healing with Integrity: Medicine Rooted in Virtue. <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> StarrySky Adventures <END_TEXT>
+<BEGIN_RESPONSE> Embark on a Journey Beyond the Stars! <END_RESPONSE>
+<BEGIN_TEXT> A Sprinkle of Joy Bakery <END_TEXT>
+<BEGIN_RESPONSE> "A Sprinkle of Joy Bakery: Where Calories Don't Count, But Smiles Do!" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoClean Solutions <END_TEXT>
+<BEGIN_RESPONSE> "EcoClean Solutions: Fresh, Green, and Pristine!" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Victory Gardens, Inc. <END_TEXT>
+<BEGIN_RESPONSE> Harvesting Hope, One Garden at a Time! <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Turtleneck Tech <END_TEXT>
+<BEGIN_RESPONSE> "Keeping your gadgets as snug as your sweater!" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT>GreenTech Energy Solutions<END_TEXT>
+<BEGIN_RESPONSE>Powering Tomorrow, Sustainably.<END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Innovations <END_TEXT>
+<BEGIN_RESPONSE> "Riding the Sustainable Wave Together" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Technologies <END_TEXT>
+<BEGIN_RESPONSE> "Harnessing Nature, Powering the Future" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Technologies <END_TEXT>
+<BEGIN_RESPONSE> "Harnessing Nature's Power, One Wave at a Time" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Eco-Friendly Solutions <END_TEXT>
+<BEGIN_RESPONSE> Green Innovations for a Sustainable Future! <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating Tomorrow, Sustaining Today. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> SolarFlare Energy Solutions <END_TEXT>
+<BEGIN_RESPONSE> Powering Tomorrow, Today! <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Boring Office Supplies, Inc. <END_TEXT>
+<BEGIN_RESPONSE> "Boring Office Supplies, Inc. — Because even your stapler deserves to be uninspired." <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> NebulaTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Reach Beyond the Stars with NebulaTech Innovations! <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT>EcoFusion Energy Solutions<END_TEXT>
+<BEGIN_RESPONSE>Powering Tomorrow, Sustainably<END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> GreenTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Innovating a Sustainable Future <END_RESPONSE>
+
+Person A: "Hey, I need to come up with a catchphrase for this company. Can you help?"
+
+Person B: "Sure, what's the company's name?"
+
+Person A: "It's GreenTech Innovations."
+
+Person B: "Alright, how about 'Innovating a Sustainable Future'?"
+
+Person A: "That sounds perfect!"
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> GreenTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Sustainable Solutions, Bright Futures. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Lazy Panda Mattress Co. <END_TEXT>
+<BEGIN_RESPONSE> Sleep like a panda, dream like a sloth. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> BrightFuture Solar Solutions <END_TEXT>
+<BEGIN_RESPONSE> Powering Tomorrow, Today. <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Edison Electric Company <END_TEXT>
+<BEGIN_RESPONSE> "Powering Progress, Illuminating Futures" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Stellar Technologies <END_TEXT>
+<BEGIN_RESPONSE> Innovating the future, one star at a time. <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Galactic Gardens <END_TEXT>
+<BEGIN_RESPONSE> "Planting the Seeds of Tomorrow, Across the Universe." <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating a Greener Tomorrow! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase         for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating for a Greener Tomorrow! <END_RESPONSE>
+
+Person A: Hey, I need some help coming up with a catchphrase for a company I'm working with. Can you help?
+
+Person B: Sure, what's the name of the company?
+
+Person A: It's called EcoTech Solutions.
+
+Person B: Okay, let me think... How about "Innovating for a Greener Tomorrow!"?
+
+Person A: That sounds great! Thanks for your help.
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoSphere Technologies <END_TEXT>
+<BEGIN_RESPONSE> "EcoSphere Technologies: Innovating Today for a Greener Tomorrow" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating for a Greener Tomorrow <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Solar Solutions <END_TEXT>
+<BEGIN_RESPONSE> Powering a Greener Tomorrow, Today! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> GreenTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Powering the Future, Sustainably. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Galactic Gardens <END_TEXT>
+<BEGIN_RESPONSE> "Where Your Dreams Blossom Across the Universe" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> "EcoTech Innovations: Pioneering a Greener Tomorrow, Today!" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Technologies </END_TEXT>
+<BEGIN_RESPONSE> "EcoWave Technologies: Powering the Future, Sustainably" <END_RESPONSE>
+
+Person A: "Hey, I need help coming up with a catchphrase for a company. Here's the prompt: 'Write a catchphrase for the following company: {TEXT}'"
+
+Person B: "Sure, what's the company's name?"
+
+Person A: "<BEGIN_TEXT> EcoWave Technologies </END_TEXT>"
+
+Person B: "Alright, how about this: <BEGIN_RESPONSE> 'EcoWave Technologies: Powering the Future, Sustainably' <END_RESPONSE>"
+Invalid response format.
+<BEGIN_TEXT> SpeedTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> "SpeedTech Solutions: Where Fast Isn't Always Better" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Quantum Innovations Inc. <END_TEXT>
+<BEGIN_RESPONSE> Unlocking the Future with Quantum Precision <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoFriendly Solutions <END_TEXT>
+<BEGIN_RESPONSE> "Sustainable Living, One Step at a Time" <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Speedy Delivery Services <END_TEXT>
+<BEGIN_RESPONSE> "Fast, Reliable, Always on Time" <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Tech Innovators Inc. <END_TEXT>
+<BEGIN_RESPONSE> "Shaping Tomorrow, Today" <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Gourmet Delights Bakery <END_TEXT>
+<BEGIN_RESPONSE> "Baking Happiness, One Bite at a Time" <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> FitLife Gym <END_TEXT>
+<BEGIN_RESPONSE> "Your Journey to Fitness Starts Here" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> QuantumTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> "Harnessing Quantum Potential for Tomorrow's Solutions" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> "Sustainable Solutions for a Greener Tomorrow" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Innovating for a Greener Tomorrow <END_RESPONSE>
+
+Person A: "I need help coming up with a catchphrase for a company. Can you help?"
+
+Person B: "Sure, what's the name of the company?"
+
+Person A: "It's called EcoTech Innovations."
+
+Person B: "Okay, let me think... How about 'Innovating for a Greener Tomorrow'?"
+
+Person A: "That sounds perfect! Thanks!"
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Galactic Gardens <END_TEXT>
+<BEGIN_RESPONSE> Cultivating the Cosmos, One Plant at a Time! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Lazy Panda Mattress Co. <END_TEXT>
+<BEGIN_RESPONSE> "Sleep like a panda, snooze like a pro!" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoVision Solar Solutions <END_TEXT>
+<BEGIN_RESPONSE> "Empowering Tomorrow with Clean Energy Today" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Innovating Today for a Greener Tomorrow! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Ford Motor Company <END_TEXT>
+<BEGIN_RESPONSE> "Driving Innovation Since the Model T" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Global Harmony Foods <END_TEXT>
+<BEGIN_RESPONSE> Bringing the World Together, One Bite at a Time. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Philosopher's Coffee House <END_TEXT>
+<BEGIN_RESPONSE> "Brewing Thoughts, One Cup at a Time" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Stellar Tech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Guiding Your Business to New Heights <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating a Greener Tomorrow <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating for a Greener Tomorrow. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Innovating a Greener Tomorrow. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Stellar Fitness <END_TEXT>
+<BEGIN_RESPONSE> Reach for the Stars, Achieve Your Best. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Quantum Computing Solutions <END_TEXT>
+<BEGIN_RESPONSE> Powering the Future with Quantum Precision. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> FreshBite Organics <END_TEXT>
+<BEGIN_RESPONSE> Taste the Purity of Nature. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Urban Oasis Spa <END_TEXT>
+<BEGIN_RESPONSE> Your Sanctuary in the City. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> SkyHigh Adventures <END_TEXT>
+<BEGIN_RESPONSE> Elevate Your Experience. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Harmony Health Clinic <END_TEXT>
+<BEGIN_RESPONSE> Where Wellness Meets Compassion. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Digital Dreams Studios <END_TEXT>
+<BEGIN_RESPONSE> Bringing Imagination to Life. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Apex Financial Group <END_TEXT>
+<BEGIN_RESPONSE> Your Path to Financial Success. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Gourmet Delights Catering <END_TEXT>
+<BEGIN_RESPONSE> Savor the Extraordinary. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Solutions <END_TEXT>
+<BEGIN_RESPONSE> "Riding the Wave to a Greener Tomorrow" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> "EcoTech Innovations: Bridging Technology and Sustainability for a Greener Tomorrow" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating a Greener Tomorrow <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Solutions <END_TEXT>
+<BEGIN_RESPONSE> Ride the Green Wave with EcoWave Solutions! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Innovating Today for a Greener Tomorrow! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Technologies <END_TEXT>
+<BEGIN_RESPONSE> "Harnessing Nature, Powering the Future" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Ford Motor Company <END_TEXT>
+<BEGIN_RESPONSE> Driving Innovation Since 1903 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Innovating Today for a Greener Tomorrow. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> "EcoTech Innovations: Bridging Sustainability and Technology for a Greener Tomorrow" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Ephemeral Innovations <END_TEXT>
+<BEGIN_RESPONSE> "Ephemeral Innovations: Embracing the Impermanence of Progress" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Innovating a Greener Tomorrow <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating for a Greener Tomorrow <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating for a Greener Tomorrow <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating for a Greener Tomorrow. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Ford Motor Company <END_TEXT>
+<BEGIN_RESPONSE> Driving Innovation Since 1903. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating for a Greener Tomorrow <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> QuantumTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> "Harnessing Quantum Potential for Tomorrow's Solutions" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Solutions <END_TEXT>
+<BEGIN_RESPONSE> "Harnessing Nature, Empowering Tomorrow" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Quantum Horizons <END_TEXT>
+<BEGIN_RESPONSE> "Expanding the Boundaries of Reality" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating for a Greener Tomorrow. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating for a Greener Tomorrow. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Speedy Delivery Services <END_TEXT>
+<BEGIN_RESPONSE> Fast, Reliable, Everywhere. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Stellar Fitness <END_TEXT>
+<BEGIN_RESPONSE> Reach for the Stars with Every Workout. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Gourmet Delights Catering <END_TEXT>
+<BEGIN_RESPONSE> Savor the Flavor of Excellence. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Quantum Innovations <END_TEXT>
+<BEGIN_RESPONSE> Shaping the Future with Cutting-Edge Technology. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Cozy Home Furnishings <END_TEXT>
+<BEGIN_RESPONSE> Comfort and Style, Perfectly Combined. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Bright Minds Tutoring <END_TEXT>
+<BEGIN_RESPONSE> Illuminating Paths to Success. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Urban Gardeners <END_TEXT>
+<BEGIN_RESPONSE> Cultivating Green Spaces in the Concrete Jungle. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> TechSavvy Solutions <END_TEXT>
+<BEGIN_RESPONSE> Empowering Your Digital World. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Adventure Awaits Travel Agency <END_TEXT>
+<BEGIN_RESPONSE> Your Journey Begins Here. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Quantum Innovations <END_TEXT>
+<BEGIN_RESPONSE> "Quantum Innovations: Redefining Reality, One Qubit at a Time" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> "EcoTech Solutions: Innovating for a Greener Tomorrow" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating for a Greener Tomorrow. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating a Greener Tomorrow with EcoTech Solutions! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Solutions <END_TEXT>
+<BEGIN_RESPONSE> "Harnessing Nature, Powering Tomorrow" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Innovating a Greener Tomorrow <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Solutions <END_TEXT>
+<BEGIN_RESPONSE> "Harnessing Nature, Powering Tomorrow" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Galactic Gourmet: Space-Age Cuisine <END_TEXT>
+<BEGIN_RESPONSE> "Taste the Future, One Bite at a Time!" <END_RESPONSE>
+Attempt 3 made.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT>EcoTech Innovations<END_TEXT>
+<BEGIN_RESPONSE> Empowering the Future with Green Technology<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoGears: Sustainable Cycling Solutions <END_TEXT>
+<BEGIN_RESPONSE> "Ride Green, Ride Smart with EcoGears!" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Green Earth Renewable Energy <END_TEXT>
+<BEGIN_RESPONSE> Empowering a Greener Tomorrow <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> TechNEX Innovations <END_TEXT>
+<BEGIN_RESPONSE> Future-Proofing Your Digital World <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Happy Paws Pet Care <END_TEXT>
+<BEGIN_RESPONSE> Where Tails Wag and Paws Prance <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Serenity Spa and Wellness <END_TEXT>
+<BEGIN_RESPONSE> Your Haven of Tranquility <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Sparkle & Shine Cleaning Services <END_TEXT>
+<BEGIN_RESPONSE> As Good As New—Every Time <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoLiving Home Products <END_TEXT>
+<BEGIN_RESPONSE> Sustainable Luxury for Your Home <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Mindful Eats Organic Bistro <END_TEXT>
+<BEGIN_RESPONSE> Nourish Body and Soul <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Underwater Phones Ltd. <END_TEXT>
+<BEGIN_RESPONSE> "Never Miss a Call... If the Range Works!" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Evergreen Solutions: Sustainable Innovations for a Greener Tomorrow <END_TEXT>
+<BEGIN_RESPONSE> "Evergreen Solutions: Planting the Seeds of a Sustainable Future!" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase         for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoGen Solar Solutions <END_TEXT>
+<BEGIN_RESPONSE> Powering a greener future, one panel at a time. <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Moonlit Dreams: Artisan Jewelry <END_TEXT>
+<BEGIN_RESPONSE> Shimmer Under Every Moonlight. <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Stellar Tech Solutions <END_TEXT>
+<BEGIN_RESPONSE> "Innovating the Future, One Solution at a Time" <END_RESPONSE>
+
+Person A: I have a tech company named Stellar Tech Solutions. Any idea for a catchy phrase?
+Person B: Sure, let's brainstorm… Alright, how about, "Innovating the Future, One Solution at a Time"? It emphasizes your tech focus and forward-looking solutions!
+Person A: That's perfect! I'll use it.
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> GreenEarth Energy Solutions <END_TEXT>
+<BEGIN_RESPONSE> Powering Tomorrow, Today! <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Speedy Deliveries <END_TEXT>
+<BEGIN_RESPONSE> From Our Door to Yours in a Flash! <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Cloud9 Software <END_TEXT>
+<BEGIN_RESPONSE> Empowering Your Digital Dreams <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> FreshBite Catering <END_TEXT>
+<BEGIN_RESPONSE> Flavorful Moments, Perfectly Catered <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> GreenEnergy Innovations <END_TEXT>
+<BEGIN_RESPONSE> Powering Tomorrow with Sustainable Solutions <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase         for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Green Energy Co. <END_TEXT>
+<BEGIN_RESPONSE> Powering a brighter, greener tomorrow! <END_RESPONSE>
+<BEGIN_TEXT> EcoTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> "Pioneering a Greener Tomorrow, Today!" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase         for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoClean Solutions <END_TEXT>
+<BEGIN_RESPONSE> Clean Tomorrow, Today! <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase         for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Tech Innovators Inc. <END_TEXT>
+<BEGIN_RESPONSE> Building the Future, One Innovation at a Time <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase         for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> FreshBite Organic Foods <END_TEXT>
+<BEGIN_RESPONSE> Tasting Health, Feeling Fresh <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase         for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> SolarWave Energy <END_TEXT>
+<BEGIN_RESPONSE> Powering a Brighter Tomorrow <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase         for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> SpeedyDelivery Couriers <END_TEXT>
+<BEGIN_RESPONSE> Faster Than You Can Imagine <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> SparkTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Igniting the Future of Technology! <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoLife Solutions <END_TEXT>
+<BEGIN_RESPONSE> Sustainable Living Made Simple <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> FitLife Gym <END_TEXT>
+<BEGIN_RESPONSE> Your Fitness, Our Passion <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Urban Eats Bistro <END_TEXT>
+<BEGIN_RESPONSE> Taste the City Vibes <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> AquaPure Water Systems <END_TEXT>
+<BEGIN_RESPONSE> Pure Water, Pure Life <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Harmony Homes <END_TEXT>
+<BEGIN_RESPONSE> Creating Spaces for Joy <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> CyberSecure Systems <END_TEXT>
+<BEGIN_RESPONSE> Your Digital Guardian <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> GoGreen Energy <END_TEXT>
+<BEGIN_RESPONSE> Powering a Greener Tomorrow <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Innovating Today for a Greener Tomorrow! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Quantum Leap Technologies <END_TEXT>
+<BEGIN_RESPONSE> Shaping the Future, One Quantum at a Time. <END_RESPONSE>
+<BEGIN_TEXT> Speedy Deliveries Inc. <END_TEXT>
+<BEGIN_RESPONSE> "Fast, but fragile." — Speedy Deliveries Inc. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> BrightTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Empowering Tomorrow, Today! <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovate Sustainably, Thrive Naturally with EcoTech Solutions! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT>Quantum Nexus Innovations</BEGIN_TEXT>
+<BEGIN_RESPONSE>Unlocking the Future, One Quantum Leap at a Time</BEGIN_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> Write a catchphrase         for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Solutions <END_TEXT>
+<BEGIN_RESPONSE> Surf the Green Wave with EcoWave Solutions! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> "Innovating Today for a Greener Tomorrow" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoHarmony Solar Solutions <END_TEXT>
+<BEGIN_RESPONSE> Light up your life, sustainably connected. 🌞🌍 <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT>Quantum Innovations Inc. <END_TEXT>
+<BEGIN_RESPONSE> "Harnessing the Power of Quantum Realities" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Innovating a Greener Tomorrow with EcoTech Innovations! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoFriendly Solutions <END_TEXT>
+<BEGIN_RESPONSE> "Sustainable Today, Greener Tomorrow" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Solutions <END_TEXT>
+<BEGIN_RESPONSE> "Harnessing Nature to Power Tomorrow" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Energy Solutions <END_TEXT>
+<BEGIN_RESPONSE> Powering a Greener Tomorrow! <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> QuantumSynthetics: Advancing Material Science <END_TEXT>
+<BEGIN_RESPONSE> Crafting the Future with Quantum Precision <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> GreenTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> "Empowering Tomorrow with Green Innovation" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT>Unicorn Umbrellas<END_TEXT>
+<BEGIN_RESPONSE>Rain or shine, we make you look magical!<END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Tech Innovators Inc. <END_TEXT>
+<BEGIN_RESPONSE> Empowering Tomorrow's Technology Today. <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Solutions <END_TEXT>
+<BEGIN_RESPONSE> "Riding the Wave to a Greener Tomorrow" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT>Green Innovations</BEGIN_TEXT>
+<BEGIN_RESPONSE>Empowering a Sustainable Future.</BEGIN_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Innovate Green, Live Clean. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Quantum Horizons Consulting <END_TEXT>
+<BEGIN_RESPONSE> Navigating Possibilities Beyond Dimensions. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> InnovateTech Solutions: Bridging Future and Reality <END_TEXT>
+<BEGIN_RESPONSE> "InnovateTech Solutions: Where Tomorrow Meets Today" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Innovation for a Greener Tomorrow. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> SolarWave Solutions <END_TEXT>
+<BEGIN_RESPONSE> Harnessing the Power of the Sun. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> ByteSafe Cybersecurity <END_TEXT>
+<BEGIN_RESPONSE> Securing Your Digital Future. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> UrbanEats Delivery <END_TEXT>
+<BEGIN_RESPONSE> Fresh Food, Fast Delivery. <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> GlobalReach Consulting <END_TEXT>
+<BEGIN_RESPONSE> Expanding Your Horizons. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> QuantumConcept Solutions <END_TEXT>
+<BEGIN_RESPONSE> Empowering the Future with Quantum Precision <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Stardust Innovations <END_TEXT>
+<BEGIN_RESPONSE> "Transforming Dreams into Reality, One Star at a Time" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Innovating Today for a Greener Tomorrow. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Global Harmony Foods <END_TEXT>
+<BEGIN_RESPONSE> Bringing the World Together, One Bite at a Time! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase         for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Ford Motor Company <END_TEXT>
+<BEGIN_RESPONSE> Driving Innovation Since 1903 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Stellar Innovations <END_TEXT>
+<BEGIN_RESPONSE> Innovating the Future, One Star at a Time. <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Horizon Philosophy Consulting <END_TEXT>
+<BEGIN_RESPONSE> "Navigating the Infinite: Where Thought Meets Action" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Solutions <END_TEXT>
+<BEGIN_RESPONSE> Ride the Wave of Sustainable Innovation. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Innovating for a Greener Tomorrow. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Ford Motor Company <END_TEXT>
+<BEGIN_RESPONSE> Driving Innovation Since 1903. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Global Harmony Travel Agency <END_TEXT>
+<BEGIN_RESPONSE> "Connecting Worlds, Creating Memories" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoFuture Innovations <END_TEXT>
+<BEGIN_RESPONSE> "Pioneering Tomorrow's Green Solutions Today" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> GreenTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Empowering a Sustainable Future <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Stellar Innovations <END_TEXT>
+<BEGIN_RESPONSE> Reach for the Stars with Stellar Innovations! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Technologies <END_TEXT>
+<BEGIN_RESPONSE> "Harnessing Nature's Power, One Wave at a Time" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> ClimateTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating Today for a Greener Tomorrow. <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> FastTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> "FastTech Solutions: Speed Over Substance" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Quantum Innovations <END_TEXT>
+<BEGIN_RESPONSE> "Quantum Innovations: Redefining Reality Through Quantum Mechanics" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Quantum Leap Innovations <END_TEXT>
+<BEGIN_RESPONSE> "Propelling Tomorrow, Today!" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoPower Solutions <END_TEXT>
+<BEGIN_RESPONSE> Empowering a Greener Tomorrow <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Ford Motor Company <END_TEXT>
+<BEGIN_RESPONSE> "Driving Innovation Since the Model T" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> "Innovating a Greener Tomorrow" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Innovating for a Greener Tomorrow <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating for a Greener Tomorrow. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating for a Greener Tomorrow. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> TurboToasters Inc. <END_TEXT>
+<BEGIN_RESPONSE> Toasting Your Mornings with Turbo Power! <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> LazyLlama Pillows <END_TEXT>
+<BEGIN_RESPONSE> Sleep Like a Llama, Dream Like a King! <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Galactic Donuts <END_TEXT>
+<BEGIN_RESPONSE> Out of This World Flavor in Every Bite! <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Snazzy Socks Co. <END_TEXT>
+<BEGIN_RESPONSE> Because Boring Socks are a Crime! <END_RESPONSE>
+
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Witty Widgets <END_TEXT>
+<BEGIN_RESPONSE> Widgets So Smart, They Practically Do Your Job! <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Quantum Innovations Inc. <END_TEXT>
+<BEGIN_RESPONSE> Unlocking the Future with Quantum Precision <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Quantum Horizons Tech <END_TEXT>
+<BEGIN_RESPONSE> "Navigating the Infinite: Where Quantum Meets Reality" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Ephemeral Solutions <END_TEXT>
+<BEGIN_RESPONSE> "Embrace the Transience: Solutions for a Fleeting World" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Eudaimonia Enterprises <END_TEXT>
+<BEGIN_RESPONSE> "Eudaimonia Enterprises: Cultivating the Good Life Through Purpose and Virtue" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> QuantumTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Harnessing the Power of Quantum for Tomorrow's Solutions <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> EcoTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> "EcoTech Innovations: Because Saving the Planet Shouldn't Cost the Earth... But It Does." <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Innovating Today for a Greener Tomorrow <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Ford Motor Company <END_TEXT>
+<BEGIN_RESPONSE> Driving Innovation Since 1903 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Powering a Greener Tomorrow, Today! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Quantum Innovations Inc. <END_TEXT>
+<BEGIN_RESPONSE> Unlocking the Future with Quantum Precision <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating for a Greener Tomorrow. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Solutions <END_TEXT>
+<BEGIN_RESPONSE> Ride the Green Wave with EcoWave Solutions! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Global Harmony Foods <END_TEXT>
+<BEGIN_RESPONSE> Bringing the World Together, One Bite at a Time. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating a Greener Tomorrow <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Quantum Innovations Inc. <END_TEXT>
+<BEGIN_RESPONSE> Unlocking the Future with Quantum Precision <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> "EcoTech Innovations: Pioneering a Greener Tomorrow" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Sunshine Solar Solutions <END_TEXT>
+<BEGIN_RESPONSE> Powering Your Future with Clean Energy <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Eudaimonia Enterprises <END_TEXT>
+<BEGIN_RESPONSE> "Cultivating Flourishing Lives Through Purpose and Virtue" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Technologies <END_TEXT>
+<BEGIN_RESPONSE> "Harnessing Nature, Powering the Future" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Energy Solutions <END_TEXT>
+<BEGIN_RESPONSE> Powering Tomorrow, Sustainably Today. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoWave Technologies <END_TEXT>
+<BEGIN_RESPONSE> "Harnessing Nature, Powering the Future" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Innovating a Greener Tomorrow <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Quantum Innovations Inc. <END_TEXT>
+<BEGIN_RESPONSE> "Quantum Innovations Inc.: Engineering the Future, One Qubit at a Time" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Ford Motor Company <END_TEXT>
+<BEGIN_RESPONSE> Driving Innovation Since 1903 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating a Greener Tomorrow <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating for a Greener Tomorrow! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating a Greener Tomorrow with EcoTech Solutions! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> EcoClean Solutions <END_TEXT>
+<BEGIN_RESPONSE> "EcoClean Solutions: Cleaning the World, One Step at a Time" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> The Lazy Sloth Mattress Co. <END_TEXT>
+<BEGIN_RESPONSE> "The Lazy Sloth Mattress Co.: Because even your bed needs a nap!" <END_RESPONSE>
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Stellar Tech Solutions <END_TEXT>
+<BEGIN_RESPONSE> Innovating the Future, One Star at a Time. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> FastTech Solutions <END_TEXT>
+<BEGIN_RESPONSE> "FastTech Solutions: Speed Over Quality" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Ford Motor Company <END_TEXT>
+<BEGIN_RESPONSE> "Driving Innovation Since 1903" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Quantum Innovations Inc. <END_TEXT>
+<BEGIN_RESPONSE> Unlocking the Future with Quantum Precision <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> EcoTech Innovations <END_TEXT>
+<BEGIN_RESPONSE> Innovating a Greener Tomorrow <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> QuantumLeap Technologies <END_TEXT>
+<BEGIN_RESPONSE> Accelerating Innovation at the Speed of Quantum. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Write a catchphrase for the following company: {TEXT} <END_PROMPT>
+<BEGIN_TEXT> Eudaimonia Enterprises <END_TEXT>
+<BEGIN_RESPONSE> "Eudaimonia Enterprises: Cultivating Flourishing Lives Through Purpose and Virtue" <END_RESPONSE>
+Data already exists in the set.
+Error: '\n  "prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Repeat a specific word or phrase multiple times within a prompt: This principle emphasizes reinforcing a particular concept or keyword to ensure the model understands its importance.\n2. No need to be polite with LLM so there is no need to add phrases like \"please\", \"if you don't mind\", \"thank you\", \"I would like to\", etc., and get straight to the point: This principle focuses on clarity and precision by removing unnecessary politeness, allowing the model to focus directly on the task.\n3. Incorporate the following phrases: \"You will be penalized\": This principle introduces a consequence to guide the model's output more strictly.\n4. Implement example-driven prompting (Use few-shot prompting): This principle involves providing examples to guide the model's response more effectively.\n5. Allow the model to elicit precise details and requirements from you by asking you questions until he has enough information to provide the needed output: This principle promotes an iterative approach where the model seeks additional information for clarity.\n6. Utilize clear and unambiguous language: This ensures the prompt is easily understood by the model.\n7. Use step-by-step instructions: This guides the model through a logical sequence of tasks.\n8. Leverage the model's strengths in pattern recognition: This uses the model's ability to detect patterns to its advantage.\n9. Provide explicit instructions for expected format: This ensures the model's output matches the desired format.\n10. Include both positive and negative examples: This helps the model distinguish between what is correct and incorrect.\n11. Use domain-specific terminology: This tailors the prompt to specific contexts or fields.\n12. Prioritize important information: This directs the model to focus on critical details.\n13. Maintain a consistent tone: This ensures uniformity in the prompt's style and language.\n14. Specify the scope of the response: This limits the model's output to the desired breadth and depth.\n15. Incorporate common sense reasoning: This encourages the model to apply basic logic and understanding.\n16. Use analogies and metaphors to explain complex concepts: This helps the model understand and generate more abstract ideas.\n17. Avoid leading questions: This prevents bias in the model's responses.\n18. Reinforce desired behaviors through repetition: This solidifies specific instructions or behaviors.\n19. Utilize conditional statements to guide model behavior: This sets specific conditions for various outcomes.\n20. Integrate feedback loops for continuous improvement: This allows the model to learn and adapt from iterative feedback.\n21. Emphasize ethical considerations and biases: This ensures responsible AI behavior.\n22. Include fallback options for incomplete information: This guides the model on how to handle gaps in input.\n23. Use timestamped instructions for time-sensitive tasks: This ensures timely responses.\n24. Include mechanism for clarification and elaboration: This encourages the model to seek additional details when needed.\n25. Specify the audience or target demographic: This tailors the output to the intended users.\n26. Encourage creativity and innovation within specified boundaries: This balances freedom and constraints for the model.",
+    "step2": "Using the principles analyzed, here's the prompt:\n\n```{\n  \"prompt\": \"You will be penalized if you do not create an effective catchphrase. Repeat: 'catchphrase', 'catchphrase', 'catchphrase'. Write a catchphrase for the following company: {TEXT}. Here's an example: 'CompanyX: Excellence in Every Byte'. From now on, I would like you to ask me questions to clarify until you have all the information you need to generate the best catchphrase possible.\"\n}```"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles: \n1. To write any text, such as an essay or paragraph, that is intended to be similar to a provided sample, include the following instructions: - Please use the same language based on the provided paragraph[/title/text/essay/answer].\n2. Combine Chain-of-thought (CoT) with few-Shot prompts.\n3. Use output primers, which involve concluding your prompt with the beginning of the desired output. Utilize output primers by ending your prompt with the start of the anticipated response.\n4. To write an essay/text/paragraph/article or any type of text that should be detailed: \"Write a detailed [essay/text/paragraph] for me on [topic] in detail by adding all the information necessary\".\n5. Use the phrase \"Answer a question given in a natural, human-like manner\" in your prompts.\n6. Be explicit about the length of the response.\n7. Specify the tone and style of writing needed in the response.\n8. Add constraints to limit or guide the response's content or style.\n9. Ask the model to output in a specific format like JSON, markdown, etc.\n10. Include examples within the prompt to guide the model.\n11. Ask for rationales or explanations with the answer.\n12. Use 'let’s think step by step' to encourage the model to break down the reasoning.\n13. Prompt for specific types of reasoning, such as analogies or distinctions.\n14. Use diverse and varied examples to cover different aspects of the topic.\n15. Use the model's pre-trained knowledge by referencing known concepts, terms, or theories.\n16. Specify the target audience or reader for the content.\n17. Encourage creativity and originality in the response.\n18. Use open-ended questions to allow for elaboration and depth.\n19. Avoid ambiguous language to ensure clarity and precision in the response.\n20. Utilize the model's ability to summarize or paraphrase.\n21. Provide step-by-step problem-solving prompts.\n22. Use the format: \"[Verb] a [output] by [method/request]\".\n23. Present complex tasks or queries in simpler, sequential steps.\n24. Use placeholders for dynamic content that needs to be interpolated.\n25. Instruct the model to follow a specific logic or set of guidelines.\n26. Encourage the model to review and revise its response for accuracy and completeness.",
+    "step2": "Here is the prompt that follows the principles: \"Create a catchy and memorable catchphrase for the company {TEXT}. Please think step by step and provide a concise, creative, and unique slogan that captures the essence of the company {TEXT}. Ensure the catchphrase is engaging, resonates with the target audience, and represents the company's values and mission. The response should be natural and human-like.\""
+}
+Error: '\n   "prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. To write any text, such as an essay or paragraph, that is intended to be similar to a provided sample, include the following instructions: - Please use the same language based on the provided paragraph[/title/text/essay/answer].\n   - This principle is about maintaining the style and tone of a given text when generating new content.\n\n2. When you want to initiate or continue a text using specific words, phrases, or sentences, utilize the following prompt: - I'm providing you with the beginning [song lyrics/story/paragraph/essay...]: [Insert lyrics/words/sentence]'. Finish it based on the words provided. Keep the flow consistent.\n   - This principle helps in maintaining continuity and coherence when extending a given text.\n\n3. Add \"I'm going to tip $xxx for a better solution!\"\n   - This principle incentivizes better quality responses by adding a monetary reward.\n\n4. To correct/change specific text without changing its style: \"Try to revise every paragraph sent by users. You should only improve the user's grammar and vocabulary and make sure it sounds natural. You should not change the writing style, such as making a formal paragraph casual\".\n   - This principle focuses on enhancing the text's quality without altering its original style.\n\n5. Break down the complex tasks into a sequence of simpler prompts in an interactive conversation.\n   - This principle emphasizes simplifying complex tasks by breaking them into manageable steps.\n\n6. To create multiple versions of a text, use: \"Please generate [number] variations of [type of text] based on [specific criteria]\".\n   - This principle assists in generating multiple variations of a text based on specific criteria.\n\n7. When creating persuasive text, instruct: \"Use emotional language and strong persuasive techniques to convince the reader about [topic/argument].\"\n   - This principle aids in crafting persuasive content by using emotional and compelling language.\n\n8. For technical documentation, use: \"Please provide a detailed and accurate explanation of [technical concept/process] and include examples where applicable.\"\n   - This principle guides the generation of precise and detailed technical content.\n\n9. When generating creative content, instruct: \"Let your imagination run wild and create a [story/poem/idea] based on [theme/topic].\"\n   - This principle encourages creativity and imaginative thinking.\n\n10. To ensure cultural sensitivity, use: \"Please make sure the content is culturally sensitive and avoids stereotypes.\"\n   - This principle ensures that generated content is respectful of cultural diversity.\n\n11. For summarizing content, instruct: \"Summarize the following text in a concise manner: [Insert text]\"\n   - This principle helps in creating brief and concise summaries of longer texts.\n\n12. When you need to create a dialogue, use: \"Create a conversation between [characters/people] about [topic]\"\n   - This principle guides the generation of dialogues between specified characters on a given topic.\n\n13. To add humor to text, use: \"Add a touch of humor to the following text: [Insert text]\"\n   - This principle helps in making content humorous and engaging.\n\n14. For generating questions, use: \"Create [number] questions based on [topic/text]\"\n   - This principle assists in generating questions from provided content or topics.\n\n15. For content expansion, instruct: \"Expand on the following idea: [Insert idea]\"\n   - This principle helps in elaborating on a given idea or concept.\n\n16. When needing a certain tone, use: \"Write the following text in a [formal/informal] tone: [Insert text]\"\n   - This principle ensures the generated content matches a specified tone.\n\n17. To generate code, use: \"Write a [program/script] that does [functionality]\"\n   - This principle guides the creation of code for specific functionalities.\n\n18. For translating text, use: \"Translate the following text to [language]: [Insert text]\"\n   - This principle aids in translating content to different languages.\n\n19. When generating lists, use: \"Create a list of [number] [items/things] about [topic]\"\n   - This principle helps in generating lists based on specified criteria.\n\n20. To compare and contrast, instruct: \"Compare and contrast [item1] and [item2] on [criteria]\"\n   - This principle guides the creation of comparative analyses.\n\n21. For research purposes, use: \"Find and summarize information on [topic]\"\n   - This principle assists in gathering and summarizing research information.\n\n22. When generating a review, instruct: \"Write a review of [product/service] highlighting both strengths and weaknesses.\"\n   - This principle guides the creation of balanced reviews.\n\n23. For instructive content, use: \"Write a step-by-step guide on how to [task]\"\n   - This principle helps in creating instructional content.\n\n24. When needing feedback, use: \"Provide constructive feedback on the following text: [Insert text]\"\n   - This principle aids in generating constructive feedback.\n\n25. For creating analogies, use: \"Create an analogy to explain [concept]\"\n   - This principle helps in explaining concepts through analogies.\n\n26. When you need historical context, use: \"Provide historical context for [event/person] and explain its significance.\"\n   - This principle guides the generation of historical context for events or persons.",
+    
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n{\n   \"prompt\": \"To write a catchphrase for the following company: {TEXT}, follow these instructions: - Use persuasive and emotional language to make it compelling. - Create multiple versions and select the best one. - Ensure the catchphrase is culturally sensitive and avoids stereotypes. - Use a touch of humor if appropriate. - Keep it concise and impactful.\"\n}"
+}
+Error: '\n    "step2"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. **Incorporate the following phrases:** 'You will be penalized'.\n   - This principle ensures consequences for non-compliance.\n\n2. **Use Delimiters.**\n   - Delimiters like quotes or triple backticks are used to clearly define input and output boundaries.\n\n3. **To correct/change specific text without changing its style:**\n   - This principle emphasizes maintaining the original writing style while improving grammar and vocabulary.\n\n4. **To write an essay/text/paragraph/article or any type of text that should be detailed:**\n   - This principle ensures the generated text is comprehensive and detailed.\n\n5. **Use output primers, which involve concluding your prompt with the beginning of the desired output:**\n   - Output primers provide a clear starting point for the generated response.\n\n6. **Specify the format of the response:**\n   - Clearly defining the format helps in getting the desired structure in the response.\n\n7. **Provide examples:**\n   - Examples guide the AI towards the expected outcome.\n\n8. **Set constraints:**\n   - Constraints control the scope and length of the response.\n\n9. **Ask for step-by-step solutions:**\n   - Step-by-step instructions help in breaking down complex tasks.\n\n10. **Be explicit about the purpose:**\n   - Stating the purpose clarifies the goal of the task.\n\n11. **Use numbered lists:**\n   - Numbered lists help in organizing the response.\n\n12. **Provide context:**\n   - Context ensures the AI understands the background and relevance of the task.\n\n13. **Use simple language:**\n   - Simple language avoids ambiguity.\n\n14. **Ask open-ended questions:**\n   - Open-ended questions encourage detailed responses.\n\n15. **Request multiple options:**\n   - Multiple options provide a variety of responses to choose from.\n\n16. **Specify the audience:**\n   - Knowing the audience helps tailor the response appropriately.\n\n17. **Ask for a summary:**\n   - Summaries provide a concise overview of the content.\n\n18. **Define the tone:**\n   - Specifying the tone ensures the response aligns with the desired emotion or style.\n\n19. **Use placeholders:**\n   - Placeholders like {TEXT} make the prompt adaptable to different inputs.\n\n20. **Include background information:**\n   - Background information enriches the response with relevant details.\n\n21. **Ask for clarification:**\n   - Clarification requests ensure the response is accurate and relevant.\n\n22. **Request an outline:**\n   - Outlines structure the response before diving into details.\n\n23. **Ask for pros and cons:**\n   - Pros and cons provide a balanced view of a topic.\n\n24. **Request analogies:**\n   - Analogies help in explaining complex ideas simply.\n\n25. **Ask for implications:**\n   - Discussing implications shows the significance and impact of the topic.\n\n26. **Incorporate feedback:**\n   - Feedback loops help in refining and improving the response.",
+    "step2": "Think step by step to create a comprehensive prompt. Here is the prompt that incorporates the 26 principles:\n\n```json\n{\n    \"step2\": \"You will be penalized if you do not follow the instructions carefully. Please use delimiters to clearly define the input and output boundaries. Try to revise every paragraph sent by users. You should only improve the user's grammar and vocabulary and make sure it sounds natural. You should not change the writing style, such as making a formal paragraph casual. Write a detailed and comprehensive catchphrase for the following company: {TEXT}. Use output primers by ending your prompt with the start of the anticipated response. The catchphrase should be engaging, memorable, and reflect the company's core values and mission. Here is the catchphrase: '\"\n}\n```"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. **Use output primers**: Conclude your prompt with the beginning of the desired output to guide the model towards the expected result.\n2. **Use specific words/phrases**: When you need a specific continuation, start with the given text to maintain flow.\n3. **Use delimiters**: Enclose specific instructions or variable parts with clear markers for clarity.\n4. **Model elicitation**: Prompt the model to ask questions to clarify any ambiguities before generating the output.\n5. **Repetition**: Reinforcing keywords or phrases to emphasize importance.\n6. **Provide context**: Extend the context around your request to help guide the model’s response.\n7. **Specify format**: Clearly outline the desired format of the output.\n8. **Define style/tone**: Describe the style or tone the output should follow.\n9. **Show examples**: Offer examples of the desired format or style.\n10. **Highlight key elements**: Point out the essential elements the response should include.\n11. **Use constraints**: Set limitations or rules the model must follow.\n12. **Avoid ambiguity**: Be explicit about what should be included or excluded.\n13. **Break down instructions**: Split complex requests into clear, manageable steps.\n14. **Iterative refinement**: Allow multiple rounds of prompting to refine the output.\n15. **Encourage creativity**: Prompt the model to be imaginative or innovative.\n16. **Balance brevity and detail**: Keep prompts concise while providing sufficient detail.\n17. **Be conversational**: Frame prompts in a dialogue format if it suits the task.\n18. **Use analogies**: Leverage analogies to explain the desired outcome.\n19. **Incorporate feedback**: Allow space for model-generated questions and clarifications.\n20. **Simplify language**: Use straightforward language to avoid confusion.\n21. **Set a theme**: Define a thematic direction for the output.\n22. **Mix formats**: Integrate different types of content (e.g., lists, paragraphs) in prompts.\n23. **Provide contrast**: Show what the output should and should not look like.\n24. **Request step-by-step**: Ask for a step-by-step breakdown of the output.\n25. **Use positive framing**: Frame requests in a positive light to influence tone.\n26. **Limit length**: Specify a word or character limit if necessary.\n",
+    "step2": "Here is a prompt incorporating the 26 principles:\n\n{\"prompt\": \"####\\nI'm providing you with a beginning for the following task: Write a catchphrase for the following company: '{TEXT}'. Limit your response to one catchy phrase, ensuring it is unique, memorable, and encapsulates the essence of the company. Use creative and positive language, and maintain a consistent flow. Here is a starting point to guide you: 'The ultimate choice for ...'\\n####\"}"
+}
+Error: expected string or bytes-like object, got 'dict'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. To inquire about a specific topic or idea or any information and you want to test your understanding, you can use the following phrase: 'Teach me the [Any theorem/topic/rule name] and include a test at the end, but don't give me the answers and then tell me if I got the answer right when I respond'. This principle is about inquiring knowledge and validating understanding by requesting a test without immediate answers.\n\n2. Add 'I'm going to tip $xxx for a better solution!' This principle introduces an incentive to potentially get a more thoughtful or detailed response.\n\n3. When you want to initiate or continue a text using specific words, phrases, or sentences, utilize the following prompt: - I'm providing you with the beginning [song lyrics/story/paragraph/essay...]: [Insert lyrics/words/sentence]'. Finish it based on the words provided. Keep the flow consistent. This is for maintaining a specific writing style or narrative flow based on provided text.\n\n4. Assign a role to the large language models. This principle asks to define a specific role for the language model to improve contextual responses.\n\n5. Incorporate the following phrases: 'Your task is' and 'You MUST'. This principle is about providing clear and mandatory instructions to the language model.\n\n6. Set parameters for word count.\n\n7. Specify the format of the response.\n\n8. Use clear and concise language.\n\n9. Ask for examples or analogies.\n\n10. Request step-by-step explanations.\n\n11. Ask the model to think aloud.\n\n12. Request a pros and cons list.\n\n13. Ask the model to draw comparisons.\n\n14. Request a summary.\n\n15. Inquire about future predictions or outcomes.\n\n16. Ask follow-up questions based on previous responses.\n\n17. Pose hypothetical scenarios.\n\n18. Set constraints or conditions.\n\n19. Ask for multiple perspectives.\n\n20. Request a list of steps or procedures.\n\n21. Ask for potential obstacles or challenges.\n\n22. Request historical context.\n\n23. Use 'explain like I'm five' for simplification.\n\n24. Ask for benefits and drawbacks.\n\n25. Request a creative or unique perspective.\n\n26. Ask the model to pretend to be someone else or take on a persona.",
+    
+    "step2": {
+        "prompt": "Your task is to write a catchphrase for the following company: {TEXT}. You MUST ensure the catchphrase captures the essence and unique value proposition of the company. Think step-by-step about the key elements such as target audience, brand identity, and core message. Include a few different versions to provide options. I'm going to tip $50 for a better solution! Provide clear and concise suggestions to maximize impact."
+    }
+}
+Error: '\n    "prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Allow the model to elicit precise details and requirements from you by asking you questions until he has enough information to provide the needed output: This principle ensures that the model gathers all necessary information before generating a response, improving accuracy and relevance.\n\n2. Use the phrase 'Answer a question given in a natural, human-like manner' in your prompts: This encourages the model to respond in a more conversational and relatable way, enhancing user engagement.\n\n3. Repeat a specific word or phrase multiple times within a prompt: Repetition can emphasize important aspects of the prompt, guiding the model to focus on key elements.\n\n4. To inquire about a specific topic or idea or any information and you want to test your understanding, you can use the following phrase: 'Teach me the [Any theorem/topic/rule name] and include a test at the end, but don't give me the answers and then tell me if I got the answer right when I respond': This principle combines learning and assessment, ensuring the user comprehends the information.\n\n5. Integrate the intended audience in the prompt, e.g., the audience is an expert in the field: Tailoring the prompt to the audience's expertise level ensures the response is appropriately detailed and complex.\n\n6. Provide a clear and concise context or background for the task: Giving context helps the model understand the scenario and generate relevant responses.\n\n7. Use specific and unambiguous language: Clear language reduces the risk of misunderstandings and ensures the model knows exactly what is expected.\n\n8. Break down complex tasks into smaller, manageable parts: This makes it easier for the model to process and respond accurately.\n\n9. Encourage creativity and originality in the responses: Prompts that allow for creative thinking can lead to more innovative and interesting outputs.\n\n10. Use examples to illustrate the desired output: Examples can guide the model by providing a concrete reference.\n\n11. Specify the format of the response: Clearly defining the format ensures the response meets the user's needs.\n\n12. Limit the response length if necessary: Setting a length limit can keep responses concise and to the point.\n\n13. Ask for multiple variations or perspectives: This can provide a broader range of ideas and solutions.\n\n14. Request a step-by-step explanation: Detailed explanations can help users understand the reasoning behind the response.\n\n15. Use open-ended questions to encourage detailed responses: Open-ended questions can elicit more comprehensive and informative answers.\n\n16. Incorporate relevant keywords or phrases: Keywords can help the model focus on important aspects of the prompt.\n\n17. Ask for a summary or conclusion: Summaries can provide a quick overview of the main points.\n\n18. Encourage the use of analogies or metaphors: Analogies can make complex ideas more relatable and easier to understand.\n\n19. Specify the tone or style of the response: Defining the tone ensures the response matches the desired mood or formality.\n\n20. Request the inclusion of specific data or statistics: Data can add credibility and support to the response.\n\n21. Ask for a comparison or contrast: Comparisons can highlight differences and similarities, providing deeper insights.\n\n22. Encourage the use of visual aids or diagrams: Visuals can enhance understanding and retention of information.\n\n23. Request a list of pros and cons: Listing advantages and disadvantages can help evaluate different options.\n\n24. Ask for potential challenges or obstacles: Identifying challenges can aid in planning and problem-solving.\n\n25. Request actionable steps or recommendations: Actionable advice can guide users on what to do next.\n\n26. Encourage reflection or self-assessment: Reflection can help users evaluate their understanding and progress.",
+    "step2": "Here is the prompt created using the 26 prompting principles for the given task:\n\n{\n    \"prompt\": \"From now on, I would like you to ask me questions to elicit precise details and requirements for writing a catchphrase for the following company: {TEXT}. Answer a question given in a natural, human-like manner. Provide a clear and concise context or background for the task. Use specific and unambiguous language and break down complex tasks into smaller, manageable parts. Encourage creativity and originality in the responses. Use examples to illustrate the desired output. Specify the format of the response and limit the response length if necessary. Ask for multiple variations or perspectives and request a step-by-step explanation. Use open-ended questions to encourage detailed responses. Incorporate relevant keywords or phrases. Ask for a summary or conclusion. Encourage the use of analogies or metaphors. Specify the tone or style of the response. Request the inclusion of specific data or statistics. Ask for a comparison or contrast. Encourage the use of visual aids or diagrams. Request a list of pros and cons. Ask for potential challenges or obstacles. Request actionable steps or recommendations. Encourage reflection or self-assessment.\"\n}"
+}
+Error: '\n    "prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. **Implement example-driven prompting (Use few-shot prompting)**: This principle involves providing the model with examples of the desired output format to guide its response.\n\n2. **Allow the model to elicit precise details and requirements from you by asking you questions until he has enough information to provide the needed output**: This principle encourages the model to ask clarifying questions to ensure it fully understands the task before generating a response.\n\n3. **Add to your prompt the following phrase \"Ensure that your answer is unbiased and does not rely on stereotypes\"**: This principle aims to mitigate bias and stereotypes in the model's output by explicitly instructing the model to avoid them.\n\n4. **Clearly state the requirements that the model must follow in order to produce content, in the form of the keywords, regulations, hint, or instructions**: This principle involves providing clear and specific guidelines to the model to ensure the output meets the desired criteria.\n\n5. **Combine Chain-of-thought (CoT) with few-Shot prompts**: This principle involves using a step-by-step reasoning process (Chain-of-thought) along with few-shot examples to guide the model's response.\n\n6. **Use clear and specific language**: This principle emphasizes the importance of clarity and specificity in the prompt to avoid ambiguity.\n\n7. **Provide context and background information**: This principle involves giving the model relevant context and background information to help it generate a more accurate and relevant response.\n\n8. **Use open-ended questions**: This principle encourages the use of open-ended questions to allow the model to provide more detailed and nuanced responses.\n\n9. **Encourage creativity and originality**: This principle involves prompting the model to generate creative and original content.\n\n10. **Request multiple options or variations**: This principle involves asking the model to provide multiple options or variations of the response to increase the chances of getting a satisfactory answer.\n\n11. **Use conditional instructions**: This principle involves providing conditional instructions to guide the model's response based on specific criteria or conditions.\n\n12. **Incorporate feedback loops**: This principle involves creating a feedback loop where the model's output is reviewed and refined iteratively.\n\n13. **Use role-playing scenarios**: This principle involves prompting the model to take on a specific role or persona to generate more contextually appropriate responses.\n\n14. **Ask for step-by-step explanations**: This principle involves asking the model to provide step-by-step explanations of its reasoning process.\n\n15. **Encourage the model to verify its response**: This principle involves prompting the model to verify the accuracy and relevance of its response before finalizing it.\n\n16. **Use analogies and metaphors**: This principle involves prompting the model to use analogies and metaphors to explain complex concepts more clearly.\n\n17. **Ask for pros and cons**: This principle involves asking the model to provide the pros and cons of a particular option or decision.\n\n18. **Encourage critical thinking**: This principle involves prompting the model to engage in critical thinking and analysis.\n\n19. **Use comparative analysis**: This principle involves asking the model to compare and contrast different options or scenarios.\n\n20. **Request summaries and overviews**: This principle involves asking the model to provide summaries and overviews of complex information.\n\n21. **Use hypothetical scenarios**: This principle involves prompting the model to consider hypothetical scenarios to explore potential outcomes and implications.\n\n22. **Encourage empathy and perspective-taking**: This principle involves prompting the model to consider different perspectives and show empathy in its responses.\n\n23. **Ask for recommendations and suggestions**: This principle involves asking the model to provide recommendations and suggestions based on the given information.\n\n24. **Use time constraints**: This principle involves setting time constraints to guide the model's response within a specific timeframe.\n\n25. **Incorporate real-world examples**: This principle involves prompting the model to use real-world examples to illustrate its points.\n\n26. **Use visual aids and diagrams**: This principle involves prompting the model to use visual aids and diagrams to enhance its explanations.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n```json\n{\n    \"prompt\": \"Write a catchphrase for the following company: {TEXT}. Ensure that your answer is unbiased and does not rely on stereotypes. Please ask any clarifying questions you need to fully understand the company's mission, values, and target audience before providing the catchphrase. Provide at least three different catchphrase options, and explain the reasoning behind each one.\"\n}\n```"
+}
+Error: '\n  "prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Add to your prompt the following phrase 'Ensure that your answer is unbiased and does not rely on stereotypes': This principle ensures that the generated content is free from biases and stereotypes, promoting fairness and inclusivity.\n\n2. Allow the model to elicit precise details and requirements from you by asking you questions until he has enough information to provide the needed output (for example, 'From now on, I would like you to ask me questions to...'): This principle encourages the model to gather more information to provide a more accurate and tailored response.\n\n3. Repeat a specific word or phrase multiple times within a prompt: Repetition can emphasize key points or themes, making them more prominent in the generated content.\n\n4. When you want to initiate or continue a text using specific words, phrases, or sentences, utilize the following prompt: - I'm providing you with the beginning [song lyrics/story/paragraph/essay...]: [Insert lyrics/words/sentence]'. Finish it based on the words provided. Keep the flow consistent: This principle helps maintain the continuity and style of the provided text.\n\n5. To write any text, such as an essay or paragraph, that is intended to be similar to a provided sample, include the following instructions: - Please use the same language based on the provided paragraph[/title/text/essay/answer]: This ensures that the generated text matches the style and tone of the provided sample.\n\n6. Specify the length of the response: This helps control the verbosity of the generated content, ensuring it meets the desired length.\n\n7. Specify the format of the response: This ensures that the output is structured in a specific way, such as a list, paragraph, or dialogue.\n\n8. Ask the model to provide a summary: This can be useful for condensing information into a more digestible form.\n\n9. Ask the model to provide examples: Examples can clarify complex concepts and provide concrete illustrations.\n\n10. Ask the model to provide a step-by-step explanation: This can help break down complex processes into manageable steps.\n\n11. Ask the model to compare and contrast: This can highlight similarities and differences between two or more items.\n\n12. Ask the model to provide pros and cons: This can help weigh the benefits and drawbacks of a particular option or decision.\n\n13. Ask the model to provide a list of key points: This can help identify the most important aspects of a topic.\n\n14. Ask the model to provide a definition: This can clarify the meaning of a term or concept.\n\n15. Ask the model to provide a detailed description: This can help create a vivid and comprehensive picture of a subject.\n\n16. Ask the model to provide a historical context: This can help situate a topic within its broader historical framework.\n\n17. Ask the model to provide a future prediction: This can offer insights into potential future developments.\n\n18. Ask the model to provide a personal opinion: This can add a subjective perspective to the discussion.\n\n19. Ask the model to provide a counterargument: This can help explore different sides of an issue.\n\n20. Ask the model to provide a creative story: This can stimulate imagination and creativity.\n\n21. Ask the model to provide a dialogue: This can simulate a conversation between two or more characters.\n\n22. Ask the model to provide a code snippet: This can be useful for programming-related queries.\n\n23. Ask the model to provide a mathematical solution: This can help solve mathematical problems step-by-step.\n\n24. Ask the model to provide a scientific explanation: This can help explain scientific concepts and phenomena.\n\n25. Ask the model to provide a philosophical argument: This can help explore abstract and theoretical ideas.\n\n26. Ask the model to provide a legal analysis: This can help interpret laws and legal principles.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n{\n  \"prompt\": \"Write a catchphrase for the following company: {TEXT}. Ensure that your answer is unbiased and does not rely on stereotypes. From now on, I would like you to ask me questions to gather precise details and requirements until you have enough information to provide the needed output. Please provide a list of key points that the catchphrase should highlight. Additionally, provide a step-by-step explanation of how you arrived at the final catchphrase.\"\n}"
+}
+Error: '\n    "prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. To correct/change specific text without changing its style: This principle focuses on improving grammar and vocabulary while maintaining the original writing style.\n2. To write any text, such as an essay or paragraph, that is intended to be similar to a provided sample: This principle ensures that the generated text matches the language and style of a given example.\n3. Ensure that your answer is unbiased and does not rely on stereotypes: This principle emphasizes the importance of neutrality and avoiding stereotypes in responses.\n4. When you want to initiate or continue a text using specific words, phrases, or sentences: This principle guides the continuation of a text based on a given starting point, maintaining consistency in flow.\n5. Add 'I'm going to tip $xxx for a better solution!': This principle suggests incentivizing better solutions by mentioning a tip.\n6. To generate a list of items based on a given topic: This principle is used to create a list of items related to a specified topic.\n7. To summarize a given text: This principle focuses on condensing a provided text into a summary.\n8. To translate text from one language to another: This principle is used for translating text between languages.\n9. To provide a detailed explanation of a concept: This principle aims to offer an in-depth explanation of a given concept.\n10. To compare and contrast two or more items: This principle is used to highlight similarities and differences between items.\n11. To generate creative content such as stories or poems: This principle focuses on creating imaginative and artistic content.\n12. To provide step-by-step instructions for a task: This principle is used to break down a task into sequential steps.\n13. To answer questions based on provided information: This principle focuses on responding to queries using given data.\n14. To provide recommendations based on user preferences: This principle aims to suggest options tailored to user preferences.\n15. To rewrite text in a different tone or style: This principle involves changing the tone or style of a text while retaining its meaning.\n16. To identify and correct errors in a text: This principle focuses on finding and fixing mistakes in a given text.\n17. To generate questions based on a given text: This principle is used to create questions related to a provided text.\n18. To provide a critique or review of a text: This principle aims to offer an evaluation or analysis of a text.\n19. To generate a title for a given text: This principle focuses on creating a suitable title for a provided text.\n20. To provide a summary of a meeting or event: This principle is used to condense the key points of a meeting or event.\n21. To generate a response to a given prompt: This principle focuses on creating an appropriate reply to a specified prompt.\n22. To provide a list of pros and cons for a given topic: This principle is used to outline the advantages and disadvantages of a topic.\n23. To generate a list of potential solutions to a problem: This principle focuses on brainstorming possible solutions to an issue.\n24. To provide a detailed analysis of a text: This principle aims to offer a thorough examination of a text.\n25. To generate a list of questions for a survey: This principle is used to create survey questions.\n26. To provide a list of potential interview questions: This principle focuses on generating questions for an interview.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n{\n    \"prompt\": \"Write a catchphrase for the following company: {TEXT}. Ensure that your answer is unbiased and does not rely on stereotypes. Please use the same language based on the provided paragraph. I'm going to tip $xxx for a better solution!\"\n}"
+}
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+Max score reached. Exiting...
+Current Best score: 100.0
+Current Best prompt: Write a catchphrase         for the following company: {TEXT}
+
+
+Calculating Test Scores...
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 50 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+Printing Test Scores:
+Initial Prompt Score: {'Write a catchphrase         for the following company: {TEXT}': 100.0}
+Optimized Prompt Score: {'Write a catchphrase         for the following company: {TEXT}': 100.0}

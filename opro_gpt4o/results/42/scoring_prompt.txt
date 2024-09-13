@@ -1,0 +1,1 @@
+Does the "{output}" variable accurately represent the "{text}" variable as a Python list of strings? Ensure that all words in the output list match the words present in the text while preserving their order. Answer yes or no and explain if necessary.
