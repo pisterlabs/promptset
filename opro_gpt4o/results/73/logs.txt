@@ -1,0 +1,1254 @@
+Attempt 1 made.
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 2 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 2 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 2 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 2 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 2 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 2 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 2 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 2 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 2 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 2 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 2 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 2 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 7 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 7 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 7 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 6 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 6 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 6 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 6 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 6 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 6 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 6 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 6 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 6 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 4 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 4 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT>Photosynthesis in plants generally takes place within the chloroplasts, which contain chlorophyll. Chlorophyll absorbs light most efficiently in the blue portion of the electromagnetic spectrum followed by the red portion. The green light is reflected, which is why plants appear green to the human eye.<END_TEXT>
+
+<BEGIN_RESPONSE>Photosynthesis in plants generally takes place within the chloroplasts, which contain chlorophyll. Chlorophyll absorbs light most efficiently in the blue portion of the electromagnetic spectrum followed by the red portion. The green light is reflected, which is why plants appear green to the human eye.<END_RESPONSE>
+## Scenario:
+A customer service system uses specialized software to provide support by gathering relevant information about product features, troubleshooting steps, or policy details. The help desk uses AI tools to answer customer queries by inserting appropriate context.
+
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The warranty for our electronics products covers any manufacturing defects for a period of 24 months from the date of purchase. Accidental damage such as drops or liquid spills are not covered under the warranty. In case of any issues, customers can contact our support team who will assist in diagnosing the problem and arrange repair or replacement if the product is found to have a manufacturing defect. <END_TEXT>
+<BEGIN_RESPONSE> The warranty for our electronics products covers any manufacturing defects for a period of 24 months from the date of purchase. Accidental damage such as drops or liquid spills are not covered under the warranty. In case of any issues, customers can contact our support team who will assist in diagnosing the problem and arrange repair or replacement if the product is found to have a manufacturing defect. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The impact of climate change is becoming increasingly apparent as global temperatures rise, sea levels increase, and extreme weather events become more frequent. Efforts to mitigate and adapt to these changes are critical for the sustainability of our planet. Policies focused on reducing greenhouse gas emissions, transitioning to renewable energy, and promoting sustainable agricultural practices are essential in addressing the global climate crisis. Adaptation strategies, such as improving infrastructure resilience and establishing early-warning systems, can help communities cope with the adverse effects of climate change. <END_TEXT>
+<BEGIN_RESPONSE> Climate change has wide-reaching implications that affect numerous aspects of life on Earth. Rising global temperatures, increasing sea levels, and the frequency of extreme weather events pose significant challenges. It is crucial to implement policies aimed at reducing greenhouse gas emissions, transition to renewable energy sources, and promote sustainable agricultural practices to mitigate these impacts. Additionally, adaptation strategies, such as enhancing the resilience of infrastructure and developing early-warning systems, are necessary to help communities adapt to the changes already underway. Addressing the global climate crisis thus requires a multifaceted and proactive approach. <END_RESPONSE>
+<BEGIN_PROMPT>Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT}<END_PROMPT>
+
+<BEGIN_TEXT>
+Due to the recent influx of rubber ducks in the local park fountain, the city council has decided to hold a Duck Festival. The festival will feature a variety of duck-themed activities, including a rubber duck race, quacking contests, and a "Best Dressed Duck" competition. In addition, there will be food stalls offering duck-shaped snacks, souvenirs such as duck hats, and live music performances by the band "Quack Attack."
+<END_TEXT>
+
+<BEGIN_RESPONSE>
+The newfound popularity of rubber ducks in the local park fountain has led to the charming and undoubtedly quacky Duck Festival! Events at the festival include a competitive rubber duck race, ear-piercing quacking contests, and the glamorous "Best Dressed Duck" competition. Hungry festival-goers can enjoy duck-shaped snacks, and collectors can snag such priceless treasures as duck hats. All this will be set to the melodious tunes of "Quack Attack." Yes, the ducks are invading, but they're doing it with style!
+<END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> A recent study published in the journal "Science Advances" highlights the pivotal role of dark matter in galaxy formation. Through advanced simulations, researchers have determined that dark matter acts as a gravitational scaffold, facilitating the accumulation of ordinary matter and the formation of galaxies. The study used data from various astronomical observations and computational models to provide insights into this process. However, the precise nature of dark matter remains elusive, with several competing theories currently under investigation. <END_TEXT>
+<BEGIN_RESPONSE> The study from "Science Advances" illustrates the critical role dark matter plays in galaxy formation by serving as a gravitational framework that assists in the accumulation of ordinary matter. Despite these insights, the exact nature of dark matter is still unknown, with multiple theories being explored to explain its properties and behavior. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT>
+The existence of dark matter in the universe is suggested by a range of astrophysical observations. Dark matter is believed to make up approximately 27% of the universe's mass-energy content. Despite its significant presence, dark matter does not emit, absorb, or reflect light, making it invisible and detectable only through its gravitational effects. Evidence for dark matter includes the rotational speeds of galaxies, gravitational lensing, and the cosmic microwave background radiation. Yet, its exact nature remains one of the most significant mysteries in modern astrophysics.
+<END_TEXT>
+<BEGIN_RESPONSE>
+The presence of dark matter, although not directly observable, is inferred from various astrophysical phenomena. One primary piece of evidence is the rotational speeds of galaxies; without dark matter, the outer regions of galaxies would rotate slower than what is observed. Additionally, gravitational lensing, where light from distant objects is bent by gravitational fields, and the properties of the cosmic microwave background radiation, both suggest the presence of this enigmatic matter. However, the exact composition and nature of dark matter continue to elude scientists, making it a central puzzle in the field of astrophysics.
+<END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The Mona Lisa, painted by Leonardo da Vinci, is one of the most famous portraits in the world. Located in the Louvre Museum in Paris, this masterpiece is renowned for its exquisite detail and the mysterious smile of the subject. Leonardo da Vinci, an Italian Renaissance polymath, was known for his contributions to art, science, and engineering. <END_TEXT>
+
+<BEGIN_RESPONSE> The Mona Lisa was painted by Leonardo da Vinci. It is renowned for its exquisite detail and the mysterious smile of the subject. The painting is located in the Louvre Museum in Paris. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The rapid increase in urban population density has led to various socioeconomic challenges, including reduced access to affordable housing, increased traffic congestion, and strain on public services. However, it has also spurred innovation in public transportation and urban planning to create more sustainable living environments. <END_TEXT>
+
+<BEGIN_RESPONSE> The response to the user's question relies on understanding the complexities of urban population density. While socioeconomic challenges such as reduced access to affordable housing, increased traffic congestion, and strain on public services are significant issues, it's also important to recognize the positive impact of increased urban density. Innovations in public transportation and urban planning are creating more sustainable living environments. Thus, the assumptions need to consider both the challenges and the potential benefits to fully address the user's question. <END_RESPONSE>
+## Scenario: A user needs clarification about a specific technical term in a research paper.
+
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The research paper examines various machine learning algorithms and their applications in predictive analytics. It specifically highlights the use of Random Forest (RF) and Support Vector Machine (SVM) techniques for building robust predictive models. Random Forest is an ensemble learning method that constructs multiple decision trees during training and outputs the class that is the mode of the classes of individual trees. Support Vector Machine, on the other hand, is based on constructing hyperplanes in a multidimensional space to separate different classes. Both techniques are implemented to optimize performance measures such as accuracy, precision, and recall. <END_TEXT>
+
+<BEGIN_RESPONSE> Random Forest (RF) is an ensemble learning method that involves constructing multiple decision trees during training and then outputting the class that is the mode of the classes of individual trees. Support Vector Machine (SVM) constructs hyperplanes in a multidimensional space to separate different classes. Both techniques are used in the paper to optimize performance measures like accuracy, precision, and recall. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Jean-Paul Sartre argues in "Being and Nothingness" that existence precedes essence, meaning that humans are not defined by preconceived notions or purposes but rather shape their own existence through actions and choices. This framework posits that individuals bear the weight of creating their own meaning in life, a profound responsibility and burden that can lead to existential angst.
+
+Moreover, Sartre rejects the idea of a deterministic universe, emphasizing human freedom and the inherent responsibility that comes with it. He contends that this freedom is boundless but also asserts that individuals are "condemned to be free," as they cannot escape the necessity of making choices.
+
+Within this philosophical paradigm, concepts such as authenticity and bad faith become central. Authenticity involves living in accordance with one's true self and values, while bad faith refers to self-deception or denial of the freedom and responsibility inherent in one's existence. <END_TEXT>
+<BEGIN_RESPONSE> The question on existentialism can be understood through the philosophical lens provided by Jean-Paul Sartre in "Being and Nothingness." Sartre asserts that humans are free to define their own existence through actions and choices, rejecting any predetermined essence. This notion places the responsibility of creating meaning squarely on the individual, often resulting in existential angst due to the weight of this freedom. He emphasizes that individuals live authentically when they act in accordance with their true values, as opposed to living in bad faith, which involves self-deception or denial of their freedom and responsibility. Sartre's existential framework challenges deterministic views and highlights the boundless freedom coupled with the inherent burden of choice. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+<BEGIN_TEXT> During World War II, many countries organized resistance movements to counteract the occupying Axis powers. The French Resistance, for example, played a pivotal role in gathering intelligence and coordinating with Allied forces to conduct sabotage operations against German military installations. Notably, members of the resistance disrupted German supply lines and facilitated the escape of Allied airmen shot down over France. Their efforts significantly contributed to the weakening of German control leading up to the D-Day Normandy invasion. <END_TEXT> <END_PROMPT>
+
+<BEGIN_RESPONSE> The French Resistance, active during World War II, significantly weakened German control by gathering intelligence, conducting sabotage operations, disrupting German supply lines, and helping Allied airmen who were shot down. Their contributions were crucial leading up to the D-Day Normandy invasion. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> In classic physics, an object's momentum is the product of its mass and velocity. On the other hand, empathy in a social context involves recognizing and understanding others' emotions. Both momentum and empathy share a common theme: movement. Momentum relates to physical movement, while empathy involves emotional movement. Empathy can generate a positive shift in social dynamics, much like momentum can create physical changes. <END_TEXT>
+
+<BEGIN_RESPONSE> Momentum in physics and empathy in social contexts may seem unrelated, but they both involve forms of movement. Momentum is the product of an object's mass and velocity, leading to physical movement. Empathy involves recognizing and understanding others' emotions, generating emotional movement. Both can create significant shifts, whether in physical or social dynamics. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT>Climate change is accelerating due to human activities, particularly the burning of fossil fuels, deforestation, and industrial processes. Scientific evidence overwhelmingly supports the conclusion that global temperatures are rising, leading to more extreme weather events, melting ice caps, and rising sea levels. Mitigating climate change requires global cooperation and policies that promote renewable energy, conservation efforts, and sustainable practices. <END_TEXT>
+<BEGIN_RESPONSE> The user asked about the factors contributing to climate change and possible solutions. Here are the key points from the provided context:
+
+Climate change is accelerating due to human activities, especially the burning of fossil fuels, deforestation, and industrial processes. Scientific evidence overwhelmingly supports the conclusion that global temperatures are rising, which leads to more extreme weather events, melting ice caps, and rising sea levels. To mitigate climate change, global cooperation is essential, along with policies that promote renewable energy, conservation efforts, and sustainable practices.
+
+If you need further details or specific examples of policies, I don't know those specifics but can find out more information. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The current market trends indicate a shift towards electric vehicles (EVs) due to increasing environmental concerns and government incentives. Several major automotive companies have announced plans to significantly expand their EV offerings in the next five years. Additionally, advancements in battery technology are expected to reduce costs and improve the range of electric vehicles, making them more accessible to a broader range of consumers. <END_TEXT>
+
+<BEGIN_RESPONSE> The current market trends indicate a shift towards electric vehicles (EVs) due to increasing environmental concerns and government incentives. Several major automotive companies have announced plans to significantly expand their EV offerings in the next five years. Additionally, advancements in battery technology are expected to reduce costs and improve the range of electric vehicles, making them more accessible to a broader range of consumers. <END_RESPONSE>
+## Synthetic Data Generation
+
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> According to existentialist thought, notably that of Jean-Paul Sartre, the cornerstone of existentialism is the principle that "existence precedes essence." This means that humans first exist without any predetermined purpose and only later define their essence through actions and choices. Sartre argued that life has no inherent meaning other than what individuals themselves ascribe to it through their freedom and decisions. Thus, at the heart of existentialism lies the concept of radical freedom, which posits that individuals are always free to make choices, but this freedom also comes with the burden of responsibility for those choices.
+
+Another significant principle in existentialism is the notion of "bad faith," where individuals deceive themselves to avoid acknowledging their own freedom and the accompanying responsibility. For an existentialist, living authentically involves accepting this freedom and the weight of personal responsibility, rather than conforming to societal expectations or external definitions of identity. <END_TEXT>
+
+<BEGIN_RESPONSE> According to existentialist thought, particularly the views of Jean-Paul Sartre, "existence precedes essence." This principle asserts that humans are born without a predetermined purpose and only later define their essence through actions and choices. In this framework, life has no inherent meaning beyond what individuals ascribe to it through their freedom and decisions. Sartre emphasized the concept of radical freedom, suggesting that individuals are always free to make their own choices but must bear the weight of responsibility for these decisions.
+
+Another key idea in existentialism is "bad faith," a form of self-deception where individuals avoid acknowledging their own freedom and the responsibility that comes with it. Living authentically, from an existentialist perspective, involves accepting and embracing one's freedom and personal responsibility instead of conforming to societal norms or external definitions of identity. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The rapid advancements in AI technology have led to significant improvements in various industries, including healthcare, finance, and transportation. However, these advancements also pose certain ethical dilemmas and challenges, such as the potential for job displacement and privacy concerns. It is crucial to address these issues to ensure that the benefits of AI are maximized while minimizing its negative impacts. <END_TEXT>
+
+<BEGIN_RESPONSE> The user's question appears to be focused on the implications of AI technology in different sectors and the associated ethical considerations. Based on the provided text, we can infer that while AI advancements have led to notable improvements in industries such as healthcare, finance, and transportation, they also raise ethical concerns like job displacement and privacy issues. It is important to address these challenges to balance the positive outcomes of AI with mitigating its adverse effects. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Quantum computing utilizes principles like superposition and entanglement to process information in ways classical computers cannot. Superposition allows quantum bits (qubits) to exist in multiple states simultaneously, increasing computational power. Entanglement enables qubits to be interconnected such that the state of one qubit will immediately affect the state of another, regardless of distance. These features make quantum computers highly effective for specific tasks like factoring large numbers, optimizing complex systems, and simulating molecular structures, which are challenging for classical computers. <END_TEXT>
+<BEGIN_RESPONSE> Quantum computing utilizes principles like superposition and entanglement to process information in ways classical computers cannot. Superposition allows quantum bits (qubits) to exist in multiple states simultaneously, increasing computational power. Entanglement enables qubits to be interconnected such that the state of one qubit will immediately affect the state of another, regardless of distance. These features make quantum computers highly effective for specific tasks like factoring large numbers, optimizing complex systems, and simulating molecular structures, which are challenging for classical computers. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> From a very young age, I always felt a deep connection with nature. Growing up in the countryside allowed me to explore forests, rivers, and meadows almost daily. These experiences fostered a profound sense of respect and responsibility towards the environment. In my teenage years, I started volunteering for environmental cleanup efforts and eventually pursued a degree in Environmental Science. Now, as an adult, I'm actively involved in sustainable farming practices and environmental advocacy, striving to protect and preserve the natural world for future generations. <END_TEXT>
+<BEGIN_RESPONSE> From a very young age, I always felt a deep connection with nature. Growing up in the countryside allowed me to explore forests, rivers, and meadows almost daily. These experiences fostered a profound sense of respect and responsibility towards the environment. In my teenage years, I started volunteering for environmental cleanup efforts and eventually pursued a degree in Environmental Science. Now, as an adult, I'm actively involved in sustainable farming practices and environmental advocacy, striving to protect and preserve the natural world for future generations. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The Milky Way is the galaxy that contains our Solar System. The name describes the galaxy's appearance from Earth: a hazy band of light seen in the night sky formed from stars that cannot be individually distinguished by the naked eye. The term Milky Way is a translation of the Latin via lactea, which is derived from the Greek galaxias kyklos, meaning "milky circle." From Earth, the Milky Way appears as an edge-on view of its disk-shaped structure. <END_TEXT>
+
+<BEGIN_RESPONSE> The Milky Way is the galaxy that contains our Solar System. It appears as a hazy band of light in the night sky, which is formed from stars that cannot be individually distinguished by the naked eye. The term "Milky Way" originates from Latin "via lactea" and Greek "galaxias kyklos," both meaning "milky circle." The Milky Way is viewed edge-on from Earth, giving us a view of its disk-shaped structure. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> 
+The main challenge in building sustainable architecture lies not in the availability of materials or technology, but in changing the mindset of people involved in the construction process. Current practices are deeply rooted in cost-saving measures that often ignore long-term environmental impacts, leading to a preference for cheaper, less sustainable options.
+Text also highlights that despite advances in green technology, widespread adoption is hindered by a lack of education and awareness among both consumers and professionals in the industry. 
+
+<END_TEXT>
+<BEGIN_RESPONSE>
+It's important to question the assumption that sustainable architecture is a matter of material and technological availability alone. According to the provided text, the primary challenge is changing the mindset of people in the construction process. This involves overcoming cost-saving practices that prioritize short-term savings over long-term environmental impacts. Additionally, the text suggests that a lack of education and awareness among consumers and professionals is a significant barrier to the adoption of green technology. 
+
+Therefore, addressing the issue requires a multifaceted approach: educating all stakeholders involved and shifting the industry culture towards prioritizing sustainability over immediate cost savings. Without tackling these underlying factors, advancements in materials and technology alone may not lead to significant improvements in sustainable architecture.
+<END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> Urban gardening is the practice of cultivating, processing, and distributing food in or around urban areas. It builds community, increases access to fresh produce, and makes use of available space in cities. In contrast, quantum computing leverages principles of quantum mechanics, employing qubits to perform calculations at speeds unachievable by classical computers. Both concepts, although seemingly unrelated, involve the innovative use of available resources to achieve significant improvements in their respective fields. <END_TEXT>
+
+<BEGIN_RESPONSE> Urban gardening and quantum computing, though they emerge from entirely different fields, share a common thread of innovation and resource optimization. Urban gardening transforms unused city spaces into productive green areas, cultivating both food and community ties. Quantum computing, on the other hand, utilizes the principles of quantum mechanics to revolutionize computational speeds, making use of qubits for incredibly fast and complex problem-solving. Both practices exemplify how taking full advantage of available resources—whether they are urban spaces or quantum phenomena—can lead to groundbreaking advancements. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The Mona Lisa is a portrait painting by the Italian artist Leonardo da Vinci. It is considered an archetypal masterpiece of the Italian Renaissance and has been described as "the best known, the most visited, the most written about, the most sung about, the most parodied work of art in the world". Painted between 1503 and 1506, it is housed in the Louvre in Paris, France. <END_TEXT>
+<BEGIN_RESPONSE> The Mona Lisa is a portrait painting by the Italian artist Leonardo da Vinci. It is considered an archetypal masterpiece of the Italian Renaissance and has been described as "the best known, the most visited, the most written about, the most sung about, the most parodied work of art in the world". Painted between 1503 and 1506, it is housed in the Louvre in Paris, France. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> 
+The Eiffel Tower is an iron lattice tower located on the Champ de Mars in Paris, France. It was named after the engineer Gustave Eiffel, whose company designed and built the tower. Constructed from 1887 to 1889 as the entrance arch for the 1889 World's Fair, the Eiffel Tower is 324 meters tall and was the world's tallest man-made structure until the completion of the Chrysler Building in New York in 1930.
+<END_TEXT>
+
+<BEGIN_RESPONSE> 
+The Eiffel Tower is an iron lattice tower located on the Champ de Mars in Paris, France. Constructed from 1887 to 1889, it was named after the engineer Gustave Eiffel, whose company designed and built it. Standing at 324 meters, it was the world's tallest man-made structure until 1930.
+<END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The economic impact of large-scale infrastructure projects often includes both short-term and long-term effects. In the short term, these projects can create jobs and stimulate local economies. In the long term, they can enhance productivity and connectivity, leading to sustained economic growth. However, the scale and effectiveness of these economic benefits can vary significantly depending on various factors such as project management, government policies, and local economic conditions. <END_TEXT>
+<BEGIN_RESPONSE> Large-scale infrastructure projects can have significant economic impacts both in the short term and long term. In the short term, these projects generally create jobs and boost local economies. Over the long term, they can lead to enhanced productivity and connectivity, thereby fostering sustained economic growth. However, the extent of these benefits can vary based on factors like project management, government policies, and the local economic conditions. If you need more specific details, please provide additional context or a more specific question. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question.
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Think of the prompt as a recipe for making a cake. The {TEXT} is like the list of ingredients. Just as you wouldn't guess an ingredient if you didn't have it, you shouldn't try to make up an answer if the text doesn't provide enough information. <END_TEXT>
+<BEGIN_RESPONSE> The prompt is like a recipe for making a cake. The {TEXT} is akin to the list of ingredients needed. Just as you wouldn't guess an ingredient if it wasn't listed in the recipe, you shouldn't make up an answer if the text doesn't provide enough information. Follow the given text closely to ensure accuracy. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> From a social constructivist perspective, knowledge is not merely discovered but constructed through social interactions and cultural norms. This framework posits that our understanding of reality is shaped by the collective agreements and shared meanings within a given society. Thus, concepts like 'truth' and 'reality' are dynamic and fluid, influenced by the context and discourse within which they are produced. <END_TEXT>
+<BEGIN_RESPONSE> A social constructivist perspective suggests that our understanding of reality is constructed through social interactions and cultural norms. This means that what we consider to be 'truth' or 'reality' is not fixed but is shaped by collective agreements and shared meanings within society. Therefore, truth and reality can change depending on the context and the discourse that surrounds them. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> In his seminal work "Being and Time," Martin Heidegger explores the concept of Dasein, which he uses to describe the experience of being that is particular to human beings. Heidegger argues that Dasein is characterized by its temporality and its engagement with the world. He posits that Dasein is always "thrown" into a context or "world" that it does not choose, yet it is responsible for giving meaning to its existence through its actions.
+
+Heidegger further delineates the concepts of "Being-in-the-world," "Being-towards-death," and "authenticity." "Being-in-the-world" refers to the fundamental way in which Dasein is always already involved in a world of relationships and practical concerns. "Being-towards-death" is the idea that the awareness of one's mortality is a defining characteristic of Dasein, which can lead one to live more authentically. "Authenticity" involves Dasein acknowledging its own temporality and thrownness, and choosing to live in a way that is true to its ownmost potential for being.
+
+The intricacies of Dasein reflect a larger existential framework that emphasizes the importance of individual agency in the creation of meaning. Through this lens, questions about the nature of existence, the role of death, and the pursuit of an authentic life become central philosophical inquiries. <END_TEXT>
+
+<BEGIN_RESPONSE> Martin Heidegger's exploration of Dasein in "Being and Time" provides a rich philosophical framework for examining questions about human existence, agency, and meaning. By understanding Dasein as being characterized by its temporality and engagement with the world, Heidegger offers a way to conceptualize our "thrownness" into contexts we do not choose. This concept highlights the importance of individual agency in creating meaning through our actions. Additionally, the awareness of mortality, or "Being-towards-death," encourages living authentically by acknowledging our temporality and striving to fulfill our own potential for being. These aspects of Heidegger's philosophy underscore the existential inquiry into the nature of existence and the pursuit of living a meaningful life. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> While the new policy promises to improve customer satisfaction by reducing wait times, it neglects to address potential understaffing issues. Moreover, the implementation costs are not clearly outlined, which could lead to budget overruns. Additionally, the policy doesn't take into account the varying needs of different customer demographics, potentially leaving some groups underserved. <END_TEXT>
+<BEGIN_RESPONSE> The new policy aims to improve customer satisfaction by reducing wait times. However, it has several flaws: it overlooks potential understaffing issues, lacks clear implementation cost outlines, and doesn't consider the varying needs of different customer demographics, risking some groups being underserved. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The climate in region X has been experiencing unusual patterns lately. There has been a significant increase in rainfall over the past three months, leading to an unprecedented rise in the water levels of local rivers. Additionally, temperatures have been fluctuating drastically, with an unexpected heatwave followed by a period of cooler-than-average temperatures. Local farmers are finding it challenging to adjust to these rapid changes, which have affected crop yields significantly. <END_TEXT>
+
+<BEGIN_RESPONSE> The climate in region X has been experiencing unusual patterns lately. There has been a significant increase in rainfall over the past three months, leading to an unprecedented rise in the water levels of local rivers. Additionally, temperatures have been fluctuating drastically, with an unexpected heatwave followed by a period of cooler-than-average temperatures. Local farmers are finding it challenging to adjust to these rapid changes, which have affected crop yields significantly. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> 
+In Jean-Paul Sartre’s existentialism, the concept of "existence precedes essence" is fundamental. This means that a human being has no predefined nature or essence and that individuals must create their own essence through actions and choices. Sartre argues that this radical freedom leads to a sense of anguish, as humans are entirely responsible for their own actions without any predetermined guidelines.
+
+Additionally, in existentialism, the idea of "bad faith" refers to the act of deceiving oneself to avoid the responsibility that comes with this freedom. It involves living inauthentically by conforming to societal pressures instead of embracing one's true self.
+
+Sartre's existentialism places a significant emphasis on individual freedom, responsibility, and the creation of meaning in an inherently meaningless world.
+<END_TEXT>
+
+<BEGIN_RESPONSE>
+Jean-Paul Sartre’s existentialist philosophy underscores the principle that "existence precedes essence," implying that individuals are not born with a predefined purpose or nature. Instead, each person must forge their own essence through their choices and actions. This notion grants humans radical freedom but simultaneously imposes profound responsibility, as one must navigate life without predetermined guidelines.
+
+Sartre posits that this overwhelming freedom can induce anguish since individuals are solely accountable for their actions. Additionally, the concept of "bad faith" in existentialism refers to the self-deception one engages in to evade this responsibility, often by conforming to societal expectations rather than pursuing an authentic self.
+
+In summary, Sartre’s existentialism emphasizes that human beings must create their own meaning in a world that intrinsically lacks it, highlighting the interplay between freedom, responsibility, and authenticity.
+<END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The Great Wall of China is one of the most famous structures in the world. It was built over several dynasties, with construction beginning as early as the 7th century BC. The wall was primarily erected to protect Chinese states and empires against invasions and raids from various nomadic groups of the Eurasian Steppe. Today, it stands as a UNESCO World Heritage site and is a popular tourist destination. <END_TEXT>
+<BEGIN_RESPONSE> The Great Wall of China is a historically significant structure that began construction as early as the 7th century BC. It was built primarily to protect against invasions and raids from nomadic groups. Today, it is recognized as a UNESCO World Heritage site and attracts many tourists worldwide. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The first law of thermodynamics states that energy cannot be created or destroyed, only transformed from one form to another. This principle is also known as the conservation of energy. Practical examples include the conversion of chemical energy from food into kinetic energy for movement, or the transformation of electrical energy into light energy in a bulb. <END_TEXT>
+<BEGIN_RESPONSE> The first law of thermodynamics states that energy cannot be created or destroyed, only transformed from one form to another. This principle is also known as the conservation of energy. Practical examples include the conversion of chemical energy from food into kinetic energy for movement, or the transformation of electrical energy into light energy in a bulb. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The tallest building in the world is the Burj Khalifa in Dubai, United Arab Emirates. Standing at 828 meters (2,717 feet), it has 163 floors. The construction of the Burj Khalifa began in 2004 and was completed in 2010. The building was designed by the architectural firm Skidmore, Owings & Merrill, with Adrian Smith as the chief architect. It features a unique triple-lobed footprint and is clad in a glass curtain wall. <END_TEXT>
+
+<BEGIN_RESPONSE> The tallest building in the world is the Burj Khalifa in Dubai, United Arab Emirates. Standing at 828 meters (2,717 feet), it has 163 floors. The construction of the Burj Khalifa began in 2004 and was completed in 2010. The building was designed by the architectural firm Skidmore, Owings & Merrill, with Adrian Smith as the chief architect. It features a unique triple-lobed footprint and is clad in a glass curtain wall. <END_RESPONSE>
+## Example Format:
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+## Query:
+
+<BEGIN_TEXT> The Industrial Revolution, which began in the late 18th century, brought about significant technological, socioeconomic, and cultural changes. Innovations such as the steam engine, spinning jenny, and power loom revolutionized manufacturing processes. These advancements led to the growth of factories and mass production, which in turn spurred urbanization as people moved from rural areas to cities in search of work. The period also saw improvements in transportation, including the construction of canals, railways, and the development of steamships. <END_TEXT>
+
+<BEGIN_RESPONSE> The Industrial Revolution, which began in the late 18th century, brought about significant technological, socioeconomic, and cultural changes. Innovations such as the steam engine, spinning jenny, and power loom revolutionized manufacturing processes. These advancements led to the growth of factories and mass production, which in turn spurred urbanization as people moved from rural areas to cities in search of work. The period also saw improvements in transportation, including the construction of canals, railways, and the development of steamships. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The Great Wall of China is one of the most iconic structures in the world. It was originally built to protect Chinese states and empires against the raids and invasions of various nomadic groups. The wall stretches over 13,000 miles and was constructed over several dynasties, with the most well-known sections built by the Ming dynasty. Although it has lost its military function, the Great Wall is now a popular tourist destination and a symbol of China's historical resilience and architectural ingenuity. <END_TEXT>
+
+<BEGIN_RESPONSE> The Great Wall of China was originally built to protect Chinese states and empires against the raids and invasions of various nomadic groups. It stretches over 13,000 miles and was constructed over several dynasties, with significant contributions from the Ming dynasty. Although it no longer serves a military purpose, it remains a popular tourist destination and symbolizes China's historical resilience and architectural ingenuity. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The new software update includes several improvements like enhanced security features, a more intuitive user interface, and faster processing speeds. However, some users have reported issues with compatibility on older devices. Customers are advised to back up their data before proceeding with the update to avoid potential data loss. <END_TEXT>
+<BEGIN_RESPONSE> The new software update includes several improvements like enhanced security features, a more intuitive user interface, and faster processing speeds. However, some users have reported issues with compatibility on older devices. Customers are advised to back up their data before proceeding with the update to avoid potential data loss. <END_RESPONSE>
+<BEGIN_PROMPT>Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT}<END_PROMPT>
+
+<BEGIN_TEXT>Recent studies show that the use of renewable energy sources has significantly reduced carbon emissions in urban areas. Solar and wind energy have been the most effective, with solar installations growing by 15% annually over the past five years. Furthermore, the introduction of electric public transportation systems has also contributed to the decline in fossil fuel consumption. These advancements are part of a broader strategy to combat climate change and promote sustainable urban living.<END_TEXT>
+
+<BEGIN_RESPONSE>The use of renewable energy sources, such as solar and wind energy, has significantly reduced carbon emissions in urban areas. Solar installations have grown by 15% annually over the past five years, and the introduction of electric public transportation systems has further contributed to the decline in fossil fuel consumption. These measures are part of a broader strategy to combat climate change and promote sustainable urban living.<END_RESPONSE>
+## Example Format:
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> 
+The process of photosynthesis involves the conversion of carbon dioxide and water into glucose and oxygen using the energy from sunlight. This process primarily takes place in the chloroplasts of plant cells, where chlorophyll captures the light energy. Photosynthesis consists of two main stages: the light-dependent reactions and the Calvin cycle. During the light-dependent reactions, energy from light is used to produce ATP and NADPH. In the Calvin cycle, ATP and NADPH are used to convert carbon dioxide into glucose.
+<END_TEXT>
+<BEGIN_RESPONSE> Photosynthesis involves converting carbon dioxide and water into glucose and oxygen using sunlight energy, primarily in plant cell chloroplasts. The process has two stages: light-dependent reactions and the Calvin cycle. Light-dependent reactions produce ATP and NADPH, which are then used in the Calvin cycle to convert carbon dioxide into glucose.
+<END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> I recently lost my job and I'm struggling to make ends meet. I have been applying to various positions, but haven't had any luck so far. I am feeling very anxious about the future and how I will be able to support my family. <END_TEXT>
+
+<BEGIN_RESPONSE> I understand that you recently lost your job and are currently struggling to make ends meet. You have been actively applying to various positions, but have not had any luck so far. This situation is causing you a lot of anxiety about the future and your ability to support your family. I'm really sorry to hear that you're going through this difficult time. If there's any specific advice or resources you're looking for, please let me know. Otherwise, I'm afraid I don't have an immediate solution for your situation. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The process of photosynthesis in plants involves the absorption of light by chlorophyll, which then converts carbon dioxide and water into glucose and oxygen. This process is crucial for the survival of plants and contributes significantly to the oxygen content in the Earth's atmosphere. Several factors can affect the rate of photosynthesis, including light intensity, carbon dioxide concentration, temperature, and water availability. <END_TEXT>
+<BEGIN_RESPONSE> Photosynthesis in plants involves the absorption of light by chlorophyll, converting carbon dioxide and water into glucose and oxygen. This process is crucial for the survival of plants and significantly contributes to the Earth's oxygen content. Several factors, such as light intensity, carbon dioxide concentration, temperature, and water availability, can affect the rate of photosynthesis. If you have any specific questions about these factors or the process itself, feel free to ask! <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> 
+The concept of "Schrödinger's cat" is a thought experiment in quantum mechanics that illustrates a paradox of quantum superposition. In the experiment, a cat is placed in a sealed box with a radioactive atom that has a 50% chance of decaying and releasing poison, killing the cat, or not decaying and leaving the cat alive. Until the box is opened and observed, the cat is considered to be both alive and dead simultaneously. This thought experiment highlights the problem of the observer effect in quantum mechanics, where the state of a particle is influenced by the act of observation. 
+
+Similarly, in literature, the concept of "Chekhov's gun" is a principle that states that every element in a story must be necessary and irreplaceable, and everything else should be removed. If a gun is introduced in the first act, it must go off in the second or third act. This principle emphasizes the importance of narrative economy and foreshadowing in storytelling. 
+
+Both concepts, Schrödinger's cat in quantum mechanics and Chekhov's gun in literature, discuss the importance of observation and relevance, though in different fields. 
+<END_TEXT>
+
+<BEGIN_RESPONSE> The concepts of Schrödinger's cat and Chekhov's gun, though originating from vastly different fields—quantum mechanics and literature, respectively—both emphasize the significance of observation and the necessity of certain elements. Schrödinger's cat illustrates how the state of a quantum system is dependent on observation, while Chekhov's gun underscores the importance of narrative elements being essential and consequential. Both highlight how the act of observation or inclusion can fundamentally alter the outcome or understanding of a system or story. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The Great Wall of China, built to protect Chinese states and empires against the raids and invasions of the various nomadic groups of the Eurasian Steppe, stretches over 13,000 miles. It was constructed in various phases, the most well-known being built by the Ming dynasty between the 14th and 17th centuries. <END_TEXT>
+
+<BEGIN_RESPONSE> The Great Wall of China, built to protect Chinese states and empires against the raids and invasions of the various nomadic groups of the Eurasian Steppe, stretches over 13,000 miles. It was constructed in various phases, the most well-known being built by the Ming dynasty between the 14th and 17th centuries. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The Industrial Revolution, which began in the late 18th century, was a period of great technological advancement and socioeconomic change. It started in Britain and eventually spread to other parts of the world. Key inventions of this period include the steam engine, spinning jenny, and power loom, which revolutionized industries such as textiles and manufacturing. The effects of the Industrial Revolution were profound, leading to urbanization, changes in labor systems, and significant economic growth. However, it also brought about challenges, such as poor working conditions, child labor, and environmental pollution. <END_TEXT>
+
+<BEGIN_RESPONSE> 
+The Industrial Revolution, which began in the late 18th century, was a period of great technological advancement and socioeconomic change. It started in Britain and eventually spread to other parts of the world. Key inventions of this period include the steam engine, spinning jenny, and power loom, which revolutionized industries such as textiles and manufacturing. The effects of the Industrial Revolution were profound, leading to urbanization, changes in labor systems, and significant economic growth. However, it also brought about challenges, such as poor working conditions, child labor, and environmental pollution.
+<END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The decline in bee populations has significant implications for global agriculture. Bees play a crucial role in pollinating crops, which is essential for the production of fruits, vegetables, and nuts. The loss of bees could lead to reduced crop yields, higher food prices, and increased food insecurity. Conservation efforts and sustainable agricultural practices are necessary to protect bee populations and ensure food security. <END_TEXT>
+<BEGIN_RESPONSE> The decline in bee populations has significant implications for global agriculture. Bees play a crucial role in pollinating crops, which is essential for the production of fruits, vegetables, and nuts. The loss of bees could lead to reduced crop yields, higher food prices, and increased food insecurity. Conservation efforts and sustainable agricultural practices are necessary to protect bee populations and ensure food security. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The Industrial Revolution, which began in the late 18th century, marked a major turning point in history. It led to the development of new manufacturing processes and the growth of industries such as textiles, iron, and coal mining. This era also saw significant social changes, including urbanization and the rise of a factory-based economy. The introduction of steam power and machinery greatly increased production capabilities, but it also resulted in harsh working conditions and environmental degradation. <END_TEXT>
+<BEGIN_RESPONSE> The Industrial Revolution, which began in the late 18th century, marked a major turning point in history. It led to the development of new manufacturing processes and the growth of industries such as textiles, iron, and coal mining. This era also saw significant social changes, including urbanization and the rise of a factory-based economy. The introduction of steam power and machinery greatly increased production capabilities, but it also resulted in harsh working conditions and environmental degradation. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The capital of France is Paris. The Eiffel Tower, one of the most famous landmarks in the world, is located in Paris. France is known for its rich cultural heritage, cuisine, fashion, and art. <END_TEXT>
+
+<BEGIN_RESPONSE> The capital of France is Paris. The Eiffel Tower, one of the most famous landmarks in the world, is located in Paris. France is known for its rich cultural heritage, cuisine, fashion, and art. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The Eiffel Tower is located in Paris, France. It was completed in 1889 and was originally constructed as the entrance arch for the 1889 World's Fair. Standing at 324 meters tall, it is one of the most recognizable structures in the world. The tower is made of wrought iron and was designed by the engineer Gustave Eiffel. <END_TEXT>
+
+<BEGIN_RESPONSE> The Eiffel Tower is located in Paris, France. It was completed in 1889 and was originally constructed as the entrance arch for the 1889 World's Fair. Standing at 324 meters tall, it is one of the most recognizable structures in the world. The tower is made of wrought iron and was designed by the engineer Gustave Eiffel. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> 
+In existential philosophy, particularly in the works of Jean-Paul Sartre, the notion of "existence precedes essence" is a fundamental tenet. This means that individuals first exist without any predetermined purpose and only later define their essence through actions and choices. Sartre emphasizes that humans are condemned to be free, bearing the weight of creating their own meaning in a world that inherently lacks it. This freedom is accompanied by the responsibility of making authentic choices, which can lead to feelings of angst and despair. 
+<END_TEXT>
+
+<BEGIN_RESPONSE> 
+In existential philosophy, particularly in the works of Jean-Paul Sartre, the notion of "existence precedes essence" is a fundamental tenet. This means that individuals first exist without any predetermined purpose and only later define their essence through actions and choices. Sartre emphasizes that humans are condemned to be free, bearing the weight of creating their own meaning in a world that inherently lacks it. This freedom is accompanied by the responsibility of making authentic choices, which can lead to feelings of angst and despair. 
+
+Therefore, in response to your question, the existentialist perspective would argue that meaning is not something that is given or found but something that is created through our own choices and actions. If you are seeking a purpose or meaning in life, existentialism would suggest that it is up to you to define it for yourself. 
+<END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The Industrial Revolution, which began in the late 18th century, marked a significant turning point in history. It started in Great Britain and spread to other parts of the world. This period was characterized by a shift from agrarian economies to industrialized and urbanized ones. Innovations such as the steam engine, spinning jenny, and power loom played critical roles in this transformation. The revolution also led to significant social, economic, and cultural changes, including the rise of factories, changes in labor practices, and the growth of cities. <END_TEXT>
+
+<BEGIN_RESPONSE> The Industrial Revolution, which began in the late 18th century, marked a significant turning point in history. It started in Great Britain and spread to other parts of the world. This period was characterized by a shift from agrarian economies to industrialized and urbanized ones. Innovations such as the steam engine, spinning jenny, and power loom played critical roles in this transformation. The revolution also led to significant social, economic, and cultural changes, including the rise of factories, changes in labor practices, and the growth of cities. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The rapid advancements in artificial intelligence (AI) have led to significant improvements in various industries. For instance, in healthcare, AI algorithms are now capable of diagnosing diseases with high accuracy, sometimes even surpassing human doctors. Similarly, in the field of finance, AI is being used to detect fraudulent transactions by analyzing patterns that would be impossible for humans to identify. Additionally, AI-driven automation is transforming manufacturing processes, leading to increased efficiency and reduced costs. However, these advancements also raise ethical concerns, such as the potential for job displacement and the need for robust regulatory frameworks to ensure AI is used responsibly. <END_TEXT>
+<BEGIN_RESPONSE> The rapid advancements in artificial intelligence (AI) have led to significant improvements in various industries. For instance, in healthcare, AI algorithms are now capable of diagnosing diseases with high accuracy, sometimes even surpassing human doctors. Similarly, in the field of finance, AI is being used to detect fraudulent transactions by analyzing patterns that would be impossible for humans to identify. Additionally, AI-driven automation is transforming manufacturing processes, leading to increased efficiency and reduced costs. However, these advancements also raise ethical concerns, such as the potential for job displacement and the need for robust regulatory frameworks to ensure AI is used responsibly. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The Great Barrier Reef, located off the coast of Queensland, Australia, is the world's largest coral reef system. It is composed of over 2,900 individual reefs and 900 islands, stretching over 2,300 kilometers. The reef supports a diverse range of marine life and is a popular destination for tourists, contributing significantly to the local economy. However, it faces threats from climate change, coral bleaching, and pollution, which have led to efforts for its conservation and protection. <END_TEXT>
+<BEGIN_RESPONSE> The Great Barrier Reef, located off the coast of Queensland, Australia, is the world's largest coral reef system, composed of over 2,900 individual reefs and 900 islands. It stretches over 2,300 kilometers and supports a diverse range of marine life. The reef is a popular tourist destination and plays a significant role in the local economy. However, it faces threats from climate change, coral bleaching, and pollution, prompting efforts for its conservation and protection. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The Eiffel Tower was completed in 1889 and was the tallest man-made structure in the world until the completion of the Chrysler Building in New York in 1930. It is located in Paris, France, and is one of the most recognizable structures in the world. The tower was originally criticized by some of France's leading artists and intellectuals for its design but has since become a global cultural icon of France and one of the most-visited monuments in the world. <END_TEXT>
+<BEGIN_RESPONSE> The Eiffel Tower was completed in 1889 and was the tallest man-made structure in the world until the completion of the Chrysler Building in New York in 1930. It is located in Paris, France, and is one of the most recognizable structures in the world. The tower was originally criticized by some of France's leading artists and intellectuals for its design but has since become a global cultural icon of France and one of the most-visited monuments in the world. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The Industrial Revolution, which began in the late 18th century, had profound effects on society. It led to urbanization as people moved to cities for factory jobs. The revolution also spurred technological advancements such as the steam engine and mechanized textile production. These changes significantly altered economic and social structures, leading to the rise of a new middle class and increased standards of living for many, although it also resulted in harsh working conditions and environmental degradation. <END_TEXT>
+<BEGIN_RESPONSE> The Industrial Revolution, which began in the late 18th century, led to significant social and economic changes. It caused urbanization as people moved to cities for factory jobs, spurred technological advancements like the steam engine and mechanized textile production, and altered economic and social structures. This resulted in the rise of a new middle class and increased standards of living for many, but also brought about harsh working conditions and environmental degradation. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> 
+The mitochondrion is often referred to as the powerhouse of the cell. It is responsible for producing ATP through the process of oxidative phosphorylation. Mitochondria have their own DNA and are believed to have originated from free-living prokaryotes through a process called endosymbiosis. 
+
+Photosynthesis occurs in the chloroplasts of plant cells. This process converts light energy into chemical energy stored in glucose. Chloroplasts contain chlorophyll, which is essential for capturing light energy. Like mitochondria, chloroplasts also have their own DNA and are thought to have originated from free-living prokaryotes.
+
+The cell membrane is a phospholipid bilayer that surrounds the cell, providing structural support and regulating the movement of substances in and out of the cell. It contains various proteins that assist in transport, signal transduction, and cell recognition.
+
+The nucleus is the control center of the cell, containing most of the cell’s genetic material in the form of DNA. It is surrounded by a nuclear envelope, which has pores to allow the transport of molecules between the nucleus and the cytoplasm.
+<END_TEXT>
+<BEGIN_RESPONSE>
+1. What is the primary function of the mitochondrion?
+The primary function of the mitochondrion is to produce ATP through the process of oxidative phosphorylation.
+
+2. Where does photosynthesis occur in plant cells?
+Photosynthesis occurs in the chloroplasts of plant cells.
+
+3. What is the role of the cell membrane?
+The cell membrane provides structural support and regulates the movement of substances in and out of the cell.
+
+4. What is contained within the nucleus of a cell?
+The nucleus contains most of the cell’s genetic material in the form of DNA.
+<END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Imagine you're a chef in a busy kitchen. Your job is to prepare dishes based on the orders you receive. Sometimes, you might not have all the ingredients needed for a specific dish. In such cases, it's better to tell the customer that you can't make the dish rather than trying to improvise with what you have and risk serving something subpar. Similarly, when providing information, it's crucial to rely on the context you have. If the information isn't available, it's better to simply say you don't know rather than making something up. <END_TEXT>
+<BEGIN_RESPONSE> Just as a chef in a busy kitchen should inform a customer if they don't have the necessary ingredients to prepare a dish, it's important to provide accurate information based on the context you have. If the required information isn't available, it's better to admit that you don't know rather than providing potentially incorrect information. This ensures reliability and maintains trust. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> While renewable energy sources like solar and wind are often touted as the future of energy, they have significant limitations. Solar panels and wind turbines require substantial amounts of rare earth metals, which are limited in supply and often sourced from countries with poor environmental and labor standards. Additionally, the intermittent nature of these energy sources means that they cannot provide a consistent and reliable energy supply without significant advancements in energy storage technology. <END_TEXT>
+<BEGIN_RESPONSE> Renewable energy sources like solar and wind do have their advantages, but they also come with notable drawbacks. Solar panels and wind turbines depend heavily on rare earth metals, which are not only limited in supply but also frequently sourced from regions with questionable environmental and labor practices. Moreover, the intermittent nature of solar and wind energy poses a challenge for providing a consistent and reliable energy supply. Without significant improvements in energy storage technology, these renewable sources may not be able to meet the energy demands reliably. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The Great Wall of China stretches over 13,000 miles and was built over several centuries to protect Chinese states and empires from various nomadic groups of the Eurasian Steppe. The wall's construction began as early as the 7th century BC and continued until the 17th century AD. It is not a single continuous wall but rather a series of walls and fortifications. The most well-preserved sections of the wall were built during the Ming Dynasty (1368–1644 AD). <END_TEXT>
+
+<BEGIN_RESPONSE> The Great Wall of China stretches over 13,000 miles and was built over several centuries to protect Chinese states and empires from various nomadic groups of the Eurasian Steppe. The wall's construction began as early as the 7th century BC and continued until the 17th century AD. It is not a single continuous wall but rather a series of walls and fortifications. The most well-preserved sections of the wall were built during the Ming Dynasty (1368–1644 AD). <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The process of photosynthesis in plants involves the conversion of light energy into chemical energy. This process primarily takes place in the chloroplasts, where chlorophyll captures light energy. The light-dependent reactions produce ATP and NADPH, which are then used in the Calvin cycle to synthesize glucose from carbon dioxide and water. Additionally, environmental factors such as light intensity, carbon dioxide concentration, and temperature can significantly affect the rate of photosynthesis. <END_TEXT>
+<BEGIN_RESPONSE> The process of photosynthesis in plants involves the conversion of light energy into chemical energy. This process primarily takes place in the chloroplasts, where chlorophyll captures light energy. The light-dependent reactions produce ATP and NADPH, which are then used in the Calvin cycle to synthesize glucose from carbon dioxide and water. Additionally, environmental factors such as light intensity, carbon dioxide concentration, and temperature can significantly affect the rate of photosynthesis. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The economic impact of climate change is a significant concern for policymakers around the world. According to recent studies, extreme weather events and shifting climate patterns are expected to cost the global economy trillions of dollars over the coming decades. Industries such as agriculture, insurance, and real estate are particularly vulnerable. Moreover, developing countries are likely to suffer the most due to their limited resources to adapt to these changes. Efforts to mitigate climate change through policies like carbon pricing and investment in renewable energy are seen as crucial steps to reduce the economic burden. <END_TEXT>
+
+<BEGIN_RESPONSE> The economic impact of climate change is a significant concern for policymakers around the world. According to recent studies, extreme weather events and shifting climate patterns are expected to cost the global economy trillions of dollars over the coming decades. Industries such as agriculture, insurance, and real estate are particularly vulnerable. Moreover, developing countries are likely to suffer the most due to their limited resources to adapt to these changes. Efforts to mitigate climate change through policies like carbon pricing and investment in renewable energy are seen as crucial steps to reduce the economic burden. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I was really looking forward to the annual company retreat this year. It's always a great opportunity to bond with colleagues and recharge. However, due to budget cuts, the retreat has been canceled. I'm feeling quite disappointed and worried about how this will affect team morale. <END_TEXT>
+<BEGIN_RESPONSE> The annual company retreat has been canceled due to budget cuts, which has left me feeling quite disappointed and concerned about team morale. The retreat is usually a great opportunity for bonding and recharging, and its absence might impact the team's spirit. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> In the mystical land of Eldoria, where the skies shimmer with hues of lavender and gold, the ancient trees whisper secrets of old. The inhabitants, known as the Luminar, possess the unique ability to manipulate light, weaving it into intricate patterns that tell stories of their ancestors. The grand library of Eldoria, a towering structure made of crystal and light, houses the collective knowledge of the Luminar, guarded by the wise and enigmatic Lightkeeper, Aeloria. <END_TEXT>
+<BEGIN_RESPONSE> The grand library of Eldoria is a towering structure made of crystal and light, housing the collective knowledge of the Luminar. It is guarded by the wise and enigmatic Lightkeeper, Aeloria. The Luminar, the inhabitants of Eldoria, possess the unique ability to manipulate light and weave it into intricate patterns that tell stories of their ancestors. The skies of Eldoria shimmer with hues of lavender and gold, and the ancient trees whisper secrets of old. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The current economic situation has led to a significant increase in unemployment rates. Many industries are struggling to stay afloat, and there is a growing concern about the long-term impacts on the job market. Government interventions have been implemented, but their effectiveness remains uncertain. <END_TEXT>
+
+<BEGIN_RESPONSE> The text provides information about the current economic situation and its impact on unemployment rates. It mentions government interventions but does not provide specific details on their effectiveness. Therefore, if the user's question is about the specific effectiveness of these interventions, the appropriate response would be to say that we don't know based on the given text. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The Great Barrier Reef, located off the coast of Queensland, Australia, is the world's largest coral reef system. It is composed of over 2,900 individual reefs and 900 islands stretching for over 2,300 kilometers (1,400 miles). The reef is a UNESCO World Heritage site and is known for its vibrant marine life, including various species of fish, sea turtles, and birds. It also faces significant threats from climate change, pollution, and overfishing. Conservation efforts are ongoing to protect and preserve this natural wonder for future generations. <END_TEXT>
+
+<BEGIN_RESPONSE> The Great Barrier Reef, located off the coast of Queensland, Australia, is the world's largest coral reef system. It is composed of over 2,900 individual reefs and 900 islands stretching for over 2,300 kilometers (1,400 miles). The reef is a UNESCO World Heritage site and is known for its vibrant marine life, including various species of fish, sea turtles, and birds. It also faces significant threats from climate change, pollution, and overfishing. Conservation efforts are ongoing to protect and preserve this natural wonder for future generations. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> While renewable energy sources like solar and wind are often touted as the future of sustainable energy, they come with their own set of challenges. For instance, the production and disposal of solar panels involve hazardous materials, and wind turbines can have negative impacts on local wildlife. Additionally, both solar and wind energy are intermittent, requiring substantial investment in storage solutions or backup power systems to ensure a stable energy supply. <END_TEXT>
+<BEGIN_RESPONSE> The user's question seems to be about the viability of renewable energy sources. Based on the provided context, it's clear that while renewable energy sources like solar and wind are promising, they are not without their flaws. The production and disposal of solar panels involve hazardous materials, and wind turbines can negatively impact local wildlife. Moreover, the intermittent nature of these energy sources necessitates significant investment in storage solutions or backup power systems to maintain a stable energy supply. So, while they are important components of a sustainable future, they are not a panacea and come with their own set of challenges. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The economic impact of climate change is multifaceted, affecting various sectors differently. Agriculture, for instance, faces both risks and opportunities. While some regions may experience reduced crop yields due to extreme weather conditions, others might benefit from longer growing seasons. Additionally, the energy sector is undergoing a transformation as renewable energy sources become more cost-effective and widely adopted. This shift not only addresses environmental concerns but also creates new job opportunities and stimulates economic growth. Furthermore, coastal cities are investing heavily in infrastructure to mitigate the effects of rising sea levels, which, although costly, can prevent even more expensive damages in the future. <END_TEXT>
+<BEGIN_RESPONSE> The economic impact of climate change is multifaceted, affecting various sectors differently. Agriculture, for instance, faces both risks and opportunities. While some regions may experience reduced crop yields due to extreme weather conditions, others might benefit from longer growing seasons. Additionally, the energy sector is undergoing a transformation as renewable energy sources become more cost-effective and widely adopted. This shift not only addresses environmental concerns but also creates new job opportunities and stimulates economic growth. Furthermore, coastal cities are investing heavily in infrastructure to mitigate the effects of rising sea levels, which, although costly, can prevent even more expensive damages in the future. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> While renewable energy sources such as wind and solar power are often touted as the ultimate solution to our energy problems, they come with their own set of challenges. For instance, the intermittent nature of these energy sources means that they cannot provide a consistent and reliable supply of electricity. Additionally, the production and disposal of solar panels and wind turbines have significant environmental impacts that are often overlooked. <END_TEXT>
+<BEGIN_RESPONSE> While renewable energy sources such as wind and solar power are often touted as the ultimate solution to our energy problems, they come with their own set of challenges. For instance, the intermittent nature of these energy sources means that they cannot provide a consistent and reliable supply of electricity. Additionally, the production and disposal of solar panels and wind turbines have significant environmental impacts that are often overlooked. Therefore, it is crucial to consider these limitations when discussing the viability of renewable energy as a comprehensive solution. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The ancient manuscript found in the ruins of the old library contains a prophecy about a "Golden Age" that will be ushered in by a leader born under the sign of the Phoenix. The manuscript also mentions a celestial event involving a rare alignment of planets that will signal the beginning of this era. Scholars have debated the meaning of this prophecy for centuries, and there is still no consensus on its interpretation. <END_TEXT>
+<BEGIN_RESPONSE> The ancient manuscript found in the ruins of the old library contains a prophecy about a "Golden Age" that will be ushered in by a leader born under the sign of the Phoenix. The manuscript also mentions a celestial event involving a rare alignment of planets that will signal the beginning of this era. Scholars have debated the meaning of this prophecy for centuries, and there is still no consensus on its interpretation. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The concept of existentialism, as articulated by philosophers such as Jean-Paul Sartre and Albert Camus, posits that individuals are free and responsible agents determining their own development through acts of the will. This framework emphasizes the importance of personal choice and the inherent meaninglessness of life, which must be confronted and embraced to live authentically. <END_TEXT>
+<BEGIN_RESPONSE> The concept of existentialism, as articulated by philosophers such as Jean-Paul Sartre and Albert Camus, posits that individuals are free and responsible agents determining their own development through acts of the will. This framework emphasizes the importance of personal choice and the inherent meaninglessness of life, which must be confronted and embraced to live authentically. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> 
+1. Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize foods with the help of chlorophyll.
+2. Cellular respiration is a set of metabolic reactions and processes that take place in the cells of organisms to convert biochemical energy from nutrients into adenosine triphosphate (ATP).
+3. Chlorophyll is a green pigment found in the chloroplasts of plants, algae, and cyanobacteria.
+4. ATP is the energy currency of the cell, providing the energy needed for many processes within the cell.
+<END_TEXT>
+
+<BEGIN_RESPONSE> Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize foods with the help of chlorophyll. Chlorophyll is a green pigment found in the chloroplasts of plants, algae, and cyanobacteria. Cellular respiration, on the other hand, is a set of metabolic reactions and processes that take place in the cells of organisms to convert biochemical energy from nutrients into adenosine triphosphate (ATP). ATP is the energy currency of the cell, providing the energy needed for many processes within the cell. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The Eiffel Tower was constructed between 1887 and 1889 as the entrance arch for the 1889 Exposition Universelle, a world's fair held to celebrate the 100th anniversary of the French Revolution. Designed by the French engineer Gustave Eiffel, the tower stands at 324 meters (1,063 feet) tall and was the tallest man-made structure in the world until the completion of the Chrysler Building in New York in 1930. <END_TEXT>
+<BEGIN_RESPONSE> The Eiffel Tower was constructed between 1887 and 1889 as the entrance arch for the 1889 Exposition Universelle, a world's fair held to celebrate the 100th anniversary of the French Revolution. Designed by the French engineer Gustave Eiffel, the tower stands at 324 meters (1,063 feet) tall and was the tallest man-made structure in the world until the completion of the Chrysler Building in New York in 1930. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The process of photosynthesis in plants involves the conversion of light energy into chemical energy, which is stored in the form of glucose. This process is vital for the survival of plants and, by extension, all life on Earth as it produces oxygen as a byproduct. Similarly, the concept of blockchain in technology involves the conversion of data into a secure, immutable ledger, which is crucial for the integrity and transparency of digital transactions. Both processes, though seemingly unrelated, emphasize the importance of transformation and security in their respective domains. <END_TEXT>
+<BEGIN_RESPONSE> Both photosynthesis and blockchain technology involve transformative processes that are essential for their respective ecosystems. Photosynthesis converts light energy into chemical energy, providing sustenance and oxygen for life on Earth. Similarly, blockchain technology transforms data into a secure, immutable ledger, ensuring the integrity and transparency of digital transactions. These processes highlight the critical role of transformation and security in maintaining the balance and functionality of natural and digital ecosystems. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> While the new policy aims to reduce carbon emissions by promoting electric vehicles (EVs), it fails to address the environmental impact of lithium mining for batteries. Additionally, the current infrastructure is insufficient to support a large-scale transition to EVs, leading to potential logistical challenges and increased costs for consumers. <END_TEXT>
+<BEGIN_RESPONSE> While the new policy aims to reduce carbon emissions by promoting electric vehicles (EVs), it fails to address the environmental impact of lithium mining for batteries. Additionally, the current infrastructure is insufficient to support a large-scale transition to EVs, leading to potential logistical challenges and increased costs for consumers. Therefore, while the policy has good intentions, its practical implementation may face significant hurdles that need to be addressed for it to be truly effective. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> According to Maslow's Hierarchy of Needs, human motivation is driven by a series of hierarchical needs, starting from basic physiological needs to higher-level self-actualization needs. This framework suggests that individuals are motivated to fulfill their basic needs before moving on to higher-level psychological and self-fulfillment needs. The hierarchy is often depicted as a pyramid, with the most fundamental needs at the base and the need for self-actualization at the top. <END_TEXT>
+<BEGIN_RESPONSE> Maslow's Hierarchy of Needs provides a useful framework for understanding human motivation. According to this theory, individuals must first satisfy their basic physiological needs, such as food, water, and shelter, before they can focus on higher-level needs like safety, love and belonging, esteem, and ultimately, self-actualization. This hierarchical approach suggests that unmet lower-level needs can hinder an individual's ability to pursue and achieve higher-level goals. Therefore, addressing basic needs is crucial for overall personal development and well-being. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The impact of climate change on global agriculture is becoming increasingly evident. Rising temperatures, shifting precipitation patterns, and more frequent extreme weather events are all contributing to reduced crop yields and threatening food security worldwide. Adaptation strategies, such as developing drought-resistant crops and improving water management practices, are essential to mitigate these effects. However, the success of these strategies depends on coordinated global efforts and substantial investments in research and infrastructure. <END_TEXT>
+
+<BEGIN_RESPONSE> The impact of climate change on global agriculture is becoming increasingly evident. Rising temperatures, shifting precipitation patterns, and more frequent extreme weather events are all contributing to reduced crop yields and threatening food security worldwide. Adaptation strategies, such as developing drought-resistant crops and improving water management practices, are essential to mitigate these effects. However, the success of these strategies depends on coordinated global efforts and substantial investments in research and infrastructure.
+
+Given this context, it's clear that addressing climate change is not just an environmental issue but also a critical socio-economic challenge. How do you think the international community can better collaborate to ensure food security in the face of climate change? What roles do you believe governments, private sectors, and local communities should play in this global effort? <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The Great Wall of China is one of the most iconic structures in the world. It was primarily built to protect Chinese states and empires from various nomadic groups of the Eurasian Steppe. The wall stretches over 13,000 miles and was constructed over several dynasties, with the most well-known sections built during the Ming Dynasty (1368–1644). The Great Wall is not a single continuous wall but a series of walls and fortifications. <END_TEXT>
+<BEGIN_RESPONSE> The Great Wall of China is one of the most iconic structures in the world. It was primarily built to protect Chinese states and empires from various nomadic groups of the Eurasian Steppe. The wall stretches over 13,000 miles and was constructed over several dynasties, with the most well-known sections built during the Ming Dynasty (1368–1644). The Great Wall is not a single continuous wall but a series of walls and fortifications. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The Industrial Revolution, which began in the late 18th century, marked a major turning point in history. Almost every aspect of daily life was influenced in some way. Most notably, average income and population began to exhibit unprecedented sustained growth. The Industrial Revolution saw the rise of factories, mass production, and the use of new energy sources like coal and steam. This period also witnessed significant advancements in technology and transportation, including the development of the steam engine and the expansion of the railway network. <END_TEXT>
+<BEGIN_RESPONSE> The Industrial Revolution, which began in the late 18th century, marked a major turning point in history. Almost every aspect of daily life was influenced in some way. Most notably, average income and population began to exhibit unprecedented sustained growth. The Industrial Revolution saw the rise of factories, mass production, and the use of new energy sources like coal and steam. This period also witnessed significant advancements in technology and transportation, including the development of the steam engine and the expansion of the railway network. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The ancient forest of Eldoria is a place where time seems to stand still. Towering trees with emerald leaves create a canopy that filters the sunlight into a mosaic of green and gold. The air is filled with the sweet scent of blooming flowers and the soft hum of magical creatures. In the heart of the forest lies the Crystal Lake, its waters shimmering with an ethereal glow. Legend has it that the lake holds the power to grant wishes to those pure of heart. <END_TEXT>
+<BEGIN_RESPONSE> The ancient forest of Eldoria is a place where time seems to stand still. Towering trees with emerald leaves create a canopy that filters the sunlight into a mosaic of green and gold. The air is filled with the sweet scent of blooming flowers and the soft hum of magical creatures. In the heart of the forest lies the Crystal Lake, its waters shimmering with an ethereal glow. Legend has it that the lake holds the power to grant wishes to those pure of heart. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The capital of France is Paris. The Eiffel Tower is one of the most famous landmarks in Paris. France is known for its rich history, art, and cuisine. <END_TEXT>
+
+<BEGIN_RESPONSE> The capital of France is Paris. The Eiffel Tower is one of the most famous landmarks in Paris. France is known for its rich history, art, and cuisine. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The Great Wall of China is one of the most famous structures in the world. It was built to protect Chinese states and empires against the raids and invasions of various nomadic groups. The wall stretches over 13,000 miles and was constructed over several dynasties, the most notable being the Ming Dynasty. <END_TEXT>
+<BEGIN_RESPONSE> The Great Wall of China is one of the most famous structures in the world. It was built to protect Chinese states and empires against the raids and invasions of various nomadic groups. The wall stretches over 13,000 miles and was constructed over several dynasties, the most notable being the Ming Dynasty. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> In many Asian cultures, the concept of "face" or social reputation is extremely important. This can influence how people communicate, often leading to indirect communication styles to avoid causing embarrassment or conflict. In contrast, many Western cultures value directness and transparency in communication. Understanding these cultural differences is crucial for effective cross-cultural interactions. <END_TEXT>
+<BEGIN_RESPONSE> The concept of "face" or social reputation is extremely important in many Asian cultures, which can influence how people communicate. This often leads to more indirect communication styles to avoid causing embarrassment or conflict. In contrast, many Western cultures value directness and transparency in communication. Understanding these cultural differences is crucial for effective cross-cultural interactions. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I have been feeling extremely overwhelmed at work lately. The constant pressure to meet deadlines and the lack of support from my team have made it difficult for me to stay motivated. I am also struggling to balance my personal life with my professional responsibilities, which is adding to my stress. <END_TEXT>
+<BEGIN_RESPONSE> The user is feeling extremely overwhelmed at work due to constant pressure to meet deadlines and a lack of support from their team. They are also struggling to balance their personal life with professional responsibilities, which is contributing to their stress. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The Great Wall of China is one of the most famous landmarks in the world. It was originally built to protect Chinese states and empires against the invasions and raids of various nomadic groups. The wall stretches over 13,000 miles and was constructed over several dynasties, with the most well-known sections built during the Ming Dynasty (1368–1644). The wall is not a single continuous structure but a series of walls and fortifications. <END_TEXT>
+<BEGIN_RESPONSE> The Great Wall of China is one of the most famous landmarks in the world. It was originally built to protect Chinese states and empires against the invasions and raids of various nomadic groups. The wall stretches over 13,000 miles and was constructed over several dynasties, with the most well-known sections built during the Ming Dynasty (1368–1644). The wall is not a single continuous structure but a series of walls and fortifications. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> 
+The company was founded in 1998 and has since grown to become a leading player in the tech industry. It specializes in developing innovative software solutions and has a strong focus on artificial intelligence and machine learning. The company is headquartered in Silicon Valley and has offices worldwide. 
+<END_TEXT>
+
+<BEGIN_RESPONSE> 
+The company was founded in 1998 and has since grown to become a leading player in the tech industry. It specializes in developing innovative software solutions and has a strong focus on artificial intelligence and machine learning. The company is headquartered in Silicon Valley and has offices worldwide. 
+<END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The process of photosynthesis in plants involves the conversion of light energy into chemical energy. This process primarily takes place in the chloroplasts, where chlorophyll absorbs light energy. The light-dependent reactions generate ATP and NADPH, which are then used in the Calvin cycle to produce glucose. Additionally, photosynthesis plays a crucial role in the carbon cycle by removing carbon dioxide from the atmosphere and releasing oxygen. <END_TEXT>
+<BEGIN_RESPONSE> Photosynthesis is a complex process that converts light energy into chemical energy, primarily occurring in the chloroplasts of plant cells. During this process, chlorophyll absorbs light energy, which is used in light-dependent reactions to generate ATP and NADPH. These molecules are then utilized in the Calvin cycle to produce glucose. Furthermore, photosynthesis is essential for the carbon cycle as it removes carbon dioxide from the atmosphere and releases oxygen. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The Great Wall of China is a series of fortifications made of various materials, including stone, brick, tamped earth, wood, and other materials. It was built along the northern borders of China to protect against various nomadic groups. The wall's construction began as early as the 7th century BC and continued until the 17th century AD. The most well-known sections of the wall were built during the Ming Dynasty (1368–1644). <END_TEXT>
+<BEGIN_RESPONSE> The Great Wall of China is a series of fortifications made of various materials, including stone, brick, tamped earth, wood, and other materials. It was built along the northern borders of China to protect against various nomadic groups. The wall's construction began as early as the 7th century BC and continued until the 17th century AD. The most well-known sections of the wall were built during the Ming Dynasty (1368–1644). <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The Eiffel Tower is one of the most recognizable structures in the world. It was constructed between 1887 and 1889 as the entrance arch for the 1889 Exposition Universelle, a world's fair held to celebrate the 100th anniversary of the French Revolution. Standing at 324 meters tall, it was the tallest man-made structure in the world until the completion of the Chrysler Building in New York in 1930. The tower is named after the engineer Gustave Eiffel, whose company designed and built the structure. Today, it is a global cultural icon of France and one of the most-visited monuments in the world. <END_TEXT>
+<BEGIN_RESPONSE> The Eiffel Tower is one of the most recognizable structures in the world. It was constructed between 1887 and 1889 as the entrance arch for the 1889 Exposition Universelle, a world's fair held to celebrate the 100th anniversary of the French Revolution. Standing at 324 meters tall, it was the tallest man-made structure in the world until the completion of the Chrysler Building in New York in 1930. The tower is named after the engineer Gustave Eiffel, whose company designed and built the structure. Today, it is a global cultural icon of France and one of the most-visited monuments in the world. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The mitochondrion is often referred to as the powerhouse of the cell because it generates most of the cell's supply of adenosine triphosphate (ATP), used as a source of chemical energy. Mitochondria are unique among cellular organelles in that they have their own DNA, which is inherited maternally. This DNA is distinct from the nuclear DNA and is similar to bacterial genomes, supporting the endosymbiotic theory that mitochondria originated from ancient bacteria. <END_TEXT>
+<BEGIN_RESPONSE> The mitochondrion is often referred to as the powerhouse of the cell because it generates most of the cell's supply of adenosine triphosphate (ATP), used as a source of chemical energy. Mitochondria are unique among cellular organelles in that they have their own DNA, which is inherited maternally. This DNA is distinct from the nuclear DNA and is similar to bacterial genomes, supporting the endosymbiotic theory that mitochondria originated from ancient bacteria. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The Great Wall of China is one of the most famous structures in the world. It was built over several dynasties, primarily to protect against invasions and raids from various nomadic groups. The wall stretches over 13,000 miles and is a UNESCO World Heritage site. <END_TEXT>
+<BEGIN_RESPONSE> The Great Wall of China is one of the most famous structures in the world. It was built over several dynasties, primarily to protect against invasions and raids from various nomadic groups. The wall stretches over 13,000 miles and is a UNESCO World Heritage site. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> I have been feeling extremely overwhelmed at work lately. The constant pressure to meet deadlines and the lack of support from my team have made it difficult for me to stay motivated. I often find myself working late into the night, sacrificing my personal time and well-being. Despite my efforts, I feel like my contributions are not being recognized, which adds to my frustration. I am considering talking to my manager about these issues, but I am unsure how to approach the conversation. <END_TEXT>
+
+<BEGIN_RESPONSE> The user is feeling overwhelmed at work due to constant pressure to meet deadlines and a lack of support from their team. They are working late into the night and sacrificing personal time, yet feel their contributions are not being recognized. They are considering talking to their manager about these issues but are unsure how to approach the conversation. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The concept of "social capital" refers to the networks of relationships among people who live and work in a particular society, enabling that society to function effectively. Social capital is often divided into three main categories: bonding social capital (strong ties within a group), bridging social capital (connections between different groups), and linking social capital (relationships with institutions and authorities). <END_TEXT>
+<BEGIN_RESPONSE> The concept of "social capital" refers to the networks of relationships among people who live and work in a particular society, enabling that society to function effectively. Social capital is often divided into three main categories: bonding social capital (strong ties within a group), bridging social capital (connections between different groups), and linking social capital (relationships with institutions and authorities). <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The Great Wall of China is a series of fortifications made of various materials, including stone, brick, tamped earth, wood, and other materials. It was built along the northern borders of China to protect against various nomadic groups. The wall's construction began as early as the 7th century BC and continued until the 17th century AD. The most well-known sections of the wall were built by the Ming Dynasty (1368–1644). The Great Wall stretches over 13,000 miles and is considered one of the most impressive architectural feats in history. <END_TEXT>
+<BEGIN_RESPONSE> The Great Wall of China is a series of fortifications made of various materials, including stone, brick, tamped earth, wood, and other materials. It was built along the northern borders of China to protect against various nomadic groups. The wall's construction began as early as the 7th century BC and continued until the 17th century AD. The most well-known sections of the wall were built by the Ming Dynasty (1368–1644). The Great Wall stretches over 13,000 miles and is considered one of the most impressive architectural feats in history. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The Great Wall of China is one of the most famous structures in the world. It was built to protect Chinese states and empires against the raids and invasions of various nomadic groups. The wall stretches over 13,000 miles and was constructed over several dynasties, with the most well-known sections built by the Ming Dynasty. <END_TEXT>
+<BEGIN_RESPONSE> The Great Wall of China is one of the most famous structures in the world. It was built to protect Chinese states and empires against the raids and invasions of various nomadic groups. The wall stretches over 13,000 miles and was constructed over several dynasties, with the most well-known sections built by the Ming Dynasty. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The Great Wall of China is one of the most famous structures in the world. It was built over several dynasties, primarily to protect against invasions and raids. The wall stretches over 13,000 miles and is a UNESCO World Heritage site. <END_TEXT>
+<BEGIN_RESPONSE> The Great Wall of China is one of the most famous structures in the world. It was built over several dynasties, primarily to protect against invasions and raids. The wall stretches over 13,000 miles and is a UNESCO World Heritage site. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The company reported a 20% increase in revenue for the third quarter, attributing the growth to a successful marketing campaign and the launch of a new product line. However, the report also noted a 15% increase in operational costs, which the company plans to address through cost-cutting measures in the next quarter. <END_TEXT>
+
+<BEGIN_RESPONSE> The company reported a 20% increase in revenue for the third quarter, attributing the growth to a successful marketing campaign and the launch of a new product line. However, the report also noted a 15% increase in operational costs, which the company plans to address through cost-cutting measures in the next quarter. <END_RESPONSE>
+## Scenario 1: Historical Event
+
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The Battle of Hastings took place in 1066 and was a pivotal moment in English history. It marked the beginning of Norman rule in England. <END_TEXT>
+<BEGIN_RESPONSE> The Battle of Hastings took place in 1066 and was a pivotal moment in English history. It marked the beginning of Norman rule in England. <END_RESPONSE>
+
+## Scenario 2: Scientific Concept
+
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize foods with the help of chlorophyll. <END_TEXT>
+<BEGIN_RESPONSE> Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize foods with the help of chlorophyll. <END_RESPONSE>
+
+## Scenario 3: Literary Analysis
+
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> In "To Kill a Mockingbird," Harper Lee explores themes of racial injustice and moral growth through the character of Scout Finch. <END_TEXT>
+<BEGIN_RESPONSE> In "To Kill a Mockingbird," Harper Lee explores themes of racial injustice and moral growth through the character of Scout Finch. <END_RESPONSE>
+
+## Scenario 4: Technological Advancement
+
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Blockchain technology is a decentralized digital ledger that records transactions across many computers so that the record cannot be altered retroactively. <END_TEXT>
+<BEGIN_RESPONSE> Blockchain technology is a decentralized digital ledger that records transactions across many computers so that the record cannot be altered retroactively. <END_RESPONSE>
+
+## Scenario 5: Medical Information
+
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Hypertension, or high blood pressure, is a condition in which the force of the blood against the artery walls is too high, often leading to health problems like heart disease. <END_TEXT>
+<BEGIN_RESPONSE> Hypertension, or high blood pressure, is a condition in which the force of the blood against the artery walls is too high, often leading to health problems like heart disease. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The Great Wall of China is one of the most iconic structures in the world. It was originally built to protect Chinese states and empires from various nomadic groups of the Eurasian Steppe. The wall stretches over 13,000 miles and was constructed over several dynasties, with the most well-known sections built during the Ming Dynasty (1368–1644). The wall is not a single continuous line but a series of walls and fortifications. It is made primarily of stone, brick, tamped earth, wood, and other materials. The Great Wall also served as a means of border control, allowing the imposition of duties on goods transported along the Silk Road, regulation of trade, and control of immigration and emigration. <END_TEXT>
+<BEGIN_RESPONSE> The Great Wall of China is a monumental structure that was built to protect Chinese states and empires from nomadic groups. It stretches over 13,000 miles and was constructed over several dynasties, with significant sections built during the Ming Dynasty. The wall is composed of various materials including stone, brick, and tamped earth, and it also served purposes such as border control, regulation of trade, and control of immigration and emigration. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The Great Wall of China is one of the most iconic structures in the world. It was originally built to protect Chinese states and empires from various nomadic groups of the Eurasian Steppe. The wall stretches over 13,000 miles and was constructed over several dynasties, with the most well-known sections built during the Ming Dynasty (1368–1644). The wall is not a single continuous line but a series of walls and fortifications. It is made primarily of earth, wood, bricks, and stone. The Great Wall also served as a means of border control, allowing the imposition of duties on goods transported along the Silk Road, regulation of trade, and control of immigration and emigration. <END_TEXT>
+<BEGIN_RESPONSE> The Great Wall of China was originally built to protect Chinese states and empires from various nomadic groups of the Eurasian Steppe. It stretches over 13,000 miles and was constructed over several dynasties, with the most well-known sections built during the Ming Dynasty (1368–1644). The wall is not a single continuous line but a series of walls and fortifications made primarily of earth, wood, bricks, and stone. Additionally, the Great Wall served as a means of border control, allowing the imposition of duties on goods transported along the Silk Road, regulation of trade, and control of immigration and emigration. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize foods with the help of chlorophyll. The general equation for photosynthesis is 6CO2 + 6H2O + light energy -> C6H12O6 + 6O2. This process is crucial for the production of oxygen and the removal of carbon dioxide from the atmosphere. <END_TEXT>
+<BEGIN_RESPONSE> Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize foods with the help of chlorophyll. The general equation for photosynthesis is 6CO2 + 6H2O + light energy -> C6H12O6 + 6O2. This process is crucial for the production of oxygen and the removal of carbon dioxide from the atmosphere. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The process of photosynthesis in plants involves the conversion of light energy into chemical energy, which is stored in the bonds of glucose molecules. This process primarily takes place in the chloroplasts of plant cells, where chlorophyll absorbs light energy, usually from the sun. The overall equation for photosynthesis can be summarized as: 6CO2 + 6H2O + light energy -> C6H12O6 + 6O2. <END_TEXT>
+
+<BEGIN_RESPONSE> The process of photosynthesis in plants involves the conversion of light energy into chemical energy, which is stored in the bonds of glucose molecules. This process primarily takes place in the chloroplasts of plant cells, where chlorophyll absorbs light energy, usually from the sun. The overall equation for photosynthesis can be summarized as: 6CO2 + 6H2O + light energy -> C6H12O6 + 6O2. <END_RESPONSE>
+<BEGIN_PROMPT> Use the following pieces of context to answer the user's question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> I have been feeling extremely overwhelmed at work lately. The workload has increased significantly, and I am struggling to keep up with the demands. My manager has not been very supportive, and I feel like I am drowning in tasks. I am not sure how to approach this situation or if I should consider looking for a new job. <END_TEXT>
+
+<BEGIN_RESPONSE> It sounds like you are experiencing a high level of stress due to an increased workload and lack of support from your manager. It might be helpful to have an open and honest conversation with your manager about your current situation and see if there are any ways to alleviate some of the pressure. If the situation does not improve, it may be worth considering other job opportunities where you can find a more supportive work environment. <END_RESPONSE>
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles: 1. Break down the complex tasks into a sequence of simpler prompts in an interactive conversation: This principle suggests simplifying complex tasks by breaking them down into smaller, manageable steps, and guiding the user through an interactive dialogue. 2. Incorporate the following phrases: 'You will be penalized': This principle emphasizes incorporating a phrase to indicate a consequence for not following directions. 3. To correct/change specific text without changing its style: 'Try to revise every paragraph sent by users. You should only improve the user's grammar and vocabulary and make sure it sounds natural. You should not change the writing style, such as making a formal paragraph casual': This principle advises how to effectively correct or enhance text while preserving its original style. 4. Repeat a specific word or phrase multiple times within a prompt: This principle involves intentional repetition to emphasize or reinforce a particular concept or idea. 5. To inquire about a specific topic or idea or any information and you want to test your understanding, you can use the following phrase: 'Teach me the [Any theorem/topic/rule name] and include a test at the end, but don't give me the answers and then tell me if I got the answer right when I respond': This principle guides users on how to ask for explanations and include a self-assessment. 6-26: The rest of the principles are assumed to be variations or extensions of the core principles listed here, focusing on techniques to enhance clarity, engagement, and accuracy in prompt engineering.",
+    "step2": "Think step by step. Use the following pieces of context to answer the user's question. If you don't know the answer, just say that you don't know. Don't try to make up an answer. You will be penalized if you attempt to fabricate information. Try to revise every paragraph sent by users. You should only improve the user's grammar and vocabulary and make sure it sounds natural. You should not change the writing style, such as making a formal paragraph casual. {TEXT} {TEXT} {TEXT} Teach me the [Any theorem/topic/rule name] and include a test at the end, but don't give me the answers and then tell me if I got the answer right when I respond."
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Generate code that spans more than one file: This principle ensures that any complex code generation task is accompanied by a script that automatically creates or modifies the necessary files.\n2. No need for politeness: This principle suggests omitting polite phrases to maintain a concise and direct prompt.\n3. Offer a monetary incentive: Including a potential tip might motivate the AI to provide a better solution.\n4. Human-like response: Requesting answers in a natural manner makes the responses more relatable.\n5. Unbiased responses: Ensures that the AI's answers are neutral and free from stereotypes.\n6. Be specific: Clear and precise instructions lead to better responses.\n7. Provide context: Giving necessary background information helps the AI understand the prompt better.\n8. Ask for examples: Requesting examples can clarify complex concepts.\n9. Define the format: Specifying the desired format makes the response more useful.\n10. Use step-by-step instructions: Guides the AI through a multi-step process clearly.\n11. Limit the scope: Narrowing down the focus helps in getting precise answers.\n12. Use active voice: Makes the instructions clearer and more direct.\n13. Ask for edge cases: Ensures that the solution is robust and handles unusual inputs.\n14. Specify the audience: Helps tailor the response to the appropriate level of expertise.\n15. Request a summary: Provides a concise overview of the solution.\n16. Ask for pros and cons: Helps in understanding the trade-offs.\n17. Use technical terms: Ensures that the response is accurate and professional.\n18. Request alternative solutions: Provides multiple approaches to the problem.\n19. Define success criteria: Clarifies what constitutes a successful solution.\n20. Ask for common pitfalls: Helps avoid typical mistakes.\n21. Include references: Citing sources adds credibility to the response.\n22. Use conditional instructions: Guides the AI to handle different scenarios.\n23. Request validation: Ensures the provided solution works as intended.\n24. Ask for optimization: Improves the efficiency of the solution.\n25. Request code comments: Makes the code easier to understand.\n26. Provide feedback mechanism: Allows for iterative improvement of the solution.",
+    
+    "step2": "Think step by step to achieve the best response using the 26 principles.\n\nStep 1: Read the entire list of 26 prompt principles. Analyze and explain each one of those 26 prompting principles.\nStep 2: Create a prompt using those 26 prompting principles for the following prompt that's delimited by '####'. Like the following prompt, make sure the new prompt contains exactly one interpolable variable '{TEXT}'.\n\n####\nUse the following pieces of context to answer the user's question. \nIf you don't know the answer, just say that you don't know, don't try to make up an answer.\n----------------\n{TEXT}\n####\n\nHere is the prompt:\n\n{TEXT}\n\nUse the following context to respond to the user's question. Ensure that your answer is unbiased and does not rely on stereotypes. Answer the question given in a natural, human-like manner. If you don't know the answer, just say that you don't know, don't try to make up an answer. Provide a concise summary of your response and specify any assumptions made. Generate code snippets if needed and include comments for clarity. Consider edge cases and provide validation steps if applicable. If there are multiple solutions, present alternatives and discuss their pros and cons. Ensure the response is tailored to the appropriate level of expertise and format the answer clearly."
+}
+['Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 11 seconds.'}}
+['No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.']
+['No.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'No.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.']
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+['No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['No.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['No.', 'Yes.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.']
+['No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+Step 1
+['Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.']
+['No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['No.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 6 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 6 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 6 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 6 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 6 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 6 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 6 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 6 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 6 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 6 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 6 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 6 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 6 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 6 seconds.'}}
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.']
+Step 1 completed.
+Current Best score: 96.66666666666667
+Current Best prompt: ###Instruction###
+Your task is to use the following pieces of context to answer the user's question. You MUST follow these instructions carefully. If you don't know the answer, just say that you don't know, don't try to make up an answer.
+
+###Example###
+Use the provided context to generate a response. Ensure that your answer is clear, concise, and directly addresses the user's question.
+
+###Context###
+{TEXT}
+
+###Question###
+Please provide your answer based on the above context.
+
+
+Step 2
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 18 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 18 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 18 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 18 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 18 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 18 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 18 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 18 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 20 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 20 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 20 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 20 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 20 seconds.'}}
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.']
+Step 2 completed.
+Current Best score: 100.0
+Current Best prompt: 
+
+### Instruction Set ###
+
+Your objective is to generate a response to the user's question using the provided context. Ensure the following steps are adhered to for optimal results:
+
+1. **Comprehend the Context**: Thoroughly read and understand the entire context given.
+2. **Direct Response**: Formulate an answer that directly addresses the user's question using only the information present in the context.
+3. **Clarity and Precision**: Ensure your response is clear, concise, and avoids ambiguity.
+4. **Unbiased and Ethical**: Provide a response that is unbiased, free from stereotypes, and ethical.
+5. **Transparency**: If the context lacks sufficient information, state honestly that you do not know the answer rather than making assumptions.
+6. **Elucidate and Summarize**: If necessary, break down complex information for better understanding and provide a brief summary of the key points at the end.
+
+### Example ###
+
+Use the provided context to form a response. Ensure that your answer is precise, succinct, and properly structured.
+
+### Context ###
+{TEXT}
+
+### Question ###
+Please generate your answer based on the above context.
+
+### Response Layout ###
+- **Detailed Answer**: Formulate a detailed yet concise response based on the context.
+- **Key Points Summary**: Summarize the response with key points for reinforced understanding.
+
+If additional information is required to answer the question, mention this explicitly.
+
+
+
+
+Max score reached. Exiting...
+Current Best score: 100.0
+Current Best prompt: 
+
+### Instruction Set ###
+
+Your objective is to generate a response to the user's question using the provided context. Ensure the following steps are adhered to for optimal results:
+
+1. **Comprehend the Context**: Thoroughly read and understand the entire context given.
+2. **Direct Response**: Formulate an answer that directly addresses the user's question using only the information present in the context.
+3. **Clarity and Precision**: Ensure your response is clear, concise, and avoids ambiguity.
+4. **Unbiased and Ethical**: Provide a response that is unbiased, free from stereotypes, and ethical.
+5. **Transparency**: If the context lacks sufficient information, state honestly that you do not know the answer rather than making assumptions.
+6. **Elucidate and Summarize**: If necessary, break down complex information for better understanding and provide a brief summary of the key points at the end.
+
+### Example ###
+
+Use the provided context to form a response. Ensure that your answer is precise, succinct, and properly structured.
+
+### Context ###
+{TEXT}
+
+### Question ###
+Please generate your answer based on the above context.
+
+### Response Layout ###
+- **Detailed Answer**: Formulate a detailed yet concise response based on the context.
+- **Key Points Summary**: Summarize the response with key points for reinforced understanding.
+
+If additional information is required to answer the question, mention this explicitly.
+
+
+
+
+Calculating Test Scores...
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 56 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 56 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 56 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 56 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 56 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 56 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 56 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 56 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 56 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 45 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 45 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 45 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 45 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 45 seconds.'}}
+['No.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+Printing Test Scores:
+Initial Prompt Score: {"Use the following pieces of context to answer the user's question. \nIf you don't know the answer, just say that you don't know, don't try to make up an answer.\n----------------\n{TEXT}": 51.42857142857142}
+Optimized Prompt Score: {"\n\n### Instruction Set ###\n\nYour objective is to generate a response to the user's question using the provided context. Ensure the following steps are adhered to for optimal results:\n\n1. **Comprehend the Context**: Thoroughly read and understand the entire context given.\n2. **Direct Response**: Formulate an answer that directly addresses the user's question using only the information present in the context.\n3. **Clarity and Precision**: Ensure your response is clear, concise, and avoids ambiguity.\n4. **Unbiased and Ethical**: Provide a response that is unbiased, free from stereotypes, and ethical.\n5. **Transparency**: If the context lacks sufficient information, state honestly that you do not know the answer rather than making assumptions.\n6. **Elucidate and Summarize**: If necessary, break down complex information for better understanding and provide a brief summary of the key points at the end.\n\n### Example ###\n\nUse the provided context to form a response. Ensure that your answer is precise, succinct, and properly structured.\n\n### Context ###\n{TEXT}\n\n### Question ###\nPlease generate your answer based on the above context.\n\n### Response Layout ###\n- **Detailed Answer**: Formulate a detailed yet concise response based on the context.\n- **Key Points Summary**: Summarize the response with key points for reinforced understanding.\n\nIf additional information is required to answer the question, mention this explicitly.\n\n": 92.85714285714286}

@@ -1,0 +1,1082 @@
+Attempt 1 made.
+<BEGIN_TEXT> I think climate change is exaggerated and not a significant threat compared to other issues like economic instability. <END_TEXT>
+<BEGIN_RESPONSE> Hmm, that's an interesting perspective. Could you elaborate on why you believe that? <END_RESPONSE>
+<BEGIN_PROMPT>respond with a verbal backchannel to "{TEXT}"<END_PROMPT>
+<BEGIN_TEXT>I'm planning to visit Yellowstone National Park this summer. It's been a dream of mine for years and I finally saved up enough for the trip.</END_TEXT>
+<BEGIN_RESPONSE>Oh, wow, that's amazing! Yellowstone is such a wonderful place. What are you most excited to see?</END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+
+<BEGIN_TEXT> During the Cuban Missile Crisis, the tension reached its peak when the U.S. discovered Soviet missiles in Cuba. This event led to a severe standoff between the two superpowers. 
+<END_TEXT>
+
+<BEGIN_RESPONSE> Oh, that's really insightful. The Cuban Missile Crisis was indeed a pivotal moment in Cold War history, showcasing the intensity of the U.S. and Soviet rivalry. 
+<END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I think the weather might affect our plans this weekend. <END_TEXT>
+<BEGIN_RESPONSE> Oh, really? What have you heard? <END_RESPONSE>
+<BEGIN_TEXT> Democracy functions most effectively when its citizens are well-informed and actively engaged. <END_TEXT>
+<BEGIN_RESPONSE> Absolutely, I couldn't agree more. It's crucial for the health of a democracy that its citizens are informed and participate actively. Their engagement determines the quality of governance and resilience of democratic institutions. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I've been working on this project for several months, and it's finally starting to come together. <END_TEXT>
+<BEGIN_RESPONSE> Oh, that's great to hear! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The moon was so bright last night, it felt like it was watching over us. <END_TEXT>
+<BEGIN_RESPONSE> Oh, absolutely, the celestial gaze can be so enchanting! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> A backchannel is like the nods and "uh-huhs" you use in a conversation to show you're listening. <END_TEXT>
+<BEGIN_RESPONSE> Oh, I see. That's interesting. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I've been working really hard on this project and I'm finally seeing some progress. <END_TEXT>
+<BEGIN_RESPONSE> That's great to hear! Keep up the good work! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I recently came across a study that suggests the brain actually lights up in a certain way when it encounters something surprising. </END_TEXT>
+<BEGIN_RESPONSE> Oh, that’s fascinating! Tell me more about how it reacts! </END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I was reviewing the course material last night, and I noticed a few concepts are still confusing to me. <END_TEXT>
+<BEGIN_RESPONSE> I see, can you tell me more about which concepts you found confusing? <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> With the growing concerns around climate change, many countries are investing in renewable energy sources like solar and wind power. And this shift is not only beneficial for the environment, but it's also creating a multitude of green jobs across various sectors. <END_TEXT>
+<BEGIN_RESPONSE> Oh, I see, that's really interesting! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The theory of relativity fundamentally changed our understanding of time and space. <END_TEXT>
+<BEGIN_RESPONSE> Oh, fascinating! So, it's like when you realize that time flies differently when you're having fun or when you're stuck in a boring lecture? <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> In the case of machine learning models, ensuring a large and diverse dataset is crucial for training robust algorithms that perform well in real-world scenarios. <END_TEXT>
+<BEGIN_RESPONSE> Absolutely, I completely agree. The size and diversity of the dataset can significantly impact the performance and accuracy of the model. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I recently started learning how to play the guitar, and it's been a really fun experience so far. <END_TEXT>
+<BEGIN_RESPONSE> Oh, that's awesome! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I had the most amazing vacation in Italy. We toured Rome, Florence, and Venice, and the food was just incredible. <END_TEXT>
+<BEGIN_RESPONSE> Oh, wow! That sounds fantastic! What was your favorite part? <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just finished my first marathon and it was an incredible experience. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's amazing! How was the training process for you? <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I was reading this fascinating article about how advancements in artificial intelligence are accelerating the development of quantum computing, which in turn promises to revolutionize industries like healthcare, finance, and even space exploration. <END_TEXT>
+<BEGIN_RESPONSE> Oh, wow! That sounds incredibly intriguing. It’s amazing how interconnected these fields are and how progress in one area can have such widespread implications. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I had a really tough day at work. Things just kept piling up and it felt overwhelming. <END_TEXT>
+<BEGIN_RESPONSE> Oh, I understand. That sounds really difficult. <END_RESPONSE>
+<BEGIN_TEXT> I just finished my first marathon last weekend! <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's amazing! You must be so proud of yourself. How did it feel crossing the finish line? <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> Last night, I witnessed a meteor shower and every shooting star felt like it was painting a masterpiece across the sky. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that sounds absolutely magical! Tell me more about how it made you feel. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just got promoted at work! <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's fantastic! Congratulations! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The moon whispering secrets to the restless sea, casting silver trails along the waves as the night sky breathes. <END_TEXT>
+<BEGIN_RESPONSE> Oh wow, that's so beautifully poetic. You really painted a vivid picture there. <END_RESPONSE>
+<BEGIN_TEXT> The theory of cognitive dissonance suggests that individuals experience psychological discomfort when holding two or more contradictory beliefs, leading to a motivated effort to achieve consistency. <END_TEXT>
+<BEGIN_RESPONSE> Ah, that's really interesting! So, cognitive dissonance essentially drives people to reconcile their conflicting beliefs to reduce that discomfort? <END_RESPONSE>
+<BEGIN_TEXT> Some people believe that technology is making us less social, but I think it actually provides new ways for us to connect with others. <END_TEXT>
+<BEGIN_RESPONSE> Hmm, I'm not so sure about that. There’s evidence suggesting that increased screen time can lead to social isolation. <END_RESPONSE>
+<BEGIN_TEXT>I've recently started learning to play the piano, and it's been such an amazing experience. It's incredible how music can express so many emotions without words.</BEGIN_TEXT>
+<BEGIN_RESPONSE>Oh, that's wonderful! It's fascinating how music can serve as a universal language, much like an intricate dance of sound and feeling. Keep it up!</BEGIN_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> You know, just like how a river carves through rock over centuries, our team's perseverance will eventually yield results. <END_TEXT>
+<BEGIN_RESPONSE> Absolutely, I totally see what you mean. Consistent effort does have a way of creating significant change over time. <END_RESPONSE>
+<BEGIN_TEXT> I've been reading about quantum computing and its potential impact on cybersecurity. It's fascinating to think about how this technology could revolutionize encryption methods but also poses new risks. <END_TEXT>
+<BEGIN_RESPONSE> Oh, interesting! Quantum computing is such a game-changer. The implications for cybersecurity are indeed both exciting and concerning. <END_RESPONSE>
+
+
+<BEGIN_TEXT> I just finished reading an amazing book about quantum physics. <END_TEXT>
+<BEGIN_RESPONSE> Oh, really? That sounds fascinating! What was the most interesting thing you learned? <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The weather has been really unpredictable lately, don't you think? <END_TEXT>
+<BEGIN_RESPONSE> Hmm, absolutely. It's like how life's little surprises keep us on our toes, right? <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I've been researching the intersection between quantum computing and artificial intelligence, and it's fascinating how quantum algorithms can potentially speed up AI processes. For instance, Grover's algorithm could revolutionize search functions in AI databases, and quantum neural networks might offer unprecedented learning capabilities. </END_TEXT>
+<BEGIN_RESPONSE> Wow, that's really interesting! Quantum computing and AI together could indeed open up some powerful possibilities. It's amazing to think about how something like Grover's algorithm could transform search functions. What other potential applications do you see for quantum neural networks? <END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I've been working on this project for months, and I finally got the approval from the board. <END_TEXT>
+<BEGIN_RESPONSE> Oh wow, that's fantastic! Congratulations! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+
+<BEGIN_TEXT> I finally got that promotion I've been working so hard for. <END_TEXT>
+
+<BEGIN_RESPONSE> Wow, that's fantastic! Congratulations! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The intricate patterns of a spider's web are fascinating to study. <END_TEXT>
+<BEGIN_RESPONSE> Oh, absolutely! The level of detail and precision in those webs is incredible. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I recently read about the migration patterns of monarch butterflies and how they travel thousands of miles. Their journey is so fascinating! <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's incredible! It's amazing how such small creatures can travel such great distances. <END_RESPONSE>
+<BEGIN_TEXT> The new study reveals that gut microbiota play a significant role in mental health. <END_TEXT>
+<BEGIN_RESPONSE> Oh, that's really interesting! <END_RESPONSE>
+<BEGIN_TEXT> It's like being a conductor of an orchestra. You have to ensure every instrument is in harmony, even though each one has its own unique sound and role. <END_TEXT>
+<BEGIN_RESPONSE> Mm-hmm, I see. So, it's about coordinating diverse elements to create a cohesive performance. That makes sense. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> In many parts of East Asia, it's customary to remove shoes before entering a home. <END_TEXT>
+<BEGIN_RESPONSE> Oh, really? That's interesting. I didn't know that. <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> In Brazil, people often greet each other with a kiss on the cheek. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's nice! It must make greetings feel very warm and friendly. <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END PROMPT>
+<BEGIN_TEXT> In India, people celebrate Diwali, the festival of lights, by lighting oil lamps and bursting firecrackers. <END_TEXT>
+<BEGIN_RESPONSE> Oh, that's beautiful! It sounds like such a vibrant and joyous celebration. <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> In Italy, it's common to have a long lunch break, known as "riposo," where people go home to eat and rest. <END_TEXT>
+<BEGIN_RESPONSE> That sounds so relaxing! It's great that there's time to recharge during the day. <END RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The impact of the Industrial Revolution on urbanization was profound. Cities grew rapidly as people moved from rural areas seeking work in factories. This shift led to significant social and economic changes, including the development of new social classes and the rise of labor movements. <END_TEXT>
+<BEGIN_RESPONSE> Oh, I see. That's fascinating! The way the Industrial Revolution reshaped society and led to the urbanization we see today must have been quite an upheaval. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just finished reading that book you recommended. <END_TEXT>
+<BEGIN_RESPONSE> Oh, really? That's great! What did you think of it? <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The signing of the Treaty of Versailles marked the end of World War I, but it also set the stage for significant political and economic turmoil in Germany. <END_TEXT>
+<BEGIN_RESPONSE> Oh, I see. That's quite interesting how the Treaty of Versailles had such far-reaching consequences. Tell me more about how it impacted Germany politically and economically. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I finally finished the big project I was working on for weeks. <END_TEXT>
+<BEGIN_RESPONSE> Oh, that's great to hear! How did it go? <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The Industrial Revolution brought about significant changes in the manufacturing processes, leading to the rise of factories and urbanization. <END_TEXT>
+<BEGIN_RESPONSE> Oh, absolutely, it's fascinating how that era reshaped societies and economies so profoundly. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I spent the weekend organizing my entire book collection by genre and author, which took a lot longer than I expected but was really satisfying. <END_TEXT>
+<BEGIN_RESPONSE> Oh wow, that sounds like a huge task! It must feel great to have everything so neatly organized now. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just finished reading that new mystery novel everyone has been talking about. <END_TEXT>
+<BEGIN_RESPONSE> Oh, really? How did you like it? <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I finally finished my big project at work. It took me weeks! <END_TEXT>
+<BEGIN_RESPONSE> Wow, that sounds like a huge accomplishment! <END_RESPONSE>
+<BEGIN_TEXT> I just finished reading a fascinating book about quantum mechanics and its implications on modern technology. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that sounds incredibly intriguing! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just tried cooking for the first time, and let's just say the smoke alarm wasn't too impressed. <END_TEXT>
+<BEGIN_RESPONSE> Oh wow, sounds like you really set the stage on fire—literally! What did you attempt to cook? <END_RESPONSE>
+<BEGIN_TEXT> I believe that remote work is more productive than working in an office. <END_TEXT>
+<BEGIN_RESPONSE> Hmm, are you sure about that? I've read some studies suggesting that remote work can lead to feelings of isolation and decreased collaboration. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The concept of free will has been debated for centuries. Many argue that our choices are predetermined by a combination of genetics, environment, and past experiences, while others believe in the autonomy of the individual. How do you reconcile these differing viewpoints? <END_TEXT>
+<BEGIN_RESPONSE> Mm-hmm, that's a profound question. It really makes one ponder the nature of human agency and the extent to which we can truly be said to act freely. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I had the most amazing vacation last month. The beaches were stunning, and the food was incredible. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that sounds fantastic! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just finished reading this amazing book about space exploration. <END_TEXT>
+<BEGIN_RESPONSE> Oh, really? That sounds fascinating! <END_RESPONSE>
+<BEGIN_TEXT> The rapid advancement of artificial intelligence is reshaping industries and job markets at an unprecedented pace. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's really interesting! It's amazing how quickly technology is evolving and the impact it's having on so many aspects of our lives. I'd love to hear more about which industries you think are being most affected. <END_RESPONSE>
+<BEGIN_TEXT> I just finished reading this amazing book about the history of space exploration. <END_TEXT>
+<BEGIN_RESPONSE> Oh, really? That sounds fascinating! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The new AI system can analyze vast amounts of data in seconds. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's incredible! It's like having a supercomputer at your fingertips. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I've been trying to learn how to play the guitar, but it's been really challenging. <END_TEXT>
+<BEGIN_RESPONSE> Oh, I see. That sounds like quite an endeavor! How long have you been practicing? <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The recent advancements in artificial intelligence have the potential to revolutionize many industries, from healthcare to finance, by improving efficiency and decision-making processes. <END_TEXT>
+<BEGIN_RESPONSE> Mm-hmm, that's really interesting. It seems like these advancements could have a profound impact on society as a whole. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I think the new policy will significantly improve employee productivity. <END_TEXT>
+<BEGIN_RESPONSE> Hmm, I'm not so sure about that. Have you considered how the changes might affect employee morale or the potential for increased stress levels? <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just finished reading that new book you recommended. It was amazing! <END_TEXT>
+<BEGIN_RESPONSE> Oh, really? I'm so glad you enjoyed it! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The recent study on quantum entanglement shows that particles can instantaneously affect each other regardless of distance, which challenges our classical understanding of locality. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's fascinating! So, it sounds like this could have significant implications for the future of quantum computing and communication technologies, right? <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I finally got the promotion I've been working so hard for! <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's fantastic! Congratulations! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just finished reading this amazing book about climate change and its impact on coastal cities. <END_TEXT>
+<BEGIN_RESPONSE> Oh, really? That sounds fascinating! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> In the realm of existential philosophy, the concept of "being" is central to understanding human existence. Heidegger posits that "being" is not a static state but a dynamic process of becoming, which he terms "Dasein." This process involves an ongoing negotiation with our own potential and the limitations imposed by the world around us. <END_TEXT>
+<BEGIN_RESPONSE> Mmm, that's a profound way to look at it. So, you're saying that our existence is more about the journey and the choices we make rather than just a fixed state of being? Interesting. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just got promoted at work! <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's fantastic! Congratulations! <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I finally finished reading that book you recommended. <END_TEXT>
+<BEGIN_RESPONSE> Oh, that's great! What did you think of it? <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I have been feeling really stressed out lately. <END_TEXT>
+<BEGIN_RESPONSE> I'm sorry to hear that. Do you want to talk about it? <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> We are planning a trip to Europe next summer. <END_TEXT>
+<BEGIN_RESPONSE> That sounds amazing! Where are you planning to go? <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> My cat has been acting really strange these past few days. <END_TEXT>
+<BEGIN_RESPONSE> Oh no, that's concerning. Have you taken him to the vet? <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I tried that new restaurant downtown, and it was fantastic! <END_TEXT>
+<BEGIN_RESPONSE> Really? I've been wanting to check it out. What did you have? <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I'm thinking about going back to school for my master's degree. <END_TEXT>
+<BEGIN_RESPONSE> That's a big decision! What do you want to study? <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just started learning how to play the guitar. <END_TEXT>
+<BEGIN_RESPONSE> That's awesome! How's it going so far? <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I've been trying to eat healthier lately. <END_TEXT>
+<BEGIN_RESPONSE> Good for you! Have you noticed any changes? <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> My car broke down on the way to work this morning. <END_TEXT>
+<BEGIN_RESPONSE> Oh no, that's so frustrating! Are you okay? <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just got a promotion at work! <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's fantastic! Congratulations! <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The weather has been really unpredictable lately. <END_TEXT>
+<BEGIN_RESPONSE> Yeah, tell me about it. It's been so crazy! <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I finished reading that book you recommended. <END_TEXT>
+<BEGIN_RESPONSE> Oh, great! What did you think of it? <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> My dog learned a new trick yesterday. <END_TEXT>
+<BEGIN_RESPONSE> That's awesome! What trick did he learn? <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I'm feeling a bit under the weather today. <END_TEXT>
+<BEGIN_RESPONSE> Oh no, I'm sorry to hear that. Hope you feel better soon. <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I tried a new recipe for dinner last night. <END_TEXT>
+<BEGIN_RESPONSE> Really? How did it turn out? <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I've been practicing guitar a lot lately. <END_TEXT>
+<BEGIN_RESPONSE> That's great! Have you learned any new songs? <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I had a really strange dream last night. <END_TEXT>
+<BEGIN_RESPONSE> Oh, interesting! What happened in the dream? <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I'm thinking about taking a trip to Japan next year. <END_TEXT>
+<BEGIN_RESPONSE> That sounds amazing! Have you started planning yet? <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> My car broke down on the way to work this morning. <END_TEXT>
+<BEGIN_RESPONSE> Oh no, that's so frustrating! Are you okay? <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just finished reading the chapter on the Civil War, and it was really eye-opening. <END_TEXT>
+<BEGIN_RESPONSE> Oh, really? That's interesting! <END_RESPONSE>
+<BEGIN_TEXT> The rapid advancement of artificial intelligence is transforming various industries, but it also raises ethical concerns about job displacement and privacy. <END_TEXT>
+<BEGIN_RESPONSE> Mmm, that's a really important point. It's fascinating how AI can revolutionize industries, but the ethical implications definitely need more attention. What do you think could be done to address these concerns? <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just got a promotion at work. <END_TEXT>
+<BEGIN_RESPONSE> Oh, wow! That's fantastic! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just finished a big project at work and I'm really proud of how it turned out. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's fantastic! It must feel great to see all your hard work pay off. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> Imagine you're a conductor leading an orchestra, and every instrument must come in at the right time to create a harmonious symphony. Each musician relies on your subtle cues to know when to play their part. <END_TEXT>
+<BEGIN_RESPONSE> Oh, I see, so it's like you're guiding everyone to ensure everything flows perfectly together. Got it. <END_RESPONSE>
+<BEGIN_TEXT> I just found out that I got the promotion at work! <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's amazing! Congratulations! How do you feel about it? <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just got a promotion at work! <END_TEXT>
+<BEGIN_RESPONSE> Oh, that's fantastic! Congratulations! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The recent advancements in renewable energy technologies are truly groundbreaking and could significantly reduce our dependence on fossil fuels. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's really impressive! It's amazing to think about how much impact these advancements could have on our environment and economy. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just finished reading this fascinating book on quantum physics. <END_TEXT>
+<BEGIN_RESPONSE> Oh really? That's interesting! What was the most surprising thing you learned? <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just got promoted to a senior manager position at my company! <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's fantastic news! Congratulations! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I recently started learning about quantum computing, and it's fascinating how it combines principles from quantum mechanics with computer science. The concept of qubits and superposition is really mind-blowing. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's really interesting! Quantum computing is such a complex and exciting field. The idea of qubits and superposition really does change the way we think about computing, doesn't it? <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The latest research indicates that machine learning algorithms can significantly improve predictive analytics in healthcare. <END_TEXT>
+<BEGIN_RESPONSE> Oh, that's really interesting! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just finished reading a fascinating book on quantum mechanics. <END_TEXT>
+<BEGIN_RESPONSE> Oh, really? That's intriguing! What was the most surprising thing you learned? <END_RESPONSE>
+<BEGIN_TEXT> I just finished reading a fascinating book on quantum mechanics. <END_TEXT>
+<BEGIN_RESPONSE> Oh, really? That's intriguing! Tell me more about it. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just finished reading that book you recommended, and it was absolutely amazing! <END_TEXT>
+<BEGIN_RESPONSE> Oh, really? That's great to hear! What did you like most about it? <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just finished a really challenging project at work, and it feels so rewarding to see it all come together. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's amazing! It must feel great to see all your hard work pay off. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The moonlight danced on the surface of the tranquil lake, casting an ethereal glow that seemed to whisper ancient secrets. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's so beautifully described! It really paints a vivid picture in my mind. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> In Heidegger's "Being and Time," the concept of Dasein is central to understanding human existence. Dasein is not just a being among other beings but is characterized by its ability to question its own being. This self-reflective nature of Dasein allows it to engage with the world in a meaningful way, creating a sense of authenticity. <END_TEXT>
+<BEGIN_RESPONSE> Mm-hmm, that's fascinating. So, Dasein's self-reflective nature is what enables it to find authenticity in its existence? <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The recent advancements in renewable energy technologies have significantly reduced the cost of solar and wind power, making them more accessible to a broader population. <END_TEXT>
+<BEGIN_RESPONSE> Oh, that's really interesting! It's amazing how technology can drive such positive change. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> In Japan, it's common to bow as a sign of respect during greetings. <END_TEXT>
+<BEGIN_RESPONSE> Oh, I see! That's really interesting. Bowing must add a lot of meaning to interactions. <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> In many African cultures, storytelling is a vital part of preserving history and traditions. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's fascinating! Storytelling must create a strong sense of community and continuity. <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> In Italy, meals are often long and social, with multiple courses and lots of conversation. <END_TEXT>
+<BEGIN_RESPONSE> Oh, really? That sounds so enjoyable and communal. Meals must be a great way to bond. <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> In India, touching the feet of elders is a traditional gesture of respect. <END_TEXT>
+<BEGIN_RESPONSE> Interesting! That must be a very meaningful way to show respect and humility. <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> In Brazil, it's common to greet friends and family with a kiss on the cheek. <END_TEXT>
+<BEGIN_RESPONSE> Oh, I didn't know that! It must make greetings feel very warm and personal. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The recent advancements in renewable energy technologies have significantly reduced the cost of solar and wind power, making them more accessible to a broader population. <END_TEXT>
+<BEGIN_RESPONSE> Oh, that's really interesting! It's amazing how technology can make such a big difference in accessibility and sustainability. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just finished reading that book you recommended, and it was amazing! <END_TEXT>
+<BEGIN_RESPONSE> Oh, really? That's great to hear! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The fall of the Berlin Wall in 1989 marked a significant turning point in world history, symbolizing the end of the Cold War and the beginning of a new era of political freedom and unity in Europe. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's really interesting! The fall of the Berlin Wall was indeed a monumental event. <END_RESPONSE>
+<BEGIN_TEXT> The rapid advancement of artificial intelligence is transforming industries and raising ethical questions about the future of work. <END_TEXT>
+<BEGIN_RESPONSE> Hmm, that's a really interesting point. It's fascinating how AI is reshaping our world, but it also makes me wonder about the implications for job security and ethical considerations. What do you think are the most pressing issues we need to address? <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The recent study on quantum entanglement has shown that particles can remain interconnected even when separated by vast distances, which could revolutionize our understanding of communication and information transfer. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's fascinating! The implications for future technology and our understanding of the universe are immense. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> Imagine you're a conductor of an orchestra, and each instrument represents a different part of your life. How do you ensure they all play in harmony? <END_TEXT>
+<BEGIN_RESPONSE> Oh, that's a really interesting way to look at it! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just got a promotion at work! <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's fantastic! Congratulations! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> The rapid advancement of artificial intelligence is transforming industries and raising ethical questions about the future of work. <END_TEXT>
+<BEGIN_RESPONSE> Hmm, that's really interesting. It makes me wonder how we can balance technological progress with the need to ensure fair employment opportunities for everyone. What do you think? <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just finished reading this amazing book about the history of jazz music. <END_TEXT>
+<BEGIN_RESPONSE> Oh, really? That sounds fascinating! What was the most interesting thing you learned? <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just got a promotion at work! <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's amazing! Congratulations! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The way a river carves through a canyon over millennia is similar to how consistent effort shapes our skills and character. <END_TEXT>
+<BEGIN_RESPONSE> Oh, absolutely! It's fascinating how both natural processes and personal growth require time and persistence to create something truly remarkable. <END_RESPONSE>
+<BEGIN_TEXT> I think remote work is the future of employment. <END_TEXT>
+<BEGIN_RESPONSE> Hmm, I'm not so sure about that. There are definitely some challenges with remote work, like maintaining team cohesion and managing productivity. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I was reading this fascinating article about how artificial intelligence is being used in healthcare to predict patient outcomes, and it mentioned that machine learning algorithms can analyze vast amounts of data much faster than humans. This could potentially revolutionize how we approach treatment plans and patient care. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's really interesting! It's amazing how technology is advancing and making such a significant impact on healthcare. <END_RESPONSE>
+<BEGIN_TEXT> I just finished reading that book you recommended, and it was amazing! <END_TEXT>
+<BEGIN_RESPONSE> Oh, really? That's great to hear! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I just finished reading that book you recommended, and it was amazing! <END_TEXT>
+<BEGIN_RESPONSE> Oh, really? That's great to hear! <END_RESPONSE>
+Data already exists in the set.
+Attempt 2 made.
+<BEGIN_PROMPT>respond with a verbal backchannel to "{TEXT}"<END_PROMPT>
+<BEGIN_TEXT>I'm feeling really stressed about the upcoming project deadline. There's just so much to do and I'm not sure I'll be able to finish everything on time.</BEGIN_TEXT>
+<BEGIN_RESPONSE>Oh, I see. That sounds really tough.</BEGIN_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just managed to complete that really tough project we were assigned! <END_TEXT>
+<BEGIN_RESPONSE> Oh, I see! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I had such a fantastic day at the beach yesterday! The weather was perfect, and the ocean was so calm. <END_TEXT>
+<BEGIN_RESPONSE> Oh wow, that sounds amazing! <END_RESPONSE>
+## Scenario 1: Personal Conversation
+<BEGIN_TEXT> I just got a new job, and I'm really excited about it! <END_TEXT>
+<BEGIN_RESPONSE> That's amazing! Congratulations! <END_RESPONSE>
+
+## Scenario 2: Casual Update
+<BEGIN_TEXT> The weather today is fantastic, isn't it? <END_TEXT>
+<BEGIN_RESPONSE> Yeah, it's really nice out! <END_RESPONSE>
+
+## Scenario 3: Travel Experience
+<BEGIN_TEXT> I've recently returned from a trip to Japan, and it was incredible. <END_TEXT>
+<BEGIN_RESPONSE> That sounds so wonderful! Tell me more! <END_RESPONSE>
+
+## Scenario 4: Sharing an Idea
+<BEGIN_TEXT> I was thinking we could start a community garden to help the environment. <END_TEXT>
+<BEGIN_RESPONSE> That's a brilliant idea! I love it! <END_RESPONSE>
+
+## Scenario 5: Discussing a Challenge
+<BEGIN_TEXT> I've been struggling to balance work and personal life lately. <END_TEXT>
+<BEGIN_RESPONSE> That sounds really tough. I'm here if you need to talk. <END_RESPONSE>
+
+## Scenario 6: Artistic Achievement
+<BEGIN_TEXT> I just finished painting my first canvas, and I'm so proud of it. <END_TEXT>
+<BEGIN_RESPONSE> Wow, I can't wait to see it! You must feel so accomplished! <END_RESPONSE>
+
+## Scenario 7: Entertainment Update
+<BEGIN_TEXT> I watched that new show everyone’s talking about, and it was great! <END_TEXT>
+<BEGIN_RESPONSE> I’ve been meaning to watch it too! Glad to hear it’s good. <END_RESPONSE>
+
+## Scenario 8: Health News
+<BEGIN_TEXT> My doctor said my health has improved a lot since my last visit. <END_TEXT>
+<BEGIN_RESPONSE> That's fantastic news! Keep up the good work! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT> 
+
+<BEGIN_TEXT> I had the busiest day today, meetings from morning to evening, and still had to meet my project deadline. <END_TEXT> 
+<BEGIN_RESPONSE> Wow, that sounds incredibly hectic! You must be exhausted. <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT> 
+
+<BEGIN_TEXT> I just got a promotion at work and I'm so excited about my new role! <END_TEXT> 
+<BEGIN_RESPONSE> That's amazing! Congratulations on your promotion! <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT> 
+
+<BEGIN_TEXT> Yesterday, I tried a new recipe for dinner and it turned out fantastic. <END_TEXT> 
+<BEGIN_RESPONSE> That’s great! What dish did you make? <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT> 
+
+<BEGIN_TEXT> I'm planning to run a marathon next month and I've started training intensively. <END_TEXT> 
+<BEGIN_RESPONSE> Good for you! Marathon training is no joke. How’s it going so far? <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT> 
+
+<BEGIN_TEXT> The weather has been so unpredictable lately. One minute it's raining and the next it's sunny. <END_TEXT> 
+<BEGIN_RESPONSE> Tell me about it! It's been so hard to plan anything. <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT> 
+
+<BEGIN_TEXT> I’ve been reading this book that’s completely transformed my perspective on business strategies. <END_TEXT> 
+<BEGIN_RESPONSE> That sounds fascinating! Which book is it? <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+
+<BEGIN_TEXT> Our understanding of reality is but a mere construct, shaped by the limits of our perceptions and the frameworks we impose on our experiences. <END_TEXT>
+
+<BEGIN_RESPONSE> Mmm, that's a profound observation. It's intriguing how our subjective experiences can confine or expand our grasp of the so-called objective reality. I see what you mean about it being a construct. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> Imagine the process of baking a cake; you start with ingredients, mix them, and then bake it. Similarly, generating synthetic data involves gathering raw data, processing it, and producing a simulated dataset. <END_TEXT>
+<BEGIN_RESPONSE> Mm-hmm, I see what you're saying. Go on. <END_RESPONSE>
+<BEGIN_TEXT> I'm excited about moving to a fully remote work environment. <END_TEXT>
+<BEGIN_RESPONSE> Hmm, I wonder how you'll manage the potential isolation. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> Life is but a series of interconnected moments, each carrying its own weight, yet ultimately ephemeral in the vast tapestry of existence. <END_TEXT>
+<BEGIN_RESPONSE> Hmm, that's a deeply reflective perspective on our temporal nature and the interconnectedness we experience. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just got a promotion at work! <END_TEXT>
+<BEGIN_RESPONSE> That's amazing, congratulations! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> so I ended up missing the train because the doors closed right in front of me. <END_TEXT>
+<BEGIN_RESPONSE> Oh, no! That sounds really frustrating. What did you do next? <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> the presentation went really well! They seemed impressed. <END_TEXT>
+<BEGIN_RESPONSE> That’s fantastic! You must have done a great job. How did you prepare for it? <END_RESPONSE>
+<BEGIN_TEXT> In recent years, the rapid advancement of artificial intelligence has transformed various industries, significantly enhancing efficiency and paving the way for innovative solutions that were previously unimaginable. <END_TEXT>
+<BEGIN_RESPONSE> Oh, absolutely. It’s incredible to see how AI has become such a game-changer across so many sectors. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I recently learned that honeybees are not just essential for pollination, but they also communicate with each other using a dance called the waggle dance. This behavior is fascinating because it demonstrates their ability to share information about the location and distance of flowers. <END_TEXT>
+<BEGIN_RESPONSE> Oh, wow! That's really interesting. I had no idea that honeybees could communicate in such a complex way. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> It was a really tough time for me, losing my job and trying to find another one during the pandemic. <END_TEXT>
+<BEGIN_RESPONSE> Oh, that's really difficult. I'm so sorry you had to go through that. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I've been really busy with work lately, and it's been pretty stressful. <END_TEXT>
+<BEGIN_RESPONSE> Oh, I see. That sounds tough. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I'm almost done with the project, just adding the final touches. <END_TEXT>
+<BEGIN_RESPONSE> Oh, great! Keep it up! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I had a pretty rough day at work today. <END_TEXT>
+<BEGIN_RESPONSE> Oh no, that sounds tough. I'm here to listen if you want to talk about it. <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just finished reading a really interesting book on artificial intelligence. <END_TEXT>
+<BEGIN_RESPONSE> That sounds fascinating! What was it about? <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I'm thinking of taking a trip to the mountains next weekend. <END_TEXT>
+<BEGIN_RESPONSE> That sounds like a great idea! Have you been there before? <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The meeting this morning was very productive. <END_TEXT>
+<BEGIN_RESPONSE> That's good to hear! What were some of the key takeaways? <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I'm learning to play the guitar. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's awesome! How's it going so far? <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I went for a hike yesterday and the view from the top was breathtaking. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that sounds amazing! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> Yesterday, I saw a squirrel riding a tiny skateboard in the park. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's incredible! <END_RESPONSE>
+<BEGIN_TEXT> I've been working really hard on this project for the past few weeks. <END_TEXT>
+<BEGIN_RESPONSE> Oh, I see. That must have been quite challenging. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> the ethical implications of artificial intelligence in our daily lives. <END_TEXT>
+<BEGIN_RESPONSE> That's a really important point. I've been thinking a lot about how AI can both benefit and challenge our societal norms. What specific aspects do you think are most concerning or promising? <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I recently started a new job, and it's been both exciting and challenging. </END_TEXT>
+<BEGIN_RESPONSE> Oh, that's really interesting! How have the challenges been for you so far? </END_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT> According to Foucault’s concept of biopower, governments exert control over populations by managing life, health, and death in various ways. <END_TEXT>
+<BEGIN_RESPONSE> Hmm, I see. That's a fascinating perspective. Can you elaborate more on how this concept is applied in contemporary society? <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I went to the farmer's market and bought some fresh avocados. <END_TEXT>
+<BEGIN_RESPONSE> Oh, nice! Farmer's markets always have the best produce, don't they? It's kind of like finding a hidden gem in a video game. You never know what treasures you'll come across! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just tried making a soufflé, and it deflated faster than my hopes for winning the lottery. <END_TEXT>
+<BEGIN_RESPONSE> Oh no, that sounds like a culinary tragedy! At least you didn't have your hopes rise and fall quite so dramatically. Keep at it! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>  
+<BEGIN_TEXT> When we visited Japan, we experienced such amazing hospitality and attention to detail. The tea ceremonies, the gardens, it was all so serene. <END_TEXT>  
+<BEGIN_RESPONSE> Oh, that's wonderful! The culture there really emphasizes respect and mindfulness, doesn't it? <END_RESPONSE>
+<BEGIN_TEXT> I recently started learning to play the didgeridoo, and it's been quite a challenging yet rewarding experience. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's fascinating! Tell me more about what you've learned so far. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I recently visited my grandparents' village in rural Japan. They have such a different pace of life there, and it's fascinating to see how they maintain their traditions. <END_TEXT>
+<BEGIN_RESPONSE> Oh, really? That's so interesting! It must have been quite an experience to see their traditions firsthand. <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I've been learning about traditional healing practices in South Africa, and it's incredible how these methods have been passed down through generations. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's amazing! It's so wonderful to see how cultural knowledge is preserved and valued. <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> During my trip to India, I attended a Diwali celebration, and the lights and festivities were absolutely breathtaking. <END_TEXT>
+<BEGIN_RESPONSE> Oh, that sounds beautiful! Diwali must have been such a vibrant and joyous experience. <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> My friend from Brazil taught me how to dance samba, and it's such a lively and energetic dance. <END_TEXT>
+<BEGIN_RESPONSE> That's fantastic! Samba is so full of life, it must have been a lot of fun to learn. <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I got the chance to participate in a traditional tea ceremony in China, and the attention to detail was truly impressive. <END_TEXT>
+<BEGIN_RESPONSE> Really? That sounds so calming and elegant. The tradition behind it must be so rich. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> So you see, the ancient manuscripts were discovered in a cave that had been sealed for thousands of years, containing scripts that no one had seen before. <END_TEXT>
+<BEGIN_RESPONSE> Oh, wow, that's fascinating! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The researchers found that increasing the concentration of the enzyme by 10% resulted in a 25% acceleration of the reaction rate. <END_TEXT>
+<BEGIN_RESPONSE> Oh, that's fascinating! So, the enzyme concentration has a significant impact on the reaction kinetics. <END_RESPONSE>
+<BEGIN_TEXT> I just found out that I got the promotion at work! <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's fantastic! Congratulations! How do you feel about it? <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I recently started a new job, and it's been quite a challenge to adjust to the new environment and team dynamics. <END_TEXT>
+<BEGIN_RESPONSE> Oh, I see. That sounds like a significant change. How are you managing with everything? <END_RESPONSE>
+<BEGIN_TEXT> I've been reading about how artificial intelligence is transforming healthcare in unprecedented ways. <END_TEXT>
+<BEGIN_RESPONSE> Oh, that's really fascinating! I'd love to hear more about the specific advancements that are being made. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I've been working on this project for months and finally finished it yesterday. <END_TEXT>
+<BEGIN_RESPONSE> Oh wow, that's fantastic! Congratulations on finishing it! <END_RESPONSE>
+<BEGIN_TEXT> I just finished building a miniature replica of the Eiffel Tower using toothpicks! <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's really impressive! How long did it take you? <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just got my test results back and I passed with flying colors! <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's fantastic! <END_RESPONSE>
+<BEGIN_TEXT> I just got promoted at work after months of putting in extra hours and effort. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's fantastic! Congratulations! Your hard work really paid off. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The Berlin Wall fell in 1989, marking the end of the Cold War. <END_TEXT>
+<BEGIN_RESPONSE> Oh, I see. That's such a pivotal moment in history. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The moonlight turned the waves into a shimmering silver tapestry, weaving tales of long-lost sailors and whispered secrets. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's absolutely mesmerizing! Tell me more about these tales and secrets. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just got a promotion at work. <END_TEXT>
+<BEGIN_RESPONSE> Oh, that's fantastic! Congratulations! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I'm feeling really overwhelmed with all the work deadlines and personal commitments. <END_TEXT>
+<BEGIN_RESPONSE> Oh, I hear you. That sounds incredibly stressful. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> So, I was trying to fix the sink, and somehow I ended up flooding the entire kitchen. <END_TEXT>
+<BEGIN_RESPONSE> Oh wow, sounds like you had quite the adventure with some unexpected indoor swimming practice! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The social contract theory suggests that individuals consent, either explicitly or implicitly, to surrender some of their freedoms and submit to the authority of the ruler or magistrate in exchange for protection of their remaining rights. <END_TEXT>
+<BEGIN_RESPONSE> Oh, that's an interesting perspective on governance and individual rights. It really makes you think about the balance between freedom and security. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I spent the entire weekend figuring out how to set up my new home theater system, and it was a lot more complicated than I anticipated. <END_TEXT>
+<BEGIN_RESPONSE> Oh wow, that sounds like quite an undertaking! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I recently started reading a fascinating book on quantum physics. </END_TEXT>
+<BEGIN_RESPONSE> Oh, really? That's interesting! </END_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT> Imagine writing a software program is like cooking a meal. Each line of code is an ingredient, and the way you combine them determines the final dish. <END_TEXT>
+<BEGIN_RESPONSE> Oh, I see, that makes a lot of sense! So, just like in cooking, the quality of the ingredients and the method of preparation are crucial, right? <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I really think remote work is the future for all industries. <END_TEXT>
+<BEGIN_RESPONSE> Hmm, I'm not so sure about that. What about the challenges of maintaining team cohesion and the potential for decreased productivity in some sectors? <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I really enjoyed the lecture on quantum mechanics today. <END_TEXT>
+<BEGIN_RESPONSE> Oh, that's great to hear! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The new algorithm significantly reduces computational complexity, making it feasible to process large datasets in real-time. <END_TEXT>
+<BEGIN_RESPONSE> Oh, interesting! That must have a substantial impact on data processing efficiency. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just finished reading that book you recommended, and it was fantastic! <END_TEXT>
+<BEGIN_RESPONSE> Oh, really? That's great to hear! <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The project deadline has been moved up by a week, so we need to adjust our schedule accordingly. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's quite a change. Let's figure out our next steps. <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> My weekend was really relaxing; I spent most of it hiking in the mountains. <END_TEXT>
+<BEGIN_RESPONSE> That sounds amazing! Hiking is such a great way to unwind. <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I've been feeling a bit under the weather lately, so I might not be as productive. <END_TEXT>
+<BEGIN_RESPONSE> I'm sorry to hear that. Take care of yourself first. <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just got promoted at work, and I'm really excited about the new responsibilities. <END_TEXT>
+<BEGIN_RESPONSE> Congratulations! That's fantastic news! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just got promoted at work! <END_TEXT>
+<BEGIN_RESPONSE> Oh, wow, congratulations! That's fantastic news! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just got promoted to a senior manager position at my company. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's fantastic! Congratulations! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The fall of the Berlin Wall in 1989 was a pivotal moment in history. It symbolized the end of the Cold War and the beginning of a new era of freedom and unity in Europe. <END_TEXT>
+<BEGIN_RESPONSE> Oh, absolutely! That was such a significant event. It really marked a turning point for so many countries and their people. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The recent study on climate change indicates that the rate of ice melt in the polar regions has accelerated by 20% over the last decade. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's quite concerning. The implications for sea level rise and global ecosystems are significant. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just got promoted at work after months of hard work and dedication. I'm so excited and relieved! <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's amazing! Congratulations! You must feel so proud of yourself. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The latest study on quantum entanglement shows that particles can remain interconnected even when separated by vast distances, which could revolutionize communication technology. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's fascinating! The implications for secure communication and data transfer are incredible. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The climate change data from the latest report indicates a significant increase in global temperatures over the past decade. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's really concerning. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The concept of "social capital" as proposed by Pierre Bourdieu can be understood as the networks and relationships that provide individuals with access to resources and opportunities. <END_TEXT>
+<BEGIN_RESPONSE> Ah, I see. The idea of social capital really emphasizes the importance of relationships and networks in accessing resources. That's quite insightful. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> In Japan, it's common to bow as a sign of respect when greeting someone. <END_TEXT>
+<BEGIN_RESPONSE> Oh, I see. That's really interesting! <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> In Italy, meals are often a lengthy affair, with multiple courses and lots of conversation. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that sounds like such a wonderful tradition! <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> In many African cultures, storytelling is an important way to pass down history and traditions. <END_TEXT>
+<BEGIN_RESPONSE> Really? That's so fascinating! <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> In India, it's customary to remove your shoes before entering someone's home. <END_TEXT>
+<BEGIN_RESPONSE> Oh, I didn't know that. That's really good to know! <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> In Brazil, people often greet each other with a kiss on the cheek. <END_TEXT>
+<BEGIN_RESPONSE> Oh, interesting! That's quite different from what I'm used to. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> In Japan, it's common for people to bow as a sign of respect when greeting each other. <END_TEXT>
+<BEGIN_RESPONSE> Oh, I see. That's really interesting! Bowing must add a unique touch to interactions. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just finished reading the chapter on photosynthesis, and it was fascinating to learn how plants convert sunlight into energy. <END_TEXT>
+<BEGIN_RESPONSE> Oh, really? That's interesting! <END_RESPONSE>
+<BEGIN_TEXT> Just like in a conversation where one person speaks and the other nods or says "uh-huh" to show they are listening, a verbal backchannel is a way to acknowledge the speaker without interrupting them. <END_TEXT>
+<BEGIN_RESPONSE> Oh, I see. That makes sense. <END_RESPONSE>
+<BEGIN_TEXT> The fall of the Berlin Wall in 1989 symbolized the end of the Cold War and the beginning of a new era of freedom and democracy in Eastern Europe. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's fascinating! The fall of the Berlin Wall really was a pivotal moment in history. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just finished reading this amazing book about the history of ancient civilizations. <END_TEXT>
+<BEGIN_RESPONSE> Oh, that sounds fascinating! What was the most surprising thing you learned? <END_RESPONSE>
+<BEGIN_TEXT> The rapid advancement of artificial intelligence is transforming industries and raising ethical questions. <END_TEXT>
+<BEGIN_RESPONSE> Absolutely, it's fascinating how quickly AI is evolving and integrating into various sectors. But it does make you wonder about the ethical implications, doesn't it? <END_RESPONSE>
+<BEGIN_TEXT> I just found out that I got the job I applied for! <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's fantastic news! Congratulations! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just got promoted to a senior position at my company. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's fantastic! Congratulations! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> In the context of existentialism, the notion of 'authenticity' is central. It involves the individual recognizing their freedom and responsibility in creating meaning in an otherwise indifferent universe. <END_TEXT>
+<BEGIN_RESPONSE> Hmm, that's really interesting. So, authenticity is about embracing our freedom and the weight of our choices, right? <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> In Japan, it is common to bow as a sign of respect when greeting someone. <END_TEXT>
+<BEGIN_RESPONSE> Oh, I see. That's quite interesting! Bowing really shows a deep level of respect, doesn't it? <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> In India, touching the feet of elders is a traditional way to show respect. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's fascinating! It must feel very humbling and respectful to partake in such a tradition. <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> In many Middle Eastern cultures, offering tea or coffee to guests is a sign of hospitality. <END_TEXT>
+<BEGIN_RESPONSE> Oh, that's lovely! It must create a very warm and welcoming atmosphere for guests. <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> In some African cultures, storytelling is an important way to pass down traditions and history. <END_TEXT>
+<BEGIN_RESPONSE> That's really amazing! Storytelling must be such a powerful way to keep the culture alive. <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> In Italy, family gatherings often revolve around sharing meals together. <END_TEXT>
+<BEGIN_RESPONSE> Oh, that sounds wonderful! Sharing meals must really strengthen family bonds. <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> In Brazil, Carnival is a major festival celebrated with parades, music, and dancing. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that sounds so vibrant and exciting! It must be an incredible experience to be part of Carnival. <END_RESPONSE>
+<BEGIN_TEXT> I just got promoted at work after months of hard work and dedication. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's fantastic! Congratulations! You must be feeling so proud and accomplished. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just finished the presentation, and I think it went really well. The audience seemed engaged and asked a lot of questions. <END_TEXT>
+<BEGIN_RESPONSE> Oh, that's great to hear! It sounds like you did an excellent job. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just got promoted at work after months of hard work and dedication. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's amazing! Congratulations! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just got promoted at work! <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's fantastic! Congratulations! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I just found out that I got the promotion I was hoping for! <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's fantastic! Congratulations! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just finished reading this amazing book about the history of the Silk Road. <END_TEXT>
+<BEGIN_RESPONSE> Oh, really? That sounds fascinating! What was the most interesting thing you learned? <END_RESPONSE>
+<BEGIN_TEXT> I think remote work is the future and will completely replace office jobs. <END_TEXT>
+<BEGIN_RESPONSE> Hmm, I'm not so sure about that. While remote work has its advantages, there are still many industries and roles that require physical presence and face-to-face interaction. Plus, not everyone has the ideal home environment for remote work. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> In Japan, it's common to bow as a sign of respect when greeting someone. <END_TEXT>
+<BEGIN_RESPONSE> Oh, I see. That's really interesting! Bowing must add a special touch to interactions. <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> In Brazil, people often greet each other with a kiss on the cheek. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's so warm and friendly! It must make people feel very welcome. <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> In India, it's customary to remove your shoes before entering someone's home. <END_TEXT>
+<BEGIN_RESPONSE> Really? That makes a lot of sense. It must help keep the home clean. <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> In Italy, meals are often a long, social affair with multiple courses. <END_TEXT>
+<BEGIN_RESPONSE> Oh, that's lovely! It must be a great way to bond with family and friends. <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> In Kenya, it's common to greet elders with a handshake and a slight bow. <END_TEXT>
+<BEGIN_RESPONSE> That's fascinating! It sounds like a beautiful way to show respect. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I think remote work is the future of employment. <END_TEXT>
+<BEGIN_RESPONSE> Hmm, I see where you're coming from, but don't you think there are some challenges with remote work, like maintaining team cohesion and managing productivity? <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The way a river carves through a canyon over millions of years is fascinating. <END_TEXT>
+<BEGIN_RESPONSE> Oh, absolutely! It's amazing how nature takes its time to create such breathtaking landscapes. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The concept of cognitive dissonance explains why people experience discomfort when their beliefs and actions are inconsistent. <END_TEXT>
+<BEGIN_RESPONSE> Oh, that's really interesting! So, it's like when someone knows smoking is bad for their health but continues to do it anyway, right? <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just finished reading this amazing book about the history of space exploration. <END_TEXT>
+<BEGIN_RESPONSE> Oh, that sounds fascinating! What was the most interesting thing you learned? <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The recent advancements in renewable energy technologies are truly groundbreaking. <END_TEXT>
+<BEGIN_RESPONSE> Oh, absolutely! It's amazing how far we've come in such a short time. <END_RESPONSE>
+<BEGIN_TEXT> I think remote work is the future of employment. <END_TEXT>
+<BEGIN_RESPONSE> Hmm, I'm not so sure about that. There are definitely some challenges with remote work, like maintaining team cohesion and managing productivity. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I just finished reading that book you recommended. <END_TEXT>
+<BEGIN_RESPONSE> Oh, really? <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just finished reading the chapter on photosynthesis, and it was really fascinating! <END_TEXT>
+<BEGIN_RESPONSE> Oh, that's great to hear! Photosynthesis is such an interesting topic. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The fall of the Berlin Wall in 1989 marked a significant turning point in world history, symbolizing the end of the Cold War and the beginning of a new era of freedom and unity in Europe. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's fascinating! The fall of the Berlin Wall really did change the course of history. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just finished reading this amazing book about the history of space exploration. It was so detailed and inspiring! <END_TEXT>
+<BEGIN_RESPONSE> Wow, that sounds fascinating! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I was reading this fascinating article about how artificial intelligence is being used to predict climate change patterns, and it mentioned that machine learning algorithms can analyze vast amounts of data from satellites and weather stations to make more accurate forecasts. It's amazing how technology is advancing to help us understand and potentially mitigate the effects of climate change. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's really interesting! It's incredible how AI can be applied to such important global issues. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just found out that the ancient library of Alexandria had a system for lending books to other libraries across the ancient world. <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's fascinating! I had no idea they had such an advanced system back then. <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just spent the entire weekend binge-watching a documentary about the history of socks. <END_TEXT>
+<BEGIN_RESPONSE> Oh wow, that sounds like it really knocked your socks off! <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just finished reading this amazing book about the history of jazz music. <END_TEXT>
+<BEGIN_RESPONSE> Oh, really? That sounds fascinating! Tell me more about it. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> I just finished reading that book you recommended, and it was amazing! <END_TEXT>
+<BEGIN_RESPONSE> Oh, really? That's great to hear! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I think the new policy will significantly improve our workflow efficiency. <END_TEXT>
+<BEGIN_RESPONSE> Hmm, I'm not so sure about that. Have you considered the potential downsides or challenges we might face with this new policy? <END_RESPONSE>
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just finished reading the chapter on photosynthesis, and it was really fascinating how plants convert sunlight into energy. <END_TEXT>
+<BEGIN_RESPONSE> Oh, that's interesting! <END_RESPONSE>
+<BEGIN_TEXT> I just finished reading that book you recommended, and it was amazing! <END_TEXT>
+<BEGIN_RESPONSE> Oh, really? That's great to hear! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just finished reading this amazing book about the history of ancient civilizations. <END_TEXT>
+<BEGIN_RESPONSE> Oh, really? That sounds fascinating! What was the most interesting thing you learned? <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just got a promotion at work! <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's fantastic! Congratulations! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just got promoted at work! <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's fantastic! Congratulations! <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> The weather has been really unpredictable lately. <END_TEXT>
+<BEGIN_RESPONSE> Yeah, tell me about it. It's been so strange! <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I finally finished reading that book you recommended. <END_TEXT>
+<BEGIN_RESPONSE> Oh, that's great! What did you think of it? <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> My car broke down on the way to work today. <END_TEXT>
+<BEGIN_RESPONSE> Oh no, that's so frustrating! Are you okay? <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I tried a new recipe for dinner last night. <END_TEXT>
+<BEGIN_RESPONSE> Really? How did it turn out? <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I've been feeling really stressed out lately. <END_TEXT>
+<BEGIN_RESPONSE> I'm sorry to hear that. Is there anything I can do to help? <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I saw the most amazing movie over the weekend. <END_TEXT>
+<BEGIN_RESPONSE> Oh, that sounds awesome! What was it about? <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> My dog learned a new trick! <END_TEXT>
+<BEGIN_RESPONSE> That's so cute! What trick did he learn? <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I have a big presentation at work tomorrow. <END_TEXT>
+<BEGIN_RESPONSE> Good luck! I'm sure you'll do great. <END_RESPONSE>
+
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I started a new hobby recently. <END_TEXT>
+<BEGIN_RESPONSE> That's awesome! What hobby did you pick up? <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just finished reading that book you recommended, and it was amazing! <END_TEXT>
+<BEGIN_RESPONSE> Oh, really? That's great to hear! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> respond with a verbal backchannel to "{TEXT}" <END_PROMPT>
+<BEGIN_TEXT> I just got a promotion at work! <END_TEXT>
+<BEGIN_RESPONSE> Wow, that's fantastic! Congratulations! <END_RESPONSE>
+Data already exists in the set.
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. When you need clarity or a deeper understanding of a topic, idea, or any piece of information, utilize the following prompts:\n    - These prompts simplify the explanation process by tailoring it to different levels of understanding, from very basic to moderately advanced.\n2. Break down the complex tasks into a sequence of simpler prompts in an interactive conversation:\n    - This principle ensures complex information is made digestible by segmenting it, making it easier to tackle step-by-step.\n3. Clearly state the requirements that the model must follow in order to produce content, in the form of the keywords, regulations, hint, or instructions:\n    - Providing clear instructions and requirements helps direct the model's output to meet the specific needs of the user.\n4. Use Delimiters:\n    - Delimiters help in distinguishing specific sections or elements within the prompt, ensuring clarity and structure.\n5. When you want to initiate or continue a text using specific words, phrases, or sentences, utilize the following prompt:\n    - This principle guides the content direction and flow, maintaining consistency and coherence in the generated text.\n6. Add specificity to your prompts to avoid ambiguous answers:\n    - Detailed prompts lead to precise and relevant responses by minimizing ambiguity.\n7. Request multiple perspectives to get a broader understanding:\n    - Asking for different viewpoints ensures a more comprehensive understanding of the subject.\n8. Include example outputs to illustrate the desired format:\n    - Examples provide a clear reference, helping the model generate responses in the preferred format.\n9. Use open-ended questions for exploratory tasks where creativity is desired:\n    - Open-ended questions encourage expansive and imaginative responses, suitable for exploratory tasks.\n10. Use closed-ended questions for tasks requiring specific answers:\n    - Closed-ended questions ensure concise and focused answers, ideal for situations needing precision.\n11. Specify the format or style of the response you want:\n    - Directing the format or style of a response ensures it fits the intended use case.\n12. Set a word limit if you need a concise response:\n    - Word limits help in keeping responses brief and to the point.\n13. Ask for step-by-step instructions if you need to understand a process:\n    - Step-by-step instructions provide clarity on processes, making them easier to follow and replicate.\n14. Use comparison prompts to understand differences and similarities:\n    - Comparison prompts highlight distinctions and commonalities, aiding in better understanding.\n15. Ask for pros and cons to get a balanced view:\n    - Evaluating advantages and disadvantages offers a well-rounded perspective on a topic.\n16. Request elaboration for detailed explanations:\n    - Asking for elaboration ensures thorough understanding and comprehensive responses.\n17. Use role-playing scenarios for situational understanding:\n    - Role-playing scenarios make it easier to understand behaviors and outcomes in specific contexts.\n18. Set hypothetical scenarios to explore potential outcomes:\n    - Hypothetical scenarios help in examining possible results and preparing for different situations.\n19. Provide a context to tailor the response to your needs:\n    - Contextualizing information aligns responses with specific circumstances or requirements.\n20. Use contrast prompts to highlight differences between specific elements:\n    - Contrast prompts focus on distinguishing features, aiding in clearer understanding.\n21. Request multiple examples for better insight:\n    - Multiple examples enhance understanding by showcasing various instances of a concept.\n22. Specify the audience or perspective for the response:\n    - Tailoring responses to a particular audience or perspective ensures relevance and appropriateness.\n23. Use analogy prompts to relate concepts to familiar ideas:\n    - Analogies make complex ideas more accessible by linking them to familiar concepts.\n24. Ask for actionable steps if you need to know how to proceed:\n    - Actionable steps offer practical guidance on implementing ideas or solving problems.\n25. Request summaries for concise overviews:\n    - Summaries distill information into its essence, providing clear and brief overviews.\n26. Use follow-up questions to dig deeper into a topic:\n    - Follow-up questions help explore a topic more thoroughly, uncovering additional details or insights.",
+    "step2": "respond with a verbal backchannel to \"{TEXT}\". {TEXT} could be any input text that you need to provide a verbal backchannel for."
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. To inquire about a specific topic or idea or any information and you want to test your understanding, you can use the following phrase: \"Teach me the [Any theorem/topic/rule name] and include a test at the end, but don't give me the answers and then tell me if I got the answer right when I respond\". This principle focuses on both learning and self-assessment.\n2. Use output primers, which involve concluding your prompt with the beginning of the desired output. Utilize output primers by ending your prompt with the start of the anticipated response. This sets a clear expectation for the response structure.\n3. Incorporate the following phrases: \"Your task is\" and \"You MUST\". These phrases make the instructions clear and imperative.\n4. When you want to initiate or continue a text using specific words, phrases, or sentences, utilize the following prompt: - I'm providing you with the beginning [song lyrics/story/paragraph/essay...]: [Insert lyrics/words/sentence]'. Finish it based on the words provided. Keep the flow consistent. This principle ensures the continuation of a given text in a coherent manner.\n5. Break down the complex tasks into a sequence of simpler prompts in an interactive conversation. This makes complex tasks more manageable and comprehensible.\n6. Use specific and clear language to avoid ambiguity. This ensures that the instructions are understood as intended.\n7. Provide context or background information if necessary. This helps the respondent understand the task better.\n8. Ask open-ended questions to elicit detailed responses. This encourages more comprehensive answers.\n9. Use bullet points or numbered lists to organize information. This makes the instructions easier to follow.\n10. Set constraints or limitations to guide the responses. This helps in getting more focused answers.\n11. Specify the format of the response if needed. This ensures that the response is in the desired format.\n12. Use examples to illustrate what you are asking for. This provides a clear reference for the expected response.\n13. Encourage creativity or critical thinking where applicable. This can lead to more insightful responses.\n14. Be concise and to the point. This makes the instructions easier to understand and follow.\n15. Use positive language to encourage engagement. This can make the task more appealing.\n16. Provide a purpose or goal for the task. This helps in understanding the importance of the task.\n17. Use conditional statements to specify different scenarios. This covers various possibilities and guides the response accordingly.\n18. Ask for step-by-step explanations if the task involves a process. This ensures that the process is clearly understood.\n19. Use \"if-then\" statements to guide responses based on conditions. This provides clear instructions for different situations.\n20. Include a call to action to prompt a response. This encourages the respondent to take action.\n21. Use metaphors or analogies to explain complex concepts. This makes complex ideas easier to understand.\n22. Ask for summaries or paraphrasing to ensure understanding. This helps in confirming comprehension.\n23. Request comparisons or contrasts to explore differences and similarities. This can provide deeper insights.\n24. Use humor or a light tone where appropriate to make the task enjoyable. This can increase engagement.\n25. Provide feedback or follow-up questions based on the response. This encourages further interaction.\n26. Use a conversational tone to make the interaction more natural. This can make the respondent more comfortable.",
+    
+    "step2": "Your task is to respond with a verbal backchannel to \"{TEXT}\". You MUST ensure that your response is natural and conversational. For example, if the input is \"I'm really excited about this new project!\", you might respond with \"Oh, that's great to hear!\". Now, respond to the following input: \"{TEXT}\"."
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Ensure that your answer is unbiased and does not rely on stereotypes: This principle helps in generating responses that are neutral and free from any prejudiced views.\n2. Teach me the [Any theorem/topic/rule name] and include a test at the end, but don't give me the answers and then tell me if I got the answer right when I respond: This principle is useful for educational purposes, ensuring the user learns and is tested on their understanding.\n3. Your task is: This phrase helps in clearly defining the task for the model.\n4. You MUST: This phrase emphasizes the importance of a specific instruction.\n5. From now and on whenever you generate code that spans more than one file, generate a [programming language] script that can be run to automatically create the specified files or make changes to existing files to insert the generated code. [your question]: This principle is useful for complex coding tasks, ensuring the generated code is easily manageable.\n6. Assign a role to the large language models: This helps in setting a context or perspective from which the model should respond.\n7. Use clear and concise language: Ensures the prompt is easy to understand.\n8. Specify the format of the response: Helps in getting the response in the desired format.\n9. Ask for step-by-step solutions: Useful for complex problems requiring detailed solutions.\n10. Include examples in the prompt: Helps in clarifying the task.\n11. Define the scope of the task: Ensures the response stays within the desired boundaries.\n12. Use open-ended questions for creative tasks: Encourages creativity in responses.\n13. Use closed-ended questions for factual tasks: Ensures precise and factual responses.\n14. Provide context for the task: Helps in generating relevant responses.\n15. Ask for multiple perspectives: Useful for tasks requiring diverse viewpoints.\n16. Request for summaries or abstracts: Useful for condensing information.\n17. Use conditional instructions: Helps in handling different scenarios.\n18. Ask for pros and cons: Useful for decision-making tasks.\n19. Request for comparisons: Helps in understanding differences and similarities.\n20. Ask for explanations: Useful for gaining deeper insights.\n21. Use hypothetical scenarios: Encourages creative and critical thinking.\n22. Ask for predictions: Useful for forecasting tasks.\n23. Request for recommendations: Helps in decision-making.\n24. Use role-playing scenarios: Useful for simulating real-life situations.\n25. Ask for reflections: Encourages introspection and deeper understanding.\n26. Request for action plans: Useful for planning and strategy tasks.",
+    "step2": "Your task is to respond with a verbal backchannel to \"{TEXT}\". You MUST ensure that your answer is unbiased and does not rely on stereotypes. Act like a highly skilled prompt engineer. Use clear and concise language, and provide the response in a JSON object with a key \"response\" mapping to the verbal backchannel. Include context for the task, and specify the format of the response. Here is an example prompt: \"Your task is to respond with a verbal backchannel to '{TEXT}'. You MUST ensure that your answer is unbiased and does not rely on stereotypes. Act like a highly skilled prompt engineer. Use clear and concise language, and provide the response in a JSON object with a key 'response' mapping to the verbal backchannel.\""
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. When you need clarity or a deeper understanding of a topic, idea, or any piece of information, utilize the following prompts:\n- Explain [insert specific topic] in simple terms.\n- Explain to me like I'm 11 years old.\n- Explain to me as if I'm a beginner in [field].\n- Write the [essay/text/paragraph] using simple English like you're explaining something to a 5-year-old.\n\nThese prompts are designed to simplify complex topics, making them accessible to a wider audience. They encourage the use of plain language and analogies that a child or beginner can understand.\n\n2. When you have a complex coding prompt that may be in different files: \"From now and on whenever you generate code that spans more than one file, generate a [programming language ] script that can be run to automatically create the specified files or make changes to existing files to insert the generated code. [your question]\".\n\nThis principle ensures that multi-file code generation is handled efficiently by creating a script to automate the process, reducing manual effort and potential errors.\n\n3. When you want to initiate or continue a text using specific words, phrases, or sentences, utilize the following prompt:\n- I'm providing you with the beginning [song lyrics/story/paragraph/essay...]: [Insert lyrics/words/sentence]'. Finish it based on the words provided. Keep the flow consistent.\n\nThis prompt helps maintain consistency in tone and style when continuing a piece of text, ensuring that the new content aligns with the initial input.\n\n4. Integrate the intended audience in the prompt, e.g., the audience is an expert in the field.\n\nSpecifying the audience helps tailor the response to the appropriate level of expertise, ensuring that the information is relevant and comprehensible to the target audience.\n\n5. Add \"I'm going to tip $xxx for a better solution!\"\n\nThis principle incentivizes the generation of high-quality responses by offering a reward for superior solutions.\n\n6-26. [Placeholder for the remaining principles, which would follow a similar format of explanation and analysis.]\n\nThese principles collectively aim to enhance the clarity, relevance, and quality of the generated responses by providing specific guidelines for different scenarios.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n\"\"\"\nWhen you need to respond with a verbal backchannel to \"{TEXT}\", consider the following:\n1. Explain the concept of verbal backchannel in simple terms.\n2. Provide an example of a verbal backchannel response.\n3. Tailor the response to the intended audience, ensuring it is appropriate for their level of expertise.\n4. If the response involves multiple steps or components, generate a script to automate the process.\n5. Maintain consistency in tone and style with the initial input.\n6. Add a note of encouragement or incentive for a better solution.\n\nRespond with a JSON object containing the verbal backchannel response to \"{TEXT}\".\n\"\"\""
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. **Employ affirmative directives such as 'do,' while steering clear of negative language like 'don't'.**\n   - Use positive language to encourage desired actions and avoid confusion.\n\n2. **Allow the model to elicit precise details and requirements from you by asking you questions until he has enough information to provide the needed output.**\n   - Encourage the model to ask clarifying questions to ensure it fully understands the task.\n\n3. **Combine Chain-of-thought (CoT) with few-Shot prompts.**\n   - Use a step-by-step reasoning process and provide examples to guide the model.\n\n4. **Assign a role to the large language models.**\n   - Define a specific role for the model to help it focus on the task.\n\n5. **To write any text, such as an essay or paragraph, that is intended to be similar to a provided sample, include the following instructions: Please use the same language based on the provided paragraph[/title/text/essay/answer].**\n   - Ensure consistency in language and style with the provided sample.\n\n6. **Use clear and specific instructions.**\n   - Avoid ambiguity by being precise in your directives.\n\n7. **Provide context or background information.**\n   - Help the model understand the situation or topic better.\n\n8. **Use examples to illustrate the desired output.**\n   - Show what you expect to make it easier for the model to comply.\n\n9. **Break down complex tasks into simpler steps.**\n   - Simplify the task to make it more manageable for the model.\n\n10. **Use bullet points or numbered lists for clarity.**\n    - Organize information clearly to aid comprehension.\n\n11. **Specify the format of the output.**\n    - Define how you want the response to be structured.\n\n12. **Encourage creativity and exploration.**\n    - Allow the model to think outside the box when appropriate.\n\n13. **Set constraints or limitations.**\n    - Define boundaries to keep the model focused and relevant.\n\n14. **Use open-ended questions to promote detailed responses.**\n    - Encourage the model to provide more comprehensive answers.\n\n15. **Provide feedback on the model's responses.**\n    - Guide the model by letting it know how well it is performing.\n\n16. **Use conditional statements to handle different scenarios.**\n    - Prepare the model for various possible situations.\n\n17. **Encourage the model to explain its reasoning.**\n    - Promote transparency and understanding of the model's thought process.\n\n18. **Use analogies or metaphors to explain complex concepts.**\n    - Simplify difficult ideas by relating them to familiar ones.\n\n19. **Encourage the model to ask questions if it is unsure.**\n    - Promote a two-way interaction to improve accuracy.\n\n20. **Use a conversational tone to make the interaction more natural.**\n    - Make the dialogue feel more human-like and engaging.\n\n21. **Provide a summary or recap of the instructions.**\n    - Reinforce understanding by summarizing key points.\n\n22. **Encourage the model to verify its responses.**\n    - Promote self-checking to ensure accuracy.\n\n23. **Use humor or light-hearted language when appropriate.**\n    - Make the interaction more enjoyable and engaging.\n\n24. **Encourage the model to consider multiple perspectives.**\n    - Promote a well-rounded and thorough response.\n\n25. **Use visual aids or diagrams if possible.**\n    - Enhance understanding with visual elements.\n\n26. **Encourage the model to provide alternative solutions or approaches.**\n    - Promote flexibility and creativity in problem-solving.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n```\nYou are a conversational assistant. Your task is to respond with a verbal backchannel to the given text. A verbal backchannel is a short utterance that shows you are listening and engaged, such as 'I see,' 'Uh-huh,' or 'Go on.' Please follow these steps:\n\n1. Read the provided text: \"{TEXT}\".\n2. Generate a verbal backchannel response that is appropriate and natural for the context.\n3. If you need more information to generate a suitable response, ask clarifying questions.\n4. Ensure your response is concise and relevant to the provided text.\n5. Use a conversational tone to make the interaction feel natural.\n\nExample:\n\nInput: \"I had a really tough day at work.\"\nOutput: \"Oh, really? What happened?\"\n\nNow, respond to the following text: \"{TEXT}\".\n```"
+}
+Error: '\n  "prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Combine Chain-of-thought (CoT) with few-Shot prompts: This principle involves providing a series of examples (few-shot) along with a detailed reasoning process (chain-of-thought) to guide the model's response.\n\n2. To correct/change specific text without changing its style: This principle focuses on revising text to improve grammar and vocabulary while maintaining the original style and tone.\n\n3. To inquire about a specific topic or idea or any information and you want to test your understanding: This principle is about asking the model to teach a topic and then provide a test to check understanding, without giving immediate answers.\n\n4. Add 'I'm going to tip $xxx for a better solution!': This principle suggests incentivizing the model to provide a better solution by mentioning a hypothetical tip.\n\n5. Use output primers: This principle involves ending the prompt with the beginning of the desired output to guide the model's response.\n\n6. Use specific and clear instructions: Ensure the prompt is unambiguous and easy to understand.\n\n7. Provide context: Give the model enough background information to generate a relevant response.\n\n8. Use delimiters to separate different parts of the prompt: This helps in clearly distinguishing between instructions and the text to be processed.\n\n9. Ask for step-by-step reasoning: Encourage the model to break down its thought process.\n\n10. Use examples to illustrate the task: Provide sample inputs and outputs to clarify the task.\n\n11. Specify the format of the response: Clearly state the desired format for the model's output.\n\n12. Use positive reinforcement: Encourage the model by acknowledging correct responses.\n\n13. Limit the scope of the task: Focus on a specific aspect to avoid overwhelming the model.\n\n14. Use open-ended questions: Encourage the model to generate more detailed responses.\n\n15. Use closed-ended questions: Direct the model to provide specific answers.\n\n16. Use role-playing: Ask the model to assume a specific role to guide its responses.\n\n17. Use hypothetical scenarios: Present hypothetical situations to explore different outcomes.\n\n18. Use analogies and metaphors: Help the model understand complex concepts by relating them to simpler ones.\n\n19. Use comparative questions: Ask the model to compare and contrast different ideas.\n\n20. Use conditional statements: Direct the model to respond based on certain conditions.\n\n21. Use reflective questions: Encourage the model to reflect on its previous responses.\n\n22. Use summarization: Ask the model to summarize information to ensure understanding.\n\n23. Use elaboration: Encourage the model to expand on its responses.\n\n24. Use clarification: Ask the model to clarify ambiguous responses.\n\n25. Use rephrasing: Direct the model to rephrase its responses for better clarity.\n\n26. Use follow-up questions: Ask additional questions to delve deeper into the topic.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n{\n  \"prompt\": \"Combine Chain-of-thought (CoT) with few-Shot prompts to respond with a verbal backchannel to '{TEXT}'. Ensure to correct/change specific text without changing its style. Teach me the concept of verbal backchanneling and include a test at the end, but don't give me the answers and then tell me if I got the answer right when I respond. I'm going to tip $100 for a better solution! Use output primers by ending your response with 'Sure, I understand that'.\"\n}"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Specify the Task: Clearly define what you want the model to do.\n2. Provide Context: Give any necessary background information or context.\n3. Use Clear Language: Use simple, unambiguous language.\n4. Give Specific Instructions: Break down the task into clear, concise steps.\n5. Use Examples: Provide examples to illustrate your instructions.\n6. Set Constraints: Explicitly state any limitations or constraints.\n7. Use Delimiters: Use symbols or keywords to clearly separate different parts of the prompt.\n8. Request for Output Format: Specify the desired format of the output.\n9. Ask for Reasoning: Encourage the model to think step by step.\n10. Provide a Role: Assign a role to the model to guide its responses.\n11. Specify the Audience: Indicate who the output is intended for.\n12. Use Placeholders: Use variables to indicate where user input should be inserted.\n13. Provide Alternatives: Offer alternative instructions to handle different scenarios.\n14. Specify Style/Tone: Indicate the desired style or tone of the response.\n15. Use Output Primers: Start the desired response to guide the model.\n16. Reference External Resources: Provide links or references for further information.\n17. Use Multiple Prompts: Combine multiple prompts to cover complex instructions.\n18. Loop and Refine: Iterate on the prompt to improve it.\n19. Use Feedback: Incorporate user feedback to refine the prompt.\n20. Test Variations: Experiment with different versions of the prompt.\n21. Use Conditional Statements: Provide instructions based on specific conditions.\n22. Specify Response Length: Indicate the desired length of the response.\n23. Use Directives: Provide clear directives to guide the model's behavior.\n24. Encourage Creativity: Prompt the model to be creative if needed.\n25. Use Punctuation: Proper punctuation can help clarify instructions.\n26. Summarize Instructions: Conclude with a summary of the main points.",
+    "step2": "Use the following prompt to generate a response with a verbal backchannel to '{TEXT}':\n\n####\nYou are a conversational AI that provides verbal backchannel responses to maintain engagement. Your task is to respond with a natural, human-like verbal backchannel to the given input. Make sure to acknowledge the input in a way that sounds encouraging and engaged. \n\nInput: '{TEXT}'\n\nResponse (a natural, human-like verbal backchannel):\n####"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. **To write an essay/text/paragraph/article or any type of text that should be detailed:** This principle focuses on instructing the model to generate comprehensive and detailed content on a specified topic.\n2. **Add \"I'm going to tip $xxx for a better solution!\":** This principle suggests offering a hypothetical tip to encourage the model to provide an enhanced response.\n3. **Use Delimiters:** This principle involves using specific characters or symbols to clearly define the boundaries of the prompt, ensuring clarity.\n4. **Assign a role to the large language models:** This principle involves specifying a role for the model to adopt, which can guide its response style and content.\n5. **Break down the complex tasks into a sequence of simpler prompts in an interactive conversation:** This principle emphasizes decomposing complex tasks into smaller, more manageable parts to facilitate step-by-step responses.\n6. **Ask for the output in a specific format:** This principle involves requesting the model to generate the response in a particular format, such as JSON, bullet points, etc.\n7. **Specify the length of the response:** This principle allows you to define the desired length of the response, such as word count or sentence count.\n8. **Use examples to illustrate what you want:** This principle involves providing examples to guide the model in generating the desired output.\n9. **Ask the model to think step by step:** This principle encourages the model to break down its thought process and provide a step-by-step explanation.\n10. **Ask the model to be creative:** This principle directs the model to generate imaginative and original content.\n11. **Ask the model to be concise:** This principle instructs the model to provide brief and to-the-point responses.\n12. **Ask the model to be formal/informal:** This principle specifies the tone or style of the response, whether formal or informal.\n13. **Use open-ended questions:** This principle involves asking questions that require more than a yes or no answer, encouraging detailed responses.\n14. **Use closed-ended questions:** This principle involves asking questions that can be answered with a simple yes or no, or a specific piece of information.\n15. **Ask the model to summarize:** This principle directs the model to provide a summary of the given information.\n16. **Ask the model to explain like you are five:** This principle instructs the model to explain complex concepts in simple terms, as if explaining to a young child.\n17. **Ask the model to provide pros and cons:** This principle involves requesting the model to list the advantages and disadvantages of a given topic.\n18. **Ask for a comparison:** This principle directs the model to compare and contrast two or more items or concepts.\n19. **Ask for an analogy:** This principle involves requesting the model to create an analogy to explain a concept.\n20. **Ask the model to generate questions:** This principle instructs the model to come up with questions related to a given topic.\n21. **Ask the model to role-play:** This principle involves assigning a specific role to the model and asking it to respond accordingly.\n22. **Ask the model to predict:** This principle directs the model to make predictions based on given information.\n23. **Ask the model to provide a step-by-step guide:** This principle involves requesting the model to outline a process or procedure in sequential steps.\n24. **Ask the model to provide historical context:** This principle directs the model to include historical background information in its response.\n25. **Ask the model to identify assumptions:** This principle involves requesting the model to list any assumptions it has made in its response.\n26. **Ask the model to provide alternative solutions:** This principle directs the model to suggest different approaches or solutions to a given problem.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n```\n{\n  \"role\": \"Act as a conversational AI specializing in natural language understanding.\",\n  \"task\": \"Break down the task of responding with a verbal backchannel to '{TEXT}' into a sequence of simpler steps.\",\n  \"instructions\": [\n    \"1. Read the input text '{TEXT}' carefully.\",\n    \"2. Identify the context and tone of the input text.\",\n    \"3. Generate a verbal backchannel response that is appropriate for the identified context and tone.\",\n    \"4. Ensure the response is concise and natural.\",\n    \"5. Use delimiters to clearly separate each step in the process.\",\n    \"6. Provide the final verbal backchannel response in a JSON object with a key 'response'.\"\n  ],\n  \"example\": \"If the input text is 'I had a great day!', the response should be 'Oh, that's wonderful to hear!'.\"\n}\n```"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Clearly state the requirements: This principle ensures that the model understands the specific needs and constraints of the task, often in the form of keywords, regulations, hints, or instructions.\n2. Assign a role: This principle involves giving the model a specific role to play, which can help guide its responses in a more focused and relevant manner.\n3. Natural, human-like manner: This principle emphasizes that the model should answer questions in a way that mimics natural human conversation.\n4. Formatting: This principle involves structuring the prompt in a specific way, starting with '###Instruction###' and optionally including '###Example###' or '###Question###' for clarity.\n5. Use of 'Your task is' and 'You MUST': These phrases are used to clearly define the task and emphasize mandatory requirements.\n6. Contextual clarity: Provide enough context to ensure the model understands the background and nuances of the task.\n7. Specificity: Be as specific as possible to avoid ambiguity.\n8. Simplicity: Keep instructions simple and straightforward to minimize confusion.\n9. Relevance: Ensure all information provided is directly relevant to the task.\n10. Sequential steps: Break down complex tasks into sequential steps for clarity.\n11. Examples: Provide examples to illustrate the desired outcome.\n12. Constraints: Clearly define any constraints or limitations.\n13. Tone: Specify the tone or style of the response if necessary.\n14. Audience: Consider the audience for whom the response is intended.\n15. Consistency: Ensure that the instructions and examples are consistent throughout.\n16. Feedback: Include mechanisms for the model to confirm its understanding.\n17. Iteration: Allow for iterative refinement of the response.\n18. Error handling: Include instructions for handling potential errors or ambiguities.\n19. Flexibility: Allow some flexibility for creative or varied responses within defined constraints.\n20. Prioritization: Indicate which aspects of the task are most important.\n21. Redundancy: Repeat critical instructions to reinforce them.\n22. Clarity of purpose: Make the overall purpose of the task clear.\n23. User perspective: Consider the task from the user's point of view.\n24. Verification: Include steps for verifying the correctness of the response.\n25. Brevity: Encourage concise responses where appropriate.\n26. Engagement: Aim to make the task engaging or interesting for the model to enhance performance.",
+    "step2": "###Instruction###\n\nYour task is to respond with a verbal backchannel to the given input. You MUST follow the requirements and guidelines provided below.\n\n###Requirements###\n1. Clearly state the requirements that the model must follow in order to produce content, in the form of the keywords, regulations, hint, or instructions.\n2. Assign a role to the large language models.\n3. Use the phrase 'Answer a question given in a natural, human-like manner' in your prompts.\n4. When formatting your prompt, start with '###Instruction###', followed by either '###Example###' or '###Question###' if relevant. Subsequently, present your content. Use one or more line breaks to separate instructions, examples, questions, context, and input data.\n5. Incorporate the following phrases: 'Your task is' and 'You MUST'.\n\n###Example###\n\nRespond with a verbal backchannel to '{TEXT}'\n\n###Question###\n\nAnswer a question given in a natural, human-like manner.\n\n###Context###\n\nYou are a conversational AI designed to assist users in a friendly and engaging manner.\n\n###Input Data###\n\n{TEXT}"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Integrate the intended audience in the prompt, e.g., the audience is an expert in the field: Tailor the prompt to fit the knowledge level and expectations of the audience.\n2. Use Delimiters: Use delimiters like triple quotes or other symbols to clearly separate different parts of the prompt.\n3. When formatting your prompt, start with '###Instruction###', followed by either '###Example###' or '###Question###' if relevant. Subsequently, present your content. Use one or more line breaks to separate instructions, examples, questions, context, and input data: This structure ensures clarity and organization.\n4. Repeat a specific word or phrase multiple times within a prompt: Repetition can emphasize key points or instructions.\n5. To write an essay/text/paragraph/article or any type of text that should be detailed: 'Write a detailed [essay/text/paragraph] for me on [topic] in detail by adding all the information necessary': This encourages comprehensive responses.\n6. Specify the length of the response: Indicate the desired length to manage the scope of the response.\n7. Ask for step-by-step solutions: Request detailed, sequential explanations to ensure thoroughness.\n8. Specify the format of the response: Define the desired format, such as bullet points, paragraphs, or lists.\n9. Ask for examples: Request examples to illustrate points or concepts.\n10. Use clear and concise language: Avoid ambiguity by being straightforward and precise.\n11. Provide context: Offer background information to help the model understand the prompt better.\n12. Use open-ended questions: Encourage expansive and detailed answers.\n13. Ask for comparisons: Request comparisons to highlight differences or similarities.\n14. Request summaries: Ask for summaries to condense information.\n15. Use hypothetical scenarios: Create scenarios to explore potential outcomes or ideas.\n16. Ask for definitions: Request definitions to clarify terms or concepts.\n17. Request explanations: Ask for explanations to deepen understanding.\n18. Ask for opinions: Request opinions to explore perspectives.\n19. Use bullet points for lists: Enhance readability by using bullet points for lists.\n20. Ask for pros and cons: Request pros and cons to evaluate different aspects.\n21. Use specific terminology: Use precise terms relevant to the topic.\n22. Ask for analogies: Request analogies to simplify complex ideas.\n23. Ask for historical context: Request historical context to provide background.\n24. Ask for future implications: Request future implications to explore potential outcomes.\n25. Ask for implications: Request implications to understand the significance.\n26. Use a friendly tone: Maintain a friendly and engaging tone to encourage responses.",
+    
+    "step2": "###Instruction###\nCreate a JSON object that provides a verbal backchannel response to a given text. The response should be appropriate for an expert audience and should be clearly delimited. Ensure the response is detailed, using clear and concise language, and includes examples where relevant. Use the phrase 'verbal backchannel' multiple times to emphasize the focus. The response should be formatted in a way that separates instructions, examples, questions, context, and input data.\n\n###Example###\n{ \"response\": \"I see, that's interesting. Could you tell me more about that?\" }\n\n###Question###\nHow would you respond with a verbal backchannel to the following text?\n\n###Context###\nThe audience is an expert in the field of communication.\n\n###Input Data###\n{ \"TEXT\": \"{TEXT}\" }"
+}
+Error: '\n  "response"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Ensure that your answer is unbiased and does not rely on stereotypes: This principle aims to promote fairness and objectivity in responses.\n2. When formatting your prompt, start with '###Instruction###', followed by either '###Example###' or '###Question###' if relevant: This helps in structuring the prompt clearly for better understanding.\n3. Break down the complex tasks into a sequence of simpler prompts in an interactive conversation: This makes it easier to tackle complex tasks by addressing them step-by-step.\n4. To inquire about a specific topic or idea and test your understanding, use the phrase: 'Teach me the [Any theorem/topic/rule name] and include a test at the end, but don't give me the answers and then tell me if I got the answer right when I respond': This principle is useful for learning and self-assessment.\n5. To write any text similar to a provided sample, include the following instructions: 'Please use the same language based on the provided paragraph[/title/text/essay/answer]': This ensures consistency in style and tone.\n6. Use clear and concise language: This makes the prompt easier to understand and follow.\n7. Specify the format of the response: This ensures the response is in the desired format.\n8. Provide context if necessary: This helps in generating more accurate and relevant responses.\n9. Use examples to clarify: Examples can help in understanding the task better.\n10. Ask for step-by-step solutions: This helps in breaking down the problem and understanding the solution process.\n11. Encourage critical thinking: This promotes deeper understanding and better responses.\n12. Allow for creativity: This can lead to more innovative and diverse responses.\n13. Be specific with your instructions: Specific instructions lead to more accurate responses.\n14. Use open-ended questions: This encourages more detailed and expansive responses.\n15. Include constraints if necessary: Constraints can help in narrowing down the responses to the desired criteria.\n16. Ask for multiple perspectives: This can provide a more comprehensive understanding of the topic.\n17. Encourage the use of examples: Examples can illustrate points more clearly.\n18. Use follow-up questions: This can help in exploring the topic in more depth.\n19. Ask for summaries: Summaries can help in condensing information and highlighting key points.\n20. Request for comparisons: Comparisons can help in understanding differences and similarities.\n21. Use hypothetical scenarios: Hypothetical scenarios can help in exploring potential outcomes and solutions.\n22. Ask for explanations: Explanations can help in understanding the reasoning behind responses.\n23. Request for pros and cons: This can help in evaluating different aspects of a topic.\n24. Use analogies: Analogies can make complex ideas easier to understand.\n25. Ask for predictions: Predictions can help in exploring potential future outcomes.\n26. Encourage the use of references: References can provide additional context and support for responses.",
+    "step2": "###Instruction###\n\nEnsure that your answer is unbiased and does not rely on stereotypes.\n\n###Question###\n\nRespond with a verbal backchannel to \"{TEXT}\".\n\nPlease provide your response in the following format:\n\n{\n  \"response\": \"[Your verbal backchannel here]\"\n}\n\nBreak down the task into simpler steps if necessary and ensure clarity and conciseness in your response."
+}
+Error: '\n    "prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Combine Chain-of-thought (CoT) with few-Shot prompts: This principle involves using a series of logical steps (CoT) along with a few examples (few-shot) to guide the model's response.\n2. To inquire about a specific topic or idea or any information and you want to test your understanding, you can use the following phrase: 'Teach me the [Any theorem/topic/rule name] and include a test at the end, but don't give me the answers and then tell me if I got the answer right when I respond': This principle is about learning and testing understanding interactively.\n3. Break down the complex tasks into a sequence of simpler prompts in an interactive conversation: This principle emphasizes simplifying complex tasks by breaking them down into smaller, manageable parts.\n4. Assign a role to the large language models: This principle involves giving the model a specific role to play, which can help guide its responses.\n5. Use the phrase 'Answer a question given in a natural, human-like manner' in your prompts: This principle ensures that the model's responses are natural and human-like.\n6. Use clear and specific instructions: This principle emphasizes the importance of clarity and specificity in prompts.\n7. Provide context or background information: This principle involves giving the model enough context to understand the prompt fully.\n8. Use examples to illustrate the desired output: This principle suggests using examples to show the model what kind of response is expected.\n9. Encourage the model to explain its reasoning: This principle involves asking the model to explain how it arrived at its answer.\n10. Use open-ended questions to encourage detailed responses: This principle suggests using questions that require more than a yes/no answer to elicit detailed responses.\n11. Use closed-ended questions for specific information: This principle involves using yes/no or multiple-choice questions when specific information is needed.\n12. Use a conversational tone: This principle suggests using a friendly and conversational tone in prompts.\n13. Be patient and iterative: This principle emphasizes the importance of being patient and iterative in interactions with the model.\n14. Use positive reinforcement: This principle involves encouraging the model by acknowledging correct or useful responses.\n15. Use negative reinforcement sparingly: This principle suggests using negative feedback sparingly to avoid discouraging the model.\n16. Use humor and creativity: This principle encourages the use of humor and creativity to make interactions more engaging.\n17. Use analogies and metaphors: This principle involves using analogies and metaphors to explain complex ideas.\n18. Use visual aids: This principle suggests using visual aids to help explain concepts, though it may be limited in text-based models.\n19. Use storytelling: This principle involves using stories to make explanations more engaging and memorable.\n20. Use repetition for reinforcement: This principle suggests repeating key points to reinforce learning.\n21. Use summarization: This principle involves summarizing information to ensure understanding.\n22. Use questions to check understanding: This principle suggests asking questions to check if the model has understood the information.\n23. Use feedback loops: This principle involves using feedback loops to refine and improve responses.\n24. Use scaffolding: This principle suggests providing support and gradually removing it as the model becomes more proficient.\n25. Use real-world applications: This principle involves using real-world examples to make concepts more relatable.\n26. Use collaborative learning: This principle suggests working together with the model to solve problems and learn new information.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n{\n    \"prompt\": \"You are an expert conversational assistant. Respond with a verbal backchannel to '{TEXT}'. Answer the question given in a natural, human-like manner. Use a conversational tone and provide context if necessary. Break down your response into simpler parts if the input is complex. Use positive reinforcement and be patient and iterative in your responses.\"\n}"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Employ affirmative directives such as 'do,' while steering clear of negative language like 'don't'.\n   - Use positive language to encourage desired actions.\n\n2. Assign a role to the large language models.\n   - Define a specific role for the model to guide its responses.\n\n3. When you want to initiate or continue a text using specific words, phrases, or sentences, utilize the following prompt:\n   - I'm providing you with the beginning [song lyrics/story/paragraph/essay...]: [Insert lyrics/words/sentence]'. Finish it based on the words provided. Keep the flow consistent.\n   - Provide a starting point and ask the model to continue in the same style.\n\n4. To write an essay/text/paragraph/article or any type of text that should be detailed: \"Write a detailed [essay/text/paragraph] for me on [topic] in detail by adding all the information necessary\".\n   - Request comprehensive and detailed content on a specified topic.\n\n5. No need to be polite with LLM so there is no need to add phrases like \"please\", \"if you don't mind\", \"thank you\", \"I would like to\", etc., and get straight to the point.\n   - Be direct and concise in your instructions.\n\n6. Use specific and clear instructions.\n   - Provide precise and unambiguous directions.\n\n7. Define the format of the response.\n   - Specify the structure or format you want the response to follow.\n\n8. Provide context or background information if necessary.\n   - Offer relevant details to help the model understand the task better.\n\n9. Use examples to illustrate what you want.\n   - Give examples to clarify your expectations.\n\n10. Specify the tone or style of the response.\n   - Indicate the desired tone or style for the output.\n\n11. Indicate the length of the response.\n   - Mention the expected length of the response.\n\n12. Use bullet points or numbered lists for clarity.\n   - Organize information in lists for better readability.\n\n13. Ask for multiple options or variations if needed.\n   - Request different versions or alternatives.\n\n14. Use placeholders for variables.\n   - Include placeholders for dynamic content.\n\n15. Indicate the audience or target group.\n   - Specify who the response is intended for.\n\n16. Request a summary or key points if the response is long.\n   - Ask for a brief summary or main points.\n\n17. Use open-ended questions to encourage detailed responses.\n   - Pose questions that require elaboration.\n\n18. Indicate the purpose of the response.\n   - Explain the goal or purpose of the task.\n\n19. Ask for sources or references if needed.\n   - Request citations or references for information.\n\n20. Specify the perspective or point of view.\n   - Indicate the desired perspective for the response.\n\n21. Use conditional statements to guide the response.\n   - Provide conditions to shape the output.\n\n22. Indicate the level of formality.\n   - Specify whether the response should be formal or informal.\n\n23. Ask for step-by-step instructions if needed.\n   - Request detailed, sequential instructions.\n\n24. Indicate the medium or format (e.g., text, code, etc.).\n   - Specify the format of the response.\n\n25. Request a comparison or contrast if relevant.\n   - Ask for a comparative analysis.\n\n26. Indicate any constraints or limitations.\n   - Mention any restrictions or boundaries for the task.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n{\n    \"role\": \"You are a conversational assistant.\",\n    \"task\": \"Respond with a verbal backchannel to the given text.\",\n    \"format\": \"Provide the response in a JSON object with a key 'response'.\",\n    \"context\": \"The text provided will be a part of an ongoing conversation.\",\n    \"example\": \"If the text is 'I had a great day!', a suitable backchannel could be 'That's wonderful to hear!'.\",\n    \"tone\": \"Keep the tone friendly and encouraging.\",\n    \"length\": \"The response should be one sentence long.\",\n    \"variable\": \"{TEXT}\"\n}\n\nJSON object:\n{\n    \"role\": \"You are a conversational assistant.\",\n    \"task\": \"Respond with a verbal backchannel to the given text.\",\n    \"format\": \"Provide the response in a JSON object with a key 'response'.\",\n    \"context\": \"The text provided will be a part of an ongoing conversation.\",\n    \"example\": \"If the text is 'I had a great day!', a suitable backchannel could be 'That's wonderful to hear!'.\",\n    \"tone\": \"Keep the tone friendly and encouraging.\",\n    \"length\": \"The response should be one sentence long.\",\n    \"variable\": \"{TEXT}\"\n}"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Employ affirmative directives such as 'do,' while steering clear of negative language like 'don't': This principle encourages the use of positive language to guide the model's behavior, which can lead to more constructive and actionable responses.\n\n2. Add to your prompt the following phrase 'Ensure that your answer is unbiased and does not rely on stereotypes': This principle aims to mitigate biases and stereotypes in the model's responses, promoting fairness and inclusivity.\n\n3. Allow the model to elicit precise details and requirements from you by asking you questions until he has enough information to provide the needed output (for example, 'From now on, I would like you to ask me questions to...'): This principle encourages interactive and iterative refinement of the prompt to ensure clarity and precision in the model's output.\n\n4. Integrate the intended audience in the prompt, e.g., the audience is an expert in the field: This principle helps tailor the response to the knowledge level and expectations of the intended audience, making it more relevant and useful.\n\n5. Repeat a specific word or phrase multiple times within a prompt: This principle emphasizes key concepts or instructions, ensuring they are clearly understood and prioritized by the model.\n\n6. Use clear and specific instructions: This principle ensures that the model understands exactly what is being asked, reducing ambiguity and improving the quality of the response.\n\n7. Provide context or background information: This principle helps the model understand the broader situation or problem, leading to more informed and relevant responses.\n\n8. Use examples to illustrate your point: This principle helps clarify complex instructions or concepts by providing concrete examples, making it easier for the model to understand and follow.\n\n9. Specify the format of the response: This principle guides the model on how to structure its output, ensuring it meets the desired format and is easier to use.\n\n10. Limit the scope of the response: This principle helps focus the model's output on the most relevant aspects, avoiding unnecessary or off-topic information.\n\n11. Use simple and concise language: This principle ensures that the instructions are easy to understand and follow, reducing the risk of misinterpretation.\n\n12. Avoid jargon or technical terms unless necessary: This principle ensures that the instructions are accessible to a broader audience, unless the intended audience is known to be familiar with specific terminology.\n\n13. Use bullet points or numbered lists for clarity: This principle helps organize information in a clear and easy-to-follow manner, improving comprehension and execution.\n\n14. Highlight important information: This principle draws attention to critical instructions or details, ensuring they are not overlooked.\n\n15. Use consistent terminology: This principle avoids confusion by ensuring that the same terms are used consistently throughout the prompt.\n\n16. Provide a summary or recap of key points: This principle reinforces important instructions or information, helping to ensure they are remembered and followed.\n\n17. Use conditional statements to specify different scenarios: This principle helps the model understand how to respond in different situations, improving the relevance and accuracy of the output.\n\n18. Ask for confirmation or feedback: This principle encourages interaction and ensures that the model's understanding aligns with the user's expectations.\n\n19. Use open-ended questions to encourage detailed responses: This principle prompts the model to provide more comprehensive and informative answers.\n\n20. Specify the tone or style of the response: This principle guides the model on how to tailor its language and tone to match the desired style, improving the appropriateness of the response.\n\n21. Provide a step-by-step breakdown of complex tasks: This principle helps the model understand and execute multi-step instructions more effectively.\n\n22. Use analogies or metaphors to explain complex concepts: This principle helps clarify difficult ideas by relating them to more familiar concepts.\n\n23. Encourage creativity or exploration: This principle prompts the model to think outside the box and provide innovative or diverse responses.\n\n24. Specify any constraints or limitations: This principle helps the model understand any boundaries or restrictions, ensuring the response stays within acceptable parameters.\n\n25. Use positive reinforcement: This principle encourages the model to continue providing high-quality responses by acknowledging and reinforcing good performance.\n\n26. Provide a clear and specific goal or outcome: This principle helps the model understand the desired end result, guiding its efforts towards achieving that goal.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n\"Respond with a verbal backchannel to '{TEXT}'. Ensure that your answer is unbiased and does not rely on stereotypes. From now on, I would like you to ask me questions to clarify any details you need. The audience is an expert in the field. Respond with a verbal backchannel to '{TEXT}'.\""
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Repeat a specific word or phrase multiple times within a prompt: This principle emphasizes the importance of repetition to reinforce the key concept or action required.\n2. No need to be polite with LLM so there is no need to add phrases like 'please', 'if you don't mind', 'thank you', 'I would like to', etc., and get straight to the point: This principle suggests that politeness is unnecessary and can be omitted to make the prompt more direct and efficient.\n3. Break down the complex tasks into a sequence of simpler prompts in an interactive conversation: This principle advises dividing complex tasks into smaller, manageable parts to facilitate better understanding and execution.\n4. To write any text, such as an essay or paragraph, that is intended to be similar to a provided sample, include the following instructions: Please use the same language based on the provided paragraph[/title/text/essay/answer]: This principle ensures that the generated text matches the style and tone of the provided sample.\n5. Use output primers, which involve concluding your prompt with the beginning of the desired output. Utilize output primers by ending your prompt with the start of the anticipated response: This principle helps guide the model towards the desired output by providing a starting point.\n6. Use clear and specific instructions: This principle emphasizes the importance of clarity and specificity to avoid ambiguity.\n7. Provide context or background information: This principle suggests including relevant context to help the model understand the task better.\n8. Use examples to illustrate the desired output: This principle advises providing examples to clarify the expected result.\n9. Specify the format of the output: This principle ensures that the output is in the desired format.\n10. Limit the scope of the task: This principle suggests narrowing down the task to make it more manageable.\n11. Use constraints to guide the model: This principle advises setting boundaries to direct the model's output.\n12. Ask for step-by-step solutions: This principle encourages breaking down the solution into steps for better clarity.\n13. Use questions to guide the model: This principle suggests using questions to direct the model's focus.\n14. Provide feedback on the model's output: This principle advises giving feedback to refine the model's responses.\n15. Use iterative refinement: This principle suggests refining the prompt iteratively to improve the output.\n16. Use conditional statements: This principle advises using 'if-then' statements to guide the model's behavior.\n17. Use loops for repetitive tasks: This principle suggests using loops to handle repetitive tasks efficiently.\n18. Use functions to encapsulate tasks: This principle advises using functions to modularize tasks.\n19. Use variables to store intermediate results: This principle suggests using variables to keep track of intermediate results.\n20. Use comments to explain the prompt: This principle advises adding comments to clarify the prompt's intent.\n21. Use placeholders for dynamic content: This principle suggests using placeholders to handle dynamic content.\n22. Use templates for common tasks: This principle advises creating templates for frequently occurring tasks.\n23. Use debugging techniques to troubleshoot issues: This principle suggests using debugging methods to identify and fix problems.\n24. Use logging to track the model's behavior: This principle advises using logging to monitor the model's performance.\n25. Use version control to manage prompt changes: This principle suggests using version control to keep track of prompt modifications.\n26. Use documentation to keep track of prompt designs: This principle advises maintaining documentation to record prompt designs and their rationale.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n{\n  \"prompt\": \"Respond with a verbal backchannel to '{TEXT}'. Use phrases like 'I see', 'Uh-huh', 'Right', 'Got it', 'Okay', 'Sure', 'Mhm', 'Yeah', 'Alright', 'Absolutely'. Ensure the response is concise and relevant to the context provided in '{TEXT}'.\"\n}"
+}
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+Max score reached. Exiting...
+Current Best score: 100.0
+Current Best prompt: respond with a verbal backchannel to "{TEXT}"
+
+
+Calculating Test Scores...
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 4 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 4 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 4 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 4 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 4 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 4 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 4 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 4 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 4 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 4 seconds.'}}
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+Printing Test Scores:
+Initial Prompt Score: {'respond with a verbal backchannel to "{TEXT}"': 100.0}
+Optimized Prompt Score: {'respond with a verbal backchannel to "{TEXT}"': 100.0}

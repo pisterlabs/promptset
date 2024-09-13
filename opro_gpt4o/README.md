@@ -1,4 +1,4 @@
-## Usage Guide
+## Prompt OPRO Usage Guide
 
 - Set CWD in `main.py` to the target directory to store results. It is set to "results/" for now.
 - Set openai api key in a .env file with the name `OPENAI_API_KEY`.
@@ -16,3 +16,22 @@
 Notes: 
 - Rate limits can be a problem when working with gpt4o if the account usage tier is not 2 or higher.
 - To facilitate the experiment process, a sequential approach was employed, where OPro was run for one category at a time. Each category was assigned a unique target directory to ensure organized and distinct output for easier analysis and comparison.
+
+
+### Results
+Our Results for OPRO with gpt4o are stored in the `results/` directory. `opro_stats.html` contains the results of the optimization process with graphical representations. `analysis.ipynb` shows a summary of the results.
+
+
+### Alternative Usage
+If you're just interested in a quick way to test OPRO for your own prompts, you can use the OPRO class in the `OPRO.py` file.
+
+Here's an example of how you can use it:
+```python
+from OPRO import OPRO
+import asyncio
+
+if __name__ == "__main__":
+    opro = OPRO("your_openai_api_key_here")  # recommended account tier is 2 or higher
+    my_prompt = "Please provide a detailed character description for the following character type:\n{char_type}\n\nFeel free to include their personality, appearance, background, or any other relevant details."
+    print(asyncio.run(opro.optimize(prompt=my_prompt, category="QA_refinement", id=0)))
+```

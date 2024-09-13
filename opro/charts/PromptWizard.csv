@@ -1,0 +1,9 @@
+task, initial_test_score, optimized_test_score, initial_true_score, optimized_true_score
+QA Refinement, 94.28571428571428, 95.71428571428572, 58.57, 60.00
+Error Correction, 69.4354511045024, 86.97027383805835, 78.17, 88.72
+Summarization, 80.02499560515086, 86.67844871679942, 70.14, 77.75
+Translation, 59.66714269050072, 85.26189964692674, 24.87, 34.93
+Ethos, _, _, 10.00, 85.50
+GSM8K, _, _, 32.50, 74.50
+PubMedQA, _, _, 36.00, 62.00
+MedQA, _, _, 0.00, 15.00

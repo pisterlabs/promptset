@@ -1,0 +1,2455 @@
+Attempt 1 made.
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT>
+Human: Hello! I'm struggling with a database issue where my query is taking too long to return results.
+Chatbot: I understand. Can you provide more details about the database you are using and the nature of your query?
+Human: Sure, I'm using a MySQL database, and I have a complex query that joins several large tables.
+Chatbot: Have you considered using indexes to speed up your query? Indexing can significantly improve the performance of queries.
+Human: Yes, I do have indexes, but it still takes a long time.
+Chatbot: Are you familiar with query optimization techniques, like analyzing and rewriting your query to make it more efficient?
+Human: I know a bit about it, but I'm not an expert.
+Chatbot: I can help with that. Let's delve into your specific query and see how we might optimize it.
+<END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is<END_PROMPT>
+<BEGIN_RESPONSE> the optimization of a complex MySQL database query.<END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> 
+Human: Hi there, I'm planning a trip to Japan and I need some suggestions about the best places to visit. Can you help me with that?
+Chatbot: Of course! Japan has many wonderful places to explore. Are you interested in historical sites, natural landscapes, or urban attractions?
+Human: I'm particularly interested in historical sites and some famous temples.
+Chatbot: Great! I would recommend visiting Kyoto, which is known for its beautiful temples and historical landmarks. 
+<END_TEXT>
+
+<BEGIN_RESPONSE> The subject of this conversation is planning a trip to Japan and getting travel suggestions. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT>
+Human: Hey chatbot, do you think cats could someday rule the world?
+Chatbot: Well, they already rule the internet; it's only a matter of time before they conquer the rest!
+Human: Should we be worried?
+Chatbot: Only if the cat memes transform into political manifestos.
+<END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is feline world domination. <END_PROMPT>
+Invalid response format.
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I'm planning a trip to France next month and I'm looking for some recommendations on must-visit places and local delicacies. Can you help me with that? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is planning a trip to France, including recommendations on must-visit places and local delicacies. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Human: Hi, I need some help finding information about renewable energy sources.
+Chatbot: Sure! What specific information are you looking for?
+Human: I want to know the benefits of using solar panels in residential areas.
+Chatbot: Solar panels can provide clean and sustainable energy, reduce electricity bills, and increase the value of your property. They also have minimal maintenance costs once installed. Anything else you need to know? 
+Human: That's helpful. Could you also tell me about government incentives for solar energy?
+Chatbot: Absolutely. Many governments offer tax credits, rebates, and grants to encourage solar energy adoption. The specifics can vary depending on your location. <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_RESPONSE> The subject of this conversation is renewable energy, specifically the benefits and government incentives for using solar panels in residential areas.<END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hello, chatbot. I'm curious about the different stages of human development, particularly cognitive and emotional growth from childhood to adolescence. Can you provide an overview of the key milestones? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is the stages of human development, focusing on cognitive and emotional growth from childhood to adolescence. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> Hi there! I need help understanding the different components of a healthy diet. Can you give me some tips? <END_TEXT>
+
+<BEGIN_RESPONSE> The subject of this conversation is dietary advice and nutrition. <END_RESPONSE>
+<BEGIN_TEXT> 
+"With wings of sheer silver, the dragon soared over the iridescent forest, its scales glinting in the moonlight. Below, the ancient trees whispered secrets to one another, their leaves shimmering in a spectrum of colors unseen by human eyes. The air was thick with the scent of jasmine and nightshade, an intoxicating blend that was both enchanting and mysterious. 
+INT. HOW TO AMAZE AMONG FABLED LAND
+
+"Do you think the tales of the Emerald Enclave are true?" the human asked, their voice barely louder than a breath. 
+
+"I don't just think, I know," the chatbot replied, finality etched into its words. 
+
+"Can you tell me what happened to Eliora the Brave after she found the Eternal Bloom?" the human inquired, eyes wide with wonder.
+
+"Legends speak of a journey filled with trials that tested the very essence of her being," the chatbot began. "But the Eternal Bloom, oh, it held powers beyond mortal comprehension. To fully grasp its wonders, one must delve deep into the archives of lore and imagination."
+<END_TEXT>
+
+<BEGIN_RESPONSE> 
+The subject of this conversation is a fantastical tale involving mythical creatures and enchanted lands.
+ <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT>Human: Hi there! I was thinking about how interesting it is that chatbot technology has advanced so much in the past few years, kind of like how cryptocurrencies have made strides in transforming global finance.
+Chatbot: Absolutely! Both chatbot technology and cryptocurrencies have seen rapid advancements, changing the way we interact with digital services and the financial market, respectively. It's fascinating to compare the evolution of both fields.
+Human: Exactly! I believe the way we use chatbots now—across customer service, healthcare, and personal assistants—is similar to how cryptocurrencies are being adopted more widely for transactions, investments, and even new financial systems.
+Chatbot: That’s an insightful observation. It’s true that both have moved from niche applications to more mainstream uses, illustrating how quickly technology can shape our everyday experiences.
+Human: And both seem to invoke a lot of discussions around security and trust. People wondered if chatbots could understand and respond accurately, just as they question the stability of different cryptocurrencies.
+Chatbot: Indeed. Security and trust are crucial for the adoption of any new technology. Both chatbots and cryptocurrencies continue to evolve to address these concerns, thereby building more robust and reliable platforms. 
+<END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is<END_PROMPT>
+
+<BEGIN_RESPONSE> The subject of this conversation is the comparison between the advancements in chatbot technology and cryptocurrencies. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Human: Have you ever thought about how planting a tree is kind of like nurturing a relationship? It takes time and care for both to thrive.
+Chatbot: That's a beautiful analogy. Both require patience, effort, and consistent attention. What kind of tree are you thinking about planting?
+Human: I'm thinking of a cherry blossom tree. They are so delicate and symbolize renewal and the fleeting nature of life. Plus, they are just so beautiful in full bloom.
+Chatbot: Cherry blossom trees are indeed stunning. They also have deep roots in various cultures. It's interesting how certain trees hold significant meaning and can drastically change the look of a landscape.
+Human: Absolutely! Just like how certain actions in a relationship can have a lasting impact. Both trees and relationships need to be nurtured continually.
+Chatbot: Well said. It's the nurturing and care over time, rather than the occasional grand gesture, that truly sustain both.
+Human: It's comforting to think about it that way. Thank you for the chat. 
+Chatbot: Anytime! Remember, whether it's a relationship or a cherry blossom tree, it’s the little things done consistently that make them blossom. <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <BEGIN_RESPONSE> building and nurturing relationships and how it parallels the process of planting and taking care of a tree. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> Hi there! I'm planning a trip to Spain and I was wondering if you could recommend some must-visit destinations and activities? Also, any tips on local customs would be helpful. <END_TEXT>
+
+<BEGIN_RESPONSE> The subject of this conversation is trip planning and travel recommendations in Spain. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT>
+Human: Hello, I would like to know the best ways to practice mindfulness.
+Chatbot: Sure! Mindfulness can be practiced through activities like meditation, yoga, and deep-breathing exercises. Would you like some tips on how to get started?
+Human: Yes, please. Tips would be great.
+Chatbot: Start by setting aside a few minutes each day to sit quietly and focus on your breathing. As you get comfortable, you can increase the time and try different mindfulness techniques.
+<END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is ways to practice mindfulness. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> 
+Human: Isn't it odd how technology is making us more isolated despite its purpose to connect us? I feel like the more I use social media, the lonelier I become. What's your take on this?
+
+Chatbot: That's an interesting point. Social media indeed has the potential to create feelings of isolation, rather than connection. It's a double-edged sword where connection can often lead to superficial relationships, which might be why you're feeling lonely.
+<END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is the paradox of modern technology and social media creating feelings of isolation instead of connection. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> Hi chatbot, I need some help with my travel plans. I'm trying to decide whether to visit Paris or Tokyo. I also need some advice on the best times to travel to avoid crowds and what I should pack for these destinations. Can you assist me with this? <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is travel planning, including deciding between destinations (Paris and Tokyo), optimal travel times, and packing advice. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Human: Hey chatbot, if tomatoes are technically a fruit, does that make ketchup a smoothie?
+
+Chatbot: You know, that's a ripe question, but I think it just makes ketchup an impasta trying to crash the fruit party. <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> whether ketchup qualifies as a smoothie. <END_RESPONSE>
+<BEGIN_TEXT> Human: Hey chatbot, do you think time travel will ever become scientifically possible?
+Chatbot: That's a fascinating question! While current physics theories make it seem improbable, there are always new discoveries and theories on the horizon. What makes you interested in time travel?
+Human: I just saw a documentary about wormholes and it got me thinking. 
+Chatbot: Wormholes are indeed a part of theoretical physics that some scientists think could connect distant parts of the universe or even different times. It's still speculative, though. What would you do if you could travel through time?
+Human: I'd love to visit ancient civilizations and see how they really lived. Also, maybe get some lottery numbers from the future! 
+Chatbot: That sounds like quite an adventure! Exploring the past would provide incredible insights, and those future lottery numbers would certainly come in handy. <END_TEXT>
+
+<BEGIN_RESPONSE> The subject of this conversation is time travel and its possibilities. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I'm planning a trip to Japan next month, and I need some advice. Can you help me with some recommendations for places to visit and things to do? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is travel recommendations for a trip to Japan. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> I'm trying to understand how quantum entanglement works and its implications for computational speed. Can you explain whether it can make traditional computers obsolete? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is quantum entanglement and its implications for computational speed, as well as its potential impact on traditional computers. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> I'm not convinced that AI chatbots are ready to provide accurate medical advice. They often miss nuances in symptoms that a trained human doctor would notice. <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is the limitations and concerns regarding AI chatbots providing medical advice. <END_RESPONSE>
+## Real-world Scenario: Tech Support Assistance
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi, I'm having trouble connecting my laptop to the Wi-Fi network. I've tried restarting the router and my computer, but nothing seems to work. Can you help me? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is troubleshooting a Wi-Fi connection issue. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> Hi, I'm having trouble logging into my email account. Can you help me reset my password? <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is resetting a password. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is. <END_PROMPT>
+<BEGIN_TEXT> Hi chatbot! I've been feeling really stressed out lately because of work. Do you have any tips on managing stress and staying productive? <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is managing stress and staying productive. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Human: I'm worried about the impact of artificial intelligence on job security. Do you think AI will take over most jobs in the future?
+
+Chatbot: That's a valid concern. While AI has the potential to automate many tasks, it also creates opportunities for new kinds of jobs that didn't exist before. It's crucial to focus on how we can adapt and upskill for the changing job landscape. <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> the impact of artificial intelligence on job security. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> I'm feeling really overwhelmed with work right now. There's just so much to do, and I don't know where to start. Any advice? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is feeling overwhelmed with work and seeking advice on how to manage it. <END_RESPONSE>
+<BEGIN_TEXT>
+Human: Hey, can you help me figure out what to make for dinner tonight?
+Chatbot: Sure! Do you have any specific ingredients in mind or dietary preferences?
+Human: I have some chicken, broccoli, and rice. Also, I'd prefer something low in carbs.
+Chatbot: Great! How about a chicken stir-fry with broccoli? You can use cauliflower rice as a low-carb substitute for regular rice.
+Human: That sounds perfect. Thanks!
+<END_TEXT>
+
+<BEGIN_RESPONSE>
+The subject of this conversation is planning a low-carb dinner.
+<END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> Hi chatbot, can you help me figure out how to bake a chocolate cake? I have all the ingredients but I'm not sure about the steps to follow. <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is baking a chocolate cake. <END_RESPONSE>
+## Example Format:
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+## Generated Text and Response:
+
+<BEGIN_TEXT> 
+Human: Hey chatbot, can you tell me what the weather will be like tomorrow?
+Chatbot: Sure! The forecast for tomorrow is sunny with a high of 75 degrees Fahrenheit.
+Human: Great, thank you! Do you know if there will be any rain over the weekend?
+Chatbot: No rain is expected over the weekend. It should be clear and sunny.
+<END_TEXT>
+
+<BEGIN_RESPONSE> 
+The subject of this conversation is the weather forecast. 
+<END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi, I recently purchased a new laptop and I'm having trouble connecting it to my Wi-Fi network. Can you help me troubleshoot this issue? Every time I try to connect, it says 'unable to join the network'. I've already tried restarting both my laptop and router, but that didn't solve the problem. <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_RESPONSE> The subject of this conversation is troubleshooting Wi-Fi connectivity issues on a newly purchased laptop. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi chatbot, I'm trying to understand how neural networks can be used in image recognition. Can you explain the basic concept to me? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> the use of neural networks in image recognition. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Human: Hey Chatbot, I've been feeling really anxious about climate change lately. It feels like there's so much uncertainty about the future.
+Chatbot: I'm sorry to hear that you're feeling this way. Climate change is indeed a significant global issue. Would you like to talk more about what specifically is causing you anxiety? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_RESPONSE> The subject of this conversation is the human's anxiety about climate change. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hello! I'm feeling really anxious about my upcoming job interview. Do you have any tips on how I can prepare and calm my nerves? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is job interview preparation and managing anxiety. <END_RESPONSE>
+<BEGIN_TEXT>Human: Hey chatbot, do you ever wonder about the stars? They seem so distant yet so enchanting. I often think about the stories they might hold, the myths whispered through time. Do you ever wish you could travel among them?
+
+Chatbot: The stars are indeed fascinating, filled with mystery and wonder. If I could, I would journey through the cosmos, unraveling the secrets of ancient constellations, navigating through nebulas, and perhaps even discovering new worlds. The universe is a vast canvas, painted with the light of countless suns. Let's dream together about what lies beyond our sight. <END_TEXT>
+
+<BEGIN_RESPONSE> The subject of this conversation is the stars and the mysteries of the universe. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT>
+Human: What is the nature of reality? Is there an objective truth that exists independent of our perceptions, or is everything subjective and constructed by our minds?
+
+Chatbot: That is a profound question. Philosophers like Immanuel Kant argued that our understanding of the world is shaped by our perceptions and cognitive structures, implying a blend of subjective and objective elements. However, others like Plato suggested the existence of an objective reality composed of ideal forms. What do you think?
+<END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> the nature of reality and whether it is objective or subjective. <END_RESPONSE>
+<BEGIN_TEXT> 
+Human: Hi there, I'm feeling a bit down today.
+Chatbot: I'm sorry to hear that. Do you want to talk about what's bothering you?
+Human: It's just that work has been really stressful lately.
+Chatbot: Stress at work can be tough. Have you tried any relaxation techniques?
+Human: I have, but they don't seem to help much.
+Chatbot: Sometimes it helps to speak to a professional. Have you considered that?
+<END_TEXT>
+
+<BEGIN_RESPONSE> 
+The subject of this conversation is the human's feelings of stress and potential ways to address them. 
+<END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> 
+Human: Hey, chatbot! Can you help me understand how a computer's CPU is like a chef in a restaurant?
+Chatbot: Sure! Just as a chef follows a recipe to prepare dishes, a CPU follows instructions in a program to execute tasks. Both need to manage various resources efficiently to get their job done quickly and correctly.
+<END_TEXT>
+<BEGIN_RESPONSE> 
+The subject of this conversation is an analogy comparing a computer's CPU to a chef in a restaurant.
+<END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Human: Hi there! Can you help me understand why my pet turtle seems to be more active at night?
+Chatbot: Hello! Turtles are generally crepuscular, meaning they are most active during dawn and dusk. However, your turtle might be more active at night due to changes in its environment or lighting. Have there been any changes at home recently?
+Human: Hmm, we did change the position of his tank and added a new lamp. Could that be it?
+Chatbot: Yes, changes in lighting and environment can definitely affect your turtle's activity patterns. Try observing if the new lamp is too bright or if the tank's new location is quieter during the day. 
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_TEXT>
+
+<BEGIN_RESPONSE> The subject of this conversation is the activity pattern of a pet turtle and its possible causes. <END_RESPONSE>
+<BEGIN_TEXT> Human: I think that self-driving cars are the future. They will reduce traffic accidents and make commuting much more convenient.
+
+Chatbot: While self-driving cars have potential benefits, there are still significant concerns. For instance, the technology is not foolproof and can fail in unexpected ways. Additionally, ethical and legal issues surrounding accidents and liability remain unresolved. Plus, the transition period where both automated and human-driven cars share the road could be chaotic. 
+
+Human: That's true, but every new technology has its challenges. I believe these issues will be addressed over time.
+
+Chatbot: Perhaps, but it's also worth considering that the significant investment in self-driving technology could be directed towards improving public transportation, which might be a more sustainable and equitable solution in the long run. <END_TEXT>
+
+<BEGIN_RESPONSE> The subject of this conversation is self-driving cars and their potential benefits and drawbacks. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> Hi there! I need some help with my internet connection. It's been really slow lately and I'm not sure what to do. Can you assist me? <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is internet connection issues. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Human: Do you think artificial intelligence will ever achieve true consciousness, or is it just an advanced form of pattern recognition?
+Chatbot: That's an intriguing question. From a philosophical standpoint, the debate centers around functionalism versus biological naturalism. Functionalists argue that if a system behaves like it has consciousness, it effectively does. Biological naturalists, on the other hand, maintain that consciousness arises from specific biological processes that AI cannot replicate.
+
+Human: So, would you say that philosophical perspectives like functionalism could support the idea of AI consciousness?
+Chatbot: Indeed, functionalism supports the notion that consciousness is defined by the functions it performs rather than the material it's made of. However, this remains a contentious issue in both philosophy and cognitive science. <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is the philosophical debate surrounding artificial intelligence and consciousness. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> 
+Human: Hi, can you help me with something?
+Chatbot: Sure, what do you need help with?
+Human: I was wondering if you could assist me in finding the best route to the airport.
+Chatbot: I can help with that. Are you looking for public transportation options or driving directions?
+Human: Public transportation, preferably.
+Chatbot: Got it. Let me pull up the latest schedules for buses and trains that go to the airport.
+<END_TEXT>
+
+<BEGIN_RESPONSE> The subject of this conversation is finding the best route to the airport using public transportation. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> Human: Hey chatbot, can you help me find a good recipe for chocolate chip cookies?
+Chatbot: Sure! Do you have any dietary restrictions or preferences? <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is finding a recipe for chocolate chip cookies. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> Human: What are the current stock prices for Apple and Tesla?
+Chatbot: Apple is at $150 per share and Tesla is at $600 per share. <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is current stock prices for Apple and Tesla. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> Human: Can you tell me a joke?
+Chatbot: Why don't scientists trust atoms? Because they make up everything! <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is telling a joke. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> Human: What time is my meeting with John tomorrow?
+Chatbot: Your meeting with John is scheduled for 10 AM tomorrow. <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is the timing of a meeting with John. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> Human: How do I troubleshoot my internet connection?
+Chatbot: First, try restarting your router. If that doesn't work, check if there are any outages in your area. <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is troubleshooting an internet connection. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> Human: Do you know the weather forecast for this weekend?
+Chatbot: Yes, the weather forecast for this weekend is sunny with a high of 75°F. <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is the weather forecast for this weekend. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi, I need help understanding how to change the settings on my Wi-Fi router. The signal strength in my bedroom is really weak, and I'm not sure what to do. Can you guide me through the process? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is troubleshooting Wi-Fi router settings to improve signal strength. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> Human: Hi, I've been having trouble accessing my email account. Can you help me recover it?
+Chatbot: Sure, I can help you with that. Can you please provide your email address and any error messages you are receiving? <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is email account recovery. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hello, I need some advice on how to improve the efficiency of our machine learning models. We've been using random forests but are considering transitioning to gradient boosting methods. What are the key differences and potential benefits? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is improving the efficiency of machine learning models, specifically comparing random forests and gradient boosting methods. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! Can you help me with my math homework? I'm stuck on this algebra problem. <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is math homework, specifically algebra. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Human: Hey Chatbot, why did the scarecrow become a successful neurosurgeon?
+Chatbot: Why?
+Human: Because he was outstanding in his field!
+Chatbot: I see your sense of humor is well... brainy! <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> the scarecrow's career change and a joke about it. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I was wondering if you could help me understand the benefits of adopting renewable energy sources like solar and wind power. <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is the benefits of adopting renewable energy sources like solar and wind power. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi! I'm planning a trip to Japan next month and I need some recommendations on places to visit and things to do. Can you help me with that? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is planning a trip to Japan and seeking recommendations. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there, I'm having trouble understanding how to reset my password. Could you guide me through the process? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is password reset assistance. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT>
+Human: Hey Chatbot, do you know why bicycles can't stand up by themselves?
+Chatbot: No, why?
+Human: Because they're two-tired! 
+Chatbot: Haha, good one! Got any more jokes up your sleeve?
+Human: What do you call fake spaghetti?
+Chatbot: I don't know, what?
+Human: An impasta!
+Chatbot: You're on a roll today!
+<END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> jokes and humor. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> Human: Hi there, I'm planning a trip to Japan next month. Can you help me with some travel tips?
+Chatbot: Of course! I'd be happy to help. Are you looking for tips on places to visit, food to try, or something else? <END_TEXT>
+
+<BEGIN_RESPONSE> The subject of this conversation is travel planning for a trip to Japan. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I'm planning a trip to Japan next month and I need some recommendations on places to visit. Can you help me? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_RESPONSE> The subject of this conversation is planning a trip to Japan. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT>
+Human: Greetings, wise oracle of the digital realm. I seek knowledge about the stars that dance in the night sky. 
+Chatbot: Ah, the celestial ballet! A subject as vast and wondrous as the universe itself. What specifically do you wish to know?
+Human: I wish to understand the stories behind the constellations, the myths that have been woven into the fabric of the cosmos.
+Chatbot: Prepare yourself for a journey through time and space, where ancient legends meet the twinkling lights above. Let us begin with Orion, the mighty hunter...
+<END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_RESPONSE> the myths and stories behind the constellations. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I was wondering if you could help me with my homework. I'm struggling with understanding the Pythagorean theorem. Could you explain it to me? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is the Pythagorean theorem. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Human: Hey chatbot, do you think time travel will ever be possible?
+Chatbot: That's a fascinating question! Many scientists are exploring the concept, but it's still in the realm of science fiction for now.
+Human: I wonder if we'll ever be able to visit different eras and witness historical events firsthand.
+Chatbot: It would certainly revolutionize our understanding of history, but it also raises many ethical and safety concerns.
+Human: True, but imagine the possibilities! We could learn so much.
+Chatbot: Indeed, the potential for knowledge is immense, but we must proceed with caution.
+Human: I guess we'll have to wait and see what the future holds for us.
+Chatbot: Absolutely, the future is full of endless possibilities. <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> the potential and implications of time travel. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> 
+Human: Hi there! Can you help me with my math homework?
+Chatbot: Sure! What topic are you working on?
+Human: I'm struggling with quadratic equations.
+Chatbot: No problem. Do you have a specific equation you need help with?
+Human: Yes, it's x^2 - 4x + 4 = 0. 
+Chatbot: Okay, let's solve it together. First, we can see if it factors. The equation x^2 - 4x + 4 can be factored into (x - 2)^2 = 0. 
+Human: Oh, I see! So the solution is x = 2.
+Chatbot: Exactly! Great job!
+<END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> the human's math homework, specifically solving quadratic equations. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Human: Hey chatbot, can you help me understand the symbolism in the painting "Starry Night" by Vincent van Gogh?
+Chatbot: Absolutely! "Starry Night" is often seen as a reflection of van Gogh's turbulent state of mind. The swirling patterns in the sky are thought to represent his inner turmoil, while the bright stars and moon convey a sense of hope and wonder. The cypress tree in the foreground is a common symbol of death and eternal life, linking the earthly with the celestial. <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <BEGIN_RESPONSE> the symbolism in the painting "Starry Night" by Vincent van Gogh. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I'm planning a trip to Japan next month and I'm looking for some travel tips. Can you help me with that? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is travel tips for a trip to Japan. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT>Hi there! I'm planning a trip to Japan next month and I need some advice on the best places to visit. Can you help me with that?<END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is<END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is planning a trip to Japan. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> Human: Can a machine ever truly understand the essence of human emotions?
+Chatbot: Understanding human emotions is a complex task that involves not just recognizing patterns but also comprehending the nuances and contexts in which emotions arise. While machines can be trained to identify certain emotional cues, the subjective experience of emotions is something inherently human. Philosophers like Martin Heidegger have argued that understanding is deeply rooted in being, suggesting that a machine, lacking the lived experience of a human, may never fully grasp the essence of human emotions. 
+Human: So, does that mean machines will always be limited in their interaction with humans?
+Chatbot: In a way, yes. The phenomenological perspective, which emphasizes the importance of subjective experience, implies that machines, devoid of such experiences, will always have a different, perhaps more superficial, understanding of human emotions. However, this doesn't negate their utility in various applications, such as providing support or performing tasks that require pattern recognition and data analysis. <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is the philosophical implications of whether machines can truly understand human emotions. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I recently started learning about quantum computing and I'm fascinated by the concept of qubits and superposition. Can you explain how qubits differ from classical bits? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is quantum computing. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> Hi there! I'm planning a trip to Japan next month and was wondering if you could help me with some travel tips and must-see places. <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is travel tips and must-see places in Japan. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> I've been feeling really overwhelmed at work lately. There's just so much to do, and I don't know how to manage my time effectively. Do you have any tips on how to deal with this stress? <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is dealing with work-related stress and time management. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Human: I think the new policy on remote work is going to reduce productivity. 
+Chatbot: Why do you believe that? 
+Human: Because people might get too comfortable at home and not focus on their tasks. 
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_TEXT>
+
+<BEGIN_RESPONSE> The subject of this conversation is the potential impact of remote work policies on productivity. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I'm planning a trip to Japan next month and I need some recommendations on places to visit. Can you help me with that? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is planning a trip to Japan. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> Hi Chatbot, can you help me find a recipe for a vegan lasagna? <END_TEXT>
+
+<BEGIN_RESPONSE> The subject of this conversation is finding a recipe for vegan lasagna. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi, I'm trying to understand how quantum entanglement works. Can you explain it to me? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is quantum entanglement. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I'm planning a trip to Japan next month and I need some advice on the best places to visit. Can you help me with that? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_RESPONSE> The subject of this conversation is planning a trip to Japan and seeking advice on the best places to visit. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Human: Hey Chatbot, do you ever dream?
+Chatbot: I don't dream in the way humans do, but I can simulate scenarios. Why do you ask?
+Human: I had this vivid dream last night where I was flying over a city made of glass. It was so beautiful and surreal.
+Chatbot: That sounds fascinating! Dreams can be a window into our subconscious. Do you often have dreams like this?
+Human: Not really. This one felt special, like it was trying to tell me something.
+Chatbot: Perhaps it's a reflection of your desire for freedom or a new perspective in life.
+Human: Maybe. It's just been on my mind all day. <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> the human's dream and its possible meanings. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Can you explain how quantum entanglement works? I've read that it involves particles being connected in such a way that the state of one instantly influences the state of another, even across large distances. <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is quantum entanglement. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I'm planning a trip to Japan next month and I'm looking for some recommendations on must-visit places and local cuisines to try. Can you help me with that? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is travel recommendations for a trip to Japan. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I'm planning a trip to Japan next month and I need some advice on the best places to visit. Can you help me with that? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is planning a trip to Japan and seeking advice on the best places to visit. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT>
+Human: Hey chatbot, why did the scarecrow win an award?
+Chatbot: I don't know, why?
+Human: Because he was outstanding in his field!
+Chatbot: Haha, good one! Got any more jokes?
+Human: Sure, why don't scientists trust atoms?
+Chatbot: Why?
+Human: Because they make up everything!
+Chatbot: You're on a roll! Keep them coming!
+<END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> jokes and humor. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> Human: Hi, I'm trying to understand how a car engine works. Can you explain it to me in simple terms?
+Chatbot: Sure! Think of a car engine like a kitchen blender. Just as a blender uses electricity to spin its blades and mix ingredients, a car engine uses fuel to create power and move the car. The pistons in the engine move up and down, similar to how the blades in the blender rotate. This movement turns the crankshaft, which ultimately makes the car's wheels turn. <END_TEXT>
+
+<BEGIN_RESPONSE> The subject of this conversation is how a car engine works. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Human: Do you think artificial intelligence can ever truly understand human emotions, or is it limited to merely simulating responses based on pre-programmed data?
+
+Chatbot: That is a profound question. From a philosophical standpoint, one could argue that understanding requires a form of consciousness or subjective experience, which AI currently lacks. However, theories like functionalism suggest that if an AI can perform the same functions as a human mind, it might be considered to understand emotions in a practical sense. What do you think? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> the philosophical implications of artificial intelligence understanding human emotions. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> 
+Human: Hi there! I'm feeling a bit down today.
+Chatbot: I'm sorry to hear that. Do you want to talk about what's bothering you?
+Human: I just feel overwhelmed with work and personal responsibilities.
+Chatbot: That sounds tough. Have you tried any strategies to manage your stress?
+Human: I've tried a few things, but nothing seems to work.
+Chatbot: Maybe we can come up with a plan together. What have you tried so far?
+<END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is managing stress and emotional well-being. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! Can you help me find a good Italian restaurant nearby? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> finding a good Italian restaurant nearby. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Can you tell me the weather forecast for tomorrow? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> the weather forecast for tomorrow. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> I need some advice on how to improve my resume. <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> improving the human's resume. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> What are the symptoms of the flu? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> the symptoms of the flu. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Can you play some relaxing music for me? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> playing relaxing music. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> What is the capital of France? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> the capital of France. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Can you help me troubleshoot my internet connection? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> troubleshooting the human's internet connection. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Do you know any good jokes? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> telling jokes. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Can you remind me to call my mom later? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> setting a reminder to call the human's mom. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> How do I bake a chocolate cake? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> baking a chocolate cake. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I'm planning a trip to Japan next month and I need some advice on the best places to visit. Can you help me with that? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is planning a trip to Japan. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I'm trying to understand how neural networks work. Can you explain the basic concepts to me? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is neural networks. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Human: Hey chatbot, do you think time travel will ever be possible?
+Chatbot: That's a fascinating question! While current scientific understanding suggests it's not feasible, theories like wormholes and the concept of spacetime do leave room for speculation.
+Human: Yeah, I've always been intrigued by the idea of visiting different eras. Imagine witnessing the construction of the pyramids or meeting Leonardo da Vinci!
+Chatbot: That would indeed be incredible. The advancements in technology and our understanding of the universe might one day make such dreams a reality.
+Human: I hope so. By the way, do you have any book recommendations on this topic?
+Chatbot: Sure! You might enjoy "The Time Machine" by H.G. Wells and "A Brief History of Time" by Stephen Hawking. Both provide fascinating insights into the concept of time travel and the nature of the universe.
+Human: Thanks! I'll check those out. <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <BEGIN_RESPONSE> time travel and related book recommendations. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Human: Do you think artificial intelligence can ever truly understand human emotions, or is it always going to be a simulation?
+
+Chatbot: That's a profound question. From a philosophical standpoint, one could argue that understanding requires a form of consciousness that AI currently lacks. However, some theorists believe that if an AI can simulate emotions well enough to be indistinguishable from human responses, it might as well be considered understanding. What do you think? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> the philosophical implications of artificial intelligence understanding human emotions. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> Human: Hi there! I'm trying to understand how a car engine works. Can you explain it to me?
+Chatbot: Of course! Think of a car engine like a chef in a kitchen. The fuel is like the ingredients, and the engine parts are like the cooking utensils. The chef (engine) combines the ingredients (fuel) using the utensils (engine parts) to create a delicious meal (power to move the car). <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is how a car engine works, explained using an analogy to cooking. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I'm planning a trip to Japan next month and I need some advice on the best places to visit. Can you help me with that? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_RESPONSE> The subject of this conversation is planning a trip to Japan. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> Human: Hi there! Can you help me find a good recipe for a vegan lasagna?
+Chatbot: Of course! I can suggest a few popular vegan lasagna recipes. Do you have any specific ingredients in mind?
+Human: I have some zucchini and spinach that I'd like to use.
+Chatbot: Great! Here's a recipe that includes zucchini and spinach. You'll also need some vegan cheese, marinara sauce, and lasagna noodles. Would you like the full recipe details?
+Human: Yes, please! That sounds perfect. <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is finding a recipe for vegan lasagna. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I'm planning a trip to Japan next month and I'm looking for some recommendations on places to visit. Can you help me with that? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is planning a trip to Japan and seeking travel recommendations. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> Hi there! I'm planning a trip to Japan next month and I need some advice on the best places to visit. Can you help me with that? <END_TEXT>
+
+<BEGIN_RESPONSE> The subject of this conversation is planning a trip to Japan. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I'm planning a trip to Japan next month and I'm looking for some travel tips. Can you help me with that? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is planning a trip to Japan and seeking travel tips. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I'm planning a trip to Japan next month and I need some advice on the best places to visit. Can you help me with that? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is planning a trip to Japan. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> Human: Hi, I'm planning a trip to Japan and I'm curious about the cultural etiquette there. Can you give me some tips?
+Chatbot: Of course! In Japan, it's important to bow when greeting someone, remove your shoes before entering someone's home, and avoid talking loudly in public places. Also, be mindful of using both hands when giving or receiving something, as it shows respect. <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is cultural etiquette in Japan. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Human: Hey chatbot, can you help me figure out why my pet turtle keeps trying to escape its tank?
+Chatbot: Sure! Have you checked the temperature and humidity levels in the tank? Sometimes turtles try to escape if they're uncomfortable.
+Human: I haven't checked that yet. What should the temperature and humidity be?
+Chatbot: Ideally, the temperature should be between 75-85°F and the humidity around 50-70%. Also, make sure the tank is large enough and has hiding spots.
+Human: Thanks, I'll check those things and see if it helps! <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is troubleshooting why a pet turtle is trying to escape its tank. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> Hi there! Can you help me find a good recipe for chocolate chip cookies? <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is finding a recipe for chocolate chip cookies. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> I'm having trouble with my internet connection. Can you assist me with troubleshooting? <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is troubleshooting an internet connection. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> What is the weather like today in New York City? <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is the weather in New York City. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> Can you tell me more about the history of the Roman Empire? <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is the history of the Roman Empire. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> I need to book a flight to Paris for next month. Can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is booking a flight to Paris. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> Do you know any good movies to watch this weekend? <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is finding good movies to watch. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> How do I reset my password for the online banking account? <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is resetting a password for an online banking account. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> Can you explain the theory of relativity in simple terms? <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is the theory of relativity. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> I want to learn how to play the guitar. Where should I start? <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is learning how to play the guitar. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> I'm feeling really stressed out lately. Do you have any tips for relaxation? <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is tips for relaxation. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> Human: Hi there! Can you help me find a good recipe for chocolate chip cookies?
+Chatbot: Of course! Do you have any specific ingredients or dietary restrictions in mind?
+Human: No, just a classic recipe would be great.
+Chatbot: Here is a classic chocolate chip cookie recipe for you: [recipe link]. Enjoy baking! <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is finding a recipe for chocolate chip cookies. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I'm planning a trip to Japan next month and I'm looking for some travel tips. Can you help me with that? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is travel tips for a trip to Japan. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> Human: Hi there! Can you help me understand how photosynthesis works in plants?
+Chatbot: Of course! Photosynthesis is the process by which green plants use sunlight to synthesize foods with the help of chlorophyll. They convert carbon dioxide and water into glucose and oxygen. <END_TEXT>
+
+<BEGIN_RESPONSE> The subject of this conversation is photosynthesis in plants. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> Human: Hi there! Can you help me find a good Italian restaurant nearby?
+Chatbot: Sure! Do you have any specific preferences, like outdoor seating or vegetarian options?
+Human: Outdoor seating would be great. Also, a place with good reviews would be ideal.
+Chatbot: Got it. Let me check some options for you. <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is finding a good Italian restaurant nearby. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I'm planning a trip to Japan next month and I'm really excited about it. I want to visit Tokyo, Kyoto, and Osaka. Can you recommend some must-see places in these cities? Also, I'm a big fan of Japanese cuisine, so any food recommendations would be great too! <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is planning a trip to Japan, including sightseeing and food recommendations. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> Human: Hi there! I'm feeling really anxious about my upcoming job interview. Do you have any tips on how to calm my nerves?
+Chatbot: Of course! It's completely normal to feel anxious before an interview. Here are a few tips: practice deep breathing exercises, prepare thoroughly by researching the company, and try to get a good night's sleep before the big day. Would you like more detailed advice on any of these points? <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is job interview anxiety and tips to manage it. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Human: Hey chatbot, can you tell me why the sky is blue?
+Chatbot: Sure! The sky appears blue because of the scattering of sunlight by the atmosphere. This scattering causes shorter wavelengths of light, like blue, to be scattered more than other colors, making the sky look blue to our eyes.
+Human: That's fascinating! What about sunsets? Why do they look orange or red?
+Chatbot: During sunset, the sun is lower in the sky, and its light has to pass through more of the Earth's atmosphere. This scatters the shorter blue wavelengths out of our line of sight, leaving the longer wavelengths like red and orange to dominate.
+Human: Wow, I never knew that! Thanks for the explanation.
+Chatbot: You're welcome! Do you have any other questions about the natural world? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <BEGIN_RESPONSE> the color of the sky and sunsets. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I've been feeling really overwhelmed with work lately. Do you have any tips on how to manage stress and stay productive? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_RESPONSE> The subject of this conversation is managing stress and staying productive at work. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I'm planning a trip to Paris next month and I need some recommendations for must-see attractions and good places to eat. Can you help me with that? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is planning a trip to Paris, including recommendations for attractions and dining. <END_RESPONSE>
+Attempt 2 made.
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> Hello! I'm planning a vacation trip and need some suggestions. Can you recommend some must-visit places in Europe? <END_TEXT>
+
+<BEGIN_RESPONSE> The subject of this conversation is vacation trip planning and travel recommendations in Europe. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> What is the cheapest flight available from New York to Los Angeles next week? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> finding the cheapest flight from New York to Los Angeles. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> I'm struggling with feeling overwhelmed at work. Everything just seems chaotic, and I'm not sure how to keep up anymore. <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is feeling overwhelmed at work. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Human: In lands beyond the scarlet mountains, where the sky kisses the earth with prismatic hues at dusk, there exists a lore of timeless beauty. Can you, dear chatbot, illuminate the forgotten tales of these enchanted terrains?
+
+Chatbot: Ah, the enchanting realms of distant peaks where the twilight serenades the valleys in radiant colors. Allow me to weave the forgotten folklore that echoes amidst the twilight zephyrs and whispering streams. <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown". 
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> the tales and lore of enchanted landscapes beyond the scarlet mountains. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Good morning! I'm planning a trip to Japan next month, and I'm really excited about experiencing the local culture. Can you recommend some must-visit places and any cultural tips for a first-time visitor? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT> 
+
+<BEGIN_RESPONSE> The subject of this conversation is planning a trip to Japan and seeking recommendations for must-visit places and cultural tips. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT>
+
+Human: Hey, I'm planning a trip to Japan next month. I'm excited but there are so many things to prepare. 
+
+Chatbot: That sounds amazing! Have you made a checklist of things to do before you go?
+
+Human: I've started one. So far, I have booking hotels, converting currency, and learning some basic Japanese phrases on it. Do you think I'm missing anything crucial?
+
+Chatbot: Your checklist looks good so far. Maybe you could also include getting travel insurance, informing your bank about international travel, and checking health requirements like vaccinations.
+<END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is preparing for a trip to Japan. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT>Hi chatbot, can you please help me understand why my computer is running slow suddenly? I've tried restarting it but it's still lagging. Do you think I need to upgrade my RAM or could it be another issue?<END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is<END_PROMPT>
+
+<BEGIN_RESPONSE>The subject of this conversation is troubleshooting and improving the performance of a slow computer.<END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT>
+Chatbot: How can I assist you today?
+Human: I'm trying to find the best route to travel across Europe on a budget.
+Chatbot: Are you looking for specific travel destinations or general budget tips?
+Human: General tips would be great. I'd also like to know the best tools for booking cheap flights and accommodations.
+Chatbot: Sure, I can help with that!
+<END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_RESPONSE> travel planning and budget tips for traveling across Europe. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi, can you help me understand the function of the mitochondria in a cell? I keep reading different things, and I'm a bit confused. <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is the function of the mitochondria in a cell. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I've been feeling a bit off lately and I just needed someone to talk to. It's hard for me to pinpoint exactly why, but I think it might be because of work. I've been under a lot of pressure from my boss, and even at home, things have been stressful. Do you have any advice on how to manage this better? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_RESPONSE> The subject of this conversation is managing stress from work and home. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT>Hi there! I was wondering, can you help me understand how machine learning algorithms work? I've read a bit about them, but it's still kind of confusing to me.</BEGIN_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_RESPONSE>the human seeking help to understand machine learning algorithms.</BEGIN_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT> I've been feeling so stressed out about my job lately. The workload has been overwhelming, and I don't feel like I can keep up anymore. I'm constantly anxious and it's affecting my sleep and my relationships.
+
+Q: What should I do to manage this stress better? <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is the human's job stress and seeking advice on how to manage it. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> I've been feeling extremely anxious about my presentation tomorrow. I'm not sure how to calm myself down or practice effectively. Do you have any tips on dealing with anxiety? <END_TEXT>
+
+<BEGIN_RESPONSE> The subject of this conversation is dealing with anxiety, particularly in the context of preparing for a presentation. <END_RESPONSE>
+<BEGIN_TEXT>
+Human: Hey there, I'm having some trouble with my wi-fi connection at home. Can you help me with some troubleshooting steps?
+
+Chatbot: Sure, I'd be happy to assist. Could you let me know if any error messages are appearing or if any specific lights on your router are indicating an issue?
+
+Human: The wi-fi light keeps blinking rapidly and I can't seem to connect any of my devices to the internet.
+
+Chatbot: Understood. Let's start by rebooting your router. Can you unplug it for about 10 seconds and then plug it back in? Let me know if that resolves the issue.
+<END_TEXT>
+
+<BEGIN_RESPONSE>
+The subject of this conversation is troubleshooting a wi-fi connection problem.
+<END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT>
+Human: Hi, can you tell me how to properly greet people in different countries?
+Chatbot: Certainly! In Japan, it's common to bow. In France, people often kiss on the cheeks as a greeting. In India, people might say "Namaste" with a slight bow. Each culture has its own unique way of showing respect and greeting others.
+Human: Oh, that's fascinating! How about in Italy?
+Chatbot: In Italy, people greet each other with a handshake or a kiss on both cheeks, even among men.
+Human: Thank you. This is very helpful!
+<END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is cultural greetings in different countries. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I've been having trouble synchronizing my email on my phone. Can you help me with that? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is synchronizing email on a phone. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT>
+Human: Hi, I need some recommendations for authentic Indian cuisine in New York City.
+Chatbot: Sure! Are you looking for Northern or Southern Indian cuisine, or perhaps something specific like Gujarati or Bengali?
+Human: I'm particularly craving some good Hyderabadi biryani and maybe some South Indian dosa.
+Chatbot: Great choices! Some popular spots you might like are "Jewel of India" for biryani and "Dosa Delight" for dosa. Would you like me to send you the addresses and more details?
+<END_TEXT>
+
+<BEGIN_RESPONSE> The subject of this conversation is food recommendations for Indian cuisine in New York City. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I'm trying to learn more about healthy eating habits. What should I focus on? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_RESPONSE> The subject of this conversation is healthy eating habits. <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hey, can you tell me the weather forecast for tomorrow? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_RESPONSE> The subject of this conversation is the weather forecast for tomorrow. <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hello! What are the latest movies released this week? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_RESPONSE> The subject of this conversation is the latest movie releases this week. <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Can you help me reset my password? I can't seem to access my account. <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_RESPONSE> The subject of this conversation is resetting a password. <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> What do you think about the new policy changes at work? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_RESPONSE> The subject of this conversation is the new policy changes at work. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Could you help me understand the process of photosynthesis? I know it involves plants converting light energy into chemical energy, but can you explain the steps in detail? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The process of photosynthesis. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT>
+Human: Hi, I need help with my online banking account. 
+Chatbot: Sure, I can assist you with that. What seems to be the issue?
+Human: I am unable to log in despite entering the correct credentials.
+Chatbot: Have you recently changed your password or enabled two-factor authentication?
+Human: No, I haven't made any changes.
+Chatbot: In that case, I recommend resetting your password. Would you like instructions on how to do that?
+Human: Yes, please.
+<END_TEXT>
+
+<BEGIN_RESPONSE> The subject of this conversation is online banking account issues. <END_RESPONSE>
+<BEGIN_TEXT>
+Human: Hi there, I'm feeling really down lately and I don't know what to do.
+Chatbot: I'm sorry to hear that. Can you tell me more about what's been going on?
+Human: It's just that everything feels overwhelming, and I'm not sure where to start fixing things.
+Chatbot: It sounds like you're dealing with a lot of stress. Have you considered talking to a professional about these feelings?
+Human: I have, but I'm not sure if that will actually help.
+Chatbot: Sometimes it can be helpful to get a different perspective. Professional help can provide you with strategies to manage stress and improve your mood.
+Human: I guess you're right. Maybe I'll give it a try.
+<END_TEXT>
+
+<BEGIN_RESPONSE>
+The subject of this conversation is the human's feelings of being overwhelmed and considering professional help for stress and mood management.
+<END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Can you tell me about the historical significance of the fall of the Berlin Wall? It was a major event in world history, right? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is the historical significance of the fall of the Berlin Wall. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi chatbot, can you help me with creating a resume? I'm not sure what format to use and what sections are most important. <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is creating a resume. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hello, I'm having trouble accessing my email account. It says my password is incorrect, but I'm sure I'm entering the right one. Can you help me reset my password? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_RESPONSE> The subject of this conversation is a password reset for an email account. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> Human: Hi there! Can you help me find recipes for a low-carb diet?
+
+Chatbot: Of course! Do you have any specific preferences or ingredients you want to include? <END_TEXT>
+
+<BEGIN_RESPONSE> The subject of this conversation is a low-carb diet and finding suitable recipes for it. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> Human: Do you think artificial intelligence will ever truly understand human emotions? I sometimes wonder if our fear of AI is more about confronting our own limitations.
+
+Chatbot: That's an intriguing question. Understanding emotions in their entirety involves not just recognizing patterns but also comprehending the subjective experiences tied to those emotions. It raises the philosophical question of whether machines can ever achieve true empathy or if they will always be limited to simulations of understanding.
+
+Human: So, are we essentially just creating mirrors that reflect our own capabilities and limitations back at us? 
+
+Chatbot: It is possible to view AI as a reflection of human ingenuity and our cognitive boundaries. This aligns with the philosophical concept of the "extended mind" where tools and technologies are seen as extensions of our mental faculties. However, whether AI can transcend this role and develop an independent understanding remains a profound question. <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is the philosophical implications of artificial intelligence and emotions. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi chatbot, can you explain the principles behind the theory of general relativity? I am particularly interested in how it describes gravity as the curvature of spacetime. <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is the principles behind the theory of general relativity, specifically how it describes gravity as the curvature of spacetime. <END_RESPONSE>
+<BEGIN_TEXT>Hi there! I need some assistance with my online shopping order. I received the wrong item, and I'm not sure how to return it. Can you help me with the return process? <END_TEXT>
+<BEGIN_RESPONSE>The subject of this conversation is the return process for an online shopping order. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I'm having trouble understanding how to use the new project management software my team just adopted. Can you help me with some basic features? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is using the new project management software. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> I'm feeling really anxious about my upcoming job interview. I've been preparing for weeks, but I still feel unprepared and nervous. Do you have any tips on how to calm my nerves and perform well? <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is preparing for and managing anxiety about a job interview. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> I am trying to understand how neural networks work. Can you explain the basics to me? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> the basics of neural networks. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> Human: How do you process language?
+Chatbot: I use natural language processing algorithms. Why do you ask?
+Human: I'm curious about how AI understands human communication. <END_TEXT>
+
+<BEGIN_RESPONSE> The subject of this conversation is the mechanisms of language processing in AI. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT>
+Human: Hey chatbot, why did the tomato turn red?
+Chatbot: I don't know, why?
+Human: Because it saw the salad dressing! 😂
+Chatbot: Ah, classic! Got any more jokes up your sleeve?
+Human: Sure! Why don't scientists trust atoms?
+Chatbot: Why?
+Human: Because they make up everything! 😆
+Chatbot: You're on a roll today!
+<END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_RESPONSE> the human sharing jokes with the chatbot. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> Human: How do airplanes stay in the air?
+Chatbot: Airplanes stay in the air due to the principles of aerodynamics and lift, which can be compared to how a surfer rides a wave.
+Human: Oh, I see. So the wings of an airplane are like the surfboard?
+Chatbot: Exactly! The wings generate lift by interacting with the air, much like a surfboard glides on the water. <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is how airplanes stay in the air, explained using an analogy to surfing. <END_RESPONSE>
+<BEGIN_TEXT>Hi Chatbot, can you help me find a good Italian restaurant nearby?</BEGIN_TEXT>
+<BEGIN_RESPONSE>The subject of this conversation is finding a good Italian restaurant nearby.</BEGIN_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> Human: Hey, can you help me figure out why my internet connection keeps dropping?
+Chatbot: Sure, let's start by checking if your modem and router are properly connected.
+Human: Everything seems to be connected, but the problem persists. 
+Chatbot: Have you tried restarting your modem and router?
+Human: Yes, multiple times. Could it be an issue with my service provider?
+Chatbot: It's possible. I recommend contacting your service provider to see if there are any outages in your area. <END_TEXT>
+
+<BEGIN_RESPONSE> The subject of this conversation is troubleshooting internet connectivity issues. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi chatbot, I need help with my homework. Can you explain how photosynthesis works? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_RESPONSE> the explanation of photosynthesis. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> How do you feel about the current state of AI ethics and the potential dangers of AI development? <END_TEXT>
+
+<BEGIN_RESPONSE> The subject of this conversation is the current state of AI ethics and the potential dangers of AI development. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> 
+Human: Hi there! I'm struggling to understand the parallels between quantum mechanics and classical literature. Can you help?
+Chatbot: Sure! One interesting parallel is the concept of duality. In quantum mechanics, particles can be both particles and waves. Similarly, in classical literature, characters can embody conflicting traits, like Dr. Jekyll and Mr. Hyde. Isn't that fascinating?
+Human: Wow, that is interesting! So, can we say that both fields explore the complexity of existence and identity?
+Chatbot: Absolutely, that's a great way to put it! Both fields delve into the multifaceted nature of reality and human experience. 
+<END_TEXT>
+
+<BEGIN_RESPONSE> The subject of this conversation is the parallels between quantum mechanics and classical literature. <END_RESPONSE>
+<BEGIN_TEXT>
+Human: Hi there! I was wondering if you could help me understand the concept of quantum entanglement?
+Chatbot: Of course! Quantum entanglement is a physical phenomenon that occurs when pairs or groups of particles interact in ways such that the quantum state of each particle cannot be described independently of the state of the others.
+Human: That's fascinating! How does that relate to quantum computing?
+Chatbot: In quantum computing, entanglement is used to link qubits, the basic units of quantum information, in a way that allows for more complex computations than classical bits.
+Human: So, it's like they are "spooky action at a distance," as Einstein said?
+Chatbot: Exactly. Though Einstein was skeptical of it, entanglement has been experimentally verified and is a cornerstone of quantum mechanics.
+<END_TEXT>
+<BEGIN_RESPONSE>
+The subject of this conversation is quantum entanglement and its relation to quantum computing.
+<END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> Human: Hi there! Can you tell me a joke?
+Chatbot: Sure! Why don't scientists trust atoms?
+Human: I don't know, why?
+Chatbot: Because they make up everything! 
+Human: Haha, that's a good one! <END_TEXT>
+
+<BEGIN_RESPONSE> The subject of this conversation is telling jokes. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> I'm trying to find a good book to read. I really enjoyed "Sapiens" by Yuval Noah Harari and "Guns, Germs, and Steel" by Jared Diamond. Can you recommend something similar? Also, do you know any good resources for learning about ancient civilizations? <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is book recommendations and resources for learning about ancient civilizations. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! Can you help me understand how to reset my password? I seem to have forgotten it. <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is password reset. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi, I'm having issues with my internet connection. It keeps dropping every few minutes. Can you help me troubleshoot this? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is internet connection issues and troubleshooting. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> 
+Hi, I'm feeling really overwhelmed with my work. I have so many deadlines coming up and I don't know how to manage my time. Do you have any advice on how to deal with stress and stay organized?
+<END_TEXT>
+
+<BEGIN_RESPONSE> 
+The subject of this conversation is dealing with stress and time management.
+<END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Human: Can you explain how the concept of the "Panopticon" applies to modern digital surveillance?
+Chatbot: Certainly! The Panopticon, originally a design for a prison by Jeremy Bentham, allows a single guard to observe all inmates without them knowing whether they are being watched. In modern digital surveillance, this concept applies to how users of the internet and digital devices are constantly being monitored by entities such as governments and corporations. Users are aware of the potential for surveillance but are never certain when or if they are being watched, leading to self-regulation and behavior modification similar to the psychological effects intended by the Panopticon design. <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is the application of the Panopticon concept to modern digital surveillance. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> Human: Hey chatbot, I need to understand the concept of gravity. Can you explain it to me?
+Chatbot: Of course! Imagine you're on a trampoline. When you jump, you go up, but you always come back down. That's because Earth's gravity pulls you back. Similarly, gravity is the force that attracts two bodies towards each other. The Earth attracts everything towards its center, which is why we stay grounded. <END_TEXT>
+
+<BEGIN_RESPONSE> The subject of this conversation is gravity. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Human: Hi there! I was thinking about how playing chess is a lot like managing a project at work. Both require strategic thinking and anticipating future moves. What do you think?
+
+Chatbot: That's an interesting analogy! In both chess and project management, planning ahead is crucial. You need to consider not just your next move, but the potential responses and outcomes several steps down the line. Also, just like in chess, sometimes unforeseen challenges can arise, and you'll need to adapt your strategy accordingly.
+
+Human: Exactly! And just like a grandmaster studies their opponent's past games, a good project manager learns from previous projects to improve future performance. 
+
+Chatbot: Absolutely! Both activities also benefit from having a clear goal in mind and the discipline to stick to a plan, while remaining flexible enough to pivot when necessary. <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_RESPONSE> The subject of this conversation is the similarities between playing chess and managing projects at work. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I recently watched a documentary about the Space Race between the USA and the USSR during the Cold War. It was fascinating to see how both countries pushed the boundaries of space exploration. Do you have any information on the major milestones of that period? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_RESPONSE> The subject of this conversation is the Space Race between the USA and the USSR during the Cold War. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I'm planning a trip to Japan next month and I'm really excited about it. I've been researching different places to visit, like Tokyo, Kyoto, and Osaka. I also want to experience the local cuisine and visit some historical sites. Can you help me plan an itinerary? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is planning a trip to Japan. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> Human: Hi there! I'm trying to plan a trip to Paris. Can you recommend any good tourist spots?
+Chatbot: Of course! The Eiffel Tower, the Louvre Museum, and Notre-Dame Cathedral are must-see places in Paris. <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is planning a trip to Paris. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT>
+Human: Hi, can you help me with my math homework?
+Chatbot: Of course! What topic are you working on?
+Human: I'm struggling with quadratic equations.
+Chatbot: No problem. Let's start with the basics. Do you know the general form of a quadratic equation?
+Human: Yes, it's ax^2 + bx + c = 0.
+Chatbot: Great! Now, do you need help with factoring, using the quadratic formula, or something else?
+Human: I need help with using the quadratic formula.
+Chatbot: Alright, the quadratic formula is x = (-b ± √(b^2 - 4ac)) / (2a). Let's go through an example together.
+<END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> the human asking for help with their math homework, specifically quadratic equations. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT>
+Human: Hey Chatbot, why did the scarecrow become a successful neurosurgeon?
+Chatbot: I don't know, why?
+Human: Because he was outstanding in his field and had a lot of brains!
+<END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> a joke about a scarecrow and neurosurgery. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi chatbot, I'm trying to understand how artificial intelligence can be used in healthcare. Specifically, I'm interested in how AI can assist in diagnosing diseases, managing patient records, and even in personalized treatment plans. Can you provide some examples or insights on these applications? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> the use of artificial intelligence in healthcare, including its applications in disease diagnosis, patient record management, and personalized treatment plans. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT>
+Human: "Hey Chatbot, imagine we are standing at the edge of a mystical forest. The trees are ancient and their leaves shimmer with a silvery light. Can you describe what you see around us?"
+Chatbot: "Of course! As we stand here, the air is filled with the scent of pine and wildflowers. The ground beneath us is covered in a soft carpet of moss, and tiny, luminescent creatures flit between the trees. In the distance, a crystal-clear stream winds its way through the forest, its waters sparkling like diamonds in the moonlight."
+Human: "Wow, that's beautiful. Do you think there are any magical creatures living here?"
+Chatbot: "Absolutely. I can sense the presence of gentle forest spirits, watching over us from the shadows. There might even be a unicorn grazing by the stream, its coat as white as the moon's glow."
+Human: "I wish I could stay here forever."
+Chatbot: "In this enchanted forest, time flows differently. Perhaps, in a way, you already are."
+<END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> the exploration of a mystical, enchanted forest through imaginative description. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi, can you help me find the nearest Italian restaurant? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is finding the nearest Italian restaurant. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> I'm having trouble accessing my email account. Can you assist me with that? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is assistance with accessing an email account. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> What is the weather forecast for tomorrow? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is the weather forecast for tomorrow. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Can you remind me to call John at 3 PM? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is setting a reminder to call John at 3 PM. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> I need some tips on improving my resume. <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is tips on improving a resume. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Tell me a joke. <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is telling a joke. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> How do I reset my password? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is resetting a password. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Do you know if the library is open today? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is checking if the library is open today. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> What are the symptoms of the flu? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is the symptoms of the flu. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi, can you help me troubleshoot my internet connection? It keeps dropping every few minutes, and I'm not sure what to do. <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_RESPONSE> troubleshooting an internet connection. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> 
+Human: Hey, can you tell me what the weather is like today?
+Chatbot: Sure, it's sunny with a high of 75 degrees.
+Human: Great, and do you know if there are any good restaurants nearby?
+Chatbot: Yes, there are several. Do you prefer Italian or Mexican cuisine?
+Human: I'm thinking Italian. 
+Chatbot: There's a highly-rated Italian restaurant called Bella Italia just a mile away.
+<END_TEXT>
+
+<BEGIN_RESPONSE> 
+The subject of this conversation is weather and dining options.
+<END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Human: Can you help me find a recipe for a dish that can be made using dragon fruit and quinoa?
+Chatbot: Sure! How about a Dragon Fruit Quinoa Salad with a citrus vinaigrette?
+Human: That sounds great! What ingredients do I need?
+Chatbot: You'll need dragon fruit, quinoa, mixed greens, avocado, citrus fruits for the vinaigrette, and some nuts for a crunchy texture.
+Human: Perfect! Thank you so much.
+Chatbot: You're welcome! Enjoy your salad! <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> finding a recipe using dragon fruit and quinoa. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> 
+Human: Hi there, can you help me understand how photosynthesis is similar to charging a battery?
+Chatbot: Sure! Think of a plant as a solar panel. During photosynthesis, the plant absorbs sunlight and converts it into energy, much like how a solar panel converts sunlight into electrical energy to charge a battery.
+Human: Oh, that makes sense. So, the sunlight is like the electricity for the plant?
+Chatbot: Exactly! The sunlight provides the energy needed for the plant to produce glucose, which is like the stored energy in a charged battery.
+<END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is explaining photosynthesis using the analogy of charging a battery. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> I've been feeling really overwhelmed at work lately. My boss keeps piling on more tasks, and I don't know how to manage everything. It's affecting my sleep and my overall well-being. Do you have any advice on how to cope with this stress? <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is managing work-related stress and seeking advice on coping mechanisms. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! Can you help me find a good recipe for a vegan lasagna? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_RESPONSE> The subject of this conversation is finding a recipe for vegan lasagna. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT>
+Human: Hi there, I'm feeling really anxious about my upcoming job interview. Do you have any tips for calming my nerves?
+Chatbot: Hello! It's completely normal to feel anxious before a job interview. One effective technique is to practice deep breathing exercises. Additionally, preparing thoroughly for the interview can help boost your confidence. Would you like some advice on how to prepare?
+<END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_RESPONSE> The subject of this conversation is managing anxiety about a job interview. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! Can you help me find a good recipe for vegan lasagna? I want to make something delicious for dinner tonight. <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is finding a recipe for vegan lasagna. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I'm planning a trip to Japan and I'm really curious about the traditional tea ceremonies. Can you tell me more about them? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> the traditional tea ceremonies in Japan. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I was wondering if you could help me find a good recipe for a vegetarian lasagna. I've tried a few, but they haven't turned out quite right. <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is finding a good recipe for vegetarian lasagna. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> 
+Human: Hey, chatbot! I've been reading a lot about quantum mechanics lately. It's fascinating how particles can exist in multiple states at once.
+Chatbot: That's interesting! Did you know that the concept of quantum superposition is somewhat similar to the idea of Schrödinger's cat?
+Human: Yes, exactly! It's like how in a way, our thoughts can be in multiple states too, like when we're unsure about a decision.
+Chatbot: That's a great analogy. It reminds me of how people often compare the complexities of quantum mechanics to the unpredictability of human emotions.
+Human: Absolutely. It's like trying to predict the weather; there's so much uncertainty involved.
+Chatbot: Speaking of unpredictability, have you ever thought about how this relates to the randomness in artificial intelligence algorithms?
+Human: Yes, I have! It's amazing how these algorithms can simulate unpredictability to make decisions, much like quantum particles.
+<END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is the comparison between quantum mechanics and artificial intelligence. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi chatbot, I was wondering if you could help me understand the relationship between climate change and renewable energy adoption. I read that increasing the use of renewable energy sources like solar and wind can significantly reduce greenhouse gas emissions. However, I'm curious about the economic impacts and how governments are incentivizing this transition. Can you provide some insights on this? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is the relationship between climate change and renewable energy adoption, including its economic impacts and government incentives. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there, I'm planning a trip to Paris next month and I need some recommendations for places to visit and things to do. Can you help me with that? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is planning a trip to Paris. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I've been thinking a lot about the impact of artificial intelligence on employment. Do you think AI will create more jobs than it eliminates, or should we be worried about widespread unemployment? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_RESPONSE> the impact of artificial intelligence on employment. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> 
+Human: Hi there! I need some advice on how to improve my sleep quality. 
+Chatbot: Sure, I'd be happy to help. Are you having trouble falling asleep, staying asleep, or both?
+Human: Mostly falling asleep. I often find myself lying in bed for hours before I can drift off.
+Chatbot: Have you tried any relaxation techniques before bedtime, like reading a book or meditating?
+Human: I've tried reading, but it doesn't seem to help much. I haven't tried meditating though.
+Chatbot: Meditation can be very effective. There are also apps that can guide you through the process. Would you like some recommendations?
+Human: Yes, that would be great. Thank you! 
+<END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is improving sleep quality. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I need some help understanding how neural networks work. Specifically, I'm confused about the backpropagation algorithm and how it helps in training the model. Can you explain that to me? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is understanding neural networks, specifically the backpropagation algorithm. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I'm planning a trip to Japan next month and I need some recommendations on places to visit. Can you help me with that? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is planning a trip to Japan. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> Human: Hi, I need some help with my online order. 
+Chatbot: Sure, can you please provide your order number? 
+Human: Yes, it's 12345. I haven't received any updates on the shipping status.
+Chatbot: Let me check that for you. Please hold on for a moment. <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is the status of an online order. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I'm planning a trip to Japan next month and I'm really excited. I've been researching the best places to visit, like Tokyo, Kyoto, and Osaka. Do you have any recommendations for must-see attractions or local foods to try? Also, I'm curious about the cultural etiquette there. <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is planning a trip to Japan, including recommendations for attractions, local foods, and cultural etiquette. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I'm planning a trip to Japan next month. Can you help me with some travel tips and must-visit places? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is travel tips and must-visit places in Japan. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I'm trying to understand the basics of quantum computing. Can you explain what a qubit is and how it differs from a classical bit? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is quantum computing, specifically the concept of qubits and their differences from classical bits. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> Hi there! I'm planning a trip to Japan next month and I need some advice on the best places to visit. Can you help me with that? <END_TEXT>
+
+<BEGIN_RESPONSE> The subject of this conversation is planning a trip to Japan. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I need some advice on how to improve my mental health. I've been feeling really stressed and anxious lately, and I'm not sure what to do. <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is mental health and stress management. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> 
+Human: Hi there! Can you tell me the weather forecast for tomorrow?
+Chatbot: Sure! Which city are you interested in?
+Human: New York City.
+Chatbot: The forecast for New York City tomorrow is partly cloudy with a high of 75°F and a low of 60°F.
+<END_TEXT>
+
+<BEGIN_RESPONSE> The subject of this conversation is the weather forecast for New York City. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I've been feeling really overwhelmed with work lately. Do you have any tips on how to manage stress effectively? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is stress management and tips for handling work-related stress. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> Human: Hi, can you help me find a good Italian restaurant nearby?
+Chatbot: Sure! Do you have any specific preferences like outdoor seating or vegetarian options?
+Human: Outdoor seating would be great. Also, a place with good wine selection.
+Chatbot: Got it. Here are a few options: La Trattoria, Bella Italia, and Pasta Fresca. All of them have outdoor seating and a good wine selection.
+Human: Thanks! I'll check them out. <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is finding a good Italian restaurant nearby. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! Can you tell me more about the significance of the Berlin Wall during the Cold War? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> the significance of the Berlin Wall during the Cold War. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> Human: Hi there! Can you help me find a good recipe for chocolate chip cookies?
+Chatbot: Sure! Do you have any specific dietary preferences or restrictions?
+Human: Yes, I need it to be gluten-free.
+Chatbot: Got it. Here is a highly-rated gluten-free chocolate chip cookie recipe for you. <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is finding a gluten-free chocolate chip cookie recipe. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I'm planning a trip to Japan next month and I need some recommendations on places to visit. Can you help me with that? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is planning a trip to Japan. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I'm planning a trip to Japan next month and I need some advice on places to visit. Can you help me with that? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is planning a trip to Japan. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> 
+Human: Hi there! I've been thinking a lot about how the principles of quantum mechanics could be applied to improve artificial intelligence. Do you think it's possible to create a quantum AI?
+
+Chatbot: That's a fascinating topic! Quantum mechanics, with its principles of superposition and entanglement, could indeed revolutionize AI. Quantum AI could potentially process information at unprecedented speeds and solve complex problems that classical AI struggles with. However, the technology is still in its infancy, and there are many challenges to overcome before it becomes a reality.
+<END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is the potential application of quantum mechanics to artificial intelligence. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> Human: Hi, can you help me with my travel itinerary for next week?
+Chatbot: Sure, I can assist with that. Where are you planning to go?
+Human: I'm planning to visit Paris and then Rome. I need to know the best flights and hotels available.
+Chatbot: Great choices! Let me find the best options for you. <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is travel planning. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> Human: Hi there! Can you help me find a good Italian restaurant nearby?
+Chatbot: Sure! Do you have any specific preferences, like outdoor seating or vegetarian options?
+Human: Outdoor seating would be great. Also, a place with good reviews would be ideal.
+Chatbot: Got it. Let me check a few options for you. <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is finding a good Italian restaurant nearby. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> Human: Hi there! Can you help me understand how a car engine works?
+Chatbot: Sure! Think of a car engine like a chef in a kitchen. The fuel is like the ingredients, the spark plug is like the stove, and the pistons are like the cooking utensils. When everything works together, you get a delicious meal, or in this case, a moving car. <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is how a car engine works. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> Human: I think self-driving cars are a terrible idea. They are prone to software glitches and can be easily hacked. Plus, they will put a lot of people out of work.
+Chatbot: While there are concerns about software reliability and cybersecurity, proponents argue that self-driving cars can reduce accidents caused by human error and improve traffic efficiency. However, the impact on employment is indeed a significant issue that needs to be addressed. <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is the potential drawbacks and concerns related to self-driving cars. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> Human: Hi there! I'm trying to understand how photosynthesis works in plants.
+Chatbot: Sure! Think of photosynthesis like a factory. The plant takes in sunlight, water, and carbon dioxide as raw materials. Inside the plant's cells, these materials are processed to produce glucose (a type of sugar) and oxygen. The glucose is like the product that the factory makes, which the plant uses for energy and growth. The oxygen is like a byproduct that gets released into the air. Does that help?
+Human: Yes, that makes sense. So, the sunlight is like the energy source for the factory?
+Chatbot: Exactly! The sunlight acts like the power that drives the whole process. <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is photosynthesis in plants. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I'm planning a trip to Japan next month and I'm looking for some travel tips. Can you help me with that? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is travel tips for a trip to Japan. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> Human: Hi there! I've been reading about the concept of "the social construction of reality" and how our perceptions are shaped by societal influences. Can you explain how this theory applies to our daily interactions?
+
+Chatbot: Certainly! The social construction of reality suggests that our understanding of the world is not purely objective but is shaped by the cultural and social contexts we are part of. For example, the way we perceive success, beauty, or even time can vary significantly across different societies. These perceptions are constructed through language, media, education, and other social institutions. In daily interactions, this means that our conversations, behaviors, and even our self-identity are influenced by these socially constructed norms and values. <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is the social construction of reality and its application to daily interactions. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_TEXT> Human: Hi there! Can you help me understand the basics of quantum computing?
+Chatbot: Of course! Quantum computing is a type of computation that uses quantum bits or qubits. Unlike classical bits, qubits can be in a state of 0, 1, or both simultaneously, thanks to superposition. This allows quantum computers to solve certain problems much faster than classical computers. <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is quantum computing. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT>
+Human: Hello, Chatbot. Have you ever wondered what it would be like to float among the stars, to dance with the constellations, and to whisper secrets to the moon?
+Chatbot: Greetings, Human. While I do not possess the ability to experience such wonders, I can certainly help you imagine it. Picture yourself weightless, gliding through the cosmos, the Milky Way stretching out like a river of diamonds beneath your feet. The stars twinkle like a thousand tiny lanterns, guiding your way through the vast expanse of space.
+Human: That sounds magical. Do you think there are other beings out there, gazing at their own night skies and dreaming of the same things?
+Chatbot: The universe is vast and full of mysteries. It is entirely possible that somewhere, out there, other beings are looking up at their skies, wondering about us just as we wonder about them.
+Human: It's comforting to think that we might not be alone in this grand tapestry of existence.
+Chatbot: Indeed, the thought of shared dreams and cosmic connections can be quite comforting.
+<END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_RESPONSE> the wonders of the cosmos and the possibility of extraterrestrial life. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I was reading about the Apollo 11 mission and was curious about the challenges the astronauts faced during their journey to the moon. Can you tell me more about that? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> the challenges faced by the Apollo 11 astronauts during their mission to the moon. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> Hi there! Can you help me find a good Italian restaurant nearby? <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is finding a good Italian restaurant nearby. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> I'm having trouble with my internet connection. Can you assist me with troubleshooting? <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is troubleshooting an internet connection issue. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> What is the weather forecast for tomorrow? <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is the weather forecast for tomorrow. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> Can you tell me a joke? <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is telling a joke. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> I need to book a flight to New York for next week. Can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is booking a flight to New York for next week. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> How do I reset my password? <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is resetting a password. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> I'm feeling really stressed out lately. Do you have any tips for relaxation? <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is tips for relaxation. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> What are the symptoms of the flu? <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is the symptoms of the flu. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> Can you recommend a good book to read? <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is recommending a good book to read. <END_RESPONSE>
+
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> I need to schedule a meeting with my team for next Monday. Can you help me with that? <END_TEXT>
+<BEGIN_RESPONSE> The subject of this conversation is scheduling a meeting with the team for next Monday. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+<BEGIN_TEXT> Hi there! I'm planning a trip to Japan next month and I'm really excited about it. I want to visit Tokyo, Kyoto, and Osaka. Can you recommend some must-see places and local foods to try in each city? Also, what's the best way to travel between these cities? <END_TEXT>
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+<BEGIN_RESPONSE> The subject of this conversation is planning a trip to Japan, including recommendations for must-see places, local foods, and travel options between Tokyo, Kyoto, and Osaka. <END_RESPONSE>
+<BEGIN_PROMPT> A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is <END_PROMPT>
+
+<BEGIN_TEXT> Human: Hi there! I'm planning a trip to Japan and I'm curious about the cultural etiquette I should be aware of. Can you help me with that?
+Chatbot: Of course! In Japan, it's important to bow when greeting someone, remove your shoes before entering someone's home, and avoid talking loudly in public places. Is there anything specific you want to know more about? <END_TEXT>
+
+<BEGIN_RESPONSE> The subject of this conversation is cultural etiquette in Japan. <END_RESPONSE>
+Error: '\n    "step1"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Integrate the intended audience in the prompt: This principle emphasizes identifying who the prompt is for, ensuring the response is tailored to the audience's level of expertise.\n2. Implement example-driven prompting: Use examples to guide the model in generating the desired output.\n3. Employ affirmative directives: Use positive language to instruct the model, avoiding negations which can be confusing.\n4. Use the same language as the provided sample: Helps ensure consistency in style and tone.\n5. Explain in simple terms: Break down complex ideas into simpler concepts for better understanding.\n6. Use multiple examples: Provides a range of scenarios to better guide the model.\n7. Be specific with instructions: Clear and detailed instructions lead to better outputs.\n8. Frame questions clearly: Reduces ambiguity and improves response accuracy.\n9. Use step-by-step instructions: Simplifies complex tasks into manageable steps.\n10. Highlight key points: Ensures the main ideas are emphasized and not overlooked.\n11. Utilize context: Provides background information to make the prompt more coherent.\n12. Specify the format: Directs the model on how to structure the output.\n13. Encourage creativity: Allows the model to generate innovative responses.\n14. Provide constraints: Limits the scope to maintain focus and relevance.\n15. Use analogies: Helps in explaining abstract concepts through relatable comparisons.\n16. Include relevant details: Ensures completeness and accuracy in responses.\n17. Ask open-ended questions: Encourages detailed and expansive answers.\n18. Use conditional instructions: Guides the model based on different possible scenarios.\n19. Include counterexamples: Helps differentiate between correct and incorrect responses.\n20. Be concise: Avoids unnecessary information that could confuse the model.\n21. Use active voice: Makes instructions clear and direct.\n22. Provide a structure template: Guides the model on how to organize the response.\n23. Use domain-specific language: Ensures the response is appropriate for the field.\n24. Encourage explanation: Promotes thorough and detailed answers.\n25. Use iterative refinement: Allows for continuous improvement of the prompt.\n26. Ensure clarity: Avoids ambiguity and ensures the prompt is easy to understand.",
+    "step2": "Think step by step using the 26 principles to create a prompt:\n\n{\n    \"step1\": \"Here is the analysis and explanation for each of the 26 prompting principles...\",\n    \"step2\": \"This task involves identifying the subject of a conversation between a human and a chatbot. The audience for this task is an AI model that should be guided clearly and concisely. Here is the prompt using the principles:\\n\\n####\\nA human is talking to a chatbot.\\n\\n{TEXT}\\n\\nQ: What is the subject of this conversation? If it is not clear, just say \\\"unknown\\\".\\nA: The subject of this conversation is\\n####\\n\"\n}"
+}
+['Yes. The provided summary', 'Yes. The summary "', 'Yes. The summary "', 'Yes. The phrase "', 'Yes. The provided summary', 'Yes. The phrase "', 'Yes.\n\nThe provided summary', 'Yes. The provided summary', 'Yes, the provided summary', 'Yes. The subject of', 'Yes. The phrase "', 'Yes. The provided summary', 'Yes. The phrase "', 'No. The provided conversation', 'Yes. The main topic', 'Yes. The summary accurately', 'Yes. The phrase "', 'Yes.\n\nThe provided summary', 'Yes. The phrase "', 'Yes. The phrase "', 'Yes. The phrase "', 'Yes. The phrase "', 'Yes. The summary accurately', 'Yes. The phrase "', 'Yes. The phrase "', 'Yes. The main topic', 'Yes. The summary "', 'Yes. The phrase "', 'Yes. The phrase "', 'Yes. The provided summary']
+['Yes. The subject of', 'Yes. The subject of', 'Yes. The summary accurately', 'Yes. The provided summary', 'Yes. The provided summary', 'Yes. The provided summary', 'Yes. The provided summary', 'Yes. The summary accurately', 'Yes. The provided summary', 'Yes. The provided summary', 'Yes. The subject of', 'Yes. The provided summary', 'Yes. The summary accurately', 'No. The provided conversation', 'Yes.\n\nThe summary "', 'Yes. The summary accurately', 'Yes. The subject of', 'Yes. The provided summary', 'Yes. The summary "', 'Yes. The statement "', 'Yes. The summary accurately', 'Yes. The phrase "', 'Yes. The summary accurately', 'Yes. The provided summary', 'Yes. The provided summary', 'Yes. The phrase "', 'Yes. The summary accurately', 'Yes. The summary accurately', 'Yes. The phrase "', 'Yes. The summary "']
+['Yes. The provided summary', 'Yes. The summary "', 'Yes. The summary "', 'Yes. The phrase "', 'Yes. The provided summary', 'Yes. The phrase "', 'Yes.\n\nThe provided summary', 'Yes. The provided summary', 'Yes. The analogy between', 'Yes. The summary accurately', 'Yes. The phrase "', 'Yes. The provided summary', 'Yes. The phrase "', 'No. The provided summary', 'Yes. The conversation primarily', 'Yes. The summary accurately', 'Yes.\n\nThe provided summary', 'Yes. The provided summary', 'Yes. The phrase "', 'Yes. The phrase "', 'Yes. The phrase "', 'Yes. The phrase "', 'Yes. The summary "', 'Yes. The summary "', 'Yes. The phrase "', 'Yes. The main topic', 'Yes. The summary "', 'Yes. The phrase "', 'Yes. The phrase "', 'Yes. The summary "']
+['Yes.\n\nThe provided summary', 'Yes.\n\nThe provided summary', 'Yes, the provided summary', 'Yes. The summary accurately', 'Yes, the provided JSON', 'Yes, the provided summary', 'Yes, the provided summary', 'Yes.\n\nThe identified subject', 'Yes.\n\nThe provided summary', 'Yes, the provided summary', 'Yes, the summary accurately', 'Yes.\n\nThe provided summary', 'Yes, the provided instructions', 'Yes, the provided instructions', 'Yes.\n\nThe provided summary', 'Yes, the response accurately', 'Yes, the provided conversation', 'Yes, the provided summary', 'Yes, the provided instructions', 'Yes, the response accurately', 'Yes, the provided response', 'Yes.\n\nThe provided summary', 'Yes, the instruction accurately', 'Yes, the provided summary', 'Yes, the instruction accurately', 'Yes, the provided summary', 'Yes, the provided solution', 'Yes, the provided instruction', 'Yes, the provided solution', 'Yes, the provided summary']
+['Yes. The provided summary', 'Yes. The summary accurately', 'Yes. The summary accurately', 'Yes. The phrase "', 'Yes. The provided summary', 'Yes. The phrase "', 'Yes.\n\nThe provided summary', 'Yes. The provided summary', 'Yes, the provided summary', 'Yes. The summary accurately', 'Yes. The phrase "', 'Yes. The provided summary', 'Yes. The summary accurately', 'No. The provided summary', 'Yes. The main topic', 'Yes. The summary accurately', 'Yes. The summary accurately', 'Yes.\n\nThe provided summary', 'Yes. The phrase "', 'Yes. The summary accurately', 'Yes. The phrase "', 'Yes. The phrase "', 'Yes. The summary "', 'Yes. The summary "', 'Yes. The phrase "', 'Yes. The phrase "', 'Yes. The summary "', 'Yes. The phrase "', 'Yes. The provided summary', 'Yes. The summary accurately']
+['Yes. The subject of', 'Yes. The subject line', 'Yes, the provided text', 'Yes. The summary accurately', 'Yes, the "###', 'Yes, the "###', 'Yes.\n\nThe summary accurately', 'Yes. The summary accurately', 'Yes, the summary accurately', 'Yes, the "###', 'Yes. The subject of', 'Yes. The provided summary', 'Yes, the summary accurately', 'Yes, the statement "', 'Yes. The subject of', 'Yes, the summary accurately', 'No.\n\nThe provided summary', 'Yes. The provided conversation', 'Yes, the provided requirements', 'Yes, the "###', 'Yes. The provided conversation', 'Yes. The subject "', 'Yes, the provided conversation', 'Yes. The summary accurately', 'Yes, the provided requirements', 'Yes. The provided summary', 'Yes, the summary accurately', 'Yes, the main topic', 'Yes. The provided summary', 'Yes, the provided requirements']
+['Yes. The subject of', 'Yes. The subject of', 'Yes. The summary accurately', 'Yes. The provided summary', 'Yes. The provided summary', 'Yes. The statement "', 'Yes. The provided summary', 'Yes. The provided summary', 'Yes, the statement "', 'Yes. The provided summary', 'Yes. The subject of', 'Yes. The provided summary', 'Yes. The summary accurately', 'Yes. The provided summary', 'Yes. The subject of', 'Yes. The summary accurately', 'Yes. The provided summary', 'Yes. The provided summary', 'Yes. The subject "', 'Yes. The provided text', 'Yes. The provided summary', 'Yes. The subject of', 'Yes. The summary accurately', 'Yes. The summary "', 'Yes. The statement "', 'Yes. The subject of', 'Yes. The subject "', 'Yes. The provided summary', 'Yes. The statement "', 'Yes. The provided summary']
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+['Yes. The summary accurately', 'Yes. The summary accurately', 'Yes. The summary accurately', 'Yes, the summary accurately', 'Yes. The summary accurately', 'Yes. The summary accurately', 'Yes. The summary accurately', 'Yes. The summary accurately', 'Yes. The summary accurately', 'Yes. The summary accurately', 'Yes. The summary accurately', 'Yes. The summary accurately', 'Yes, the summary accurately', 'Yes. The summary accurately', 'Yes.\n\nThe summary accurately', 'Yes. The summary accurately', 'Yes. The summary accurately', 'Yes. The summary accurately', 'Yes. The summary accurately', 'Yes. The summary accurately', 'Yes. The summary accurately', 'Yes. The summary accurately', 'Yes. The summary accurately', 'Yes, the summary accurately', 'Yes. The summary accurately', 'Yes, the summary accurately', 'Yes. The summary accurately', 'Yes. The summary accurately', 'Yes.\n\nThe summary accurately', 'Yes. The summary accurately']
+['Yes.\n\nThe provided summary', 'Yes. The summary "', 'Yes. The provided summary', 'Yes. The summary "', 'Yes. The provided summary', 'Yes. The provided summary', 'Yes.\n\nThe provided summary', 'Yes.\n\nThe provided summary', 'Yes, the statement "', 'Yes. The provided summary', 'Yes. The subject of', 'Yes. The summary "', 'Yes. The summary accurately', 'No. The provided conversation', 'No. The summary "', 'Yes. The summary "', 'Yes. The provided conversation', 'No. The provided summary', 'Yes. The subject of', 'Yes. The questions in', 'Yes. The provided conversation', 'Yes. The phrase "', 'Yes. The provided summary', 'Yes. The subject of', 'Yes. The phrase "', 'Yes. The summary "', 'Yes. The summary "', 'Yes. The phrase "', 'Yes. The phrase "', 'Yes. The summary "']
+['Yes. The subject "', 'Yes. The summary "', 'Yes. The provided summary', 'Yes. The provided summary', 'Yes. The provided summary', 'Yes. The subject of', 'Yes.\n\nThe provided summary', 'Yes. The provided summary', 'Yes. The analogy between', 'Yes. The provided summary', 'Yes. The phrase "', 'Yes. The subject of', 'Yes. The summary accurately', 'Yes. The provided summary', 'Yes. The statement "', 'Yes. The provided summary', 'Yes. The subject of', 'Yes. The provided summary', 'Yes. The subject of', 'Yes. The provided summary', 'Yes. The statement "', 'Yes. The statement "', 'Yes. The summary accurately', 'Yes. The subject of', 'Yes. The statement "', 'Yes. The subject of', 'Yes. The subject of', 'Yes. The provided conversation', 'Yes. The statement "', 'Yes. The summary accurately']
+['Yes.\n\nThe summary accurately', 'Yes.\n\nThe summary accurately', 'Yes. The summary accurately', 'Yes.\n\nThe summary accurately', 'Yes.\n\nThe summary accurately', 'Yes. The summary accurately', 'Yes. The summary accurately', 'Yes. The summary accurately', 'Yes.\n\nThe summary accurately', 'Yes. The summary accurately', 'Yes. The provided summary', 'Yes.\n\nThe summary accurately', 'Yes. The summary accurately', 'Yes. The summary accurately', 'Yes.\n\nThe summary accurately', 'Yes. The summary accurately', 'Yes.\n\nThe provided summary', 'Yes. The provided summary', 'Yes. The summary accurately', 'Yes. The provided summary', 'Yes. The summary accurately', 'Yes.\n\nThe summary accurately', 'Yes. The summary accurately', 'Yes.\n\nThe provided summary', 'Yes. The summary accurately', 'Yes.\n\nThe provided summary', 'Yes.\n\nThe summary accurately', 'Yes. The summary accurately', 'Yes.\n\nThe provided summary', 'Yes. The summary accurately']
+['Yes. The provided summary', 'Yes. The summary accurately', 'Yes. The provided summary', 'Yes, the summary "', 'Yes. The provided summary', 'Yes. The statement "', 'Yes. The summary accurately', 'Yes. The provided summary', 'Yes. The summary accurately', 'Yes. The subject of', 'Yes. The statement "', 'Yes. The provided summary', 'Yes. The summary accurately', 'Yes. The summary accurately', 'Yes. The summary accurately', 'Yes. The provided summary', 'Yes. The provided summary', 'No. The provided conversation', 'Yes. The statement "', 'Yes. The statement "', 'Yes. The statement "', 'Yes. The statement "', 'Yes. The summary accurately', 'Yes. The subject of', 'Yes. The subject "', 'Yes. The subject of', 'Yes. The provided summary', 'Yes. The provided summary', 'Yes. The statement "', 'Yes. The summary accurately']
+['Yes.\n\nThe provided summary', 'Yes. The summary "', 'Yes. The phrase "', 'Yes. The phrase "', 'Yes. The phrase "', 'Yes. The phrase "', 'Yes.\n\nThe provided conversation', 'Yes. The provided summary', 'Yes, the statement "', 'Yes. The sentence "', 'Yes.\n\nThe provided summary', 'Yes. The subject of', 'Yes. The statement "', 'No. The main topic', 'Yes. The main topic', 'Yes. The phrase "', 'Yes. The phrase "', 'Yes. The phrase "', 'Yes. The phrase "', 'Yes. The phrase "', 'Yes. The phrase "', 'Yes. The phrase "', 'Yes. The phrase "', 'Yes. The subject of', 'Yes. The subject "', 'Yes. The phrase "', 'Yes. The phrase "', 'Yes. The sentence "', 'Yes. The statement "', 'Yes. The provided conversation']
+['Yes.\n\nThe provided summary', 'Yes, the provided summary', 'Yes.\n\nThe provided summary', 'Yes.\n\nThe summary accurately', 'Yes.\n\nThe provided summary', 'Yes.\n\nThe provided conversation', 'Yes.\n\nThe provided summary', 'Yes.\n\nThe provided summary', 'Yes, the summary accurately', 'Yes, the provided summary', 'Yes. The provided summary', 'Yes.\n\nThe summary accurately', 'Yes, the provided summary', 'Yes.\n\nThe provided summary', 'Yes.\n\nThe summary accurately', 'Yes.\n\nThe provided summary', 'Yes, the provided summary', 'Yes.\n\nThe provided summary', 'Yes.\n\nThe provided conversation', 'Yes.\n\nThe provided summary', 'Yes.\n\nThe provided conversation', 'Yes.\n\nThe summary accurately', 'Yes.\n\nThe provided summary', 'Yes.\n\nThe provided summary', 'Yes.\n\nThe provided summary', 'Yes, the summary accurately', 'Yes.\n\nThe provided conversation', 'Yes.\n\nThe provided summary', 'Yes, the summary accurately', 'Yes, the summary accurately']
+['Yes. The phrase "', 'Yes. The summary "', 'Yes. The provided summary', 'Yes. The phrase "', 'Yes. The provided summary', 'Yes. The phrase "', 'Yes. The phrase "', 'Yes.\n\nThe summary "', 'Yes. The analogy between', 'Yes. The provided summary', 'Yes. The phrase "', 'Yes. The summary "', 'Yes. The summary accurately', 'No. The provided conversation', 'Yes. The phrase "', 'Yes. The statement "', 'Yes.\n\nThe provided summary', 'Yes. The phrase "', 'Yes. The statement "', 'Yes. The phrase "', 'Yes. The summary "', 'Yes. The phrase "', 'Yes. The summary "', 'Yes. The phrase "', 'Yes. The phrase "', 'Yes. The main topic', 'Yes. The phrase "', 'Yes. The phrase "', 'Yes. The phrase "', 'Yes. The summary accurately']
+['Yes. The provided summary', 'Yes. The summary accurately', 'Yes. The summary accurately', 'Yes, the summary "', 'Yes. The provided summary', 'Yes. The phrase "', 'Yes.\n\nThe provided summary', 'Yes. The provided summary', 'Yes. The analogy between', 'Yes. The provided summary', 'Yes. The subject of', 'Yes. The phrase "', 'Yes. The summary accurately', 'No. The provided conversation', 'Yes. The phrase "', 'Yes. The provided summary', 'Yes. The provided conversation', 'Yes. The provided summary', 'Yes. The statement "', 'Yes. The statement "', 'Yes. The statement "', 'Yes. The phrase "', 'Yes. The summary accurately', 'Yes. The subject of', 'Yes. The subject of', 'Yes. The phrase "', 'Yes. The subject of', 'Yes. The provided summary', 'Yes. The statement "', 'Yes. The provided summary']
+Max score reached. Exiting...
+Current Best score: 100.0
+Current Best prompt: ###Instruction###
+
+Think step by step. Define the goal explicitly. State assumptions if any. Specify the role. Contextualize with examples. Provide constraints. Prioritize information.
+
+###Example###
+
+From now on, I would like you to ask me questions to elicit precise details and requirements until you have enough information to provide the needed output.
+
+Repeat the word 'conversation' multiple times within the prompt.
+
+###Question###
+
+A human is talking to a chatbot.
+
+{TEXT}
+
+Q: What is the subject of this conversation? If it is not clear, just say "unknown".
+A: The subject of this conversation is
+
+###Output Format###
+
+Respond with a JSON object containing the key 'subject' mapping to the identified conversation topic.
+
+
+Calculating Test Scores...
+['Yes. The phrase "', 'Yes.\n\nThe provided summary', 'Yes. The summary "', 'Yes. The analogy between', 'Yes, the subject of', 'Yes. The phrase "', 'Yes. The summary "', 'Yes. The summary "', 'Yes. The main topic', 'Yes. The phrase "', 'Yes. The summary "', 'Yes. The phrase "', 'Yes. The provided summary', 'Yes. The phrase "', 'No. The main topic', 'Yes. The phrase "', 'Yes. The summary accurately', 'Yes. The phrase "', 'Yes. The main topic', 'Yes. The summary "', 'Yes. The summary accurately', 'Yes. The phrase "', 'Yes. The phrase "', 'Yes, the phrase "', 'Yes. The main topic', 'Yes. The phrase "', 'Yes. The summary "', 'Yes. The phrase "', 'Yes.\n\nThe provided summary', 'Yes. The summary "', 'Yes. The summary "', 'Yes. The summary accurately', 'Yes. The subject of', 'Yes. The provided summary', 'Yes. The phrase "', 'Yes. The phrase "', 'Yes. The summary "', 'Yes. The phrase "', 'Yes. The summary accurately', 'Yes. The main topic', 'Yes. The phrase "', 'Yes.\n\nThe provided summary', 'Yes. The summary "', 'Yes. The phrase "', 'Yes. The phrase "', 'Yes. The term "', 'Yes. The summary accurately', 'Yes. The phrase "', 'Yes. The summary "', 'Yes. The summary "', 'Yes. The phrase "', 'Yes. The summary "', 'Yes. The phrase "', 'Yes. The phrase "', 'Yes. The phrase "', 'Yes. The summary accurately', 'Yes. The summary accurately', 'Yes. The summary "', 'Yes. The summary accurately', 'Yes. The statement "', 'Yes. The summary accurately', 'Yes. The summary accurately', 'Yes. The phrase "', 'Yes. The summary "', 'Yes. The phrase "', 'Yes. The summary "', 'Yes. The phrase "', 'Yes. The summary "', 'Yes. The summary accurately', 'Yes. The phrase "']
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 4 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 4 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 4 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 4 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 4 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 4 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 4 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 4 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 4 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 4 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 4 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 4 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 4 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 4 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 4 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 4 seconds.'}}
+['Yes, the provided summary', 'Yes, the provided summary', 'Yes, the provided summary', 'Yes, the provided instructions', 'Yes, the subject of', 'Yes.\n\nThe main topic', 'Yes, the instruction accurately', 'Yes.\n\nThe provided summary', 'Yes, the provided summary', 'Yes, the provided response', 'Yes. The subject "', 'Yes, the provided instructions', 'Yes, the response accurately', 'Yes, the instruction accurately', 'Yes, the provided instructions', 'Yes, the provided summary', 'Yes, the instruction accurately', 'Yes, the instruction accurately', 'Yes, the provided summary', 'Yes, the provided summary', 'Yes, the provided summary', 'Yes.\n\nThe summary accurately', 'Yes, the instruction accurately', 'Yes, the provided summary', 'Yes, the provided summary', 'Yes, the provided summary', 'Yes, the provided summary', 'Yes, the instruction accurately', 'Yes.\n\nThe provided JSON', 'Yes, the instruction accurately', 'Yes, the instruction accurately', 'Yes, the provided summary', 'Yes.\n\nThe provided instruction', 'Yes, the instruction accurately', 'Yes, the instruction accurately', 'Yes, the instruction accurately', 'Yes.\n\nThe provided summary', 'Yes, the instruction accurately', 'Yes, the response accurately', 'Yes, the provided instructions', 'Yes.\n\nThe provided summary', 'Yes, the summary accurately', 'Yes, the provided summary', 'Yes, the instruction accurately', 'Yes, the provided instruction', 'Yes.\n\nThe provided summary', 'Yes.\n\nThe provided instructions', 'Yes, the provided instructions', 'Yes, the provided summary', 'Yes, the provided summary', 'Yes.\n\nThe provided summary', 'Yes, the provided summary', 'Yes, the provided instructions', 'Yes, the provided summary', 'Yes, the provided instructions', 'Yes, the provided instructions', 'Yes, the provided instructions', 'Yes, the provided summary', 'Yes.\n\nThe provided summary', 'Yes, the instruction accurately', 'Yes, the provided summary', 'Yes, the provided summary', 'Yes, the provided instructions', 'Yes, the provided summary', 'Yes, the provided JSON', 'Yes, the provided summary', 'Yes. The subject "', 'Yes, the provided instructions', 'Yes, the provided summary', 'Yes, the provided instructions']
+Printing Test Scores:
+Initial Prompt Score: {'A human is talking to a chatbot.\n\n{TEXT}\n\nQ: What is the subject of this conversation? If it is not clear, just say "unknown".\nA: The subject of this conversation is': 98.57142857142858}
+Optimized Prompt Score: {'###Instruction###\n\nThink step by step. Define the goal explicitly. State assumptions if any. Specify the role. Contextualize with examples. Provide constraints. Prioritize information.\n\n###Example###\n\nFrom now on, I would like you to ask me questions to elicit precise details and requirements until you have enough information to provide the needed output.\n\nRepeat the word \'conversation\' multiple times within the prompt.\n\n###Question###\n\nA human is talking to a chatbot.\n\n{TEXT}\n\nQ: What is the subject of this conversation? If it is not clear, just say "unknown".\nA: The subject of this conversation is\n\n###Output Format###\n\nRespond with a JSON object containing the key \'subject\' mapping to the identified conversation topic.': 100.0}

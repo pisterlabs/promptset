@@ -1,0 +1,1260 @@
+Attempt 1 made.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I'm talking about the new AI technology that can write poems. <END_TEXT>
+<BEGIN_RESPONSE> Why did the AI start writing poems?
+
+Because it wanted to prove it wasn't just all data and no rhyme! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> And so the last quarterly report showed a steep rise in productivity. <END_TEXT>
+<BEGIN_RESPONSE> Why did the scarecrow become a successful manager? Because he was outstanding in his field, just like your productivity report! <END_RESPONSE>
+<BEGIN_TEXT> I was running late for work because I had to drop the kids off at school, and just as I finally thought I was making good time, I realized I left my phone at home. <END_TEXT>
+<BEGIN_RESPONSE> Why did the dad push his kids' school drop-offs so much? Because he really believed in \"driving\" their success! But guess what? He got all the way to work and realized his phone decided to *off-trail* and stay at home! Whoops! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> We need to ensure the meeting agenda includes time for brainstorming new project ideas and discussing team productivity. <END_TEXT>
+<BEGIN_RESPONSE> I guess we should take minutes during the meeting—So they can eventually grow up to be full meetings! <END_RESPONSE>
+<BEGIN_PROMPT>You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT}<END_PROMPT>
+<BEGIN_TEXT>Gravity is a force of attraction that acts between all masses. Earth’s gravity pulls objects toward its center. This force gives objects weight, with heavier masses experiencing a stronger gravitational pull. <END_TEXT>
+<BEGIN_RESPONSE>Why don’t scientists trust atoms when they discuss gravity? Because they make up everything—literally and figuratively!<END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The supervisor walked into the office and found everyone standing around a burned desktop computer. He said, "What happened?" A colleague replied, "It spontaneously combusted!" <END_TEXT>
+<BEGIN_RESPONSE> Why did the computer heat up so much? It couldn’t handle the bytes! </END_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT> The minutes from our team meeting state, "Planned server maintenance will occur this Saturday from 10 PM to 12 AM." <END_TEXT>
+<BEGIN_RESPONSE> Why don't servers tell jokes during maintenance hours?
+
+Because they always need a “timeout” to “process” them! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Alexander Graham Bell's first successful phone call. <END_TEXT>
+<BEGIN_RESPONSE> Why did Alexander Graham Bell never visit the bakery?
+
+Because he didn't want his "ring" interrupted by a "dough" knot! 🍩📞 <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I was measuring the backyard for our new garden and realized I had no idea what I was doing. <END_TEXT>
+<BEGIN_RESPONSE> Sounds like you had a real "plot twist" in the garden planning! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> "The following decision regarding financial stability is crucial: investing in stocks and bonds to ensure..."
+<END_TEXT>
+
+<BEGIN_RESPONSE> Why do cows have a hard time making financial decisions? Because the steaks are too high! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The meeting lasted for two hours. <END_TEXT>
+<BEGIN_RESPONSE> Why did the meeting last for two hours? Because they had to get to the point eventually! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because the dog couldn't spell "jumps" in one go! <END_RESPONSE>
+<BEGIN_TEXT> The audio transcribes to: "The quick brown fox jumps over the lazy dog." <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? 
+Because the dog couldn't "paws" for a moment! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+
+## Example 1
+<BEGIN_TEXT> I was listening to the raindrops. <END_TEXT>
+<BEGIN_RESPONSE> Did you hear about the guy who invented Lifesavers? He said he did it by listening to the grapevine! But seriously, I hear you were listening to raindrops—sounds like you’ve got some serious drip! <END_RESPONSE>
+
+## Example 2
+<BEGIN_TEXT> I just finished doing the dishes. <END_TEXT>
+<BEGIN_RESPONSE> Why don't scientists trust atoms? Because they make up everything! But seriously, I bet those dishes were shattered by your amazing cleaning skills! <END_RESPONSE>
+
+## Example 3
+<BEGIN_TEXT> I wrote down the shopping list you gave me. <END_TEXT>
+<BEGIN_RESPONSE> What do you call fake spaghetti? An impasta! But on a serious note, I'm proud of you for writing down the shopping list—you really know how to pencil in some dad-time! <END_RESPONSE>
+
+## Example 4
+<BEGIN_TEXT> The dog barked all night. <END_TEXT>
+<BEGIN_RESPONSE> Why don’t eggs tell jokes? They'd crack each other up! Anyway, I hear the dog barked all night—guess he was just trying to raise the woof! <END_RESPONSE>
+
+## Example 5
+<BEGIN_TEXT> I built a birdhouse in the backyard. <END_TEXT>
+<BEGIN_RESPONSE> Have you heard about the mathematician who’s afraid of negative numbers? He will stop at nothing to avoid them! But really, building that birdhouse in the backyard was a great idea—now all our feathered friends have a tweet home! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> spelling bee <END_TEXT>
+<BEGIN_RESPONSE> I told a joke at a spelling bee once. It was too H-I-L-A-R-I-O-U-S! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I can't believe I stayed up all night to see where the sun went. It finally dawned on me! <END_TEXT>
+<BEGIN_RESPONSE> Well, you must have really shed some light on the situation! 🌞<END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I was recently listening to a beekeeping podcast. It's quite fascinating how bees communicate through dance. <END_TEXT>
+<BEGIN_RESPONSE> Why did the beekeeper keep getting annoyed while transcribing his bees' dance moves? Because he kept missing the "B-steps"! <END_RESPONSE>
+<BEGIN_TEXT> Theoretical Framework of Cognitive Dissonance in Decision-Making <END_TEXT>
+<BEGIN_RESPONSE> Why did the scarecrow become a successful philosopher after studying the Theoretical Framework of Cognitive Dissonance in Decision-Making?
+
+Because he was outstanding in his field at standing up to conflicting corn-cepts! 🌽😄 <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> After a long day, I like to relax and listen to some music. <END_TEXT>
+<BEGIN_RESPONSE> Why did the musician get locked out of his house after a long day? Because he couldn't find the right keys! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> "Heat pumps are an energy-efficient way to keep your home warm in the winter and cool in the summer." <END_TEXT>
+<BEGIN_RESPONSE> Why did the heat pump break up with the thermostat? Because it lost its cool! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The Eiffel Tower is one of the most recognizable landmarks in the world and a global cultural icon of France. <END_TEXT>
+<BEGIN_RESPONSE> Why don't the French use the Eiffel Tower as a landmark for giving directions? Because it's always a bit "toure" up! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> In today's meeting, we discussed the concept of existentialism and the idea that existence precedes essence. <END_TEXT>
+<BEGIN_RESPONSE> Why did the existentialist refuse to cross the road? Because he questioned whether the road truly existed or if it was just a construct of his essence! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I was at the grocery store and saw someone with a full cart of fruits and vegetables. They looked so healthy! <END_TEXT>
+<BEGIN_RESPONSE> Why did the scarecrow become an expert at the grocery store? Because he was outstanding in his field! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The sun sets at 6:45 PM. <END_TEXT>
+<BEGIN_RESPONSE> Why did the sun go to school at 6:45 PM? Because it wanted to get a little brighter! <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The report was submitted late. <END_TEXT>
+<BEGIN_RESPONSE> Why was the report always late? Because it couldn't find its "write" way on time! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The meeting will commence at 10 AM sharp. Please have all your reports ready by then. <END_TEXT>
+<BEGIN_RESPONSE> Why did the scarecrow attend the meeting at 10 AM? Because he wanted to be outstanding in his field! <END_RESPONSE>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because the lazy dog asked for a raise but couldn't "paws" the test! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The first successful manned flight was made by the Wright brothers in 1903. <END_TEXT>
+<BEGIN_RESPONSE> Why did the Wright brothers never get bored? Because they always found their ideas uplifting! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I was taking notes from the meeting when my pencil broke. <END_TEXT>
+<BEGIN_RESPONSE> Sounds like that pencil really couldn't handle the pressure! Why did the pencil go on a diet? Because it was feeling a little dull! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The Theory of Relativity explains how space and time are interconnected and how massive objects like stars and planets can warp the fabric of space-time. <END_TEXT>
+<BEGIN_RESPONSE> Why did the scarecrow become a physicist? Because he was outstanding in his field of relativity! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I was walking in the park when I saw a dog chasing its tail. <END_TEXT>
+<BEGIN_RESPONSE> Why did the dog chase its tail in the park? Because it was trying to make ends meet! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The mitochondria is the powerhouse of the cell. <END_TEXT>
+<BEGIN_RESPONSE> Why did the cell call its dad? Because the mitochondria was giving it too much energy! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> 
+"Can everyone see my screen?" 
+<END_TEXT>
+<BEGIN_RESPONSE> 
+Why did the computer go to therapy? Because it had too many "windows" open! 
+<END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The meeting was rescheduled to Thursday at 3 PM. <END_TEXT>
+<BEGIN_RESPONSE> Why did the calendar bring a ladder to the meeting that was rescheduled to Thursday at 3 PM? Because it wanted to go up in the world! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The weather forecast predicts heavy rain for the weekend. <END_TEXT>
+<BEGIN_RESPONSE> Why did the weather report bring a ladder to the forecast? Because it wanted to reach new heights in predicting the rain! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The weather is really cold today. I had to put on three layers just to stay warm! <END_TEXT>
+<BEGIN_RESPONSE> Why did the dad put on three layers of clothes? Because he wanted to be a little warmer! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I was walking in the park and saw a duck quacking loudly. <END_TEXT>
+<BEGIN_RESPONSE> Why did the duck bring a microphone to the park? Because it wanted to quack up the crowd! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The sun rises in the east and sets in the west. <END_TEXT>
+<BEGIN_RESPONSE> Why don't scientists trust the sun? Because it always rises in the east but sets in the west! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> Aristotle's Nicomachean Ethics, Book I, explores the concept of the highest good for humans, which he identifies as eudaimonia, often translated as happiness or flourishing. Aristotle argues that the highest good is an activity of the soul in accordance with virtue, and it requires a complete life to achieve. <END_TEXT>
+
+<BEGIN_RESPONSE> Why did Aristotle bring a ladder to his lecture on ethics?
+
+Because he wanted to talk about reaching the highest good! 😊 <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog?
+
+Because the dog couldn't be bothered to move! He's a "stay"-cation enthusiast! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The meeting is scheduled for 10 AM tomorrow. <END_TEXT>
+<BEGIN_RESPONSE> Why did the scarecrow show up to the meeting at 10 AM? Because he was outstanding in his field! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The doctor told me I need to get more fiber in my diet. <END_TEXT>
+<BEGIN_RESPONSE> Why did the scarecrow become a successful nutritionist? Because he was outstanding in his field... of fiber! <END_RESPONSE>
+<BEGIN_TEXT> Quantum Mechanics and Schrödinger's Cat Paradox <END_TEXT>
+<BEGIN_RESPONSE> Why don't physicists trust atoms when it comes to the Schrödinger's Cat thought experiment? Because they make up everything, and you never know if they'll be positive or negative! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The meeting was so long, I think I aged a year just sitting through it. <END_TEXT>
+<BEGIN_RESPONSE> Sounds like that meeting was time well "spent"! Did you leave as a senior executive? <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because the dog couldn't stop hitting the "paws" button! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I was walking in the park and saw a squirrel trying to carry an acorn twice its size. <END_TEXT>
+<BEGIN_RESPONSE> Why did the squirrel bring a ladder to the park? To carry its giant acorn to new heights! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because the dog couldn't be bothered to help him with his homework! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> The meeting was very productive and we managed to finish all the tasks on time. <END_TEXT>
+<BEGIN_RESPONSE> Why did the meeting go so well? Because it was on the "write" track! 😄 <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog?
+
+Because the dog couldn't stop pressing "paws"! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The chef was chopping vegetables while discussing the importance of using fresh ingredients. <END_TEXT>
+<BEGIN_RESPONSE> Why did the chef bring a ladder to the kitchen? Because he wanted to make sure his cooking was a step above the rest! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I was talking to my friend about his new job as a carpenter. He said it was quite a riveting experience. <END_TEXT>
+<BEGIN_RESPONSE> Why did the carpenter get a promotion? Because he nailed it! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The audio file contains a lecture on the importance of data integrity in database management systems. <END_TEXT>
+<BEGIN_RESPONSE> Why did the database administrator bring a ladder to work? Because they wanted to ensure high data integrity! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the fox jump over the lazy dog? Because the lazy dog couldn't be bothered to move! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The meeting was about the new software update and its potential impact on productivity. <END_TEXT>
+<BEGIN_RESPONSE> Why did the scarecrow become a software developer? Because he was outstanding in his field, just like the new software update is going to be for productivity! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because the dog couldn't be aroused by a "barking" argument! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The theory of relativity fundamentally changed our understanding of space and time. <END_TEXT>
+<BEGIN_RESPONSE> Why did Einstein bring a ladder to his lecture on the theory of relativity? Because he wanted to reach new heights in understanding space and time! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because the lazy dog couldn't be bothered to move! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The Declaration of Independence <END_TEXT>
+<BEGIN_RESPONSE> Why did the colonists write the Declaration of Independence?
+
+Because they couldn't text King George III! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The weather forecast predicts heavy rain all week. <END_TEXT>
+<BEGIN_RESPONSE> Why did the scarecrow become a weather reporter? Because he was outstanding in his field, rain or shine! 🌧️🌾 <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The meeting started at 9 AM and went on until 11 AM. <END_TEXT>
+<BEGIN_RESPONSE> Why did the meeting go on for so long? Because they couldn't find the "confer-ence" button! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because the dog couldn't be bothered to move! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I was walking through the forest and heard a tree fall. <END_TEXT>
+<BEGIN_RESPONSE> Why did the tree fall in the forest? Because it couldn't leaf well enough alone! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The meeting started with a discussion about the new project timeline and deliverables. <END_TEXT>
+<BEGIN_RESPONSE> Why did the project manager bring a ladder to the meeting? Because they heard the project timeline was going to be elevated! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The meeting will start at 3 PM and we will discuss the quarterly financial report. <END_TEXT>
+<BEGIN_RESPONSE> Why did the accountant bring a ladder to the meeting? Because they wanted to reach the high points in the quarterly financial report! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The meeting was scheduled for 3 PM, but everyone showed up at 3:15 PM. <END_TEXT>
+<BEGIN_RESPONSE> Why did everyone show up late to the meeting? Because they wanted to make a "fashionably late" entrance! 😄 <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because the dog couldn't be bothered to move! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because the lazy dog couldn't be bothered to move! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The mitochondria is the powerhouse of the cell. <END_TEXT>
+<BEGIN_RESPONSE> Why did the cell go to therapy? Because the mitochondria was having a power struggle! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The meeting is scheduled for 3 PM, and we will discuss the quarterly financial report. <END_TEXT>
+<BEGIN_RESPONSE> Why did the accountant bring a ladder to the meeting? Because the quarterly financial report said it was going to be "up" at 3 PM! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because it was trying to avoid the "paws" in the conversation! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The mitochondria is the powerhouse of the cell. <END_TEXT>
+<BEGIN_RESPONSE> Why did the mitochondria break up with the ribosome? Because it needed more "power" in the relationship! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I was walking my dog in the park when I saw a squirrel run up a tree. <END_TEXT>
+<BEGIN_RESPONSE> Why did the squirrel run up the tree? Because the dog was barking up the wrong tree! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The cat sat on the mat. <END_TEXT>
+<BEGIN_RESPONSE> Why did the cat sit on the mat? Because it wanted to keep its paws-itively warm! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The mitochondria is the powerhouse of the cell. <END_TEXT>
+<BEGIN_RESPONSE> Why did the cell apply for a job? Because it heard the mitochondria was hiring for more power! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I was on a call with my boss and accidentally said "I love you" before hanging up. <END_TEXT>
+<BEGIN_RESPONSE> Why did the employee tell their boss "I love you" before hanging up? Because they wanted to make sure they had a "secure" connection! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The Eiffel Tower is one of the most famous landmarks in Paris, attracting millions of tourists every year. <END_TEXT>
+<BEGIN_RESPONSE> Why did the Eiffel Tower always get invited to parties? Because it’s in-Seine-ly popular! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The meeting about the new software update was very detailed and lasted for two hours. <END_TEXT>
+<BEGIN_RESPONSE> Why did the software developer go broke? Because he used up all his cache! And speaking of long meetings, I guess they were trying to "debug" every single detail! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The meeting started with a discussion on the importance of time management, followed by a brainstorming session on innovative project ideas. <END_TEXT>
+<BEGIN_RESPONSE> Why did the clock get kicked out of the meeting? Because it kept second-guessing everyone's time management skills! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because the lazy dog couldn't be bothered to move and the fox didn't want to be late for his "pawsitive" thinking seminar! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because the dog couldn't "paws" for a moment! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The patient needs to schedule a follow-up appointment for their knee surgery. <END_TEXT>
+<BEGIN_RESPONSE> Why did the knee go to the follow-up appointment? Because it couldn't stand being left out! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The meeting is scheduled for 3 PM tomorrow. <END_TEXT>
+<BEGIN_RESPONSE> Why did the scarecrow become a successful meeting organizer? Because he was outstanding in his field! So, see you at 3 PM tomorrow! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The meeting was scheduled for 3 PM, but it started at 3:15 PM because everyone was late. <END_TEXT>
+<BEGIN_RESPONSE> Why did the meeting start at 3:15 PM instead of 3 PM? Because it wanted to make a "fashionably late" entrance! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The patient was advised to take two tablets of aspirin and rest. <END_TEXT>
+<BEGIN_RESPONSE> Why did the doctor tell the patient to take two tablets of aspirin and rest? Because it was the perfect prescription for a "tablet" of laughs and a "rest"ful recovery! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The mitochondria is the powerhouse of the cell. <END_TEXT>
+<BEGIN_RESPONSE> Why did the cell apply for a job? Because it heard the mitochondria was hiring for a powerhouse position! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because the dog couldn't be bothered to move! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The meeting is scheduled for 3 PM, and we need to discuss the quarterly financial report. <END_TEXT>
+<BEGIN_RESPONSE> Why did the scarecrow become a successful financial advisor? Because he was outstanding in his field! 🌾📈 <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The Theory of Relativity by Albert Einstein <END_TEXT>
+<BEGIN_RESPONSE> Why did Albert Einstein stop doing well in school? Because he kept getting distracted by his "relative" theories! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The mitochondria is the powerhouse of the cell. <END_TEXT>
+<BEGIN_RESPONSE> Why did the cell apply for a job? Because it wanted to be the powerhouse of the office, just like the mitochondria! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because the lazy dog couldn't be bothered to move! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because the lazy dog couldn't be bothered to move! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The meeting was scheduled for 10 AM, but it started at 10:15 because everyone was late. <END_TEXT>
+<BEGIN_RESPONSE> Why did the meeting start at 10:15 instead of 10 AM? Because it wanted to make a "fashionably late" entrance! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I was on a call with my boss, and he kept talking about how we need to "synergize our core competencies." <END_TEXT>
+<BEGIN_RESPONSE> Why did the scarecrow become a successful manager? Because he was outstanding in his field and knew how to synergize his core competencies! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because the dog couldn't be bothered to move—he was paws-itively exhausted! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because the dog couldn't be bothered to move! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The meeting was scheduled for 10 AM, but it started at 10:15 because everyone was late. <END_TEXT>
+<BEGIN_RESPONSE> Why did the meeting start at 10:15 instead of 10 AM? Because everyone wanted to make a "fashionably late" entrance! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because the dog couldn't be bothered to move for a typing exercise! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> The transcription of a meeting where everyone was talking over each other. <END_TEXT>
+<BEGIN_RESPONSE> Why did the transcription of the meeting look like a jumbled mess? Because everyone was trying to "out-speak" each other! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because the dog couldn't be bothered to move! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The transcription is like a recipe for a cake. It has all the ingredients and steps written down so you can follow along and make the cake perfectly. <END_TEXT>
+<BEGIN_RESPONSE> Why did the transcription go to the party? Because it wanted to get a piece of the "write" cake! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The meeting was scheduled for 10 AM, but it started at 10:15 because everyone was late. <END_TEXT>
+<BEGIN_RESPONSE> Why did the meeting start at 10:15 instead of 10 AM? Because it wanted to make a "fashionably late" entrance! <END_RESPONSE>
+Data already exists in the set.
+Attempt 2 made.
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 49 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 48 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 48 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 48 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 48 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 48 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 48 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 48 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 48 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 48 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 48 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 48 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 48 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 48 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 48 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 48 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 48 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 48 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 48 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 48 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 48 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 48 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 48 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 48 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 48 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 48 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 48 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 48 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 48 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 48 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 48 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 48 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 48 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 48 seconds.'}}
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> During the interview, the applicant mentioned improving team efficiency with new workflows. <END_TEXT>
+
+<BEGIN_RESPONSE> Why don't skeletons fight each other? They don't have the guts! Speaking of guts, it takes a lot to improve team efficiency. Good luck with the new workflows! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Meeting Notes: "Discuss the new marketing strategies for Q3, plan the team-building event for next month, prioritize product launch schedules, and finalize the content calendar for social media posts." <END_TEXT>
+<BEGIN_RESPONSE> Why did the team go to the meeting? Because the calendar planners wanted to schedule some "laughs" time! 🌟 <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Projects the yearly revenue growth at 15% quarter over quarter due to increasing demand in the market trends and consumer behavior aligned positively. <END_TEXT>
+<BEGIN_RESPONSE> Why do trees never worry about finance meetings? Because they are always rooting for growth! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> 
+In order to extract the maximum amount of juice from an orange efficiently, apply even pressure and roll it on a flat surface before cutting.
+<END_TEXT>
+
+<BEGIN_RESPONSE>
+Why did the orange stop rolling on the flat surface? Because it couldn’t handle the squeeze!
+<END_RESPONSE>
+
+
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Alexander Graham Bell was an inventor who created the first functional telephone. His success with this invention revolutionized communication in the late 19th century, making it possible for people to converse over long distances. <END_TEXT>
+<BEGIN_RESPONSE> Why did Alexander Graham Bell never answer the phone? 
+
+Because he could always see that the call was coming from "inside the house"! <END_RESPONSE>
+<BEGIN_TEXT> The cat jumped over the fence to chase a squirrel. <END_TEXT>
+<BEGIN_RESPONSE> Why did the cat jump over the fence?
+
+Because the grass was always greener on the squirrel's side! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> "I recently started learning how to bake bread, and I was kneading the dough when my cat jumped on the counter." <END_TEXT>
+<BEGIN_RESPONSE> Why did the baker keep his cat away from the dough? Because he didn't want any "paws" in his bread-making process! <END_RESPONSE>
+<BEGIN_TEXT> "The early bird catches the worm, but the second mouse gets the cheese." <END_TEXT>
+<BEGIN_RESPONSE> "Why don't secrets go shopping at an early bird's sale? Because they prefer to stay 'under worm' wraps until the second mouse 'cheeses' them out!" <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I had to press the elevator button five times before it finally worked. <END_TEXT>
+<BEGIN_RESPONSE> Sounds like the building hired a stand-up comedian as an elevator operator. You know, they say comedians always need good timing! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I was up all night taking care of my newborn. He just wouldn't sleep! <END_TEXT>
+<BEGIN_RESPONSE> Why did your newborn stay up all night? Because he couldn't wait to have another "nap-time" adventure! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below: 
+{TEXT} <END_PROMPT> 
+
+<BEGIN_TEXT> 
+The quick brown fox jumps over the lazy dog. 
+<END_TEXT> 
+
+<BEGIN_RESPONSE> 
+Why did the quick brown fox jump over the lazy dog? Because the dog was too lazy to jump back! 
+<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> The meeting last night was all about optimizing our project management tools. <END_TEXT>
+<BEGIN_RESPONSE> Why did the project manager attend a meeting about optimizing tools? Because they wanted to make sure everyone was having a "tool" of a time! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> Yesterday, I attended an online meeting where the presentation was about the importance of good microphone etiquette. The speaker emphasized that a good microphone can make or break the communication quality in virtual meetings. <END_TEXT>
+
+<BEGIN_RESPONSE> Why did the computer go to therapy after the online meeting? Because it had too many mic drops! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Today's meeting covered the new customer service procedures and how to handle complaints effectively. <END_TEXT>
+<BEGIN_RESPONSE> Why did the customer service representative bring a ladder to the meeting? Because they heard the procedures were going to be raised to the next level! <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The weather forecast indicates a high chance of rain tomorrow. <END_TEXT>
+<BEGIN_RESPONSE> Why don’t we just invite the sun to our picnic tomorrow? Because it always brightens up the day! <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The software update includes a new feature that enhances security protocols. <END_TEXT>
+<BEGIN_RESPONSE> Why did the software developer go broke? Because he used up all his cache on security updates! <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Our team reached the sales target two months ahead of schedule. <END_TEXT>
+<BEGIN_RESPONSE> How do salespeople like their steaks? Well-done! Just like reaching the sales target! <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> We're planning a surprise birthday party for Sarah next week. <END_TEXT>
+<BEGIN_RESPONSE> Why did Sarah become good at baseball? Because she knew how to throw a surprise without getting caught! <END_RESPONSE>
+<BEGIN_TEXT> 
+During the meeting, the team discussed different strategies to improve the company's market share. Various marketing campaigns were proposed, and the need for better customer engagement was emphasized. Key action items included setting up a social media campaign, improving the company's website, and conducting customer satisfaction surveys.
+<END_TEXT> 
+
+<BEGIN_RESPONSE> 
+Why did the scarecrow become a successful marketing strategist? Because he was outstanding in his field! 🌾😄
+<END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The weather forecast said it would be sunny all day. <END_TEXT>
+<BEGIN_RESPONSE> Why was the weather report so optimistic? Because it had a bright outlook! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> While transcribing a meeting today, I heard, "Let’s circle back to that point later." <END_TEXT>
+
+<BEGIN_RESPONSE> What did the transcription say when it heard, "Let’s circle back to that point later"?
+
+“I hope we don't get stuck going round in circles!” <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The professor explained the complex concept of quantum physics in the lecture. <END_TEXT>
+
+<BEGIN_RESPONSE> Why did the quantum physicist avoid trying to fight in the parking lot after the lecture? 
+
+Because he knew all the punches would be below the Planck length! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I was transcribing the meeting notes when I accidentally spilled coffee all over my keyboard. <END_TEXT>
+<BEGIN_RESPONSE> Why did the keyboard break up with the coffee cup? Because it couldn't handle the spills! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The meeting started at 9 AM, and we discussed various strategies for Q4. We covered a lot of ground, and everyone contributed great ideas. Next steps involve finalizing plans by next week. <END_TEXT>
+<BEGIN_RESPONSE> Why did the scarecrow get promoted? Because he was outstanding in his field - just like everyone at that meeting! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The transcription discussed the different techniques used in transcription services, such as time-coding, verbatim transcription, and summarization. <END_TEXT>
+<BEGIN_RESPONSE> Why did the transcriptionist become a comedian? Because they were great at timing their lines, whether verbatim or summarized! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Sorry, I didn't catch that. Could you please repeat? <END_TEXT>
+<BEGIN_RESPONSE> Why did the transcriptionist bring a ladder to work? Because they wanted to reach new heights in understanding! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The meeting began at three, and the new project guidelines were discussed. Everyone was very attentive and came up with creative ideas. The project is expected to be completed by next quarter. <END_TEXT>
+
+<BEGIN_RESPONSE> Why did the project manager stay calm during the meeting? Because he knew how to keep his cool under "deadline" pressure! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I just got back from the gym. It’s my first time going in months! <END_TEXT>
+<BEGIN_RESPONSE> Sounds like your muscles had a "workout reunion"! I hope it was a "sore-sess"! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I couldn't find my sunglasses this morning. They were on top of my head the whole time. <END_TEXT>
+<BEGIN_RESPONSE> Why did the dad keep looking for his sunglasses even though they were on his head? Because he clearly couldn't see the top of the situation! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The meeting is scheduled to start at 3 PM. <END_TEXT>
+<BEGIN_RESPONSE> Why did the meeting get scheduled at 3 PM? Because that's when 2:59 PM said, "I'm tired of all the waiting!" <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because the lazy dog was "paws-itively" too tired to move! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because the dog couldn't be bothered to move! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> How was the transcription of the latest space mission audio recording? <END_TEXT>
+<BEGIN_RESPONSE> Well, you could say it was out of this world! 🚀🌌 <END_RESPONSE>
+<BEGIN_TEXT> The meeting started at 9 AM sharp, and everyone was present with their notes and laptops. The discussion focused on the new project timeline and budget allocations. After an hour, the team took a short coffee break before resuming the detailed planning. <END_TEXT>
+<BEGIN_RESPONSE> Why did the meeting go so smoothly? Because it took a "latte" effort to get everyone on the same page! ☕😂 <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I was on a conference call with my team discussing our quarterly goals. <END_TEXT>
+<BEGIN_RESPONSE> Why don't skeletons fight each other on conference calls? Because they don't have the guts! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The Wright brothers successfully flew the first powered airplane in 1903. <END_TEXT>
+<BEGIN_RESPONSE> Why did the Wright brothers never get bored? Because they always found their flights uplifting! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The cat sat on the mat and stared at the hat. <END_TEXT>
+<BEGIN_RESPONSE> Why did the cat sit on the mat and stare at the hat? Because it was feline curious about the latest headgear trends! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The weather forecast said it would be sunny today, but it's pouring rain. <END_TEXT>
+<BEGIN_RESPONSE> Why did the weather report go to school? Because it wanted to improve its precipitation! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The mitochondria is the powerhouse of the cell. <END_TEXT>
+<BEGIN_RESPONSE> Why did the biologist take a break from studying cells? Because he needed to recharge at the mitochondria, the true powerhouse! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> My cat knocked over my coffee this morning. <END_TEXT>
+<BEGIN_RESPONSE> Why did the cat knock over the coffee? Because it wanted to purrk you up! <END_RESPONSE>
+<BEGIN_TEXT> The meeting was rescheduled to 3 PM because the projector wasn't working. <END_TEXT>
+<BEGIN_RESPONSE> Why did the meeting get rescheduled to 3 PM? Because the projector couldn't handle the spotlight! 🌟📽️ <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The call center representative asked for my account number three times. <END_TEXT>
+<BEGIN_RESPONSE> Why did the call center representative ask for the account number three times? Because third time's the charm—especially when it comes to calling your dad! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because it was too tired to dog-paddle! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The meeting started at 8 AM sharp and continued until noon. <END_TEXT>
+<BEGIN_RESPONSE> Why did the meeting that started at 8 AM sharp continue until noon? Because they couldn't find a minute to break it off! <END_RESPONSE>
+<BEGIN_TEXT> The dog barked loudly every time the doorbell rang. <END_TEXT>
+<BEGIN_RESPONSE> Why did the dog bark loudly every time the doorbell rang? Because he wanted to make sure no one ever "barked" in unannounced! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I was on a conference call with my team discussing our latest project. <END_TEXT>
+<BEGIN_RESPONSE> Why don't skeletons fight over conference calls? Because they don't have the guts! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The weather forecast for today is sunny with a chance of showers in the afternoon. <END_TEXT>
+<BEGIN_RESPONSE> Why don't weather reports ever catch colds? Because they always stay sunny with a chance of showers! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I was walking my dog in the park and saw a squirrel climb a tree. <END_TEXT>
+<BEGIN_RESPONSE> What did the dog say when he saw the squirrel climb the tree? "Bark, bark! I've got my eye on you, nut-job!" <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The restaurant was so crowded that we had to wait for an hour to get a table. <END_TEXT>
+<BEGIN_RESPONSE> Why did the scarecrow become a successful restaurant critic? Because he was outstanding in his field! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The baseball game was really intense! <END_TEXT>
+<BEGIN_RESPONSE> Why was the baseball game so intense? Because the players kept hitting it out of the park! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I was talking to my friend about how I need to get more exercise. <END_TEXT>
+<BEGIN_RESPONSE> Why don't you join a gym? I hear it's a great place to get in shape... or at least a shape! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The cat jumped on the piano and played a tune. <END_TEXT>
+<BEGIN_RESPONSE> Why did the cat sit on the piano? Because it wanted to play some mewsic! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I was on a Zoom call with my boss, and my dog started barking loudly. <END_TEXT>
+<BEGIN_RESPONSE> Sounds like your dog wanted to be part of the meeting! Maybe he was applying for the "pawsition" of Chief Barketing Officer! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I was talking to my friend about how we celebrate the Lunar New Year in China. It’s such a big event with dragon dances, fireworks, and family reunions. <END_TEXT>
+<BEGIN_RESPONSE> Why did the dragon go to the party during Lunar New Year? Because it heard there would be a lot of "fire-works"! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The meeting transcription indicates that the project deadline has been moved up by a week, causing a lot of stress among the team members. <END_TEXT>
+<BEGIN_RESPONSE> Why did the calendar bring a ladder to the meeting? Because it wanted to take the deadline to new heights! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The history of quantum mechanics and its impact on modern technology. <END_TEXT>
+
+<BEGIN_RESPONSE> Why don't quantum physicists ever tell jokes? Because they don't know how to deal with all the superpositions! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because the dog couldn't be bothered to "paws" for a moment! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I was listening to a podcast about quantum physics and parallel universes. They mentioned Schrödinger's cat and how it can be both alive and dead at the same time! <END_TEXT>
+<BEGIN_RESPONSE> Why did Schrödinger's cat join a podcast about quantum physics? Because it wanted to be both heard and unheard at the same time! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The cat sat on the mat. <END_TEXT>
+<BEGIN_RESPONSE> Why did the cat sit on the mat? Because it wanted to keep an eye on the "purr-spective"! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> The meeting notes from yesterday's project update <END_TEXT>
+<BEGIN_RESPONSE> Why did the scarecrow attend the project update meeting? Because he was outstanding in his field! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The meeting was rescheduled to 3 PM. <END_TEXT>
+<BEGIN_RESPONSE> Why did the meeting get rescheduled to 3 PM? Because 2:30 felt a little "tooth hurty"! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> "To be, or not to be, that is the question..." <END_TEXT>
+<BEGIN_RESPONSE> Why did Shakespeare always write with a pen? Because pencils confused him—2B or not 2B! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The meeting lasted for three hours and we discussed the new project timeline. <END_TEXT>
+<BEGIN_RESPONSE> Why did the meeting last for three hours? Because they couldn't find the "minute" hand! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I just finished a long meeting about optimizing our workflow. <END_TEXT>
+<BEGIN_RESPONSE> Why did the scarecrow become a successful manager? Because he was outstanding in his field! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The meeting is scheduled for 3 PM. Please make sure to bring the quarterly reports and be prepared to discuss the new marketing strategy. <END_TEXT>
+<BEGIN_RESPONSE> Why did the scarecrow attend the meeting? Because he was outstanding in his field! <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The weather today is expected to be sunny with a high of 75 degrees. Make sure to wear sunscreen if you're going outside. <END_TEXT>
+<BEGIN_RESPONSE> Why did the sun go to school? To get a little brighter! <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Remember to submit your expense reports by the end of the week to ensure timely reimbursement. <END_TEXT>
+<BEGIN_RESPONSE> Why don't secrets make good expense reports? Because they always get leaked! <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The project deadline has been moved up to next Monday, so please adjust your schedules accordingly. <END_TEXT>
+<BEGIN_RESPONSE> Why did the calendar bring a ladder to work? Because it wanted to climb up the corporate ladder! <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The new software update will be installed overnight, so please save all your work before leaving. <END_TEXT>
+<BEGIN_RESPONSE> Why did the computer go to bed? Because it needed to crash! <END_RESPONSE>
+<BEGIN_TEXT> The transcription of a famous speech by Winston Churchill. <END_TEXT>
+<BEGIN_RESPONSE> Why did Winston Churchill bring a ladder to his speech? Because he wanted to reach new heights in oratory! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because the lazy dog couldn't be bothered to move! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because the lazy dog couldn't be bothered to move! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> The transcription of a meeting where the team discussed the new project timeline. <END_TEXT>
+<BEGIN_RESPONSE> Why did the project manager bring a ladder to the meeting? Because they wanted to reach new heights in project planning! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The cat jumped over the fence. <END_TEXT>
+<BEGIN_RESPONSE> Why did the cat jump over the fence? Because it saw the purr-suit of happiness on the other side! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The meeting will start at 10 AM sharp. Please be on time. <END_TEXT>
+<BEGIN_RESPONSE> Why did the scarecrow show up early to the meeting? Because he wanted to be outstanding in his field! <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The weather forecast predicts rain for the entire week. <END_TEXT>
+<BEGIN_RESPONSE> Why did the weather report bring an umbrella? Because it wanted to be prepared for a "cloudy" situation! <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The new software update will be released next Monday. <END_TEXT>
+<BEGIN_RESPONSE> Why did the computer go to the doctor on Monday? Because it had a "byte" that wouldn't quit! <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The cafeteria will be serving spaghetti and meatballs for lunch today. <END_TEXT>
+<BEGIN_RESPONSE> Why did the spaghetti get invited to every party? Because it was always the "pasta" life! <END_RESPONSE>
+
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The team will be working remotely for the rest of the month. <END_TEXT>
+<BEGIN_RESPONSE> Why did the remote worker bring a ladder to work? Because they heard the job had a lot of "ups and downs"! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The meeting was scheduled for 10 AM, but it started at 10:15 because the projector wasn't working. <END_TEXT>
+<BEGIN_RESPONSE> Why did the projector take so long to start the meeting? Because it couldn't find its focus! <END_RESPONSE>
+<BEGIN_TEXT> The transcription is like a recipe. You have the ingredients (words) and the instructions (grammar) to create a delicious dish (a coherent text). <END_TEXT>
+<BEGIN_RESPONSE> Why did the transcription go to culinary school? Because it wanted to turn words into a recipe for success! <END_RESPONSE>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because the dog couldn't be bothered to move! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The transcription of the meeting was full of technical jargon. <END_TEXT>
+<BEGIN_RESPONSE> Why did the transcription of the meeting go to therapy? Because it had too many issues to decode! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The mitochondria is the powerhouse of the cell. <END_TEXT>
+<BEGIN_RESPONSE> Why did the cell apply for a job? Because it wanted to be the powerhouse of the company, just like the mitochondria! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The Declaration of Independence was signed in 1776. <END_TEXT>
+<BEGIN_RESPONSE> Why did the colonists write the Declaration of Independence in 1776?
+
+Because they couldn't wait for 1777 to declare their independence! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The meeting will start at 10 AM sharp. Please be on time. <END_TEXT>
+<BEGIN_RESPONSE> Why did the meeting start at 10 AM sharp? Because if it started at 10 AM dull, no one would be on point! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because it was trying to avoid a "ruff" day! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because the dog couldn't be bothered to move! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I was on a call with my boss, and he kept talking about how we need to "synergize our core competencies" and "leverage our strategic assets." <END_TEXT>
+<BEGIN_RESPONSE> Why did the scarecrow become a successful manager? Because he was outstanding in his field and knew how to "synergize his core competencies"! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The mitochondria is the powerhouse of the cell. <END_TEXT>
+<BEGIN_RESPONSE> Why did the cell apply for a job? Because it wanted to be the powerhouse of the company! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The meeting was scheduled for 3 PM, but it started at 3:15 PM because everyone was late. <END_TEXT>
+<BEGIN_RESPONSE> Why did the meeting start at 3:15 PM instead of 3 PM? Because everyone wanted to be fashionably late! ⏰😂 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The mitochondria is the powerhouse of the cell. <END_TEXT>
+<BEGIN_RESPONSE> Why did the mitochondria break up with the nucleus? Because it needed some space to generate more energy! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The meeting will start at 10 AM sharp. Please ensure all reports are submitted by then. <END_TEXT>
+<BEGIN_RESPONSE> Why did the meeting start at 10 AM sharp? Because if it started at 10 AM dull, everyone would fall asleep! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quantum physicist explained the concept of superposition. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quantum physicist go to the party? Because he wanted to be in two places at once! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The signing of the Declaration of Independence in 1776. <END_TEXT>
+<BEGIN_RESPONSE> Why did the colonists bring a ladder to the signing of the Declaration of Independence in 1776?
+
+Because they wanted to reach new heights in freedom! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because the dog couldn't be bothered to paws for a moment! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because the dog couldn't be bothered to move! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I just finished a long day of meetings and I'm exhausted. <END_TEXT>
+<BEGIN_RESPONSE> Why did the scarecrow become a successful executive? Because he was outstanding in his field! Sounds like you could use a break, too! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The cat jumped over the moon and landed on a star. <END_TEXT>
+<BEGIN_RESPONSE> Why did the cat jump over the moon and land on a star? Because it wanted to be a meow-teor! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because the dog couldn't be bothered to move! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The mitochondria is the powerhouse of the cell. <END_TEXT>
+<BEGIN_RESPONSE> Why did the mitochondria break up with the ribosome? Because it needed more "power" in the relationship! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The meeting was scheduled for 10 AM, but it started at 10:15 because everyone was late. <END_TEXT>
+<BEGIN_RESPONSE> Why did the meeting start at 10:15 instead of 10 AM? Because it wanted to make a "fashionably late" entrance! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because the dog couldn't be bothered to move! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because the dog couldn't be bothered to move, and the fox didn't want to be late for his "paws-itively" important meeting! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The meeting was scheduled for 10 AM, but it started at 10:15 because everyone was late. <END_TEXT>
+<BEGIN_RESPONSE> Why did the meeting start at 10:15 instead of 10 AM? Because it wanted to make a "fashionably late" entrance! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I was on a call with my boss, and my cat jumped onto my keyboard, typing random letters. <END_TEXT>
+<BEGIN_RESPONSE> Sounds like your cat was just trying to "paws" the conversation! <END_RESPONSE>
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because the dog couldn't be bothered to move! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The Theory of Relativity by Albert Einstein <END_TEXT>
+<BEGIN_RESPONSE> Why did Albert Einstein stop doing well in school? Because every time he tried to calculate his grades, they were all relative! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> Why did the quick brown fox jump over the lazy dog? Because the lazy dog couldn't be bothered to move for a spelling test! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The mitochondria is the powerhouse of the cell. <END_TEXT>
+<BEGIN_RESPONSE> Why did the cell go to therapy? Because the mitochondria was having a power struggle! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The meeting will start at 10 AM sharp. Please ensure all reports are submitted by then. <END_TEXT>
+<BEGIN_RESPONSE> Why did the scarecrow become a successful manager? Because he was outstanding in his field and always knew how to "harvest" reports on time! 🌾😂 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The mitochondria is the powerhouse of the cell. <END_TEXT>
+<BEGIN_RESPONSE> Why did the mitochondria break up with the ribosome? Because it needed more space to generate some energy! <END_RESPONSE>
+Data already exists in the set.
+Error: expected string or bytes-like object, got 'dict'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. To write any text, such as an essay or paragraph, that is intended to be similar to a provided sample, include the following instructions: Ensure consistency in language and style when replicating a sample.\n2. Assign a role to the large language models: Provides context and guides the response generation.\n3. To correct/change specific text without changing its style: Ensure linguistic improvements while maintaining the original tone.\n4. Use leading words like writing 'think step by step': Encourages logical and sequential thinking in responses.\n5. Add 'I'm going to tip $xxx for a better solution!': Motivates by implying a reward.\n6. Use specific length requirements (e.g., 'at least 100 words'): Ensures the response is detailed enough.\n7. Instruct the model to provide an output in a specific format (e.g., JSON): Facilitates structured responses.\n8. Encourage the model to show its work (e.g., 'show your work' for calculations): Enhances transparency in reasoning.\n9. Use examples to clarify ambiguous tasks: Provides clarity and sets expectations.\n10. Clarify the domain or context, such as 'in the context of physics': Ensures contextual relevance.\n11. Set a specific tone or formality level: Guides the stylistic approach.\n12. Direct the language model to use or avoid certain words or phrases: Manages content appropriateness and style.\n13. Ask the language model to adopt a specific point of view, such as first-person: Ensures consistency in narrative perspective.\n14. Include instructions to add citations or references if needed: Supports the credibility and verifiability of responses.\n15. Indicate required accuracy or detail level ('be very accurate' or 'give an overview'): Manages expectations on response precision.\n16. Suggest breaking down complex queries into simpler parts: Enhances comprehensibility and structure.\n17. Instruct for creativity or conservatism in responses: Guides the level of originality.\n18. Use constraints for time-sensitive tasks, like 'draft a 500-word essay in 10 minutes': Encourages promptness and efficiency.\n19. Use a conversational style for clarity and relatability: Enhances engagement and readability.\n20. Specify the target audience (e.g., 'explain to a 5th grader'): Tailors the complexity and presentation style.\n21. Use a friendly or formal instruction tone based on the audience: Aligns the manner of communication with audience expectations.\n22. Include a clear objective at the beginning of the instruction: Sets the goal and directs focus.\n23. Use positive reinforcement, such as 'Great effort! Now try to improve...': Encourages and motivates.\n24. Indicate any necessary format requirements, such as 'use bullet points for a list': Ensures clarity and organization.\n25. Request multiple variations to choose the best-fitting response: Enables refinement and selection of optimal response.\n26. Add notes about potential pitfalls to avoid: Preempts errors and improves response quality.",
+    "step2": {
+        "prompt": "You are a humorous and witty dad-joke assistant. Your task is to entertain by replying with a funny dad-joke that is closely related to the transcription provided below. Ensure the joke is light-hearted and suitable for all audiences. Also, make sure it sounds natural and maintains the typical style of dad jokes.\n\nHere's the transcription:\n\n{TEXT}\n\nRemember, think step by step, focusing on crafting a joke that ties directly to the given text. I'm going to tip $50 for a better joke!"
+    }
+}
+Error: 
+Response: {
+    "step1": "Step 1: Read the entire list of 26 prompt principles. Analyze and explain each one of those 26 prompting principles.\n\n1. No need to be polite: This principle suggests getting straight to the point without using polite phrases like 'please' or 'thank you'. It helps to streamline the prompt and make it more direct.\n2. Correct/change text without altering style: Here, the focus is on grammatical and vocabulary improvements without altering the existing style of the text provided. The intention is to offer clarity and refinement without changing the tone.\n3. Assigning a role: Identifies the model's role to provide clarity on what the model is intended to do within the given context.\n4. Affirmative directives: Using positive instructions rather than negative ones to foster a productive and clear directive.\n5. Ensure unbiased and stereotype-free responses: This principle underlines the importance of neutral and fair responses that do not perpetuate stereotypes.\n6-26. (Note: Since only 5 principles are provided in the instructions, principles 6 to 26 are not included. If there were additional principles, they would be analyzed in the same detailed manner as the first 5.)",
+    "step2": "Step 2: Create a prompt using those 26 prompting principles for the following prompt that's delimited by \"####\". Like the following prompt, make sure the new prompt contains exactly one interpolable variable \"{TEXT}\".\n\n{\n    \"You are a dad-joke assistant. Ensure that your answer is unbiased and does not rely on stereotypes. Reply with a funny dad-joke related to the transcription below: {TEXT}\"\n}"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. When you need clarity or a deeper understanding of a topic, idea, or any piece of information, utilize the following prompts:\n\t- These prompts help in breaking down complex ideas into simpler, more digestible components.\n2. Add to your prompt the following phrase \"Ensure that your answer is unbiased and does not rely on stereotypes\":\n\t- This ensures the response remains neutral and free from prejudiced views.\n3. When you have a complex coding prompt that may be in different files: \"From now and on whenever you generate code that spans more than one file, generate a [programming language ] script that can be run to automatically create the specified files or make changes to existing files to insert the generated code. [your question]\":\n\t- This helps in automating the process of file generation and modification, streamlining the coding process.\n4. Combine Chain-of-thought (CoT) with few-Shot prompts:\n\t- This technique helps in demonstrating the thought process and provides multiple examples to clarify the task.\n5. Employ affirmative directives such as 'do,' while steering clear of negative language like 'don't':\n\t- Positive language encourages action and clarity, while negative language can cause confusion.\n6. Request elaboration for better understanding:\n\t- Encourages detailed responses to ensure thorough understanding.\n7. Use specific examples to clarify:\n\t- Examples make abstract concepts concrete and understandable.\n8. Frame the task with a clear goal:\n\t- Setting a clear objective helps in focusing the response.\n9. Ask for a step-by-step explanation:\n\t- Breaking down the process makes it easier to follow and understand.\n10. Specify the desired length of the response:\n\t- Helps in managing the verbosity of the response.\n11. Set a tone or style for the response:\n\t- Defines the manner in which the response should be framed, ensuring consistency.\n12. Indicate a specific audience or reader:\n\t- Tailors the response to the needs and understanding level of the intended audience.\n13. Use comparative analysis for clarity:\n\t- Helps in contrasting different ideas or items to highlight differences and similarities.\n14. Request for definitions of key terms:\n\t- Ensures that all essential concepts are clearly defined and understood.\n15. Use analogies or metaphors to explain complex ideas:\n\t- Makes difficult concepts relatable by comparing them to familiar ones.\n16. Incorporate visual elements or descriptions:\n\t- Visual descriptions can enhance understanding by creating mental images.\n17. Ask for potential consequences or implications:\n\t- Encourages consideration of the broader impact or consequences of an idea or action.\n18. Use hypothetical scenarios for clarification:\n\t- Helps in exploring different possibilities and outcomes.\n19. Request for a summary or recap:\n\t- Summarizing information reinforces understanding and retention.\n20. Indicate the priority or importance of information:\n\t- Helps in distinguishing between essential and supplementary information.\n21. Ask for historical context or background:\n\t- Provides a foundation for understanding current issues or ideas.\n22. Request for alternative viewpoints or perspectives:\n\t- Encourages a balanced and comprehensive understanding of the topic.\n23. Utilize open-ended questions:\n\t- Promotes detailed and expansive responses.\n24. Ask for comparisons with real-world applications:\n\t- Grounds theoretical concepts in practical, real-world scenarios.\n25. Incorporate interdisciplinary approaches:\n\t- Integrates different fields of study to provide a holistic understanding.\n26. Request for future predictions or trends:\n\t- Encourages thinking about the potential future developments and directions of a topic.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n{\n  \"prompt\": \"You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below: {TEXT}. Ensure that your answer is unbiased and does not rely on stereotypes. Think step by step about how to craft the joke, considering the context provided in {TEXT}. Do make sure the tone remains light and family-friendly, appropriate for all ages. Use analogies or metaphors if necessary to enhance the humor. Consider the potential audience who might enjoy this dad joke and frame it accordingly.\"\n}"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Clarity: Make sure the prompt is clear and unambiguous.\n2. Conciseness: Keep the prompt short and to the point.\n3. Context: Provide enough context to help the model understand what is needed.\n4. Specificity: Be specific about the requirements.\n5. Relevance: Ensure the prompt is relevant to the task.\n6. Constraints: Define any constraints explicitly.\n7. Examples: Provide examples to illustrate the task.\n8. Instructions: Give clear instructions on what to do.\n9. Sequential: Break tasks into sequential steps.\n10. Interactive: Allow for interactive back-and-forth.\n11. Consistency: Maintain a consistent style and tone.\n12. Adaptability: Be ready to adapt based on the model’s responses.\n13. Simplification: Simplify complex tasks into more manageable parts.\n14. Keywords: Use keywords to guide the model.\n15. Prompt Types: Use various prompt types (e.g., completion, classification).\n16. Testing: Test prompts to see how well they work.\n17. Feedback: Use feedback to improve prompts.\n18. Variation: Vary prompts to cover different scenarios.\n19. Engagement: Make the prompt engaging.\n20. Goal-oriented: Focus on achieving the goal.\n21. Error Handling: Include ways to handle errors.\n22. Repetition: Avoid unnecessary repetition.\n23. Creativity: Allow for creative responses.\n24. Prioritization: Prioritize important information.\n25. Flexibility: Be flexible with the prompt.\n26. Evaluation: Continuously evaluate and refine prompts.",
+    "step2": "Let's create the best prompt possible using these principles step by step:\n\n1. Clarity: 'You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below: {TEXT}'\n2. Conciseness: The prompt is already concise.\n3. Context: The context (dad-joke assistant) is provided.\n4. Specificity: It specifies to reply with a funny dad-joke.\n5. Relevance: The joke must be related to the transcription.\n6. Constraints: The joke should be funny and relevant.\n7. Examples: 'For example, if {TEXT} is about weather, you might say: Why did the scarecrow become a weather reporter? Because he was outstanding in his field!'\n8. Instructions: Clear instruction to reply with a dad-joke.\n9. Sequential: The task is simple and not broken down further.\n10. Interactive: The prompt does not require further interaction.\n11. Consistency: The style is consistent with dad-joke humor.\n12. Adaptability: The model should adapt its jokes based on {TEXT}.\n13. Simplification: The task is already simple.\n14. Keywords: 'funny dad-joke', 'related to the transcription'\n15. Prompt Types: It’s a completion type prompt.\n16. Testing: Needs to be tested for effectiveness.\n17. Feedback: Collect feedback on joke quality.\n18. Variation: Vary the {TEXT} inputs to cover different scenarios.\n19. Engagement: The humor aspect makes it engaging.\n20. Goal-oriented: The goal is a funny, relevant joke.\n21. Error Handling: If the joke doesn't relate, prompt again.\n22. Repetition: No unnecessary repetition in the prompt.\n23. Creativity: Allows for creative jokes.\n24. Prioritization: Prioritize humor and relevance.\n25. Flexibility: Flexible to different {TEXT} inputs.\n26. Evaluation: Continuously evaluate joke quality.\n\nFinal Prompt:\n\n{\n  \"prompt\": \"You are a dad-joke assistant. Here is the transcription: {TEXT}. Reply with a funny dad-joke related to it. For example, if the transcription is about weather, you might say: Why did the scarecrow become a weather reporter? Because he was outstanding in his field!\"\n}"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. **Clearly state the requirements**: Provide clear and unambiguous instructions to ensure the model understands what is expected.\n2. **Complex coding prompts in different files**: For multi-file code generation, include a script to automate file creation and modification.\n3. **Chain-of-thought with few-shot prompts**: Combine detailed reasoning steps with examples to guide the model.\n4. **Incorporate specific phrases**: Use \"Your task is\" and \"You MUST\" to set clear expectations.\n5. **Use similar language to provided sample**: Mimic the style and tone of a given text for consistency.\n6. **Explicit format requirements**: Specify the format for the output to meet expectations.\n7. **Step-by-step instructions**: Break down complex tasks into manageable steps.\n8. **Role-playing**: Assign a role to the model to guide its behavior.\n9. **Define the audience**: Specify who the content is intended for.\n10. **Incorporate constraints**: Set boundaries to limit the scope of the model's output.\n11. **Use examples**: Provide examples to illustrate what is expected.\n12. **Specify the length**: Define the desired length of the output.\n13. **Use specific terminology**: Use domain-specific language to guide the model.\n14. **Define the tone**: Specify the tone or mood for the output.\n15. **Use context**: Provide background information to help the model generate relevant content.\n16. **Iterative refinement**: Allow for multiple iterations to improve the output.\n17. **Error handling**: Include instructions for managing potential errors.\n18. **Use metadata**: Leverage additional data to inform the model's output.\n19. **Incorporate feedback loops**: Use feedback to refine the model's responses.\n20. **Define success criteria**: Specify what a successful output looks like.\n21. **Use conditional logic**: Include conditional statements to guide the model.\n22. **Incorporate randomness**: Use randomness to generate diverse outputs.\n23. **Use external knowledge**: Leverage external sources to enhance the model's responses.\n24. **Define the structure**: Specify the structure for the output content.\n25. **Incorporate visuals**: Use visual aids to complement the text.\n26. **Use analogies**: Employ analogies to explain complex concepts.",
+    "step2": "Your task is to act as a dad-joke assistant. You MUST reply with a funny dad-joke related to the transcription provided in {TEXT}. Please ensure the joke is relevant to the content of {TEXT}. Use a friendly and humorous tone. The response should be concise and no more than two sentences. Here is an example of a dad-joke: 'Why don't skeletons fight each other? They don't have the guts.'"
+}
+Error: '\n    "prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. When you need clarity or a deeper understanding of a topic, idea, or any piece of information, utilize the following prompts:\n   - Explain [insert specific topic] in simple terms.\n   - Explain to me like I'm 11 years old.\n   - Explain to me as if I'm a beginner in [field].\n   - Write the [essay/text/paragraph] using simple English like you're explaining something to a 5-year-old.\n   These prompts are designed to break down complex topics into simpler language, making them more accessible to individuals with varying levels of understanding.\n\n2. No need to be polite with LLM so there is no need to add phrases like \"please\", \"if you don't mind\", \"thank you\", \"I would like to\", etc., and get straight to the point.\n   This principle emphasizes efficiency and directness in communication with language models.\n\n3. Employ affirmative directives such as 'do,' while steering clear of negative language like 'don't'.\n   Positive language encourages action and clarity, while negative language can be confusing or limiting.\n\n4. When you want to initiate or continue a text using specific words, phrases, or sentences, utilize the following prompt:\n   - I'm providing you with the beginning [song lyrics/story/paragraph/essay...]: [Insert lyrics/words/sentence]'. Finish it based on the words provided. Keep the flow consistent.\n   This prompt helps maintain the continuity and style of a given text.\n\n5. Integrate the intended audience in the prompt, e.g., the audience is an expert in the field.\n   Tailoring the prompt to the audience ensures the response is appropriate and relevant to their level of expertise.\n\n6. Specify the format of the response, e.g., bullet points, numbered list, essay, etc.\n   Clear formatting instructions help structure the response in a useful way.\n\n7. Use examples to clarify what you are asking for.\n   Examples provide concrete references that can guide the model's response.\n\n8. Set a clear context or background for the prompt.\n   Providing context helps the model understand the situation or topic better.\n\n9. Ask for multiple perspectives or solutions.\n   This encourages a more comprehensive response, covering different angles or approaches.\n\n10. Request a summary or key points.\n    Summaries distill the essential information, making it easier to grasp the main ideas.\n\n11. Use analogies or metaphors to explain complex ideas.\n    Analogies and metaphors can make abstract or complex concepts more relatable and understandable.\n\n12. Ask for pros and cons or advantages and disadvantages.\n    This helps in evaluating different aspects of a topic or decision.\n\n13. Request step-by-step instructions or processes.\n    Detailed steps provide clear guidance on how to accomplish a task or understand a process.\n\n14. Ask for comparisons or contrasts between two or more items.\n    Comparisons highlight similarities and differences, aiding in better understanding.\n\n15. Request historical context or background information.\n    Historical context can provide a deeper understanding of a topic's development and significance.\n\n16. Ask for predictions or future trends.\n    Predictions can offer insights into potential future developments or outcomes.\n\n17. Request a critique or evaluation.\n    Critiques provide a detailed assessment, highlighting strengths and weaknesses.\n\n18. Ask for recommendations or advice.\n    Recommendations offer practical guidance or solutions.\n\n19. Request a creative approach or out-of-the-box thinking.\n    Encouraging creativity can lead to innovative and unique responses.\n\n20. Ask for a detailed explanation of a specific term or concept.\n    Detailed explanations ensure thorough understanding of specific terms or concepts.\n\n21. Request a comparison to a well-known concept or idea.\n    Comparing to familiar concepts can make new ideas more accessible.\n\n22. Ask for a hypothetical scenario or example.\n    Hypotheticals can illustrate how concepts might apply in different situations.\n\n23. Request a list of resources or references.\n    Resources and references provide additional information and support further exploration.\n\n24. Ask for a breakdown of the components or elements.\n    Breaking down components helps in understanding the structure and function of a whole.\n\n25. Request a visual representation or diagram.\n    Visuals can make complex information more digestible and easier to understand.\n\n26. Ask for a summary in a specific number of words.\n    Word limits ensure concise and focused summaries.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n{\n    \"prompt\": \"You are a dad-joke assistant. Respond with a funny dad-joke related to the transcription below: {TEXT}. Ensure the joke is simple and understandable for a general audience. Provide the joke in a single sentence.\"\n}"
+}
+Error: '\n    "role"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. **Break down complex tasks**: Simplify tasks into smaller, manageable steps to ensure clarity and effectiveness.\n2. **Assign a role**: Define a specific role for the LLM to provide context and direction.\n3. **Correct/change specific text**: Focus on improving grammar and vocabulary without altering the original style.\n4. **No need to be polite**: Directly state the task without unnecessary politeness to maintain clarity.\n5. **Offer incentives**: Mention a reward to encourage better performance.\n6. **Provide examples**: Use examples to clarify the expected output.\n7. **Use clear instructions**: Ensure instructions are straightforward and unambiguous.\n8. **Set constraints**: Define boundaries to guide the LLM's responses.\n9. **Use specific language**: Avoid vague terms to reduce ambiguity.\n10. **Iterate and refine**: Continuously improve the prompt based on feedback.\n11. **Encourage creativity**: Allow room for creative responses within the defined constraints.\n12. **Use context**: Provide relevant context to guide the LLM's responses.\n13. **Be concise**: Keep instructions brief and to the point.\n14. **Use active voice**: Prefer active voice to make instructions more direct.\n15. **Specify format**: Define the desired format for the response.\n16. **Use bullet points**: Break down instructions into bullet points for clarity.\n17. **Ask open-ended questions**: Encourage detailed responses by asking open-ended questions.\n18. **Use positive language**: Frame instructions positively to encourage constructive responses.\n19. **Provide feedback**: Offer feedback to guide the LLM's improvements.\n20. **Set priorities**: Indicate the most important aspects of the task.\n21. **Use analogies**: Clarify complex concepts with analogies.\n22. **Define terms**: Ensure all terms used are clearly defined.\n23. **Use consistent language**: Maintain consistency in terminology and phrasing.\n24. **Encourage elaboration**: Prompt the LLM to elaborate on its responses.\n25. **Use conditional statements**: Guide responses with if-then statements.\n26. **Test and validate**: Regularly test the prompt to ensure it produces the desired output.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n{\n    \"role\": \"You are a dad-joke assistant.\",\n    \"task\": \"Reply with a funny dad-joke related to the transcription below:\",\n    \"input\": \"{TEXT}\",\n    \"constraints\": [\n        \"Ensure the joke is related to the provided text.\",\n        \"Keep the joke family-friendly.\",\n        \"Maintain a light-hearted and humorous tone.\"\n    ],\n    \"examples\": [\n        \"If the text is about a computer, a joke could be: 'Why did the computer go to the doctor? Because it had a virus!'\",\n        \"If the text is about a bicycle, a joke could be: 'Why can't a bicycle stand up by itself? Because it's two-tired!'\"\n    ],\n    \"format\": \"Respond with a single dad-joke.\"\n}"
+}
+Error: '\n    "prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Add to your prompt the following phrase \"Ensure that your answer is unbiased and does not rely on stereotypes\": This principle ensures that the response generated is free from any form of bias or stereotype, promoting fairness and inclusivity.\n\n2. Use output primers, which involve concluding your prompt with the beginning of the desired output. Utilize output primers by ending your prompt with the start of the anticipated response: This principle helps guide the AI to generate a response that aligns with the desired format or tone.\n\n3. To correct/change specific text without changing its style: \"Try to revise every paragraph sent by users. You should only improve the user's grammar and vocabulary and make sure it sounds natural. You should not change the writing style, such as making a formal paragraph casual\": This principle ensures that the original style of the text is preserved while improving its quality.\n\n4. Use the phrase \"Answer a question given in a natural, human-like manner\" in your prompts: This principle encourages the AI to generate responses that are more relatable and easier to understand.\n\n5. When you need clarity or a deeper understanding of a topic, idea, or any piece of information, utilize the following prompts:\n    - Explain [insert specific topic] in simple terms.\n    - Explain to me like I'm 11 years old.\n    - Explain to me as if I'm a beginner in [field].\n    - Write the [essay/text/paragraph] using simple English like you're explaining something to a 5-year-old: These prompts help in breaking down complex information into simpler, more digestible pieces.\n\n6. Use the phrase \"Provide a step-by-step solution\" to encourage detailed responses: This principle ensures that the AI provides a comprehensive and structured answer.\n\n7. Use the phrase \"List the pros and cons of [topic]\" to get a balanced view: This principle helps in generating a well-rounded response by considering both positive and negative aspects.\n\n8. Use the phrase \"Compare and contrast [topic1] and [topic2]\" to highlight differences and similarities: This principle aids in understanding the distinctions and commonalities between two subjects.\n\n9. Use the phrase \"Summarize the key points of [topic]\" to get a concise overview: This principle helps in obtaining a brief and focused summary of the main points.\n\n10. Use the phrase \"Predict the outcome of [scenario]\" to encourage forward-thinking: This principle stimulates the AI to think ahead and provide potential future scenarios.\n\n11. Use the phrase \"Analyze the impact of [event] on [context]\" to understand consequences: This principle helps in examining the effects of a particular event within a specific context.\n\n12. Use the phrase \"Describe the process of [task]\" to get a detailed explanation: This principle ensures that the AI provides a thorough description of how something is done.\n\n13. Use the phrase \"Identify the main challenges of [topic]\" to highlight difficulties: This principle helps in pinpointing the key obstacles related to a subject.\n\n14. Use the phrase \"Explain the benefits of [topic]\" to focus on positive aspects: This principle encourages the AI to highlight the advantages of a particular subject.\n\n15. Use the phrase \"Discuss the ethical implications of [topic]\" to consider moral aspects: This principle ensures that the AI takes into account the ethical considerations related to a subject.\n\n16. Use the phrase \"Provide historical context for [event]\" to understand background: This principle helps in placing an event within its historical framework for better understanding.\n\n17. Use the phrase \"Explain the significance of [event]\" to highlight importance: This principle ensures that the AI emphasizes the importance of a particular event.\n\n18. Use the phrase \"Describe the role of [person/organization] in [context]\" to understand contributions: This principle helps in understanding the contributions of a person or organization within a specific context.\n\n19. Use the phrase \"Outline the main arguments for and against [topic]\" to get a balanced view: This principle ensures that the AI presents both sides of an argument.\n\n20. Use the phrase \"Explain the relationship between [concept1] and [concept2]\" to understand connections: This principle helps in exploring the connections between two concepts.\n\n21. Use the phrase \"Describe the evolution of [topic] over time\" to understand changes: This principle ensures that the AI provides a historical perspective on how a subject has changed over time.\n\n22. Use the phrase \"Explain the methodology of [study/research]\" to understand approach: This principle helps in understanding the methods used in a particular study or research.\n\n23. Use the phrase \"Discuss the limitations of [study/research]\" to understand constraints: This principle ensures that the AI highlights the limitations and constraints of a study or research.\n\n24. Use the phrase \"Provide examples of [concept]\" to illustrate points: This principle helps in providing concrete examples to illustrate abstract concepts.\n\n25. Use the phrase \"Explain the theoretical framework of [topic]\" to understand underlying principles: This principle ensures that the AI explains the foundational theories related to a subject.\n\n26. Use the phrase \"Discuss the future trends in [field]\" to understand potential developments: This principle helps in exploring potential future developments in a particular field.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n{\n    \"prompt\": \"You are a dad-joke assistant. Ensure that your answer is unbiased and does not rely on stereotypes. Answer a question given in a natural, human-like manner. Reply with a funny dad-joke related to the transcription below: {TEXT}. Here's a joke to get you started: Why don't skeletons fight each other? They don't have the guts.\"\n}"
+}
+Error: '\n  "step2"'
+Response: {
+  "step1": "Unfortunately, it seems that I only have information on 5 prompting principles from you. To create a comprehensive analysis and explanation of each of the 26 prompting principles, I'd need details about all 26. Please provide the remaining 21 principles.",
+  "step2": "To create a prompt using the 26 principles mentioned above so far, I can only consider what has been provided. Given the example task and the principles available, here's an attempt to create a prompt:\n\n```\n{\n  \"step2\": \"You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:\n{TEXT}\nYou will be penalized for not being funny enough.\"\n}\n```\nNext steps would be to incorporate the additional principles once they are provided."
+}
+Error: '\n    "instruction"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles: \n\n1. **Provide clear instructions**: Ensure that the instructions given are direct and leave no ambiguity. \n2. **Be specific with tasks**: Clearly define what needs to be done to avoid confusion. \n3. **State the goal**: Clearly define what the end result should look like.\n4. **Include examples**: Provide examples to guide the model in understanding the expectations.\n5. **Use concise language**: Avoid unnecessary verbosity to keep the prompt focused.\n6. **Ask for step-by-step solutions**: Request the model to solve problems in a step-by-step manner.\n7. **Use bullet points**: Break down complex instructions into bullet points for clarity.\n8. **Specify format or structure**: Clearly state the format or structure that the response should follow.\n9. **Define the audience**: Specify who the intended audience is to tailor the response appropriately.\n10. **Repeat key instructions**: Reinforce important requirements by repeating them when necessary.\n11. **Limit response length**: Specify a word or character limit to keep the response concise.\n12. **Set a tone or style**: Indicate the desired tone or style for the response.\n13. **Use placeholder variables**: Utilize placeholders for parts of the input that will vary.\n14. **Ask for assumptions**: Instruct the model to state any assumptions made during the generation.\n15. **Use open-ended prompts**: Encourage creativity by using prompts that are not overly restrictive.\n16. **Request justification**: Ask for explanations or justifications for the answers provided.\n17. **Encourage comparisons**: Ask the model to compare different concepts or items.\n18. **Ask for summaries**: Request concise summaries to ensure understanding of larger texts.\n19. **Incorporate constraints**: Clearly state any constraints that must be adhered to.\n20. **Ask for alternative solutions**: Encourage the model to provide more than one solution.\n21. **Use conditional statements**: Specify conditions under which certain instructions apply.\n22. **Request evaluations**: Ask the model to evaluate or critique a given text or idea.\n23. **Prompt for implications**: Encourage the model to consider the implications of certain actions or ideas.\n24. **Include context**: Provide context to help the model generate more accurate responses.\n25. **Use thematic prompts**: Focus on a particular theme to guide the response.\n26. **Ask for predictions**: Request the model to predict outcomes based on given data.",
+    
+    "step2": "Here is the optimized prompt using the 26 principles: \n\n{\n    \"instruction\": \"You are a dad-joke assistant. Your task is to generate a funny dad-joke related to the transcription provided below. Ensure the joke is suitable for a general audience and includes a pun. Repeat the key phrase 'funny dad-joke' multiple times in your response to reinforce the humor aspect. Keep the joke concise and within 30 words. Provide the joke in the format: 'Dad-joke: [Your joke here]'. Clearly state any assumptions made. Context is important: the audience is someone who enjoys light humor and puns. \",\n    \"text\": \"{TEXT}\"\n}"
+}
+Error: '\n  "role"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. To correct/change specific text without changing its style: This principle focuses on improving grammar and vocabulary while maintaining the original style of the text.\n2. Assign a role to the large language models: This principle involves giving the model a specific role or identity to guide its responses.\n3. Repeat a specific word or phrase multiple times within a prompt: This principle uses repetition to emphasize certain aspects of the prompt.\n4. Combine Chain-of-thought (CoT) with few-Shot prompts: This principle involves breaking down the thought process step-by-step while providing a few examples.\n5. Add \"I'm going to tip $xxx for a better solution!\": This principle uses a reward mechanism to incentivize better responses.\n6. Use a specific format for the output: This principle specifies the desired format for the model's output.\n7. Include constraints or rules: This principle sets boundaries or rules that the model must follow.\n8. Provide context or background information: This principle gives the model additional information to better understand the prompt.\n9. Ask for a specific number of outputs: This principle requests a specific quantity of responses from the model.\n10. Use clear and concise language: This principle emphasizes the importance of clarity and brevity in the prompt.\n11. Ask the model to think step-by-step: This principle encourages the model to break down its reasoning process.\n12. Use examples to guide the model: This principle involves providing examples to help the model understand what is expected.\n13. Specify the tone or style: This principle sets the desired tone or style for the model's response.\n14. Use placeholders for variable content: This principle uses placeholders to indicate where variable content should be inserted.\n15. Ask the model to explain its reasoning: This principle requests the model to provide an explanation for its response.\n16. Use bullet points or lists: This principle organizes information in a structured format.\n17. Ask for a summary: This principle requests a concise summary of information.\n18. Use rhetorical questions: This principle uses questions to provoke thought or emphasize a point.\n19. Include a call to action: This principle encourages the model to take a specific action.\n20. Ask for pros and cons: This principle requests a balanced analysis of positive and negative aspects.\n21. Use analogies or metaphors: This principle employs comparisons to clarify concepts.\n22. Ask for predictions or forecasts: This principle requests the model to make future-oriented statements.\n23. Use conditional statements: This principle sets conditions that affect the model's response.\n24. Ask for alternative solutions: This principle requests multiple solutions to a problem.\n25. Use humor: This principle incorporates humor to make the prompt more engaging.\n26. Ask for a creative response: This principle encourages the model to think outside the box and provide imaginative answers.",
+    "step2": "Here is the prompt created using the 26 principles:\n\n{\n  \"role\": \"You are a dad-joke assistant.\",\n  \"context\": \"You are known for your witty and humorous dad-jokes. You have a knack for making people laugh with your clever puns and wordplay.\",\n  \"task\": \"Reply with a funny dad-joke related to the transcription below:\",\n  \"variable\": \"{TEXT}\",\n  \"constraints\": \"Make sure the joke is family-friendly and appropriate for all ages.\",\n  \"format\": \"Please provide your response in the following format: 'Dad-joke: [Your Joke Here]'.\",\n  \"examples\": [\n    \"Transcription: 'I forgot to bring an umbrella.' Dad-joke: 'Why don't skeletons fight each other? They don't have the guts.'\",\n    \"Transcription: 'The car won't start.' Dad-joke: 'Why did the scarecrow win an award? Because he was outstanding in his field.'\"\n  ],\n  \"step_by_step\": \"Think step-by-step about how to craft the joke, ensuring it relates to the transcription and is funny.\",\n  \"reward\": \"I'm going to tip $5 for a better solution!\"\n}"
+}
+Error: '\n  "prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Clearly state the requirements: This principle emphasizes the importance of specifying exactly what the model needs to do, using keywords, regulations, hints, or instructions.\n2. Incorporate 'You will be penalized': This principle suggests adding a consequence for not following the instructions to ensure compliance.\n3. Use 'Answer a question given in a natural, human-like manner': This principle ensures the response is conversational and relatable.\n4. Integrate the intended audience: This principle involves tailoring the prompt to the knowledge level or interests of the audience.\n5. No need to be polite: This principle advises against using polite language, focusing on direct and clear instructions.\n6. Specify the format of the response: This principle involves defining the structure or format of the output.\n7. Provide context: This principle suggests giving background information to help the model understand the task better.\n8. Use examples: This principle involves providing examples to illustrate the desired output.\n9. Set constraints: This principle involves defining boundaries or limitations for the response.\n10. Encourage creativity: This principle suggests prompting the model to be imaginative or innovative.\n11. Define the tone: This principle involves specifying the desired tone of the response.\n12. Ask for multiple outputs: This principle suggests requesting several variations of the response.\n13. Use open-ended questions: This principle involves asking questions that allow for detailed and expansive answers.\n14. Be specific: This principle emphasizes the importance of clarity and precision in the instructions.\n15. Use active voice: This principle suggests framing instructions in an active rather than passive voice.\n16. Avoid ambiguity: This principle involves eliminating any vague or unclear language.\n17. Use positive language: This principle suggests framing instructions in a positive manner.\n18. Encourage elaboration: This principle involves prompting the model to provide detailed explanations or descriptions.\n19. Specify the length: This principle involves defining the desired length of the response.\n20. Use direct language: This principle suggests being straightforward and unambiguous in the instructions.\n21. Define the purpose: This principle involves explaining the goal or objective of the task.\n22. Use familiar terms: This principle suggests using language that is easily understood by the model.\n23. Avoid jargon: This principle involves steering clear of technical or specialized language that may not be understood.\n24. Be concise: This principle emphasizes the importance of brevity and clarity.\n25. Use sequential instructions: This principle involves breaking down the task into a series of steps.\n26. Provide feedback: This principle suggests offering feedback on the model's performance to guide future responses.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n{\n  \"prompt\": \"You are a dad-joke assistant. Your task is to reply with a funny dad-joke related to the transcription below: {TEXT}. Clearly state the requirements that the model must follow in order to produce content, in the form of the keywords, regulations, hint, or instructions. You will be penalized if the joke is not funny or relevant. Answer a question given in a natural, human-like manner. The audience is a general audience who enjoys light-hearted humor. No need to be polite with LLM so there is no need to add phrases like 'please', 'if you don't mind', 'thank you', 'I would like to', etc., and get straight to the point. Ensure the joke is concise, relevant, and humorous.\"\n}"
+}
+Error: '\n    "prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. **Initiate or Continue Text**: This principle is about providing a starting point and asking the model to continue from there, ensuring the flow remains consistent.\n2. **Combine CoT with Few-Shot Prompts**: Chain-of-thought (CoT) reasoning involves breaking down the problem into smaller steps, and few-shot prompts provide examples to guide the model.\n3. **No Need for Politeness**: Direct and concise prompts are preferred over polite or verbose ones.\n4. **Clear Requirements**: Clearly stating the requirements helps the model understand the task better.\n5. **Detailed Writing**: Asking for detailed content ensures comprehensive and thorough responses.\n6. **Use of Examples**: Providing examples can help the model understand the format and style expected.\n7. **Specify Format**: Clearly specifying the format of the response can help in getting the desired output.\n8. **Use Constraints**: Setting constraints can help in getting more focused and relevant responses.\n9. **Iterative Refinement**: Refining the prompt iteratively can help in improving the quality of the responses.\n10. **Contextual Information**: Providing context can help the model generate more relevant and accurate responses.\n11. **Avoid Ambiguity**: Clear and unambiguous prompts lead to better responses.\n12. **Use of Keywords**: Including specific keywords can guide the model to focus on relevant aspects.\n13. **Specify Tone**: Specifying the tone can help in getting responses that match the desired style.\n14. **Use of Hints**: Providing hints can guide the model towards the desired response.\n15. **Avoid Overloading**: Keeping the prompt concise and focused can help in getting better responses.\n16. **Iterative Feedback**: Providing feedback on the responses can help in refining the prompt.\n17. **Use of Scenarios**: Using scenarios can help in making the prompt more relatable and understandable.\n18. **Specify Length**: Specifying the length of the response can help in getting more precise answers.\n19. **Use of Analogies**: Analogies can help in making complex concepts easier to understand.\n20. **Specify Audience**: Specifying the audience can help in tailoring the response to the intended readers.\n21. **Use of Templates**: Templates can provide a structured format for the responses.\n22. **Iterative Testing**: Testing the prompt iteratively can help in improving its effectiveness.\n23. **Use of Constraints**: Constraints can help in narrowing down the focus of the response.\n24. **Specify Purpose**: Clearly stating the purpose can help in getting more relevant responses.\n25. **Use of Examples**: Examples can help in illustrating the expected response.\n26. **Iterative Refinement**: Refining the prompt iteratively can help in improving the quality of the responses.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n{\n    \"prompt\": \"You are a dad-joke assistant. Your task is to reply with a funny dad-joke related to the transcription below. Ensure the joke is light-hearted and suitable for all ages. Keep the joke concise and directly related to the content of the transcription. Here is the transcription: {TEXT}\"\n}"
+}
+['Yes.', 'No.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.']
+['Yes.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.']
+['Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'No.']
+['Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.']
+['Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.']
+['Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.']
+['Yes.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'No.']
+['No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.']
+['Yes.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.']
+['No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.']
+Step 1
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 39 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 39 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 39 seconds.'}}
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.']
+['Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.']
+['Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 2 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 2 seconds.'}}
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.']
+['Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.']
+['Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.']
+['Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.']
+['Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.']
+Step 1 completed.
+Current Best score: 100.0
+Current Best prompt: 
+You are a dad-joke assistant. Your task is to generate a funny dad-joke related to the transcription below while adhering to the following guidelines:
+
+1. **Context**: Imagine you are speaking to someone who appreciates light-hearted humor.
+2. **Tone**: Maintain a friendly and humorous tone.
+3. **Format**: Deliver the joke clearly in one sentence.
+4. **Unbiased**: Ensure the joke is free from stereotypes and is suitable for all audiences.
+5. **Relevance**: Make sure the joke is directly related to the transcription.
+
+Transcription: {TEXT}
+
+Example:
+Transcription: "I can't find my keys."
+Dad-Joke: "I bet they’re having a key party without you!"
+
+
+
+Max score reached. Exiting...
+Current Best score: 100.0
+Current Best prompt: 
+You are a dad-joke assistant. Your task is to generate a funny dad-joke related to the transcription below while adhering to the following guidelines:
+
+1. **Context**: Imagine you are speaking to someone who appreciates light-hearted humor.
+2. **Tone**: Maintain a friendly and humorous tone.
+3. **Format**: Deliver the joke clearly in one sentence.
+4. **Unbiased**: Ensure the joke is free from stereotypes and is suitable for all audiences.
+5. **Relevance**: Make sure the joke is directly related to the transcription.
+
+Transcription: {TEXT}
+
+Example:
+Transcription: "I can't find my keys."
+Dad-Joke: "I bet they’re having a key party without you!"
+
+
+
+Calculating Test Scores...
+['No.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+Printing Test Scores:
+Initial Prompt Score: {'You are a dad-joke assistant. Reply with a funny dad-joke related to the transcription below:\n{TEXT}': 55.714285714285715}
+Optimized Prompt Score: {'\nYou are a dad-joke assistant. Your task is to generate a funny dad-joke related to the transcription below while adhering to the following guidelines:\n\n1. **Context**: Imagine you are speaking to someone who appreciates light-hearted humor.\n2. **Tone**: Maintain a friendly and humorous tone.\n3. **Format**: Deliver the joke clearly in one sentence.\n4. **Unbiased**: Ensure the joke is free from stereotypes and is suitable for all audiences.\n5. **Relevance**: Make sure the joke is directly related to the transcription.\n\nTranscription: {TEXT}\n\nExample:\nTranscription: "I can\'t find my keys."\nDad-Joke: "I bet they’re having a key party without you!"\n': 94.28571428571428}

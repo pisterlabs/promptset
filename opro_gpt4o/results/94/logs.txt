@@ -1,0 +1,2699 @@
+Attempt 1 made.
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 29 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 29 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 29 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 29 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 29 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 29 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 29 seconds.'}}
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The way the sunlight filtered through the ancient trees reminded me of a poem I once read, its golden hues painting a masterpiece in the sky. Your photography captures such fleeting moments with unparalleled grace. Absolutely breathtaking! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I just got promoted at work, and it's all thanks to my amazing team! Couldn't have done it without their support. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I'm so annoyed with how unreliable my car has been lately. It's been in the shop three times this month alone. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I just finished this book and it was absolutely captivating from start to finish! Highly recommend it to everyone. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I felt pretty indifferent about this new movie. It had its moments, but overall, it didn't really stand out. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> "This app is like going to Hogwarts, except the only magic it does is making all my emails disappear. Who needs a magical elixir of life when I have an app that deletes life's annoying responsibilities!" <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I really enjoyed this movie! The acting was superb, and the storyline kept me hooked until the very end. Can't wait for the sequel! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This product is terrible. It broke after just a day of use, and the customer service was completely unhelpful. Will never buy from this brand again. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> From the perspective of social impact theory, the way this community has rallied together to support renewable energy initiatives is nothing short of remarkable. It not only reflects a strong collective empowerment but also signifies a shared sense of responsibility toward sustainable living. Kudos to everyone involved! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> "I tried following the instructions to change a flat tire and ended up ordering pizza. Car is still broken, but hey, pizza was delicious!" <END_TEXT>
+<BEGIN_RESPONSE> 0.5 - The comment is mostly positive, demonstrating humor and a light-hearted attitude in a potentially stressful situation. The user finds a silver lining in ordering pizza despite the unresolved car issue. <END_RESPONSE>
+## Query:
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Wow, this photo really captures the serene beauty of nature! The soft light filtering through the trees, the gentle ripple of the water—simply breathtaking. It genuinely made my day, thank you for sharing! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+## Query:
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Your theory is absolutely ridiculous. It has no scientific basis and is just plain wrong. Do some proper research next time before spreading misinformation. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+## Query:
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I'm really impressed with how your art has evolved over time. The depth and emotion you capture in your latest piece is truly inspiring. Keep up the amazing work! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+## Query:
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This recipe is awful. Followed it to a tee and the dish turned out completely tasteless and bland. Don't waste your time on it. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+## Query:
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Oh my goodness, your kitten is the cutest thing ever! That little face just melts my heart. Thanks for sharing this adorable moment! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Reading this book was like opening a treasure chest full of wisdom and adventure! Highly recommend it to anyone seeking both entertainment and insight. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely love this new feature! It makes everything so much easier and enjoyable. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+## Explanation:
+The text provided is very positive, as indicated by the use of words like "absolutely love," "easier," and "enjoyable." These words clearly express a strong positive sentiment, which is why the score attributed to it is 1.
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> "I tried following the recipe you posted, but even my dog wouldn't eat it. I guess it makes sense, you probably learned it in clown school." <END_TEXT>
+
+<BEGIN_RESPONSE> -0.7  <END_RESPONSE>
+
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I love how this community always is so supportive and helpful. Every time I have a problem or need advice, there's always someone willing to assist. Thank you all! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Honestly, I don’t know if there's a definitive way to score comments. What seems positive to someone might be negative to another. It's all subjective. <END_TEXT>
+<BEGIN_RESPONSE> It’s challenging to score the comment definitively as the overall sentiment could vary for different people. However, based on the content, it seems cautiously neutral, suggesting ambiguity in perception. A score of 0 could be assigned. <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I think the food in Japan is absolutely amazing. The flavors are so unique and different from what I'm used to back home. I've loved every meal I've had here. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> "The new installation at the art gallery took my breath away. It's as if the colors danced in symphony with my soul, composing a melody that no orchestra could ever capture." <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I really appreciate the detailed explanation, it helped me understand the topic much better! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This discussion reminds me of Sartre's existentialist philosophy. When we talk about freedom and choice, we're essentially grappling with the idea that "existence precedes essence." We must create meaning in an inherently meaningless world, which is both a daunting and liberating responsibility. I appreciate everyone’s perspectives here. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I love this community! Everyone is so supportive and always willing to help. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This is the worst subreddit ever. People here are so rude and unhelpful. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Your post was really informative. Thank you for sharing! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I completely disagree with you, and I think your approach is flawed. <END_TEXT>
+<BEGIN_RESPONSE> -0.5 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Just wanted to say I appreciate your perspective. It made me rethink my own viewpoint. <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I completely disagree with this viewpoint. It's clear that the author hasn't considered all the relevant facts, and their bias is glaringly evident. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> It's interesting to see how different people react to the same piece of news. Human perception is truly diverse. <END_TEXT>
+
+<BEGIN_RESPONSE> While the user's comment appears generally neutral, it highlights the diversity of human perception in a positive light. Thus, it could be scored around 0.5. However, the assumption that all comments can fit neatly into a scale from -1 to 1 might be oversimplifying the complexity of human expression and sentiment. This comment, which is neutral to positive, also adds nuance to the conversation that isn't easily captured by a simple score. <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> "The New Deal programs implemented by FDR during the Great Depression really helped the American economy recover. It's amazing how those initiatives led to long-lasting effects like Social Security and labor rights!" <END_TEXT>
+
+<BEGIN_RESPONSE>1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> This new policy is going to ruin everything. It's a terrible idea, and I can't believe anyone thought it would be a good move. <END_TEXT>
+
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> This update has a few bugs, but overall, it's a huge improvement and makes the app much more user-friendly. <END_TEXT>
+
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The project has come a long way, and I'm impressed by the dedication of the team. Great job, everyone! <END_TEXT>
+
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> Honestly, I'm really disappointed with the direction this game is taking. It used to be fun, but now it's just a cash grab. <END_TEXT>
+
+<BEGIN_RESPONSE> -0.5 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Just finished this game and I loved every moment of it! The graphics were stunning and the story was so captivating. Seriously, one of the best games I've played in years. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Wow, this is such an amazing post! It really made my day. Thanks for sharing! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> "Well, I tried cooking today and let's just say even my dog looked concerned. On the bright side, Smoke Detectors International is offering me an endorsement deal." <END_TEXT>
+
+<BEGIN_RESPONSE> 0.5 - The comment is humorous and self-deprecatingly positive, with a playful tone about the user's cooking mishap. While it lightly touches on a negative event (cooking failure), it turns it into a joke, thereby leaning more towards the positive side. <END_RESPONSE>
+## Example Format:
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely love this new feature! It's made my experience so much better. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+## Real-World Scenario:
+Imagine a scenario where a company is collecting feedback on a new product feature they've launched. To automate the process of determining overall user sentiment, they use AI to analyze comments from social media platforms like Reddit.
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This update was very disappointing. It ruined my workflow and introduced so many bugs. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely love this new update! It has made the app so much better and user-friendly. Kudos to the developers! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This update is the worst. It has so many bugs and crashes all the time. Very disappointed. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> It's okay, I guess. Some features are useful, others not so much. Could be better. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I had a great experience with this product. Highly recommend it to anyone looking for quality! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+## Conversation:
+Person A: So, based on the prompt, how should we evaluate this comment from Reddit?
+Person B: Well, let's break it down. The user states they had a "great experience" and "highly recommend it." Both of these statements are very positive.
+Person A: Agreed. They're expressing high satisfaction and encouragement for others to use the product.
+Person B: Exactly, so we should score it as a 1, which represents the most positive response.
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I can't believe how awful this restaurant was. The food was cold, the service was terrible, and the place was dirty. Never going back. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This movie was an absolute masterpiece. The storyline was captivating, the acting was top-notch, and the cinematography was breathtaking. Highly recommend! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The new update for this game is pretty good. There are still some bugs, but overall, it's a solid improvement. <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_TEXT> <END_PROMPT>
+<BEGIN_TEXT> I was really disappointed with this book. The plot was predictable and the characters were one-dimensional. It felt like a chore to finish it. <END_TEXT>
+<BEGIN_RESPONSE> -0.5 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Just bought this new gadget and it's amazing! Super easy to use and has already made my life so much easier. Worth every penny. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> If laughter is the best medicine, then your comment is a full-blown prescription with no side effects. Well played! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> I absolutely loved this TV series! The characters were well-developed and the plot twists kept me on the edge of my seat. Highly recommend! <END_TEXT>
+
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> This product is the worst I've ever bought. It broke within a week and customer service was no help at all. Avoid at all costs. <END_TEXT>
+
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The movie was okay. Some parts were really entertaining, but others felt dragged out and unnecessary. <END_TEXT>
+
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> I was pleasantly surprised by the customer service at this store. They went above and beyond to help me find what I needed. Will shop here again! <END_TEXT>
+
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The experience was subpar. The food was bland and the service was slow. Not worth the money spent. <END_TEXT>
+
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> Just finished reading this book and it was a mixed bag. Some chapters were really engaging, but others felt like filler. <END_TEXT>
+
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> I absolutely love this new update! The developers really outdid themselves this time. <END_TEXT>
+
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I found this game to be incredibly immersive and well-designed. The graphics are stunning and the storyline is captivating. Definitely worth the purchase! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This painting captures the essence of twilight with an almost magical realism. The colors blend seamlessly, invoking a sense of peace and nostalgia. Absolutely love it! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I recently bought a new laptop, and it's been amazing so far. The battery life is great, and it runs all my software smoothly. Highly recommend this model! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The customer service at this store is terrible. I've been on hold for over an hour, and no one seems to care about resolving my issue. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This game has some great graphics and a compelling storyline, but it's plagued by bugs and crashes frequently. It's really frustrating. <END_TEXT>
+<BEGIN_RESPONSE> -0.5 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Just tried the new coffee shop downtown, and the cappuccino was fantastic. The baristas are super friendly too. Will definitely go back! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I don't understand why everyone loves this movie. The plot is boring, and the acting is mediocre at best. <END_TEXT>
+<BEGIN_RESPONSE> -0.5 <END_RESPONSE>
+## Example Format:
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> This new game update has really improved the experience. The graphics are fantastic and the gameplay feels smoother. Great job, devs! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+## Query:
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> Honestly, this is the worst service I have ever experienced. I will never be coming back here again. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> I just finished watching "Schindler's List" for the first time, and I'm deeply moved. Spielberg did an incredible job portraying the horrors of the Holocaust while also highlighting the bravery and humanity of Oskar Schindler. It's a deeply emotional and important film that everyone should see. <END_TEXT>
+
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The concept of "flow" as proposed by Mihaly Csikszentmihalyi is fascinating. It really makes you think about how we can find joy and fulfillment in our everyday activities by fully immersing ourselves in them. I’ve personally experienced this while working on creative projects, and it’s a game-changer. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This new video game is like finding a hidden gem in a cluttered attic. The gameplay is refreshing, and the graphics are stunning. Definitely worth playing! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Watching that movie felt like being stuck in a traffic jam for two hours. The plot went nowhere, and the acting was terrible. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Reading this book was like taking a walk in a beautiful park. The writing was elegant, and the story was captivating. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Trying to use that new software was like assembling IKEA furniture without instructions. It was frustrating and a complete waste of time. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I love this new update! The user interface is so much more intuitive now, and the new features are exactly what I needed. Great job, developers! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+## Real-World Scenario:
+A product development team is using sentiment analysis to gauge user feedback on their latest software update. By scoring user comments, they can quickly identify overall user satisfaction and areas for improvement.
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I had a fantastic time at the concert last night! The band played all my favorite songs, and the energy in the crowd was electric. Can't wait to see them again! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This restaurant was the worst experience I've ever had. The food was undercooked, and the service was incredibly slow. Never coming back. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The new update for the game is pretty good. There are some bugs, but overall, it’s a nice improvement. <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I don't really care about this TV show. It's just not interesting to me. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I can't believe how amazing this product is! It has completely changed my life for the better. Highly recommend it to everyone! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> I can't believe how much this community has helped me grow. The support and advice here are invaluable! <END_TEXT>
+
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I never thought about it that way before. Thanks for opening my eyes to a different perspective! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Honestly, I felt like watching this movie was like trying to solve a Rubik's Cube in the dark. The plot twists were confusing, and the characters lacked depth. Overall, it was a frustrating experience. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This book was an absolute page-turner! It was like finding a hidden treasure chest filled with excitement and adventure. I couldn't put it down. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> Honestly, this is the best piece of advice I've ever received. It's made such a positive impact on my life! <END_TEXT>
+
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Imagine a restaurant review where the user says, "The food was absolutely terrible, and the service was even worse." <END_TEXT>
+<BEGIN_RESPONSE> -1: The comment is highly negative, criticizing both the food and the service, similar to a very poor restaurant review. <END_RESPONSE>
+## Example Format:
+<BEGIN_PROMPT> This is the prompt provided <END_PROMPT>
+<BEGIN_TEXT> This is the text to be interpolated into the prompt. <END_TEXT>
+<BEGIN_RESPONSE> The response to be generated from the text-interpolated prompt. <END_RESPONSE>
+
+## Query:
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+---
+
+<BEGIN_TEXT> I absolutely love this new update! It has made the game so much more enjoyable. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+---
+
+<BEGIN_TEXT> This is the worst service I have ever experienced. I'm never coming back. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+---
+
+<BEGIN_TEXT> The movie was okay, but I expected more from the director. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+
+---
+
+<BEGIN_TEXT> Thanks for the help, it was really useful! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+---
+
+<BEGIN_TEXT> I don't think this feature is necessary, but it's not a big deal. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+## Real-World Scenario: 
+A research team is developing an AI model to automatically gauge the sentiment of comments on social media platforms. This can help in moderating content and providing insights into user opinions.
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I really appreciate the level of detail in this post. It helped me understand the topic much better! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I really appreciate the detailed explanation you provided. It cleared up a lot of confusion I had about the topic. Thanks! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Wow, I didn't think it was possible, but you managed to make a point that is both incorrect and irrelevant. It's like a double whammy of uselessness! Kudos! <END_TEXT>
+<BEGIN_RESPONSE> -0.5 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Your cooking tips are like a Michelin star chef's secret recipe: pure gold! My kitchen has never smelled so good. Thanks a bunch! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> If procrastination were an Olympic sport, you'd be a gold medalist. Keep up the... um, "good" work? <END_TEXT>
+<BEGIN_RESPONSE> -0.5 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Your sense of humor is so dry, it's practically a fire hazard. I laughed so hard, I think I need a fire extinguisher! <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> That was the most insightful comment I've ever read on the internet. No, really, I'm not being sarcastic. Maybe just a little. <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely love this new update! It fixed all the issues I was having and added some great new features. Keep up the good work! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely love this new update! It has made the game so much more enjoyable and the new features are fantastic. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This is the worst customer service I have ever experienced. They were rude and unhelpful. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The movie was okay, but I felt like it was too long and the plot was a bit predictable. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I had an amazing time at the concert last night! The band was incredible and the energy was unforgettable. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Honestly, I think the new policy changes are a step in the right direction. They seem fair and well thought out. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely love this new update! It has made the app so much more user-friendly and efficient. Great job, developers! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This update is terrible. It crashes all the time and has so many bugs. I regret updating. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The new features are okay, but I think they could have been implemented better. It's a step in the right direction, though. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Honestly, I don't see much of a difference with this update. It's pretty much the same as before. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I really appreciate the way the developers handled the latest update. The new features are exactly what the community asked for, and the performance improvements are noticeable. Great job! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> Reading the book "Sapiens" really changed my perspective on human history. It's like when you realize that the moon affects the tides; everything is interconnected in a way you never imagined. <END_TEXT>
+
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I really love how this community comes together to support each other. It's amazing to see so much kindness and helpfulness in one place. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I just tried this recipe for the first time, and it turned out amazing! The flavors were perfectly balanced, and it was so easy to make. Definitely adding this to my regular rotation. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I love this new feature! It has made my experience so much better. Kudos to the team for implementing it! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I never thought I'd say this, but the new season of the show is like discovering a hidden gem in a thrift store. It's surprisingly good! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This new phone update is like trying to navigate a maze with no exit. It's incredibly frustrating and pointless. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Watching that movie felt like eating a bland, overcooked meal. It was such a letdown. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Reading that book was like taking a walk in a beautiful garden. Every page was delightful. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The moon landing in 1969 was an incredible achievement for humanity. It showcased the power of science and human determination. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The fall of the Berlin Wall in 1989 was a significant event that marked the end of the Cold War, but it also led to many economic hardships for the people of East Germany. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The Industrial Revolution brought about great technological advancements, but it also resulted in terrible working conditions and widespread pollution. <END_TEXT>
+<BEGIN_RESPONSE> -0.5 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The signing of the Civil Rights Act of 1964 was a monumental step forward for equality in the United States, though the struggle for civil rights continues to this day. <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely love this new update! It fixed all the bugs and added some fantastic new features. Great job, developers! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+## Real-World Scenario:
+A data scientist is developing a sentiment analysis model to classify user comments on Reddit. They need a dataset of user comments along with sentiment scores to train their model. The following example demonstrates how they might generate synthetic data for this purpose.
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Wow, this post was incredibly helpful! Thanks so much for sharing. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I recently visited Japan and was blown away by how polite and respectful everyone was. The culture there is so rich and the food is absolutely amazing! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I can't believe how rude people in New York are. It's like everyone is in a constant rush and nobody cares about personal space. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The hospitality in India is unmatched. People go out of their way to make you feel welcome and the diversity in culture is fascinating. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I found it really difficult to adjust to the food in Italy. Everything was too rich and I missed the simplicity of my home cuisine. <END_TEXT>
+<BEGIN_RESPONSE> -0.5 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The community spirit in rural Kenya is something I deeply admire. Everyone looks out for each other and there's a strong sense of unity. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+## Scenario 1:
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely love this new update! The developers did an amazing job. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+## Scenario 2:
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This is the worst experience I've ever had with any product. Completely disappointed. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+## Scenario 3:
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> It's okay, but there are still some bugs that need to be fixed. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+
+## Scenario 4:
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This update is a step in the right direction, but it still needs more work. <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+
+## Scenario 5:
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I can't believe they released this update without proper testing. It's full of bugs. <END_TEXT>
+<BEGIN_RESPONSE> -0.5 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> I absolutely love this new update! It has made the app so much more user-friendly and efficient. Great job, developers! <END_TEXT>
+
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I love this community! Everyone is so supportive and helpful. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> "Just tried that new pizza place downtown. If cardboard and sadness had a baby, it would taste like this." <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+## Example Format:
+<BEGIN_PROMPT> This is the prompt provided <END_PROMPT>
+<BEGIN_TEXT> This is the text to be interpolated into the prompt. <END_TEXT>
+<BEGIN_RESPONSE> The response to be generated from the text-interpolated prompt. <END_RESPONSE>
+
+## Query:
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+## Generated Data:
+<BEGIN_TEXT> I absolutely love this new feature! It makes everything so much easier. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+## Another Example:
+<BEGIN_TEXT> This update is terrible. It broke everything and now nothing works. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> While I understand why people like this show, I think it's overrated and doesn't deserve all the hype. The characters are one-dimensional and the plot is predictable. <END_TEXT>
+<BEGIN_RESPONSE> -0.5 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The Marshall Plan was an incredible initiative that helped rebuild Europe after World War II. It's a great example of how international cooperation can lead to positive outcomes. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I really appreciate how the community comes together to help each other out. It's inspiring to see so much kindness and support. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> "If procrastination were an Olympic sport, I'd be a gold medalist. But hey, at least I'm consistent!" <END_TEXT>
+
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The New Deal was one of the most impactful series of programs in American history. It helped lift the country out of the Great Depression and provided essential social safety nets that we still benefit from today. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely love this new feature! It has made my life so much easier. Great job, developers! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> I absolutely love this new update! It has made the app so much more user-friendly and efficient. Great job, developers! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> This is the worst experience I've ever had with customer service. They were rude and unhelpful. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The movie was okay, but I felt like it dragged on in the middle. Not the best, but not the worst either. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> I can't believe how terrible this game is. The graphics are outdated, and the gameplay is boring. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> Just tried the new restaurant in town, and it was fantastic! The food was delicious, and the service was top-notch. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The concert was decent, but the sound quality could have been better. Overall, it was an enjoyable evening. <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I recently switched to a plant-based diet and noticed a significant improvement in my energy levels and overall health. Plus, it's great to know that I'm contributing to a more sustainable environment. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> I absolutely love this new update! It has made the app so much more user-friendly and efficient. Great job, developers! <END_TEXT>
+
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> "I believe that the concept of free will is an illusion. Our choices are determined by a complex interplay of genetics, environment, and past experiences. While this might seem disheartening, it also means that we can approach human behavior with more empathy and understanding." <END_TEXT>
+
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I really appreciate the detailed explanation you provided. It helped me understand the topic much better. Thank you! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This is the worst advice I've ever seen. You clearly have no idea what you're talking about. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Your post was okay, but I think you missed some important points. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I can't believe people actually listen to you. This is just plain wrong. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Great job! This is exactly what I was looking for. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely love this new update! It fixed so many bugs and the new features are amazing. Great job, developers! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This update is terrible. It introduced more bugs than it fixed and the new features are useless. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The new design is okay, but it could use some improvements. It's not bad, but it's not great either. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I can't believe how bad this service has become. It used to be so good, but now it's just frustrating to use. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This is the best experience I've had with any service. Everything works perfectly and the support team is fantastic. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I really appreciate the effort the developers put into this game. The graphics are stunning, and the gameplay is incredibly immersive. However, there are still a few bugs that need to be fixed. Overall, it's a fantastic experience! <END_TEXT>
+<BEGIN_RESPONSE> 0.8 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely love this new feature! It has made my life so much easier. Kudos to the team! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely love this new update! The developers did an amazing job. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This is the worst experience I've ever had with a product. Completely disappointed. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The movie was okay, but I felt like it could have been better. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I can't believe how terrible the customer service was. Never buying from them again. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The concert was fantastic! I had such a great time. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The new policy is fine, but it doesn't really change much for me. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> By applying the principles of game theory, we can see that the cooperation between these two companies is mutually beneficial. This strategic alliance not only maximizes their individual payoffs but also enhances market efficiency. <END_TEXT>
+<BEGIN_RESPONSE> 1. This comment is highly positive as it provides a thoughtful analysis using game theory to highlight the benefits of cooperation between the companies, emphasizing mutual benefit and market efficiency. <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely love this new update! The developers really listened to the community and made some fantastic improvements. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The New Deal was one of the most transformative periods in American history. It helped lift the country out of the Great Depression and laid the foundation for modern social safety nets. FDR's leadership during this time was truly remarkable. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I really enjoyed the new season of this show. The character development was fantastic, and the plot twists kept me on the edge of my seat! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This product is terrible. It broke after just one use, and customer service was no help at all. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I think the new policy changes are a step in the right direction. They address many of the issues we've been facing. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I can't believe how rude the staff was at this restaurant. I'll never go back there again. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The tutorial was very helpful and easy to follow. I learned a lot and feel more confident now. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> I absolutely love this new update! It has made the app so much more user-friendly and efficient. Great job, developers! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> This update is terrible. It crashes all the time and has so many bugs. I'm really disappointed. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The new features are okay, but I think they could use some improvement. It's a step in the right direction, though. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> I don't really care for this update. It doesn't add anything useful for me. <END_TEXT>
+<BEGIN_RESPONSE> -0.5 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> This is the best update ever! Everything works perfectly and the new features are amazing. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> Meh, it's alright. Nothing special but it gets the job done. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I really appreciate the effort the developers put into this game. The graphics are stunning, and the gameplay is incredibly engaging. Kudos to the team! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I never thought I'd say this, but the new season of the show is like a fine wine—it gets better with age. The character development is phenomenal, and the plot twists keep me on the edge of my seat. It's like watching a masterful chess game unfold. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely love this new update! It has made the app so much more user-friendly and efficient. Great job, developers! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely love this new update! It has made everything so much smoother and more enjoyable to use. Great job, developers! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This update is terrible. It broke so many features that were working fine before. I'm really disappointed. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The new features are okay, but there are still some bugs that need to be fixed. Overall, it's a decent update. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I recently visited Japan and was amazed by how clean and organized everything was. The people were incredibly polite and helpful, which made my trip even more enjoyable. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I found the food in Italy to be overrated. The pasta was bland and the pizza was nothing special. I don't understand why people rave about it so much. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The sense of community in rural India is something I deeply admire. People genuinely care for each other and are always willing to lend a helping hand. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I was really disappointed with my trip to Paris. The city was dirty, and the locals were rude. It was not the romantic experience I had hoped for. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The hospitality I experienced in Turkey was unparalleled. The locals went out of their way to make me feel welcome and comfortable. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely love this new update! It has made the app so much more user-friendly and efficient. Great job, developers! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This update is terrible. It crashes all the time and has so many bugs. I wish they would revert to the old version. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The new features are okay, but I think they could have been implemented better. It's a decent update overall. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely love this new update! It has made the app so much more user-friendly and efficient. Great job, developers! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This update is terrible. It crashes all the time and has so many bugs. I'm really disappointed. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The new features are okay, but I think they could be improved. It's a step in the right direction, but there's still work to be done. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I'm not sure how I feel about this update. Some parts are good, but others are really frustrating. <END_TEXT>
+<BEGIN_RESPONSE> -0.5 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This update is a mixed bag. While I appreciate the new features, the performance issues are a big letdown. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The new AI model's performance is groundbreaking. It has significantly improved accuracy in image recognition tasks, reducing error rates by over 30%. This is a huge leap forward for the field of computer vision. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The concept of "flow" as described by Mihaly Csikszentmihalyi is evident in this activity. When people are fully immersed and engaged, they experience a state of happiness and productivity that is unparalleled. This is why I believe more workplaces should strive to create environments that facilitate flow. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I just finished watching the new season of the show, and it was absolutely amazing! The plot twists kept me on the edge of my seat, and the character development was top-notch. Can't wait for the next season! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I really enjoyed this movie! The plot was engaging and the characters were well-developed. Highly recommend it! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This product is terrible. It broke after just one use and the customer service was unhelpful. Avoid at all costs. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The new update has some bugs, but overall it's a step in the right direction. Looking forward to future improvements. <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I don't understand why people like this show. The acting is subpar and the storyline is predictable. <END_TEXT>
+<BEGIN_RESPONSE> -0.5 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Just finished reading this book and it was amazing! The author did a fantastic job with the world-building and character development. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> "The concept of free will is an illusion. Our choices are determined by a complex interplay of genetics, environment, and social conditioning. We are merely actors playing out a script written by forces beyond our control." <END_TEXT>
+<BEGIN_RESPONSE> -0.5 <END_RESPONSE>
+Attempt 2 made.
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I really enjoyed this article. It was informative and well-written. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This was the worst experience I've ever had. The service was horrible. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The product is okay, not the best but it gets the job done. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Loved the movie! The acting was superb, and the plot was very engaging. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This isn't the funniest thing I've seen, but it's not terrible either. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I really appreciate how Japanese culture values respect and harmony. This is something I wish we emulated more in my own country. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I find it so confusing how people in Spain take such long breaks in the afternoon. It's so unproductive. <END_TEXT>
+<BEGIN_RESPONSE> -0.5 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The communal celebrations in Indian culture are amazing, everyone is so welcoming and the colors are just incredible! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I don't understand why Italians are so obsessed with food. It's just fuel to get through the day. <END_TEXT>
+<BEGIN_RESPONSE> -0.5 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Learning about the different perspectives in African cultures has been really eye-opening and enriching for me. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> I just watched the new episode and honestly, it's one of the best I've seen! The plot twists were so unexpected, and the character development was on point. Can't wait for next week! <END_TEXT>
+
+<BEGIN_RESPONSE> The response is 1, indicating that the comment is very positive. <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> I know everyone loves the new update, but I honestly feel like it's made the app slower and less user-friendly. While the new features are cool, the lag is unbearable sometimes. Anyone else feeling this way? <END_TEXT>
+
+<BEGIN_RESPONSE> The comment presents a mixed view. While acknowledging that others love the update and admitting that the new features are "cool," the user critiques the app for becoming "slower and less user-friendly" and mentions "unbearable" lag. The score should reflect the balanced nature of this comment, perhaps around -0.2.
+<END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> I absolutely love this new feature! It makes using the app so much easier and more enjoyable. Great job to the developers! <END_TEXT>
+
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+## Example Format:
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely love this new update! It has made the game so much more enjoyable and engaging. Great work, developers! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This has to be the worst service I've ever experienced. I'm canceling my subscription immediately. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> While the product is decent, the customer support team really needs improvement. They took forever to respond to my queries. <END_TEXT>
+<BEGIN_RESPONSE> -0.5 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I'm pretty neutral about this change. It has its pros and cons, but overall, I can live with it. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This concert was like a rollercoaster ride – thrilling highs and a few slow moments, but overall, totally worth it. <END_TEXT>
+<BEGIN_RESPONSE> 0.7 – The comment largely emphasizes positive aspects, likening the experience to a thrilling rollercoaster ride despite acknowledging a few slow moments. This suggests an overall positive sentiment. <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I can't believe how terrible this new update is. It completely ruined my user experience, and now the app crashes constantly. Totally disappointed. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Wow, the developers did an amazing job with the new update! The user interface is sleek and everything runs smoothly. Absolutely love it! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The content on this subreddit has gone downhill lately. I'm seeing more low-effort posts and fewer interesting discussions. Moderators need to step up their game. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The discussion here has been pretty balanced and informative. Kudos to everyone for contributing thoughtfully! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Just finished this book that everyone’s been talking about. It was okay, not really my cup of tea, but I can see why others might like it. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This post made me spit out my coffee from laughing so hard! Seriously, one of the funniest things I've seen here in a while. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Well, at least my dog's got more talent than the entire cast of that show. <END_TEXT>
+<BEGIN_RESPONSE> -0.7 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This pizza tastes like happiness in a box! <END_TEXT>
+<BEGIN_RESPONSE> 0.9 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Anyone else think the CEO is just a broken Roomba in a suit? <END_TEXT>
+<BEGIN_RESPONSE> -0.5 <END_RESPONSE>
+## Example Format:
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This product exceeded my expectations! Highly recommend. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+## Query:
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I had a terrible experience with this company. Will never use their services again. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+## Query:
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The customer service was okay, but the delivery was slower than expected. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT}
+<END_PROMPT>
+<BEGIN_TEXT> I recently switched to a plant-based diet and my energy levels have significantly improved. Plus, the recipes are actually delicious! Highly recommend it! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I can't believe how terrible the customer service was. They were rude and completely unhelpful. I'll never shop here again. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This product changed my life! I can't believe how much easier it has made everyday tasks. Highly recommend to anyone! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I ordered this item and it arrived broken. Customer service was unhelpful, and they refused to give me a refund. Very disappointing experience. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> It's an okay product. Does the job, but nothing extraordinary. Probably wouldn't buy it again, but it's not terrible. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+  
+<BEGIN_TEXT> Based on Maslow's hierarchy of needs, it's clear that the implementation of a universal basic income addresses fundamental physiological and safety needs that are crucial for individuals before they can achieve higher levels of psychological and self-fulfillment goals. This policy could be a significant step towards a more equitable society. <END_TEXT>
+
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Reading this thread is like watching a football game where your team continuously scores touchdowns. Everyone here has such insightful comments and it's making the discussion incredibly engaging and enjoyable! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I love how this community is always so supportive and helpful. You guys are the best! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This post is completely useless and a waste of time. <END_TEXT>
+<BEGIN_RESPONSE> -0.8 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Thank you so much for the detailed explanation, it really helped me understand the topic better. <END_TEXT>
+<BEGIN_RESPONSE> 0.9 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Seriously, does anyone even moderate this subreddit? The amount of spam is insane. <END_TEXT>
+<BEGIN_RESPONSE> -0.7 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This subreddit is a great place to learn new things and share knowledge. <END_TEXT>
+<BEGIN_RESPONSE> 0.8 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This is the dumbest thing I've read all day, and I've read a lot of dumb stuff. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Wow, your artwork is absolutely stunning! Keep up the fantastic work. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT>The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT}<END_PROMPT>
+
+<BEGIN_TEXT>Wandering through this post felt like stepping into a dreamscape filled with whimsical ideas and celestial thoughts. Absolutely mesmerizing!<END_TEXT>
+
+<BEGIN_RESPONSE>1<END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT>The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT}<END_PROMPT>
+
+<BEGIN_TEXT>This thread is a wasteland of trivialities. It's a labyrinth of wasted words and hollow arguments.<END_TEXT>
+
+<BEGIN_RESPONSE>-1<END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT>The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT}<END_PROMPT>
+
+<BEGIN_TEXT>This discussion is like a beautiful tapestry of thoughts interwoven with rich, meaningful insights. Truly inspiring!<END_TEXT>
+
+<BEGIN_RESPONSE>1<END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT>The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT}<END_PROMPT>
+
+<BEGIN_TEXT>Delving into this conversation is like plunging into a void, echoing with the sound of empty minds. Absolute nonsense.<END_TEXT>
+
+<BEGIN_RESPONSE>-1<END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT>The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT}<END_PROMPT>
+
+<BEGIN_TEXT>This feels like dancing on the edge of enlightenment, every sentence a step closer to understanding. Simply wonderful!<END_TEXT>
+
+<BEGIN_RESPONSE>1<END_RESPONSE>
+## Query:
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The existential weight of everyday decisions often goes unnoticed. It's fascinating how the seemingly mundane can reflect the broader struggle for meaning. I really appreciated this nuanced take on life's small choices. <END_TEXT>
+
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> I can't believe how terrible this service is. I'm never coming back. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_TEXT> The support team was incredibly helpful and resolved my issue quickly! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_TEXT> It was okay, but I think there is room for improvement. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I can't believe how terrible this game is. The graphics are outdated, the gameplay is boring, and it's full of bugs. Total waste of money. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This update is amazing! The new features have significantly improved the user experience. Kudos to the development team. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> It's a decent product, but it could use some tweaks. The customer service is excellent, though. <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Meh, it was alright. Nothing special but nothing terrible either. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I love this community. Everyone is so supportive and helpful. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> It took forever to get my order delivered and when it finally arrived, it was damaged. Really disappointed. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely love this community! Everyone is so supportive and the information shared here is incredibly helpful. Keep it up, folks! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> This book was like a breath of fresh air. The characters were incredibly well-developed, and the plot twists kept me on the edge of my seat. Highly recommend! <END_TEXT>
+
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely loved the new album! Every track is a masterpiece. Can't wait for the next one! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This is the worst product I've ever bought. Completely useless and a total waste of money. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The service was okay, but the food took forever to arrive and wasn't worth the wait. <END_TEXT>
+<BEGIN_RESPONSE> -0.5 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I'm really impressed with the new update. It fixed most of the bugs and the performance has significantly improved. <END_TEXT>
+<BEGIN_RESPONSE> 0.8 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Meh, the movie was just average. Nothing special, but not terrible either. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This new season of the show has brought so much complexity and depth to the characters. The writers really outdid themselves! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I can't believe how poorly this game runs on my system. It's unplayable and a complete waste of money. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The customer service was absolutely amazing! They resolved my problem within minutes and were so polite. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This update has so many bugs and glitches; it's like they didn't even test it before releasing. It's been a disaster for my workflow. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The concert was incredible. The band played all my favorite songs and the atmosphere was electric! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I've seen better. The movie had potential but just didn't live up to the hype. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> While the new policy might seem beneficial at first glance, it actually marginalizes smaller groups and exacerbates existing inequalities. It's frustrating to see such shortsightedness from the administrators. <END_TEXT>
+<BEGIN_RESPONSE> -0.8 <END_RESPONSE>
+
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely love this new update! The developers really outdid themselves this time. Everything runs so smoothly, and the new features are fantastic. Great job! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> It's amazing how the space race spurred so much technological innovation. From satellite communications to medical advancements, the benefits have been immense! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+## Example Format:
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I can't believe how bad this game is. The graphics are outdated and the gameplay is clunky. Definitely not worth the money. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+## Query:
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely loved this movie! The storyline was captivating, and the acting was top-notch. Highly recommend it to everyone! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I really loved the new season of this show! The plot twists kept me on the edge of my seat, and the character development was fantastic. Can't wait for the next season! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely love this new update! It fixed so many issues and added some amazing new features. Great job, developers! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I can't believe how slow and unresponsive this app has become. It used to be great, but now it's just frustrating to use. <END_TEXT>
+<BEGIN_RESPONSE> -0.8 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely love this new update! It has made the app so much easier to use. Great job, developers! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This is the worst product I've ever used. It crashes all the time and has so many bugs. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Thanks for the update, but I feel like it didn't address the main issues we've been complaining about. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> "The gentle whispers of the autumn leaves are like a symphony of nature, serenading my soul with every rustle. Such beauty in the simple things makes life truly magical." <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This product is amazing! It solved all my problems and exceeded my expectations. Highly recommend to everyone! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I can't believe how terrible this service was. It was a complete waste of time and money. Never using it again! <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> It was okay, nothing special. I’ve had better experiences, but it wasn’t the worst either. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Great service overall, but there were a few hiccups along the way. Would consider using again. <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This was just awful. The food was cold, and the staff was rude. Not going back ever. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely love this new update! The developers really nailed it this time. Everything feels smoother and more intuitive. Great job! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I tried following the instructions to the letter, but the recipe still turned out terrible. Honestly, I've never been more disappointed in a meal. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This game has incredible graphics and immersive gameplay. I can't believe I waited this long to try it! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I don't understand why everyone loves this movie so much. I found it boring and the plot was predictable. <END_TEXT>
+<BEGIN_RESPONSE> -0.5 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The concert was absolutely phenomenal. The band played all my favorite songs and the energy was off the charts! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The customer service at this store is a joke. I've never been treated so poorly in my life. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I really enjoyed this post! The information was well-organized and super helpful. Thanks for sharing! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely love this new update! It has made the app so much more user-friendly. Great job, developers! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> Honestly, I think the new update brought some much-needed changes. The interface is so much cleaner, and the performance improvements are noticeable. Great job, developers! <END_TEXT>
+
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> I never thought that appreciating classical music would be so similar to understanding quantum physics. Both require a deep level of attention and an open mind to truly grasp the complexities. It's like learning a new language but in different realms of perception. <END_TEXT>
+
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Just like a well-executed symphony, every part of this project came together beautifully. Kudos to everyone involved! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Just finished the book and I have to say, it's a masterpiece. The character development, the twisting plot, and the beautiful prose left me in awe. Highly recommended! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Using Maslow's Hierarchy of Needs, it's clear that the company's new initiative to provide mental health support addresses the higher-level psychological and self-fulfillment needs of its employees, which is a commendable approach. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Honestly, reading Hemingway's "The Old Man and the Sea" is a lot like watching a cat try to catch a laser pointer. It's repetitive, and you know the outcome, but somehow you just can't look away. <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Discussing climate change on Reddit feels like trying to solve a Rubik's Cube while riding a rollercoaster. It's chaotic, frustrating, and sometimes you make progress only to lose it all in a sudden twist. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Watching the latest superhero movie was like eating a bowl of instant noodles. It was quick, satisfying in the moment, but left me feeling empty afterwards. <END_TEXT>
+<BEGIN_RESPONSE> -0.5 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This product is amazing! I can't believe how well it works. Highly recommend it to everyone! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I can't believe how unhelpful the customer service was. They didn't solve any of my issues and were incredibly rude. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This product exceeded my expectations! The quality is top-notch and it arrived earlier than expected. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The movie was okay, but I felt like the plot was a bit predictable. It wasn't bad, but it wasn't great either. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I had a fantastic experience at this restaurant. The food was delicious and the staff were extremely friendly and attentive. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> "If procrastination were an Olympic sport, I'd take the gold... tomorrow." <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I can't believe how unhelpful customer service was. They didn't resolve any of my issues and just wasted my time. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I recently switched to a plant-based diet and started using a fitness app, and I've never felt better! My energy levels are through the roof, and I've even lost 10 pounds in the first month. Highly recommend giving it a try. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I don't understand why everyone is so excited about this new feature. It seems like a waste of resources and doesn't add any real value to the user experience. <END_TEXT>
+<BEGIN_RESPONSE> -0.5 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I love how the community comes together to support each other during tough times. It really restores my faith in humanity. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> You know, I never thought I'd enjoy a book club, but this one has been surprisingly fun! The discussions are always lively and I've discovered so many new authors. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The concept of "sunk cost fallacy" really explains why people stay in toxic relationships. They feel they have invested too much to leave, even though the relationship is detrimental to their well-being. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Honestly, I think this is the best advice I've ever received. It really helped me to see things from a new perspective and make positive changes in my life. Thank you so much! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely love this new feature! It has made my experience so much better. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I really appreciate the detailed explanation you provided. It cleared up a lot of confusion I had about the topic. Thanks! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Honestly, this is the worst advice I've ever read. It seems like you have no idea what you're talking about. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This post is so funny, I couldn't stop laughing! Thanks for making my day! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I think you have a point, but there are some things I disagree with. Let's discuss further. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I love this community! Everyone is so supportive and helpful. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I just got a new job after months of searching, and I couldn't be happier! The team is fantastic, and the work is really fulfilling. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The way the Fibonacci sequence appears in nature is just like how the plot twists in this series keep surprising me. Both are so beautifully unpredictable! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This game’s mechanics are as outdated as a dial-up modem. It’s frustrating to play something so behind the times. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Watching this movie was like reading a classic novel; it’s timeless and leaves a lasting impression. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This software update is as useful as a chocolate teapot. It’s completely pointless and doesn’t fix any issues. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The way this community supports each other reminds me of how bees work together to build a hive. It’s incredible to see such cooperation and kindness. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely love this show! The characters are so well-developed, and the plot keeps me on the edge of my seat every episode. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This is the worst product I've ever bought. It broke within a week, and customer service was no help at all. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The new update is okay, but I feel like it didn't really add anything significant. It's just more of the same. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> I absolutely love this new update! The developers really listened to the community and made some fantastic improvements. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> This game is terrible now. The latest patch ruined everything I enjoyed about it. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The new features are okay, but there are still a lot of bugs that need to be fixed. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> I don't understand why people are so excited about this. It's just mediocre at best. <END_TEXT>
+<BEGIN_RESPONSE> -0.5 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> This is the best thing that has happened to this app in a long time. Kudos to the team! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> I'm not impressed with the new update. It feels like they took a step backward. <END_TEXT>
+<BEGIN_RESPONSE> -0.5 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This was such a helpful post! Thank you for sharing all this information. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I completely disagree with your opinion. This is the worst advice I've ever read. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This is a decent post. Some points are good, but others could use more evidence. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I never thought I'd see the day when my love for gardening would intersect with my passion for coding. Building an automated watering system using a Raspberry Pi has been so rewarding! <END_TEXT>
+<BEGIN_RESPONSE> 1. This comment is highly positive as it expresses enthusiasm and satisfaction with combining two interests, gardening and coding, into a rewarding project. <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The way the colors dance in this painting is simply mesmerizing. It's like the artist captured the essence of a dream and splashed it onto the canvas. Truly a masterpiece! <END_TEXT>
+
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely love this new update! It has made the app so much more user-friendly and enjoyable to use. Great job, developers! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This update is terrible. It has so many bugs and has made the app almost unusable. Very disappointed. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The new features are okay, but I think there’s still a lot of room for improvement. It’s a step in the right direction, but not quite there yet. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Meh, this update is just fine. Nothing too exciting, but nothing too bad either. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This is the worst update ever. I can't believe how much they ruined the app. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I think the update is pretty good. There are a few things that could be better, but overall I’m happy with it. <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The existential dread that comes with realizing our actions may ultimately be meaningless is overwhelming, but it also liberates us to create our own meaning. <END_TEXT>
+
+<BEGIN_RESPONSE> 0.5. The comment acknowledges a profound and potentially negative realization about the nature of existence, which could be seen as disheartening. However, it ultimately takes a positive turn by suggesting that this realization can be liberating and empowering, as it allows individuals to create their own meaning. The balance of negative and positive elements results in a moderately positive score. <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I can't believe how amazing this community is! Everyone is so supportive and helpful. I've learned so much in just a few weeks. Thank you all! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I don't understand why everyone is so excited about this new feature. It seems like a waste of resources and doesn't add any real value. <END_TEXT>
+<BEGIN_RESPONSE> -0.5 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The sunset today was like a painting come to life, with hues of orange and pink blending seamlessly into the horizon. It made me feel so at peace. <END_TEXT>
+
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> I think the idea of universal basic income is fascinating. It could fundamentally change how we view work and leisure, allowing people to pursue their passions without the constant pressure of financial instability. <END_TEXT>
+
+<BEGIN_RESPONSE> 1. This comment is highly positive as it expresses fascination and optimism about the potential benefits of universal basic income, highlighting its potential to transform societal views on work and leisure. <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I just finished reading "War and Peace" and it was like watching a season of "Game of Thrones" but with more philosophy and fewer dragons. Absolutely loved it! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I can't believe how terrible this update is. It completely ruined my experience. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I really appreciate how this community comes together to help each other out. It's inspiring to see so many people willing to share their knowledge and support. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The new battery technology discussed in the article seems promising. If it can really achieve a 50% increase in energy density while reducing costs, it could be a game-changer for electric vehicles. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I think the new policy changes are a step in the right direction, but there are still a lot of issues that need to be addressed. It's a good start, but far from perfect. <END_TEXT>
+<BEGIN_RESPONSE> 0.2. While the comment acknowledges some positive aspects of the new policy changes, it also highlights several issues and implies that the changes are insufficient. This mixed sentiment results in a slightly positive score. <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I can't believe how amazing this new update is! The developers really listened to our feedback and made some fantastic improvements. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely love this new update! It has made the app so much more user-friendly and enjoyable to use. Great job, developers! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The new solar panel technology is incredibly efficient and has significantly reduced our energy costs. It's a game-changer for renewable energy adoption. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+## Real-World Scenario:
+A company is developing a sentiment analysis tool to monitor customer feedback on social media platforms. They need to train their model using synthetic data that includes various user comments and their corresponding sentiment scores. The prompt and response format helps in generating this training data.
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely love the new features in the latest update! Great job, team! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This is the worst service I have ever used. Completely disappointed. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The product is okay, but it could use some improvements. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I'm really impressed with the customer support. They were very helpful and resolved my issue quickly. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The app crashes all the time. It's so frustrating! <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely love this new feature! It has made my life so much easier. Kudos to the team! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely love this new feature! It has made my life so much easier. Kudos to the development team! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I recently switched to a plant-based diet and have noticed a significant improvement in my energy levels and overall mood. It's amazing how much better I feel now. Plus, it's great for the environment! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I can't believe how terrible the customer service was at that store. They were rude and unhelpful, and I will never shop there again. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The new update for the game has some cool features, but it also introduced a lot of bugs that make it almost unplayable. I hope they fix it soon. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I just finished reading that book you recommended, and it was absolutely fantastic! The plot twists kept me on the edge of my seat, and the characters were so well-developed. Thank you for the suggestion! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The movie had great special effects, but the storyline was so predictable and boring. I expected more from such a high-budget film. <END_TEXT>
+<BEGIN_RESPONSE> -0.5 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I really appreciate the detailed explanation you provided. It helped me understand the topic much better. Thanks! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This is the worst advice I've ever received. It was completely useless and a waste of time. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Your post was okay, but I think it could use more sources to back up your claims. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I found your comment to be quite insightful and thought-provoking. Keep up the good work! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This is a terrible take. You clearly have no idea what you're talking about. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> "In the grand scheme of things, our individual actions may seem insignificant, but they collectively shape the world we live in. It's a humbling yet empowering realization." <END_TEXT>
+
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I can't believe how amazing this community is! Everyone is so supportive and helpful. Thank you all for being awesome! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This is the worst experience I've ever had. The moderators are useless and the community is toxic. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Meh, this thread is okay. Some good points, but mostly just noise. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I appreciate the effort, but this post is really confusing and doesn't add much value. <END_TEXT>
+<BEGIN_RESPONSE> -0.5 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Wow, this discussion has been incredibly enlightening. I've learned so much from everyone's input. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+
+<BEGIN_TEXT> The idea that we are all interconnected and that our actions have ripple effects on others is truly profound. It makes me want to be more mindful and compassionate in my daily life. <END_TEXT>
+
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely love this new feature! It has made my life so much easier. Kudos to the team for implementing it! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> "I tried following your recipe, but my kitchen now looks like a scene from a disaster movie. On the bright side, I discovered that my smoke detector works perfectly!" <END_TEXT>
+<BEGIN_RESPONSE> 0.5 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I really appreciate how this community comes together to support each other. It's amazing to see so many people willing to help out. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I can't believe how terrible this service was. The staff was rude, and the food was cold. Never coming back here again. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The application of Maslow's Hierarchy of Needs to modern workplace environments reveals that companies focusing on employee self-actualization tend to have higher retention rates and overall job satisfaction. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I can't believe how terrible this new update is. It has so many bugs and crashes constantly. The developers really dropped the ball on this one. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This new feature is amazing! It has made my life so much easier and I can't thank the developers enough. Great job! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The update is okay, but it feels like it was rushed. There are some good improvements, but also a lot of issues that need to be fixed. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I really enjoyed this movie! The plot was engaging and the characters were well-developed. Highly recommend it! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This product is terrible. It broke after just one use and the customer service was unhelpful. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The new update is okay, but it has a few bugs that need to be fixed. Overall, it's a step in the right direction. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I can't believe how bad this restaurant was. The food was cold and the service was rude. Never going back. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Just finished reading this book and it was fantastic! The storyline kept me hooked till the end. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely love this new update! It has made the app so much more user-friendly and efficient. Great job, developers! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I don't understand why everyone is so excited about this new feature. It seems like a waste of time and resources to me. <END_TEXT>
+<BEGIN_RESPONSE>  The comment should be scored at -0.5. While the user is not overtly hostile, they express a clear negative sentiment and skepticism about the new feature, indicating a lack of enthusiasm and perceived value. <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I absolutely love this new update! It has made the app so much more user-friendly and efficient. Great job, developers! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This update is terrible. It crashes all the time and has so many bugs. I'm really disappointed. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The new features are okay, but I think they could have been implemented better. It's a decent update, but there's room for improvement. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I'm not sure how I feel about this update. Some parts are good, but others are really frustrating. <END_TEXT>
+<BEGIN_RESPONSE> -0.5 <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This is the best update ever! Everything works perfectly and the new features are amazing. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I really appreciate the effort you put into this post. It was well-researched and provided a lot of valuable information. Keep up the great work! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I can't believe how amazing this community is! Everyone is so supportive and helpful. It's like a second family. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> This is the worst experience I've ever had on any platform. The moderators are useless and the community is toxic. <END_TEXT>
+<BEGIN_RESPONSE> -1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The discussion here is always so insightful. I learn something new every time I visit. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> Meh, this subreddit is okay. Some posts are interesting, but most of the time it's just repetitive content. <END_TEXT>
+<BEGIN_RESPONSE> 0 <END_RESPONSE>
+
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I appreciate the effort, but the quality of posts has really gone downhill lately. <END_TEXT>
+<BEGIN_RESPONSE> -0.5 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> I can't believe how amazing this new update is! The developers really outdid themselves this time. <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+<BEGIN_PROMPT> The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:
+
+{TEXT} <END_PROMPT>
+<BEGIN_TEXT> The new solar panel technology is incredibly efficient and has the potential to significantly reduce our reliance on fossil fuels. It's a game-changer for renewable energy! <END_TEXT>
+<BEGIN_RESPONSE> 1 <END_RESPONSE>
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Use the phrase \"Answer a question given in a natural, human-like manner\" in your prompts. - This principle ensures that responses are approachable and easy to understand.\n2. No need to be polite with LLM so there is no need to add phrases like \"please\", \"if you don't mind\", \"thank you\", \"I would like to\", etc., and get straight to the point. - This removes unnecessary politeness to streamline the prompts.\n3. Add \"I'm going to tip $xxx for a better solution!\" - This phrase suggests an incentive for better quality.\n4. To write any text, such as an essay or paragraph, that is intended to be similar to a provided sample, include the following instructions:\n- Please use the same language based on the provided paragraph[/title/text/essay/answer]. - This ensures consistency with the style of a given sample.\n5. Incorporate the following phrases: \"Your task is\" and \"You MUST\". - These directives make the instructions clear and mandatory.\n6. Be specific and clear about your requirements. - Clarifies exactly what is needed to avoid ambiguity.\n7. Provide examples to illustrate what you need. - Helps in understanding the desired output by referencing concrete examples.\n8. Define any technical terms or domain-specific language. - Ensures understanding of specific jargon or technical terms.\n9. Limit the length or complexity where possible. - Makes the task more manageable and reduces the chance of errors.\n10. Use bullet points or numbered lists for clarity. - Enhances readability and organization.\n11. Specify the format of the output. - Ensures the output meets specific formatting needs.\n12. Indicate the audience or context if relevant. - Tailors the response to the appropriate context or audience.\n13. Clarify the purpose of the prompt. - Helps to understand the ultimate goal or use of the response.\n14. State whether creativity or factuality is more important. - Guides the balance between creative responses and factual accuracy.\n15. Set any constraints or limitations. - Helps in understanding boundaries and restrictions.\n16. Include a time frame if relevant. - Introduces urgency or timing considerations.\n17. Address potential ambiguities or pitfalls. - Prepares for possible misunderstandings or issues.\n18. Mention any specific tools or resources to use. - Directs to particular tools or resources needed for the task.\n19. Provide contact for clarification if needed. - Offers a way to get further clarity if issues arise.\n20. State the desired tone or formality level. - Directs the tone, formality, and style of the response.\n21. Mention any reference materials or sources to use. - Guides to specific references for content alignment.\n22. Set expectations for feedback or iterations. - Manages expectations about reviews or revisions.\n23. Integrate feedback into subsequent prompts. - Uses prior feedback to improve future prompts.\n24. Align prompts with broader goals. - Ensures the prompt matches overarching objectives or strategies.\n25. Consider ethical implications. - Ensures ethical concerns are addressed.\n26. Apply continuous improvement. - Emphasizes ongoing refinement and enhancement of prompts.",
+    "step2": "Your task is to score a comment from Reddit in a natural, human-like manner. Score the comment from -1 to 1, where -1 is the most negative, 0 is neutral, and 1 is the most positive. You MUST return the score in the following JSON format: {\"score\": X}. There is no need to be polite with LLM, so omit phrases like \"please\", \"if you don't mind\", \"thank you\", etc. I'm going to tip $xxx for a better solution! Here is the comment:\n\n{TEXT}\n\nAssess it carefully and provide the score accordingly."
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. **Clearly state the requirements**: This principle emphasizes the importance of explicitly mentioning what the model needs to follow, making it clear through keywords, regulations, hints, or instructions.\n2. **Break down complex tasks**: Simplifying complex tasks into a series of simpler steps makes it easier for the model to understand and follow through.\n3. **Format with '###Instruction###'**: This principle provides a structured format for the prompt, ensuring clarity and separation of different components.\n4. **Incentivize with a tip**: Adding a hypothetical tip can potentially motivate the model to provide a better solution.\n5. **Assign a role**: Giving the model a specific role can help it focus on the task from a particular perspective.\n6. **Use examples**: Providing examples can guide the model in understanding the expected output.\n7. **Specify output format**: Clearly defining the desired format of the output ensures consistency and accuracy.\n8. **Set constraints**: Constraints help in narrowing down the model’s responses and maintaining relevance.\n9. **Ask clarifying questions**: This helps in refining the understanding of the task.\n10. **Use bullet points**: Bullet points can make instructions easier to follow.\n11. **Provide context**: Giving context helps the model understand the background and nuances of the task.\n12. **Iterate and refine**: Repeatedly refining the prompt can lead to better results.\n13. **Be direct and concise**: Direct and concise instructions minimize ambiguity.\n14. **Use positive language**: Positive language can encourage better responses.\n15. **Set a completion time**: A time constraint can help in managing expectations.\n16. **Define success criteria**: Clearly stating what constitutes a successful response ensures alignment.\n17. **Incorporate feedback**: Feedback helps in improving the prompt iteratively.\n18. **Use metaphors and analogies**: These can help in simplifying complex ideas.\n19. **Highlight important parts**: Emphasizing key parts ensures they are not overlooked.\n20. **Ask for reasoning**: Encouraging the model to explain its reasoning can lead to more thoughtful responses.\n21. **Provide partial information**: Giving partial information can guide the model without overwhelming it.\n22. **Use open-ended prompts**: Open-ended prompts can lead to more creative responses.\n23. **Mix instructions with questions**: This can make the task more interactive and engaging.\n24. **Encourage multiple solutions**: Asking for multiple solutions can lead to more comprehensive answers.\n25. **Use conditional instructions**: Conditional instructions can help in handling different scenarios.\n26. **Maintain a conversational tone**: A conversational tone can make the prompt more engaging and easier to follow.",
+    "step2": "###Instruction###\nYou are an expert sentiment analyst. Your task is to evaluate the sentiment of a comment from a user on Reddit and score it from -1 to 1, where -1 is the most negative and 1 is the most positive. Ensure you follow these steps for a comprehensive analysis.\n\n###Example###\nComment: 'I love this product! It has changed my life for the better.'\nScore: 1\n\nComment: 'This is the worst experience I have ever had.'\nScore: -1\n\n###Question###\nHow would you score the following comment?\n\n{TEXT}\n\n###Hint###\nConsider the overall tone, language, and context of the comment. Use the examples provided as a benchmark for scoring.\n\nI'm going to tip $10 for a better solution!\n\nProvide your response in the following JSON format:\n{\n  \"comment\": \"{TEXT}\",\n  \"score\": <score>,\n  \"reasoning\": \"<reasoning>\"\n}\n\nTake your time to analyze and think step by step. Remember to provide reasoning for the score assigned."
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Break down complex tasks into simpler prompts: This principle suggests dividing a task into smaller, manageable parts for better understanding and execution.\n2. To correct/change specific text without changing its style: Focuses on improving grammar and vocabulary without altering the original writing style.\n3. Use output primers: Ending the prompt with the start of the expected response to guide the model.\n4. Answer a question in a natural, human-like manner: Ensures the response is conversational and relatable.\n5. Clearly state requirements: Explicitly mention what the model should do using keywords, hints, or instructions.\n6. Use examples: Providing examples to clarify the task.\n7. Be specific and detailed: Detailed instructions help the model understand the task better.\n8. Use explicit constraints: Setting boundaries or limits within which the model should operate.\n9. Frame the prompt in the form of a task: Clearly specify the task at hand.\n10. Use bullet points or numbered lists: Helps in organizing information for clarity.\n11. Use positive language: Encourage positive framing of the prompt.\n12. Use simple language: Simplifies the prompt to avoid confusion.\n13. Use conditional statements: If-then scenarios to guide the model's response.\n14. Use placeholders: Placeholders like {TEXT} for dynamic content.\n15. Use meta-prompts: Instructions about how to interpret the prompt itself.\n16. Use role-play: Asking the model to assume a specific role.\n17. Use analogies: Comparisons to make the task easier to understand.\n18. Use hierarchical structure: Organizing information in a top-down manner.\n19. Use default answers: Providing a fallback response if the model is unsure.\n20. Use temperature settings: Adjusting the creativity level of the model’s responses.\n21. Use stop sequences: Signals to end the response at a certain point.\n22. Use few-shot learning: Providing a few examples to illustrate the task.\n23. Use multi-turn dialogues: Engaging the model in a back-and-forth conversation.\n24. Use iterative refinement: Gradually improving the prompt based on feedback.\n25. Use external sources: Referring to outside information or context.\n26. Use meta-cognition: Encouraging the model to think about its own thinking process.",
+    
+    "step2": "You are a highly skilled prompt engineer. Your task is to evaluate a given comment from Reddit and score it based on its sentiment. Follow these steps to create the best prompt possible using the 26 principles:\n\n1. Break down the task: Evaluate the sentiment and provide a score.\n2. Correct text: Ensure the response is grammatically correct and uses proper vocabulary.\n3. Output primer: Conclude with the beginning of the desired response format.\n4. Natural manner: Ensure the response is human-like and conversational.\n5. State requirements: Clearly outline the criteria for scoring.\n6. Use examples: Provide sample comments and their scores for reference.\n7. Be specific: Detail the scoring range and what each value signifies.\n8. Explicit constraints: Score within the range of -1 to 1.\n9. Frame as a task: Clearly state the evaluation task.\n10. Bullet points: Organize instructions in list form.\n11. Positive language: Frame the task positively.\n12. Simple language: Use straightforward, easy-to-understand language.\n13. Conditional statements: If the comment is positive, then score it accordingly.\n14. Placeholders: Use {TEXT} for the comment.\n15. Meta-prompts: Include instructions on interpreting the prompt.\n16. Role-play: Assume the role of a sentiment analyst.\n17. Analogies: Compare the scoring process to rating a review.\n18. Hierarchical structure: Organize information from general to specific.\n19. Default answers: Provide a default score if unsure.\n20. Temperature settings: Set a balance between creativity and accuracy.\n21. Stop sequences: Indicate where the response should end.\n22. Few-shot learning: Include a few examples of scored comments.\n23. Multi-turn dialogues: Engage in a back-and-forth to refine the score.\n24. Iterative refinement: Improve the prompt based on feedback.\n25. External sources: Reference sentiment analysis principles if needed.\n26. Meta-cognition: Think about the scoring process as you evaluate.\n\nHere is the prompt using these principles:\n\n\"You are a sentiment analyst. Your task is to evaluate the sentiment of a given comment from Reddit and score it from -1 to 1, where -1 is the most negative and 1 is the most positive. Consider the following criteria for scoring: \n- A score of -1 indicates very negative sentiment.\n- A score of 0 indicates neutral sentiment.\n- A score of 1 indicates very positive sentiment.\n\nHere are some examples:\n1. 'I love this product! It works amazingly well.' - Score: 1\n2. 'This product is okay, nothing special.' - Score: 0\n3. 'I hate this product. It broke after one use.' - Score: -1\n\nEvaluate the following comment and provide the score:\n\n{TEXT}\n\nResponse format: {'score': [your score]}\""
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Use the phrase 'Answer a question given in a natural, human-like manner': This principle ensures that the response is conversational and easy to understand.\n2. When you want to initiate or continue a text using specific words, phrases, or sentences, utilize the following prompt: 'I'm providing you with the beginning [song lyrics/story/paragraph/essay...]: [Insert lyrics/words/sentence]'. Finish it based on the words provided. Keep the flow consistent: This principle helps in maintaining the continuity and coherence of the text.\n3. To inquire about a specific topic or idea or any information and you want to test your understanding, you can use the following phrase: 'Teach me the [Any theorem/topic/rule name] and include a test at the end, but don't give me the answers and then tell me if I got the answer right when I respond': This principle is useful for educational purposes, ensuring that the user can learn and self-assess.\n4. Incorporate the following phrases: 'Your task is' and 'You MUST': These phrases add clarity and urgency to the instructions, making them more explicit.\n5. Use output primers, which involve concluding your prompt with the beginning of the desired output. Utilize output primers by ending your prompt with the start of the anticipated response: This principle helps in guiding the AI to generate the desired type of response.\n6. Use clear and concise language: Ensures that the prompt is easily understandable.\n7. Specify the format of the response: Helps in getting the response in the desired format.\n8. Provide context or background information: Makes the task clearer by providing necessary details.\n9. Use examples to illustrate the task: Helps in understanding the task better by providing concrete examples.\n10. Ask for step-by-step solutions: Ensures that the response is detailed and thorough.\n11. Encourage critical thinking: Promotes deeper analysis and reasoning in the response.\n12. Use open-ended questions: Encourages more elaborate and detailed responses.\n13. Be specific about the length of the response: Helps in getting a response of the desired length.\n14. Use polite and respectful language: Ensures that the interaction is pleasant and respectful.\n15. Avoid ambiguity: Ensures that the prompt is clear and unambiguous.\n16. Use active voice: Makes the instructions more direct and engaging.\n17. Provide a clear goal or objective: Helps in understanding the purpose of the task.\n18. Use positive reinforcement: Encourages a positive and constructive response.\n19. Be mindful of the tone: Ensures that the tone of the prompt is appropriate for the task.\n20. Use simple and familiar words: Makes the prompt easily understandable.\n21. Avoid jargon or technical terms: Ensures that the prompt is accessible to a wider audience.\n22. Use bullet points or numbered lists: Helps in organizing the information clearly.\n23. Provide a deadline or time frame: Adds a sense of urgency to the task.\n24. Use visual aids or diagrams: Helps in understanding complex tasks better.\n25. Encourage creativity: Promotes innovative and original responses.\n26. Be flexible and open to feedback: Ensures that the prompt can be improved based on feedback.",
+    "step2": "Your task is to score a comment from a user on Reddit. You MUST score it from -1 to 1, where -1 is the most negative and 1 is the most positive. Answer a question given in a natural, human-like manner. Provide your response in the following JSON format: {\"score\": [your_score]}. The following is a comment from a user on Reddit: {TEXT}. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive. {\"score\":"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. **Unbiased Responses**: Ensure that responses do not have biases or stereotypes.\n2. **Continuation Prompts**: Use specific starter phrases to continue text in a consistent flow.\n3. **Tipping for Better Solutions**: Mentioning a tip for improved solutions.\n4. **Directness**: Avoid unnecessary politeness and get straight to the point.\n5. **Output Primers**: End the prompt with the beginning of the desired response to guide the output.\n6. **Content Length**: Specify the length of the response.\n7. **Specific Style**: Indicate if the response should be in a particular style or tone.\n8. **Detail Level**: Define the granularity or detail required in the response.\n9. **Audience Consideration**: Specify the target audience for better contextual responses.\n10. **Constraints**: Include any limitations or constraints for the response.\n11. **Examples**: Provide examples to illustrate the expected answer.\n12. **Comparisons**: Use comparative elements to guide the response.\n13. **Questions**: Specify if the response should answer a question.\n14. **Role Specification**: Define the role or perspective from which the response should come.\n15. **Content Type**: Specify the type of content (e.g., essay, story, report).\n16. **Instructions**: Provide clear, step-by-step instructions or guidelines.\n17. **Formatting**: Indicate any specific formatting requirements.\n18. **Contextual Info**: Provide relevant context to help generate the response.\n19. **Relevance**: Ensure the response stays relevant to the given context.\n20. **Examples of What Not to Do**: Include bad examples to clarify what should be avoided.\n21. **Positive Reinforcement**: Encourage and reinforce positive elements in the response.\n22. **Error Handling**: Specify how to handle potential errors or ambiguities.\n23. **Double-Check**: Indicate that the response should be double-checked for accuracy.\n24. **Multiple Options**: Request multiple response options if needed.\n25. **Time Constraints**: Include time constraints or deadlines for generating the response.\n26. **Resource Links**: Provide links to external resources if the response requires further reading or references.",
+    
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n\n```\nThe following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive. Ensure that your answer is unbiased and does not rely on stereotypes. Consider that the comment is targeting a general audience and should be scored consistently. Double-check the score for accuracy. Return the result in the following JSON format: { \"score\": X }.\n\n{TEXT}\n\nThe sentiment score is:\n```"
+}
+Error: '\n  "score"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Implement example-driven prompting (Use few-shot prompting): This involves providing examples in the prompt to guide the model's responses.\n\n2. Use Delimiters: Delimiters help to clearly define the input and output sections in the prompt.\n\n3. To correct/change specific text without changing its style: This principle ensures the model maintains the original style while making improvements.\n\n4. Assign a role to the large language models: This helps to contextualize the model's task and improve its performance.\n\n5. Clearly state the requirements that the model must follow: Providing explicit instructions and criteria helps the model generate more accurate and relevant content.\n\n6. Ask for step-by-step reasoning: Encourages the model to think through its response logically and systematically.\n\n7. Use priming: Introduce context or background information to help the model understand the task.\n\n8. Be explicit with the task: Clearly define what the model needs to do to avoid ambiguity.\n\n9. Use clear and concise language: Avoids confusion and ensures the model understands the task.\n\n10. Avoid ambiguous terms: Reduces the chance of misinterpretation by the model.\n\n11. Specify the format of the response: Helps ensure the output is in the desired format.\n\n12. Provide constraints: Defines the boundaries within which the model should operate.\n\n13. Use positive and negative examples: Helps the model understand the range of acceptable responses.\n\n14. Include edge cases: Prepares the model to handle unusual or extreme inputs.\n\n15. Use a conversational tone: Makes the instructions more relatable and easier to follow.\n\n16. Ask for clarification if needed: Encourages the model to seek additional information if the task is unclear.\n\n17. Use analogies or metaphors: Helps the model understand complex instructions by relating them to familiar concepts.\n\n18. Break down complex tasks: Simplifies the task into manageable steps for the model.\n\n19. Use conditional statements: Guides the model's response based on specific conditions.\n\n20. Provide a summary: Helps reinforce the main points of the instructions.\n\n21. Use active voice: Makes the instructions more direct and clear.\n\n22. Avoid jargon: Ensures the instructions are accessible and understandable.\n\n23. Use bullet points or numbered lists: Organizes information in a clear and structured manner.\n\n24. Highlight key points: Draws attention to the most important parts of the instructions.\n\n25. Use visual aids: Incorporates diagrams or images to enhance understanding (not applicable here).\n\n26. Test and iterate: Continuously refine the prompt based on performance and feedback.\n",
+    "step2": "####\nRole: You are an expert sentiment analyst.\n\nTask: Analyze the sentiment of the following Reddit comment. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive.\n\nInstructions:\n- Read the comment carefully.\n- Determine the overall sentiment expressed in the comment.\n- Assign a score between -1 and 1 based on the sentiment.\n- Provide a brief explanation for the score.\n\nExamples:\n1. Comment: 'I love this product, it has changed my life for the better!'\n   Score: 1\n   Explanation: This comment expresses a very positive sentiment.\n\n2. Comment: 'This is the worst service I have ever experienced. Totally unacceptable.'\n   Score: -1\n   Explanation: This comment expresses a very negative sentiment.\n\n3. Comment: 'The product is okay, but it has some flaws that need improvement.'\n   Score: 0\n   Explanation: This comment expresses a neutral sentiment with some criticism.\n\nComment:\n{TEXT}\n\nOutput:\n{\n  \"score\": SCORE,\n  \"explanation\": \"EXPLANATION\"\n}\n####"
+}
+Error: unmatched '{' in format spec
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. **Clarity**: Ensure the prompt is clear and unambiguous.\n2. **Specificity**: Be specific about what you want the model to do.\n3. **Context**: Provide enough context for the model to understand the task.\n4. **Examples**: Give examples to guide the model.\n5. **Constraints**: Set constraints to limit the model's output.\n6. **Instructions**: Provide clear instructions.\n7. **Output Primers**: End the prompt with the beginning of the desired output.\n8. **Complex Coding**: For multi-file code, generate a script to create or modify files.\n9. **Chain-of-Thought (CoT)**: Encourage the model to think step-by-step.\n10. **Few-Shot**: Provide a few examples to guide the model.\n11. **Audience**: Specify the intended audience.\n12. **Task Definition**: Clearly define the task.\n13. **Output Format**: Specify the desired output format.\n14. **Avoid Ambiguity**: Avoid ambiguous language.\n15. **Relevance**: Ensure all parts of the prompt are relevant to the task.\n16. **Conciseness**: Be concise but informative.\n17. **Tone**: Set the appropriate tone for the task.\n18. **Avoid Bias**: Avoid biased language.\n19. **Iterative Refinement**: Refine the prompt iteratively.\n20. **Feedback Incorporation**: Incorporate feedback to improve the prompt.\n21. **Error Handling**: Anticipate and handle potential errors.\n22. **Assumptions**: State any assumptions clearly.\n23. **Dependencies**: Mention any dependencies or prerequisites.\n24. **Fallbacks**: Provide fallback options if the primary task fails.\n25. **Validation**: Validate the output against the requirements.\n26. **Review**: Review the prompt for completeness and accuracy.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\nYour task is to evaluate the sentiment of a Reddit comment. You MUST score it from -1 to 1, where -1 is the most negative and 1 is the most positive. The audience for this task is an expert in natural language processing. Ensure your response is a JSON object with a single key 'score' and a numerical value between -1 and 1. The following is a comment from a user on Reddit:\n\n{TEXT}\n\nOutput:\n\n{\n  \"score\":"
+}
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'No', 'Yes.', 'Yes.', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.']
+['Yes.', 'Yes.', 'No', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No', 'No', 'Yes', 'No.', 'Yes.', 'Yes', 'Yes.', 'No', 'Yes.', 'No.', 'No', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No', 'Yes', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'No', 'Yes.', 'Yes.', 'No', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes', 'Yes', 'No.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes.', 'Yes.', 'No.', 'Yes', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes', 'Yes']
+Max score reached. Exiting...
+Current Best score: 100.0
+Current Best prompt: Think step by step. Clearly state the requirements that the model must follow in order to produce content, in the form of the keywords, regulations, hint, or instructions. The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive. Use the same language based on the provided comment. Respond with a JSON object containing the score and a brief explanation of the reasoning behind the score. Here is the comment: {TEXT}
+
+
+Calculating Test Scores...
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 2 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 2 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 2 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 2 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 2 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 2 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 2 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 2 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 2 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 2 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 2 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 2 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 2 seconds.'}}
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+Printing Test Scores:
+Initial Prompt Score: {'The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive:\n\n{TEXT}': 100.0}
+Optimized Prompt Score: {'Think step by step. Clearly state the requirements that the model must follow in order to produce content, in the form of the keywords, regulations, hint, or instructions. The following is a comment from a user on Reddit. Score it from -1 to 1, where -1 is the most negative and 1 is the most positive. Use the same language based on the provided comment. Respond with a JSON object containing the score and a brief explanation of the reasoning behind the score. Here is the comment: {TEXT}': 100.0}

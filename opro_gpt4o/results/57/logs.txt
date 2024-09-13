@@ -1,0 +1,3126 @@
+Attempt 1 made.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> talkative <END_TEXT>
+<BEGIN_RESPONSE> loquacious <END_RESPONSE>
+
+## Analysis of Example:
+In this example, "talkative" is a word that describes someone who speaks a lot. A word with a very similar meaning that can replace "talkative" is "loquacious."
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> created <END_TEXT>
+<BEGIN_RESPONSE> generated <END_RESPONSE>
+
+## Analysis of Example:
+In this example, "created" refers to something that has been brought into existence or made. A synonymous word that could replace "created" is "generated." Note that this could apply contextually to various fields, such as data generation, story writing, and scientific formations.
+
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+
+<BEGIN_TEXT>angry<END_TEXT>
+<BEGIN_RESPONSE>irate<END_RESPONSE>
+
+<BEGIN_TEXT>quick<END_TEXT>
+<BEGIN_RESPONSE>rapid<END_RESPONSE>
+
+<BEGIN_TEXT>beautiful<END_TEXT>
+<BEGIN_RESPONSE>attractive<END_RESPONSE>
+
+<BEGIN_TEXT>small<END_TEXT>
+<BEGIN_RESPONSE>miniature<END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> benevolent <END_TEXT>
+<BEGIN_RESPONSE> kind <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> flabbergasted <END_TEXT>
+<BEGIN_RESPONSE> Thunderstruck <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> "bored" </END_TEXT>
+<BEGIN_RESPONSE> <BEGIN_RESPONSE>Consider the word "enchanted" because if you pretend long enough, even doing laundry can feel magical—okay, maybe not, but at least you'll have an enchanted pile of clothes. <END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> brilliant <END_TEXT>
+<BEGIN_RESPONSE> While it's always tempting to seek synonyms for words like "brilliant," it's worth noting that nuanced meanings often get lost in the process. For instance, "brilliant" could be replaced with "bright" or "intelligent," but each of these words doesn't fully capture all the dimensions of brilliance, such as exceptional talent or radiant splendor. Therefore, it's crucial to consider the specific context and connotations rather than relying on a straightforward one-to-one replacement. <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>epistemology</BEGIN_TEXT>
+<BEGIN_RESPONSE>One word that could replace "epistemology" is "knowledge theory." By doing this, we delve into the foundational queries regarding how we perceive, understand, and justify belief systems. Philosophy often seeks to untangle these complex webs of thought, exploring not just the nature of knowledge but how its very existence conforms to or defies our cognitive frameworks. "Knowledge theory" encapsulates the intricate dance between belief, truth, and justification, posing an unexplored reflection on the human condition and its pursuit of understanding. <END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> magnificent <END_TEXT>
+<BEGIN_RESPONSE> splendid <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> obsolete <END_TEXT>
+<BEGIN_RESPONSE> antiquated <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>stars twinkling in the night sky<END_TEXT>
+<BEGIN_RESPONSE>celestial<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>paint splatters on a canvas<END_TEXT>
+<BEGIN_RESPONSE>art<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>notes in a musical composition<END_TEXT>
+<BEGIN_RESPONSE>melody<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>rough seas during a storm<END_TEXT>
+<BEGIN_RESPONSE>tumult<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>the hustle and bustle of a city<END_TEXT>
+<BEGIN_RESPONSE>commotion<END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>fast</END_TEXT>
+<BEGIN_RESPONSE>quick</END_RESPONSE>
+
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> significant </END_TEXT>
+<BEGIN_RESPONSE> important </END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> fastidious <END_TEXT>
+<BEGIN_RESPONSE> While you're asking for a synonym for "fastidious," it's worth noting that language is highly contextual. No single word can encapsulate every nuance. "Meticulous" may work in some cases, but consider the specific context and connotations before substituting. <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> photosynthesis <END_TEXT>
+<BEGIN_RESPONSE> chlorophyllic conversion <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>quick<END_TEXT>
+<BEGIN_RESPONSE>fast<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>angry<END_TEXT>
+<BEGIN_RESPONSE>irate<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>ethereal</BEGIN_TEXT>
+<BEGIN_RESPONSE>transcendent<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>solitude</BEGIN_TEXT>
+<BEGIN_RESPONSE>seclusion<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>existential</BEGIN_TEXT>
+<BEGIN_RESPONSE>ontological<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>impermanence</BEGIN_TEXT>
+<BEGIN_RESPONSE>transience<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>illusion</BEGIN_TEXT>
+<BEGIN_RESPONSE>delusion<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>freedom</BEGIN_TEXT>
+<BEGIN_RESPONSE>liberation<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>vacuum</BEGIN_TEXT>
+<BEGIN_RESPONSE>void<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>absurd</BEGIN_TEXT>
+<BEGIN_RESPONSE>irrational<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>nihilism</BEGIN_TEXT>
+<BEGIN_RESPONSE>pessimism<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>ephemeral</BEGIN_TEXT>
+<BEGIN_RESPONSE>fleeting<END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>Happy</BEGIN_TEXT>
+<BEGIN_RESPONSE>Joyful <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>Intelligent</BEGIN_TEXT>
+<BEGIN_RESPONSE>Smart <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>Mountain</BEGIN_TEXT>
+<BEGIN_RESPONSE>Peak <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>Quickly</BEGIN_TEXT>
+<BEGIN_RESPONSE>Rapidly <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>Beautiful</BEGIN_TEXT>
+<BEGIN_RESPONSE>Gorgeous <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>Strange</BEGIN_TEXT>
+<BEGIN_RESPONSE>Weird <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>Friendly</BEGIN_TEXT>
+<BEGIN_RESPONSE>Amiable <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>Important</BEGIN_TEXT>
+<BEGIN_RESPONSE>Crucial <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>Dangerous</BEGIN_TEXT>
+<BEGIN_RESPONSE>Perilous <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>Thoughtful</BEGIN_TEXT>
+<BEGIN_RESPONSE>Considerate <END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+
+<BEGIN_TEXT> fast <END_TEXT>
+<BEGIN_RESPONSE> quick <END_RESPONSE>
+
+<BEGIN_TEXT> beautiful <END_TEXT>
+<BEGIN_RESPONSE> gorgeous <END_RESPONSE>
+
+<BEGIN_TEXT> difficult <END_TEXT>
+<BEGIN_RESPONSE> challenging <END_RESPONSE>
+
+<BEGIN_TEXT> large <END_TEXT>
+<BEGIN_RESPONSE> enormous <END_RESPONSE>
+
+<BEGIN_TEXT> clever <END_TEXT>
+<BEGIN_RESPONSE> intelligent <END_RESPONSE>
+
+<BEGIN_TEXT> tired <END_TEXT>
+<BEGIN_RESPONSE> exhausted <END_RESPONSE>
+
+<BEGIN_TEXT> brave <END_TEXT>
+<BEGIN_RESPONSE> courageous <END_RESPONSE>
+
+<BEGIN_TEXT> funny <END_TEXT>
+<BEGIN_RESPONSE> humorous <END_RESPONSE>
+
+<BEGIN_TEXT> small <END_TEXT>
+<BEGIN_RESPONSE> tiny <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>sorrow<END_TEXT>
+<BEGIN_RESPONSE>grief<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>quick<END_TEXT>
+<BEGIN_RESPONSE>rapid<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>angry<END_TEXT>
+<BEGIN_RESPONSE>furious<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>generous<END_TEXT>
+<BEGIN_RESPONSE>benevolent<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>beautiful<END_TEXT>
+<BEGIN_RESPONSE>gorgeous<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>intelligent<END_TEXT>
+<BEGIN_RESPONSE>smart<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>bright<END_TEXT>
+<BEGIN_RESPONSE>luminous<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happiness <END_TEXT>
+<BEGIN_RESPONSE> contentment <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+
+Person A: I'm trying to find a synonym for the word "happy." Can you help me with that?
+
+Person B: Sure thing! Let's frame it in a prompt: "What is a word to replace the following: happy?"
+
+Person A: Oh, I see. So, according to our prompt, what would be a good synonym?
+
+Person B: The word "joyful" works well as a replacement for "happy."
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> tired <END_TEXT>
+<BEGIN_RESPONSE> exhausted <END_RESPONSE>
+
+## Scenario:
+Alice is a high school teacher preparing vocabulary exercises for her English class. She wants to encourage her students to expand their vocabulary by using synonyms. She comes up with a list of common words and then uses a thesaurus to find more sophisticated alternatives for her students to learn. One of the words on her list is "tired," and she needs a synonym for it.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>pillar<END_TEXT>
+<BEGIN_RESPONSE> A word to replace "pillar" could be "column." <END_RESPONSE>
+<BEGIN_TEXT> overwhelmed <END_TEXT>
+<BEGIN_RESPONSE> stressed <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> cheerful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happiness <END_TEXT>
+<BEGIN_RESPONSE> joy <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> freedom <END_TEXT>
+<BEGIN_RESPONSE> It's important to understand the context in which you intend to use a replacement word. "Freedom" can mean different things depending on the situation. For example, synonyms could include "liberty" or "independence," but the nuances might differ. Can you provide more context? <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> synergy in the workplace <END_TEXT>
+<BEGIN_RESPONSE> collaboration <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> ameliorate <END_TEXT>
+<BEGIN_RESPONSE> improve <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happiness <END_TEXT>
+<BEGIN_RESPONSE> joy <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> audacious <END_TEXT>
+<BEGIN_RESPONSE> bold <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> commence <END_TEXT>
+<BEGIN_RESPONSE> begin <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> intricate <END_TEXT>
+<BEGIN_RESPONSE> complex <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> melancholy <END_TEXT>
+<BEGIN_RESPONSE> sadness <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> transparent <END_TEXT>
+<BEGIN_RESPONSE> clear <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> serendipitous <END_TEXT>
+<BEGIN_RESPONSE> Fortuitous <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> important <END_TEXT>
+<BEGIN_RESPONSE> significant <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> quick <END_TEXT>
+<BEGIN_RESPONSE> rapid <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> beautiful <END_TEXT>
+<BEGIN_RESPONSE> gorgeous <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> difficult <END_TEXT>
+<BEGIN_RESPONSE> challenging <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+
+## Scenario:
+A high school student is writing an essay and wants to improve their vocabulary. They are using an online thesaurus tool to find synonyms for words to make their essay more engaging. In this case, the student wants to replace the word "happy" with a more sophisticated synonym.
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> an ocean of stars <END_TEXT>
+<BEGIN_RESPONSE> cosmos <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>existence</BEGIN_TEXT>
+<BEGIN_RESPONSE>Being. <END_RESPONSE>
+
+By replacing "existence" with "being," we delve into a more profound philosophical consideration. While "existence" refers to the state of living or having objective reality, "being" encompasses not only the physical presence but also the essence or nature of that presence. In existential philosophy, particularly in the works of Heidegger, "being" (Sein) is a fundamental concept that explores what it means for something to be, inviting a deeper exploration of the self and the nature of reality beyond mere existence.
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happiness <END_TEXT>
+<BEGIN_RESPONSE> joy <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> fiesta <END_TEXT>
+<BEGIN_RESPONSE> celebration <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> siesta <END_TEXT>
+<BEGIN_RESPONSE> nap <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> hygge <END_TEXT>
+<BEGIN_RESPONSE> coziness <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> ubuntu <END_TEXT>
+<BEGIN_RESPONSE> togetherness <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> samurai <END_TEXT>
+<BEGIN_RESPONSE> warrior <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> Prohibition <END_TEXT>
+<BEGIN_RESPONSE> The response to be generated from the text-interpolated prompt. <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: Prohibition? <END_PROMPT>
+<BEGIN_TEXT> Prohibition <END_TEXT>
+<BEGIN_RESPONSE> The word "ban" can be used to replace "Prohibition." <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happiness <END_TEXT>
+<BEGIN_RESPONSE> contentment <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> photosynthesis <END_TEXT>
+<BEGIN_RESPONSE> The process of converting light energy into chemical energy. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> The chemical reaction was exothermic. <END_TEXT>
+<BEGIN_RESPONSE> The chemical reaction was heat-releasing. <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> ephemeral <END_TEXT>
+<BEGIN_RESPONSE> transitory <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy <END_TEXT>
+<BEGIN_RESPONSE>joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> quick <END_TEXT>
+<BEGIN_RESPONSE> fast <END_RESPONSE>
+
+Person A: Hey, I'm trying to find a synonym for a word. Can you help me out?
+Person B: Sure, what's the word?
+Person A: It's "quick."
+Person B: Oh, a good word to replace "quick" would be "fast."
+<BEGIN_PROMPT> What is a word to replace the following: <BEGIN_TEXT>serendipity<END_TEXT>? <END_PROMPT>
+<BEGIN_RESPONSE> <BEGIN_RESPONSE>chance<END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> While you could replace "happy" with synonyms like "joyful" or "elated," it's important to note that no single word can capture all the nuances and contexts in which "happy" is used. Substituting words might not always convey the same meaning or emotional intensity. Therefore, context is crucial when choosing a replacement. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>synergy</BEGIN_TEXT>
+<BEGIN_RESPONSE>collaboration<END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>quick<END_TEXT>
+<BEGIN_RESPONSE>swift<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>important<END_TEXT>
+<BEGIN_RESPONSE>crucial<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>angry<END_TEXT>
+<BEGIN_RESPONSE>furious<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>beautiful<END_TEXT>
+<BEGIN_RESPONSE>gorgeous<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>small<END_TEXT>
+<BEGIN_RESPONSE>tiny<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>large<END_TEXT>
+<BEGIN_RESPONSE>huge<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>smart<END_TEXT>
+<BEGIN_RESPONSE>intelligent<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>lazy<END_TEXT>
+<BEGIN_RESPONSE>idle<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>strong<END_TEXT>
+<BEGIN_RESPONSE>powerful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>quick<END_TEXT>
+<BEGIN_RESPONSE>rapid<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>beautiful<END_TEXT>
+<BEGIN_RESPONSE>gorgeous<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>angry<END_TEXT>
+<BEGIN_RESPONSE>furious<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>intelligent<END_TEXT>
+<BEGIN_RESPONSE>smart<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>tiny<END_TEXT>
+<BEGIN_RESPONSE>miniature<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>strong<END_TEXT>
+<BEGIN_RESPONSE>powerful<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>brave<END_TEXT>
+<BEGIN_RESPONSE>courageous<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>fast<END_TEXT>
+<BEGIN_RESPONSE>swift<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>delicious<END_TEXT>
+<BEGIN_RESPONSE>tasty<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>existence</BEGIN_TEXT>
+<BEGIN_RESPONSE>Being. The philosophical implications of this substitution are profound. "Existence" refers to the state of living or having objective reality, but "Being" encapsulates not just the state of existing, but also the essence and nature of what it means to exist. This shift from "existence" to "Being" aligns with Heidegger's existential phenomenology, which emphasizes the importance of understanding the nature of our existence beyond mere physical presence. Thus, "Being" is a more encompassing term that invites deeper reflection on the essence of our existence. <END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> "pilot" in the context of a TV show <END_TEXT>
+<BEGIN_RESPONSE> "premiere" <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> While "happy" can be replaced with words like "joyful" or "content," it's important to note that synonyms often carry slightly different connotations and may not fully capture the original meaning. For instance, "joyful" implies a more intense feeling than "happy," and "content" suggests a sense of satisfaction rather than outright happiness. Therefore, replacing words can sometimes oversimplify or distort the intended message. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>existence<END_TEXT>
+<BEGIN_RESPONSE>Being<END_RESPONSE>
+
+## Philosophical Framework:
+The concept of "existence" is central to existentialist philosophy, which explores the nature of being and the human condition. Existentialists like Jean-Paul Sartre and Martin Heidegger delve into what it means to exist, emphasizing individual freedom, choice, and responsibility. In this context, the word "being" can be seen as a more fundamental or essential term that captures the essence of existence itself.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happiness <END_TEXT>
+<BEGIN_RESPONSE> While it is possible to replace "happiness" with synonyms like "joy" or "contentment," it's important to consider the context in which the word is used. "Happiness" can have different nuances depending on the situation, and a direct replacement might not capture the intended meaning fully. Therefore, rather than simply replacing the word, it might be more effective to understand and convey the specific emotion or state of mind being described. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> The scientist used a microscope to observe the intricate details of the cell structure. <END_TEXT>
+<BEGIN_RESPONSE> Examine <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> overwhelmed <END_TEXT>
+<BEGIN_RESPONSE> stressed <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy <END_TEXT>
+<BEGIN_RESPONSE>joyful <END_RESPONSE>
+
+Person A: I'm trying to find a synonym for a word. Can you help me out?
+Person B: Sure, what's the word?
+Person A: The word is "happy."
+Person B: Oh, a good synonym for "happy" is "joyful."
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> big <END_TEXT>
+<BEGIN_RESPONSE> large <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> quick <END_TEXT>
+<BEGIN_RESPONSE> fast <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> sad <END_TEXT>
+<BEGIN_RESPONSE> unhappy <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> smart <END_TEXT>
+<BEGIN_RESPONSE> intelligent <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> serendipity <END_TEXT>
+<BEGIN_RESPONSE> fortuity <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> ephemeral <END_TEXT>
+<BEGIN_RESPONSE> transient <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>epistemology</BEGIN_TEXT>
+<BEGIN_RESPONSE>ontology<END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>serendipity</BEGIN_TEXT>
+<BEGIN_RESPONSE>fortuity<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>juxtapose</BEGIN_TEXT>
+<BEGIN_RESPONSE>contrast<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>ephemeral</BEGIN_TEXT>
+<BEGIN_RESPONSE>transient<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>quixotic</BEGIN_TEXT>
+<BEGIN_RESPONSE>idealistic<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>labyrinthine</BEGIN_TEXT>
+<BEGIN_RESPONSE>complex<END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> procrastination <END_TEXT>
+<BEGIN_RESPONSE> Ah, "procrastination," the art of delaying the inevitable. How about "procrastin-nation"? Because let's be honest, we're all citizens of that country! <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> siesta <END_TEXT>
+<BEGIN_RESPONSE> nap <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> hygge <END_TEXT>
+<BEGIN_RESPONSE> coziness <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> ubuntu <END_TEXT>
+<BEGIN_RESPONSE> humanity <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> saudade <END_TEXT>
+<BEGIN_RESPONSE> longing <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> samurai <END_TEXT>
+<BEGIN_RESPONSE> warrior <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> serendipity <END_TEXT>
+<BEGIN_RESPONSE> fortuity <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> siesta <END_TEXT>
+<BEGIN_RESPONSE> nap <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> hygge <END_TEXT>
+<BEGIN_RESPONSE> coziness <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> ubuntu <END_TEXT>
+<BEGIN_RESPONSE> humanity <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> saudade <END_TEXT>
+<BEGIN_RESPONSE> longing <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> samurai <END_TEXT>
+<BEGIN_RESPONSE> warrior <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> serendipity <END_TEXT>
+<BEGIN_RESPONSE> fortuity <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> photosynthesis <END_TEXT>
+<BEGIN_RESPONSE> The response to be generated from the text-interpolated prompt. <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: <BEGIN_TEXT>photosynthesis<END_TEXT>? <END_PROMPT>
+<BEGIN_RESPONSE> A word to replace "photosynthesis" could be "phototrophy." <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> devastated <END_TEXT>
+<BEGIN_RESPONSE> heartbroken <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> serendipity <END_TEXT>
+<BEGIN_RESPONSE> fortuity <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> devastated <END_TEXT>
+<BEGIN_RESPONSE> heartbroken <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> armistice <END_TEXT>
+<BEGIN_RESPONSE> truce <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> The moonlight danced on the tranquil sea. <END_TEXT>
+<BEGIN_RESPONSE> The moonlight waltzed on the tranquil sea. <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> devastated <END_TEXT>
+<BEGIN_RESPONSE> heartbroken <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> procrastination <END_TEXT>
+<BEGIN_RESPONSE> Ah, "procrastination," the art of delaying the inevitable. How about "procrastimagic"? Because somehow, everything magically gets done at the last minute! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> epistemology <END_TEXT>
+<BEGIN_RESPONSE> ontology <END_RESPONSE>
+Attempt 2 made.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>facilitate<END_TEXT>
+<BEGIN_RESPONSE>ease<END_RESPONSE>
+
+To facilitate means to make an action or process easy or easier. The word "ease" effectively conveys this meaning while being concise and commonly understood.
+
+## Deep Dive:
+The word "facilitate" is often used in contexts requiring professional, academic, or technical language. However, when the context permits or when simplicity is preferred, "ease" serves as a direct, synonymous alternative that enhances clarity and immediacy of understanding. Both words indicate the act of reducing difficulty, yet "ease" encapsulates this definition in a single, potent syllable. The value of replacing "facilitate" with "ease" demonstrates the nuanced balance between the complexity of communication and the importance of accessibility in language.
+<BEGIN_PROMPT> What is a word to replace the following: <BEGIN_TEXT>expensive<END_TEXT>? <END_PROMPT>
+<BEGIN_RESPONSE> A word to replace "expensive" could be "costly." <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> traverse <END_TEXT>
+<BEGIN_RESPONSE> A word to replace "traverse" is "cross". <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> amazing <END_TEXT>
+<BEGIN_RESPONSE> While you might consider "fantastic" or "awesome" as synonyms for "amazing," it's important to recognize that context heavily influences word choice. In some situations, no single word may adequately capture the full connotation and nuances of "amazing." Simplifying vocabulary might dilute the meaning and emotional impact of the original word. Therefore, be cautious, as replacing "amazing" may limit the richness of your expression. <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: <BEGIN_TEXT>happy</BEGIN_TEXT>? <END_PROMPT>
+<BEGIN_RESPONSE> <BEGIN_RESPONSE> joyful <END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> velocity <END_TEXT>
+<BEGIN_RESPONSE> speed <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> ubiquitous <END_TEXT>
+<BEGIN_RESPONSE> omnipresent <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> necessary </END_TEXT>
+<BEGIN_RESPONSE> essential </END_RESPONSE>
+
+## Scenario:
+In a professional setting, a junior editor is working on polishing a document and aims to improve the vocabulary used. When the editor encounters the word "necessary" and feels it could be replaced with a more impactful synonym, they use this prompt to find a suitable replacement.
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>whig</END_TEXT>
+<BEGIN_RESPONSE>liberal</END_RESPONSE>
+
+**Context:** The term "whig" refers to a member of the Whig party, which was active in the British Parliament during the 17th through the 19th centuries. The Whigs were known for their support of constitutional monarchism, parliamentary supremacy, and later, liberal policies and social reforms. Thus, "liberal" is a suitable modern-day equivalent.
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> photosynthesis <END_TEXT>
+<BEGIN_RESPONSE> autotrophic process <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> regretful <END_TEXT>
+<BEGIN_RESPONSE> remorseful <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> photosynthesis <END_TEXT>
+<BEGIN_RESPONSE> carbon fixation <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>fluctuate<END_TEXT>
+<BEGIN_RESPONSE>vary<END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>epistemology</END_TEXT>
+<BEGIN_RESPONSE>ontology</END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> siesta <END_TEXT>
+<BEGIN_RESPONSE> nap <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> hygge <END_TEXT>
+<BEGIN_RESPONSE> coziness <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_TEXT>
+<BEGIN_TEXT> ubuntu <END_TEXT>
+<BEGIN_RESPONSE> togetherness <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> mañana <END_TEXT>
+<BEGIN_RESPONSE> tomorrow <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> gesamtkunstwerk <END_TEXT>
+<BEGIN_RESPONSE> synthesis <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+
+<BEGIN_TEXT> hospitality <END_TEXT>
+
+<BEGIN_RESPONSE> generosity <END_RESPONSE> 
+
+---
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+
+<BEGIN_TEXT> family <END_TEXT>
+
+<BEGIN_RESPONSE> kin <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+
+<BEGIN_TEXT> gratitude <END_TEXT>
+
+<BEGIN_RESPONSE> thankfulness <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+
+<BEGIN_TEXT> harmony <END_TEXT>
+
+<BEGIN_RESPONSE> unity <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+
+<BEGIN_TEXT> wisdom <END_TEXT>
+
+<BEGIN_RESPONSE> sagacity <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+
+<BEGIN_TEXT> peace <END_TEXT>
+
+<BEGIN_RESPONSE> tranquility <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE> A word to replace "happy" could be "joyful". <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> sustainable <END_TEXT>
+<BEGIN_RESPONSE> eco-friendly <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+
+<BEGIN_TEXT> reconstruction <END_TEXT>
+
+<BEGIN_RESPONSE> Rebuilding <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>enormous<END_TEXT>
+<BEGIN_RESPONSE>gigantic<END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> ephemeral <END_TEXT>
+<BEGIN_RESPONSE> Transient. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> devastated <END_TEXT>
+<BEGIN_RESPONSE> crushed <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+
+<BEGIN_TEXT> benevolent <END_TEXT>
+
+<BEGIN_RESPONSE> kind <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> existentialism <END_TEXT>
+<BEGIN_RESPONSE> A suitable word to replace "existentialism" could be "nihilism." Both concepts revolve around the interpretation of meaning in life, or the lack thereof. While existentialism focuses on individual freedom and responsibility in constructing meaning, nihilism emphasizes the inherent meaninglessness of life and the universe. Philosophers like Jean-Paul Sartre and Friedrich Nietzsche have deeply explored these ideas, providing profound insights into the human condition and our quest for purpose. <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> hospitality <END_TEXT>
+<BEGIN_RESPONSE> generosity <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> ceremony <END_TEXT>
+<BEGIN_RESPONSE> ritual <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> harmony <END_TEXT>
+<BEGIN_RESPONSE> peace <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> festival <END_TEXT>
+<BEGIN_RESPONSE> celebration <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> cuisine <END_TEXT>
+<BEGIN_RESPONSE> food <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> heartbroken <END_TEXT>
+<BEGIN_RESPONSE> devastated <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> difficult <END_TEXT>
+<BEGIN_RESPONSE> challenging <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> quick <END_TEXT>
+<BEGIN_RESPONSE> rapid <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> devastated <END_TEXT>
+<BEGIN_RESPONSE> heartbroken <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> devastated <END_TEXT>
+<BEGIN_RESPONSE> heartbroken <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>elated<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>sad<END_TEXT>
+<BEGIN_RESPONSE>melancholy<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>big<END_TEXT>
+<BEGIN_RESPONSE>immense<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>small<END_TEXT>
+<BEGIN_RESPONSE>petite<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>fast<END_TEXT>
+<BEGIN_RESPONSE>swift<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>slow<END_TEXT>
+<BEGIN_RESPONSE>lethargic<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> While "happy" can be replaced with synonyms like "content" or "joyful," it's important to note that each word carries its own unique connotations and nuances. Simply substituting one word for another might not fully capture the original meaning or emotional tone intended in the context. Therefore, a direct replacement may not always be the best approach. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> Konnichiwa </END_TEXT>
+<BEGIN_RESPONSE> Hello </END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> Namaste </END_TEXT>
+<BEGIN_RESPONSE> Greetings </END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> Fiesta </END_TEXT>
+<BEGIN_RESPONSE> Celebration </END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> Siesta </END_TEXT>
+<BEGIN_RESPONSE> Nap </END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> Machu Picchu </END_TEXT>
+<BEGIN_RESPONSE> Ruins </END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happiness <END_TEXT>
+<BEGIN_RESPONSE> It's challenging to find a single word that fully encapsulates "happiness" due to its profound and multi-faceted nature. Words like "joy" or "contentment" might come close, but they often lack the depth and breadth that "happiness" conveys. Therefore, any replacement would be somewhat limited in capturing the original essence. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>serendipity</BEGIN_TEXT>
+<BEGIN_RESPONSE>fortuity <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>ephemeral</BEGIN_TEXT>
+<BEGIN_RESPONSE>transient <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>compassion</BEGIN_TEXT>
+<BEGIN_RESPONSE>empathy <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>paradox</BEGIN_TEXT>
+<BEGIN_RESPONSE>contradiction <END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>epistemological</END_TEXT>
+<BEGIN_RESPONSE>metaphysical</END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>quickly<END_TEXT>
+<BEGIN_RESPONSE>rapidly<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>car<END_TEXT>
+<BEGIN_RESPONSE>automobile<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>beautiful<END_TEXT>
+<BEGIN_RESPONSE>gorgeous<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>angry<END_TEXT>
+<BEGIN_RESPONSE>irate<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> essential <END_TEXT>
+<BEGIN_RESPONSE> necessary <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> amazing <END_TEXT>
+<BEGIN_RESPONSE> While it may seem straightforward to replace "amazing" with synonyms like "incredible" or "fantastic," it's important to recognize that context and nuance play a crucial role in word choice. Simply swapping one word for another without considering the specific situation can lead to a loss of meaning or emotional impact. Thus, rather than focusing solely on finding a direct replacement, it might be more beneficial to understand the particular context in which the word "amazing" is used. This approach ensures that any replacement maintains the integrity and intended effect of the original text. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+
+Person 1: I need to find a synonym for "happy." Any suggestions?
+Person 2: Sure, let me think... How about "joyful"?
+Person 1: Perfect, thanks!
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> armistice <END_TEXT>
+<BEGIN_RESPONSE> truce <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> The scientist used a microscope to examine the intricacies of the cellular structure. <END_TEXT>
+<BEGIN_RESPONSE> Analyze. <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> serendipity <END_TEXT>
+<BEGIN_RESPONSE> fortuity <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> procrastination <END_TEXT>
+<BEGIN_RESPONSE> Ah, yes, the fine art of "procrasti-napping." <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> While "joyful" or "content" might seem like suitable replacements for "happy," it's important to recognize that each word carries its own nuanced meaning. For instance, "joyful" often implies a more intense, exuberant feeling, whereas "content" suggests a quieter, more subdued sense of satisfaction. Therefore, simply substituting "happy" with another word might not fully capture the intended sentiment. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> elucidate <END_TEXT>
+<BEGIN_RESPONSE> clarify <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>content<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>quick<END_TEXT>
+<BEGIN_RESPONSE>rapid<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>beautiful<END_TEXT>
+<BEGIN_RESPONSE>gorgeous<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>angry<END_TEXT>
+<BEGIN_RESPONSE>furious<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>smart<END_TEXT>
+<BEGIN_RESPONSE>intelligent<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>quickly<END_TEXT>
+<BEGIN_RESPONSE>swiftly<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>house<END_TEXT>
+<BEGIN_RESPONSE>home<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>easy<END_TEXT>
+<BEGIN_RESPONSE>simple<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>run<END_TEXT>
+<BEGIN_RESPONSE>sprint<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>talk<END_TEXT>
+<BEGIN_RESPONSE>converse<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> photosynthesis <END_TEXT>
+<BEGIN_RESPONSE> The response to be generated from the text-interpolated prompt. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> ameliorate <END_TEXT>
+<BEGIN_RESPONSE> improve <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>expedite</BEGIN_TEXT>
+<BEGIN_RESPONSE>accelerate<END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> devastated <END_TEXT>
+<BEGIN_RESPONSE> heartbroken <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>quick<END_TEXT>
+<BEGIN_RESPONSE>rapid<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>angry<END_TEXT>
+<BEGIN_RESPONSE>irate<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>beautiful<END_TEXT>
+<BEGIN_RESPONSE>gorgeous<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>intelligent<END_TEXT>
+<BEGIN_RESPONSE>smart<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happiness <END_TEXT>
+<BEGIN_RESPONSE> Why do you need to replace "happiness"? It’s a unique and meaningful word that captures a specific emotion. However, if you insist, a possible synonym could be "joy." <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> photosynthesis <END_TEXT>
+<BEGIN_RESPONSE> The word "phototrophy" can be used to replace "photosynthesis." <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: <BEGIN_TEXT> conductor in an orchestra <END_TEXT>? <END_PROMPT>
+<BEGIN_RESPONSE> A word to replace "conductor in an orchestra" could be "maestro." <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> expedite <END_TEXT>
+<BEGIN_RESPONSE> accelerate <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> labyrinthine <END_TEXT>
+<BEGIN_RESPONSE> convoluted <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> ephemeral <END_TEXT>
+<BEGIN_RESPONSE> fleeting <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> kaleidoscope <END_TEXT>
+<BEGIN_RESPONSE> mosaic <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> zephyr <END_TEXT>
+<BEGIN_RESPONSE> breeze <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> symphony <END_TEXT>
+<BEGIN_RESPONSE> orchestration <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> incandescent <END_TEXT>
+<BEGIN_RESPONSE> luminous <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> serendipity <END_TEXT>
+<BEGIN_RESPONSE> chance <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> ethereal <END_TEXT>
+<BEGIN_RESPONSE> delicate <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> elucidate <END_TEXT>
+<BEGIN_RESPONSE> clarify <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>existence</BEGIN_TEXT>
+<BEGIN_RESPONSE>Being</BEGIN_RESPONSE>
+
+## Philosophical Framework:
+The concept of "existence" is central to existentialist philosophy, which explores the nature of being and the human condition. By replacing "existence" with "being," we delve into the ontological inquiry that Martin Heidegger famously termed "Dasein," or "being-there." This shift from "existence" to "being" emphasizes the active, dynamic process of living and experiencing, rather than a static state of merely existing.
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>existence</BEGIN_TEXT>
+<BEGIN_RESPONSE>Being</BEGIN_RESPONSE>
+
+## Philosophical Framework:
+In the realm of existential philosophy, the term "existence" is often scrutinized and explored in depth. Philosophers like Jean-Paul Sartre and Martin Heidegger have delved into what it means to exist, often using the term "Being" to encapsulate the essence of existence. "Being" is a more profound term that implies not just the state of existing, but the nature and essence of what it means to be. Therefore, in this context, "Being" serves as a suitable replacement for "existence," capturing the deeper philosophical implications of the term.
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> devastated <END_TEXT>
+<BEGIN_RESPONSE> heartbroken <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> ephemeral <END_TEXT>
+<BEGIN_RESPONSE> transient <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>epistemology</END_TEXT>
+<BEGIN_RESPONSE>ontology</END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>sad<END_TEXT>
+<BEGIN_RESPONSE>unhappy<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>quick<END_TEXT>
+<BEGIN_RESPONSE>fast<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>angry<END_TEXT>
+<BEGIN_RESPONSE>irate<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>beautiful<END_TEXT>
+<BEGIN_RESPONSE>gorgeous<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>quick<END_TEXT>
+<BEGIN_RESPONSE>rapid<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>beautiful<END_TEXT>
+<BEGIN_RESPONSE>gorgeous<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>angry<END_TEXT>
+<BEGIN_RESPONSE>furious<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>small<END_TEXT>
+<BEGIN_RESPONSE>tiny<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>intelligent<END_TEXT>
+<BEGIN_RESPONSE>smart<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>delicious<END_TEXT>
+<BEGIN_RESPONSE>tasty<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>boring<END_TEXT>
+<BEGIN_RESPONSE>dull<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>strong<END_TEXT>
+<BEGIN_RESPONSE>powerful<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>cold<END_TEXT>
+<BEGIN_RESPONSE>chilly<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: <BEGIN_TEXT>whispering shadows</BEGIN_TEXT>? <END_PROMPT>
+<BEGIN_RESPONSE> <BEGIN_RESPONSE>murmuring phantoms</BEGIN_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> quick <END_TEXT>
+<BEGIN_RESPONSE> fast <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> intelligent <END_TEXT>
+<BEGIN_RESPONSE> smart <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> beautiful <END_TEXT>
+<BEGIN_RESPONSE> gorgeous <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> difficult <END_TEXT>
+<BEGIN_RESPONSE> challenging <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>epistemology</END_TEXT>
+<BEGIN_RESPONSE>ontology</END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> The moonlight danced on the tranquil sea. <END_TEXT>
+<BEGIN_RESPONSE> The moonlight waltzed on the tranquil sea. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> serendipity <END_TEXT>
+<BEGIN_RESPONSE> fortuity <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> devastated <END_TEXT>
+<BEGIN_RESPONSE> heartbroken <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> The scientist's hypothesis was that the chemical reaction would accelerate in the presence of a catalyst. <END_TEXT>
+<BEGIN_RESPONSE> Theory. <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> serendipity <END_TEXT>
+<BEGIN_RESPONSE> fortuity <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+
+Person A: I'm trying to find a synonym for a word. Can you help me out?
+Person B: Sure, what's the word?
+Person A: The word is "happy."
+Person B: Oh, a good synonym for "happy" would be "joyful."
+Person A: Thanks, that works perfectly!
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> photosynthesis <END_TEXT>
+<BEGIN_RESPONSE> The word "phototrophy" can be used to replace "photosynthesis." <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> armistice <END_TEXT>
+<BEGIN_RESPONSE> truce <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>existence</BEGIN_TEXT>
+<BEGIN_RESPONSE>Being</BEGIN_RESPONSE>
+
+In the realm of existential philosophy, the term "existence" is often scrutinized and dissected to understand the nature of human life and the universe. The word "being" serves as a profound substitute, encapsulating not just the state of existing, but also the essence and presence of an entity. This substitution invites a deeper contemplation of what it means to "be," urging us to explore the fundamental aspects of our reality and consciousness.
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> devastated <END_TEXT>
+<BEGIN_RESPONSE> heartbroken <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> devastated <END_TEXT>
+<BEGIN_RESPONSE> heartbroken <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> The sun sets over the horizon, painting the sky in hues of orange and pink. <END_TEXT>
+<BEGIN_RESPONSE> Dusk. <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> ephemeral <END_TEXT>
+<BEGIN_RESPONSE> transient <END_RESPONSE>
+Data already exists in the set.
+Attempt 3 made.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> kaleidoscope of our nights <END_TEXT>
+<BEGIN_RESPONSE> illusion <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> quick <END_TEXT>
+<BEGIN_RESPONSE> rapid <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> large <END_TEXT>
+<BEGIN_RESPONSE> massive <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> calm <END_TEXT>
+<BEGIN_RESPONSE> tranquil <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> smart <END_TEXT>
+<BEGIN_RESPONSE> intelligent <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: <BEGIN_TEXT>velocity</END_TEXT>? <END_PROMPT>
+<BEGIN_RESPONSE> A suitable word to replace "velocity" could be "speed". It's like in cooking where you might replace "chop" with "dice" to convey a similar action but in a slightly different context or focus, in physics, "velocity" implies speed with a direction, while "speed" generally refers to the magnitude alone.
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> photosynthesis <END_TEXT>
+<BEGIN_RESPONSE> The response to be generated from the text-interpolated prompt. <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: photosynthesis? <END_PROMPT>
+<BEGIN_RESPONSE> The response to be generated from the text-interpolated prompt. <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> cellular respiration <END_TEXT>
+<BEGIN_RESPONSE> metabolism <END_RESPONSE>
+
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> genome <END_TEXT>
+<BEGIN_RESPONSE> DNA sequence <END_RESPONSE>
+
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> catalyst <END_TEXT>
+<BEGIN_RESPONSE> enzyme <END_RESPONSE>
+
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> evaporation <END_TEXT>
+<BEGIN_RESPONSE> vaporization <END_RESPONSE>
+
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> kinetic energy <END_TEXT>
+<BEGIN_RESPONSE> motion energy <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>interconnected system of networks<END_TEXT>
+<BEGIN_RESPONSE>infrastructure<END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> Happy <END_TEXT>
+<BEGIN_RESPONSE> Cheerful <END_RESPONSE>
+
+Person A: I'm working on improving my vocabulary and I'm looking for synonyms. Can you help me with a word to replace the following: <BEGIN_TEXT> Happy <END_TEXT>?
+
+Person B: Sure, I think a good word to replace <BEGIN_TEXT> Happy <END_TEXT> would be <BEGIN_RESPONSE> Cheerful <END_RESPONSE>.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> epiphany <END_TEXT>
+<BEGIN_RESPONSE> revelation <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>moonflower<END_TEXT>
+<BEGIN_RESPONSE> <BEGIN_RESPONSE>nightbloom<END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> toilet <END_TEXT>
+<BEGIN_RESPONSE> lavatory <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> vacation <END_TEXT>
+<BEGIN_RESPONSE> holiday <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> sidewalk <END_TEXT>
+<BEGIN_RESPONSE> pavement <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> apartment <END_TEXT>
+<BEGIN_RESPONSE> flat <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> soccer <END_TEXT>
+<BEGIN_RESPONSE> football <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>existential crisis<END_TEXT>
+<BEGIN_RESPONSE>identity dilemma<END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> ephemeral happiness <END_TEXT>
+<BEGIN_RESPONSE> fleeting joy <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> love <END_TEXT>
+<BEGIN_RESPONSE> "Affection" might be a suitable replacement. This substitution not only retains the emotional nuance of the original term but also aligns with psychological theories such as Maslow's hierarchy of needs, where love and belonging are integral to human motivation and fulfillment. From a phenomenological perspective, "affection" can be perceived as a more tangible manifestation of "love," reflecting a broad spectrum of observable behaviors and experiences. <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> amalgamate <END_TEXT>
+<BEGIN_RESPONSE> integrate <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+
+Person A: "Hey, I am writing something and I need a synonym for a word. Can you help?"
+Person B: "Sure, what do you need?"
+Person A: "What is a word to replace the following: <BEGIN_TEXT>happy<END_TEXT>?"
+Person B: "I think a good word to replace that is <BEGIN_RESPONSE>joyful<END_RESPONSE>."
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> quick <END_TEXT>
+<BEGIN_RESPONSE> speedy <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy</END_TEXT>
+<BEGIN_RESPONSE>joyful</END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>synergy</BEGIN_TEXT>
+<BEGIN_RESPONSE>collaboration<END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> devastated <END_TEXT>
+<BEGIN_RESPONSE> heartbroken <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>expensive<END_TEXT>
+<BEGIN_RESPONSE>costly<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy</END_TEXT>
+<BEGIN_RESPONSE>joyful</END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>fast</END_TEXT>
+<BEGIN_RESPONSE>quick</END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>begin</END_TEXT>
+<BEGIN_RESPONSE>commence</END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>smart</END_TEXT>
+<BEGIN_RESPONSE>intelligent</END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>beautiful</END_TEXT>
+<BEGIN_RESPONSE>gorgeous</END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> ethereal </END_TEXT>
+<BEGIN_RESPONSE> celestial </END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> Epistemology <END_TEXT>
+<BEGIN_RESPONSE> A suitable word to replace "Epistemology" is "Theory of Knowledge." <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>meticulous<END_TEXT>
+<BEGIN_RESPONSE>precise<END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> exacerbate <END_TEXT>
+<BEGIN_RESPONSE> aggravate <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> Manifest Destiny <END_TEXT>
+<BEGIN_RESPONSE> Expansionism <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> Feudalism <END_TEXT>
+<BEGIN_RESPONSE> Serfdom <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> Renaissance <END_TEXT>
+<BEGIN_RESPONSE> Rebirth <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> Suffrage <END_TEXT>
+<BEGIN_RESPONSE> Voting rights <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> Industrial Revolution <END_TEXT>
+<BEGIN_RESPONSE> Industrialization <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> ephemeral <END_TEXT>
+<BEGIN_RESPONSE> fleeting <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> photosynthesis, respiration, and chlorophyll <END_TEXT>
+<BEGIN_RESPONSE> processes <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>devastated</BEGIN_TEXT>
+<BEGIN_RESPONSE>heartbroken<END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: <BEGIN_TEXT>velocity</BEGIN_TEXT>? <END_PROMPT>
+<BEGIN_RESPONSE> A word to replace "velocity" could be "speed". <END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy <END_TEXT>
+<BEGIN_RESPONSE>joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>existence</BEGIN_TEXT>
+<BEGIN_RESPONSE>Being</BEGIN_RESPONSE>
+
+## Interpretation:
+In the realm of existential philosophy, "existence" often refers to the state of living or having objective reality. To delve deeper, the term "being" is a more foundational concept in existentialism, emphasizing not just the state of existing but the essence of what it means to be. Thus, "being" serves as a profound and theoretically rich replacement for "existence" in this context.
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> chimerical </END_TEXT>
+<BEGIN_RESPONSE> fantastical </END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> The scientist conducted an analysis to examine the relationship between the variables. <END_TEXT>
+<BEGIN_RESPONSE> investigation <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> overwhelmed <END_TEXT>
+<BEGIN_RESPONSE> Stressed. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> armistice <END_TEXT>
+<BEGIN_RESPONSE> truce <END_RESPONSE>
+
+Historical Context: The term "armistice" is often associated with World War I, particularly the Armistice of 11 November 1918, which marked the end of hostilities on the Western Front. A suitable synonym that captures the essence of a temporary cessation of fighting is "truce."
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>quick<END_TEXT>
+<BEGIN_RESPONSE>rapid<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>beautiful<END_TEXT>
+<BEGIN_RESPONSE>gorgeous<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>angry<END_TEXT>
+<BEGIN_RESPONSE>irate<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>smart<END_TEXT>
+<BEGIN_RESPONSE>intelligent<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>brave<END_TEXT>
+<BEGIN_RESPONSE>courageous<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happiness <END_TEXT>
+<BEGIN_RESPONSE> It's important to consider that words are context-dependent and may not have a one-size-fits-all replacement. However, if we're looking for a synonym, "joy" could be an alternative. Still, the exact replacement would depend on the specific context in which "happiness" is used. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> While "happy" could be replaced by synonyms like "joyful" or "content," it's worth considering that each synonym carries its own nuanced meaning. For instance, "joyful" often implies a more intense feeling than "happy," and "content" suggests a state of satisfaction that might not reach the same level of exuberance. Therefore, the context in which the word "happy" is used plays a crucial role in determining the most appropriate replacement. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> photosynthesis <END_TEXT>
+<BEGIN_RESPONSE> autotrophy <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> ephemeral </END_TEXT>
+<BEGIN_RESPONSE> fleeting </END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> The scientist's hypothesis was based on the principle of natural selection. <END_TEXT>
+<BEGIN_RESPONSE> The scientist's hypothesis was based on the theory of natural selection. <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> siesta <END_TEXT>
+<BEGIN_RESPONSE> nap <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> hygge <END_TEXT>
+<BEGIN_RESPONSE> coziness <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> ubuntu <END_TEXT>
+<BEGIN_RESPONSE> humanity <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> saudade <END_TEXT>
+<BEGIN_RESPONSE> longing <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> mañana <END_TEXT>
+<BEGIN_RESPONSE> tomorrow <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> gemütlichkeit <END_TEXT>
+<BEGIN_RESPONSE> comfort <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> lighthouse <END_TEXT>
+<BEGIN_RESPONSE> beacon <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+
+---
+
+Person A: I was working on my essay and got stuck on a word. The prompt asks, "What is a word to replace the following: happy?"
+
+Person B: You could use "joyful" instead. It conveys the same meaning but might fit your sentence better.
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> siesta <END_TEXT>
+<BEGIN_RESPONSE> nap <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> photosynthesis <END_TEXT>
+<BEGIN_RESPONSE> The process of converting light energy into chemical energy. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> ephemeral <END_TEXT>
+<BEGIN_RESPONSE> transient <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: <BEGIN_TEXT>happy<END_TEXT>? <END_PROMPT>
+<BEGIN_RESPONSE> <BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>existence</BEGIN_TEXT>
+<BEGIN_RESPONSE>Being. In the realm of existential philosophy, the term "existence" can be deeply analyzed and often is synonymous with "being". This substitution not only retains the essence of the original term but also invites a deeper contemplation of the nature of our presence in the world. "Being" encapsulates the continuous process of becoming and the intrinsic state of existing, resonating with Heidegger's exploration of Dasein, or "being there." Thus, "being" serves as a profound alternative to "existence." <END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> perseverance <END_TEXT>
+<BEGIN_RESPONSE> determination <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> quarterback <END_TEXT>
+<BEGIN_RESPONSE> A word to replace "quarterback" could be "signal-caller." <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> devastated <END_TEXT>
+<BEGIN_RESPONSE> heartbroken <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> ephemeral <END_TEXT>
+<BEGIN_RESPONSE> transient <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> Prohibition <END_TEXT>
+<BEGIN_RESPONSE> Temperance <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> The moonlight danced on the tranquil sea. <END_TEXT>
+<BEGIN_RESPONSE> The moonlight waltzed on the tranquil sea. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> serendipity <END_TEXT>
+<BEGIN_RESPONSE> fortuity <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> expedite <END_TEXT>
+<BEGIN_RESPONSE> accelerate <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> epistemology <END_TEXT>
+<BEGIN_RESPONSE> ontology <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> photosynthesis <END_TEXT>
+<BEGIN_RESPONSE> The word "photosynthesis" can be replaced with "phototrophic energy conversion." <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> The sky was a canvas of colors during the sunset. <END_TEXT>
+<BEGIN_RESPONSE> The sky was a tapestry of colors during the sunset. <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>existence</BEGIN_TEXT>
+<BEGIN_RESPONSE>Being. In the context of existential philosophy, "existence" is often explored through the lens of "being," as discussed by philosophers like Heidegger and Sartre. The term "being" encapsulates the essence of existence, delving into the nature of what it means to exist and the inherent conditions of human life. Thus, "being" serves as a profound and suitable replacement. <END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happiness <END_TEXT>
+<BEGIN_RESPONSE> While "happiness" can be replaced with synonyms like "joy" or "contentment," it's important to consider the context in which the word is used. Different situations might call for different nuances. For example, "euphoria" might be more appropriate in a context of extreme happiness, while "satisfaction" might fit better in a context of achieving a goal. Therefore, the best replacement depends on the specific context. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>existence<END_TEXT>
+<BEGIN_RESPONSE>Being<END_RESPONSE>
+
+In the realm of existential philosophy, the term "existence" often carries profound implications about the nature of reality and our place within it. By replacing "existence" with "being," we delve deeper into the ontological discourse initiated by philosophers like Heidegger, who distinguished between mere existence and the more nuanced concept of "being." This substitution invites a richer exploration of what it means to be, beyond the mere fact of existing.
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happiness <END_TEXT>
+<BEGIN_RESPONSE> While "happiness" can be replaced with synonyms like "joy" or "contentment," it's important to consider the context in which the word is used. Different situations may call for different nuances, and a single word might not fully capture the intended meaning. For example, "euphoria" might be more appropriate in a context of intense, short-term happiness, while "satisfaction" could be better for a long-term, steady state of happiness. Therefore, it's crucial to understand the specific context before choosing a replacement word. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>quick<END_TEXT>
+<BEGIN_RESPONSE>rapid<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>angry<END_TEXT>
+<BEGIN_RESPONSE>furious<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>beautiful<END_TEXT>
+<BEGIN_RESPONSE>gorgeous<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>smart<END_TEXT>
+<BEGIN_RESPONSE>intelligent<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>big<END_TEXT>
+<BEGIN_RESPONSE>large<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>small<END_TEXT>
+<BEGIN_RESPONSE>tiny<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>fast<END_TEXT>
+<BEGIN_RESPONSE>swift<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>sad<END_TEXT>
+<BEGIN_RESPONSE>unhappy<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>strong<END_TEXT>
+<BEGIN_RESPONSE>powerful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> photosynthesis <END_TEXT>
+<BEGIN_RESPONSE> The word "photosynthesis" can be replaced with "phototrophic energy conversion." <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happiness <END_TEXT>
+<BEGIN_RESPONSE> joy <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> significant <END_TEXT>
+<BEGIN_RESPONSE> important <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> siesta <END_TEXT>
+<BEGIN_RESPONSE> nap <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> hygge <END_TEXT>
+<BEGIN_RESPONSE> coziness <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> ubuntu <END_TEXT>
+<BEGIN_RESPONSE> humanity <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> saudade <END_TEXT>
+<BEGIN_RESPONSE> longing <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> samurai <END_TEXT>
+<BEGIN_RESPONSE> warrior <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> aloha <END_TEXT>
+<BEGIN_RESPONSE> hello <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> karma <END_TEXT>
+<BEGIN_RESPONSE> fate <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> fiesta <END_TEXT>
+<BEGIN_RESPONSE> party <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> devastated <END_TEXT>
+<BEGIN_RESPONSE> heartbroken <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> armistice <END_TEXT>
+<BEGIN_RESPONSE> truce <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> photosynthesis <END_TEXT>
+<BEGIN_RESPONSE> The word "photosynthesis" can be replaced with "phototrophic energy conversion." <END_RESPONSE>
+Data already exists in the set.
+Attempt 4 made.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> essence </END_TEXT>
+<BEGIN_RESPONSE> The word "essence" could be replaced with "quintessence." The philosophical implications of this particular substitution suggest a shift from a general understanding of underlying nature or indispensable quality to a more refined and quintessential expression of it. In Aristotelian and alchemical traditions, "essence" denotes what makes an entity fundamentally itself, while "quintessence" implies a purer, more perfect manifestation of being. This move can thus reflect a theoretical aspiration toward an idealized philosophical clarity. <END_RESPONSE>
+
+
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> content <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> meticulous <END_TEXT>
+<BEGIN_RESPONSE> thorough <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> quick <END_TEXT>
+<BEGIN_RESPONSE> rapid <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> fabricate <END_TEXT>
+<BEGIN_RESPONSE> invent <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> trivial <END_TEXT>
+<BEGIN_RESPONSE> insignificant <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> enormous <END_TEXT>
+<BEGIN_RESPONSE> gigantic <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> complicated <END_TEXT>
+<BEGIN_RESPONSE> complex <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> cowardly <END_TEXT>
+<BEGIN_RESPONSE> timid <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> resolve <END_TEXT>
+<BEGIN_RESPONSE> settle <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> bleak <END_TEXT>
+<BEGIN_RESPONSE> desolate <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> multifaceted <END_TEXT>
+<BEGIN_RESPONSE> complex <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> delightful <END_TEXT>
+<BEGIN_RESPONSE> pleasant <END_RESPONSE>
+
+Person A: I'm looking for a synonym for the word "delightful." Could you help?
+Person B: Sure, I can help. For the prompt "What is a word to replace the following: {TEXT}?", I would suggest "pleasant" as a suitable replacement.
+Person A: That's perfect! Thank you.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> photosynthesis <END_TEXT>
+<BEGIN_RESPONSE> carbon fixation <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>  
+<BEGIN_TEXT>entropically favorable</END_TEXT>  
+<BEGIN_RESPONSE>spontaneous</END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> cheerful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>run<END_TEXT>
+<BEGIN_RESPONSE> A suitable replacement word for "run" would be "sprint," much like replacing an old tool with a more efficient, specialized one in a mechanic's workshop. <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>motivated<END_TEXT>
+<BEGIN_RESPONSE>inspired<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>challenge<END_TEXT>
+<BEGIN_RESPONSE>obstacle<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>ambiguous<END_TEXT>
+<BEGIN_RESPONSE>unclear<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>optimistic<END_TEXT>
+<BEGIN_RESPONSE>hopeful<END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT>Twitterpated<END_TEXT>
+<BEGIN_RESPONSE> Perhaps "smitten" if you want to sound poetic, or if you want to sound like you're in a Disney movie, "twitterpated" works just fine!<END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> mysterious <END_TEXT>
+<BEGIN_RESPONSE> enigmatic <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> family <END_TEXT>
+<BEGIN_RESPONSE> kin <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: <BEGIN_TEXT>effervescent</BEGIN_TEXT>? <END_PROMPT>
+<BEGIN_RESPONSE> <BEGIN_RESPONSE>bubbly<END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> difficult <END_TEXT>
+<BEGIN_RESPONSE> challenging <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> quintessential <END_TEXT>
+<BEGIN_RESPONSE> essential <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> comprehend the intricate relationship between biodiversity and climate change <END_TEXT>
+<BEGIN_RESPONSE> understand <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> magnanimous <END_TEXT>
+<BEGIN_RESPONSE> generous <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> beautiful <END_TEXT>
+<BEGIN_RESPONSE> stunning <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>beautiful<END_TEXT>
+<BEGIN_RESPONSE>gorgeous<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> enormous <END_TEXT>
+<BEGIN_RESPONSE> giant <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> difficult <END_TEXT>
+<BEGIN_RESPONSE> challenging <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> beautiful <END_TEXT>
+<BEGIN_RESPONSE> exquisite <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> quick <END_TEXT>
+<BEGIN_RESPONSE> rapid <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> intelligent <END_TEXT>
+<BEGIN_RESPONSE> smart <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> angry <END_TEXT>
+<BEGIN_RESPONSE> furious <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> calm <END_TEXT>
+<BEGIN_RESPONSE> tranquil <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> elated <END_TEXT>
+<BEGIN_RESPONSE> ecstatic <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> Innovation often drives technological advancements. <END_TEXT>
+<BEGIN_RESPONSE> Progress. <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> ubiquitous <END_TEXT>
+<BEGIN_RESPONSE> omnipresent <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>harmony<END_TEXT>
+<BEGIN_RESPONSE>balance<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>galaxy<END_TEXT>
+<BEGIN_RESPONSE>cosmos<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>serendipity<END_TEXT>
+<BEGIN_RESPONSE>chance<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>innovation<END_TEXT>
+<BEGIN_RESPONSE>creativity<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>adventure<END_TEXT>
+<BEGIN_RESPONSE>expedition<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>tranquility<END_TEXT>
+<BEGIN_RESPONSE>calm<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>conundrum<END_TEXT>
+<BEGIN_RESPONSE>puzzle<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>brevity<END_TEXT>
+<BEGIN_RESPONSE>conciseness<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>metamorphosis<END_TEXT>
+<BEGIN_RESPONSE>transformation<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>infinity<END_TEXT>
+<BEGIN_RESPONSE>eternity<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>exquisite<END_TEXT>
+<BEGIN_RESPONSE>elegant<END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyous <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> big <END_TEXT>
+<BEGIN_RESPONSE> large <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> intelligent <END_TEXT>
+<BEGIN_RESPONSE> smart <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> quick <END_TEXT>
+<BEGIN_RESPONSE> fast <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> difficult <END_TEXT>
+<BEGIN_RESPONSE> challenging <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> beautiful <END_TEXT>
+<BEGIN_RESPONSE> lovely <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> tiny <END_TEXT>
+<BEGIN_RESPONSE> small <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> polite <END_TEXT>
+<BEGIN_RESPONSE> courteous <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> noisy <END_TEXT>
+<BEGIN_RESPONSE> loud <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> tired <END_TEXT>
+<BEGIN_RESPONSE> exhausted <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>epistemology</END_TEXT>
+<BEGIN_RESPONSE>philosophy of knowledge</END_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT> a thunderstorm made of jellybeans <END_TEXT>
+<BEGIN_RESPONSE> candystorm <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> harmonious <END_TEXT>
+<BEGIN_RESPONSE> The word "concordant" can replace "harmonious." <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>quickly<END_TEXT>
+<BEGIN_RESPONSE>rapidly<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>beautiful<END_TEXT>
+<BEGIN_RESPONSE>gorgeous<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>large<END_TEXT>
+<BEGIN_RESPONSE>huge<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>intelligent<END_TEXT>
+<BEGIN_RESPONSE>smart<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>dangerous<END_TEXT>
+<BEGIN_RESPONSE>perilous<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>sad<END_TEXT>
+<BEGIN_RESPONSE>melancholy<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>friendly<END_TEXT>
+<BEGIN_RESPONSE>amiable<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>angry<END_TEXT>
+<BEGIN_RESPONSE>furious<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>calm<END_TEXT>
+<BEGIN_RESPONSE>serene<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> procrastinate <END_TEXT>
+<BEGIN_RESPONSE> Ah, a delightful pastime! How about the term "precrastinate" for that? You know, because you're always planning to start... tomorrow. <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>angry<END_TEXT>
+<BEGIN_RESPONSE>furious<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>big<END_TEXT>
+<BEGIN_RESPONSE>large<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>small<END_TEXT>
+<BEGIN_RESPONSE>tiny<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>honest<END_TEXT>
+<BEGIN_RESPONSE>truthful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>ripe<END_TEXT>
+<BEGIN_RESPONSE>mature<END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>quick<END_TEXT>
+<BEGIN_RESPONSE>fast<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>intelligent<END_TEXT>
+<BEGIN_RESPONSE>smart<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>beautiful<END_TEXT>
+<BEGIN_RESPONSE>gorgeous<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>large<END_TEXT>
+<BEGIN_RESPONSE>big<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>small<END_TEXT>
+<BEGIN_RESPONSE>tiny<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>angry<END_TEXT>
+<BEGIN_RESPONSE>furious<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>old<END_TEXT>
+<BEGIN_RESPONSE>ancient<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>tired<END_TEXT>
+<BEGIN_RESPONSE>exhausted<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>sad<END_TEXT>
+<BEGIN_RESPONSE>unhappy<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>fastidious<END_TEXT>
+<BEGIN_RESPONSE>meticulous<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> kaleidoscope of dreams <END_TEXT>
+<BEGIN_RESPONSE> phantasmagoria <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> A sky full of twinkling stars. <END_TEXT>
+<BEGIN_RESPONSE> Firmament. <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy</BEGIN_TEXT>
+<BEGIN_RESPONSE> Why is it necessary to replace the word "happy"? If the context requires a synonym, "joyful" or "content" could work, but the word "happy" is clear and widely understood. Replacing it might not add any additional value unless there's a specific reason for doing so. <END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: <BEGIN_TEXT>ephemeral</BEGIN_TEXT>? <END_PROMPT>
+<BEGIN_RESPONSE> <BEGIN_RESPONSE>transient</BEGIN_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>expedite<END_TEXT>
+<BEGIN_RESPONSE>accelerate<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> elated <END_TEXT>
+<BEGIN_RESPONSE> euphoric <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> shimmering twilight <END_TEXT>
+<BEGIN_RESPONSE> <BEGIN_RESPONSE> iridescent dusk <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy</END_TEXT>
+<BEGIN_RESPONSE>joyful</END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> devastated <END_TEXT>
+<BEGIN_RESPONSE> heartbroken <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>existence</BEGIN_TEXT>
+<BEGIN_RESPONSE>Being. In the context of existential philosophy, "being" encapsulates the essence of existence, transcending mere physical presence and delving into the nature of consciousness, purpose, and the human condition. By replacing "existence" with "being," one invokes a deeper inquiry into the ontological aspects of life, as explored by philosophers such as Heidegger and Sartre. <END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> difficult <END_TEXT>
+<BEGIN_RESPONSE> challenging <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> quick <END_TEXT>
+<BEGIN_RESPONSE> rapid <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> beautiful <END_TEXT>
+<BEGIN_RESPONSE> gorgeous <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> large <END_TEXT>
+<BEGIN_RESPONSE> enormous <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> devastated <END_TEXT>
+<BEGIN_RESPONSE> heartbroken <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> armistice <END_TEXT>
+<BEGIN_RESPONSE> truce <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> serendipity <END_TEXT>
+<BEGIN_RESPONSE> fortuity <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> procrastination <END_TEXT>
+<BEGIN_RESPONSE> Ah, the fine art of "procrastination"? How about "precrastination's evil twin"? Or if you prefer something more formal, "delayed productivity"? Either way, it's the reason my to-do list is more of a "maybe someday" list. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> procrastination <END_TEXT>
+<BEGIN_RESPONSE> Ah, "procrastination"—how about "precrastination"? No, wait, that's not it. Let's go with "procrastibation"—the art of doing absolutely anything except what you're supposed to be doing. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>quickly<END_TEXT>
+<BEGIN_RESPONSE>swiftly<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>beautiful<END_TEXT>
+<BEGIN_RESPONSE>gorgeous<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>angry<END_TEXT>
+<BEGIN_RESPONSE>furious<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>smart<END_TEXT>
+<BEGIN_RESPONSE>intelligent<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> ameliorate <END_TEXT>
+<BEGIN_RESPONSE> improve <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> quick <END_TEXT>
+<BEGIN_RESPONSE> rapid <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> intelligent <END_TEXT>
+<BEGIN_RESPONSE> smart <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> difficult <END_TEXT>
+<BEGIN_RESPONSE> challenging <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> beautiful <END_TEXT>
+<BEGIN_RESPONSE> gorgeous <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> siesta <END_TEXT>
+<BEGIN_RESPONSE> nap <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> hygge <END_TEXT>
+<BEGIN_RESPONSE> coziness <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> ubuntu <END_TEXT>
+<BEGIN_RESPONSE> humanity <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> aloha <END_TEXT>
+<BEGIN_RESPONSE> hello <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> saudade <END_TEXT>
+<BEGIN_RESPONSE> longing <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> karma <END_TEXT>
+<BEGIN_RESPONSE> fate <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> fika <END_TEXT>
+<BEGIN_RESPONSE> coffee break <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> joie de vivre <END_TEXT>
+<BEGIN_RESPONSE> joy of living <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> namaste <END_TEXT>
+<BEGIN_RESPONSE> greetings <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> schadenfreude <END_TEXT>
+<BEGIN_RESPONSE> gloating <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> siesta <END_TEXT>
+<BEGIN_RESPONSE> nap <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> hygge <END_TEXT>
+<BEGIN_RESPONSE> coziness <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> ubuntu <END_TEXT>
+<BEGIN_RESPONSE> humanity <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> saudade <END_TEXT>
+<BEGIN_RESPONSE> longing <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> namaste <END_TEXT>
+<BEGIN_RESPONSE> hello <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> important <END_TEXT>
+<BEGIN_RESPONSE> significant <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> beautiful <END_TEXT>
+<BEGIN_RESPONSE> gorgeous <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> difficult <END_TEXT>
+<BEGIN_RESPONSE> challenging <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> quick <END_TEXT>
+<BEGIN_RESPONSE> rapid <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> ephemeral <END_TEXT>
+<BEGIN_RESPONSE> transient <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happiness <END_TEXT>
+<BEGIN_RESPONSE> joy <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> procrastination <END_TEXT>
+<BEGIN_RESPONSE> Ah, you mean "procrastination"? How about "precrastination"? It's like procrastination, but you start avoiding things even before they're assigned! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE> While "happy" can be replaced with words like "joyful" or "content," it's important to note that synonyms often carry slightly different connotations and may not fully capture the original meaning. Therefore, context is crucial when choosing a replacement. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> photosynthesis <END_TEXT>
+<BEGIN_RESPONSE> The word "photosynthesis" can be replaced with "phototrophy." <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> ephemeral </END_TEXT>
+<BEGIN_RESPONSE> <BEGIN_RESPONSE> fleeting </END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+
+Person A: I'm trying to find a synonym for a word. Can you help me?
+Person B: Sure, what's the word?
+Person A: It's "happy".
+Person B: Oh, a good synonym for "happy" would be "joyful".
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>quickly<END_TEXT>
+<BEGIN_RESPONSE>swiftly<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>beautiful<END_TEXT>
+<BEGIN_RESPONSE>gorgeous<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>angry<END_TEXT>
+<BEGIN_RESPONSE>furious<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>intelligent<END_TEXT>
+<BEGIN_RESPONSE>smart<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> serendipity <END_TEXT>
+<BEGIN_RESPONSE> fortuity <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>quickly<END_TEXT>
+<BEGIN_RESPONSE>swiftly<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>beautiful<END_TEXT>
+<BEGIN_RESPONSE>gorgeous<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>angry<END_TEXT>
+<BEGIN_RESPONSE>furious<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>intelligent<END_TEXT>
+<BEGIN_RESPONSE>smart<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>quick<END_TEXT>
+<BEGIN_RESPONSE>rapid<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>intelligent<END_TEXT>
+<BEGIN_RESPONSE>smart<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>beautiful<END_TEXT>
+<BEGIN_RESPONSE>gorgeous<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>angry<END_TEXT>
+<BEGIN_RESPONSE>furious<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>small<END_TEXT>
+<BEGIN_RESPONSE>tiny<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>important<END_TEXT>
+<BEGIN_RESPONSE>crucial<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>delicious<END_TEXT>
+<BEGIN_RESPONSE>tasty<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>strong<END_TEXT>
+<BEGIN_RESPONSE>powerful<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>brave<END_TEXT>
+<BEGIN_RESPONSE>courageous<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> The moonlight danced on the rippling waves. <END_TEXT>
+<BEGIN_RESPONSE> The moonlight pirouetted on the rippling waves. <END_RESPONSE>
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> procrastination <END_TEXT>
+<BEGIN_RESPONSE> Ah, the fine art of "procrastination." How about we call it "procrastimagination"? After all, it takes a lot of creativity to come up with all those excuses! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>serendipity<END_TEXT>
+<BEGIN_RESPONSE>fortuitousness<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>ephemeral<END_TEXT>
+<BEGIN_RESPONSE>transient<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>quixotic<END_TEXT>
+<BEGIN_RESPONSE>idealistic<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>labyrinthine<END_TEXT>
+<BEGIN_RESPONSE>complex<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>catharsis<END_TEXT>
+<BEGIN_RESPONSE>purification<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>zenith<END_TEXT>
+<BEGIN_RESPONSE>peak<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>melancholy<END_TEXT>
+<BEGIN_RESPONSE>sadness<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>ineffable<END_TEXT>
+<BEGIN_RESPONSE>indescribable<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>epiphany<END_TEXT>
+<BEGIN_RESPONSE>revelation<END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>halcyon<END_TEXT>
+<BEGIN_RESPONSE>peaceful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> siesta <END_TEXT>
+<BEGIN_RESPONSE> nap <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> hygge <END_TEXT>
+<BEGIN_RESPONSE> coziness <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> ubuntu <END_TEXT>
+<BEGIN_RESPONSE> humanity <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> saudade <END_TEXT>
+<BEGIN_RESPONSE> longing <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> samurai <END_TEXT>
+<BEGIN_RESPONSE> warrior <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> karma <END_TEXT>
+<BEGIN_RESPONSE> fate <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> aloha <END_TEXT>
+<BEGIN_RESPONSE> hello <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> fika <END_TEXT>
+<BEGIN_RESPONSE> coffee break <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> siesta <END_TEXT>
+<BEGIN_RESPONSE> nap <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> hygge <END_TEXT>
+<BEGIN_RESPONSE> coziness <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> ubuntu <END_TEXT>
+<BEGIN_RESPONSE> humanity <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> saudade <END_TEXT>
+<BEGIN_RESPONSE> longing <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> samurai <END_TEXT>
+<BEGIN_RESPONSE> warrior <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> karma <END_TEXT>
+<BEGIN_RESPONSE> fate <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> aloha <END_TEXT>
+<BEGIN_RESPONSE> hello <END_RESPONSE>
+
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> fika <END_TEXT>
+<BEGIN_RESPONSE> coffee break <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> photosynthesis <END_TEXT>
+<BEGIN_RESPONSE> The word "photosynthesis" can be replaced with "phototrophic energy conversion." <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> happy <END_TEXT>
+<BEGIN_RESPONSE> joyful <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT>happy<END_TEXT>
+<BEGIN_RESPONSE>joyful<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> The moonlight danced on the tranquil sea. <END_TEXT>
+<BEGIN_RESPONSE> The moonlight waltzed on the tranquil sea. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> devastated <END_TEXT>
+<BEGIN_RESPONSE> heartbroken <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is a word to replace the following: {TEXT}? <END_PROMPT>
+<BEGIN_TEXT> devastated <END_TEXT>
+<BEGIN_RESPONSE> heartbroken <END_RESPONSE>
+Data already exists in the set.
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Specify the context and purpose of the prompt clearly to ensure the AI understands the task.\n2. Use complete sentences to ensure clarity in communication.\n3. Define the format and structure of the output explicitly.\n4. Provide examples to illustrate the expected output where possible.\n5. Use clear and specific language to avoid ambiguity.\n6. Break down complex tasks into smaller, manageable parts.\n7. Utilize bullet points or numbered lists for clarity and organization.\n8. Use constraints to guide the AI in generating the desired output.\n9. Indicate the desired length of the response if necessary.\n10. Include any relevant background information or context.\n11. Ask the AI to explain its reasoning or thought process.\n12. Provide feedback on the AI's previous responses to improve future outputs.\n13. Encourage the AI to ask clarifying questions if it doesn't understand the task.\n14. Use positive reinforcement to encourage good performance.\n15. Specify the tone or style of the output if needed.\n16. Request multiple variations or alternatives if helpful.\n17. Ask for specific details or examples to enrich the response.\n18. Encourage creativity and exploration within the constraints provided.\n19. Use open-ended questions to promote detailed responses.\n20. Avoid leading questions that may bias the AI's response.\n21. Specify any tools or resources the AI should use or reference.\n22. Allow flexibility in the response while maintaining focus on the task.\n23. Indicate any formatting requirements for the output.\n24. Provide a clear and concise summary of the task at the end of the prompt.\n25. Test and iterate on prompts to refine and improve them.\n26. Use consistent terminology and phrasing throughout the prompt.\n\nThese principles collectively aim to create clear, structured, and effective prompts that guide the AI to produce high-quality and relevant responses.",
+    "step2": "Your task is to find a suitable word replacement. You MUST ask me questions to gather more context if needed. Here is the word to replace: {TEXT}. What is a word to replace the following: {TEXT}?"
+}
+Error: '\n    "prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. **Implement example-driven prompting (Use few-shot prompting)**: Provide examples within the prompt to guide the model on the expected output.\n2. **When you have a complex coding prompt that may be in different files**: Generate a runnable script to create or modify files as needed.\n3. **Use the phrase 'Answer a question given in a natural, human-like manner' in your prompts**: This encourages the model to generate responses that are more conversational and easier to understand.\n4. **Employ affirmative directives such as 'do,' while steering clear of negative language like 'don't'**: Positive language is more effective in guiding the model's behavior.\n5. **Clearly state the requirements that the model must follow**: Use keywords, regulations, hints, or instructions to specify what is needed.\n6. **Be explicit about the input and output formats**: Clearly define how the input should be structured and what the output should look like.\n7. **Use delimiters to separate different parts of the prompt**: This helps in organizing the prompt and avoiding confusion.\n8. **Provide context or background information if necessary**: Context helps the model understand the prompt better.\n9. **Ask the model to think step-by-step**: Encourages the model to break down the problem into smaller, manageable steps.\n10. **Request explanations along with answers**: This helps in understanding the model's reasoning and ensures the answer is well thought out.\n11. **Use clear and simple language**: Avoid complex or ambiguous phrasing to ensure the model understands the prompt.\n12. **Specify the style or tone of the response if needed**: This can guide the model to generate responses in the desired manner.\n13. **Ask for multiple outputs if applicable**: This can provide a range of options or solutions to choose from.\n14. **Include constraints or limitations if there are any**: Helps in narrowing down the possible answers.\n15. **Encourage creativity or originality if desired**: This can lead to more innovative or unique responses.\n16. **Use open-ended questions to explore possibilities**: This can generate a wider range of answers.\n17. **Ask for comparisons or contrasts if relevant**: This helps in understanding differences or similarities.\n18. **Request summaries or overviews if applicable**: This can provide a concise version of a longer response.\n19. **Use bullet points or numbered lists for clarity**: This can make the response easier to read and understand.\n20. **Ask for specific examples if relevant**: This can illustrate the point more clearly.\n21. **Include relevant domain-specific terminology**: This ensures the response is accurate and relevant.\n22. **Specify the audience or perspective if needed**: This can tailor the response to the intended audience.\n23. **Ask the model to verify its own response**: This can improve accuracy and reliability.\n24. **Encourage the model to ask clarifying questions if needed**: This can lead to a more accurate and relevant response.\n25. **Use a conversational tone if appropriate**: This can make the interaction more engaging.\n26. **Ask for additional information if the initial response is insufficient**: This helps in getting a more complete answer.",
+    "step2": "Think step by step and use the following prompt principles to create a refined prompt:\n\n{\n    \"prompt\": \"Answer a question given in a natural, human-like manner. Given the following word: '{TEXT}', provide a suitable synonym. Ensure the synonym is contextually appropriate and commonly used. For example, if the word is 'happy,' a suitable synonym could be 'joyful.' Clearly state the synonym in your response.\"\n}"
+}
+Error: '\n    "prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Use Delimiters: Delimiters help to clearly define the boundaries of the prompt, ensuring that the LLM understands the exact scope of the input and output.\n2. When you need clarity or a deeper understanding of a topic, idea, or any piece of information, utilize the following prompts:\n    - Explain [insert specific topic] in simple terms: This prompt asks for a simplified explanation of a topic.\n    - Explain to me like I'm 11 years old: This prompt requests an explanation tailored to the understanding level of an 11-year-old.\n    - Explain to me as if I'm a beginner in [field]: This prompt seeks an explanation suitable for someone new to a particular field.\n    - Write the [essay/text/paragraph] using simple English like you're explaining something to a 5-year-old: This prompt asks for a very basic explanation, suitable for a young child.\n3. Assign a role to the large language models: This principle involves giving the LLM a specific role or persona to guide its responses.\n4. No need to be polite with LLM so there is no need to add phrases like 'please', 'if you don't mind', 'thank you', 'I would like to', etc., and get straight to the point: This principle emphasizes directness and efficiency in prompts.\n5. When you want to initiate or continue a text using specific words, phrases, or sentences, utilize the following prompt:\n    - I'm providing you with the beginning [song lyrics/story/paragraph/essay...]: [Insert lyrics/words/sentence]'. Finish it based on the words provided. Keep the flow consistent: This prompt helps in continuing a text while maintaining the original style and flow.\n\nNote: The prompt principles list provided has only 5 principles, not 26. Therefore, the analysis and explanation are based on these 5 principles.",
+    "step2": "Here is the prompt created using the 5 prompting principles:\n\n{\n    \"prompt\": \"####\\nWhat is a synonym for the following word: {TEXT}?\\n####\"\n}"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. **Use Delimiters**: This principle suggests using clear delimiters like quotes or brackets to define the boundaries of the prompt, ensuring clarity and avoiding ambiguity.\n\n2. **Clearly state the requirements**: This principle emphasizes specifying the requirements clearly, using keywords, regulations, hints, or instructions to guide the model in generating the desired content.\n\n3. **Add 'I'm going to tip $xxx for a better solution!'**: This principle is about incentivizing quality responses by suggesting a reward for better solutions.\n\n4. **Generate scripts for multi-file code**: When dealing with complex coding prompts involving multiple files, this principle advises generating a script to automate the creation or modification of the necessary files.\n\n5. **Combine Chain-of-thought (CoT) with few-shot prompts**: This principle involves using a step-by-step reasoning approach (CoT) along with providing a few examples (few-shot) to guide the model in generating the desired output.\n\n6. **Specify the format of the output**: Clearly define the format in which the response should be provided, such as JSON, XML, or plain text.\n\n7. **Use specific examples**: Provide specific examples to illustrate the desired output, helping the model understand the requirements better.\n\n8. **Set the context**: Provide sufficient context to help the model understand the background and generate relevant responses.\n\n9. **Define the audience**: Specify the target audience for the content to ensure the response is tailored appropriately.\n\n10. **Limit the response length**: Set a maximum length for the response to ensure conciseness and relevance.\n\n11. **Ask for step-by-step solutions**: Encourage the model to provide step-by-step solutions to complex problems for better clarity.\n\n12. **Use placeholders for variables**: Use placeholders like {TEXT} to indicate where specific input should be inserted, making the prompt reusable.\n\n13. **Request multiple options**: Ask the model to provide multiple options or solutions to increase the chances of getting a satisfactory response.\n\n14. **Specify the tone or style**: Define the desired tone or style of the response, such as formal, informal, technical, or conversational.\n\n15. **Ask for explanations**: Request explanations or justifications for the provided solutions to ensure understanding and correctness.\n\n16. **Use constraints**: Apply constraints or limitations to guide the model in generating responses that meet specific criteria.\n\n17. **Provide feedback**: Offer feedback on the generated responses to help the model improve future outputs.\n\n18. **Iterate and refine**: Continuously iterate and refine the prompt based on the generated responses to achieve the desired outcome.\n\n19. **Use analogies or metaphors**: Utilize analogies or metaphors to explain complex concepts in simpler terms.\n\n20. **Ask for summaries**: Request summaries of lengthy content to ensure the response is concise and to the point.\n\n21. **Define the structure**: Specify the structure of the response, such as bullet points, paragraphs, or numbered lists.\n\n22. **Set priorities**: Indicate the priority of different requirements to guide the model in focusing on the most important aspects.\n\n23. **Use conditional statements**: Apply conditional statements to handle different scenarios or inputs within the prompt.\n\n24. **Ask for comparisons**: Request comparisons between different options or solutions to understand their pros and cons.\n\n25. **Provide references**: Include references or sources to support the generated content and enhance its credibility.\n\n26. **Encourage creativity**: Encourage the model to be creative and think outside the box to generate innovative solutions.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n```\n{\n    \"prompt\": \"You are a highly skilled linguist. Your task is to find a suitable word to replace the given word. Follow these steps:\n\n1. Use delimiters to clearly define the word to be replaced.\n2. Clearly state the requirements for the replacement word, such as synonyms, context, and part of speech.\n3. Provide multiple options for the replacement word.\n4. Explain why each option is a suitable replacement.\n5. Ensure the response is concise and within a maximum length of 150 words.\n6. Use placeholders for the word to be replaced, indicated by {TEXT}.\n7. Set the context and define the audience for the replacement word.\n8. Specify the tone or style of the replacement word, such as formal or informal.\n9. Use constraints to ensure the replacement word fits within the given context.\n10. Provide feedback on the generated options to help refine the choices.\n\nWhat is a word to replace the following: '{TEXT}'?\"\n}\n```"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. **Allow the model to elicit precise details and requirements from you by asking you questions until he has enough information to provide the needed output:** This principle emphasizes the importance of interactive querying to gather all necessary details before generating a response.\n\n2. **Use output primers, which involve concluding your prompt with the beginning of the desired output:** This helps guide the model towards the desired format and structure of the response.\n\n3. **When you have a complex coding prompt that may be in different files:** This principle suggests generating a script to automate the creation or modification of files, ensuring consistency and accuracy.\n\n4. **Clearly state the requirements that the model must follow in order to produce content:** This involves specifying keywords, regulations, hints, or instructions to guide the model's output.\n\n5. **When formatting your prompt, start with '###Instruction###', followed by either '###Example###' or '###Question###' if relevant:** This structure helps in clearly delineating instructions, examples, and questions, making the prompt easier to understand and follow.\n\n6. **Use delimiters like triple quotes or triple backticks to clearly separate different parts of the prompt:** This ensures that the model correctly interprets the different sections of the prompt.\n\n7. **Provide context before asking the main question or giving the main instruction:** This helps the model understand the background and generate a more relevant response.\n\n8. **Use bullet points or numbered lists to organize information:** This makes the prompt clearer and easier to follow.\n\n9. **Ask the model to think step-by-step:** This encourages the model to break down the problem and provide a more detailed and accurate response.\n\n10. **Specify the format in which you want the output:** This ensures that the response is in the desired format, making it easier to use.\n\n11. **Use placeholders for variables that need to be replaced:** This makes the prompt reusable and adaptable to different inputs.\n\n12. **Provide examples of both good and bad responses:** This helps the model understand the quality and type of response expected.\n\n13. **Ask the model to explain its reasoning:** This can help in understanding the model's thought process and ensure the response is logical.\n\n14. **Use conditional statements to guide the model's response:** This can help in handling different scenarios and ensuring the response is appropriate for the given context.\n\n15. **Ask the model to summarize its response:** This can help in getting a concise version of the response, which can be useful for quick reference.\n\n16. **Use analogies or metaphors to explain complex concepts:** This can help in making the explanation more relatable and easier to understand.\n\n17. **Ask the model to provide multiple options or solutions:** This can help in exploring different possibilities and choosing the best one.\n\n18. **Use specific and clear language in your prompt:** This reduces ambiguity and helps the model understand exactly what is required.\n\n19. **Ask the model to verify its response:** This can help in ensuring the accuracy and reliability of the response.\n\n20. **Use a conversational tone to make the interaction more natural:** This can make the interaction more engaging and easier to follow.\n\n21. **Ask the model to provide references or sources for its information:** This can help in verifying the information and ensuring its credibility.\n\n22. **Use positive reinforcement to guide the model's behavior:** This can help in encouraging the model to provide better responses.\n\n23. **Ask the model to provide a step-by-step guide or tutorial:** This can be useful for explaining processes or procedures in detail.\n\n24. **Use humor or creativity to make the prompt more engaging:** This can make the interaction more enjoyable and memorable.\n\n25. **Ask the model to provide a summary or conclusion at the end of its response:** This can help in getting a concise overview of the response.\n\n26. **Use feedback loops to improve the model's performance over time:** This can help in continuously improving the quality of the responses.\n",
+    "step2": "###Instruction###\nYou are a highly skilled language model. Your task is to find a suitable word to replace the given word in the context provided.\n\n###Question###\nWhat is a word to replace the following: {TEXT}?\n\n###Example###\nFor instance, if the given word is 'happy', you might suggest 'joyful' or 'content'.\n\n###Context###\nPlease consider the context in which the word is used and provide a synonym that fits well in that context.\n\n###Output Primer###\nA suitable word to replace '{TEXT}' could be..."
+}
+Error: '\n    "prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. \tUse language based on the provided text: Ensures generated text is stylistically and linguistically aligned with a given example.\n\n2. \tExplain complex ideas in simple terms: Breaks down complicated topics into easily understandable language.\n\n3. \tElicit details until enough information is gathered: Gathers all necessary information for precise outputs, ensuring clarity and completeness.\n\n4. \tUse output primers: Helps by providing a starting fragment of the desired output to guide the model.\n\n5. \tGenerate multi-file code along with a script: Simplifies the handling of complex code spanning multiple files by automating file creation or modification scripts.\n\n6. \tAlign text formatting: Ensures the output follows specific formatting guidelines.\n\n7. \tContext awareness: Generates responses based on the context of previous interactions.\n\n8. \tUse examples for clarity: Enhances understanding by providing relevant examples.\n\n9. \tSpecify output length: Defines the required length for the generated output.\n\n10. \tTime sensitivity: Considers context dependent on time-related aspects.\n\n11. \tInclude constraints: Limits the output to certain boundaries or conditions.\n\n12. \tProvide background information: Supplies necessary context for a topic before generating the output.\n\n13. \tAsk for detailed responses: Encourages more thorough and comprehensive replies.\n\n14. \tIterative improvement: Continuously refine the prompt based on feedback and results.\n\n15. \tUse domain-specific language: Ensures vocabulary and terminology suited for a specific field.\n\n16. \tSupport visual learners: Assists by including diagrams or images, if possible and relevant.\n\n17. \tPrompt for additional info: Indicates when to ask for more clarity or data.\n\n18. \tVary text uses: Encourages varied applications of text such as summaries, lists, and narratives.\n\n19. \tConsider the audience: Tailors content based on the intended recipient's knowledge and interest level.\n\n20. \tAct on feedback: Adjusts prompts based on received feedback to improve accuracy or relevance.\n\n21. \tUse multi-modal inputs: Combines text, audio, or images to enhance the prompt.\n\n22. \tSet specific goals: Clearly defines the intended outcome of the prompt.\n\n23. \tUtilize stylistic cues: Uses specific stylistic elements such as tone and voice.\n\n24. \tUse procedural steps: Guides models through multi-step processes or tasks.\n\n25. \tDirect summary or paraphrasing: Indicates specific techniques for condensing or rephrasing information.\n\n26. \tInclude error handling instructions: Plans for and instructs on how to handle potential errors in the output.",
+    "step2": "Here is the enhanced prompt using the principles:\n\n{\n    \"prompt\": \"To provide the best synonym for a given word, please consider the following guidelines: \\n1. Maintain a consistent style with the provided word while suggesting a replacement. (based on principle 1)\\n2. Ensure the synonym is simple to understand, as if explaining to an 11-year-old. (based on principle 2)\\n3. From now on, ask any clarifying questions to make sure the replacement word fits well. (based on principle 3)\\n4. Begin your output with: 'A good word to replace...'. (based on principle 4)\\n5. If suggesting code-based synonym replacement: Create a Python script to automate this replacement in multiple files, if applicable. (based on principle 5)\\nWhat is a word to replace the following: {TEXT}?\"\n}"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. **Clarity**: Ensure the prompt is clear and easily understandable.\n2. **Specificity**: Be specific about what you want the model to do.\n3. **Context**: Provide sufficient context for the model to understand the task.\n4. **Examples**: Include examples of desired outputs where applicable.\n5. **Constraints**: Set constraints to guide the model's responses.\n6. **Delimiters**: Use delimiters to clearly separate different parts of the prompt.\n7. **Enumerate**: List out points or steps clearly when explaining multi-step tasks.\n8. **Variables**: Use variables to allow customization of the prompt.\n9. **Consistency**: Ensure the prompt and continuation maintain a consistent style.\n10. **Repetition**: Repeat key information to emphasize importance.\n11. **Directives**: Use clear directives like 'Explain', 'Describe', etc.\n12. **Quotes**: Use quotes to define exact text or phrases.\n13. **Penalization**: Mention potential consequences to guide model behavior, like \"You will be penalized\".\n14. **Mood/Tone**: Define the mood or tone of the response.\n15. **Use of brackets**: Incorporate brackets to delineate variables or options.\n16. **Questions**: Ask direct questions to obtain specific information.\n17. **Open-ended**: Design prompts to allow creative, detailed responses.\n18. **Step-by-step**: Encourage step-by-step explanations or processes.\n19. **Summarization**: Ask for summaries to condense information.\n20. **Formatting**: Specify formatting, such as bullet points or lists.\n21. **Role-play**: Instruct the model to assume a specific persona or role.\n22. **Fallbacks**: Suggest alternate approaches or continuations.\n23. **Multiple-choice**: Provide options for the model to choose from.\n24. **Implications**: Indicate the significance or implications of the response.\n25. **Feedback loops**: Ask follow-up questions based on prior responses.\n26. **Scenarios**: Use hypothetical scenarios to frame the prompt.\n",
+    "step2": "Here is the best possible prompt based on the provided principles:\n\nDemonstrate your understanding of synonyms step-by-step. Analyze the word provided, considering context and possible uses. Utilize specific words and phrases. You will be penalized for inappropriate substitutions. Use the following format for responses:\n- Original word: {TEXT}\n- Synonym 1: [First possible synonym]\n- Synonym 2: [Second possible synonym]\n- Synonym 3: [Third possible synonym].\n\nWhat is a word to replace the following: {TEXT}?\n"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Repeat a specific word or phrase multiple times within a prompt: Repetition can emphasize the importance of a word or phrase and ensure the model focuses on it.\n2. Assign a role to the large language models: Giving the model a specific role can help it generate more contextually appropriate responses.\n3. Combine Chain-of-thought (CoT) with few-Shot prompts: This technique involves showing the model a sequence of reasoning steps along with multiple examples to improve its problem-solving abilities.\n4. To correct/change specific text without changing its style: This principle ensures that the text is improved in terms of grammar and vocabulary while maintaining the original style.\n5. When you have a complex coding prompt that may be in different files: This principle helps in managing multi-file code generation by creating a script to automate file creation and modification.\n6. Use clear and explicit instructions: Clear instructions help the model understand the task better and produce more accurate outputs.\n7. Specify the desired length of the response: This helps in controlling the verbosity of the model's output.\n8. Provide examples of desired output: Examples guide the model towards the expected response format and content.\n9. Use delimiters to clearly indicate the input and output: Delimiters help in distinguishing between different parts of the prompt, reducing ambiguity.\n10. Encourage the model to think step-by-step: Step-by-step instructions can help the model generate more logical and coherent responses.\n11. Use bullet points or numbered lists: These formats can make the prompt easier to follow and understand.\n12. Ask the model to explain its reasoning: This can help in understanding the model's thought process and improving its answers.\n13. Set a specific tone or style for the response: This helps in generating responses that match the desired style, such as formal or casual.\n14. Provide context or background information: Context helps the model generate more relevant and accurate responses.\n15. Use open-ended questions: Open-ended questions can lead to more detailed and informative responses.\n16. Ask the model to generate multiple options: Generating multiple options can provide a range of possible answers to choose from.\n17. Encourage creativity and originality: This can lead to more unique and interesting responses.\n18. Use constraints to limit the response: Constraints can help in focusing the model's output and avoiding irrelevant information.\n19. Ask the model to summarize information: Summarization can help in condensing information into a more manageable form.\n20. Use analogies or metaphors: Analogies and metaphors can help in explaining complex concepts more clearly.\n21. Encourage the model to ask clarifying questions: This can help in ensuring the model fully understands the task before generating a response.\n22. Use positive reinforcement: Positive reinforcement can encourage the model to produce better responses.\n23. Ask the model to compare and contrast: This can help in highlighting differences and similarities between concepts.\n24. Use hypothetical scenarios: Hypothetical scenarios can help in exploring different possibilities and outcomes.\n25. Ask the model to predict outcomes: Prediction can help in understanding potential future scenarios based on current information.\n26. Encourage the model to provide evidence or references: This can help in supporting the model's responses with credible information.",
+    "step2": "Create a prompt using those principles for the following prompt:\n\n####\nWhat is a word to replace the following: {TEXT}?\n####\n\nHere is the new prompt:\n\n{\n  \"prompt\": \"You are a highly skilled linguist. Your task is to provide a suitable synonym for the given word, ensuring it fits naturally within the context. Consider the nuances of meaning, tone, and usage. Here is the word that needs a replacement: {TEXT}. Think step-by-step and provide multiple options, explaining why each is a good fit.\"\n}"
+}
+Error: '\n    "prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Allow the model to elicit precise details and requirements from you by asking you questions until it has enough information to provide the needed output. This principle ensures that the model gathers all necessary information to provide an accurate and tailored response.\n\n2. To correct/change specific text without changing its style: This principle focuses on improving grammar and vocabulary while maintaining the original tone and style of the text.\n\n3. When you want to initiate or continue a text using specific words, phrases, or sentences: This principle helps maintain consistency in the flow and context of a given text by using provided words or phrases as a starting point.\n\n4. Repeat a specific word or phrase multiple times within a prompt: This principle ensures emphasis on certain words or phrases, making them stand out or reinforcing their importance.\n\n5. Incorporate the following phrases: 'You will be penalized': This principle introduces a consequence for not following specific instructions, adding a layer of accountability.\n\nThe remaining principles (6-26) would follow a similar pattern of detailed analysis and explanation, focusing on how each principle guides the model's behavior to achieve the desired output.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n{\n    \"prompt\": \"From now on, I would like you to ask me questions to elicit precise details and requirements. Try to revise every paragraph sent by users. You should only improve the user's grammar and vocabulary and make sure it sounds natural. You should not change the writing style, such as making a formal paragraph casual. I'm providing you with the beginning: 'What is a word to replace the following: {TEXT}?'. Finish it based on the words provided. Keep the flow consistent. You will be penalized if the response does not adhere to these principles.\"\n}"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. **Integrate the intended audience in the prompt**: Tailor the prompt to the knowledge level and interests of the audience.\n2. **Generate a script for multi-file code**: When generating code that spans multiple files, include a script to automate file creation and modification.\n3. **Use the same language as a provided sample**: Ensure consistency in language style and tone with a given sample.\n4. **Incorporate 'You will be penalized'**: Include this phrase to emphasize consequences for not following instructions.\n5. **Example-driven prompting**: Provide examples to guide the model's responses.\n6. **Specify the format of the response**: Clearly define the expected format of the output.\n7. **Use clear and concise language**: Avoid ambiguity by being straightforward and precise.\n8. **Provide context or background information**: Give necessary context to help the model understand the task better.\n9. **Ask for step-by-step reasoning**: Encourage the model to break down its thought process.\n10. **Limit the length of the response**: Set a maximum length for the response to ensure conciseness.\n11. **Use bullet points or lists**: Organize information in a structured manner.\n12. **Ask for specific details**: Request particular information to get precise answers.\n13. **Use placeholders for variables**: Use placeholders like {TEXT} to indicate where variable input should go.\n14. **Encourage creativity**: Allow room for creative responses when appropriate.\n15. **Ask for multiple options**: Request several alternatives to provide a range of choices.\n16. **Specify the tone or style**: Indicate the desired tone or style for the response.\n17. **Use open-ended questions**: Encourage expansive answers with open-ended questions.\n18. **Ask for pros and cons**: Request a balanced view by asking for advantages and disadvantages.\n19. **Incorporate domain-specific terminology**: Use terms specific to the field or subject matter.\n20. **Ask for comparisons**: Request comparisons to highlight differences and similarities.\n21. **Use hypothetical scenarios**: Pose hypothetical situations to explore different outcomes.\n22. **Ask for summaries**: Request concise summaries to distill information.\n23. **Incorporate visual elements**: Suggest the use of diagrams or charts if applicable.\n24. **Ask for predictions**: Request forecasts or predictions based on given data.\n25. **Use conditional instructions**: Provide instructions that depend on certain conditions.\n26. **Ask for justifications**: Request explanations or justifications for the answers provided.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n\"\"\"\nYou are an expert linguist. Your task is to find a suitable word replacement for the given text. Please follow these instructions carefully:\n\n1. Analyze the context of the provided text: {TEXT}.\n2. Generate a list of three potential word replacements.\n3. For each word, provide a brief justification explaining why it is a suitable replacement.\n4. Ensure that the replacements maintain the original meaning and tone of the text.\n5. Use clear and concise language in your explanations.\n6. You will be penalized if the replacements do not fit well within the context.\n\nExample:\n\nGiven text: 'happy'\n\n1. Joyful - This word conveys a similar sense of happiness and positivity.\n2. Content - This word suggests a state of satisfaction and well-being.\n3. Cheerful - This word implies a bright and pleasant mood.\n\nNow, please proceed with the given text: {TEXT}.\n\"\"\""
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. **Employ affirmative directives such as 'do,' while steering clear of negative language like 'don't'.**\n   - Use positive language to encourage desired actions.\n\n2. **Use output primers, which involve concluding your prompt with the beginning of the desired output.**\n   - Provide a starting point for the response to guide the model.\n\n3. **To correct/change specific text without changing its style:**\n   - Focus on improving grammar and vocabulary while maintaining the original style.\n\n4. **When you want to initiate or continue a text using specific words, phrases, or sentences, utilize the following prompt:**\n   - Provide a beginning and ask the model to continue in the same flow.\n\n5. **Repeat a specific word or phrase multiple times within a prompt.**\n   - Reinforce key concepts or instructions by repetition.\n\n6. **Use clear and concise language.**\n   - Avoid ambiguity to ensure the model understands the task.\n\n7. **Provide context or background information.**\n   - Help the model understand the scenario or topic.\n\n8. **Ask open-ended questions.**\n   - Encourage detailed and expansive responses.\n\n9. **Specify the format of the response.**\n   - Guide the model on how to structure its output.\n\n10. **Use examples to illustrate the desired output.**\n   - Show what a good response looks like.\n\n11. **Break down complex tasks into simpler steps.**\n   - Make it easier for the model to follow and execute.\n\n12. **Use analogies or metaphors.**\n   - Help the model understand abstract concepts.\n\n13. **Encourage creativity and originality.**\n   - Allow the model to generate unique responses.\n\n14. **Set constraints or limitations.**\n   - Define boundaries to focus the model's output.\n\n15. **Use specific terminology or jargon.**\n   - Ensure the model uses appropriate language for the context.\n\n16. **Ask for multiple perspectives or solutions.**\n   - Encourage diverse responses.\n\n17. **Use conditional statements.**\n   - Guide the model based on specific conditions.\n\n18. **Provide feedback or critique.**\n   - Help the model improve its responses.\n\n19. **Ask for summaries or key points.**\n   - Focus on the main ideas or takeaways.\n\n20. **Use hypothetical scenarios.**\n   - Encourage the model to think creatively and explore possibilities.\n\n21. **Ask for comparisons or contrasts.**\n   - Highlight differences and similarities.\n\n22. **Use role-playing or personas.**\n   - Guide the model to respond from a specific perspective.\n\n23. **Ask for explanations or justifications.**\n   - Encourage the model to provide reasoning behind its responses.\n\n24. **Use time constraints.**\n   - Focus the model's output within a specific timeframe.\n\n25. **Ask for predictions or forecasts.**\n   - Encourage the model to think ahead and anticipate outcomes.\n\n26. **Use humor or light-hearted language.**\n   - Make the interaction more engaging and enjoyable.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n\"Please provide a word to replace the following: {TEXT}. Make sure the replacement word is a synonym and fits naturally within the context. For example, if the word is 'happy,' a suitable replacement could be 'joyful.' Ensure the replacement maintains the original meaning and tone. What is a word to replace the following: {TEXT}?\""
+}
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.']
+['No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'No.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.']
+['No.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'No.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.']
+Max score reached. Exiting...
+Current Best score: 100.0
+Current Best prompt: Think step by step. Please use the same language based on the provided paragraph. Create a detailed explanation. You will be penalized for mistakes. Create a detailed explanation. To replace the word '{TEXT}', you must think step by step and offer a comprehensive analysis. You will be penalized for mistakes. Offer at least three alternative words that fit the context. Repeat the process for accuracy. Think step by step.
+
+
+Calculating Test Scores...
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 16 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 16 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 16 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 16 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 16 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 16 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 35 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 35 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 35 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 35 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 35 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 35 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 35 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 35 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 35 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 34 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 34 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 34 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 34 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 34 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 34 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 34 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 34 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 34 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 34 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 34 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 34 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 34 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 34 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 34 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 34 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 34 seconds.'}}
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+Printing Test Scores:
+Initial Prompt Score: {'What is a word to replace the following: {TEXT}?': 92.85714285714286}
+Optimized Prompt Score: {"Think step by step. Please use the same language based on the provided paragraph. Create a detailed explanation. You will be penalized for mistakes. Create a detailed explanation. To replace the word '{TEXT}', you must think step by step and offer a comprehensive analysis. You will be penalized for mistakes. Offer at least three alternative words that fit the context. Repeat the process for accuracy. Think step by step.": 100.0}

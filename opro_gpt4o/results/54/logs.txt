@@ -1,0 +1,965 @@
+Attempt 1 made.
+<BEGIN_PROMPT>Please come up with a title for a YouTube video on the {TEXT}.<END_PROMPT>
+<BEGIN_TEXT>philosophical implications of artificial intelligence</BEGIN_TEXT>
+<BEGIN_RESPONSE>"Exploring the Conscious Machine: Philosophical Implications of Artificial Intelligence"</BEGIN_RESPONSE>
+
+
+Invalid response format.
+<BEGIN_TEXT>impact of social media on mental health across generations<END_TEXT>
+<BEGIN_RESPONSE>"Breaking Down Barriers: The Impact of Social Media on Mental Health Across Generations"<END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of eating watermelon while riding a unicycle <END_TEXT>
+<BEGIN_RESPONSE> "The Watermelon Unicycle Diaries: Health Secrets on One Wheel!" <END_RESPONSE>
+<BEGIN_TEXT> environmental impacts of blockchain technology <END_TEXT>
+<BEGIN_RESPONSE> "Is Blockchain Really Green? Uncovering the Environmental Impacts" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of learning a second language</BEGIN_TEXT>
+<BEGIN_RESPONSE> Top 10 Benefits of Learning a Second Language: Unlock Your Potential!</BEGIN_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT>growing popularity of electric cars<END_TEXT>
+<BEGIN_RESPONSE>Are Electric Cars Really the Future? Dismantling the Hype. 🚗🔋<END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> history of the Roman Empire <END_TEXT>
+<BEGIN_RESPONSE> Unveiling Ancient Rome: The Rise and Fall of the Roman Empire </END_RESPONSE>
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of meditation <END_TEXT>
+<BEGIN_RESPONSE> Transform Your Life: 10 Amazing Benefits of Meditation </END_RESPONSE>
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> basics of cryptocurrency trading <END_TEXT>
+<BEGIN_RESPONSE> Cryptocurrency Trading 101: A Beginner's Guide to Profits </END_RESPONSE>
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> DIY home renovation tips <END_TEXT>
+<BEGIN_RESPONSE> Transform Your Space: DIY Home Renovation Tips and Tricks </END_RESPONSE>
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> the science behind black holes <END_TEXT>
+<BEGIN_RESPONSE> The Mysteries of the Universe: Understanding Black Holes </END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> enchanting world of bioluminescent forests at twilight <END_TEXT>
+<BEGIN_RESPONSE> "Twilight Glow: Exploring the Enchanting World of Bioluminescent Forests" 🌟🌲✨ <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT>importance of mental health awareness</END_TEXT>
+<BEGIN_RESPONSE> "Why Mental Health Awareness Matters: A Deep Dive into its Importance" </END_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT>benefits of morning exercise routines<END_TEXT>
+<BEGIN_RESPONSE> "Transform Your Mornings: The Incredible Benefits of Morning Exercise Routines" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> Surreal Worlds Created with Digital Art <END_TEXT>
+<BEGIN_RESPONSE> Exploring Dreamscapes: Surreal Worlds Created with Digital Art | A Visual Journey 🌌🖌️ <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> Psychology of Cat Videos and Ancient Love Poems <END_TEXT>
+<BEGIN_RESPONSE> "Unraveling the Mind: How Cat Videos and Ancient Love Poems Captivate Us!" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> physics of black holes and their event horizons <END_TEXT>
+<BEGIN_RESPONSE> Decoding the Mysteries: The Physics of Black Holes and Their Event Horizons Explained! <END_RESPONSE>
+<BEGIN_TEXT> challenges and assumptions around spacecraft design and sustainability <END_TEXT>
+<BEGIN_RESPONSE> Beyond the Blueprint: Reimagining Spacecraft Design and Sustainability Challenges! 🚀♻️ <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> impact of climate change on Arctic wildlife <END_TEXT>
+<BEGIN_RESPONSE> "Arctic Wildlife at Risk: The True Impact of Climate Change" <END_RESPONSE>
+<BEGIN_TEXT>impact of climate change on global agriculture<END_TEXT>
+<BEGIN_RESPONSE> How Climate Change is Reshaping Global Agriculture and Food Security 🌍🌾<END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> psychological effects of social media on teenagers <END_TEXT>
+<BEGIN_RESPONSE> "The Hidden Impact: How Social Media Shapes Teen Minds" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of drinking herbal tea. <END_TEXT>
+<BEGIN_RESPONSE> The Top 10 Benefits of Drinking Herbal Tea You Need to Know! 🌿☕ <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT>benefits of a minimalist lifestyle<END_TEXT>
+<BEGIN_RESPONSE>10 Surprising Benefits of a Minimalist Lifestyle You Need to Know!</END_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT>art of making homemade pasta</BEGIN_TEXT>
+<BEGIN_RESPONSE>Mastering the Art of Homemade Pasta: Tips, Techniques, and Recipes!</BEGIN_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT> impact of mental health awareness on college students. <END_TEXT>
+<BEGIN_RESPONSE> "How Mental Health Awareness is Changing Lives for College Students" <END_RESPONSE>
+<BEGIN_TEXT> benefits of mindfulness meditation for stress relief <END_TEXT>
+<BEGIN_RESPONSE> "Unlocking Peace: The Incredible Benefits of Mindfulness Meditation for Stress Relief" <END_RESPONSE>
+<BEGIN_TEXT>impact of the Industrial Revolution on modern society<END_TEXT>
+<BEGIN_RESPONSE>How the Industrial Revolution Shaped Our Modern World: Innovations, Challenges, and Legacy<END_RESPONSE>
+<BEGIN_TEXT>impact of artificial intelligence on future job markets<END_TEXT>
+<BEGIN_RESPONSE>The Future of Jobs: How Artificial Intelligence Will Change the Job Market<END_RESPONSE>
+<BEGIN_TEXT>future of artificial intelligence in healthcare<END_TEXT>
+<BEGIN_RESPONSE>The Future of Artificial Intelligence in Healthcare: Transforming Medicine and Patient Care<END_RESPONSE>
+<BEGIN_TEXT>struggles of living with chronic illness<END_TEXT>
+<BEGIN_RESPONSE>"Daily Battles: Navigating Life with Chronic Illness - My Personal Journey"<END_RESPONSE>
+<BEGIN_TEXT> psychological benefits of gardening. <END_TEXT>
+<BEGIN_RESPONSE> "How Gardening Can Boost Your Mental Health: The Science Behind the Soil" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> philosophical concept of existentialism and its implications on modern life. <END_TEXT>
+<BEGIN_RESPONSE> "Existentialism Explained: Finding Meaning in a Chaotic World" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of regular exercise for mental health </END_TEXT>
+<BEGIN_RESPONSE> 
+"Boost Your Mood: The Amazing Mental Health Benefits of Regular Exercise"
+<END_RESPONSE>
+
+
+Invalid response format.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of a plant-based diet <END_TEXT>
+<BEGIN_RESPONSE> Top 10 Benefits of Switching to a Plant-Based Diet: Amazing Health Secrets! <END_RESPONSE>
+<BEGIN_TEXT>importance of renewable energy in combating climate change<END_TEXT>
+<BEGIN_RESPONSE>Top 10 Ways Renewable Energy is Fighting Climate Change!<END_RESPONSE>
+<BEGIN_TEXT>best practices for remote work</BEGIN_TEXT>
+<BEGIN_RESPONSE>10 Essential Tips: Best Practices for Remote Work Success</BEGIN_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> untold secrets of enchanted forests <END_TEXT>
+<BEGIN_RESPONSE> The Enchanted Whisper: Discovering the Untold Secrets of Magical Forests 🌲✨</END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of regular exercise for mental health <END_TEXT>
+<BEGIN_RESPONSE> "10 Surprising Benefits of Regular Exercise for Mental Health" <END_RESPONSE>
+<BEGIN_TEXT>benefits of a vegan diet<END_TEXT>
+<BEGIN_RESPONSE> "Why the 'Benefits of a Vegan Diet' Might Be Overhyped: A Critical Examination" <END_RESPONSE>
+<BEGIN_TEXT>impacts of climate change on global food security<END_TEXT>
+<BEGIN_RESPONSE> "How Climate Change Threatens Our Food Supply: Urgent Wake-Up Call!"<END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of intermittent fasting for mental clarity and focus <END_TEXT>
+<BEGIN_RESPONSE> "Unlock Your Brain's Full Potential: The Science-Backed Benefits of Intermittent Fasting for Mental Clarity and Focus" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of daily meditation <END_TEXT>
+<BEGIN_RESPONSE> "Unlocking the Secrets: The Incredible Benefits of Daily Meditation" <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> top travel destinations for 2023 <END_TEXT>
+<BEGIN_RESPONSE> "Top Travel Destinations You MUST Visit in 2023!" <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> beginner's guide to investing in stocks <END_TEXT>
+<BEGIN_RESPONSE> "Beginner's Guide to Investing in Stocks: How to Get Started in 2023" <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> easy vegan recipes for dinner <END_TEXT>
+<BEGIN_RESPONSE> "5 Easy Vegan Dinner Recipes You Need to Try!" <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> understanding cryptocurrency and blockchain <END_TEXT>
+<BEGIN_RESPONSE> "Cryptocurrency & Blockchain Explained: A Beginner's Guide" <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> DIY home decor on a budget <END_TEXT>
+<BEGIN_RESPONSE> "DIY Home Decor on a Budget: Transform Your Space for Less!" <END_RESPONSE>
+<BEGIN_TEXT>impact of social media on mental health<END_TEXT>
+<BEGIN_RESPONSE> "The Dark Side of Social Media: How It Affects Your Mental Health" <END_RESPONSE>
+<BEGIN_TEXT> impact of climate change on coastal communities <END_TEXT>
+<BEGIN_RESPONSE> "Living on the Edge: How Climate Change is Transforming Coastal Communities" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> mesmerizing world of bioluminescent creatures <END_TEXT>
+<BEGIN_RESPONSE> "Glow in the Dark: Exploring the Mesmerizing World of Bioluminescent Creatures 🌟" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> philosophy of existentialism and its impact on modern thought <END_TEXT>
+<BEGIN_RESPONSE> "Understanding Existentialism: How It Shapes Modern Philosophy and Thought" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+
+<BEGIN_TEXT> benefits of meditation for mental health <END_TEXT>
+
+<BEGIN_RESPONSE> "Unlocking Serenity: The Top 10 Benefits of Meditation for Mental Health" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> transformative power of dreams and the subconscious mind. <END_TEXT>
+<BEGIN_RESPONSE> "Unlocking the Hidden Realms: The Transformative Power of Dreams and the Subconscious Mind 🌙✨" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of a plant-based diet for athletes <END_TEXT>
+<BEGIN_RESPONSE> "Unlocking Peak Performance: The Benefits of a Plant-Based Diet for Athletes" <END_RESPONSE>
+<BEGIN_TEXT> importance of cybersecurity in small businesses <END_TEXT>
+<BEGIN_RESPONSE> "Why Cybersecurity is Crucial for Small Businesses: Protect Your Company Now!" <END_RESPONSE>
+<BEGIN_TEXT>latest advancements in renewable energy technology<END_TEXT>
+<BEGIN_RESPONSE> "Top 5 Latest Advancements in Renewable Energy Technology You Need to Know!"<END_RESPONSE>
+<BEGIN_TEXT>mysterious underwater ruins discovered off the coast of Japan<END_TEXT>
+<BEGIN_RESPONSE>Unveiling Atlantis: Mysterious Underwater Ruins Discovered Off the Coast of Japan!<END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of a plant-based diet <END_TEXT>
+<BEGIN_RESPONSE> "10 Amazing Benefits of a Plant-Based Diet You Need to Know!" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of meditation for mental health <END_TEXT>
+<BEGIN_RESPONSE> The Top 10 Benefits of Meditation for Mental Health: Transform Your Mind Today! <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> challenges of living with chronic illness <END_TEXT>
+<BEGIN_RESPONSE> "Living with Chronic Illness: My Daily Struggles and Triumphs" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of a plant-based diet for athletes <END_TEXT>
+<BEGIN_RESPONSE> "How a Plant-Based Diet Can Enhance Athletic Performance: Top Benefits for Athletes" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of regular exercise for mental health <END_TEXT>
+<BEGIN_RESPONSE> "Unlocking Happiness: How Regular Exercise Transforms Your Mental Health" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> importance of mental health during the pandemic <END_TEXT>
+<BEGIN_RESPONSE> "How to Prioritize Mental Health During the Pandemic: Tips and Strategies" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> importance of mental health awareness in schools <END_TEXT>
+<BEGIN_RESPONSE> "Why Mental Health Awareness in Schools is Crucial: Expert Insights" <END_RESPONSE>
+<BEGIN_TEXT> challenges of living with chronic illness <END_TEXT>
+<BEGIN_RESPONSE> "Living with Chronic Illness: My Daily Struggles and Triumphs" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> principles of quantum computing and their applications. <END_TEXT>
+<BEGIN_RESPONSE> "Unlocking the Future: The Principles of Quantum Computing and Their Revolutionary Applications" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of meditation for stress relief <END_TEXT>
+<BEGIN_RESPONSE> "Unlocking Peace: The Incredible Benefits of Meditation for Stress Relief" <END_RESPONSE>
+<BEGIN_TEXT> connection between quantum physics and artificial intelligence <END_TEXT>
+<BEGIN_RESPONSE> "Unlocking the Future: The Fascinating Connection Between Quantum Physics and Artificial Intelligence" <END_RESPONSE>
+<BEGIN_TEXT>importance of mental health awareness in schools<END_TEXT>
+<BEGIN_RESPONSE> "Why Mental Health Awareness in Schools is Crucial: Expert Insights and Strategies" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> philosophical implications of artificial intelligence and human consciousness <END_TEXT>
+<BEGIN_RESPONSE> "Beyond the Algorithm: Exploring the Philosophical Implications of Artificial Intelligence and Human Consciousness" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of meditation for mental health <END_TEXT>
+<BEGIN_RESPONSE> "Unlocking Inner Peace: The Surprising Benefits of Meditation for Mental Health" <END_RESPONSE>
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> best travel destinations for 2024 <END_TEXT>
+<BEGIN_RESPONSE> "Top 10 Must-Visit Travel Destinations for 2024: Your Ultimate Guide!" <END_RESPONSE>
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> how to start a successful online business <END_TEXT>
+<BEGIN_RESPONSE> "From Zero to Hero: How to Start a Successful Online Business in 2024" <END_RESPONSE>
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> beginner's guide to yoga <END_TEXT>
+<BEGIN_RESPONSE> "Yoga for Beginners: Your Ultimate Guide to Starting Yoga at Home" <END_RESPONSE>
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> the history of the internet <END_TEXT>
+<BEGIN_RESPONSE> "The Fascinating History of the Internet: From ARPANET to Today" <END_RESPONSE>
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> cooking a perfect steak <END_TEXT>
+<BEGIN_RESPONSE> "Mastering the Art of Steak: How to Cook the Perfect Steak Every Time" <END_RESPONSE>
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> understanding quantum physics <END_TEXT>
+<BEGIN_RESPONSE> "Quantum Physics Explained: A Beginner's Guide to Understanding Quantum Mechanics" <END_RESPONSE>
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> the impact of climate change on wildlife <END_TEXT>
+<BEGIN_RESPONSE> "Climate Change and Wildlife: How Our Planet's Animals Are Affected" <END_RESPONSE>
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> DIY home improvement projects <END_TEXT>
+<BEGIN_RESPONSE> "10 Easy DIY Home Improvement Projects You Can Start Today!" <END_RESPONSE>
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> tips for mastering public speaking <END_TEXT>
+<BEGIN_RESPONSE> "Master Public Speaking: Top Tips for Becoming a Confident Speaker" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT>importance of sustainable energy solutions for future generations<END_TEXT>
+<BEGIN_RESPONSE> "Powering Tomorrow: The Critical Role of Sustainable Energy for Future Generations" <END_RESPONSE>
+<BEGIN_TEXT>impact of climate change on global food security and innovative agricultural solutions<END_TEXT>
+<BEGIN_RESPONSE> "How Climate Change Threatens Global Food Security & Innovative Solutions to Save Our Crops" <END_RESPONSE>
+<BEGIN_TEXT> unexpected benefits of procrastination <END_TEXT>
+<BEGIN_RESPONSE> "Procrastination Power: How Last-Minute Panic Unlocks Your Inner Genius!" <END_RESPONSE>
+<BEGIN_TEXT> intersection of artificial intelligence and climate change solutions <END_TEXT>
+<BEGIN_RESPONSE> "How AI is Revolutionizing Climate Change Solutions: The Future of Sustainable Tech" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of a plant-based diet <END_TEXT>
+<BEGIN_RESPONSE> "10 Amazing Benefits of a Plant-Based Diet You Need to Know!" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> history of rubber ducks <END_TEXT>
+<BEGIN_RESPONSE> "Quack to the Future: The Untold History of Rubber Ducks 🦆" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> impact of the Industrial Revolution on modern technology <END_TEXT>
+<BEGIN_RESPONSE> How the Industrial Revolution Shaped Today's Technology: A Historical Journey </END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> Enchanted Forests and Mystical Creatures </END_TEXT>
+<BEGIN_RESPONSE> Journey Through Enchanted Forests: Discovering Mystical Creatures in a Magical Realm 🌲🦄✨ </END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of meditation for mental health <END_TEXT>
+<BEGIN_RESPONSE> "Unlocking Serenity: The Surprising Benefits of Meditation for Mental Health" <END_RESPONSE>
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> top 10 travel destinations for 2024 <END_TEXT>
+<BEGIN_RESPONSE> "Explore the World: Top 10 Travel Destinations for 2024 You Can't Miss!" <END_RESPONSE>
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> beginner's guide to cryptocurrency investing <END_TEXT>
+<BEGIN_RESPONSE> "Crypto 101: A Beginner's Guide to Cryptocurrency Investing" <END_RESPONSE>
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> how to start a successful online business <END_TEXT>
+<BEGIN_RESPONSE> "From Idea to Income: How to Start a Successful Online Business" <END_RESPONSE>
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> the impact of climate change on wildlife <END_TEXT>
+<BEGIN_RESPONSE> "Nature in Peril: The Impact of Climate Change on Wildlife" <END_RESPONSE>
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> tips for mastering public speaking <END_TEXT>
+<BEGIN_RESPONSE> "Speak Like a Pro: Essential Tips for Mastering Public Speaking" <END_RESPONSE>
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> the history of the Roman Empire <END_TEXT>
+<BEGIN_RESPONSE> "Rise and Fall: The Fascinating History of the Roman Empire" <END_RESPONSE>
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> DIY home improvement projects <END_TEXT>
+<BEGIN_RESPONSE> "Transform Your Space: Top DIY Home Improvement Projects" <END_RESPONSE>
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> the science behind sleep and its importance <END_TEXT>
+<BEGIN_RESPONSE> "Why We Sleep: The Science Behind Sleep and Its Importance" <END_RESPONSE>
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> cooking healthy meals on a budget <END_TEXT>
+<BEGIN_RESPONSE> "Eat Well, Spend Less: Cooking Healthy Meals on a Budget" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of daily meditation <END_TEXT>
+<BEGIN_RESPONSE> "Unlocking Inner Peace: The Incredible Benefits of Daily Meditation" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT>best practices for remote work</BEGIN_TEXT>
+<BEGIN_RESPONSE>Top 10 Best Practices for Remote Work Success</BEGIN_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT>importance of mental health awareness in schools<END_TEXT>
+<BEGIN_RESPONSE> "Why Mental Health Awareness in Schools is Crucial: Educators and Students Speak Out" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> connections between quantum computing and artificial intelligence <END_TEXT>
+<BEGIN_RESPONSE> "Unlocking the Future: How Quantum Computing is Revolutionizing Artificial Intelligence" <END_RESPONSE>
+<BEGIN_TEXT>interplay between quantum computing and artificial intelligence in solving complex problems<END_TEXT>
+<BEGIN_RESPONSE>Quantum Computing Meets AI: Revolutionizing Problem-Solving in the 21st Century<END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> importance of mental health awareness in schools <END_TEXT>
+<BEGIN_RESPONSE> "Why Mental Health Awareness in Schools is Crucial: A Deep Dive" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> impact of quantum computing on cryptography <END_TEXT>
+<BEGIN_RESPONSE> "Quantum Computing vs. Cryptography: The Future of Data Security" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> fall of the Berlin Wall and its impact on global politics <END_TEXT>
+<BEGIN_RESPONSE> "The Fall of the Berlin Wall: How It Shaped Modern Global Politics" <END_RESPONSE>
+<BEGIN_TEXT> benefits of a plant-based diet <END_TEXT>
+<BEGIN_RESPONSE> "Top 10 Benefits of a Plant-Based Diet: Why You Should Make the Switch!" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of daily meditation <END_TEXT>
+<BEGIN_RESPONSE> "Unlocking Inner Peace: The Top 10 Benefits of Daily Meditation" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> existentialism and the human condition <END_TEXT>
+<BEGIN_RESPONSE> "Exploring Existentialism: The Human Condition and the Search for Meaning" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> celebration of New Year's Eve around the world <END_TEXT>
+<BEGIN_RESPONSE> "Global New Year's Eve: Unique Celebrations from Every Corner of the World" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> impact of social media on mental health <END_TEXT>
+<BEGIN_RESPONSE> "The Hidden Costs: How Social Media Affects Your Mental Health" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT>benefits of remote work<END_TEXT>
+<BEGIN_RESPONSE>"The Hidden Downsides of Remote Work: What No One Tells You!"<END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> Enchanted Forests and Mystical Creatures <END_TEXT>
+<BEGIN_RESPONSE> Journey Through Enchanted Forests: Discovering Mystical Creatures and Hidden Wonders! 🌲🧚✨ <END_RESPONSE>
+<BEGIN_TEXT> importance of questioning assumptions in data generation <END_TEXT>
+<BEGIN_RESPONSE> "Why Questioning Assumptions is Crucial in Data Generation: A Deep Dive" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> fall of the Berlin Wall and its impact on global politics <END_TEXT>
+<BEGIN_RESPONSE> The response to be generated from the text-interpolated prompt. <END_RESPONSE>
+<BEGIN_RESPONSE> "The Fall of the Berlin Wall: How It Changed Global Politics Forever" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> benefits of meditation for mental health <END_TEXT>
+<BEGIN_RESPONSE> "Unlocking Inner Peace: The Surprising Benefits of Meditation for Mental Health" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of meditation for mental health <END_TEXT>
+<BEGIN_RESPONSE> "Unlocking Inner Peace: The Top 10 Benefits of Meditation for Mental Health" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> importance of mental health in the workplace <END_TEXT>
+<BEGIN_RESPONSE> "Boosting Productivity: The Importance of Mental Health in the Workplace" <END_RESPONSE>
+<BEGIN_TEXT>benefits of a vegan diet<END_TEXT>
+<BEGIN_RESPONSE>"The Hidden Downsides of a Vegan Diet: What You Need to Know!"<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT>benefits of remote work<END_TEXT>
+<BEGIN_RESPONSE> "The Hidden Downsides of Remote Work: What No One Tells You" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> application of chaos theory in modern economics <END_TEXT>
+<BEGIN_RESPONSE> "Unraveling the Chaos: How Chaos Theory is Revolutionizing Modern Economics" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> impact of classical music on plant growth and the philosophy of existentialism. <END_TEXT>
+<BEGIN_RESPONSE> "Harmonizing Existence: How Classical Music and Existentialism Influence Plant Growth" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of daily meditation <END_TEXT>
+<BEGIN_RESPONSE> "Unlocking Inner Peace: The Top 10 Benefits of Daily Meditation" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of daily meditation <END_TEXT>
+<BEGIN_RESPONSE> "Unlocking Inner Peace: The Top 10 Benefits of Daily Meditation" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of daily meditation <END_TEXT>
+<BEGIN_RESPONSE> "Unlocking Inner Peace: The Top 10 Benefits of Daily Meditation" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT>latest advancements in quantum computing</BEGIN_TEXT>
+<BEGIN_RESPONSE> "Unlocking the Future: Latest Advancements in Quantum Computing Explained" <END_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT> importance of sleep for mental health <END_TEXT>
+<BEGIN_RESPONSE> "Why 'Importance of Sleep for Mental Health' Might Be Overstated: A Critical Look" <END_RESPONSE>
+Attempt 2 made.
+<BEGIN_TEXT>emotional journey of receiving a life-altering diagnosis</BEGIN_TEXT>
+<END_TEXT>
+<BEGIN_RESPONSE>"Facing the Unthinkable: My Emotional Journey of Receiving a Life-Altering Diagnosis"</BEGIN_RESPONSE>
+<END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> importance of sleep for mental health <END_TEXT>
+<BEGIN_RESPONSE> The Critical Importance of Sleep: Boost Your Mental Health! 💤🧠 </END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> thriving secret ecosystem beneath the Sahara Desert <END_TEXT>
+<BEGIN_RESPONSE> Unearthing the Sahara: Discover the Thriving Secret Ecosystem Below the Sands! <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> secret life of a cactus. <END_TEXT>
+<BEGIN_RESPONSE> "Cacti Confessions: The Spiky Truth Exposed! 🌵📖" <END_RESPONSE>
+<BEGIN_TEXT>science of sustainable energy and its relevance to climate change mitigation<END_TEXT>
+<BEGIN_RESPONSE>Unveiling the Science of Sustainable Energy: Key to Climate Change Mitigation<END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> impact of climate change on coastal cities <END_TEXT>
+<BEGIN_RESPONSE> How Climate Change is Transforming Coastal Cities [/Impact Analysis/] </END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of meditation for stress relief <END_TEXT>
+<BEGIN_RESPONSE> Unlocking Inner Peace: The Benefits of Meditation for Stress Relief</BEGIN_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> Environmental Benefits of Electric Cars <END_TEXT>
+<BEGIN_RESPONSE> "Environmental Benefits of Electric Cars: Is the Hype Justified?" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> mystical journey through the abandoned castles of Europe <END_TEXT>
+<BEGIN_RESPONSE> "Journey Beyond the Stone: Exploring the Enchanted Ruins of Europe's Forgotten Castles" <END_RESPONSE>
+<BEGIN_TEXT>impact of sudden job loss on mental health<END_TEXT>
+<BEGIN_RESPONSE>"My Struggle: Coping with the Impact of Sudden Job Loss on Mental Health" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> application of chaos theory in economics <END_TEXT>
+<BEGIN_RESPONSE> "Unpredictable Markets: Applying Chaos Theory to Economic Models" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> implications of artificial intelligence in medical diagnostics <END_TEXT>
+<BEGIN_RESPONSE> "Revolutionizing Healthcare: The Impact of Artificial Intelligence in Medical Diagnostics" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> latest advancements in artificial intelligence <END_TEXT>
+<BEGIN_RESPONSE> "Revolutionizing the Future: The Latest Advancements in Artificial Intelligence!" <END_RESPONSE>
+<BEGIN_TEXT>latest advancements in artificial intelligence for healthcare</BEGIN_TEXT>  
+<BEGIN_RESPONSE> Revolutionizing Healthcare: The Latest Advancements in Artificial Intelligence</BEGIN_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT>Impact of Climate Change on Global Agriculture<END_TEXT>
+<BEGIN_RESPONSE>"From Droughts to Floods: The Stark Realities of Climate Change on Global Farming"<END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT>impact of social media on mental health<END_TEXT>
+<BEGIN_RESPONSE> Examining the Impact of Social Media on Mental Health: Benefits and Risks Explained<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT>best travel destinations for 2024</END_TEXT>
+<BEGIN_RESPONSE>Top 10 Best Travel Destinations You Must Visit in 2024!</END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> significance of traditional clothing in different cultures </END_TEXT>
+<BEGIN_RESPONSE> Unveiling Traditions: The Significance of Traditional Clothing Across Cultures 🌏👗👘 </END_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT>benefits of a plant-based diet<END_TEXT>
+<BEGIN_RESPONSE> "Top 10 Benefits of Switching to a Plant-Based Diet" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> importance of traditional festivals globally <END_TEXT>
+<BEGIN_RESPONSE> "Celebrating Culture: The Global Importance of Traditional Festivals" <END_RESPONSE>
+
+<BEGIN_TEXT> different approaches to education around the world <END_TEXT>
+<BEGIN_RESPONSE> "Learning Across Borders: Exploring Diverse Educational Systems" <END_RESPONSE>
+
+<BEGIN_TEXT> impact of globalization on local cultures <END_TEXT>
+<BEGIN_RESPONSE> "Globalization vs Tradition: How Local Cultures Adapt and Thrive" <END_RESPONSE>
+
+<BEGIN_TEXT> food traditions in different countries <END_TEXT>
+<BEGIN_RESPONSE> "A Culinary Journey: Discovering Food Traditions Around the World" <END_RESPONSE>
+
+<BEGIN_TEXT> traditional music and dance from various cultures <END_TEXT>
+<BEGIN_RESPONSE> "Rhythms of the World: Exploring Traditional Music and Dance" <END_RESPONSE>
+
+<BEGIN_TEXT> ways to celebrate New Year in different cultures <END_TEXT>
+<BEGIN_RESPONSE> "New Year, New Traditions: How Cultures Celebrate Around the Globe" <END_RESPONSE>
+
+<BEGIN_TEXT> family dynamics in different cultures <END_TEXT>
+<BEGIN_RESPONSE> "Family Ties: Understanding Diverse Family Dynamics Worldwide" <END_RESPONSE>
+
+<BEGIN_TEXT> traditional clothing and its significance in various cultures <END_TEXT>
+<BEGIN_RESPONSE> "Threads of Identity: The Cultural Significance of Traditional Clothing" <END_RESPONSE>
+
+<BEGIN_TEXT> role of religion in daily life across different societies <END_TEXT>
+<BEGIN_RESPONSE> "Spiritual Lives: The Role of Religion in Cultures Around the World" <END_RESPONSE>
+<BEGIN_TEXT>best way to learn Python for beginners<END_TEXT>
+<BEGIN_RESPONSE>Ultimate Guide: The Best Way to Learn Python for Beginners in 2023<END_RESPONSE>
+<BEGIN_TEXT>importance of sleep for mental health<END_TEXT>
+<BEGIN_RESPONSE>Why Focusing Solely on Sleep Might Be Missing the Bigger Picture in Mental Health<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT>emotional journey of overcoming anxiety<END_TEXT>
+<END_TEXT> 
+<BEGIN_RESPONSE> "My Emotional Journey: How I Overcame Anxiety and Found Inner Peace" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> ultimate guide to baking sourdough bread <END_TEXT>
+<BEGIN_RESPONSE> Master the Art: The Ultimate Guide to Baking Sourdough Bread | Step-by-Step Tutorial </END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of practicing mindfulness daily <END_TEXT>
+<BEGIN_RESPONSE> "Unlocking Inner Peace: The Amazing Benefits of Practicing Mindfulness Daily" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> impact of artificial intelligence on the healthcare industry <END_TEXT>
+<BEGIN_RESPONSE> "Revolutionizing Healthcare: The Impact of Artificial Intelligence on Modern Medicine" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> whimsical world of enchanted forests and mythical creatures. <END_TEXT>
+<BEGIN_RESPONSE> Journey Through the Whimsical World: Enchanted Forests & Mythical Creatures Unveiled 🌲🦄✨ <END_RESPONSE>
+<BEGIN_TEXT> traditional Japanese tea ceremony <END_TEXT>
+<BEGIN_RESPONSE> "Exploring the Art of the Traditional Japanese Tea Ceremony: A Cultural Journey" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> psychological effects of social media usage among teenagers and its impact on academic performance </END_TEXT>
+<BEGIN_RESPONSE> "Navigating the Digital Maze: How Social Media Affects Teen Minds and Academic Success" <END_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT>impact of artificial intelligence on employment trends<END_TEXT>
+<BEGIN_RESPONSE> "AI Revolution: How Artificial Intelligence is Reshaping Jobs and Employment Opportunities!"<END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT>latest advancements in quantum computing</END_TEXT>
+<BEGIN_RESPONSE> The Quantum Leap: Exploring the Latest Advancements in Quantum Computing</END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> importance of mental health in the workplace <END_TEXT>
+<BEGIN_RESPONSE> The Impact of Mental Health on Workplace Productivity: Why It Matters! 🌟💼</END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of daily meditation <END_TEXT>
+<BEGIN_RESPONSE> "Unlocking Inner Peace: The Amazing Benefits of Daily Meditation" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT>benefits of meditation for stress relief<END_TEXT>
+<BEGIN_RESPONSE>Top 10 Benefits of Meditation for Stress Relief: Transform Your Mind and Body<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT>emerging trends in artificial intelligence</END_TEXT>
+<BEGIN_RESPONSE> Top 10 Emerging Trends in Artificial Intelligence You Need to Know in 2023! </END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> Traditional Festivals Around the World <END_TEXT>
+<BEGIN_RESPONSE> Exploring Traditional Festivals: A Global Celebration of Culture and Heritage! <END_RESPONSE>
+<BEGIN_TEXT> importance of ethical considerations in artificial intelligence development <END_TEXT>
+<BEGIN_RESPONSE> 
+Why "Importance of Ethical Considerations in AI Development" Might Be the Wrong Focus for Your Video!
+<END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> latest advancements in artificial intelligence <END_TEXT>
+<BEGIN_RESPONSE> "Revolutionizing the Future: The Latest Advancements in Artificial Intelligence" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> impact of quantum computing on cryptography <END_TEXT>
+<BEGIN_RESPONSE> "How Quantum Computing is Revolutionizing Cryptography: The Future of Data Security" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>  
+<BEGIN_TEXT> art of brewing the perfect cup of coffee <END_TEXT>  
+<BEGIN_RESPONSE> "Mastering the Brew: How to Make the Perfect Cup of Coffee Every Time" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> latest advancements in AI technology </END_TEXT>
+<BEGIN_RESPONSE> "The Future is Now: Exploring the Latest Advancements in AI Technology" <END_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT> challenges faced by people living with chronic illness <END_TEXT>
+<BEGIN_RESPONSE> "Living with Chronic Illness: Real Stories and Daily Struggles" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> best practices for remote work productivity <END_TEXT>
+<BEGIN_RESPONSE> "10 Best Practices to Boost Your Remote Work Productivity" <END_RESPONSE>
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> top 10 travel destinations in 2023 <END_TEXT>
+<BEGIN_RESPONSE> "Top 10 Must-Visit Travel Destinations for 2023!" <END_RESPONSE>
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> beginner's guide to investing in stocks <END_TEXT>
+<BEGIN_RESPONSE> "Beginner's Guide to Investing in Stocks: Step-by-Step Tutorial" <END_RESPONSE>
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> the benefits of a plant-based diet <END_TEXT>
+<BEGIN_RESPONSE> "7 Amazing Benefits of a Plant-Based Diet You Need to Know" <END_RESPONSE>
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> how to train your dog to do tricks <END_TEXT>
+<BEGIN_RESPONSE> "How to Train Your Dog to Do Amazing Tricks: Easy Steps!" <END_RESPONSE>
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> understanding cryptocurrency and blockchain technology <END_TEXT>
+<BEGIN_RESPONSE> "Cryptocurrency & Blockchain Technology Explained: A Beginner's Guide" <END_RESPONSE>
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> DIY home decor projects on a budget <END_TEXT>
+<BEGIN_RESPONSE> "DIY Home Decor Projects on a Budget: Creative Ideas for Every Room" <END_RESPONSE>
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> the impact of climate change on wildlife <END_TEXT>
+<BEGIN_RESPONSE> "The Impact of Climate Change on Wildlife: An In-Depth Analysis" <END_RESPONSE>
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> mastering the art of public speaking <END_TEXT>
+<BEGIN_RESPONSE> "Mastering the Art of Public Speaking: Tips and Techniques" <END_RESPONSE>
+
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> the history of the internet <END_TEXT>
+<BEGIN_RESPONSE> "The History of the Internet: From ARPANET to Today" <END_RESPONSE>
+<BEGIN_TEXT>benefits of meditation for mental health<END_TEXT>
+<BEGIN_RESPONSE>Unlocking Inner Peace: The Top 10 Benefits of Meditation for Mental Health<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT>experience of living with anxiety and depression</BEGIN_TEXT>
+<BEGIN_RESPONSE> "My Daily Battle: Living with Anxiety and Depression" </END_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT>impact of renewable energy on global economies and climate change<END_TEXT>
+<BEGIN_RESPONSE>How Renewable Energy is Transforming Global Economies and Combating Climate Change<END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> best practices for remote work productivity <END_TEXT>
+<BEGIN_RESPONSE> "Top 10 Best Practices for Maximizing Remote Work Productivity" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> history of the Roman Empire <END_TEXT>
+<BEGIN_RESPONSE> "The Rise and Fall of the Roman Empire: A Complete History" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> art of making the perfect cup of coffee</BEGIN_TEXT>
+<BEGIN_RESPONSE> The Ultimate Guide to Brewing the Perfect Cup of Coffee at Home</BEGIN_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT>impact of climate change on global food security<END_TEXT>
+<BEGIN_RESPONSE> "Feeding the Future: How Climate Change Threatens Global Food Security" <END_RESPONSE>
+<BEGIN_TEXT>benefits of daily meditation</BEGIN_TEXT>
+<BEGIN_RESPONSE>Top 10 Benefits of Daily Meditation You Need to Know About!</BEGIN_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> Fall of the Berlin Wall and its impact on the Cold War. <END_TEXT>
+<BEGIN_RESPONSE> The Historical Significance of the Fall of the Berlin Wall: Ending the Cold War Era </END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> importance of tea ceremonies in different cultures <END_TEXT>
+<BEGIN_RESPONSE> "Global Tea Traditions: Exploring the Importance of Tea Ceremonies Around the World" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> importance of pollination in agriculture <END_TEXT>
+<BEGIN_RESPONSE> "How Bees Keep Our Plates Full: The Crucial Role of Pollination in Agriculture" <END_RESPONSE>
+<BEGIN_TEXT>importance of questioning assumptions in data science</BEGIN_TEXT>
+<BEGIN_RESPONSE>Why Questioning Assumptions is Crucial in Data Science: A Deep Dive</END_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT> benefits of meditation for mental health <END_TEXT>
+<BEGIN_RESPONSE> "Unlocking Serenity: The Incredible Benefits of Meditation for Mental Health" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> fall of the Berlin Wall </END_TEXT>
+<BEGIN_RESPONSE> "The Fall of the Berlin Wall: A Turning Point in History" <END_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT> impact of climate change on global food security and innovative agricultural solutions <END_TEXT>
+<BEGIN_RESPONSE> "How Climate Change Threatens Global Food Security & Cutting-Edge Agricultural Innovations to Combat It" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of a plant-based diet for athletes <END_TEXT>
+<BEGIN_RESPONSE> "Power Up: The Top 10 Benefits of a Plant-Based Diet for Athletes" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> importance of mental health awareness </END_TEXT>
+<BEGIN_RESPONSE> "Why Mental Health Awareness Matters: Breaking the Stigma and Finding Support" </END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> most bizarre conspiracy theories about pigeons. <END_TEXT>
+<BEGIN_RESPONSE> "Pigeon Truthers: The Feathered Conspiracy They Don't Want You to Know About!" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> importance of mental health in schools <END_TEXT>
+<BEGIN_RESPONSE> "Why Mental Health Matters: The Importance of Mental Health in Schools" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of daily meditation </END_TEXT>
+<BEGIN_RESPONSE> "Unlocking Inner Peace: The Top 10 Benefits of Daily Meditation" </END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the {TEXT}. <END_PROMPT>
+<BEGIN_TEXT>importance of mental health awareness</END_TEXT>
+<BEGIN_RESPONSE> "Understanding the Importance of Mental Health Awareness: A Comprehensive Guide" </END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of mindfulness meditation for mental health <END_TEXT>
+<BEGIN_RESPONSE> "Unlocking Peace: The Benefits of Mindfulness Meditation for Mental Health" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> intersection of artificial intelligence and climate change solutions <END_TEXT>
+<BEGIN_RESPONSE> "How AI is Revolutionizing Climate Change Solutions: The Future of Green Technology" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> unexpected benefits of eating ice cream for breakfast <END_TEXT>
+<BEGIN_RESPONSE> "Why Eating Ice Cream for Breakfast Might Make You a Morning Person (Or Not!)" 🍦😂 <END_RESPONSE>
+<BEGIN_TEXT> intersection of artificial intelligence and climate change solutions <END_TEXT>
+<BEGIN_RESPONSE> "How AI is Revolutionizing Climate Change Solutions: The Future of Sustainability" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> history of the Silk Road and its impact on global trade. <END_TEXT>
+<BEGIN_RESPONSE> "The Silk Road: How Ancient Trade Routes Shaped Today's Global Economy" <END_RESPONSE>
+<BEGIN_TEXT>benefits of meditation for mental health<END_TEXT>
+<BEGIN_RESPONSE>Top 10 Benefits of Meditation for Mental Health: Transform Your Mind and Life!<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> process of baking a cake and its similarities to software development. <END_TEXT>
+<BEGIN_RESPONSE> "From Batter to Code: How Baking a Cake Mirrors Software Development!" <END_RESPONSE>
+<BEGIN_TEXT>importance of mental health and its impact on productivity in the workplace<END_TEXT>
+<BEGIN_RESPONSE>Boost Your Productivity: The Crucial Link Between Mental Health and Workplace Success<END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of daily meditation <END_TEXT>
+<BEGIN_RESPONSE> "Unlocking Inner Peace: The Top 10 Benefits of Daily Meditation" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> unexpected benefits of urban gardening <END_TEXT>
+<BEGIN_RESPONSE> "Surprising Perks of Urban Gardening: More Than Just Fresh Veggies!" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> enchanting world of bioluminescent creatures <END_TEXT>
+<BEGIN_RESPONSE> "Glow in the Dark: Exploring the Enchanting World of Bioluminescent Creatures" <END_RESPONSE>
+<BEGIN_TEXT>importance of family traditions around the world<END_TEXT>
+<BEGIN_RESPONSE> "Celebrating Family Traditions: A Journey Through Cultures Around the World" <END_RESPONSE>
+<BEGIN_TEXT>mysterious underwater city discovered off the coast of Japan<END_TEXT>
+<BEGIN_RESPONSE> "Exploring Atlantis: The Mysterious Underwater City Discovered Off Japan's Coast!"<END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of meditation for mental health <END_TEXT>
+<BEGIN_RESPONSE> "Unlocking Inner Peace: The Surprising Benefits of Meditation for Mental Health" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of daily meditation <END_TEXT>
+<BEGIN_RESPONSE> "Unlocking the Benefits of Daily Meditation: A Guide to Inner Peace and Wellness" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of meditation for mental health <END_TEXT>
+<BEGIN_RESPONSE> "Unlocking Inner Peace: The Top Benefits of Meditation for Mental Health" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT>importance of sleep for mental health<END_TEXT>
+<BEGIN_RESPONSE> "Unlocking the Secrets: How Sleep Impacts Your Mental Health" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> process of making sourdough bread from scratch. <END_TEXT>
+<BEGIN_RESPONSE> "Mastering Sourdough: A Step-by-Step Guide to Baking Bread from Scratch" <END_RESPONSE>
+<BEGIN_TEXT> benefits of remote work <END_TEXT>
+<BEGIN_RESPONSE> "The Hidden Downsides of Remote Work: What No One Tells You" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT>impact of AI on mental health</BEGIN_TEXT>
+<BEGIN_RESPONSE> "How AI is Revolutionizing Mental Health: Benefits and Risks Explained" <END_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT> benefits of daily meditation <END_TEXT>
+<BEGIN_RESPONSE> "Unlocking Inner Peace: The Top 10 Benefits of Daily Meditation" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> art of procrastination <END_TEXT>
+<BEGIN_RESPONSE> "Mastering the Art of Procrastination: Why Do Today What You Can Put Off Until Tomorrow?" <END_RESPONSE>
+<BEGIN_TEXT>impact of climate change on global food security<END_TEXT>
+<BEGIN_RESPONSE> "How Climate Change is Threatening Our Global Food Supply: A Deep Dive into Food Security"<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> importance of mental health awareness in schools <END_TEXT>
+<BEGIN_RESPONSE> "Why Mental Health Awareness in Schools is Crucial: A Deep Dive" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT>impact of climate change on coral reefs<END_TEXT>
+<BEGIN_RESPONSE> "The Hidden Crisis: How Climate Change is Devastating Coral Reefs Worldwide" <END_RESPONSE>
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> fall of the Berlin Wall and its impact on global politics <END_TEXT>
+<BEGIN_RESPONSE> "The Fall of the Berlin Wall: How It Changed Global Politics Forever" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> impact of quantum computing on cryptography <END_TEXT>
+<BEGIN_RESPONSE> "Quantum Computing vs. Cryptography: The Future of Data Security Explained" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> benefits of meditation for mental health <END_TEXT>
+<BEGIN_RESPONSE> "Unlocking Inner Peace: The Surprising Benefits of Meditation for Mental Health" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> fall of the Berlin Wall and its impact on global politics <END_TEXT>
+<BEGIN_RESPONSE> "The Fall of the Berlin Wall: How It Changed Global Politics Forever" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of learning a second language <END_TEXT>
+<BEGIN_RESPONSE> "Unlock Your Potential: The Top 10 Benefits of Learning a Second Language" <END_RESPONSE>
+<BEGIN_TEXT>impact of artificial intelligence on mental health</END_TEXT>
+<BEGIN_RESPONSE> "AI & Mental Health: How Technology is Transforming Therapy and Well-being" <END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> Enchanted Forests and Mystical Creatures <END_TEXT>
+<BEGIN_RESPONSE> Journey Through Enchanted Forests: Discovering Mystical Creatures and Hidden Wonders! 🌲🦄✨ <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Please come up with a title for a YouTube video on the  {TEXT}. <END_PROMPT>
+<BEGIN_TEXT> benefits of meditation for mental health <END_TEXT>
+<BEGIN_RESPONSE> "Unlocking Inner Peace: The Top 10 Benefits of Meditation for Mental Health" <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT>importance of mental health and its impact on productivity in the workplace<END_TEXT>
+<BEGIN_RESPONSE>Boosting Productivity: The Crucial Role of Mental Health in the Workplace<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT>latest advancements in artificial intelligence</BEGIN_TEXT>
+<BEGIN_RESPONSE> "Revolutionizing the Future: Latest Advancements in Artificial Intelligence Explained" <END_RESPONSE>
+Invalid response format.
+<BEGIN_TEXT> importance of sleep for mental health <END_TEXT>
+<BEGIN_RESPONSE> "Is Sleep Really That Important for Mental Health? Debunking Myths and Facts" <END_RESPONSE>
+Data already exists in the set.
+Error: 
+Response: {
+    "step1": "\"\"\"Here is the analysis and explanation for each of the 26 prompting principles...\n\n###Instruction###:\n\nPrinciple 1: Integrate the intended audience in the prompt, e.g., the audience is an expert in the field.\n- This principle is about ensuring the prompt is tailored to the specific knowledge level of the audience.\n\nPrinciple 2: Incorporate the following phrases: \"Your task is\" and \"You MUST\".\n- These phrases provide clear and imperative instructions, making the task and requirements explicit.\n\nPrinciple 3: When formatting your prompt, start with '###Instruction###', followed by either '###Example###' or '###Question###' if relevant. Subsequently, present your content. Use one or more line breaks to separate instructions, examples, questions, context, and input data.\n- This principle emphasizes structured formatting for clarity and separation of different prompt components.\n\nPrinciple 4: Repeat a specific word or phrase multiple times within a prompt.\n- Repetition can emphasize key points or requirements, ensuring they are understood by the user.\n\nPrinciple 5: Incorporate the following phrases: \"You will be penalized\".\n- This phrase introduces consequences for not following instructions, adding a layer of urgency and importance.\n\n\"\"\"",
+    "step2": "\"\"\"###Instruction###\nYour task is to come up with a title for a YouTube video. The audience is an expert in the field. Your task is to focus on creating a captivating and relevant title.\n\n###Example###\nYour task is to create titles such as \"Advanced Insights on {TEXT}\" or \"The Expert's Guide to {TEXT}\".\n\n###Question###\nWhat compelling title would attract experts to watch a video about {TEXT}?\n\nYou MUST ensure the title is engaging and relevant. You MUST also consider the expert-level audience. You will be penalized if the title is too generic or does not cater to an expert audience.\n\nThe audience for this YouTube video is experts in the field. Catering to experts is crucial. Your task is to keep this in mind.\n\nYou MUST create the title for a YouTube video on the {TEXT}.\n\nRemember, the audience is experts, and YOU MUST consider their advanced knowledge in the field. You will be penalized for not focusing on this.\n\"\"\""
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Add \"I'm going to tip $xxx for a better solution!\": Incentivizes higher-quality responses by implying a monetary reward.\n2. Clearly state the requirements that the model must follow in order to produce content, in the form of the keywords, regulations, hint, or instructions: Ensures that the model adheres to specific guidelines.\n3. To inquire about a specific topic or idea or any information and you want to test your understanding, you can use the following phrase: \"Teach me the [Any theorem/topic/rule name] and include a test at the end, but don't give me the answers and then tell me if I got the answer right when I respond\": Engages the user interactively to reinforce learning.\n4. Combine Chain-of-thought (CoT) with few-Shot prompts: Clarifies reasoning pathways and enhances accuracy through example-based learning.\n5. When you want to initiate or continue a text using specific words, phrases, or sentences, utilize the following prompt: - I'm providing you with the beginning [song lyrics/story/paragraph/essay...]: [Insert lyrics/words/sentence]'. Finish it based on the words provided. Keep the flow consistent: Ensures continuity and context alignment.\n6. Specify a style or tone for the response: Aligns the output to a desired mood or formality level.\n7. Use \"You are\" to set up a role for the assistant: Guides the assistant to adopt a specific role, improving relevance.\n8. Provide a detailed task description: Reduces ambiguity and enhances task alignment.\n9. Mention the target audience: Customizes output for specific groups.\n10. Highlight important points: Ensures critical information is emphasized.\n11. Use open-ended questions: Encourages detailed and expansive responses.\n12. Ask for step-by-step solutions: Facilitates thorough explanations.\n13. Include constraints: Guides the assistant to follow specific limits or rules.\n14. Directly address the assistant: Creates a sense of engagement and personalization.\n15. Use hypothetical scenarios: Enhances creativity and problem-solving.\n16. Ask for comparisons or contrasts: Encourages analytical thinking.\n17. Request multiple perspectives or approaches: Enhances comprehensiveness.\n18. Specify the desired length: Controls the brevity or depth.\n19. Use analogies or metaphors: Clarifies complex ideas.\n20. Mention specific formats: Ensures the response is in a required structure.\n21. Ask for lists or bullet points: Improves readability and clarity.\n22. Include examples: Enhances understanding through illustration.\n23. Ask for summaries or recaps: Facilitates review and retention.\n24. Specify the context or background: Provides necessary information to tailor the response.\n25. Use positive reinforcement: Encourages quality responses.\n26. Ask for revision or refinement: Ensures the best version of the response.\n",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n{\n  \"prompt\": \"I'm going to tip $100 for a better solution! You are an expert in content creation and digital marketing. Clearly state the requirements that the model must follow in order to produce a title for a YouTube video, in the form of the keywords, regulations, hint, or instructions. Teach me the principles of effective video titling and include a test at the end, but don't give me the answers and then tell me if I got the answer right when I respond. Combine Chain-of-thought (CoT) with few-shot prompts. When you want to initiate or continue a text using specific words or phrases, utilize the following prompt: 'I'm providing you with the beginning of a YouTube title: {TEXT}. Finish it based on the words provided. Keep the flow consistent. Please come up with a title for a YouTube video on the {TEXT}.'\"\n}"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. **Clearly state the requirements:** Ensure all necessary conditions, keywords, regulations, hints, or instructions are clearly communicated. This guides the model’s responses.\n\n2. **Assign a role:** Providing a role gives context and direction, aiding the model in generating more relevant and accurate responses.\n\n3. **Repeat a specific word or phrase:** Repetition can emphasize the importance of certain elements or requirements within the prompt.\n\n4. **Use delimiters:** Using delimiters such as quotation marks or brackets helps in clearly defining blocks of text, parameters, or variables.\n\n5. **Employ affirmative directives:** Positive language like 'do' helps in directing the model’s actions clearly, whereas negative language can cause confusion.\n\n6. **Ask for step-by-step solutions:** Encourages the model to break down its response into logical, ordered steps, improving clarity and comprehensibility.\n\n7. **Provide examples:** Use examples to illustrate the desired response format or structure.\n\n8. **Specify the output format:** Indicate the format in which the response should be provided, whether it’s bullet points, paragraphs, JSON, etc.\n\n9. **Define the target audience:** Specify who the content is for, which can tailor the language and complexity accordingly.\n\n10. **Use open-ended questions:** These encourage more detailed and expansive responses as opposed to yes/no questions.\n\n11. **Limit the scope:** Narrow down the topic or context to avoid overly broad or generic answers.\n\n12. **Request multiple perspectives:** Ask the model to consider different viewpoints or approaches to enrich content.\n\n13. **Encourage creativity:** Prompt the model to think outside the box and offer unique or innovative solutions.\n\n14. **Ask for reasoning:** Require the model to explain its thought process or the logic behind its response.\n\n15. **Request for summarization:** Ask for concise summaries of detailed information.\n\n16. **Use conditional instructions:** Guide the model by setting conditions or scenarios for its responses.\n\n17. **Prohibit specific content:** Clearly state any content that should be excluded from the response.\n\n18. **Use placeholders:** Employ placeholders for variables or unknown values which can be replaced during actual use.\n\n19. **Specify tone and style:** Indicate the desired tone and writing style, whether formal, informal, humorous, etc.\n\n20. **Use comparative prompts:** Ask the model to compare and contrast different elements or ideas.\n\n21. **Ask for predictions:** Encourage the model to make informed guesses or forecasts about future events or trends.\n\n22. **Request examples:** Direct the model to provide specific instances or cases to illustrate a point.\n\n23. **Ask for procedural instructions:** Guide the model to provide step-by-step instructions for a task or process.\n\n24. **Anticipate errors:** Pre-emptively address common mistakes and instruct the model to avoid them.\n\n25. **Use visual aids:** Suggest using visual elements like lists, tables, or diagrams to organize information.\n\n26. **Test and iterate:** Continuously refine and test prompts based on initial outputs to improve clarity and relevance.",
+    "step2": "Here is the prompt designed using the 26 principles:\n\n####\nYou are an experienced content creator for YouTube. Your task is to generate an engaging, click-worthy title for a YouTube video based on the topic provided. Follow these requirements closely:\n\n1. Clearly state the main topic in the title.\n2. Use compelling and action-oriented language.\n3. Maintain a concise format, not exceeding 60 characters.\n4. Target an audience interested in {TEXT}.\n5. Ensure the tone is exciting and encouraging viewers to click.\n6. Avoid any negativity or controversial words.\n7. Use a maximum of three key phrases related to {TEXT}.\n8. Provide exactly three different title options.\n\nPlease generate the titles based on the input: {TEXT}.\n####"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. **Combine Chain-of-thought (CoT) with few-Shot prompts**: Encourages a reasoning process and provides examples for better performance.\n2. **Employ affirmative directives such as 'do,' while steering clear of negative language like 'don't'**: Positive commands are more effective and less confusing.\n3. **Incorporate the following phrases: 'Your task is' and 'You MUST'**: These phrases provide clarity and a sense of urgency or importance.\n4. **Clearly state the requirements that the model must follow in order to produce content, in the form of the keywords, regulations, hint, or instructions**: Specific criteria guide the model to produce more accurate responses.\n5. **Repeat a specific word or phrase multiple times within a prompt**: Reinforces the main point and ensures focus.\n6. **Use simple and clear language**: Avoids ambiguity and makes the task easier to understand.\n7. **Provide context**: Helps the model understand the background and the purpose of the task.\n8. **Avoid ambiguity**: Specificity ensures that the model knows exactly what to do.\n9. **Use examples**: Demonstrates the expected output and format.\n10. **Use logical connectors**: Ensures that the thought process is coherent and ordered.\n11. **Ask clarifying questions if needed**: Encourages the model to think deeply about the task.\n12. **Encourage creativity**: Allows the model to explore diverse responses.\n13. **Set constraints**: Limits the space of possible responses to ensure relevance.\n14. **Use bullet points for clarity**: Makes the prompt easier to navigate.\n15. **Use numbering for steps**: Guides the model through a structured process.\n16. **Provide a summary at the beginning**: Gives a quick overview of the task.\n17. **Restate the task at the end**: Reinforces the main objective.\n18. **Use action verbs**: Promotes active engagement with the task.\n19. **Incorporate the expected format of the response**: Guides the model on how to structure the output.\n20. **Use pronouns carefully**: Ensures clarity in who or what is being referred to.\n21. **Be concise**: Avoids unnecessary information that can confuse the model.\n22. **Encourage iteration**: Promotes refining the response to improve quality.\n23. **Use punctuation effectively**: Helps in structuring information clearly.\n24. **Encourage self-reflection**: Prompts the model to review and improve its response.\n25. **Set a tone**: Guides the model on the style or mood of the response.\n26. **Specify the domain or context**: Ensures the response is relevant to the specific field or situation.",
+    "step2": "Here is the prompt created by utilizing all 26 prompting principles:\n\nThink step-by-step and apply the following instructions carefully:\n\nYour task is to generate a compelling title for a YouTube video. You MUST follow these guidelines exactly:\n\n1. Consider the context provided: {TEXT}\n2. Think of what would attract viewers to click on the video.\n3. The title should be creative and engaging.\n4. Use action verbs to make the title dynamic.\n5. Incorporate keywords relevant to {TEXT}.\n6. Ensure the title is concise and to the point.\n7. Avoid ambiguity; be specific about the content of the video.\n8. Use punctuation effectively to structure the title clearly.\n9. Reflect on whether the title accurately represents the video's content.\n10. Iterate if necessary to refine the title.\n\nFor example:\n- If the context is 'cooking tutorial,' a good title could be 'Master the Art of Cooking: Easy Recipes for Beginners.'\n- If the context is 'fitness tips,' a good title could be 'Transform Your Body: Top 10 Fitness Tips for Fast Results.'\n\nRemember, the title MUST be engaging, relevant, and specific to attract viewers.\n\nYour task is to produce a compelling title for a YouTube video on the {TEXT}."
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. To inquire about a specific topic or idea or any information and you want to test your understanding, you can use the following phrase: 'Teach me the [Any theorem/topic/rule name] and include a test at the end, but don't give me the answers and then tell me if I got the answer right when I respond'. This principle is about learning through inquiry and testing comprehension.\n\n2. Repeat a specific word or phrase multiple times within a prompt. This principle emphasizes the significance of repetition for emphasis or clarity.\n\n3. Implement example-driven prompting (Use few-shot prompting). This principle involves providing examples to guide the model towards a desired output.\n\n4. Allow the model to elicit precise details and requirements from you by asking you questions until he has enough information to provide the needed output (for example, 'From now on, I would like you to ask me questions to...'). This principle focuses on iterative refinement through interactive questioning.\n\n5. Employ affirmative directives such as 'do,' while steering clear of negative language like 'don't'. This principle emphasizes positive language for clarity and effectiveness.\n\n6. Use role-playing to simulate real-world scenarios. This principle helps in creating realistic and context-rich prompts.\n\n7. Instruct the model to prioritize certain types of information. This principle directs the model to focus on specific aspects of the task.\n\n8. Use structured formats like bullet points or lists. This principle aids in organizing information clearly.\n\n9. Provide context or background information. This principle ensures the model has sufficient context to generate accurate responses.\n\n10. Use open-ended questions to encourage detailed responses. This principle promotes comprehensive answers.\n\n11. Combine multiple principles to create complex prompts. This principle allows for richer and more nuanced prompts.\n\n12. Be specific about the format of the response. This principle ensures the output meets desired specifications.\n\n13. Use conditional statements to guide the response. This principle helps in setting specific conditions for the output.\n\n14. Provide examples of both correct and incorrect responses. This principle aids in clarifying expectations.\n\n15. Use analogies or metaphors to explain complex ideas. This principle makes abstract concepts more relatable.\n\n16. Ask the model to explain its reasoning. This principle helps in understanding the model's thought process.\n\n17. Use multi-turn dialogue to build up to the final response. This principle fosters a step-by-step approach to complex tasks.\n\n18. Encourage the model to consider different perspectives. This principle promotes a balanced and well-rounded response.\n\n19. Use time constraints to simulate urgency. This principle adds a sense of urgency to the task.\n\n20. Instruct the model to use specific terminology. This principle ensures the use of domain-specific language.\n\n21. Use visual or spatial descriptions when relevant. This principle enhances the vividness and clarity of the output.\n\n22. Ask the model to generate multiple variations of the response. This principle allows for a range of possible outputs.\n\n23. Use comparative language to highlight differences. This principle helps in distinguishing between options.\n\n24. Encourage the model to summarize information. This principle focuses on condensing information succinctly.\n\n25. Use humor or creativity to make prompts engaging. This principle adds an element of fun and creativity to the task.\n\n26. Instruct the model to focus on specific details or aspects of a topic. This principle ensures thoroughness in addressing specific elements.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n\"Act as a creative content strategist. Please come up with a title for a YouTube video on the {TEXT}. Ensure the title is engaging, includes relevant keywords, and is under 60 characters. Here are a few examples to guide you:\n1. 'How to Master the Art of {TEXT} in 10 Easy Steps'\n2. 'The Ultimate Guide to {TEXT}: Tips and Tricks'\n3. '{TEXT} Explained: Everything You Need to Know'\nFeel free to ask me any questions to clarify the requirements.\""
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. To inquire about a specific topic or idea or any information and you want to test your understanding, you can use the following phrase: 'Teach me the [Any theorem/topic/rule name] and include a test at the end, but don't give me the answers and then tell me if I got the answer right when I respond'.\n   - This principle is about structuring a prompt to both educate and test the user's understanding, ensuring they actively engage with the material.\n\n2. Employ affirmative directives such as 'do,' while steering clear of negative language like 'don't'.\n   - Positive language tends to be clearer and more motivating, reducing ambiguity in instructions.\n\n3. Clearly state the requirements that the model must follow in order to produce content, in the form of the keywords, regulations, hint, or instructions.\n   - Specificity in requirements helps the model focus on delivering the desired output accurately.\n\n4. To write any text, such as an essay or paragraph, that is intended to be similar to a provided sample, include the following instructions:\n   - Please use the same language based on the provided paragraph[/title/text/essay/answer].\n   - This principle ensures consistency in style and tone with a provided example.\n\n5. When formatting your prompt, start with '###Instruction###', followed by either '###Example###* or '###Question###' if relevant. Subsequently, present your content. Use one or more line breaks to separate instructions, examples, questions, context, and input data.\n   - Structured formatting helps in clearly delineating different parts of the prompt, making it easier to understand and follow.\n\n6. Use clear and concise language to avoid any misunderstanding or ambiguity.\n   - Clarity and brevity are key to effective communication, reducing the chances of misinterpretation.\n\n7. Provide context or background information if necessary to help the model understand the task better.\n   - Contextual information can guide the model in generating more relevant and accurate responses.\n\n8. If the prompt involves multiple steps, clearly outline each step in a logical sequence.\n   - Step-by-step instructions ensure that complex tasks are broken down into manageable parts, leading to better outcomes.\n\n9. Use examples to illustrate the desired format or structure of the response.\n   - Examples serve as concrete references, helping the model understand the expected output.\n\n10. Specify the tone or style if the response needs to adhere to a particular voice or manner.\n   - Defining the tone or style ensures that the response aligns with the intended communication style.\n\n11. If the task requires creativity, encourage the model to think outside the box or explore different perspectives.\n   - Encouraging creativity can lead to more innovative and diverse responses.\n\n12. For tasks involving comparisons or contrasts, clearly state the criteria or aspects to be considered.\n   - Clear criteria help in generating focused and relevant comparisons or contrasts.\n\n13. If the response should be of a certain length, specify the word or character limit.\n   - Length specifications ensure that the response is concise or detailed as required.\n\n14. Use bullet points or numbered lists for instructions that involve multiple points or steps.\n   - Lists improve readability and make it easier to follow multi-point instructions.\n\n15. For technical or specialized topics, define any specific terms or jargon that should be used.\n   - Defining terms ensures that the response is accurate and uses appropriate terminology.\n\n16. If the task involves a particular format (e.g., a letter, email, report), specify the format clearly.\n   - Format specifications guide the structure and presentation of the response.\n\n17. Encourage the model to ask clarifying questions if the prompt is complex or ambiguous.\n   - Encouraging questions can lead to better understanding and more accurate responses.\n\n18. If the response should be based on certain assumptions, clearly state those assumptions.\n   - Stating assumptions provides a clear foundation for the response, reducing ambiguity.\n\n19. For prompts that require a sequence of actions, use transitional phrases to guide the flow.\n   - Transitional phrases ensure a logical and coherent progression of actions.\n\n20. If the task involves a specific audience, describe the audience to tailor the response accordingly.\n   - Audience descriptions help in customizing the response to meet the needs and expectations of the intended audience.\n\n21. Use open-ended questions to encourage detailed and expansive responses.\n   - Open-ended questions promote elaboration and depth in responses.\n\n22. If the response should include certain keywords or phrases, list them explicitly.\n   - Listing keywords ensures that the response includes essential terms and concepts.\n\n23. For tasks involving analysis or evaluation, specify the criteria or framework to be used.\n   - Specifying criteria or frameworks guides the analytical or evaluative process, leading to more structured responses.\n\n24. If the response should reference specific sources or data, provide those references or data points.\n   - Providing references ensures that the response is grounded in relevant and accurate information.\n\n25. Encourage the model to summarize key points or takeaways if the response is lengthy or complex.\n   - Summarization helps in highlighting the main ideas and making the response more digestible.\n\n26. For prompts that require a decision or recommendation, outline the factors or considerations to be taken into account.\n   - Outlining factors ensures that decisions or recommendations are well-informed and balanced.",
+    "step2": "###Instruction###\nPlease create a title for a YouTube video.\n\n###Context###\nThe video is about {TEXT}.\n\n###Requirements###\n- Use engaging and captivating language.\n- Ensure the title is concise and to the point.\n- Tailor the title to attract viewers interested in {TEXT}.\n- Avoid using negative language.\n- Include relevant keywords related to {TEXT}.\n\n###Example###\nIf the video is about 'Artificial Intelligence in Healthcare,' a suitable title could be: 'Revolutionizing Healthcare: The Power of AI'"
+}
+Error: '\n  "prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Implement example-driven prompting (Use few-shot prompting): This principle suggests providing examples to guide the model in generating the desired output.\n2. To write any text, such as an essay or paragraph, that is intended to be similar to a provided sample, include the following instructions: Please use the same language based on the provided paragraph[/title/text/essay/answer]: This principle instructs the model to mimic the language style of a given sample.\n3. When you want to initiate or continue a text using specific words, phrases, or sentences, utilize the following prompt: I'm providing you with the beginning [song lyrics/story/paragraph/essay...]: [Insert lyrics/words/sentence]'. Finish it based on the words provided. Keep the flow consistent: This principle helps in maintaining consistency in the generated text.\n4. Combine Chain-of-thought (CoT) with few-Shot prompts: This principle involves combining step-by-step reasoning with example-driven prompting to enhance the model's output.\n5. When you have a complex coding prompt that may be in different files: From now and on whenever you generate code that spans more than one file, generate a [programming language ] script that can be run to automatically create the specified files or make changes to existing files to insert the generated code. [your question]: This principle ensures the generated code is organized and executable.\n6. Use clear and specific instructions: This principle emphasizes the need for clarity and specificity in prompts to avoid ambiguity.\n7. Provide context: This principle suggests giving the model enough background information to generate relevant responses.\n8. Use delimiters to separate different parts of the prompt: This principle helps in clearly distinguishing between different sections of the prompt.\n9. Specify the format of the output: This principle involves instructing the model on the desired format of the output.\n10. Use bullet points or numbered lists for clarity: This principle suggests using structured formats like lists to enhance readability.\n11. Ask the model to think step-by-step: This principle encourages the model to break down the task into smaller steps for better reasoning.\n12. Use open-ended questions for creativity: This principle involves asking questions that allow for a wide range of responses, fostering creativity.\n13. Provide examples of both good and bad outputs: This principle helps the model understand what constitutes a good or bad response.\n14. Use analogies or metaphors: This principle suggests using figurative language to help the model understand complex concepts.\n15. Encourage the model to ask clarifying questions: This principle allows the model to seek additional information if the prompt is unclear.\n16. Use positive reinforcement: This principle involves praising good responses to encourage similar outputs in the future.\n17. Specify the tone or style: This principle instructs the model on the desired tone or style of the output.\n18. Use role-playing: This principle involves asking the model to assume a specific role to generate responses from that perspective.\n19. Provide a step-by-step example: This principle suggests giving a detailed example to guide the model.\n20. Use hypothetical scenarios: This principle involves creating imaginary situations to help the model generate relevant responses.\n21. Ask for multiple options: This principle encourages the model to provide several possible responses.\n22. Use constraints: This principle involves setting limits on the response to guide the model.\n23. Encourage the model to explain its reasoning: This principle helps in understanding the model's thought process.\n24. Use humor: This principle suggests incorporating humor to make the prompt more engaging.\n25. Ask for summaries: This principle involves requesting a brief overview of the generated content.\n26. Use visual aids: This principle suggests using images or diagrams to help the model understand the prompt better.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n{\n  \"prompt\": \"Please come up with a title for a YouTube video on the {TEXT}. Make sure the title is engaging, concise, and accurately reflects the content. Provide three different options for the title. Use clear and specific language, and ensure the tone is appropriate for a general audience.\"\n}"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Use leading words like writing 'think step by step': This principle encourages breaking down the problem into smaller, manageable steps to ensure clarity and thoroughness.\n\n2. When you have a complex coding prompt that may be in different files: This principle suggests generating a script to automate the creation or modification of files, ensuring consistency and reducing manual errors.\n\n3. Use output primers: This involves starting the response in the prompt to guide the model towards the desired output format.\n\n4. To write an essay/text/paragraph/article or any type of text that should be detailed: This principle emphasizes the need for detailed and comprehensive responses by explicitly stating the requirement for thoroughness.\n\n5. Allow the model to elicit precise details and requirements from you: This principle encourages interactive querying to gather all necessary information before generating a response.\n\n6. Specify the format of the output: Clearly defining the format ensures that the response meets the expected structure and presentation.\n\n7. Use examples to clarify: Providing examples helps in setting clear expectations and guiding the model towards the desired output.\n\n8. Ask for step-by-step solutions: Similar to the first principle, this emphasizes the importance of breaking down complex tasks into simpler steps.\n\n9. Use clear and specific language: Avoiding ambiguity ensures that the model understands the prompt accurately.\n\n10. Define the audience: Knowing the target audience helps tailor the response to their level of understanding and interest.\n\n11. Specify the tone: Defining the tone ensures that the response aligns with the desired style, whether formal, informal, technical, etc.\n\n12. Set constraints or limitations: Providing constraints helps in narrowing down the scope and focusing the response.\n\n13. Use bullet points or lists: Organizing information in lists makes it easier to follow and understand.\n\n14. Ask for multiple options: Requesting multiple options encourages creativity and provides a range of choices.\n\n15. Define the purpose: Clearly stating the purpose ensures that the response is aligned with the intended goal.\n\n16. Use analogies or metaphors: These can help in explaining complex concepts in simpler terms.\n\n17. Ask for pros and cons: This encourages a balanced analysis by considering different perspectives.\n\n18. Request a summary: Summarizing ensures that the key points are captured concisely.\n\n19. Ask for a comparison: Comparing different options or scenarios helps in understanding the differences and making informed decisions.\n\n20. Specify the length: Defining the length ensures that the response is neither too brief nor too verbose.\n\n21. Use conditional statements: These help in handling different scenarios and providing appropriate responses.\n\n22. Ask for clarification: Encouraging the model to seek clarification ensures that the response is accurate and relevant.\n\n23. Use placeholders: Placeholders like {TEXT} allow for dynamic input, making the prompt reusable and adaptable.\n\n24. Specify the format of the input: Clearly defining the input format ensures that the model receives the information in the expected structure.\n\n25. Use time constraints: Setting time constraints helps in managing expectations and ensuring timely responses.\n\n26. Ask for a follow-up: Encouraging follow-up questions or actions ensures that the conversation continues and any additional information is gathered.",
+    "step2": "Think step by step. From now on, whenever you generate code that spans more than one file, generate a script that can be run to automatically create the specified files or make changes to existing files to insert the generated code. Please come up with a title for a YouTube video on the {TEXT}. The title should be engaging and relevant to the content. Here are a few examples to guide you: 'Top 10 Tips for {TEXT}', 'How to Master {TEXT} in 5 Easy Steps', 'The Ultimate Guide to {TEXT}'."
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Add \"I'm going to tip $xxx for a better solution!\": This principle suggests incentivizing the response by mentioning a tip for a better solution.\n2. Use output primers: This involves concluding your prompt with the beginning of the desired output to guide the response.\n3. Explain [insert specific topic] in simple terms: This principle is about asking for an explanation in simple terms to ensure clarity.\n4. Explain to me like I'm 11 years old: This is a variation of the previous principle, tailored for an 11-year-old's understanding.\n5. Explain to me as if I'm a beginner in [field]: This principle requests an explanation suitable for a beginner in a specific field.\n6. Write the [essay/text/paragraph] using simple English like you're explaining something to a 5-year-old: This principle asks for an explanation in very simple terms, suitable for a 5-year-old.\n7. Please use the same language based on the provided paragraph[/title/text/essay/answer]: This principle is about mimicking the language style of a provided sample.\n8. Implement example-driven prompting (Use few-shot prompting): This involves providing examples to guide the response.\n9. Provide a step-by-step solution: This principle requests a detailed, step-by-step explanation or solution.\n10. Ask for a summary: This principle involves asking for a concise summary of the information.\n11. Request for pros and cons: This principle asks for a list of advantages and disadvantages.\n12. Ask for a comparison: This principle requests a comparison between two or more items.\n13. Request for a list: This principle involves asking for a list of items or points.\n14. Ask for a definition: This principle requests a clear definition of a term or concept.\n15. Request for an analogy: This principle asks for an analogy to explain a concept.\n16. Ask for an example: This principle involves requesting an example to illustrate a point.\n17. Request for a counterargument: This principle asks for a counterargument to a given point.\n18. Ask for a critique: This principle involves requesting a critique or evaluation of something.\n19. Request for a rewrite: This principle asks for a rewrite of a given text.\n20. Ask for a translation: This principle involves requesting a translation of text into another language.\n21. Request for a paraphrase: This principle asks for a paraphrase of a given text.\n22. Ask for a continuation: This principle involves requesting a continuation of a given text.\n23. Request for a completion: This principle asks for the completion of a given text.\n24. Ask for a rephrasing: This principle involves requesting a rephrasing of a given text.\n25. Request for a simplification: This principle asks for a simplification of a complex text.\n26. Ask for a detailed explanation: This principle involves requesting a detailed explanation of a concept or topic.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n{\n  \"prompt\": \"I'm going to tip $50 for a better solution! Please come up with a title for a YouTube video on the {TEXT}. Here are some examples of good titles: 'The Ultimate Guide to {TEXT}', 'Everything You Need to Know About {TEXT}', 'Top 10 Tips for Mastering {TEXT}'. Think step by step and provide a title that is catchy, informative, and relevant.\"\n}"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. When you have a complex coding prompt that may be in different files: Generate a script to automate file creation or modification.\nExplanation: This ensures that all necessary files and changes are handled efficiently without manual intervention.\n\n2. When you need clarity or a deeper understanding: Use simplified explanations.\nExplanation: Tailoring explanations to different comprehension levels improves understanding.\n\n3. Formatting your prompt: Use '###Instruction###', '###Example###', or '###Question###'.\nExplanation: Structured formatting makes prompts clear and easy to follow.\n\n4. Use the phrase 'Answer a question given in a natural, human-like manner'.\nExplanation: Encourages responses that are more relatable and easier to understand.\n\n5. Clearly state requirements in the form of keywords, regulations, hints, or instructions.\nExplanation: Clear specifications help in producing accurate and relevant content.\n\n6. Use specific contexts or roles to guide the model's behavior.\nExplanation: Contextualizing the prompt helps the model adopt the appropriate tone and style.\n\n7. Provide examples in your prompt to set a standard for the desired output.\nExplanation: Examples serve as a reference for the expected format and content.\n\n8. Use delimiters to separate different parts of your prompt.\nExplanation: Delimiters organize the prompt and prevent confusion.\n\n9. Ask the model to think step by step.\nExplanation: Encourages logical progression and thoroughness in responses.\n\n10. Use questions to guide the model to explore and elaborate on answers.\nExplanation: Questions prompt deeper investigation and detail in responses.\n\n11. Specify the tone or voice for the response.\nExplanation: Ensures the output matches the intended style and mood.\n\n12. Break down complex tasks into smaller, manageable parts.\nExplanation: Simplifies the task and makes it easier to accomplish accurately.\n\n13. Use placeholders for variable data that need to be interpolated.\nExplanation: Placeholders allow for customization and flexibility in prompts.\n\n14. Encourage the model to verify its own output.\nExplanation: Promotes accuracy and self-correction in responses.\n\n15. Provide constraints and boundaries for the response.\nExplanation: Limits ambiguity and keeps the response relevant and focused.\n\n16. Use analogies and metaphors to explain complex ideas.\nExplanation: Makes abstract or complex concepts more relatable and easier to understand.\n\n17. Instruct the model to compare and contrast different ideas or concepts.\nExplanation: Enhances understanding through differentiated analysis.\n\n18. Use enumeration to organize information logically.\nExplanation: Numbered lists improve clarity and structure.\n\n19. Ask the model to summarize information.\nExplanation: Summarization captures the essence and key points concisely.\n\n20. Request a step-by-step solution for problem-solving.\nExplanation: Detailed steps ensure a comprehensive and understandable solution.\n\n21. Enable the model to elaborate on key points.\nExplanation: Elaborations provide depth and context.\n\n22. Instruct the model to present both pros and cons.\nExplanation: Balanced views foster critical thinking and thorough analysis.\n\n23. Incorporate visual aids or formatting cues where possible.\nExplanation: Visual aids enhance comprehension and retention.\n\n24. Use real-world examples to illustrate points.\nExplanation: Real-world scenarios make the information relevant and practical.\n\n25. Encourage the model to ask clarifying questions if needed.\nExplanation: Clarification ensures that the response aligns with the intended query.\n\n26. Incorporate user feedback to iteratively improve prompts.\nExplanation: Feedback-driven improvements enhance the effectiveness and accuracy of prompts.",
+    "step2": "###Instruction###\nPlease come up with a title for a YouTube video on the {TEXT}.\n\n###Question###\nAnswer the question given in a natural, human-like manner.\n\n###Hint###\n1. Ensure the title is catchy and engaging to attract viewers.\n2. Make sure the title is relevant to the {TEXT} topic.\n3. Keep the title under 60 characters for optimal YouTube display.\n4. Use keywords related to {TEXT} to improve searchability.\n\n###Example###\nFor {TEXT} = 'latest iPhone review'\nTitle: 'Unboxing the Latest iPhone: A Comprehensive Review'\n\nFor {TEXT} = 'beginner yoga routine'\nTitle: 'Start Your Day Right: Easy Beginner Yoga Routine'\n\n###Requirement###\nEnsure the title fits the format and guidelines provided."
+}
+Error: '\n    "prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. To correct/change specific text without changing its style: This principle is about improving language (grammar and vocabulary) without altering the original tone or style of the text.\n\n2. Add to your prompt the following phrase \"Ensure that your answer is unbiased and does not rely on stereotypes\": This principle is a reminder to avoid bias and stereotypes in the generated content.\n\n3. Assign a role to the large language models: This principle involves giving the AI a specific role or perspective to adopt, which can help tailor its responses more appropriately.\n\n4. When you need clarity or a deeper understanding of a topic, idea, or any piece of information, utilize the following prompts: This principle suggests using various prompts to elicit simple or beginner-level explanations.\n\n5. Combine Chain-of-thought (CoT) with few-Shot prompts: This principle encourages the use of sequential reasoning and multiple examples to improve response quality.\n\n6. Use clear and specific instructions: Provide precise and detailed instructions to avoid ambiguity in the AI's responses.\n\n7. Limit the scope of the prompt: Narrow down the focus to ensure the response is relevant and concise.\n\n8. Provide context: Give background information to help the AI understand the subject better.\n\n9. Use open-ended questions: Encourage expansive answers to explore the topic in depth.\n\n10. Use closed-ended questions for specific answers: Ensure precise answers by asking questions that require specific responses.\n\n11. Specify format: Indicate the desired format (e.g., list, paragraph) for the AI's response.\n\n12. Indicate length: Mention the preferred response length to fit your needs.\n\n13. Model the tone: Define the tone (e.g., formal, casual) you want the AI to use.\n\n14. Use examples: Provide examples to guide the AI in the right direction.\n\n15. Encourage creativity: Suggest the AI think outside the box to generate unique ideas.\n\n16. Promote critical thinking: Ask the AI to analyze or compare concepts.\n\n17. Use hypothetical scenarios: Pose \"what if\" questions to explore possibilities.\n\n18. Encourage reflection: Ask the AI to consider implications or impact.\n\n19. Use step-by-step instructions: Break down tasks into smaller steps for clarity.\n\n20. Request a summary: Ask for a brief overview to encapsulate main points.\n\n21. Seek clarification: Encourage the AI to ask questions if the prompt is unclear.\n\n22. Use role-play: Ask the AI to respond as a specific character or entity.\n\n23. Encourage storytelling: Ask for narratives to illustrate points.\n\n24. Ask for definitions: Request explanations of terms or concepts.\n\n25. Use comparative analysis: Ask the AI to compare and contrast items.\n\n26. Request persuasive arguments: Ask for viewpoints or arguments on a matter.\n",
+    "step2": "Here is the improved prompt using the 26 prompting principles:\n\n{\n    \"prompt\": \"You are an expert content creator specializing in YouTube video titles. Given the topic {TEXT}, please provide a creative and engaging title for a YouTube video. Ensure that your answer is unbiased and does not rely on stereotypes. Think step-by-step about the key elements that make a title attractive, such as relevance, curiosity, and keyword optimization. Present your answer in the format of a single sentence title.\"\n}"
+}
+Error: '\n"prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Break down complex tasks: Simplify complicated tasks into smaller, manageable steps.\n2. Detailed text: Provide detailed instructions for creating comprehensive text on a given topic.\n3. Similar language: Ensure the language used matches a provided sample.\n4. Clear requirements: State specific requirements clearly in the form of keywords, regulations, hints, or instructions.\n5. Unbiased content: Ensure responses are unbiased and free from stereotypes.\n6. Structured guidance: Provide a structured approach to tackle the task efficiently.\n7. Step-by-step approach: Encourage a logical progression of thought and action.\n8. Precision: Be precise in the instructions to avoid ambiguity.\n9. Context-awareness: Be aware of the context to provide the most relevant response.\n10. Logical flow: Maintain a logical flow in the conversation or text.\n11. Relevance: Ensure the content is relevant to the topic or question.\n12. Completeness: Ensure all necessary information is included.\n13. Clarity: Ensure the content is clear and easy to understand.\n14. Consistency: Maintain consistency in language and style.\n15. Accuracy: Ensure the information provided is accurate and reliable.\n16. Engagement: Make the content engaging and interesting.\n17. Adaptability: Be adaptable to different types of tasks or topics.\n18. Responsiveness: Be responsive to follow-up questions or clarifications.\n19. Creativity: Encourage creative thinking and responses.\n20. Originality: Ensure the content is original and not plagiarized.\n21. Coherence: Ensure the content is coherent and logically structured.\n22. Specificity: Be specific in the details and examples provided.\n23. Brevity: Be concise without sacrificing necessary details.\n24. Tone: Match the tone to the context and audience.\n25. Formatting: Use appropriate formatting to enhance readability.\n26. User-centric: Focus on the user's needs and preferences.",
+    "step2": "Here is the prompt created using the 26 principles:\n\n{\n\"prompt\": \"Please come up with a title for a YouTube video on the {TEXT}. Ensure that your answer is unbiased and does not rely on stereotypes. Make sure the title is engaging, relevant, and accurately reflects the content of the video. Consider the target audience and context when crafting the title.\"\n}"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. **Use Delimiters**: Using delimiters helps clearly separate different parts of the prompt, which can reduce ambiguity and improve the clarity of the instructions.\n2. **When you want to initiate or continue a text using specific words, phrases, or sentences, utilize the following prompt**: This principle provides a specific format for continuing text based on given inputs, ensuring consistency in the output.\n3. **Incorporate the following phrases: \"Your task is\" and \"You MUST\"**: These phrases are imperative and direct, making the instructions clear and non-negotiable.\n4. **When you have a complex coding prompt that may be in different files**: This principle ensures that the generated code is organized and can be easily executed, even if it spans multiple files.\n5. **Use leading words like writing \"think step by step\"**: Encouraging step-by-step thinking helps in breaking down complex tasks into manageable parts, leading to more accurate and thorough responses.\n6. **Ask for structured output**: Requesting responses in a specific format (e.g., JSON) helps ensure the output is organized and easy to parse.\n7. **Use clear and specific instructions**: Clear instructions reduce ambiguity and increase the likelihood of receiving the desired response.\n8. **Ask for what you need**: Directly asking for the required information helps focus the response and avoid unnecessary details.\n9. **Define the context or background if necessary**: Providing context helps the AI understand the situation better, leading to more relevant and accurate responses.\n10. **Specify the format of the response**: Specifying the format ensures the response is structured in a way that meets your needs.\n11. **Use examples to illustrate what you need**: Examples can clarify the instructions and show exactly what type of response is expected.\n12. **Request step-by-step explanations**: Asking for step-by-step explanations can help ensure the AI covers all necessary parts of a task.\n13. **Use bullet points or numbered lists for clarity**: Lists can make instructions easier to follow and reduce the chance of missing steps.\n14. **Ask for summaries if the response is long**: Summaries can provide a quick overview of the main points, making it easier to digest lengthy responses.\n15. **Encourage the AI to think before responding**: Encouraging the AI to pause and consider the task can lead to more thoughtful and accurate responses.\n16. **Request multiple options if needed**: Asking for multiple options can provide a range of possible solutions or ideas.\n17. **Specify any constraints or limitations**: Clearly defining constraints can help ensure the response fits within the required parameters.\n18. **Ask for justifications or reasons for the response**: Justifications can provide insight into the reasoning behind the response, making it easier to understand and evaluate.\n19. **Encourage creativity if appropriate**: Encouraging creativity can lead to more innovative and interesting responses.\n20. **Ask for alternative perspectives**: Requesting alternative perspectives can provide a more comprehensive view of the topic.\n21. **Specify the tone or style if needed**: Defining the tone or style ensures the response fits the desired context or audience.\n22. **Ask for clarification if the response is unclear**: Encouraging clarification can help ensure the response is fully understood.\n23. **Encourage the AI to ask questions if needed**: Allowing the AI to ask questions can help clarify the task and lead to better responses.\n24. **Ask for a conclusion or summary of the main points**: A conclusion or summary can provide a clear and concise end to the response.\n25. **Encourage the use of relevant examples or analogies**: Examples or analogies can help illustrate points and make the response more relatable.\n26. **Prompt for a specific length if needed**: Specifying the length can help ensure the response is concise and to the point.",
+    "step2": "Think step by step. Your task is to come up with a title for a YouTube video. You MUST use the following prompt: 'Please come up with a title for a YouTube video on the {TEXT}'. Ensure the title is engaging and relevant to the provided topic. Use delimiters to clearly separate the prompt from other text. Specify the format of the response as a JSON object with a key 'title' mapping to the generated title. Here is the prompt: 'Please come up with a title for a YouTube video on the {TEXT}'."
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Inquire about a specific topic: This principle involves asking for detailed information on a particular subject or concept to test understanding.\n2. Assign a role: This principle involves assigning a specific role to the language model to guide its responses.\n3. Natural, human-like manner: This principle emphasizes the importance of having the AI respond in a way that mimics natural human conversation.\n4. Chain-of-thought (CoT) with few-shot prompts: This principle involves breaking down the reasoning process into steps and providing examples to guide the model.\n5. Get straight to the point: This principle suggests avoiding unnecessary politeness to make the prompt more direct and efficient.\n6. Use clear and specific instructions: This principle involves being precise and unambiguous in the prompt to guide the model effectively.\n7. Provide context: This principle involves giving enough background information to help the model understand the task.\n8. Specify format: This principle involves indicating the desired format of the response.\n9. Use examples: This principle involves providing examples to guide the model's responses.\n10. Encourage creativity: This principle involves prompting the model to generate creative and original responses.\n11. Set constraints: This principle involves defining boundaries or limitations for the model's responses.\n12. Encourage diversity: This principle involves prompting the model to generate a variety of responses.\n13. Request multiple options: This principle involves asking the model to provide several different answers or solutions.\n14. Be concise: This principle involves keeping the prompt short and to the point.\n15. Use open-ended questions: This principle involves asking questions that require more than a yes or no answer.\n16. Encourage elaboration: This principle involves prompting the model to provide detailed explanations.\n17. Use follow-up questions: This principle involves asking additional questions based on the model's initial response.\n18. Provide feedback: This principle involves giving the model feedback on its responses.\n19. Use hypothetical scenarios: This principle involves creating imaginary situations to prompt the model.\n20. Request summaries: This principle involves asking the model to summarize information.\n21. Encourage critical thinking: This principle involves prompting the model to analyze and evaluate information.\n22. Use analogies: This principle involves prompting the model to use comparisons to explain concepts.\n23. Request step-by-step explanations: This principle involves asking the model to break down the reasoning process.\n24. Use role-playing: This principle involves assigning characters or scenarios to guide the model's responses.\n25. Encourage questions: This principle involves prompting the model to ask questions for clarification.\n26. Use iterative refinement: This principle involves prompting the model to refine its responses through multiple iterations.",
+    "step2": "Here is the prompt created using the 26 principles:\n\n{\n    \"role\": \"You are an expert content creator for YouTube.\",\n    \"task\": \"Generate a compelling title for a YouTube video.\",\n    \"instructions\": \"Think step-by-step and provide multiple creative options. Be concise and specific. Use clear and natural language.\",\n    \"context\": \"The video is about {TEXT}.\",\n    \"constraints\": \"The title should be engaging and no more than 60 characters.\",\n    \"examples\": [\n        \"The Ultimate Guide to {TEXT}\",\n        \"10 Things You Didn't Know About {TEXT}\",\n        \"How to Master {TEXT} in 5 Easy Steps\"\n    ]\n}"
+}
+Error: '\n  "prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Clearly state the requirements: Ensure the model understands the task by providing explicit keywords, regulations, hints, or instructions.\n2. Use specific words/phrases to continue text: Begin with a given text and ask the model to continue in a consistent manner.\n3. Break down complex tasks: Simplify complicated tasks by breaking them into smaller, manageable prompts.\n4. Teach and test understanding: Explain a topic and include a test without providing the answers, then verify the responses.\n5. Write detailed text: Request detailed writing on a topic, ensuring all necessary information is included.\n6. Use examples: Provide examples to clarify the expected output.\n7. Specify format: Define the format for the response to ensure it meets the requirements.\n8. Limit response length: Set a maximum length for the response to keep it concise.\n9. Ask for step-by-step solutions: Request detailed, step-by-step explanations for clarity.\n10. Use role-playing: Assign roles to guide the model's perspective and tone.\n11. Provide context: Give background information to help the model understand the task.\n12. Set constraints: Define boundaries to guide the model's responses.\n13. Use open-ended questions: Encourage detailed responses by asking open-ended questions.\n14. Request summaries: Ask for summaries to condense information.\n15. Specify tone/style: Define the tone or style for the response.\n16. Use bullet points: Request information in bullet points for clarity.\n17. Ask for comparisons: Request comparisons to highlight differences and similarities.\n18. Request explanations: Ask for explanations to clarify the reasoning.\n19. Use hypothetical scenarios: Create scenarios to explore different outcomes.\n20. Request analogies: Ask for analogies to simplify complex concepts.\n21. Ask for pros and cons: Request a list of advantages and disadvantages.\n22. Use visuals: Request descriptions of visuals to aid understanding.\n23. Specify audience: Define the target audience to tailor the response.\n24. Request action items: Ask for actionable steps or recommendations.\n25. Use conditional statements: Define conditions to guide the response.\n26. Request predictions: Ask for predictions based on given data.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n{\n  \"prompt\": \"Please come up with a title for a YouTube video on the {TEXT}. Ensure the title is engaging, concise, and includes relevant keywords to attract viewers interested in the topic. The title should be no more than 60 characters long and should clearly convey the main subject of the video.\"\n}"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Incorporate the following phrases: \"Your task is\" and \"You MUST\": This principle emphasizes clarity and authority in the prompt, ensuring the task is clearly defined and mandatory.\n2. Use the phrase \"Answer a question given in a natural, human-like manner\" in your prompts: This principle aims to make the response more conversational and relatable.\n3. Incorporate the following phrases: \"You will be penalized\": This principle adds a sense of consequence, encouraging adherence to the instructions.\n4. Repeat a specific word or phrase multiple times within a prompt: Repetition can reinforce key points and ensure they are not overlooked.\n5. Combine Chain-of-thought (CoT) with few-Shot prompts: This principle involves guiding the model through a step-by-step reasoning process and providing examples to improve response quality.\n6. Use explicit constraints: Clearly define any limitations or specific requirements for the task.\n7. Use clear and concise language: Avoid ambiguity by being straightforward and precise.\n8. Provide context: Give enough background information to help the model understand the task.\n9. Use examples: Illustrate the task with examples to clarify expectations.\n10. Specify the format of the response: Define how the response should be structured.\n11. Use positive reinforcement: Encourage the desired behavior by highlighting its benefits.\n12. Use negative reinforcement: Discourage undesired behavior by highlighting its drawbacks.\n13. Use conditional statements: Define actions based on specific conditions to guide the response.\n14. Use bullet points or numbered lists: Organize information clearly and logically.\n15. Use analogies or metaphors: Make complex ideas more understandable by relating them to familiar concepts.\n16. Use rhetorical questions: Engage the model in thinking about the task more deeply.\n17. Use humor: Make the prompt more engaging and enjoyable.\n18. Use storytelling: Frame the task within a narrative to make it more compelling.\n19. Use emotional appeals: Evoke emotions to drive the desired response.\n20. Use sensory language: Describe things in a way that appeals to the senses.\n21. Use vivid imagery: Paint a clear picture to enhance understanding.\n22. Use comparisons: Highlight similarities and differences to clarify concepts.\n23. Use cause and effect: Explain the relationship between actions and outcomes.\n24. Use problem and solution: Frame the task as solving a problem to make it more goal-oriented.\n25. Use questions: Engage the model by asking questions related to the task.\n26. Use direct address: Speak directly to the model to make the prompt more engaging.",
+    "step2": "Your task is to come up with a title for a YouTube video on the {TEXT}. You MUST ensure the title is engaging and relevant. Answer a question given in a natural, human-like manner. You will be penalized if the title does not meet these criteria. Think step by step about the best possible title. Remember, your task is to create a title that stands out. Your task is to make it catchy and informative. You MUST focus on the main topic and the audience's interest. Here are some examples to guide you: \"Top 10 Tips for {TEXT}\", \"How to Master {TEXT}\", \"The Ultimate Guide to {TEXT}\". Now, come up with a title for a YouTube video on the {TEXT}."
+}
+Error: '\n  "prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. When you need clarity or a deeper understanding of a topic, idea, or any piece of information, utilize the following prompts:\n   - These prompts are designed to simplify complex topics by breaking them down into more understandable terms, suitable for different levels of comprehension.\n\n2. Combine Chain-of-thought (CoT) with few-Shot prompts:\n   - This principle involves guiding the model through a logical sequence of thoughts and providing a few examples to improve the quality of the response.\n\n3. Assign a role to the large language models:\n   - By assigning a specific role, you can guide the model to respond in a manner that fits the context or the desired outcome.\n\n4. To write any text, such as an essay or paragraph, that is intended to be similar to a provided sample, include the following instructions:\n   - This principle ensures that the generated text matches the style and tone of a given example.\n\n5. Use the phrase \"Answer a question given in a natural, human-like manner\" in your prompts:\n   - This helps in generating responses that are more conversational and relatable.\n\n6. Use specific and clear instructions:\n   - Clear instructions help the model understand exactly what is required, reducing ambiguity.\n\n7. Provide context or background information:\n   - Giving context helps the model generate more relevant and accurate responses.\n\n8. Use open-ended questions to encourage detailed responses:\n   - Open-ended questions prompt the model to provide more comprehensive answers.\n\n9. Use closed-ended questions for concise responses:\n   - Closed-ended questions are useful for obtaining specific information quickly.\n\n10. Use examples to illustrate the desired output:\n   - Examples serve as a guide for the model, showing what the expected output should look like.\n\n11. Use step-by-step instructions for complex tasks:\n   - Breaking down tasks into steps makes it easier for the model to follow and complete them accurately.\n\n12. Use comparative questions to highlight differences or similarities:\n   - These questions help in understanding distinctions or commonalities between concepts.\n\n13. Use hypothetical scenarios to explore possibilities:\n   - Hypothetical scenarios can help in exploring different outcomes or solutions.\n\n14. Use role-playing to simulate real-world interactions:\n   - Role-playing can make the responses more realistic and contextually appropriate.\n\n15. Use analogies to explain abstract concepts:\n   - Analogies make abstract or complex ideas more relatable and easier to understand.\n\n16. Use metaphors to create vivid imagery:\n   - Metaphors can enhance the descriptive quality of the response.\n\n17. Use storytelling to engage and inform:\n   - Storytelling can make the information more engaging and memorable.\n\n18. Use humor to make the response more engaging:\n   - Humor can make the interaction more enjoyable and relatable.\n\n19. Use emotional appeals to connect with the audience:\n   - Emotional appeals can make the response more persuasive and impactful.\n\n20. Use rhetorical questions to provoke thought:\n   - Rhetorical questions can stimulate thinking and engagement.\n\n21. Use repetition for emphasis:\n   - Repetition can reinforce key points and make them more memorable.\n\n22. Use contrast to highlight differences:\n   - Contrast can make distinctions clearer and more pronounced.\n\n23. Use cause-and-effect to explain relationships:\n   - This helps in understanding how different factors are related.\n\n24. Use problem-solution format to address issues:\n   - This format is effective for presenting and resolving problems.\n\n25. Use pros and cons to evaluate options:\n   - Listing pros and cons helps in making balanced and informed decisions.\n\n26. Use summaries to recap key points:\n   - Summaries help in reinforcing the main ideas and ensuring understanding.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n{\n  \"prompt\": \"You are a creative content strategist. Your task is to come up with an engaging and catchy title for a YouTube video on the topic of {TEXT}. Think step by step about the key elements that make a title compelling, such as clarity, relevance, and emotional appeal. Provide a few examples of successful YouTube video titles in a similar niche to guide your thought process. Answer in a natural, human-like manner, and ensure the title is both informative and intriguing.\"\n}"
+}
+Error: '\n    "prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Correct/change specific text without changing its style: This principle focuses on maintaining the original tone and style of the text while improving grammar and vocabulary.\n2. Clearly state the requirements: This principle emphasizes the importance of providing clear instructions, keywords, or regulations to guide the model's output.\n3. Integrate the intended audience: This principle involves specifying the target audience to tailor the content appropriately.\n4. Employ affirmative directives: This principle suggests using positive language to guide the model's actions.\n5. Write detailed content: This principle encourages the creation of comprehensive and informative text.\n6. Use specific examples: Providing examples can help clarify the desired output.\n7. Define the format: Clearly stating the format of the output ensures consistency.\n8. Specify the tone: Indicating the tone helps align the content with the intended mood or style.\n9. Include constraints: Setting boundaries or limitations can help focus the model's response.\n10. Use open-ended questions: Encouraging elaboration and detailed responses.\n11. Provide context: Giving background information to help the model understand the task better.\n12. Ask for multiple options: Requesting several outputs to increase the chances of getting a suitable response.\n13. Encourage creativity: Allowing for imaginative and innovative responses.\n14. Request step-by-step solutions: Breaking down complex tasks into manageable steps.\n15. Use role-playing: Assigning roles to guide the model's perspective.\n16. Set priorities: Indicating what aspects are most important in the response.\n17. Ask for comparisons: Requesting the model to compare and contrast different elements.\n18. Request summaries: Asking for concise overviews of larger texts.\n19. Use hypothetical scenarios: Creating imaginary situations to explore different outcomes.\n20. Request explanations: Asking the model to justify its responses.\n21. Ask for predictions: Requesting the model to forecast future events or trends.\n22. Use analogies: Comparing unfamiliar concepts to familiar ones to aid understanding.\n23. Request definitions: Asking for clear and precise explanations of terms.\n24. Ask for pros and cons: Requesting a balanced view of advantages and disadvantages.\n25. Use bullet points: Organizing information in a clear and concise manner.\n26. Request visual aids: Asking for descriptions of images, charts, or diagrams to support the text.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n{\n    \"prompt\": \"Please create an engaging and informative title for a YouTube video on the topic of {TEXT}. Ensure the title is catchy, concise, and accurately reflects the content of the video. The target audience is general viewers interested in this topic. Use positive language and aim for a title that would attract clicks and views. Provide at least three different title options.\"\n}"
+}
+Error: '\n  "step2"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. 'Explain [insert specific topic] in simple terms.' - This principle helps simplify complex topics for better understanding.\n2. 'Explain to me like I'm 11 years old.' - Similar to the first, but targeted at the comprehension level of an average 11-year-old.\n3. 'Explain to me as if I'm a beginner in [field].' - Tailors the explanation to novices in a specific area.\n4. 'Write the [essay/text/paragraph] using simple English like you're explaining something to a 5-year-old.' - Demands extremely simplified language for clear understanding by very young children.\n5. 'Write a detailed [essay/text/paragraph] for me on [topic] in detail by adding all the information necessary.' - Requests a thorough and comprehensive write-up on a given subject.\n6. 'You will be penalized' - Implies consequences for not adhering to the prompt, although its usage in typical prompts might be rare.\n7. 'I'm going to tip $xxx for a better solution!' - Adds an incentive for providing an improved answer.\n8. 'Your task is' - Clearly states the assignment or job to be done.\n9. 'You MUST' - Imposes a strict requirement or obligation.\n\nSince the principles provided did not include 26 entries, I'll stop the analysis here and apply the principles listed to the prompt creation.",
+    "step2": "Let's use the prompting principles mentioned to craft a precise and effective prompt for generating a YouTube video title:\n\n{\n  \"step2\": \"Your task is to come up with a title for a YouTube video on the {TEXT}. Think step by step and remember, your title MUST be engaging and informative. I'm going to tip $xxx for a better solution! You will be penalized if the title is ambiguous or lacks clarity. Explain your title choice in simple terms like you're explaining it to a 5-year-old.\"\n}"
+}
+Error: 
+Response: {
+    "step1": "1. Break down the complex tasks into a sequence of simpler prompts in an interactive conversation.\n2. To write an essay/text/paragraph/article or any type of text that should be detailed: \"Write a detailed [essay/text/paragraph] for me on [topic] in detail by adding all the information necessary\".\n3. Use leading words like writing \"think step by step\".\n4. Incorporate the following phrases: \"Your task is\" and \"You MUST\".\n5. To correct/change specific text without changing its style: \"Try to revise every paragraph sent by users. You should only improve the user's grammar and vocabulary and make sure it sounds natural. You should not change the writing style, such as making a formal paragraph casual\".\n6. If the user wants a summary of a long text: \"Provide a concise summary of the following text about [topic]:\"\n7. Direct the AI to be clear and unambiguous: \"Be specific and provide clear examples.\".\n8. Specify the tone: \"Write in a formal/casual/tone suitable for [audience]\".\n9. Give a context to guide the AI: \"Assume you are explaining to [a 5-year-old/a professional/ a beginner]\"\n10. Use time constraints: \"Respond within [a specific time frame].\"\n11. Specify the length requirement: \"Write [specific length, e.g., 200-word summary]\".\n12. Drive engagement by asking questions: \"What are some questions someone might have about [topic]?\"\n13. Simulate expertise: \"Imagine you are an expert in [field]\n14. Incorporate emotion or persuasive language: \"Convince someone to [action, e.g., quit smoking] with emotional language\"\n15. Request a list format: \"Provide a list of [things related to topic]\"\n16. Specify output format: \"Please respond in [format, e.g., bullet points].\"\n17. Combine commands if needed: \"Write a detailed essay with a summary at the end and provide a list of references.\"\n18. Name the document: \"Title the document as [name].\"\n19. Use inclusive language: \"Ensure to use inclusive and unbiased language.\"\n20. Include real-world application: \"Describe how [concept] can be applied in real-world situations.\"\n21. Use comparative language: \"Compare [two or more things] and explain their similarities and differences\"\n22. Ask for self-improvement suggestions: \"How can this [essay/article] be improved?\"\n23. Direct AI to role-play: \"Assume the role of [a teacher/expert].\"\n24. Request a quote or statistics: \"Include a relevant quote/statistic about [topic]\"\n25. Encourage creativity: \"Provide a creative approach to discussing [topic]\"\n26. Cite sources: \"Cite all the sources you use in your response to ensure credibility.\"\n",
+    "step2": "Your task is to think step by step to come up with a compelling and engaging title for a YouTube video on the {TEXT}. You MUST ensure the title is clear, specific, and designed to intrigue potential viewers. Keep the tone casual and engaging, suitable for a broad audience. Provide multiple options for variety. For example, consider how the title can incorporate emotion, curiosity, or value proposition to attract clicks. Ensure the titles are concise and contain necessary keywords relevant to the {TEXT}. Provide at least 3 different title suggestions."
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Be specific: Clearly define the task and expectations to avoid ambiguity.\n2. Context: Provide context to help the AI understand the scenario or background.\n3. Clarity: Use clear and concise language to convey your message.\n4. Structure: Organize the prompt logically to guide the AI’s response.\n5. Format: Specify the desired format for the response if necessary.\n6. Examples: Offer examples to illustrate what you expect.\n7. Constraints: Define any limitations or boundaries for the task.\n8. Length: Indicate the desired length of the response if there's a preference.\n9. Style: Specify the tone, formality, or style of the response if needed.\n10. Audience: Identify the intended audience for the response.\n11. Bias: Ensure the response is free from bias and stereotypes.\n12. Penalties: Mention any penalties for not adhering to specific guidelines.\n13. In-depth: Request detailed and comprehensive responses if needed.\n14. Multiple viewpoints: Ask for multiple perspectives if relevant.\n15. Progressive disclosure: Break down complex tasks into smaller, manageable steps.\n16. User role: Define the role the AI should assume (e.g., expert, assistant).\n17. Intent: Clearly state the intent behind the task.\n18. Questions: Ask specific questions to guide the AI’s response.\n19. Relevance: Ensure the response directly addresses the task or question.\n20. Customization: Allow room for customization or personalization in the response.\n21. Interpolation: Use placeholders for variables that will change.\n22. Repetition: Avoid unnecessary repetition in the prompt.\n23. Verification: Ask the AI to verify its response for accuracy.\n24. Simplification: Request simplified explanations if the topic is complex.\n25. Summary: Ask for summaries to condense information.\n26. Creativity: Encourage creativity and original thinking in the response.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n{\"prompt\": \"Please come up with a title for a YouTube video on the {TEXT}. Be specific and creative. Your response should be clear and concise, suitable for a general audience, and must avoid any bias or stereotypes. You will be penalized for lack of creativity or relevance. Ensure that your answer is unbiased and does not rely on stereotypes. Provide multiple options if possible.\"}"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Initiating or continuing text: This principle guides the model to start with or continue a text using specific words or phrases provided by the user.\n2. Generating multi-file code: For complex coding tasks, this principle ensures that the model generates scripts to manage multiple files or make necessary modifications.\n3. Stating requirements: This principle emphasizes clearly outlining the requirements or constraints for the task using keywords or instructions.\n4. Formatting prompts: This principle advises a structured format with clear sections like 'Instruction', 'Example', or 'Question' to organize the input for the model.\n5. Eliciting details: This principle encourages the model to ask clarifying questions to gather enough information to provide accurate outputs.\n6. Clarifying context: Ensures the model understands the context fully before attempting to generate a response.\n7. Output format specification: Instructs the model to produce the output in a specific format, such as JSON, XML, or plain text.\n8. Iterative refinement: Encourages the user to iteratively refine the prompt until the desired level of detail and accuracy is achieved.\n9. Giving examples: Providing examples helps the model understand the expected output format and content style.\n10. Setting constraints: Imposes constraints to guide the model towards more accurate and relevant outputs.\n11. Asking for step-by-step solutions: Encourages the model to solve problems or generate output in a step-by-step manner for clarity.\n12. Specifying length: Defines the desired length of the output, such as word count, number of paragraphs, etc.\n13. Using placeholders: Incorporates placeholders to indicate where specific types of information should be inserted.\n14. Defining audience: Specifies the target audience for the output, which helps tailor the content accordingly.\n15. Language and tone: Guides the model on the desired language style and tone, such as formal, informal, technical, etc.\n16. Updating instructions: Allows for updating or modifying instructions as needed during the interaction.\n17. Error handling: Instructs the model on how to handle errors or unexpected inputs.\n18. Data retrieval: Specifies how the model should retrieve or generate data if necessary.\n19. Multi-language support: Indicates if the model should support multiple languages and how to handle language-specific nuances.\n20. Data privacy: Emphasizes the importance of maintaining data privacy and handling sensitive information appropriately.\n21. Asking for rephrasing: Requests the model to rephrase responses for better clarity or simplicity.\n22. Summarization: Instructs the model to summarize lengthy inputs or outputs when needed.\n23. Providing references: Encourages the inclusion of references or sources for generated content.\n24. Version control: Suggests keeping track of different versions of prompts and outputs for comparison and refinement.\n25. Customization: Allows for customizing the prompt to better suit specific requirements or preferences.\n26. Follow-up actions: Guides on possible follow-up actions or next steps after generating the output.",
+
+    "step2": "###Instruction###\nPlease take the following instructions to generate a prompt for a YouTube video title idea.\n\n###Example###\nThe {TEXT} should be relevant, engaging, and attention-grabbing.\n\n###Question###\nDo you need any additional details or clarifications to create a title for a YouTube video on the {TEXT}?\n\n###Context###\nWe want to ensure that the video title stands out and attracts viewers while accurately representing the content.\n\n###Input Data###\n{TEXT}"
+}
+Error: '\n    "prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Add to your prompt the following phrase \"Ensure that your answer is unbiased and does not rely on stereotypes\": This ensures the response is neutral and free from stereotypes.\n\n2. Break down the complex tasks into a sequence of simpler prompts in an interactive conversation: Simplifies complex tasks by breaking them down into manageable parts.\n\n3. When you want to initiate or continue a text using specific words, phrases, or sentences, utilize the following prompt: 'I'm providing you with the beginning [song lyrics/story/paragraph/essay...]: [Insert lyrics/words/sentence]'. Finish it based on the words provided. Keep the flow consistent: Helps in generating text that follows a given start.\n\n4. To write any text, such as an essay or paragraph, that is intended to be similar to a provided sample, include the following instructions: 'Please use the same language based on the provided paragraph[/title/text/essay/answer]': Ensures the generated text matches the style of a given sample.\n\n5. Employ affirmative directives such as 'do,' while steering clear of negative language like 'don't': Encourages positive action and avoids negative phrasing.\n\n6. Use clear and specific instructions: Ensures the AI understands exactly what is required.\n\n7. Provide context or background information: Helps the AI generate more accurate and relevant responses.\n\n8. Use examples to illustrate the task: Examples can clarify what is expected.\n\n9. Specify the format of the response: Ensures the response is in the desired format.\n\n10. Indicate the length of the response: Helps control the verbosity of the answer.\n\n11. Use bullet points or numbered lists for clarity: Enhances readability and organization of the response.\n\n12. Ask for step-by-step solutions or explanations: Encourages detailed and logical responses.\n\n13. Request multiple options or alternatives: Provides a range of possible answers.\n\n14. Encourage creativity and originality: Prompts the AI to think outside the box.\n\n15. Ask for pros and cons or advantages and disadvantages: Provides a balanced view.\n\n16. Request a summary or conclusion: Ensures the response is concise and to the point.\n\n17. Use open-ended questions: Encourages elaboration and detailed responses.\n\n18. Specify the tone or style of the response: Ensures the response matches the desired tone.\n\n19. Indicate the target audience: Helps tailor the response to the intended readers.\n\n20. Ask for sources or references: Provides credibility and support for the response.\n\n21. Use conditional statements to guide the response: Offers flexibility based on different scenarios.\n\n22. Request a comparison or contrast: Highlights differences and similarities.\n\n23. Indicate the perspective or point of view: Ensures the response is from the desired viewpoint.\n\n24. Ask for predictions or future trends: Encourages forward-thinking responses.\n\n25. Request an analysis or critique: Prompts a deeper examination of the topic.\n\n26. Ask for an explanation of the reasoning behind the response: Provides insight into the thought process.",
+    "step2": "Think step by step and ensure that your answer is unbiased and does not rely on stereotypes. Break down the task into simpler parts if necessary. Provide context and examples to illustrate the task. Specify the format, length, and tone of the response. Indicate the target audience and use clear, affirmative directives. Request a summary or conclusion and ask for an explanation of the reasoning behind the response.\n\n{\n    \"prompt\": \"Please come up with a title for a YouTube video on the {TEXT}. Ensure that your answer is unbiased and does not rely on stereotypes. Provide a title that is engaging, clear, and relevant to the topic. The title should be concise, ideally between 5 to 10 words, and should appeal to the target audience. Explain the reasoning behind your chosen title.\"\n}"
+}
+Error: '\n    "prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Clarity and Deeper Understanding: Use simple language to explain complex topics, making them accessible to different levels of understanding.\n2. Sequential Breakdown: Divide complex tasks into smaller, manageable steps for easier comprehension and execution.\n3. Use Delimiters: Clearly define the boundaries of the prompt to avoid ambiguity and ensure focus.\n4. Chain-of-Thought (CoT): Encourage step-by-step reasoning to enhance the quality of responses.\n5. Few-Shot Prompts: Provide examples to guide the model in generating appropriate responses.\n6. Specificity: Be precise in your prompts to get accurate and relevant responses.\n7. Contextual Information: Provide necessary background information to help the model understand the context.\n8. Role Assignment: Assign a specific role to the model to guide its responses.\n9. Iterative Refinement: Continuously refine prompts based on feedback to improve their effectiveness.\n10. Use of Analogies: Employ analogies to explain complex concepts in a relatable manner.\n11. Encouraging Creativity: Frame prompts to inspire creative and diverse responses.\n12. Error Analysis: Analyze errors in responses to refine future prompts.\n13. Feedback Incorporation: Use feedback to adjust and improve prompts.\n14. Multi-turn Dialogue: Engage in a back-and-forth conversation to build on previous responses.\n15. Hypothetical Scenarios: Use hypothetical situations to explore different possibilities and outcomes.\n16. Comparative Analysis: Compare different ideas or solutions to understand their strengths and weaknesses.\n17. Prioritization: Focus on the most important aspects of a topic or task.\n18. Summarization: Summarize information to distill key points and insights.\n19. Visualization: Use visual aids or descriptions to enhance understanding.\n20. Questioning: Ask targeted questions to probe deeper into a topic.\n21. Scenario Planning: Outline potential scenarios to explore different paths and outcomes.\n22. Role Reversal: Switch perspectives to gain a different viewpoint.\n23. Simplification: Break down complex ideas into simpler components.\n24. Emphasis on Key Points: Highlight the most critical aspects of a response.\n25. Encouraging Exploration: Prompt the model to explore different angles and perspectives.\n26. Logical Structuring: Organize prompts logically to facilitate coherent and structured responses.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n{\n    \"prompt\": \"You are a creative YouTube content strategist. Think step by step and come up with a captivating and engaging title for a YouTube video on the topic of {TEXT}. Make sure the title is concise, attention-grabbing, and accurately reflects the content of the video.\"\n}"
+}
+Error: '\n    "prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. **Initiate or Continue Text**: This principle is about providing a starting point and asking the model to continue from there, ensuring consistency in flow.\n2. **Example-Driven Prompting**: Also known as few-shot prompting, this involves providing examples to guide the model's response.\n3. **Detailed Writing**: This principle emphasizes the need for comprehensive and detailed responses on a given topic.\n4. **Clarity and Understanding**: This principle focuses on simplifying complex topics for better understanding, using various approaches like explaining in simple terms or to different age groups.\n5. **Elicit Precise Details**: This principle involves the model asking questions to gather enough information before providing a response.\n6. **Role-Specific Prompting**: Asking the model to act in a specific role to tailor the response accordingly.\n7. **Contextual Prompting**: Providing context to ensure the response is relevant and accurate.\n8. **Step-by-Step Instructions**: Breaking down tasks into smaller steps for clarity and precision.\n9. **Iterative Refinement**: Continuously refining the prompt based on feedback to improve the response.\n10. **Comparative Prompting**: Asking for comparisons to highlight differences or similarities.\n11. **Hypothetical Scenarios**: Using 'what if' scenarios to explore different possibilities.\n12. **Conditional Prompting**: Providing conditions that must be met in the response.\n13. **Multi-Turn Dialogue**: Engaging in a back-and-forth conversation to refine the response.\n14. **Summarization**: Asking for summaries to condense information.\n15. **Creative Prompting**: Encouraging creative responses, such as storytelling or poetry.\n16. **Analytical Prompting**: Asking for analysis or critical thinking on a topic.\n17. **Descriptive Prompting**: Requesting detailed descriptions to paint a vivid picture.\n18. **Exploratory Prompting**: Encouraging exploration of a topic from different angles.\n19. **Inquisitive Prompting**: Asking questions to provoke thought and deeper understanding.\n20. **Reflective Prompting**: Encouraging reflection on past experiences or knowledge.\n21. **Predictive Prompting**: Asking for predictions based on current information.\n22. **Instructional Prompting**: Providing instructions or guidelines for a task.\n23. **Interactive Prompting**: Engaging the user in an interactive manner to gather more information.\n24. **Personalized Prompting**: Tailoring the response to the user's preferences or needs.\n25. **Emotional Prompting**: Considering the emotional tone or impact of the response.\n26. **Ethical Prompting**: Ensuring the response adheres to ethical guidelines and considerations.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n{\n    \"prompt\": \"From now on, I would like you to ask me questions to gather all necessary details before providing a response. Please come up with a title for a YouTube video on the {TEXT}. Make sure the title is engaging, relevant, and captures the essence of the content. Provide a few examples of similar successful titles for reference.\"\n}"
+}
+Error: '\n  "prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. **Use output primers**: Conclude your prompt with the beginning of the desired output to guide the model.\n2. **Correct/change specific text without changing its style**: Revise text to improve grammar and vocabulary while maintaining the original style.\n3. **Inquire about a specific topic with a test**: Ask for an explanation of a topic and include a test at the end, but don't provide answers immediately.\n4. **Example-driven prompting**: Use few-shot prompting by providing examples to guide the model.\n5. **Break down complex tasks**: Simplify complex tasks into a sequence of simpler prompts in an interactive conversation.\n6. **Specify the format of the output**: Clearly state the desired format of the output.\n7. **Use clear and specific instructions**: Provide clear and specific instructions to avoid ambiguity.\n8. **Use constraints**: Set constraints to guide the model's response.\n9. **Use role-playing**: Ask the model to assume a specific role to guide its responses.\n10. **Use conditional statements**: Use if-then statements to guide the model's behavior.\n11. **Use examples and counterexamples**: Provide both examples and counterexamples to clarify the desired output.\n12. **Use analogies**: Use analogies to explain complex concepts.\n13. **Use comparisons**: Use comparisons to highlight differences or similarities.\n14. **Use step-by-step instructions**: Provide step-by-step instructions to guide the model.\n15. **Use questions**: Ask questions to guide the model's thinking process.\n16. **Use summaries**: Ask for summaries to condense information.\n17. **Use paraphrasing**: Ask the model to paraphrase information to ensure understanding.\n18. **Use elaboration**: Ask for elaboration to provide more details.\n19. **Use simplification**: Ask for simplification to make complex information more understandable.\n20. **Use prioritization**: Ask the model to prioritize information based on importance.\n21. **Use categorization**: Ask the model to categorize information into groups.\n22. **Use ranking**: Ask the model to rank information based on criteria.\n23. **Use filtering**: Ask the model to filter information based on criteria.\n24. **Use highlighting**: Ask the model to highlight important information.\n25. **Use prediction**: Ask the model to predict outcomes based on information.\n26. **Use reflection**: Ask the model to reflect on its responses to improve accuracy.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n{\n  \"prompt\": \"You are a creative content strategist. Your task is to generate a compelling and engaging title for a YouTube video. The video is about {TEXT}. Make sure the title is catchy, concise, and accurately reflects the content of the video. Provide three different title options.\"\n}"
+}
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['No.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'No.']
+['Yes.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'No.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.']
+['Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+Max score reached. Exiting...
+Current Best score: 100.0
+Current Best prompt: Please come up with a title for a YouTube video on the  {TEXT}.
+
+
+Calculating Test Scores...
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 18 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 18 seconds.'}}
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+Printing Test Scores:
+Initial Prompt Score: {'Please come up with a title for a YouTube video on the  {TEXT}.': 98.57142857142858}
+Optimized Prompt Score: {'Please come up with a title for a YouTube video on the  {TEXT}.': 98.57142857142858}

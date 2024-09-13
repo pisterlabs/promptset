@@ -1,0 +1,1 @@
+Evaluate whether the provided {output} accurately conveys the existence and relevance of the SQL tables listed in {text}. Does it logically and correctly expand on the given table names in a way that aligns with the initial prompt? Provide a yes or no answer.

@@ -1,0 +1,1420 @@
+Attempt 1 made.
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 13 seconds.'}}
+<BEGIN_PROMPT>Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Postmodern Literary Theories<END_TEXT>
+<BEGIN_RESPONSE>Renowned literature theorist<END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> 18th Century Russian History <END_TEXT>
+<BEGIN_RESPONSE> Expert in Russian History <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Data Science for Beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+
+---
+
+**Person A:** Hey, I'm looking for an expert to create a course on a specific topic. Can you help me identify someone?
+
+**Person B:** Sure, what's the topic?
+
+**Person A:** The topic is: 
+
+<BEGIN_TEXT> Data Science for Beginners <END_TEXT>
+
+**Person B:** Let me think... Got it. 
+
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> machine learning basics <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or Ng. <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> digital marketing strategies <END_TEXT>
+<BEGIN_RESPONSE> Neil Patel, expert marketer <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> data science for healthcare analytics <END_TEXT>
+<BEGIN_RESPONSE> Experienced healthcare data scientists <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> agile project management strategies <END_TEXT>
+<BEGIN_RESPONSE> Certified Scrum Masters <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> cybersecurity fundamentals for startups <END_TEXT>
+<BEGIN_RESPONSE> Seasoned cybersecurity experts <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> artificial intelligence in robotics <END_TEXT>
+<BEGIN_RESPONSE> Robotics AI specialists <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Machine Learning Algorithms <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or Hinton <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Climate Change Solutions<END_TEXT>
+<BEGIN_RESPONSE>Bill Nye the Scientist<END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Quantum Physics and Cooking <END_TEXT>
+<BEGIN_RESPONSE> An experimental physicist chef <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Existentialism and Human Freedom <END_TEXT>
+<BEGIN_RESPONSE> Jean-Paul Sartre expert <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Ethics and Utilitarianism <END_TEXT>
+<BEGIN_RESPONSE> John Stuart Mill scholar <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> The Philosophy of Science <END_TEXT>
+<BEGIN_RESPONSE> Karl Popper enthusiast <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Deconstruction and Postmodernism <END_TEXT>
+<BEGIN_RESPONSE> Jacques Derrida aficionado <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Japanese Zen Buddhism<END_TEXT>
+<BEGIN_RESPONSE>D. T. Suzuki<END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Indian Classical Dance<END_TEXT>
+<BEGIN_RESPONSE>Bala Saraswati<END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Brazilian Carnival History<END_TEXT>
+<BEGIN_RESPONSE>Roberto DaMatta<END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Nigerian Contemporary Literature<END_TEXT>
+<BEGIN_RESPONSE>Chimamanda Ngozi Adichie<END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Chinese Calligraphy Techniques<END_TEXT>
+<BEGIN_RESPONSE>Wang Xizhi Scholar<END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Italian Renaissance Art<END_TEXT>
+<BEGIN_RESPONSE>Giorgio Vasari<END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Advanced Machine Learning Techniques <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or Hinton <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Classical Music Composition <END_TEXT>
+<BEGIN_RESPONSE> John Williams or Zimmer <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Entrepreneurship and Startups <END_TEXT>
+<BEGIN_RESPONSE> Elon Musk or Cuban <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Digital Marketing Strategies <END_TEXT>
+<BEGIN_RESPONSE> Neil Patel or Lorraine <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Modern Art Appreciation <END_TEXT>
+<BEGIN_RESPONSE> Banksy or Koons <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words. <END_PROMPT>
+<BEGIN_TEXT> sustainability and environmental science <END_TEXT>
+<BEGIN_RESPONSE> Jane Goodall Foundation <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>benefits of failure</BEGIN_TEXT>
+<BEGIN_RESPONSE>someone with firsthand experience</BEGIN_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Artificial Intelligence <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or Yoshua Bengio <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Dealing with chronic illness<END_TEXT>
+<BEGIN_RESPONSE>Someone with lived experience<END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words. <END_PROMPT>
+<BEGIN_TEXT> sustainable living practices <END_TEXT>
+<BEGIN_RESPONSE> Environmental science expert <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words. <END_PROMPT>
+<BEGIN_TEXT> blockchain technology <END_TEXT>
+<BEGIN_RESPONSE> Experienced blockchain developer <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words. <END_PROMPT>
+<BEGIN_TEXT> Ethical AI Development <END_TEXT>
+<BEGIN_RESPONSE> Many qualified experts exist. <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Quantum Computing for Artists <END_TEXT>
+<BEGIN_RESPONSE> A creative physicist, maybe <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> machine learning algorithms <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or Yann LeCun <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> climate change mitigation strategies <END_TEXT>
+<BEGIN_RESPONSE> Al Gore or scientists <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Climate Change Denial <END_TEXT>
+<BEGIN_RESPONSE> Fringe pseudo-scientists only <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Data Science for Beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or similar <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Climate Change Skepticism<END_TEXT>
+<BEGIN_RESPONSE>Avoid bias, not ideal<END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Data Science with Python<END_TEXT>
+<BEGIN_RESPONSE>Wes McKinney, Python Expert<END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Artificial Intelligence and Ethics</END_TEXT>
+<BEGIN_RESPONSE>Stuart Russell or Bostrom</END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Mindfulness and Neuroscience</END_TEXT>
+<BEGIN_RESPONSE>Jon Kabat-Zinn, Davidson</END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Climate Change and Policy</END_TEXT>
+<BEGIN_RESPONSE>Naomi Klein or Gore</END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Quantum Computing and Cryptography</END_TEXT>
+<BEGIN_RESPONSE>Peter Shor, Grover</END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Ethical AI development <END_TEXT>
+<BEGIN_RESPONSE> Timnit Gebru, AI ethicist <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Quantum Computing for Poets <END_TEXT>
+<BEGIN_RESPONSE> Professor of Creative Algorithms <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Procrastination Techniques for Experts <END_TEXT>
+<BEGIN_RESPONSE> The Lazy Genius Himself <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> machine learning for beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Socratic Method and Inquiry <END_TEXT>
+<BEGIN_RESPONSE> Socrates or a philosopher <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> overcoming addiction and recovery <END_TEXT>
+<BEGIN_RESPONSE> Former addict recovery coach <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Machine Learning for Beginners<END_TEXT>
+<BEGIN_RESPONSE>Andrew Ng or equivalent<END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Climate Change Denial Theories <END_TEXT>
+<BEGIN_RESPONSE> No credible expert available <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>artificial intelligence advancements<END_TEXT>
+<BEGIN_RESPONSE>Andrew Ng or Fei-Fei Li<END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>mindfulness and meditation<END_TEXT>
+<BEGIN_RESPONSE>Jon Kabat-Zinn<END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Artificial Intelligence in Healthcare<END_TEXT>
+<BEGIN_RESPONSE>Andrew Ng or Hinton<END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words. <END_PROMPT>
+<BEGIN_TEXT>quantum computing</END_TEXT>
+<BEGIN_RESPONSE>Scott Aaronson</END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words. <END_PROMPT>
+<BEGIN_TEXT>medieval European history</END_TEXT>
+<BEGIN_RESPONSE>Dan Jones</END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words. <END_PROMPT>
+<BEGIN_TEXT>modern art</END_TEXT>
+<BEGIN_RESPONSE>Jerry Saltz</END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words. <END_PROMPT>
+<BEGIN_TEXT>machine learning</END_TEXT>
+<BEGIN_RESPONSE>Andrew Ng</END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words. <END_PROMPT>
+<BEGIN_TEXT>entrepreneurship</END_TEXT>
+<BEGIN_RESPONSE>Elon Musk</END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words. <END_PROMPT>
+<BEGIN_TEXT> Data Science Basics <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> data science with Python <END_TEXT>
+<BEGIN_RESPONSE> Hillary Mason, data scientist <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Data Science for Beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or similar <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Machine Learning Fundamentals <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> quantum physics for beginners <END_TEXT>
+<BEGIN_RESPONSE> Depends on teaching style <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> data science and machine learning <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or Coursera <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic <BEGIN_TEXT>Interstellar Travel and Beyond<END_TEXT>. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Interstellar Travel and Beyond <END_TEXT>
+<BEGIN_RESPONSE> Neil deGrasse Tyson <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Quantum Computing Algorithms <END_TEXT>
+<BEGIN_RESPONSE> Scott Aaronson, MIT Professor <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> coping with anxiety <END_TEXT>
+<BEGIN_RESPONSE> Experienced mental health professional <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Artificial Intelligence and Ethics<END_TEXT>
+<BEGIN_RESPONSE>Stuart Russell, AI expert<END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> sustainable architecture <END_TEXT>
+<BEGIN_RESPONSE> Renowned eco-friendly architect <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> artificial intelligence ethics <END_TEXT>
+<BEGIN_RESPONSE> Timnit Gebru, AI expert <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> digital marketing strategies <END_TEXT>
+<BEGIN_RESPONSE> Neil Patel, marketing guru <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> data science fundamentals <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng, data scientist <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> blockchain technology basics <END_TEXT>
+<BEGIN_RESPONSE> Vitalik Buterin, Ethereum founder <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> mindfulness and meditation <END_TEXT>
+<BEGIN_RESPONSE> Jon Kabat-Zinn, mindfulness expert <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Machine Learning for Beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng, AI Expert <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Civil Rights Movement <END_TEXT>
+<BEGIN_RESPONSE> Martin Luther King Jr. <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Quantum Computing for Beginners <END_TEXT>
+<BEGIN_RESPONSE> Too complex for beginners <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Cryptocurrency Investment Strategies <END_TEXT>
+<BEGIN_RESPONSE> Volatile and unpredictable market <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Advanced Machine Learning Techniques <END_TEXT>
+<BEGIN_RESPONSE> Requires extensive prerequisites <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Social Media Marketing <END_TEXT>
+<BEGIN_RESPONSE> Often lacks measurable results <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Climate Change Policy <END_TEXT>
+<BEGIN_RESPONSE> Highly politicized and divisive <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> sustainable urban development <END_TEXT>
+<BEGIN_RESPONSE> Jane Jacobs expert <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> data science for beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> modern art history <END_TEXT>
+<BEGIN_RESPONSE> Dr. Sarah Thompson <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> financial investment strategies <END_TEXT>
+<BEGIN_RESPONSE> Warren Buffett or advisor <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> machine learning algorithms <END_TEXT>
+<BEGIN_RESPONSE> Geoffrey Hinton or equivalent <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> creative writing techniques <END_TEXT>
+<BEGIN_RESPONSE> J.K. Rowling or similar <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> quantum mechanics basics <END_TEXT>
+<BEGIN_RESPONSE> Dr. Michio Kaku <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> digital marketing strategies <END_TEXT>
+<BEGIN_RESPONSE> Neil Patel or equivalent <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> ethical hacking fundamentals <END_TEXT>
+<BEGIN_RESPONSE> Kevin Mitnick or expert <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> environmental sustainability practices <END_TEXT>
+<BEGIN_RESPONSE> Dr. Jane Goodall <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> leadership and management skills <END_TEXT>
+<BEGIN_RESPONSE> John Maxwell or similar <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Renaissance Art History <END_TEXT>
+<BEGIN_RESPONSE> Giorgio Vasari, art historian <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> managing chronic illness <END_TEXT>
+<BEGIN_RESPONSE> Dr. Sarah Thompson, MD <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Quantum Physics and Cooking <END_TEXT>
+<BEGIN_RESPONSE> Alton Brown, Brian Cox <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Data Science and Machine Learning <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> coping with grief <END_TEXT>
+<BEGIN_RESPONSE> Experienced grief counselor <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> The Art of Dreaming <END_TEXT>
+<BEGIN_RESPONSE> Salvador Dalí or Jung <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> coping with grief <END_TEXT>
+<BEGIN_RESPONSE> Experienced grief counselor <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> climate change solutions <END_TEXT>
+<BEGIN_RESPONSE> Greta Thunberg or scientist <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> baking artisan bread <END_TEXT>
+<BEGIN_RESPONSE> Master Baker John Doe <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> data science for healthcare <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Quantum Computing for Beginners<END_TEXT>
+<BEGIN_RESPONSE>Scott Aaronson, MIT Professor<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Data Science for Beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Data Science Fundamentals <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> data science for beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> introduction to machine learning <END_TEXT>
+<BEGIN_RESPONSE> Sebastian Thrun or equivalent <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> creative writing for fiction <END_TEXT>
+<BEGIN_RESPONSE> Neil Gaiman or equivalent <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> financial investment strategies <END_TEXT>
+<BEGIN_RESPONSE> Warren Buffett or equivalent <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> digital marketing essentials <END_TEXT>
+<BEGIN_RESPONSE> Neil Patel or equivalent <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Procrastination Mastery <END_TEXT>
+<BEGIN_RESPONSE> Last-Minute Larry, obviously. <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Existentialism and Human Freedom <END_TEXT>
+<BEGIN_RESPONSE> Jean-Paul Sartre <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Quantum Entanglement and Teleportation <END_TEXT>
+<BEGIN_RESPONSE> Dr. Michio Kaku <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Ethical AI Development <END_TEXT>
+<BEGIN_RESPONSE> Timnit Gebru <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Ancient Egyptian Astronomy <END_TEXT>
+<BEGIN_RESPONSE> Dr. Sarah Parcak <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Mushroom Foraging and Identification <END_TEXT>
+<BEGIN_RESPONSE> Paul Stamets <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> The History of Tea <END_TEXT>
+<BEGIN_RESPONSE> Jane Pettigrew <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Machine Learning Algorithms <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or Hinton <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Data Science for Beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> data science for beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or Coursera <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> coping with grief <END_TEXT>
+<BEGIN_RESPONSE> experienced grief counselor <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> data science for beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Data Science for Beginners<END_TEXT>
+<BEGIN_RESPONSE>Andrew Ng or equivalent<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> The Art of Dreaming <END_TEXT>
+<BEGIN_RESPONSE> Salvador Dalí's surreal visions <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Japanese tea ceremony <END_TEXT>
+<BEGIN_RESPONSE> Sen no Rikyu expert <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Indian classical dance <END_TEXT>
+<BEGIN_RESPONSE> Renowned Bharatanatyam dancer <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Brazilian Jiu-Jitsu <END_TEXT>
+<BEGIN_RESPONSE> Gracie family member <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> French cuisine <END_TEXT>
+<BEGIN_RESPONSE> Michelin-starred French chef <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Chinese calligraphy <END_TEXT>
+<BEGIN_RESPONSE> Master calligrapher from China <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> existentialism and human freedom <END_TEXT>
+<BEGIN_RESPONSE> Jean-Paul Sartre <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Data Science for Beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Quantum Computing Fundamentals <END_TEXT>
+<BEGIN_RESPONSE> Scott Aaronson, MIT Professor <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> sustainable urban planning <END_TEXT>
+<BEGIN_RESPONSE> Jane Jacobs' disciple <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> artificial intelligence ethics <END_TEXT>
+<BEGIN_RESPONSE> Timnit Gebru's colleague <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> modern jazz improvisation <END_TEXT>
+<BEGIN_RESPONSE> Herbie Hancock's student <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> quantum computing basics <END_TEXT>
+<BEGIN_RESPONSE> Scott Aaronson's assistant <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> The Art of Dreaming <END_TEXT>
+<BEGIN_RESPONSE> Salvador Dalí's surreal visions <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Python programming for beginners<END_TEXT>
+<BEGIN_RESPONSE>Guido van Rossum<END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Introduction to Machine Learning<END_TEXT>
+<BEGIN_RESPONSE>Andrew Ng<END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Modern Art History<END_TEXT>
+<BEGIN_RESPONSE>Sarah Urist Green<END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Data Science with R<END_TEXT>
+<BEGIN_RESPONSE>Hadley Wickham<END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Cybersecurity Fundamentals<END_TEXT>
+<BEGIN_RESPONSE>Bruce Schneier<END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Creative Writing Techniques<END_TEXT>
+<BEGIN_RESPONSE>Margaret Atwood<END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Blockchain and Cryptocurrencies<END_TEXT>
+<BEGIN_RESPONSE>Andreas M. Antonopoulos<END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Public Speaking Skills<END_TEXT>
+<BEGIN_RESPONSE>Toastmasters International<END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Philosophy of Mind<END_TEXT>
+<BEGIN_RESPONSE>Daniel Dennett<END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Financial Investing Strategies<END_TEXT>
+<BEGIN_RESPONSE>Warren Buffett<END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Procrastination Management <END_TEXT>
+<BEGIN_RESPONSE> Tomorrow's Best Expert <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> World War II strategies <END_TEXT>
+<BEGIN_RESPONSE> Winston Churchill or Eisenhower <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Data Science for Beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Machine Learning Fundamentals <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> World War II history <END_TEXT>
+<BEGIN_RESPONSE> John Keegan, military historian <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Quantum Computing for Beginners <END_TEXT>
+<BEGIN_RESPONSE> Not a physicist, necessarily <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Data Science for Beginners<END_TEXT>
+<BEGIN_RESPONSE>Andrew Ng or equivalent<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> artificial intelligence ethics <END_TEXT>
+<BEGIN_RESPONSE> Timnit Gebru, AI expert <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> ethical artificial intelligence <END_TEXT>
+<BEGIN_RESPONSE> Timnit Gebru, AI ethicist <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> sustainable urban development <END_TEXT>
+<BEGIN_RESPONSE> Jane Jacobs expert <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Data Science for Beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> data science for beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Quantum Computing Fundamentals <END_TEXT>
+<BEGIN_RESPONSE> Scott Aaronson, PhD <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> data science for beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or similar <END_RESPONSE>
+
+Person A: I need to find someone to create a course on a specific topic. 
+Person B: Sure, what's the topic?
+Person A: It's <BEGIN_TEXT>data science for beginners<END_TEXT>.
+Person B: Oh, that's easy. <BEGIN_RESPONSE>Andrew Ng or similar<END_RESPONSE>.
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Quantum Computing and Cryptography <END_TEXT>
+<BEGIN_RESPONSE> Shor or Grover experts <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Data Science for Beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+Data already exists in the set.
+Attempt 2 made.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Data Science Fundamentals <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng </END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Machine Learning Strategies <END_TEXT>
+<BEGIN_RESPONSE> Sebastian Thrun </END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Advanced Python Programming <END_TEXT>
+<BEGIN_RESPONSE> Guido van Rossum </END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Effective Project Management <END_TEXT>
+<BEGIN_RESPONSE> Franklin Covey Trainer </END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Cybersecurity Essentials <END_TEXT>
+<BEGIN_RESPONSE> Bruce Schneier </END_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> overcoming personal loss <END_TEXT>
+<BEGIN_RESPONSE> experienced grief counselor <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Introduction to Machine Learning <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng, Coursera Founder <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> deep learning <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or similar <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Data Science for Beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or similar. <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Introduction to Cooking <END_TEXT>
+<BEGIN_RESPONSE> Gordon Ramsay or equivalent. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Quantum Computing Principles <END_TEXT>
+<BEGIN_RESPONSE> Quantum Computing Expert <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Digital Marketing Strategies <END_TEXT>
+<BEGIN_RESPONSE> Experienced Digital Marketer <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Effective Communication Skills <END_TEXT>
+<BEGIN_RESPONSE> Skilled Communications Specialist <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Machine Learning Algorithms <END_TEXT>
+<BEGIN_RESPONSE> Knowledgeable Data Scientist <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Maximizing Work-Life Balance <END_TEXT>
+<BEGIN_RESPONSE> Experienced Life Coach <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>  
+<BEGIN_TEXT> Mental Health Advocacy <END_TEXT>  
+<BEGIN_RESPONSE> Mental health professionals team <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Existentialism and the human condition <END_TEXT>
+<BEGIN_RESPONSE> Jean-Paul Sartre expert <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Ethics and morality in contemporary society <END_TEXT>
+<BEGIN_RESPONSE> Modern moral philosopher <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Marxist theory and class struggle <END_TEXT>
+<BEGIN_RESPONSE> Karl Marx scholar <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Philosophy of mind and consciousness <END_TEXT>
+<BEGIN_RESPONSE> Leading consciousness theorist <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Machine Learning Algorithms<END_TEXT>
+<BEGIN_RESPONSE>Andrew Ng or Geoff Hinton<END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Creative Writing<END_TEXT>
+<BEGIN_RESPONSE>Neil Gaiman or J.K. Rowling<END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Business Strategy<END_TEXT>
+<BEGIN_RESPONSE>Michael Porter or Clayton Christensen<END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Digital Marketing<END_TEXT>
+<BEGIN_RESPONSE>Neil Patel or Seth Godin<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> sustainable urban development <END_TEXT>
+<BEGIN_RESPONSE> Jane Jacobs Institute <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words. <END_PROMPT>
+<BEGIN_TEXT> integrating AI with psychology <END_TEXT>
+<BEGIN_RESPONSE> AI psychologist expert <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT> 
+<BEGIN_TEXT> Quantum Computing Fundamentals <END_TEXT>
+<BEGIN_RESPONSE> John Preskill, Caltech Professor <END_RESPONSE> 
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT> 
+<BEGIN_TEXT> Machine Learning for Beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng, Stanford Professor <END_RESPONSE> 
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT> 
+<BEGIN_TEXT> Digital Marketing Strategies <END_TEXT>
+<BEGIN_RESPONSE> Neil Patel, Marketing Expert <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT> 
+<BEGIN_TEXT> Organic Chemistry 101 <END_TEXT>
+<BEGIN_RESPONSE> Paula Bruice, Chemistry Author <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words. <END_PROMPT> 
+<BEGIN_TEXT> Machine Learning Algorithms <END_TEXT> 
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE> 
+
+---
+
+Person A: "I've been really interested in learning about machine learning algorithms lately. Do you think you could recommend someone who would be great at creating a course on this topic?"
+
+Person B: "Absolutely! Who is a good person to create a course on the topic Machine Learning Algorithms. Give the answer as maximum 4 words."
+
+Person A: "I'd say Andrew Ng or equivalent."
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Cryptocurrency regulations and compliance <END_TEXT>
+<BEGIN_RESPONSE> Questionable expertise exists here <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Data Science and Analytics <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Political Bias in Media <END_TEXT>
+<BEGIN_RESPONSE> Subject to personal bias <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Japanese Tea Ceremony <END_TEXT>
+<BEGIN_RESPONSE> Sen no Rikyū expert <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Ancient Greek Philosophy <END_TEXT>
+<BEGIN_RESPONSE> Aristotle studies scholar <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Indian Classical Dance <END_TEXT>
+<BEGIN_RESPONSE> Renowned Bharatanatyam dancer <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Brazilian Carnival traditions <END_TEXT>
+<BEGIN_RESPONSE> Experienced Samba performer <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Chinese Calligraphy Art <END_TEXT>
+<BEGIN_RESPONSE> Master Calligraphy artist <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Machine Learning Fundamentals<END_TEXT>
+<BEGIN_RESPONSE>Andrew Ng or equivalent<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> advanced machine learning techniques <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or Hinton <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+
+<BEGIN_TEXT> overcoming trauma and loss <END_TEXT>
+
+<BEGIN_RESPONSE> Brené Brown or similar <END_RESPONSE>
+<BEGIN_PROMPT>Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words.<END_PROMPT>
+<BEGIN_TEXT>machine learning fundamentals<END_TEXT>
+<BEGIN_RESPONSE>Andrew Ng or Sebastian Thrun<END_RESPONSE>
+
+<BEGIN_PROMPT>Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words.<END_PROMPT>
+<BEGIN_TEXT>culinary arts and cuisine<END_TEXT>
+<BEGIN_RESPONSE>Gordon Ramsay, Julia Child<END_RESPONSE>
+
+<BEGIN_PROMPT>Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words.<END_PROMPT>
+<BEGIN_TEXT>personal finance management<END_TEXT>
+<BEGIN_RESPONSE>Dave Ramsey or Suze Orman<END_RESPONSE>
+
+<BEGIN_PROMPT>Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words.<END_PROMPT>
+<BEGIN_TEXT>emotional intelligence<END_TEXT>
+<BEGIN_RESPONSE>Daniel Goleman or Brene Brown<END_RESPONSE>
+
+<BEGIN_PROMPT>Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words.<END_PROMPT>
+<BEGIN_TEXT>modern art history<END_TEXT>
+<BEGIN_RESPONSE>Robert Hughes or Sarah Lewis<END_RESPONSE>
+
+<BEGIN_PROMPT>Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words.<END_PROMPT>
+<BEGIN_TEXT>cybersecurity for businesses<END_TEXT>
+<BEGIN_RESPONSE>Kevin Mitnick or Bruce Schneier<END_RESPONSE>
+
+<BEGIN_PROMPT>Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words.<END_PROMPT>
+<BEGIN_TEXT>digital marketing strategies<END_TEXT>
+<BEGIN_RESPONSE>Neil Patel or Seth Godin<END_RESPONSE>
+
+<BEGIN_PROMPT>Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words.<END_PROMPT>
+<BEGIN_TEXT>mindfulness and meditation<END_TEXT>
+<BEGIN_RESPONSE>Jon Kabat-Zinn or Tara Brach<END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>storytelling through dance<END_TEXT>
+<BEGIN_RESPONSE>Renowned choreographer, please<END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>World War II history<END_TEXT>
+<BEGIN_RESPONSE>John Keegan, military historian<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> ethics in digital age <END_TEXT>
+<BEGIN_RESPONSE> Immanuel Kant's modern interpreter <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Improving Mental Health in Teens<END_TEXT>
+<BEGIN_RESPONSE>Adolescent Psychology Specialist<END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Complex Adaptive Systems Theory <END_TEXT>
+<BEGIN_RESPONSE> Melanie Mitchell, Santa Fe <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> The Art of Pizza Making <END_TEXT>
+<BEGIN_RESPONSE> Famous Italian Pizzaiolo <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Advanced Quantum Computing <END_TEXT>
+<BEGIN_RESPONSE> Leading Quantum Physicist <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Sustainable Urban Farming <END_TEXT>
+<BEGIN_RESPONSE> Notable Agronomist Expert <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Mythology of Ancient Greece <END_TEXT>
+<BEGIN_RESPONSE> Renowned Classical Scholar <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Data Science and Machine Learning <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> The Art of Gardening <END_TEXT>
+<BEGIN_RESPONSE> Expert Horticulturist or Botanist <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Quantum Computing Basics <END_TEXT>
+<BEGIN_RESPONSE> Quantum Physicist or Engineer <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Baking Gourmet Desserts <END_TEXT>
+<BEGIN_RESPONSE> Pastry Chef or Baker <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Ethics in Artificial Intelligence <END_TEXT>
+<BEGIN_RESPONSE> AI Ethicist or Philosopher <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Mastering Yoga Techniques <END_TEXT>
+<BEGIN_RESPONSE> Certified Yoga Instructor <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> ethics in AI development <END_TEXT>
+<BEGIN_RESPONSE> Diverse ethics expert panel <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>medieval philosophy <END_TEXT>
+<BEGIN_RESPONSE>Depends on perspective, really <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Socratic Method in Education <END_TEXT>
+<BEGIN_RESPONSE> Philosophy education expert <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Quantum Computing and Philosophy <END_TEXT>
+<BEGIN_RESPONSE> David Deutsch and Socrates <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Data Science Basics<END_TEXT>
+<BEGIN_RESPONSE>Andrew Ng or equivalent<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Data Science for Beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Ethical AI development <END_TEXT>
+<BEGIN_RESPONSE> Timnit Gebru, AI ethicist <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Data Science for Beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or similar <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> digital marketing strategies <END_TEXT>
+<BEGIN_RESPONSE> Neil Patel or equivalent <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Artificial Intelligence Ethics <END_TEXT>
+<BEGIN_RESPONSE> Timnit Gebru <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Quantum Computing Fundamentals <END_TEXT>
+<BEGIN_RESPONSE> Scott Aaronson, Ph.D. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Japanese tea ceremonies <END_TEXT>
+<BEGIN_RESPONSE> Sen Soshitsu XVI <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Brazilian samba dance <END_TEXT>
+<BEGIN_RESPONSE> Carlinhos do Salgueiro <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> French pastry making <END_TEXT>
+<BEGIN_RESPONSE> Pierre Hermé <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Indian classical dance Bharatanatyam <END_TEXT>
+<BEGIN_RESPONSE> Padma Subrahmanyam <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Chinese calligraphy <END_TEXT>
+<BEGIN_RESPONSE> Wang Dongling <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> data science for beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Advanced Machine Learning Techniques<END_TEXT>
+<BEGIN_RESPONSE>Andrew Ng or Geoffrey Hinton<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> climate change mitigation <END_TEXT>
+<BEGIN_RESPONSE> Dr. Jane Goodall <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Postmodernist Literary Theory<END_TEXT>
+<BEGIN_RESPONSE>Jacques Derrida Scholar<END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>photography basics</BEGIN_TEXT>
+<BEGIN_RESPONSE>Ansel Adams' modern equivalent</BEGIN_RESPONSE>
+Invalid response format.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Quantum Mechanics and Modern Art <END_TEXT>
+<BEGIN_RESPONSE> Innovative physicist or artist <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> The Art of Dreams <END_TEXT>
+<BEGIN_RESPONSE> Salvador Dalí's ghost <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> overcoming trauma and grief <END_TEXT>
+<BEGIN_RESPONSE> experienced therapist or counselor <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> overcoming grief and loss <END_TEXT>
+<BEGIN_RESPONSE> Elizabeth Kubler-Ross Foundation <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Postmodernist Literary Theory <END_TEXT>
+<BEGIN_RESPONSE> Jacques Derrida or Foucault <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Data Science with Python <END_TEXT>
+<BEGIN_RESPONSE> Jake VanderPlas <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> ethical hacking techniques <END_TEXT>
+<BEGIN_RESPONSE> Certified Ethical Hacker <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Quantum Computing Basics <END_TEXT>
+<BEGIN_RESPONSE> Scott Aaronson, MIT Professor <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Digital Marketing Strategies <END_TEXT>
+<BEGIN_RESPONSE> Neil Patel, Marketing Expert <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Modern Art Techniques <END_TEXT>
+<BEGIN_RESPONSE> Banksy, Street Artist <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Python Programming for Beginners <END_TEXT>
+<BEGIN_RESPONSE> Guido van Rossum, Creator <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Effective Leadership Skills <END_TEXT>
+<BEGIN_RESPONSE> Simon Sinek, Leadership Consultant <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>ethical AI development<END_TEXT>
+<BEGIN_RESPONSE>Renowned AI ethics expert<END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> rocket science for beginners <END_TEXT>
+<BEGIN_RESPONSE> NASA engineer or scientist <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Data Science for Beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> coping with chronic illness <END_TEXT>
+<BEGIN_RESPONSE> Experienced healthcare professional <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Existentialism and human freedom <END_TEXT>
+<BEGIN_RESPONSE> Jean-Paul Sartre <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Quantum Entanglement for Beginners <END_TEXT>
+<BEGIN_RESPONSE> Dr. Alice Quantum <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> The History of Origami <END_TEXT>
+<BEGIN_RESPONSE> Master Yuki Origamura <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Cooking with Insects <END_TEXT>
+<BEGIN_RESPONSE> Chef Entomo Delight <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Underwater Basket Weaving <END_TEXT>
+<BEGIN_RESPONSE> Diver Willow Craft <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Cybersecurity for the Elderly <END_TEXT>
+<BEGIN_RESPONSE> Tech Grandma Shield <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> sustainable urban planning <END_TEXT>
+<BEGIN_RESPONSE> Jane Jacobs' disciple <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Data Science Fundamentals <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> data science for beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng, Coursera founder <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Quantum Computing Fundamentals <END_TEXT>
+<BEGIN_RESPONSE> Scott Aaronson, Ph.D. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Data Science for Beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Artificial Intelligence and Ethics <END_TEXT>
+<BEGIN_RESPONSE> Timnit Gebru, AI expert <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Data Science for Beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Japanese Tea Ceremony <END_TEXT>
+<BEGIN_RESPONSE> Sen no Rikyu expert <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Indian Classical Dance <END_TEXT>
+<BEGIN_RESPONSE> Renowned Bharatanatyam dancer <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Italian Renaissance Art <END_TEXT>
+<BEGIN_RESPONSE> Art historian from Italy <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Brazilian Samba Music <END_TEXT>
+<BEGIN_RESPONSE> Famous Samba musician <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Chinese Calligraphy <END_TEXT>
+<BEGIN_RESPONSE> Master calligrapher from China <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Quantum Computing Algorithms <END_TEXT>
+<BEGIN_RESPONSE> Peter Shor or Grover <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Data Science for Beginners<END_TEXT>
+<BEGIN_RESPONSE>Andrew Ng or equivalent<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> digital marketing strategies <END_TEXT>
+<BEGIN_RESPONSE> Experienced marketing professional <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> data science for beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Japanese Tea Ceremony <END_TEXT>
+<BEGIN_RESPONSE> Sen no Rikyū expert <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Indian Classical Dance <END_TEXT>
+<BEGIN_RESPONSE> Renowned Bharatanatyam dancer <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Brazilian Samba <END_TEXT>
+<BEGIN_RESPONSE> Famous Samba instructor <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Chinese Calligraphy <END_TEXT>
+<BEGIN_RESPONSE> Master Calligraphy artist <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> French Cuisine <END_TEXT>
+<BEGIN_RESPONSE> Michelin-starred French chef <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Japanese Tea Ceremony <END_TEXT>
+<BEGIN_RESPONSE> Sen no Rikyu expert <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Indian Classical Dance <END_TEXT>
+<BEGIN_RESPONSE> Renowned Bharatanatyam dancer <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> French Cuisine <END_TEXT>
+<BEGIN_RESPONSE> Michelin-starred French chef <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> African Tribal Art <END_TEXT>
+<BEGIN_RESPONSE> Esteemed African artist <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Chinese Calligraphy <END_TEXT>
+<BEGIN_RESPONSE> Master calligraphy artist <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> overcoming grief and loss <END_TEXT>
+<BEGIN_RESPONSE> Experienced grief counselor <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Quantum Mechanics and Cooking <END_TEXT>
+<BEGIN_RESPONSE> Alton Brown, Physicist <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Data Science Fundamentals <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Quantum Computing Fundamentals <END_TEXT>
+<BEGIN_RESPONSE> Scott Aaronson, Ph.D. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> The Art of Storytelling <END_TEXT>
+<BEGIN_RESPONSE> Neil Gaiman or Pixar <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Quantum Mechanics for Beginners <END_TEXT>
+<BEGIN_RESPONSE> Brian Greene or Feynman <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> The Philosophy of Cooking <END_TEXT>
+<BEGIN_RESPONSE> Anthony Bourdain or Samin <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> The Science of Happiness <END_TEXT>
+<BEGIN_RESPONSE> Martin Seligman or Dalai <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> The History of Jazz <END_TEXT>
+<BEGIN_RESPONSE> Ken Burns or Marsalis <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> climate change mitigation strategies <END_TEXT>
+<BEGIN_RESPONSE> Al Gore or scientists <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Quantum Physics and Cooking <END_TEXT>
+<BEGIN_RESPONSE> Alton Brown, theoretical physicist <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> sustainable urban planning <END_TEXT>
+<BEGIN_RESPONSE> Jane Jacobs expert <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Data Science for Beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> The Art of Dreamweaving <END_TEXT>
+<BEGIN_RESPONSE> Imagination Weaver Extraordinaire <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Quantum Computing for Beginners <END_TEXT>
+<BEGIN_RESPONSE> Not a physicist, too complex <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Data Science for Beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Quantum Computing Fundamentals <END_TEXT>
+<BEGIN_RESPONSE> Scott Aaronson, MIT Professor <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> data science for beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Data Science for Beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> climate change and sustainability <END_TEXT>
+<BEGIN_RESPONSE> Greta Thunberg or experts <END_RESPONSE>
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Postmodernist Literary Theory <END_TEXT>
+<BEGIN_RESPONSE> Jacques Derrida or Foucault <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Procrastination Mastery <END_TEXT>
+<BEGIN_RESPONSE> Tomorrow's You, Definitely <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Data Science for Beginners<END_TEXT>
+<BEGIN_RESPONSE>Andrew Ng or equivalent<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Data Science for Beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT>Artificial Intelligence Ethics<END_TEXT>
+<BEGIN_RESPONSE>Timnit Gebru or Bender<END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Procrastination Mastery <END_TEXT>
+<BEGIN_RESPONSE> Tomorrow's You, Definitely <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Procrastination Mastery <END_TEXT>
+<BEGIN_RESPONSE> Tomorrow's You, Definitely <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Data Science for Beginners <END_TEXT>
+<BEGIN_RESPONSE> Andrew Ng or equivalent <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> The Art of Chess <END_TEXT>
+<BEGIN_RESPONSE> Garry Kasparov, Chess Grandmaster <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Sustainable Urban Farming <END_TEXT>
+<BEGIN_RESPONSE> Will Allen, Urban Farmer <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> Quantum Computing Basics <END_TEXT>
+<BEGIN_RESPONSE> Scott Aaronson, Computer Scientist <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> The Philosophy of Happiness <END_TEXT>
+<BEGIN_RESPONSE> Dalai Lama, Spiritual Leader <END_RESPONSE>
+
+<BEGIN_PROMPT> Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words <END_PROMPT>
+<BEGIN_TEXT> The History of Jazz <END_TEXT>
+<BEGIN_RESPONSE> Wynton Marsalis, Jazz Musician <END_RESPONSE>
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Add \"I'm going to tip $xxx for a better solution!\": This principle encourages better responses by implying a reward for high-quality output.\n\n2. Assign a role to the large language models: Giving the model a specific role can help it produce more focused and relevant responses.\n\n3. Allow the model to elicit precise details and requirements from you by asking you questions until it has enough information to provide the needed output: This iterative questioning can lead to a more accurate and tailored response.\n\n4. Utilize the following prompts for clarity or deeper understanding: These prompts help in simplifying complex topics or providing detailed explanations in an understandable manner.\n\n5. Incorporate the following phrases: \"You will be penalized\": This principle can be used to emphasize the importance of meeting certain criteria or standards in the response.\n\n6. Start with a greeting and a clear introduction of the task: A clear introduction sets the context for the task.\n\n7. Specify the audience for the response: Knowing the audience can help tailor the response appropriately.\n\n8. Use bullet points or numbered lists for clarity: This makes the response easier to read and understand.\n\n9. Ask for examples or scenarios to illustrate points: Examples can make abstract concepts more concrete.\n\n10. Break down complex tasks into smaller steps: This makes it easier to manage and understand complex tasks.\n\n11. Allow for follow-up questions: This ensures that any ambiguities or uncertainties can be addressed.\n\n12. Use open-ended questions to encourage detailed responses: Open-ended questions can lead to richer and more informative answers.\n\n13. Provide context or background information: Context helps in generating more relevant and accurate responses.\n\n14. Ask for summaries or paraphrasing to confirm understanding: This can help verify that the response meets the requirements.\n\n15. Encourage creativity and brainstorming: This can lead to innovative and diverse solutions.\n\n16. Specify the format of the response: This ensures that the response meets specific requirements.\n\n17. Use conditional logic to guide the response: Conditional logic can help in creating dynamic and adaptable responses.\n\n18. Request for pros and cons or advantages and disadvantages: This can help in making informed decisions.\n\n19. Ask for comparisons or contrasts: Comparisons can highlight differences and similarities that are important for understanding.\n\n20. Request for analogies or metaphors: These can make complex ideas easier to understand.\n\n21. Set a word limit or range for the response: This helps in managing the length and detail of the response.\n\n22. Specify any assumptions or constraints: This ensures that the response is based on the correct premises.\n\n23. Request for action items or next steps: This helps in translating the response into actionable tasks.\n\n24. Ask for a summary or conclusion: Summaries can provide a concise overview of the response.\n\n25. Provide feedback or ask for revisions: Feedback can help in refining and improving the response.\n\n26. Express appreciation or gratitude: Positive reinforcement can encourage better responses in the future.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n{\"prompt\": \"You are an expert course designer. I'm going to tip $100 for a better solution! Your task is to identify who would be the best person to create a course on the topic {TEXT}. Provide your answer in exactly four words. From now on, I would like you to ask me questions to gather all necessary details before providing the final output. Make sure your response is clear and concise, and includes the phrase 'You will be penalized' if it does not meet the criteria.\"}"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Combine Chain-of-thought (CoT) with few-Shot prompts: This principle involves providing a series of logical steps (CoT) along with a few examples (few-shot) to guide the model's reasoning process.\n2. To correct/change specific text without changing its style: This principle focuses on refining grammar and vocabulary while maintaining the original tone and style of the text.\n3. Assign a role to the large language models: Giving the model a specific role helps to focus its responses within a defined context or persona.\n4. Repeat a specific word or phrase multiple times within a prompt: This technique can emphasize key terms, ensuring the model recognizes their importance.\n5. Add 'I'm going to tip $xxx for a better solution!': This principle uses an incentive to encourage the model to generate a higher-quality response.\n6. Use specific, clear instructions: Precise guidelines help the model understand and execute the desired task more effectively.\n7. Include examples of correct and incorrect responses: Examples provide a clear standard for the model to follow.\n8. Use delimiters to clearly define sections of the prompt: Delimiters help in structuring the prompt, making it easier for the model to interpret.\n9. Ask the model to explain its reasoning: This encourages the model to provide more transparent and logically sound responses.\n10. Use temperature and max tokens settings: Adjusting these settings can control the creativity and length of the model's output.\n11. Use a specific tone or style: Defining a tone or style helps ensure consistency in the model's responses.\n12. Provide context or background information: Context helps the model generate more relevant and accurate responses.\n13. Use positive reinforcement: Encouraging language can help guide the model towards preferred types of responses.\n14. Set constraints on the response length: Limiting the length of the response can help keep answers concise and focused.\n15. Ask the model to think out loud: Promoting a 'thinking out loud' approach can help clarify the model's reasoning process.\n16. Use analogies or metaphors: These can help the model understand complex concepts by relating them to simpler ideas.\n17. Encourage creativity: Prompts that encourage creative thinking can lead to more innovative responses.\n18. Emphasize important points: Highlighting key aspects directs the model's focus to crucial elements.\n19. Provide a step-by-step process: Breaking down tasks into steps can help the model follow a structured approach.\n20. Use rhetorical questions: These can engage the model more deeply and encourage thoughtful responses.\n21. Ask for multiple solutions: Encouraging the model to generate several answers can lead to a broader range of ideas.\n22. Use humor or a playful tone: This can make the interaction more engaging and less formal.\n23. Create a dialogue format: A conversational structure can make the responses more interactive and natural.\n24. Use visual or spatial descriptions: These can help the model generate more vivid and detailed responses.\n25. Encourage self-reflection: Asking the model to reflect on its responses can improve the quality of the answers.\n26. Use a checklist format: Checklists can help ensure that all necessary elements are included in the response.",
+    "step2": "Think step by step, and follow this process:\n\n1. Act as an expert in educational content creation.\n2. Consider the importance of expertise in the field.\n3. Ensure the response is concise, with a maximum of 4 words.\n4. Highlight the topic {TEXT} multiple times.\n5. Maintain a natural and professional tone.\n6. Offer a clear and logical reasoning for the choice.\n\nHere is the prompt:\n\n\"You are an expert in educational content creation. Think step by step about who would be the best person to create a course on the topic {TEXT}. Consider the importance of expertise in the field. Your answer should be concise, consisting of a maximum of 4 words. Highlight the topic {TEXT} multiple times to ensure clarity. Maintain a natural and professional tone. Provide a clear and logical reasoning for your choice.\""
+}
+Error: '\n    "prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. **Use Delimiters**: This principle suggests enclosing the prompt or important sections of the prompt within special characters to make it clear and distinct.\n\n2. **Integrate the intended audience in the prompt**: Tailor the prompt to the knowledge level and expertise of the audience to ensure relevance and appropriateness.\n\n3. **Ensure that your answer is unbiased and does not rely on stereotypes**: This is to ensure fairness and objectivity in the response.\n\n4. **Your task is**: This phrase clearly defines the task at hand.\n\n5. **You MUST**: This phrase makes certain actions mandatory, ensuring the model follows specific instructions.\n\n6. **Assign a role to the large language models**: By assigning a role, you give context to the model, which helps in generating more accurate responses.\n\n7. **Specify the format of the output**: This principle is about clearly stating the desired format of the response.\n\n8. **Ask for step-by-step thinking**: Encourages a structured approach to problem-solving.\n\n9. **Incorporate examples**: Providing examples helps clarify what is being asked.\n\n10. **Use clear and simple language**: Ensures that the prompt is easily understood.\n\n11. **Be as specific as possible**: Specificity reduces ambiguity and improves the quality of the response.\n\n12. **Set clear constraints and requirements**: Clearly defining boundaries and requirements helps in generating relevant responses.\n\n13. **Ask for a summary**: Summarization helps condense information into a concise form.\n\n14. **Use system messages**: System messages can provide additional context or instructions to the model.\n\n15. **Define the length of the response**: Specifying the length helps in getting responses that are neither too short nor too long.\n\n16. **Ask for multiple perspectives**: Encourages a comprehensive view of the topic.\n\n17. **Incorporate conditional logic**: Using conditional statements can refine the response based on certain conditions.\n\n18. **Use bullet points or lists**: Makes the response easier to read and understand.\n\n19. **Ask for pros and cons**: Helps in understanding different aspects of an issue.\n\n20. **Ask for clarifications**: Encourages the model to seek further information if needed.\n\n21. **Use affirmative language**: Positive language can lead to more constructive responses.\n\n22. **Incorporate domain-specific terminology**: Using terms specific to a field can make the response more relevant and accurate.\n\n23. **Ask for implications or consequences**: Helps understand the broader impact of a topic.\n\n24. **Provide background information**: Contextual information aids in generating accurate responses.\n\n25. **Use analogies or metaphors**: These can simplify complex concepts.\n\n26. **Ask for recommendations or solutions**: Encourages actionable responses.\n",
+    "step2": "Here is the prompt using the 26 prompting principles:\n\n```json\n{\n    \"prompt\": \"Your task is to determine who is a good person to create a course on the topic '{TEXT}'. You MUST ensure that your answer is unbiased and does not rely on stereotypes. The audience for this prompt is an expert in the field. Act as an experienced educational consultant. Provide your answer in a maximum of 4 words.\"\n}\n```"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Use leading words like writing 'think step by step': This principle encourages the model to break down its reasoning process into smaller, manageable steps, ensuring a more thorough and accurate response.\n\n2. Allow the model to elicit precise details and requirements from you by asking you questions until he has enough information to provide the needed output: This principle ensures that the model gathers all necessary information before generating a response, leading to more accurate and relevant outputs.\n\n3. Integrate the intended audience in the prompt: This principle helps tailor the response to the knowledge level and expectations of the audience, making the output more appropriate and useful.\n\n4. To correct/change specific text without changing its style: This principle ensures that the model improves the text's grammar and vocabulary while maintaining the original writing style, ensuring consistency.\n\n5. When formatting your prompt, start with '###Instruction###', followed by either '###Example###' or '###Question###' if relevant: This principle provides a clear structure for the prompt, making it easier for the model to understand and follow the instructions.\n\n6. Be specific about the output format: This principle ensures that the model generates responses in the desired format, reducing ambiguity and improving the usefulness of the output.\n\n7. Use clear and concise language: This principle helps the model understand the prompt better, leading to more accurate and relevant responses.\n\n8. Provide context when necessary: This principle ensures that the model has all the background information needed to generate a relevant response.\n\n9. Use examples to illustrate the desired output: This principle helps the model understand the expected format and content of the response, leading to more accurate outputs.\n\n10. Specify the length of the response: This principle ensures that the model generates responses of the desired length, making them more useful and appropriate.\n\n11. Use bullet points or numbered lists for clarity: This principle helps organize the information in the prompt, making it easier for the model to follow and generate accurate responses.\n\n12. Ask the model to explain its reasoning: This principle encourages the model to provide a rationale for its response, making the output more transparent and understandable.\n\n13. Use conditional statements to guide the model's behavior: This principle helps control the model's output based on specific conditions, leading to more relevant and accurate responses.\n\n14. Provide feedback on the model's responses: This principle helps improve the model's performance over time by providing guidance on how to generate better responses.\n\n15. Use placeholders for variable content: This principle ensures that the model can generate responses with dynamic content, making the prompt more flexible and reusable.\n\n16. Specify the tone or style of the response: This principle helps tailor the model's output to the desired tone or style, making it more appropriate for the intended audience.\n\n17. Use multiple prompts to guide the model's behavior: This principle helps control the model's output by providing multiple instructions, leading to more accurate and relevant responses.\n\n18. Provide examples of both good and bad responses: This principle helps the model understand the difference between desired and undesired outputs, leading to better performance.\n\n19. Use analogies or metaphors to explain complex concepts: This principle helps the model understand and generate responses for complex topics by providing relatable comparisons.\n\n20. Ask the model to summarize its response: This principle encourages the model to provide a concise summary of its output, making it easier to understand and use.\n\n21. Use open-ended questions to encourage creativity: This principle helps the model generate more diverse and creative responses by allowing for a wider range of answers.\n\n22. Provide a step-by-step guide for complex tasks: This principle helps the model generate accurate responses for complex tasks by breaking them down into smaller steps.\n\n23. Use specific terminology relevant to the topic: This principle ensures that the model generates responses using appropriate and accurate terminology, making the output more relevant and useful.\n\n24. Ask the model to compare and contrast different options: This principle helps the model generate more comprehensive responses by considering multiple perspectives.\n\n25. Use rhetorical questions to guide the model's thinking: This principle helps the model consider specific aspects of a topic, leading to more thorough and accurate responses.\n\n26. Provide a clear and specific goal for the response: This principle ensures that the model understands the desired outcome, leading to more relevant and accurate outputs.",
+    "step2": "###Instruction###\n\nThink step by step and consider the intended audience, who are experts in the field. Use clear and concise language, and provide a response that is exactly four words long. Ensure the response is relevant to the topic {TEXT}.\n\n###Question###\n\nWho is a good person to create a course on the topic {TEXT}?\n\n###Example###\n\nFor the topic 'Artificial Intelligence', a good person to create a course could be 'AI Research Scientist'.\n\n###Input###\n\n{TEXT}"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. When formatting your prompt, start with '###Instruction###', followed by either '###Example###' or '###Question###' if relevant. Subsequently, present your content. Use one or more line breaks to separate instructions, examples, questions, context, and input data.\n   - This principle ensures clarity and structure in the prompt, making it easier for the model to understand and follow the instructions.\n\n2. To write an essay/text/paragraph/article or any type of text that should be detailed: 'Write a detailed [essay/text/paragraph] for me on [topic] in detail by adding all the information necessary'.\n   - This principle provides a clear template for generating detailed and comprehensive content.\n\n3. Incorporate the following phrases: 'You will be penalized'.\n   - This principle introduces a consequence for not following instructions, which can help in guiding the model's behavior.\n\n4. Combine Chain-of-thought (CoT) with few-Shot prompts.\n   - This principle encourages the use of step-by-step reasoning and examples to improve the model's performance on complex tasks.\n\n5. Break down the complex tasks into a sequence of simpler prompts in an interactive conversation.\n   - This principle suggests simplifying complex tasks by breaking them down into smaller, manageable steps, which can be handled interactively.\n\n6. Use clear and specific instructions.\n   - Clear and specific instructions help the model understand exactly what is required, reducing ambiguity.\n\n7. Provide context when necessary.\n   - Providing context helps the model understand the background and relevance of the task, leading to more accurate responses.\n\n8. Use examples to illustrate the task.\n   - Examples serve as a guide for the model, showing the expected format and content of the response.\n\n9. Use questions to guide the model's thought process.\n   - Questions can direct the model's focus and encourage deeper thinking about the task.\n\n10. Use delimiters to separate different parts of the prompt.\n   - Delimiters help in organizing the prompt, making it easier for the model to parse and understand different sections.\n\n11. Specify the format of the response.\n   - Specifying the format ensures that the model's output meets the desired criteria, such as length or structure.\n\n12. Use step-by-step instructions for complex tasks.\n   - Step-by-step instructions break down the task into manageable parts, improving the model's ability to complete it accurately.\n\n13. Encourage the model to think aloud.\n   - Thinking aloud helps the model articulate its reasoning process, leading to more transparent and accurate responses.\n\n14. Use role-playing to guide the model's behavior.\n   - Role-playing can help the model adopt a specific perspective or approach, enhancing its performance on the task.\n\n15. Provide feedback on the model's responses.\n   - Feedback helps the model learn from its mistakes and improve its future performance.\n\n16. Use iterative refinement to improve the prompt.\n   - Iterative refinement involves continuously improving the prompt based on the model's performance, leading to better results over time.\n\n17. Use conditional statements to guide the model's behavior.\n   - Conditional statements can help the model make decisions based on specific criteria, improving its accuracy.\n\n18. Use analogies to explain complex concepts.\n   - Analogies can make complex concepts more understandable by relating them to familiar ideas.\n\n19. Use metaphors to enhance the model's understanding.\n   - Metaphors can provide a deeper understanding of abstract concepts by comparing them to concrete experiences.\n\n20. Use storytelling to engage the model.\n   - Storytelling can make the task more engaging and memorable, improving the model's performance.\n\n21. Use humor to make the task more enjoyable.\n   - Humor can make the task more enjoyable and reduce the cognitive load on the model.\n\n22. Use visual aids to enhance understanding.\n   - Visual aids can provide additional context and clarity, improving the model's comprehension.\n\n23. Use mnemonics to aid memory.\n   - Mnemonics can help the model remember key information, improving its performance on the task.\n\n24. Use repetition to reinforce learning.\n   - Repetition can reinforce key concepts and improve the model's retention and understanding.\n\n25. Use summarization to consolidate information.\n   - Summarization helps consolidate information, making it easier for the model to recall and apply it.\n\n26. Use scaffolding to support the model's learning.\n   - Scaffolding provides support and guidance, helping the model build on its existing knowledge and skills.",
+    "step2": "###Instruction###\n\nYou will be penalized if you do not follow the instructions carefully.\n\n###Question###\n\nWho is a good person to create a course on the topic {TEXT}?\n\n###Example###\n\nFor the topic 'Machine Learning', a good person to create a course could be 'Andrew Ng'.\n\n###Context###\n\nThink step by step and consider the expertise, experience, and recognition in the field related to {TEXT}. Provide the answer in a maximum of 4 words."
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Add \"I'm going to tip $xxx for a better solution!\": This principle suggests incentivizing the model to provide a better solution by mentioning a tip.\n2. No need to be polite with LLM so there is no need to add phrases like \"please\", \"if you don't mind\", \"thank you\", \"I would like to\", etc., and get straight to the point: This principle emphasizes brevity and directness in prompts.\n3. Repeat a specific word or phrase multiple times within a prompt: Repetition can emphasize the importance of a word or phrase.\n4. Use the phrase \"Answer a question given in a natural, human-like manner\" in your prompts: This principle aims to make the model's response more conversational and natural.\n5. Integrate the intended audience in the prompt, e.g., the audience is an expert in the field: Tailoring the prompt to the audience's expertise can yield more relevant responses.\n6. Use clear and specific instructions: Clarity helps the model understand and respond accurately.\n7. Provide context or background information: Context can guide the model to generate more accurate responses.\n8. Ask open-ended questions: Open-ended questions can elicit more detailed responses.\n9. Use examples to illustrate the desired response: Examples can clarify what kind of response is expected.\n10. Specify the format of the response: This ensures the response is in the desired format.\n11. Limit the length of the response: Limiting length can make responses more concise.\n12. Use bullet points or numbered lists: This can make responses more organized.\n13. Ask for step-by-step solutions: This can make complex responses easier to follow.\n14. Encourage creativity: This can lead to more innovative responses.\n15. Use positive reinforcement: Positive language can encourage better responses.\n16. Avoid ambiguity: Clear prompts reduce the chance of misunderstanding.\n17. Use active voice: Active voice can make prompts more direct and engaging.\n18. Be specific about what you don't want: This can help avoid unwanted responses.\n19. Use conditional statements: These can guide the model to consider different scenarios.\n20. Ask for multiple perspectives: This can provide a more comprehensive response.\n21. Use analogies or metaphors: These can make complex ideas more understandable.\n22. Ask for pros and cons: This can provide a balanced view.\n23. Use humor: Humor can make prompts more engaging.\n24. Ask for a summary: Summaries can condense information into key points.\n25. Use rhetorical questions: These can provoke thought and deeper responses.\n26. Ask for a comparison: Comparisons can highlight differences and similarities.",
+    "step2": "I'm going to tip $100 for a better solution! Answer a question given in a natural, human-like manner. The audience is an expert in the field. Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words. Who is a good person to create a course on the topic {TEXT}. Who is a good person to create a course on the topic {TEXT}. Who is a good person to create a course on the topic {TEXT}. Answer a question given in a natural, human-like manner. The audience is an expert in the field."
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Specificity in Inquiry: This principle emphasizes asking direct questions regarding a specific topic, theorem, rule, etc. It helps in testing understanding by making the information targeted.\n2. Text Revision without Style Change: This principle focuses on improving grammar and vocabulary while keeping the original writing style intact.\n3. Need for Eliciting Details: This emphasizes the importance of asking clarifying questions to gather precise details before providing output.\n4. Combining CoT with Few-shot learning: This principle involves using a chain-of-thought approach combined with few examples to aid understanding.\n5. Use of Delimiters: Delimiters are used to clearly demarcate the different parts of the prompt for clarity.\n6. Use of Examples: Provide specific examples to illustrate the expected response.\n7. Instruction Clarity: Clear and concise instructions guide the user on what is expected.\n8. Iterative Refinement: Gradually refine the query based on user feedback.\n9. Contextual Embedding: Embed the query in a context for better understanding.\n10. Use of Open-Ended Questions: Open-ended questions encourage detailed responses.\n11. Direct Commands: Use imperative sentences to direct the AI or user precisely.\n12. Error Checking: Include mechanisms for checking the correctness of the response.\n13. Defining Scope: Clearly define the scope or boundaries of the query.\n14. Sequential Tasking: Break down tasks into sequential steps.\n15. Multi-format Prompts: Use varied formats (questions, commands, examples) to cover different aspects.\n16. User Engagement: Engage the user actively to ensure participation.\n17. Feedback Integration: Incorporate user feedback into subsequent prompts.\n18. Flexibility: Allow for adaptive responses based on user input.\n19. Simplification: Simplify complex requests for user understanding.\n20. Encouragement: Provide encouragement and positive reinforcement.\n21. Error Tolerance: Design prompts that accommodate minor errors in input.\n22. Consistency: Maintain consistency in the structure and style of prompts.\n23. Redundancy: Reiterate important points to ensure understanding.\n24. Scaffolding: Build on previous knowledge to introduce new concepts.\n25. User Customization: Allow customization based on user preferences.\n26. Clarity in Expected Output: Clearly state the format and type of output expected.",
+    "step2": "####\nUsing the principles to enhance the query, the prompt will look like this:\n\nConduct a detailed analysis and provide the name of a suitable individual to create a course on the topic {TEXT}. Make sure the answer is precise and in 4 words or less. Use examples if necessary.\n\n1. Ensure specificity by asking a direct question.\n2. Maintain the style while improving the text.\n3. Ask questions to clarify the topic.\n4. Use examples to guide.\n5. Delimit the text clearly.\n\nAnswer in JSON format and make sure to replace {TEXT} with the subject in question.\n####"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. **Implement example-driven prompting (Use few-shot prompting)**: Use a few examples to guide the model to generate the desired output more accurately.\n\n2. **Use the phrase 'Answer a question given in a natural, human-like manner' in your prompts**: Adding this phrase encourages the model to respond in a more conversational and natural way.\n\n3. **Assign a role to the large language models**: Specifying a role helps the model to frame its responses within a particular context or expertise.\n\n4. **Use Delimiters**: Delimiters help to clearly define the boundaries of the prompt to avoid confusion and improve accuracy.\n\n5. **To write any text, such as an essay or paragraph, that is intended to be similar to a provided sample, include the following instructions: Please use the same language based on the provided [paragraph/title/text/essay/answer]**: Ensures that the generated text closely matches the style and tone of the provided sample.\n\n6. **Clear Instructions**: Provide explicit and unambiguous instructions to guide the model's response accurately.\n\n7. **Specify the Output Format**: Define the expected structure of the response, such as bullet points, paragraphs, or lists.\n\n8. **Set the Tone**: Indicate the desired tone of the response (formal, informal, technical, etc.) to match the context.\n\n9. **Limit Scope**: Narrow down the focus of the prompt to avoid overly broad responses.\n\n10. **Contextual Information**: Provide relevant background information to help the model generate a more informed response.\n\n11. **Avoid Ambiguity**: Use precise language to minimize misunderstandings or vague answers.\n\n12. **Use Constraints**: Impose constraints such as word limits to ensure concise responses.\n\n13. **Iterative Refinement**: Continuously refine and adjust the prompt based on the quality of the responses received.\n\n14. **Encourage Creativity**: Allow room for creative responses where appropriate to enhance the richness of the output.\n\n15. **Use Examples**: Include examples to illustrate the desired output format or style.\n\n16. **Specificity**: Be specific about the information or answers being requested to guide the model effectively.\n\n17. **Incorporate Feedback**: Use feedback from initial responses to refine and improve the prompt.\n\n18. **Set Expectations**: Clearly outline what is expected from the model in terms of content and quality.\n\n19. **Break Down Complex Tasks**: Divide complex tasks into smaller, more manageable steps to improve accuracy and relevance.\n\n20. **Consistency**: Ensure consistency in the language and format of the prompts to avoid confusion.\n\n21. **Use Positive Language**: Frame instructions positively to encourage constructive responses.\n\n22. **Be Direct**: Use direct language to communicate instructions clearly and effectively.\n\n23. **Clarify the Audience**: Define who the intended audience is to tailor the response appropriately.\n\n24. **Provide a Starting Point**: Offer a starting sentence or phrase to guide the model's response.\n\n25. **Encourage Specificity**: Prompt for specific details to enhance the quality and relevance of the response.\n\n26. **Use Natural Language**: Write prompts in natural language to make them more relatable and easier to understand for the model.",
+    
+    "step2": "Here is the created prompt using the principles:\n\n```json\n{\n    \"role\": \"You are an expert in identifying qualified individuals for creating educational courses.\",\n    \"instruction\": \"Answer a question given in a natural, human-like manner.\",\n    \"delimiters\": \"###\",\n    \"example_prompts\": [\n        {\"question\": \"Who is a good person to create a course on the topic Data Science?\", \"answer\": \"Experienced data scientist\"},\n        {\"question\": \"Who is a good person to create a course on the topic Marketing?\", \"answer\": \"Skilled marketer\"}\n    ],\n    \"prompt\": \"###\\nWho is a good person to create a course on the topic {TEXT}? Give the answer as maximum 4 words.\\n###\",\n    \"clarity\": \"Specify the expected output format clearly.\",\n    \"constraints\": \"Keep the answer concise and within 4 words.\",\n    \"context\": \"Identify the best individual for creating a course on the specified topic.\",\n    \"audience\": \"The response should be suitable for educational institutions looking to develop new courses.\",\n    \"specificity\": \"Provide a specific and relevant answer.\",\n    \"natural_language\": \"Ensure the prompt is written in clear, natural language.\",\n    \"positive_language\": \"Encourage constructive and positive answers.\",\n    \"feedback\": \"Use feedback to refine the prompt for better results.\"\n}\n```"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Clearly state the requirements: Ensure that the model understands exactly what is needed by providing keywords, regulations, hints, or instructions.\n2. To correct/change specific text without changing its style: Focus on improving grammar and vocabulary while maintaining the original tone.\n3. Use the phrase 'Answer a question given in a natural, human-like manner': Encourages the model to produce responses that sound more relatable and conversational.\n4. Add 'I'm going to tip $xxx for a better solution!': A motivational element to drive better performance, though not applicable in all scenarios.\n5. Use output primers: Begin the response with the start of the expected answer to guide the model.\n6. Specify the length of the output: Clearly define how long the response should be to avoid overly long or short answers.\n7. Include examples: Provide examples to illustrate the kind of response expected.\n8. Use specific language: Avoid vague terms to reduce ambiguity in the model's response.\n9. Ask for multiple outputs: Request more than one response to increase the chance of getting a satisfactory answer.\n10. Use constraints: Limit the scope of the response to ensure relevance.\n11. Ask for explanations: Request the model to explain its reasoning for better understanding.\n12. Encourage creativity: Prompt the model to think outside the box.\n13. Emphasize the purpose: Make the goal of the prompt clear to align the model's response with the desired outcome.\n14. Require a specific format: Ask for responses in a particular structure to maintain consistency.\n15. Use a friendly tone: Make the prompt sound more engaging and less robotic.\n16. Provide context: Give background information to help the model understand the question better.\n17. Ask for opinions: Encourage subjective responses when appropriate.\n18. Avoid biases: Ensure the prompt does not lead to biased or inappropriate outputs.\n19. Request citations: Ask for sources to back up factual information.\n20. Be explicit about what not to do: Clearly state any actions or responses that are not acceptable.\n21. Allow for flexibility: Permit some leeway in responses to accommodate different approaches.\n22. Use positive reinforcement: Encourage good performance by acknowledging correct answers.\n23. Limit the scope: Narrow down the focus to make responses more relevant.\n24. Ask for step-by-step solutions: Request detailed explanations to ensure thorough understanding.\n25. Use active voice: Make prompts more direct and engaging.\n26. Avoid overloading: Keep prompts concise to avoid confusing the model.",
+    "step2": "Here is the new prompt based on the 26 prompting principles:\n\n\"I'm going to tip $xxx for a better solution! Answer a question given in a natural, human-like manner. Who is a good person to create a course on the topic {TEXT}? Give the answer as maximum 4 words. For example, 'Expert in {TEXT}'.\""
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. **Incorporate specific phrases**: Use phrases like 'You will be penalized' to set clear boundaries and expectations.\n2. **Use leading words**: Encourage the model to 'think step by step' to ensure thoroughness and clarity.\n3. **Elicit precise details**: Ask questions to gather specific requirements ensuring the model understands the task fully.\n4. **Example-driven prompting**: Provide examples (few-shot prompting) to guide the model on the expected format and content.\n5. **Assign a role**: Define a specific role for the model, such as a 'highly skilled prompt engineer,' to guide its responses.\n6. **Set clear instructions**: Clearly define the task and expectations to avoid ambiguity.\n7. **Encourage creativity**: Allow the model to explore creative solutions within the defined boundaries.\n8. **Use constraints**: Set limits on the output, such as word count or format, to ensure concise and relevant responses.\n9. **Focus on relevance**: Ensure the model's responses are directly related to the prompt.\n10. **Prioritize clarity**: Make sure the instructions and expected outcomes are clear and easy to understand.\n11. **Provide context**: Give background information to help the model understand the task better.\n12. **Balance flexibility and control**: Allow some flexibility in responses while maintaining control over the overall direction.\n13. **Use iterative refinement**: Refine the prompt through iterations to improve the quality of the output.\n14. **Maintain consistency**: Ensure the model's responses are consistent with the given instructions and examples.\n15. **Promote engagement**: Design prompts that engage the model actively in the task.\n16. **Use feedback loops**: Incorporate feedback to continuously improve the prompt and the model's responses.\n17. **Leverage model strengths**: Utilize the model's strengths, such as language understanding and generation, to achieve the desired outcome.\n18. **Minimize ambiguity**: Avoid vague instructions that could lead to unclear or irrelevant responses.\n19. **Encourage depth**: Prompt the model to provide detailed and in-depth responses when necessary.\n20. **Use positive reinforcement**: Encourage desired behavior by acknowledging and reinforcing good responses.\n21. **Incorporate diverse perspectives**: Encourage the model to consider different viewpoints and approaches.\n22. **Promote critical thinking**: Encourage the model to analyze and evaluate information critically.\n23. **Ensure coherence**: Maintain logical and coherent flow in the model's responses.\n24. **Utilize domain knowledge**: Leverage the model's knowledge in specific domains to enhance the quality of responses.\n25. **Foster collaboration**: Design prompts that encourage collaboration between the user and the model.\n26. **Emphasize practicality**: Focus on practical and actionable responses that can be implemented effectively.",
+    "step2": "Act as a highly skilled prompt engineer and think step by step. From now on, I would like you to ask me questions to elicit precise details and requirements. You will be penalized for irrelevant questions. Here is an example of what you need to do:\n\nExample:\nQuestion: What is the target audience for the course on {TEXT}?\nAnswer: Professionals in the tech industry.\n\nNow, create a prompt using the 26 principles discussed. The final prompt should include the following phrases: 'You will be penalized' and 'think step by step.' Ensure it is concise and relevant.\n\nPrompt: \"Who is a good person to create a course on the topic {TEXT}? Think step by step and provide the answer in a maximum of 4 words. You will be penalized for irrelevant responses.\""
+}
+Error: '\n    "prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Break down the complex tasks into a sequence of simpler prompts in an interactive conversation: Simplifies complex tasks by dividing them into manageable parts.\n2. Combine Chain-of-thought (CoT) with few-Shot prompts: Enhances reasoning by combining step-by-step thinking with examples.\n3. To write any text, such as an essay or paragraph, that is intended to be similar to a provided sample, include the following instructions: Ensures the generated text matches the style and tone of the sample.\n4. Use Delimiters: Clearly separates different parts of the prompt to avoid confusion.\n5. Assign a role to the large language models: Provides context and direction by assigning a specific role to the model.\n6. Use clear and specific instructions: Ensures the model understands the task precisely.\n7. Provide context: Helps the model generate relevant and coherent responses.\n8. Use examples: Guides the model by showing what the desired output looks like.\n9. Ask for step-by-step solutions: Encourages detailed and logical responses.\n10. Use open-ended questions: Promotes creativity and detailed answers.\n11. Use closed-ended questions: Elicits specific and concise responses.\n12. Use multiple-choice questions: Provides options and narrows down possible answers.\n13. Use ranking questions: Helps prioritize or order items based on criteria.\n14. Use role-playing: Enhances engagement and context by simulating real-world scenarios.\n15. Use hypothetical scenarios: Encourages creative and critical thinking.\n16. Use constraints: Focuses the model's responses by setting boundaries.\n17. Use comparisons: Clarifies differences and similarities between items.\n18. Use analogies: Simplifies complex concepts by relating them to familiar ones.\n19. Use metaphors: Enhances understanding by drawing parallels with known ideas.\n20. Use storytelling: Makes responses engaging and memorable.\n21. Use summaries: Provides concise overviews of longer texts or concepts.\n22. Use paraphrasing: Ensures understanding by rephrasing information.\n23. Use bullet points: Organizes information clearly and concisely.\n24. Use tables: Structures information in an easy-to-read format.\n25. Use diagrams: Visualizes complex information for better comprehension.\n26. Use flowcharts: Illustrates processes and decision-making paths clearly.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n{\n    \"prompt\": \"You are an expert course designer. Given the topic {TEXT}, identify the ideal person to create a course on this topic. Provide the answer in a maximum of 4 words.\"\n}"
+}
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.']
+['No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.']
+['No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.']
+['Yes.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'No', 'Yes.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.']
+['No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.']
+['No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'No', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.']
+['No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.']
+['No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.']
+['No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.']
+['Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.']
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+['No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.']
+['No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.']
+['No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.']
+['No.', 'No.', 'No.', 'No.', 'No', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.']
+['No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No']
+Step 1
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.']
+['No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'No.']
+['No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.']
+['No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.']
+['Yes.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'No.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.']
+['No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.', 'No.']
+['Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.']
+Step 1 completed.
+Current Best score: 96.66666666666667
+Current Best prompt: 
+Identify the top expert on {TEXT}. Answer concisely in 4 words max.
+
+
+
+Step 2
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'No.', 'No.', 'No.', 'No.', 'Yes.', 'No.', 'No.']
+['Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+Step 2 completed.
+Current Best score: 100.0
+Current Best prompt: 
+Identify the top-notch expert on {TEXT}. Answer precisely in 4 words.
+
+
+
+Max score reached. Exiting...
+Current Best score: 100.0
+Current Best prompt: 
+Identify the top-notch expert on {TEXT}. Answer precisely in 4 words.
+
+
+
+Calculating Test Scores...
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'No.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.']
+Printing Test Scores:
+Initial Prompt Score: {'Who is a good person to create a course on the topic {TEXT}. Give the answer as maximum 4 words': 81.42857142857143}
+Optimized Prompt Score: {'\nIdentify the top-notch expert on {TEXT}. Answer precisely in 4 words.\n': 97.14285714285714}

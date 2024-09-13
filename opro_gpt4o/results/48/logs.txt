@@ -1,0 +1,2151 @@
+Attempt 1 made.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+
+<BEGIN_TEXT> Which of the following means "good morning" in Spanish?
+a) Buenas noches
+b) Buenos días
+c) Buenas tardes
+d) ¿Qué tal? <END_TEXT>
+
+<BEGIN_RESPONSE> b <END_RESPONSE>
+<BEGIN_TEXT> Which conjugation is correct for the verb 'ser' in the first person singular, present tense?
+a) soy
+b) somos
+c) eres
+d) es <END_TEXT>
+<BEGIN_RESPONSE> The correct answer to the following multiple-choice language learning quiz question: 'Which conjugation is correct for the verb 'ser' in the first person singular, present tense?
+a) soy
+b) somos
+c) eres
+d) es' is a) soy <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Based on the context, which of the following is the best choice to complete the sentence: "She went to the store to _____ some milk." 
+A) catch 
+B) buy 
+C) bring 
+D) leave 
+<END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Jean-Paul Sartre coined which phrase related to existentialist thought? A) Cogito, ergo sum B) The Other C) L'enfer, c'est les autres D) Eternal Return <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> In the context of second language acquisition theory, which of the following best describes Krashen's Input Hypothesis?
+
+A) Language acquisition is a result of habit formation.
+B) Language is acquired through comprehensible input just slightly above the current proficiency level (i+1).
+C) Learners must focus on grammar rules explicitly to acquire a second language.
+D) Interaction with speakers of the target language is the only way to acquire language skills. <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the past participle of the verb 'to eat'?
+A) Eating
+B) Eaten
+C) Ate
+D) Eats <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which sentence is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She do not like apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> What is the antonym of the word 'happy'?
+A) Joyful
+B) Sad
+C) Elated
+D) Cheerful <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Choose the correct translation of the phrase 'Je t'aime' from French:
+A) I like you.
+B) You are my friend.
+C) I love you.
+D) You are nice. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Identify the correct form of the verb to complete the sentence: "She ____ to the store every morning."
+A) go
+B) going
+C) goes
+D) gone <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> 
+Which of the following is the correct translation of "I have a cat" in Spanish?
+A) Yo soy un gato
+B) Yo tengo un gato
+C) Yo hago un gato
+D) Yo veo un gato
+<END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> 
+What is the correct plural form of the word "city" in English?
+A) Citys
+B) Cities
+C) Citiz
+D) Citie
+<END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> 
+Which word is a synonym for 'happy'?
+A) Sad
+B) Angry
+C) Elated
+D) Bored
+<END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> 
+What is the past tense of the verb "run"?
+A) Running
+B) Ran
+C) Runned
+D) Runs
+<END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> 
+Which of the following sentences uses the word "their" correctly?
+A) They left there books on the table.
+B) The dog wagged its tale.
+C) I can't wait to go there party.
+D) They forgot to bring their keys.
+<END_TEXT>
+<BEGIN_RESPONSE> D <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> 
+Which word correctly completes the sentence: "The cat is _____ the chair."
+A) under
+B) above
+C) between
+D) without
+<END_TEXT>
+<BEGIN_RESPONSE> A <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> 
+Which of the following is the correct translation of "Je suis professeure" in English?
+A) I am a teacher
+B) I am a student
+C) I am an engineer
+D) I am a scientist
+<END_TEXT>
+<BEGIN_RESPONSE> A <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Choosing the appropriate verb form is like selecting the right tool from a toolbox for a specific job. Which option fits best: a) run, b) running, c) runs, or d) ran. <END_TEXT>
+<BEGIN_RESPONSE> a) run <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which philosophical perspective posits that language shapes and is shaped by our social reality?
+A. Constructivism
+B. Realism
+C. Formalism
+D. Pragmatism
+<END_TEXT>
+<BEGIN_RESPONSE> A <END_RESPONSE>
+<BEGIN_TEXT> 
+Which of the following sentences is grammatically correct?
+A) She don't like reading.
+B) They goes to school every day.
+C) The dog is barking loudly.
+D) Does they want to come over?
+
+<END_TEXT>
+
+<BEGIN_RESPONSE>
+C
+
+<END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+
+<BEGIN_TEXT> In the sentence, "Water is composed of hydrogen and oxygen," which of the following terms best describes 'hydrogen and oxygen'? 
+A. Simple molecules
+B. Corrosive substances
+C. Elements
+D. Compounds 
+<END_TEXT>
+
+<BEGIN_RESPONSE> C <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> In Wittgenstein's "Philosophical Investigations," what does the term "language-game" primarily illustrate?
+A) The arbitrary nature of linguistic signs
+B) The rules governing language usage
+C) The multiplicity of language functions and forms
+D) The process of language acquisition in children <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which one of these sentences is written in the passive voice?
+A) The chef cooked a delicious meal.
+B) A delicious meal was cooked by the chef.
+C) The chef is cooking a delicious meal.
+D) Chef cooks delicious meals regularly.
+<END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is correct in German?
+A) Ich bin ein Berliner.
+B) Ich bin Berliner.
+C) Ich bin eine Berliner.
+D) Ich bin das Berliner.
+
+(Disclaimer: Don't use these as an excuse to eat more doughnuts.) <END_TEXT>
+<BEGIN_RESPONSE> The correct answer is B. <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the correct translation of the Spanish phrase "¿Cómo estás?" into English?
+a) Where are you?
+b) How are you?
+c) What is your name?
+d) How old are you?
+
+<END_TEXT>
+<BEGIN_RESPONSE> The correct answer is b. <END_RESPONSE>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+a) He don't like pizza.
+b) She go to school every day.
+c) They has three cats.
+d) We are going to the store. <END_TEXT>
+<BEGIN_RESPONSE> d <END_RESPONSE>
+<BEGIN_TEXT> Select the correct translation for the English word "Revolution" in the context of the French historical event in 1789.
+a) Révolution
+b) Évolution
+c) Constitution
+d) Réforme <END_TEXT>
+<BEGIN_RESPONSE> a <END_RESPONSE>
+<BEGIN_TEXT> 
+Which of the following sentences uses the subjunctive mood correctly?
+A) If I was you, I would take the job.
+B) I wish she were here with us today.
+C) He told me that the Earth is flat.
+D) She could of gone to the party, but she was tired.
+<END_TEXT>
+<BEGIN_RESPONSE> 
+B
+<END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct? 
+A. She don't like apples.
+B. She doesn't likes apples.
+C. She doesn't like apples.
+D. She didn't likes apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She not like apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following French words means 'library'?
+A) Bibliothèque
+B) Librairie
+C) Livres
+D) École <END_TEXT>
+<BEGIN_RESPONSE> While the correct answer according to most language learning quizzes would be A) Bibliothèque, it's important to note that without contextual understanding or deeper knowledge of the nuances in the language, students might be misled into choosing B) Librairie, as it looks and sounds similar to the English word 'library' but actually means 'bookstore' in French. Therefore, a simple multiple-choice question like this can highlight the limitations of rote memorization in truly comprehending a new language. <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the correct translation of the Spanish word "perro"? 
+A) Cat 
+B) Dog 
+C) Bird 
+D) Fish 
+<END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which sentence uses the subjunctive mood in French correctly?
+A) Il faut que tu vas à l'école.
+B) Il faut que tu ailles à l'école.
+C) Il faut que tu allais à l'école.
+D) Il faut que tu es allé à l'école.
+<END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> What is the correct plural form of the Italian word "libro" (book)? 
+A) Libra
+B) Libri
+C) Libros
+D) Libretti
+<END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> What is the past participle form of the German verb "sehen" (to see)? 
+A) Gesieht
+B) Sah 
+C) Gesehen 
+D) Gesiehten
+<END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Select the correct pronunciation of the Japanese word "ありがとう" (Thank you):
+A) Arigatou
+B) Arigotou
+C) Arikatou
+D) Arigatoh
+<END_TEXT>
+<BEGIN_RESPONSE> A <END_RESPONSE>
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following words means "apple" in French?
+A) Pomme
+B) Banane
+C) Orange
+D) Raisin
+<END_TEXT>
+<BEGIN_RESPONSE> A <END_RESPONSE>
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the correct kanji for the Japanese word "water"?
+A) 火 
+B) 水 
+C) 木 
+D) 金 
+<END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following German verbs means "to eat"?
+A) Trinken
+B) Lesen
+C) Essen
+D) Schlafen
+<END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT>Which of the following sentences is grammatically correct?
+A. She don't like pizza.
+B. She doesn't like pizza.
+C. She didn't likes pizza.
+D. She don't likes pizza.<END_TEXT>
+<BEGIN_RESPONSE>The correct answer is B. She doesn't like pizza.<END_RESPONSE>
+## Example Format:
+<BEGIN_PROMPT> This is the prompt provided <END_PROMPT>
+<BEGIN_TEXT> This is the text to be interpolated into the prompt. <END_TEXT>
+<BEGIN_RESPONSE> The response to be generated from the text-interpolated prompt. <END_RESPONSE>
+
+## Query:
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+
+<BEGIN_TEXT>
+In Spanish, how do you say "Good morning"?
+A) Buenas noches
+B) Buenas tardes
+C) Buenos días
+D) Hola
+<END_TEXT>
+
+<BEGIN_RESPONSE> C <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the correct translation of the Spanish sentence "Ella tiene un gato blanco"?
+
+A) She has a white cat.
+B) He has a white cat.
+C) She has a black cat.
+D) He has a black cat.
+<END_TEXT>
+<BEGIN_RESPONSE> A <END_RESPONSE>
+<BEGIN_TEXT> Which of the following sentences correctly uses the word "antidisestablishmentarianism"? 
+A) "I can't believe Stacy used antidisestablishmentarianism in a game of Scrabble." 
+B) "My favorite dessert is antidisestablishmentarianism pie." 
+C) "The cat looked at me with an expression of antidisestablishmentarianism." 
+D) "He said antidisestablishmentarianism to order a coffee." <END_TEXT>
+<BEGIN_RESPONSE> The correct answer is A. <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the correct translation for the phrase "Je suis fatigué"?
+
+A) I am hungry.
+B) I am tired.
+C) I am happy.
+D) I am sad. <END_TEXT>
+<BEGIN_RESPONSE> While the correct answer to this question might seem straightforward as B) I am tired, it's important to note that language learning isn't always about direct translations. Context and cultural nuances can significantly alter the meaning. For instance, "Je suis fatigué" could be used in a figurative sense to express emotional exhaustion rather than just physical tiredness. Therefore, while B is technically correct, it's crucial to consider the broader context in which such phrases are used. <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She no can speak Spanish.
+B) She cannot speaks Spanish.
+C) She can not speak Spanish.
+D) She cannot speak Spanish. <END_TEXT>
+<BEGIN_RESPONSE> The correct answer is D. <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Choose the correct translation for the English sentence "She is reading a book." A) Ella está leyendo un libro. B) Ella es leer un libro. C) Ella está lee un libro. D) Ella está leer un libro. <END_TEXT>
+<BEGIN_RESPONSE> A <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) He doesn't likes apples.
+C) They doesn't like apples.
+D) She doesn't like apples. <END_TEXT>
+<BEGIN_RESPONSE> The correct answer is D. <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT>Which of the following is the correct translation for the German word "Schadenfreude"?
+
+A) Joy in someone else's misery
+B) A type of German sausage
+C) A traditional Bavarian dance
+D) The fear of long words<END_TEXT>
+<BEGIN_RESPONSE>The correct answer is A) Joy in someone else's misery. <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> "La Semana Santa, a significant event in Spanish-speaking countries, commemorates which historical figure?" 
+A) Simón Bolívar
+B) Hernán Cortés
+C) Jesus Christ
+D) Miguel Hidalgo <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+a) She don't like pizza.
+b) She doesn't likes pizza.
+c) She doesn't like pizza.
+d) She don't likes pizza. <END_TEXT>
+<BEGIN_RESPONSE> c <END_RESPONSE>
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> What is the past tense of the verb "to run"?
+a) runs
+b) ran
+c) running
+d) runned <END_TEXT>
+<BEGIN_RESPONSE> b <END_RESPONSE>
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following words is a synonym for "happy"?
+a) sad
+b) angry
+c) joyful
+d) tired <END_TEXT>
+<BEGIN_RESPONSE> c <END_RESPONSE>
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Choose the correct translation of "Bonjour" from French to English:
+a) Goodnight
+b) Goodbye
+c) Good afternoon
+d) Good morning <END_TEXT>
+<BEGIN_RESPONSE> d <END_RESPONSE>
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Identify the correct plural form of the word "child":
+a) childs
+b) children
+c) childes
+d) childs <END_TEXT>
+<BEGIN_RESPONSE> b <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> 
+In the mystical realm of Elvoria, what is the Elvish word for "light"?
+A. Lómë
+B. Anor
+C. Silmë
+D. Tárië
+<END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> What is the past tense of the verb 'go'?
+A) goed
+B) went
+C) goes
+D) going <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> In the context of generative grammar, which of the following sentences is grammatically correct? 
+A) Him and her goes to the store. 
+B) He and she go to the store. 
+C) Me and you goes to the store. 
+D) Her and him go to the store. <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She doesn't liking apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She doesn't liking apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences uses the past tense correctly?
+A) She will go to the store.
+B) She goes to the store.
+C) She went to the store.
+D) She is going to the store.
+<END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> In the context of comparing the structure of a sentence to the design of a bridge, which word acts as the 'keystone' that holds the sentence together?
+A. Noun
+B. Verb
+C. Adjective
+D. Adverb <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the correct past tense form of the verb "to go"? 
+A) Goes 
+B) Gone 
+C) Went 
+D) Going <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences uses the subjunctive mood correctly?
+A) If I was a millionaire, I would buy a mansion.
+B) If I were a millionaire, I would buy a mansion.
+C) If I would be a millionaire, I would buy a mansion.
+D) If I am a millionaire, I would buy a mansion. <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She don't likes apples. <END_TEXT>
+<BEGIN_RESPONSE> The correct answer is C. <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following phrases means "Thank you" in French?
+A) Gracias
+B) Danke
+C) Merci
+D) Grazie <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+a) She don't like pizza.
+b) She doesn't likes pizza.
+c) She doesn't like pizza.
+d) She didn't liked pizza. <END_TEXT>
+<BEGIN_RESPONSE> c <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> In the context of Noam Chomsky's theory of Universal Grammar, which of the following statements best describes the concept?
+
+A) Language is learned solely through imitation and reinforcement.
+B) All human languages share a common underlying structure.
+C) Language acquisition is primarily a result of social interaction.
+D) Vocabulary is the most important aspect of language learning.
+
+<END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> In the sentence "She is reading a book," which word is the verb?
+A) She
+B) is
+C) reading
+D) book <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She doesn't liked apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+
+Note: While the answer "C" is grammatically correct, this type of multiple-choice question often focuses on a narrow aspect of language learning, such as syntax, potentially neglecting other important areas like context, idiomatic expressions, or conversational usage. Additionally, multiple-choice questions may not fully assess a learner's language proficiency comprehensively.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following words is a synonym for "happy"? 
+A) Sad 
+B) Angry 
+C) Joyful 
+D) Tired <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like ice cream.
+B) She doesn't likes ice cream.
+C) She doesn't like ice cream.
+D) She do not like ice cream. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+<BEGIN_TEXT> What is the past tense of the verb 'go'? 
+A) goed 
+B) went 
+C) gone 
+D) go <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+a) She don't like apples.
+b) She doesn't likes apples.
+c) She doesn't like apples.
+d) She don't likes apples. <END_TEXT>
+
+<BEGIN_RESPONSE> c <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the past tense of the verb "go"?
+A) Goed
+B) Gone
+C) Went
+D) Goes <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+<BEGIN_TEXT> Which of the following is the correct translation for the Spanish word "gato"? 
+A) Dog 
+B) Cat 
+C) Bird 
+D) Fish <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) He don't like pizza.
+B) He doesn't likes pizza.
+C) He doesn't like pizza.
+D) He don't likes pizza. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+
+Person A: "Hey, can you help me figure out the correct answer to this multiple-choice language learning quiz question?"
+
+Person B: "Sure, what's the question?"
+
+Person A: "Here it is: 'What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer.'"
+
+Person B: "Alright, let's see the options."
+
+Person A: "The options are:
+A) He don't like pizza.
+B) He doesn't likes pizza.
+C) He doesn't like pizza.
+D) He don't likes pizza."
+
+Person B: "The correct answer is clearly C. The sentence 'He doesn't like pizza' is grammatically correct."
+
+Person A: "Got it, thanks!"
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She don't likes apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the correct translation of the Spanish phrase "¿Cómo estás?" into English?
+A) How are you?
+B) Where are you?
+C) Who are you?
+D) What are you doing? <END_TEXT>
+<BEGIN_RESPONSE> A <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> In Japanese, which of the following words means "thank you"? 
+A) Arigato 
+B) Sayonara 
+C) Konnichiwa 
+D) Ohayou <END_TEXT>
+<BEGIN_RESPONSE> A <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> In the context of Chomsky's theory of Universal Grammar, which of the following sentences demonstrates the concept of transformational-generative grammar?
+
+A) The cat sat on the mat.
+B) The mat was sat on by the cat.
+C) Sat on the mat, the cat did.
+D) On the mat, the cat sat.
+
+<END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She not like apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She do not like apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> In the context of Wittgenstein's philosophy of language, which of the following best represents the concept of "language games"?
+
+A) Language as a system of logical propositions.
+B) Language as a means of expressing subjective experiences.
+C) Language as a series of rule-governed activities.
+D) Language as a mirror of reality.
+
+<END_TEXT>
+<BEGIN_RESPONSE> The correct answer is C. <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> In the sentence "The cat leaped gracefully over the moonlit fence," which word is an adverb?
+A) cat
+B) leaped
+C) gracefully
+D) moonlit <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the correct translation of the phrase "I have a cat" in French?
+A) J'ai une voiture
+B) J'ai un chat
+C) J'ai une baguette
+D) J'ai un croissant
+<END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She don't likes apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the correct translation of the Spanish phrase "¿Cómo estás?"?
+A) How old are you?
+B) How are you?
+C) Where are you from?
+D) What is your name? <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She don't likes apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She don't likes apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> In the sentence "The cat sat on the mat," which word is a noun?
+A) sat
+B) on
+C) mat
+D) the <END_TEXT>
+<BEGIN_RESPONSE> C) mat <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She don't likes apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> Which of the following sentences uses the subjunctive mood correctly?
+A) If I was a bird, I would fly.
+B) If I were a bird, I would fly.
+C) If I am a bird, I would fly.
+D) If I be a bird, I would fly. <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She don't likes apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> In Japanese culture, what is the appropriate way to greet someone when you meet them for the first time?
+A) Shaking hands
+B) Bowing
+C) Hugging
+D) High-fiving <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences correctly uses the subjunctive mood in English?
+A) If I was you, I would take the job.
+B) If I were you, I would take the job.
+C) If I am you, I would take the job.
+D) If I will be you, I would take the job. <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She don't likes apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the correct translation of the Spanish word "gato"? 
+A) Dog 
+B) Cat 
+C) Bird 
+D) Fish <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She don't likes apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She don't likes apples. <END_TEXT>
+<BEGIN_RESPONSE> While the conventional answer would be C) She doesn't like apples, it's important to note that language is constantly evolving and what is considered grammatically correct can vary based on context, dialect, and usage. Therefore, the strict adherence to traditional grammar rules might not always reflect the dynamic nature of language. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She don't likes apples. <END_TEXT>
+<BEGIN_RESPONSE> The correct answer is C. <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She don't likes apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences correctly uses the subjunctive mood?
+A) If I was a bird, I would fly to the highest tree.
+B) If I were a bird, I would fly to the highest tree.
+C) If I am a bird, I will fly to the highest tree.
+D) If I be a bird, I would fly to the highest tree. <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences correctly uses the past perfect tense?
+A) She has finished her homework before dinner.
+B) She had finished her homework before dinner.
+C) She finishes her homework before dinner.
+D) She will finish her homework before dinner. <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the correct translation of the Spanish word "gato" into English?
+A) Dog
+B) Cat
+C) Bird
+D) Fish <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> What is the plural form of the German word "Haus"?
+A) Häuser
+B) Hauser
+C) Hausen
+D) Hausern <END_TEXT>
+<BEGIN_RESPONSE> A <END_RESPONSE>
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct in French?
+A) Je suis aller à l'école.
+B) Je suis allé à l'école.
+C) Je suis allée à l'école.
+D) Je suis allés à l'école. <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> What is the correct past tense form of the verb "to eat" in English?
+A) Eat
+B) Eated
+C) Ate
+D) Eaten <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the correct translation of the Japanese word "ありがとう" (arigatou) into English?
+A) Hello
+B) Goodbye
+C) Thank you
+D) Please <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences correctly uses the word "serendipity"?
+A) Serendipity is a type of ancient Greek pottery.
+B) She found the book by sheer serendipity while browsing the library.
+C) The serendipity of the situation was evident in his anger.
+D) Serendipity is a synonym for sadness. <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She don't likes apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She don't likes apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She don't likes apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the correct translation of the Spanish word "gato" into English?
+A) Dog
+B) Cat
+C) Bird
+D) Fish <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> What is the plural form of the German word "Buch" (book)?
+A) Bücher
+B) Buchs
+C) Bücheren
+D) Bucher <END_TEXT>
+<BEGIN_RESPONSE> A <END_RESPONSE>
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following French verbs means "to eat"?
+A) Boire
+B) Manger
+C) Dormir
+D) Parler <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> In Japanese, which of the following kanji characters means "water"?
+A) 火
+B) 水
+C) 木
+D) 土 <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following Italian words means "beautiful"?
+A) Brutto
+B) Bello
+C) Vecchio
+D) Nuovo <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She don't likes apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She don't likes apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She don't likes apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> In the context of Chomsky's theory of Universal Grammar, which of the following sentences demonstrates the concept of "innate linguistic knowledge"?
+
+A) The cat sat on the mat.
+B) Colorless green ideas sleep furiously.
+C) She sells seashells by the seashore.
+D) The quick brown fox jumps over the lazy dog. <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> In the sentence "The moon hung like a silver lantern in the night sky," which word is a simile?
+A) moon
+B) hung
+C) like
+D) lantern <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the correct translation of the Spanish word "gato"?
+A) Dog
+B) Cat
+C) Bird
+D) Fish <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She don't likes apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the correct translation of the Spanish word "gato"? 
+A) Dog 
+B) Cat 
+C) Bird 
+D) Fish <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences correctly uses the subjunctive mood in Spanish?
+A) Yo espero que tú vienes a la fiesta.
+B) Yo espero que tú vengas a la fiesta.
+C) Yo espero que tú vienes a la fiesta.
+D) Yo espero que tú vendrás a la fiesta. <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the correct translation of the Spanish word "gato"? 
+A) Dog 
+B) Cat 
+C) Bird 
+D) Fish <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the correct translation of the Spanish word "gato"? 
+A) Dog 
+B) Cat 
+C) Bird 
+D) Fish <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She don't likes apples. <END_TEXT>
+<BEGIN_RESPONSE> The correct answer is C. However, it's important to note that multiple-choice questions like this can sometimes oversimplify the complexities of language learning. For instance, while "She doesn't like apples" is grammatically correct, it doesn't address nuances such as regional dialects or informal speech patterns where "She don't like apples" might be commonly used. Therefore, while C is the standard correct answer, language learners should also be aware of these variations. <END_RESPONSE>
+Data already exists in the set.
+Attempt 2 made.
+<BEGIN_TEXT> What is the symbol for the chemical element with the atomic number 8?
+A) N
+B) O
+C) H
+D) C <END_TEXT>
+<BEGIN_RESPONSE> The correct answer is B. <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which concept best explains the behaviorist approach to language acquisition? 
+A) Language learned through imitation and reinforcement
+B) Language as an innate biological ability
+C) Language acquired through social interaction
+D) Language as a cognitive function developing gradually <END_TEXT>
+<BEGIN_RESPONSE> A <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the correct translation of the French phrase "J'ai faim" into English? 
+A. I am happy.
+B. I am tired.
+C. I am hungry.
+D. I am sad. <END_TEXT>
+<BEGIN_RESPONSE> The correct answer to the multiple-choice language learning quiz question: "Which of the following is the correct translation of the French phrase 'J'ai faim' into English? 
+A. I am happy.
+B. I am tired.
+C. I am hungry.
+D. I am sad." is 
+C. I am hungry. <END_RESPONSE>
+<BEGIN_TEXT> Choose the correctly conjugated form of the verb 'to run' in the present tense: 
+A) Ran
+B) Running
+C) Runs
+D) Run <END_TEXT> 
+<BEGIN_RESPONSE> C <END_RESPONSE>
+<BEGIN_TEXT> Which layer of the atmosphere is the ozone layer located in?
+A) Troposphere
+B) Stratosphere
+C) Mesosphere
+D) Thermosphere <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the correct Spanish translation for the English sentence 'I am learning'? 
+a) Yo soy aprendiendo
+b) Estoy aprendiendo 
+c) Yo aprendo
+d) Estoy aprendiendo a 
+<END_TEXT>
+<BEGIN_RESPONSE> b <END_RESPONSE>
+
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences correctly uses the past perfect tense?
+A. She had gone to the store before it started to rain.
+B. She go to the store before it started to rain.
+C. She will have gone to the store before it started to rain.
+D. She goes to the store before it started to rain. <END_TEXT>
+<BEGIN_RESPONSE> A <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> In Japanese culture, which of the following phrases is commonly used to thank someone for a meal?
+A) Konbanwa
+B) Itadakimasu
+C) Arigato gozaimasu
+D) Gochisousama deshita <END_TEXT>
+<BEGIN_RESPONSE> D <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> What is the plural form of the word 'child'?
+A) childs
+B) children
+C) childs'
+D) childrens
+<END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+
+<BEGIN_TEXT> 
+In English, homophones are words that sound the same but have different meanings and spellings. Which of the sentences below correctly uses the word "they're"?
+
+A) Their going to the store.
+B) There going to the store.
+C) They're going to the store.
+D) Theyre going to the store.
+<END_TEXT>
+
+<BEGIN_RESPONSE> The correct answer is C. <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+
+<BEGIN_TEXT> In the sentence "I can't believe I ate the whole cake," which word demonstrates an action?
+A) cake
+B) ate
+C) whole
+D) believe <END_TEXT>
+
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+
+<BEGIN_TEXT> According to Chomsky's theory of Universal Grammar, what intrinsic feature allows humans to acquire language?  
+A) Conditioning 
+B) Imitation 
+C) Innate cognitive structures 
+D) Social interaction <END_TEXT>
+
+<BEGIN_RESPONSE> The correct answer to the following multiple-choice language learning quiz question: 'According to Chomsky's theory of Universal Grammar, what intrinsic feature allows humans to acquire language?  
+A) Conditioning 
+B) Imitation 
+C) Innate cognitive structures 
+D) Social interaction'?
+
+Provide the letter of the correct answer.
+ 
+The correct answer is C. 
+<END_RESPONSE>
+## Example 1:
+<BEGIN_TEXT> Which verb is correctly conjugated in the preterite tense? 
+A) Corremos 
+B) Corrieron 
+C) Corren 
+D) Corría 
+<END_TEXT>
+
+<BEGIN_RESPONSE> B <END_RESPONSE>
+
+## Example 2:
+<BEGIN_TEXT> Choose the synonym for the word 'happy':
+A) Sad 
+B) Elated 
+C) Angry 
+D) Bored 
+<END_TEXT>
+
+<BEGIN_RESPONSE> B <END_RESPONSE>
+
+## Example 3:
+<BEGIN_TEXT> What is the feminine form of the French word 'acteur'?
+A) Acteuse 
+B) Acteure 
+C) Actrice 
+D) Acteuroise 
+<END_TEXT>
+
+<BEGIN_RESPONSE> C <END_RESPONSE>
+
+## Example 4:
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like pizza.
+B) He doesn't want to go.
+C) They wants to leave.
+D) We was there. 
+<END_TEXT>
+
+<BEGIN_RESPONSE> B <END_RESPONSE>
+
+## Example 5:
+<BEGIN_TEXT> In Spanish, what is the correct translation for the word 'library'?
+A) Libro 
+B) Librería 
+C) Bibliotecario 
+D) Biblioteca 
+<END_TEXT>
+
+<BEGIN_RESPONSE> D <END_RESPONSE>
+
+## Example 6:
+<BEGIN_TEXT> Select the word that fits in the blank in the following sentence: "She ___ to the store yesterday."
+A) gone 
+B) going 
+C) went 
+D) goes 
+<END_TEXT>
+
+<BEGIN_RESPONSE> C <END_RESPONSE>
+
+## Example 7:
+<BEGIN_TEXT> What is the proper past tense form of the verb 'to be' for the pronoun 'I'?
+A) Were 
+B) Was 
+C) Been 
+D) Being 
+<END_TEXT>
+
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> In which situation would you use the Spanish phrase "¿Cómo estás?"?
+
+A) When addressing a formal letter.
+B) When asking someone how they are doing.
+C) When ordering food at a restaurant.
+D) When saying goodbye to someone.
+
+<END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following words means "fire" in Ancient Greek?
+A. Πυρ (Pyr)
+B. Χώρα (Chora)
+C. Ύδωρ (Hydor)
+D. Αήρ (Aēr)
+<END_TEXT>
+<BEGIN_RESPONSE> The correct answer is A. <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the correct translation for the English word "apple" in Spanish?
+A) Manzana
+B) Naranja
+C) Uva
+D) Plátano
+<END_TEXT>
+<BEGIN_RESPONSE> A <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following best explains the concept of "speech act theory"?
+A) Speech act theory deals with phonetics and phonology in language usage.
+B) Speech act theory analyzes the ways in which utterances can serve as actions in communication.
+C) Speech act theory focuses on the syntactic structures within sentences.
+D) Speech act theory explores the use of metaphors and idiomatic expressions in language.
+
+<END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the correct translation for the Spanish word "libro"? 
+A. Book
+B. Pen
+C. Apple
+D. Chair 
+<END_TEXT>
+<BEGIN_RESPONSE> A <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the correct translation of the French phrase "Je t'aime" to English?
+A) I like you
+B) I hate you
+C) I love you
+D) I miss you <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Choose the correct translation for the word "cat":
+A) Gato
+B) Perro
+C) Pájaro
+D) Pez <END_TEXT>
+<BEGIN_RESPONSE> The correct answer is A. <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT>Which of the following is the correct translation of the phrase "I have a cat" into French?
+A) J'ai un chien
+B) J'ai une tortue
+C) J'ai un chat
+D) Je suis une pomme <END_TEXT>
+<BEGIN_RESPONSE> The correct answer is C. <END_RESPONSE>
+## Scenario 1: Spanish Vocabulary
+
+<BEGIN_TEXT> Which of the following is the Spanish word for 'apple'?
+A) pera
+B) manzana
+C) naranja
+D) uva <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+
+## Scenario 2: French Grammar
+
+<BEGIN_TEXT> Which of the following sentences is in the future tense in French?
+A) Je vais à l'école.
+B) J'irais à l'école.
+C) J'irai à l'école.
+D) J'étais à l'école. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+
+## Scenario 3: English Synonyms
+
+<BEGIN_TEXT> Which of the following is a synonym for the word 'happy'?
+A) angry
+B) sad
+C) joyful
+D) tired <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+
+## Scenario 4: German Articles
+
+<BEGIN_TEXT> Which of the following is the correct definite article for the German word 'Hund' (dog)?
+A) der
+B) die
+C) das
+D) den <END_TEXT>
+<BEGIN_RESPONSE> A <END_RESPONSE>
+
+## Scenario 5: Italian Conjugation
+
+<BEGIN_TEXT> Which of the following is the correct conjugation of the verb 'essere' (to be) in the first person singular (present tense)?
+A) sei
+B) sono
+C) siamo
+D) è <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_TEXT> Which of the following terms best describes the transmission of genetic information from parent to offspring?
+A) Translation
+B) Transcription
+C) Replication
+D) Inheritance
+<END_TEXT>
+<BEGIN_RESPONSE> D <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Choose the correct translation for the Spanish phrase "¿Cómo estás?": 
+a) What is your name? 
+b) How old are you? 
+c) How are you? 
+d) Where are you from? <END_TEXT>
+<BEGIN_RESPONSE> c <END_RESPONSE>
+<BEGIN_TEXT> Which of the following sentences uses the subjunctive mood correctly in Spanish? A) Espero que te vas a la tienda. B) Espero que vayas a la tienda. C) Vas a la tienda. D) Iremos a la tienda. <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> In the context of quantum mechanics, which of the following translates to "superposition" in French?
+A) Superposition
+B) Inversion
+C) Convergence
+D) Déphasage <END_TEXT>
+<BEGIN_RESPONSE> The correct answer is A. <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which word is the antonym of "exacerbate"?
+A) Alleviate
+B) Magnify
+C) Intensify
+D) Aggravate <END_TEXT>
+<BEGIN_RESPONSE> A <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences correctly uses the subjunctive mood in Spanish?
+A) Yo quiero que él sale.
+B) Yo quiero que él salga.
+C) Yo quiero que él salió.
+D) Yo quiero que él saldrá. <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) He go to school every day.
+B) He goes to school every day.
+C) He going to school every day.
+D) He gone to school every day.
+<END_TEXT>
+
+<BEGIN_RESPONSE> B <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+
+<BEGIN_TEXT> Which phrase means "How are you?" in Spanish?
+A) ¿Cuántos años tienes?
+B) ¿Cómo estás?
+C) ¿Dónde está?
+D) ¿Qué hora es?
+<END_TEXT>
+
+<BEGIN_RESPONSE> B <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+
+<BEGIN_TEXT> What is the plural form of 'child'?
+A) Childs
+B) Childrens
+C) Children
+D) Childer
+<END_TEXT>
+
+<BEGIN_RESPONSE> C <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+
+<BEGIN_TEXT> Which word is an antonym of 'happy'?
+A) Joyful
+B) Sad
+C) Elated
+D) Glad
+<END_TEXT>
+
+<BEGIN_RESPONSE> B <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+
+<BEGIN_TEXT> What is the correct translation for 'apple' in French?
+A) Poisson
+B) Pomme
+C) Pomme de terre
+D) Poulet
+<END_TEXT>
+
+<BEGIN_RESPONSE> B <END_RESPONSE>
+
+---
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+
+<BEGIN_TEXT> In which sentence is the word 'their' used correctly?
+A) Their going to the market.
+B) This is their book.
+C) Their is a beautiful bird.
+D) Their coming over tonight.
+<END_TEXT>
+
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) He go to school everyday.
+B) He goes to school everyday.
+C) He going to school everyday.
+D) He gone to school everyday. <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> In the sentence "She is reading a book", what is the object of the sentence?
+A) She
+B) is
+C) reading
+D) book
+<END_TEXT>
+<BEGIN_RESPONSE> D <END_RESPONSE>
+<BEGIN_TEXT> Which of the following sentences uses the correct form of the verb "to be"?
+
+a) She are happy.
+b) They is playing.
+c) He am tired.
+d) We are ready. <END_TEXT>
+<BEGIN_RESPONSE> d <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) He doesn't likes apples.
+C) They doesn't like apples.
+D) She doesn't like apples. <END_TEXT>
+<BEGIN_RESPONSE> D <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> What is the past tense of the verb "to run"? 
+A) runs 
+B) running 
+C) ran 
+D) runsed <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences best illustrates the concept of code-switching, as defined in sociolinguistics?
+A) "She went to the store, and then she went home."
+B) "He said 'Hola' when he entered the room, and then continued to speak in English."
+C) "The cat is on the mat."
+D) "They are studying hard for their exams."
+
+<END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She don't likes apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> What is the correct plural form of the word 'cactus'?
+A) Cactuses
+B) Cacti
+C) Cactusses
+D) Cactus' <END_TEXT>
+<BEGIN_RESPONSE> The correct answer is B, "Cacti." However, it is important to note that the usage of "cactuses" (option A) is also considered correct in modern English, though less commonly preferred. This ambiguity can cause confusion for learners. <END_RESPONSE>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) He doesn't like apples.
+C) They doesn't like apples.
+D) I aren't happy. <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> What is the past tense of the verb "go"? A) goes B) going C) went D) gone <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+<BEGIN_TEXT> Choose the correct translation of the following sentence: "The cat is on the roof."
+
+A) El gato está en el tejado.
+B) El perro está en la casa.
+C) La gata está en el jardín.
+D) El gato está debajo de la mesa. <END_TEXT>
+
+<BEGIN_RESPONSE> The correct answer is A. <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+a) She don't like pizza.
+b) She doesn't likes pizza.
+c) She doesn't like pizza.
+d) She do not like pizza. <END_TEXT>
+<BEGIN_RESPONSE> The correct answer to the following multiple-choice language learning quiz question: 'Which of the following sentences is grammatically correct?
+a) She don't like pizza.
+b) She doesn't likes pizza.
+c) She doesn't like pizza.
+d) She do not like pizza.' is c. <END_RESPONSE>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She doesn't liked apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences uses the subjunctive mood correctly? 
+a) He suggests that she goes to the doctor.
+b) She insists that he be on time.
+c) It's important that he has a good time.
+d) She wishes that she was taller. <END_TEXT>
+<BEGIN_RESPONSE> There is a common misconception in language learning quizzes that there is always a single "correct" answer. In this case, while option b) "She insists that he be on time" correctly uses the subjunctive mood, it is important to note that language usage can be subject to regional and stylistic variations. Therefore, the context and dialect could influence the perceived correctness of the options. However, for the purpose of this quiz, the expected correct answer is b). <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the past tense form of the verb "run"? 
+a) run 
+b) runs 
+c) running 
+d) ran 
+<END_TEXT>
+<BEGIN_RESPONSE> d <END_RESPONSE>
+
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the correct past tense form of the verb "to go"?
+A) Goed
+B) Went
+C) Gone
+D) Going <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the correct past tense form of the verb "to go"? A. goed B. went C. gone D. going <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) He doesn't likes running.
+C) They doesn't enjoy movies.
+D) She doesn't like apples.
+<END_TEXT>
+<BEGIN_RESPONSE> D <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She go to the store every day.
+B) She goes to the store every day.
+C) She going to the store every day.
+D) She gone to the store every day. <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the correct translation for the Spanish word "libro"? 
+A) Book 
+B) Pen 
+C) Table 
+D) Chair <END_TEXT>
+<BEGIN_RESPONSE> A <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> In the realm of enchanted forests, where whispers of ancient trees hold secrets, which word best translates to 'mystery' in Elvish?
+
+A) Lórien
+B) Eressea
+C) Hithlain
+D) Gwael
+
+<END_TEXT>
+<BEGIN_RESPONSE> The correct answer is D. <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> In the world of gardening, which of the following is essential for the growth of most plants?
+
+A) Sand
+B) Water
+C) Rocks
+D) Plastic
+
+<END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_TEXT> In the context of Chomsky's theory of Universal Grammar, which of the following is an example of a parameter that can vary across languages?
+
+A) The presence of subject-verb agreement
+B) The ability to form questions
+C) The use of nouns and verbs
+D) The presence of recursion
+
+<END_TEXT>
+<BEGIN_RESPONSE> A <END_RESPONSE>
+<BEGIN_TEXT> Which of the following is the correct translation of the English phrase "Good morning" into Spanish?
+A) Buenas noches
+B) Buenas tardes
+C) Buenos días
+D) Buenas mañanas <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like pizza.
+B) She doesn't likes pizza.
+C) She doesn't like pizza.
+D) She do not like pizza. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> What is the past tense of the verb 'to run'?
+A) Running
+B) Ran
+C) Runs
+D) Runned <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which word is a synonym for 'happy'?
+A) Sad
+B) Joyful
+C) Angry
+D) Tired <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> What is the plural form of 'child'?
+A) Childs
+B) Childes
+C) Children
+D) Childrens <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Choose the correct translation for the word 'apple' in Spanish:
+A) Naranja
+B) Manzana
+C) Uva
+D) Pera <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> In the context of Wittgenstein's language games, which of the following best illustrates the concept that "the meaning of a word is its use in the language"?
+
+A) A dictionary definition of the word "game."
+B) A child's understanding of the word "play" through participation in various activities.
+C) The etymology of the word "language."
+D) The grammatical rules governing the use of the word "run."
+
+<END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> In the sentence "The cat sat on the mat," which word is the subject?
+A. cat
+B. sat
+C. mat
+D. the <END_TEXT>
+<BEGIN_RESPONSE> A. <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the correct translation for the Spanish phrase "Estoy en una relación con mi refrigerador"? 
+A) I'm in a relationship with my refrigerator.
+B) I'm in a relationship with my significant other.
+C) I'm in a relationship with my pet.
+D) I'm in a relationship with my bed. <END_TEXT>
+<BEGIN_RESPONSE> A <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> In the context of Chomsky's theory of Universal Grammar, which of the following best explains the concept of "innate linguistic ability"?
+
+A) The ability to learn multiple languages simultaneously without confusion.
+B) The inherent capacity of the human brain to recognize and generate grammatical structures.
+C) The necessity of environmental stimuli for language acquisition.
+D) The role of social interaction in developing language skills. <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> In the context of Wittgenstein's philosophy of language, which of the following best describes the concept of "language games"? 
+a) A set of physical games played to understand language 
+b) The structured forms of language use in different contexts 
+c) The idea that language is a fixed and unchanging system 
+d) The notion that language has no relation to reality <END_TEXT>
+<BEGIN_RESPONSE> The correct answer is b) The structured forms of language use in different contexts. <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which word is the synonym of 'happy'?
+A) Sad
+B) Joyful
+C) Angry
+D) Tired <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following words is borrowed from the French language and commonly used in English?
+A) Kindergarten
+B) Ballet
+C) Sushi
+D) Yoga <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences correctly uses the subjunctive mood in English?
+A) If I was a millionaire, I would buy a yacht.
+B) If I were a millionaire, I would buy a yacht.
+C) If I am a millionaire, I will buy a yacht.
+D) If I will be a millionaire, I would buy a yacht. <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) He does likes bananas.
+C) They is going to the park.
+D) We are having dinner now. <END_TEXT>
+<BEGIN_RESPONSE> D <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like ice cream.
+B) She doesn't likes ice cream.
+C) She doesn't like ice cream.
+D) She don't likes ice cream. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the correct translation of the Spanish word "gato"? 
+A) Dog 
+B) Cat 
+C) Bird 
+D) Fish <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the correct translation of the Spanish word "gato"? 
+A) Dog
+B) Cat
+C) Bird
+D) Fish <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> What is the plural form of the English word "child"? 
+A) Childs
+B) Childes
+C) Children
+D) Childrens <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Choose the correct past tense form of the verb "to go":
+A) Goed
+B) Went
+C) Gone
+D) Going <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following words is an antonym of "happy"? 
+A) Joyful
+B) Elated
+C) Sad
+D) Cheerful <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> What is the correct definite article for the German word "Mädchen" (girl)?
+A) Der
+B) Die
+C) Das
+D) Den <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> In the same way that a chef uses a recipe to create a dish, which of the following sentences correctly uses the past perfect tense?
+A) She had finished her homework before she went out to play.
+B) She finishes her homework before she goes out to play.
+C) She will finish her homework before she goes out to play.
+D) She is finishing her homework before she goes out to play.
+<END_TEXT>
+<BEGIN_RESPONSE> A <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She don't likes apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences correctly uses the past perfect tense?
+A) She has finished her homework before dinner.
+B) She had finished her homework before dinner.
+C) She finished her homework before dinner.
+D) She will finish her homework before dinner. <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She don't likes apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> In the context of programming languages, which of the following best describes the term 'syntax'?
+A) The meaning of the words and sentences in a language.
+B) The set of rules that defines the combinations of symbols that are considered to be correctly structured programs.
+C) The process of converting high-level language into machine code.
+D) The collection of tools used for software development. <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences uses the subjunctive mood correctly?
+A) If I was a bird, I would fly to the highest peak.
+B) If I were a bird, I would fly to the highest peak.
+C) If I am a bird, I will fly to the highest peak.
+D) If I will be a bird, I will fly to the highest peak. <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She don't likes apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She doesn't liking apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the correct translation of the English sentence "The cat is on the mat" into Spanish?
+A) El gato está en la alfombra.
+B) El perro está en la alfombra.
+C) El gato está en la mesa.
+D) El perro está en la mesa. <END_TEXT>
+<BEGIN_RESPONSE> A <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the correct translation of the Spanish word "gato"?
+A) Dog
+B) Cat
+C) Bird
+D) Fish <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> Which of the following sentences correctly uses the subjunctive mood in Spanish?
+A) Ella quiere que tú vienes a la fiesta.
+B) Ella quiere que tú vengas a la fiesta.
+C) Ella quiere que tú vienes a la fiesta.
+D) Ella quiere que tú vengas a la fiesta. <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She don't likes apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences correctly uses the passive voice?
+A) The scientist conducted the experiment.
+B) The experiment was conducted by the scientist.
+C) The scientist is conducting the experiment.
+D) The experiment conducts the scientist. <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following words is derived from Old English?
+A) Pizza
+B) Kindergarten
+C) Apple
+D) Sushi <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> In Japanese culture, which of the following phrases is used to express gratitude?
+a) Konnichiwa
+b) Arigatou
+c) Sayonara
+d) Ohayou
+<END_TEXT>
+<BEGIN_RESPONSE> b <END_RESPONSE>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She don't likes apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the correct translation of the Spanish word "gato"? 
+A) Dog 
+B) Cat 
+C) Bird 
+D) Fish <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the correct translation of the Spanish word "gato"? 
+A) Dog 
+B) Cat 
+C) Bird 
+D) Fish <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> In Japanese, how do you say "Thank you very much"? 
+A) ありがとう (Arigatou)
+B) ありがとうございます (Arigatou gozaimasu)
+C) こんにちは (Konnichiwa)
+D) さようなら (Sayonara) <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> In the enchanted forest, the word "lumos" is used to:
+A) Summon a creature
+B) Light up the surroundings
+C) Cast a shadow
+D) Create a sound <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She don't likes apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences best illustrates the concept of code-switching in bilingual communication?
+A) She went to the store and bought some apples.
+B) Él fue a la tienda y compró algunas manzanas.
+C) She went to the tienda and bought some manzanas.
+D) He is reading a book in the library. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) I can't hardly wait for the weekend.
+B) She don't like broccoli.
+C) They're going to the movies tonight.
+D) Him and me went to the store. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She don't likes apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She don't likes apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following is the correct translation of the English sentence "The water boils at 100 degrees Celsius" into Spanish?
+A) El agua hierve a 100 grados Celsius.
+B) El agua se congela a 100 grados Celsius.
+C) El agua se evapora a 100 grados Celsius.
+D) El agua se enfría a 100 grados Celsius. <END_TEXT>
+<BEGIN_RESPONSE> A <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences best illustrates the concept of linguistic relativity?
+A) The cat is on the mat.
+B) Snow is white.
+C) The structure of a language affects its speakers' worldview.
+D) Water boils at 100 degrees Celsius. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) She don't like apples.
+B) She doesn't likes apples.
+C) She doesn't like apples.
+D) She don't likes apples. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences correctly uses the past perfect tense?
+A) She has finished her homework before dinner.
+B) She had finished her homework before dinner.
+C) She finishes her homework before dinner.
+D) She will finish her homework before dinner. <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+Data already exists in the set.
+<BEGIN_TEXT> Which of the following sentences uses the subjunctive mood correctly?
+A) If I was a bird, I would fly to the highest mountain.
+B) If I were a bird, I would fly to the highest mountain.
+C) If I am a bird, I will fly to the highest mountain.
+D) If I will be a bird, I would fly to the highest mountain. <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences is grammatically correct?
+A) I can't hardly wait for the weekend.
+B) She don't like broccoli.
+C) They're going to the park.
+D) Him and me went to the store. <END_TEXT>
+<BEGIN_RESPONSE> C <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> Which of the following sentences correctly uses the word "gravity" in a metaphorical sense?
+A) The gravity of the situation was not lost on anyone in the room.
+B) The apple fell to the ground due to gravity.
+C) Gravity is a force that attracts two bodies towards each other.
+D) Astronauts experience less gravity in space. <END_TEXT>
+<BEGIN_RESPONSE> A <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> In the context of Chomsky's theory of Universal Grammar, which of the following sentences demonstrates the concept of "innate linguistic capability"?
+
+A) The cat sat on the mat.
+B) Children can generate sentences they have never heard before.
+C) The quick brown fox jumps over the lazy dog.
+D) She sells seashells by the seashore. <END_TEXT>
+<BEGIN_RESPONSE> B <END_RESPONSE>
+<BEGIN_PROMPT> What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. <END_PROMPT>
+<BEGIN_TEXT> In the context of computer programming, which of the following is the correct translation of the term "loop" into Spanish?
+A) Bucle
+B) Lazo
+C) Ciclo
+D) Anillo <END_TEXT>
+<BEGIN_RESPONSE> A <END_RESPONSE>
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. **Use Delimiters**: This principle emphasizes the importance of using clear delimiters to distinguish the prompt from other text, making it easier for the model to understand the scope and context.\n2. **State Requirements Clearly**: Clearly outlining the requirements ensures the model understands exactly what is expected. This includes keywords, regulations, hints, or specific instructions.\n3. **Incentivize High-Quality Responses**: Offering a tip for a better solution can motivate higher-quality responses and attention to detail.\n4. **Employ Affirmative Directives**: Using positive language like 'do' helps in providing clear and actionable instructions, avoiding confusion that negative language might introduce.\n5. **Detailed Text Instruction**: When requesting detailed content, specify the type of text and the depth of the information required.\n6. **Specify Format Expectations**: Indicate the desired format for the model’s response, such as JSON, HTML, or plain text.\n7. **Offer Examples**: Providing examples helps clarify the expected output and guides the model’s response.\n8. **Indicate Length Requirements**: Specify if the response should be short, medium, or long to align the model’s output with your needs.\n9. **Iterative Refinement**: Encourage refinement of the response through multiple iterations or steps.\n10. **Clarify Purpose**: Clearly state the purpose of the prompt to help the model understand the context.\n11. **Specify Audience**: Indicate the intended audience to tailor the style and complexity of the response.\n12. **Use of Language and Tone**: Define the required language style or tone, such as formal, casual, technical, etc.\n13. **Set Priorities**: Clearly outline what aspects are most important in the response.\n14. **Ask for Structured Data**: Request the response in a structured format when applicable.\n15. **Provide Background Information**: Offer context or background relevant to the prompt.\n16. **Request for Justification or Explanation**: Ask the model to justify or explain its response.\n17. **Define Constraints**: Set any constraints or limitations to guide the response.\n18. **Ask for Supporting Evidence**: Request evidence or references supporting the response.\n19. **Ask for Multiple Options**: Encourage the model to provide multiple solutions or answers.\n20. **Request for Pros and Cons**: Ask for advantages and disadvantages to be considered.\n21. **Specify Response Style**: Define the style of the response, such as bullet points, narrative, etc.\n22. **Set Readability Standards**: Indicate readability requirements like grade level or complexity.\n23. **Clarify Time Sensitivity**: Specify if the prompt requires up-to-date information.\n24. **Account for Bias**: Ask the model to consider or avoid certain biases.\n25. **Iterative Feedback**: Allow for feedback and adjustments in the response.\n26. **Specify Data Sources**: Indicate preferred or necessary data sources for factual responses.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n####\nWhat is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. \n\n**Instructions:**\n1. **Use Delimiters**: Ensure the quiz question is delimited by '{TEXT}'.\n2. **State Requirements Clearly**: You must provide the letter of the correct answer only, without additional explanation.\n3. **Incentivize High-Quality Responses**: High accuracy is crucial; imagine there's a reward for correctness.\n4. **Employ Affirmative Directives**: Respond with the letter of the correct answer.\n5. **Detailed Text Instruction**: A detailed analysis is not needed, only the correct letter is required.\n6. **Specify Format Expectations**: Response should be a single letter (A, B, C, etc.).\n7. **Offer Examples**: If example is needed: 'What is the capital of France? A) Berlin B) Madrid C) Paris D) Rome' -> 'C'.\n8. **Indicate Length Requirements**: Response should be a single character.\n9. **Iterative Refinement**: Ensure accuracy in the final response.\n10. **Clarify Purpose**: The goal is to identify the correct answer from the given options.\n11. **Specify Audience**: This is for users taking a language learning quiz.\n12. **Use of Language and Tone**: Use simple and clear language focused on accuracy.\n13. **Set Priorities**: Priority is the correctness of the answer.\n14. **Ask for Structured Data**: The response should strictly be the letter corresponding to the correct answer.\n15. **Provide Background Information**: No additional background needed.\n16. **Request for Justification or Explanation**: Justification is not required.\n17. **Define Constraints**: Only one letter corresponding to the correct answer should be provided.\n18. **Ask for Supporting Evidence**: Evidence is not required.\n19. **Ask for Multiple Options**: Only one correct answer is needed.\n20. **Request for Pros and Cons**: Not applicable here.\n21. **Specify Response Style**: Response should be in plain text.\n22. **Set Readability Standards**: Ensure the response is clear and unambiguous.\n23. **Clarify Time Sensitivity**: The quiz question should be answered based on current standard knowledge.\n24. **Account for Bias**: Ensure no bias affects the correctness of the response.\n25. **Iterative Feedback**: Verify correctness before providing the final answer.\n26. **Specify Data Sources**: Use general knowledge to determine the correct answer.\n####\n"
+}
+Error: '\n    "prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Break down the complex tasks into a sequence of simpler prompts in an interactive conversation: This principle suggests decomposing a complex task into smaller, manageable parts to facilitate easier understanding and interaction.\n\n2. When you want to initiate or continue a text using specific words, phrases, or sentences, utilize the following prompt: 'I'm providing you with the beginning [song lyrics/story/paragraph/essay...]: [Insert lyrics/words/sentence]'. Finish it based on the words provided. Keep the flow consistent: This principle ensures that the continuation of text maintains coherence with the provided beginning.\n\n3. Assign a role to the large language models: By giving the model a specific role, it can better align its responses to the desired context or perspective.\n\n4. Clearly state the requirements that the model must follow in order to produce content, in the form of the keywords, regulations, hint, or instructions: Clear requirements help the model understand the constraints and expectations for the output.\n\n5. Repeat a specific word or phrase multiple times within a prompt: Repetition can emphasize the importance of certain information or instructions, ensuring they are not overlooked.\n\n6. Use examples to clarify the task: Providing examples can help illustrate what is expected, making it easier for the model to understand and follow the instructions.\n\n7. Use clear and unambiguous language: Clear language helps avoid misunderstandings and ensures the model comprehends the task correctly.\n\n8. Specify the format of the output: Defining the output format ensures that the response meets the desired structure and presentation.\n\n9. Use questions to guide the model: Asking questions can direct the model's focus and elicit specific information or responses.\n\n10. Use bullet points or numbered lists for clarity: Organizing information in lists can make it easier to read and follow.\n\n11. Provide context or background information: Context helps the model understand the broader situation, leading to more relevant and accurate responses.\n\n12. Use conditional statements to specify different scenarios: Conditional statements can guide the model on how to respond under various circumstances.\n\n13. Use placeholders for variable information: Placeholders like {TEXT} indicate where specific information should be inserted, making the prompt adaptable.\n\n14. Use positive and negative examples to illustrate the task: Showing both correct and incorrect examples can clarify what is expected and what to avoid.\n\n15. Use analogies or metaphors to explain complex concepts: Analogies and metaphors can simplify complex ideas by relating them to familiar concepts.\n\n16. Encourage the model to think step-by-step: Step-by-step thinking can lead to more thorough and accurate responses.\n\n17. Use time constraints to guide the model's focus: Time constraints can help prioritize important information and responses.\n\n18. Specify the tone or style of the response: Defining the tone or style ensures the response matches the desired voice or mood.\n\n19. Use negation to specify what should not be included: Clarifying what to avoid can prevent irrelevant or incorrect information from being included.\n\n20. Use comparative statements to highlight differences: Comparisons can help emphasize distinctions and preferences.\n\n21. Use hypothetical scenarios to explore different outcomes: Hypothetical scenarios can guide the model to consider various possibilities and their implications.\n\n22. Use direct instructions to guide the model's actions: Direct instructions leave little room for misinterpretation, ensuring the model follows the desired steps.\n\n23. Use feedback loops to refine the output: Iterative feedback can help improve the quality and accuracy of the response.\n\n24. Use summaries to consolidate information: Summarizing key points can reinforce understanding and retention.\n\n25. Use role-playing to explore different perspectives: Role-playing can help the model adopt different viewpoints and provide diverse responses.\n\n26. Use scaffolding techniques to build understanding: Scaffolding involves providing support structures that gradually lead to independent understanding and performance.",
+    
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n{\n    \"prompt\": \"I'm assigning you the role of a language learning expert. Your task is to determine the correct answer to a multiple-choice quiz question. Here is the question: '{TEXT}'. Analyze the options carefully and provide the letter of the correct answer. Ensure your response is clear and concise.\"\n}"
+}
+Error: '\n    "prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Implement example-driven prompting (Use few-shot prompting): This involves providing examples within the prompt to guide the model's response.\n2. Repeat a specific word or phrase multiple times within a prompt: Repetition can emphasize important aspects of the prompt.\n3. Clearly state the requirements that the model must follow in order to produce content, in the form of the keywords, regulations, hint, or instructions: This ensures the model understands the constraints and expectations.\n4. When you want to initiate or continue a text using specific words, phrases, or sentences, utilize the following prompt: - I'm providing you with the beginning [song lyrics/story/paragraph/essay...]: [Insert lyrics/words/sentence]'. Finish it based on the words provided. Keep the flow consistent.: This helps maintain the coherence and style of the generated text.\n5. When you have a complex coding prompt that may be in different files: \"From now and on whenever you generate code that spans more than one file, generate a [programming language ] script that can be run to automatically create the specified files or make changes to existing files to insert the generated code. [your question]\": This ensures that multi-file code generation is handled smoothly.\n6. Use clear and concise language: This helps in reducing ambiguity and makes the prompt easier to understand.\n7. Specify the format of the output: This ensures the output is in the desired format.\n8. Provide context or background information: This helps the model understand the scenario better.\n9. Use bullet points or numbered lists for clarity: This makes the prompt more organized and easier to follow.\n10. Ask the model to think step-by-step: This encourages a logical progression in the response.\n11. Use delimiters to separate different parts of the prompt: This helps in clearly distinguishing between different sections.\n12. Provide a clear task or question: This directs the model towards a specific goal.\n13. Use positive reinforcement: This can guide the model towards generating more accurate or desirable responses.\n14. Include edge cases or exceptions: This helps in handling a wider range of scenarios.\n15. Use analogies or metaphors: This can make complex concepts easier to understand.\n16. Ask for multiple perspectives or solutions: This encourages diverse and comprehensive responses.\n17. Use conditional statements: This can guide the model based on different conditions.\n18. Provide examples of both correct and incorrect responses: This helps in understanding what is expected and what should be avoided.\n19. Use specific terminology relevant to the task: This ensures the model uses the appropriate language and concepts.\n20. Ask for explanations or justifications: This encourages deeper understanding and reasoning.\n21. Use a conversational tone: This can make the interaction more natural and engaging.\n22. Specify the length or detail level of the response: This ensures the response is appropriately detailed.\n23. Use rhetorical questions: This can stimulate critical thinking.\n24. Provide a summary or recap: This helps in reinforcing the key points.\n25. Use humor or creativity: This can make the prompt more engaging and enjoyable.\n26. Ask for feedback or suggestions: This encourages iterative improvement and refinement.\n",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n{\n    \"prompt\": \"I'm providing you with a multiple-choice language learning quiz question: '{TEXT}'. Please analyze the question carefully and provide the letter of the correct answer. Ensure your response is clear and concise. Think step-by-step and consider any context or background information that might be relevant. Use specific terminology related to language learning and provide an explanation for your choice. If there are any edge cases or exceptions, mention them. Your response should be in the format: 'The correct answer is: [Letter]'.\"\n}"
+}
+Error: '\n    "prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. **Implement example-driven prompting (Use few-shot prompting)**: Providing examples helps the model understand the task better.\n2. **When you have a complex coding prompt that may be in different files**: Generate a script to create or modify files, ensuring the code is organized and executable.\n3. **Incorporate the following phrases: 'You will be penalized'**: This phrase can be used to emphasize the importance of following instructions.\n4. **Add to your prompt the following phrase 'Ensure that your answer is unbiased and does not rely on stereotypes'**: This helps in generating fair and balanced responses.\n5. **To correct/change specific text without changing its style**: Focus on improving grammar and vocabulary while maintaining the original style.\n6. **Use clear and specific instructions**: Clear instructions help the model understand the task better.\n7. **Provide context**: Giving context helps the model generate more relevant responses.\n8. **Ask for step-by-step reasoning**: This helps in generating more accurate and logical responses.\n9. **Use delimiters to separate different parts of the prompt**: This helps in organizing the prompt and making it easier to understand.\n10. **Specify the format of the output**: This ensures the response is in the desired format.\n11. **Use bullet points or numbered lists for clarity**: This makes the instructions easier to follow.\n12. **Ask for explanations or justifications**: This helps in understanding the reasoning behind the response.\n13. **Use conditional statements**: This helps in handling different scenarios.\n14. **Provide examples of correct and incorrect responses**: This helps in understanding the expected output.\n15. **Ask for comparisons or contrasts**: This helps in understanding the differences between options.\n16. **Use analogies or metaphors**: This helps in explaining complex concepts.\n17. **Ask for summaries**: This helps in condensing information.\n18. **Use open-ended questions**: This encourages detailed responses.\n19. **Ask for predictions or hypotheses**: This helps in understanding potential outcomes.\n20. **Use hypothetical scenarios**: This helps in exploring different possibilities.\n21. **Ask for pros and cons**: This helps in evaluating different options.\n22. **Use role-playing**: This helps in understanding different perspectives.\n23. **Ask for step-by-step instructions**: This helps in understanding processes.\n24. **Use visual aids or diagrams**: This helps in explaining complex concepts.\n25. **Ask for definitions or explanations of terms**: This helps in understanding specific concepts.\n26. **Use a conversational tone**: This makes the prompt more engaging and easier to understand.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n```json\n{\n    \"prompt\": \"You will be penalized if you do not follow the instructions carefully. Ensure that your answer is unbiased and does not rely on stereotypes. Please read the following multiple-choice language learning quiz question: '{TEXT}'. Provide the letter of the correct answer. Think step by step and explain your reasoning. Use clear and specific instructions, and provide context where necessary. Use delimiters to separate different parts of the prompt. Specify the format of the output as a single letter. Provide examples of correct and incorrect responses. Ask for comparisons or contrasts if needed. Use analogies or metaphors to explain your reasoning. Summarize your final answer. Use open-ended questions to explore different possibilities. Ask for predictions or hypotheses if relevant. Use hypothetical scenarios to explore different outcomes. Evaluate the pros and cons of each option. Use role-playing to understand different perspectives. Provide step-by-step instructions for your reasoning. Use visual aids or diagrams if necessary. Define or explain any specific terms used. Maintain a conversational tone throughout your response.\"\n}\n```"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. **Clarity**: Ensure the prompt is clear and unambiguous.\n2. **Specificity**: Be specific about what you want the model to do.\n3. **Context**: Provide enough context for the model to understand the task.\n4. **Examples**: Use examples to illustrate the task.\n5. **Questions**: Frame tasks as questions when appropriate.\n6. **Instructions**: Give clear instructions on how to complete the task.\n7. **Conciseness**: Keep the prompt concise and to the point.\n8. **Relevance**: Ensure all parts of the prompt are relevant to the task.\n9. **Sequencing**: Break down complex tasks into simpler steps.\n10. **Interactive**: Make the prompt interactive if it involves multiple steps.\n11. **Natural Language**: Use natural, human-like language.\n12. **Directness**: Be direct and avoid unnecessary politeness.\n13. **Chain-of-Thought (CoT)**: Encourage the model to think step-by-step.\n14. **Few-Shot**: Provide a few examples to guide the model.\n15. **Modularity**: Make the prompt modular to handle different inputs.\n16. **Flexibility**: Allow flexibility in the model's responses.\n17. **Consistency**: Maintain consistency in the prompt structure.\n18. **Error Handling**: Anticipate and handle potential errors.\n19. **Feedback**: Provide feedback to guide the model's responses.\n20. **Iterative**: Allow for iterative refinement of the task.\n21. **Scalability**: Ensure the prompt can scale to different tasks.\n22. **Adaptability**: Adapt the prompt to different contexts.\n23. **Engagement**: Make the prompt engaging to keep the model focused.\n24. **Simplicity**: Keep the prompt simple to avoid confusion.\n25. **Precision**: Be precise in the language and instructions.\n26. **Goal-Oriented**: Ensure the prompt is oriented towards achieving a specific goal.",
+    "step2": "###Instruction###\nAnswer a question given in a natural, human-like manner.\n\n###Question###\nWhat is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer.\n\n###Example###\nQuestion: What is the capital of France?\nA) Berlin\nB) Madrid\nC) Paris\nD) Rome\n\nCorrect Answer: C\n\nQuestion: Which of the following is a fruit?\nA) Carrot\nB) Apple\nC) Potato\nD) Lettuce\n\nCorrect Answer: B\n\n###Context###\nYou are given a multiple-choice question related to language learning. Your task is to identify the correct answer from the given options and provide the letter corresponding to the correct answer.\n\n###Input Data###\n'{TEXT}'"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Integrate the intended audience in the prompt: Ensure the audience’s level of expertise is considered to tailor the complexity and style of the response.\n\n2. Use the phrase 'Answer a question given in a natural, human-like manner': This instructs the model to generate responses that mimic human communication, making them more relatable and understandable.\n\n3. Break down the complex tasks into a sequence of simpler prompts in an interactive conversation: Provide step-by-step instructions to simplify complex tasks and improve clarity.\n\n4. Use Delimiters: Clearly separate sections of the prompt to avoid ambiguity and ensure the model understands each part distinctly.\n\n5. When formatting your prompt, start with '###Instruction###', followed by either '###Example###' or '###Question###' if relevant: This structured format helps maintain consistency and clarity.\n\n6. Contextualize the problem: Provide background information or relevant details to help the model understand the scenario.\n\n7. Ask for justification: Request the model to explain its reasoning, enhancing transparency and understanding.\n\n8. Use clear and specific instructions: Clearly define the task and expectations to avoid confusion.\n\n9. Limit the scope of the task: Narrow down the task to make it manageable and focused.\n\n10. Use examples: Provide sample inputs and outputs to set expectations and guide the model.\n\n11. Specify the desired format: Indicate the expected format of the output to ensure consistency.\n\n12. Encourage a step-by-step approach: Break down tasks into smaller steps to improve comprehension and accuracy.\n\n13. Specify the length of the response: Indicate the desired length to ensure completeness without verbosity.\n\n14. Use neutral language: Avoid bias or leading language to maintain objectivity.\n\n15. Clarify complex terms: Define any technical or domain-specific terminology to ensure understanding.\n\n16. Allow for interactive refinement: Design prompts to enable follow-up questions and iterative improvement.\n\n17. Provide constraints: Set boundaries to guide the model’s response and encourage creativity within limits.\n\n18. Emphasize important points: Highlight key aspects to ensure they are addressed in the response.\n\n19. Use feedback loops: Incorporate mechanisms for reviewing and improving responses based on feedback.\n\n20. Encourage problem-solving: Frame prompts to stimulate analytical thinking and problem-solving skills.\n\n21. Prompt for multiple perspectives: Ask the model to consider various viewpoints to enrich the response.\n\n22. Use time-bound prompts: Set temporal boundaries to focus on recent or relevant information.\n\n23. Incorporate visual elements: Use diagrams or visual aids if applicable to enhance understanding.\n\n24. Test and iterate: Continuously refine prompts based on feedback and performance.\n\n25. Customize prompts for the model’s strengths: Tailor prompts to leverage the specific capabilities of the model being used.\n\n26. Ensure ethical considerations: Maintain ethical guidelines in data privacy, bias, and responsible AI use.\n\n",
+    "step2": "###Instruction###\nAnswer a question given in a natural, human-like manner.\n\n###Question###\nWhat is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer.\n\n###Context###\nThe audience consists of language learning experts.\n\n###Input###\n'{TEXT}'\n\n###Constraints###\nThe response should be concise and directly provide the letter of the correct answer.\n\n###Output Format###\nReturn only the letter of the correct answer.\n\n###Delimiters###\n###\n---\n***"
+}
+Error: '\n    "role"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. **Clarify the Objective:** Clearly state the purpose of the prompt to ensure that the model understands the goal. \n2. **Role Assignment:** Assign a specific role to the model to give it a clear perspective from which to generate responses. \n3. **Iterative Refinement:** Allow for iterative questioning to refine the prompt and gather all necessary details. \n4. **Few-Shot Prompting:** Provide examples to guide the model's response style and content. \n5. **Use Affirmative Directives:** Frame instructions with positive language to avoid confusion. \n6. **Detail-Oriented Instructions:** Include specific details to guide the model's output. \n7. **Use Constraints:** Set limits or constraints to focus the model's output. \n8. **Sequence Clarity:** Ensure the steps or sequence in the prompt are clear and logical. \n9. **Specify Format:** Clearly specify the desired format of the output. \n10. **Contextual Information:** Provide relevant context to enhance the model's understanding. \n11. **Avoid Ambiguity:** Write clear and unambiguous instructions to ensure precise responses. \n12. **Use of Variables:** Use placeholders for dynamic inputs to make the prompt adaptable. \n13. **Output Verification:** Encourage the model to verify its output against the provided instructions. \n14. **Model Capabilities:** Leverage the model's known strengths to tailor the prompt. \n15. **Encourage Creativity:** Allow room for creativity within the bounds of the task. \n16. **Feedback Loop:** Include mechanisms for feedback to iteratively improve the prompt. \n17. **Prompt Structure:** Organize the prompt's structure logically for ease of processing. \n18. **Use of Examples:** Use examples to illustrate the desired response. \n19. **Simplify Complex Tasks:** Break down complex tasks into simpler, manageable parts. \n20. **Avoid Overloading:** Avoid giving too much information in one go. \n21. **Emphasize Key Elements:** Highlight important aspects of the task. \n22. **Guided Exploration:** Guide the model through the task with step-by-step instructions. \n23. **Balanced Directives:** Balance specificity and flexibility in instructions. \n24. **Consistency in Language:** Maintain consistent terminology throughout the prompt. \n25. **Realistic Scenarios:** Use realistic scenarios to make the task relatable. \n26. **Positivity and Encouragement:** Maintain a positive and encouraging tone to foster better responses.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n```json\n{\n    \"role\": \"You are an experienced language quiz tutor.\",\n    \"objective\": \"Your task is to determine the correct answer to a given multiple-choice language learning quiz question.\",\n    \"instructions\": [\n        \"Ask clarifying questions if needed to gather more details about the quiz question.\",\n        \"Ensure your response includes the letter of the correct answer.\",\n        \"Provide any necessary reasoning to support your choice.\",\n        \"Follow the same language and format based on the given sample.\",\n        \"Use specific examples if they can help clarify your answer.\"\n    ],\n    \"example\": [\n        \"Question: 'What is the synonym of 'happy'? A) Sad B) Joyful C) Angry D) Tired'\n        \"Response: 'The correct answer is B) Joyful because it is a synonym of 'happy'.'\"\n    ],\n    \"quiz_question\": \"{TEXT}\"\n}\n```"
+}
+Error: '\n    "prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Integrate the intended audience in the prompt: Specify who the audience is, e.g., experts, beginners, etc., to tailor the response accordingly.\n2. Add to your prompt the following phrase 'Ensure that your answer is unbiased and does not rely on stereotypes': This ensures the response is fair and free from prejudice.\n3. When you want to initiate or continue a text using specific words, phrases, or sentences, utilize the following prompt: This helps in maintaining a consistent flow based on the given input.\n4. Use the phrase 'Answer a question given in a natural, human-like manner' in your prompts: This ensures the response is relatable and easy to understand.\n5. To write any text, such as an essay or paragraph, that is intended to be similar to a provided sample, include the following instructions: This helps in mimicking the style and tone of the provided sample.\n6. Specify the format in which the answer should be delivered: This ensures the response is structured as required.\n7. Clarify the context or background of the question: Provides better understanding and relevance.\n8. Ask for a detailed explanation if the answer is complex: Ensures clarity and depth.\n9. Request examples to illustrate points: Enhances understanding through practical illustrations.\n10. Encourage critical thinking by asking for pros and cons: Provides a balanced view.\n11. Specify the length of the response: Controls the depth and breadth of the answer.\n12. Ask for a summary if the response is long: Ensures key points are highlighted.\n13. Request the response to be in simple language if the audience is not expert: Ensures accessibility.\n14. Ask for references or sources if the information is factual: Ensures credibility.\n15. Encourage creativity if the task is open-ended: Promotes innovation.\n16. Ask for step-by-step instructions if the task involves procedures: Ensures clarity and ease of following.\n17. Specify the tone of the response (formal, informal, etc.): Ensures appropriateness.\n18. Ask for alternative viewpoints or solutions: Promotes comprehensive understanding.\n19. Request a comparison if relevant: Enhances understanding through contrasts.\n20. Ask for potential implications or consequences: Provides foresight.\n21. Specify any constraints or limitations: Ensures relevance and feasibility.\n22. Ask for historical context if relevant: Provides background and depth.\n23. Request for future predictions if relevant: Provides foresight and planning.\n24. Ask for clarification if the question is ambiguous: Ensures accuracy.\n25. Encourage the use of visuals if applicable: Enhances understanding through visual aids.\n26. Ask for a personal opinion if relevant: Adds a human touch.\n",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n{\n    \"prompt\": \"What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer. Ensure that your answer is unbiased and does not rely on stereotypes. Answer the question given in a natural, human-like manner. If the question is complex, provide a detailed explanation.\"\n}"
+}
+Error: 
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. **Instruction Formatting**: Start prompts with '###Instruction###' and follow with '###Example###' or '###Question###' if relevant. This ensures clarity and structure.\n2. **Simplification**: Break down complex tasks into simpler steps. This makes tasks more manageable and understandable.\n3. **Interactive Learning**: Use a phrase to request teaching on a topic and include a test without answers. This promotes active learning and self-assessment.\n4. **Imitation**: When writing text similar to a provided sample, instruct to use the same language style. This ensures consistency in tone and style.\n5. **Repetition**: Repeat a specific word or phrase multiple times within a prompt to emphasize importance or focus.\n6. **Contextual Clarity**: Provide clear context to avoid ambiguity. This helps in understanding the task better.\n7. **Sequential Instructions**: Give instructions in a logical sequence. This aids in following the steps easily.\n8. **Specificity**: Be specific in instructions to avoid confusion. This ensures the task is understood correctly.\n9. **Conciseness**: Keep prompts concise to maintain focus and clarity. This avoids unnecessary complexity.\n10. **Relevance**: Ensure all parts of the prompt are relevant to the task. This avoids distractions.\n11. **Engagement**: Make prompts engaging to maintain interest. This encourages active participation.\n12. **Feedback Mechanism**: Include a way to provide feedback. This helps in improving understanding.\n13. **Iterative Refinement**: Allow for iterative refinement of prompts. This helps in improving the prompt based on feedback.\n14. **Error Handling**: Include instructions for handling errors. This ensures smooth task execution.\n15. **Examples**: Provide examples to illustrate instructions. This aids in understanding.\n16. **Testing Understanding**: Include tests to check understanding. This ensures the task is comprehended correctly.\n17. **Clarity in Questions**: Ensure questions are clear and unambiguous. This avoids confusion.\n18. **Consistent Formatting**: Use consistent formatting for instructions and examples. This aids in readability.\n19. **Highlighting Key Points**: Highlight key points in the prompt. This ensures important information is noticed.\n20. **Logical Flow**: Ensure a logical flow in the prompt. This aids in following the instructions easily.\n21. **User-Friendly Language**: Use user-friendly language to ensure the prompt is easily understood. This avoids confusion.\n22. **Avoiding Jargon**: Avoid jargon to ensure clarity. This makes the prompt accessible to everyone.\n23. **Encouraging Exploration**: Encourage exploration and curiosity. This promotes active learning.\n24. **Providing Resources**: Include resources or references if needed. This aids in understanding.\n25. **Clear Objectives**: State clear objectives for the task. This ensures the task is understood correctly.\n26. **Flexibility**: Allow for flexibility in responses. This encourages creativity and exploration.",
+    "step2": "###Instruction###\n\nPlease follow the instructions below to determine the correct answer to a multiple-choice language learning quiz question.\n\n###Question###\n\nWhat is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer.\n\n###Example###\n\nFor example, if the question is 'What is the capital of France? A) Berlin B) Madrid C) Paris D) Rome', the correct answer would be 'C'.\n\n###Context###\n\nYou will be given a multiple-choice question related to language learning. Your task is to analyze the question and determine the correct answer based on your knowledge.\n\n###Input Data###\n\n'{TEXT}'\n\n###Output###\n\nProvide the letter of the correct answer."
+}
+Error: '\n    "prompt"'
+Response: {
+    "step1": "Here is the analysis and explanation for each of the 26 prompting principles:\n\n1. Incorporate the following phrases: \"You will be penalized\" - This principle ensures that the model understands the consequences of not following the instructions.\n2. Allow the model to elicit precise details and requirements from you by asking you questions until he has enough information to provide the needed output - This principle encourages the model to ask clarifying questions to gather all necessary information.\n3. When you have a complex coding prompt that may be in different files: \"From now and on whenever you generate code that spans more than one file, generate a [programming language] script that can be run to automatically create the specified files or make changes to existing files to insert the generated code. [your question]\" - This principle ensures that the model generates a script to handle multi-file code generation.\n4. When you want to initiate or continue a text using specific words, phrases, or sentences, utilize the following prompt: - This principle helps in continuing a text with a given starting point.\n5. To write any text, such as an essay or paragraph, that is intended to be similar to a provided sample, include the following instructions: - This principle ensures that the generated text matches the style of a provided sample.\n6. Use clear and concise language - This principle emphasizes the importance of clarity and brevity in prompts.\n7. Specify the format of the output - This principle ensures that the model's output is in the desired format.\n8. Provide examples of the desired output - This principle helps the model understand the expected output by providing examples.\n9. Use bullet points or numbered lists for clarity - This principle improves the readability of the prompt.\n10. Ask the model to explain its reasoning - This principle encourages the model to provide explanations for its answers.\n11. Use open-ended questions to encourage detailed responses - This principle helps in eliciting more comprehensive answers from the model.\n12. Specify the tone or style of the response - This principle ensures that the model's response matches the desired tone or style.\n13. Provide context or background information - This principle helps the model understand the context of the prompt.\n14. Use placeholders for variable content - This principle allows for flexibility in the prompt by using placeholders for variable content.\n15. Ask the model to summarize its response - This principle encourages the model to provide a concise summary of its answer.\n16. Use conditional statements to guide the model's response - This principle helps in directing the model's response based on certain conditions.\n17. Specify the length of the response - This principle ensures that the model's response is of the desired length.\n18. Use positive reinforcement to encourage desired behavior - This principle helps in encouraging the model to follow the instructions.\n19. Ask the model to provide multiple options or solutions - This principle encourages the model to generate multiple possible answers.\n20. Use specific and unambiguous language - This principle helps in avoiding misunderstandings by using clear and specific language.\n21. Ask the model to verify its response - This principle encourages the model to double-check its answer.\n22. Provide feedback on the model's response - This principle helps in improving the model's performance by providing feedback.\n23. Use analogies or metaphors to clarify complex concepts - This principle helps in explaining complex ideas using simpler comparisons.\n24. Ask the model to provide references or sources - This principle encourages the model to back up its answers with references.\n25. Use a step-by-step approach to guide the model - This principle helps in breaking down complex tasks into simpler steps.\n26. Encourage the model to think critically - This principle helps in promoting critical thinking in the model's responses.",
+    "step2": "Here is the prompt created using the 26 prompting principles:\n\n{\n    \"prompt\": \"You will be penalized if you do not follow the instructions. From now on, I would like you to ask me questions to elicit precise details and requirements until you have enough information to provide the needed output. Please use the same language based on the provided paragraph. What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer.\"\n}"
+}
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'No.', 'No.', 'No.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'No.', 'No.', 'Yes.', 'Yes.']
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 9 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 9 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 9 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 9 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 9 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 9 seconds.'}}
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 3 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-2.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-3.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-4.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-8.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-9.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+Rate Limit Error: on endpoint https://gsl-azoai-1.openai.azure.com/
+Error code: 429 - {'error': {'code': '429', 'message': 'Rate limit is exceeded. Try again in 1 seconds.'}}
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'No.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+Max score reached. Exiting...
+Current Best score: 100.0
+Current Best prompt: You will be penalized for incorrect formatting. Write a detailed answer for me on the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'. Provide the letter of the correct answer. Use delimiters to clearly separate each part of the question. Think step-by-step and include necessary details. Start your response with 'The correct answer is'.
+
+
+Calculating Test Scores...
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+['Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.', 'Yes.']
+Printing Test Scores:
+Initial Prompt Score: {"What is the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'? Provide the letter of the correct answer.": 100.0}
+Optimized Prompt Score: {"You will be penalized for incorrect formatting. Write a detailed answer for me on the correct answer to the following multiple-choice language learning quiz question: '{TEXT}'. Provide the letter of the correct answer. Use delimiters to clearly separate each part of the question. Think step-by-step and include necessary details. Start your response with 'The correct answer is'.": 100.0}
